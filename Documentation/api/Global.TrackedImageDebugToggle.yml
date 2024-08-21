@@ -1,0 +1,191 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TrackedImageDebugToggle
+  commentId: T:Global.TrackedImageDebugToggle
+  id: TrackedImageDebugToggle
+  parent: Global
+  children:
+  - Global.TrackedImageDebugToggle.debugColorTint
+  - Global.TrackedImageDebugToggle.debugRenderer
+  - Global.TrackedImageDebugToggle.defaultColorTint
+  - Global.TrackedImageDebugToggle.OnToggleDebug(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: TrackedImageDebugToggle
+  nameWithType: TrackedImageDebugToggle
+  fullName: TrackedImageDebugToggle
+  type: Class
+  source:
+    id: TrackedImageDebugToggle
+    path: ''
+    startLine: 25493
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TrackedImageDebugToggle : MonoBehaviour'
+    content.vb: >-
+      Public Class TrackedImageDebugToggle
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TrackedImageDebugToggle.debugRenderer
+  commentId: F:Global.TrackedImageDebugToggle.debugRenderer
+  id: debugRenderer
+  parent: Global.TrackedImageDebugToggle
+  langs:
+  - csharp
+  - vb
+  name: debugRenderer
+  nameWithType: TrackedImageDebugToggle.debugRenderer
+  fullName: TrackedImageDebugToggle.debugRenderer
+  type: Field
+  source:
+    id: debugRenderer
+    path: ''
+    startLine: 25495
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Renderer debugRenderer
+    return:
+      type: Global.Renderer
+    content.vb: Public debugRenderer As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TrackedImageDebugToggle.debugColorTint
+  commentId: F:Global.TrackedImageDebugToggle.debugColorTint
+  id: debugColorTint
+  parent: Global.TrackedImageDebugToggle
+  langs:
+  - csharp
+  - vb
+  name: debugColorTint
+  nameWithType: TrackedImageDebugToggle.debugColorTint
+  fullName: TrackedImageDebugToggle.debugColorTint
+  type: Field
+  source:
+    id: debugColorTint
+    path: ''
+    startLine: 25496
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color debugColorTint
+    return:
+      type: Global.Color
+    content.vb: Public debugColorTint As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TrackedImageDebugToggle.defaultColorTint
+  commentId: F:Global.TrackedImageDebugToggle.defaultColorTint
+  id: defaultColorTint
+  parent: Global.TrackedImageDebugToggle
+  langs:
+  - csharp
+  - vb
+  name: defaultColorTint
+  nameWithType: TrackedImageDebugToggle.defaultColorTint
+  fullName: TrackedImageDebugToggle.defaultColorTint
+  type: Field
+  source:
+    id: defaultColorTint
+    path: ''
+    startLine: 25497
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Color defaultColorTint
+    return:
+      type: Global.Color
+    content.vb: Public defaultColorTint As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TrackedImageDebugToggle.OnToggleDebug(System.Boolean)
+  commentId: M:Global.TrackedImageDebugToggle.OnToggleDebug(System.Boolean)
+  id: OnToggleDebug(System.Boolean)
+  parent: Global.TrackedImageDebugToggle
+  langs:
+  - csharp
+  - vb
+  name: OnToggleDebug(Boolean)
+  nameWithType: TrackedImageDebugToggle.OnToggleDebug(Boolean)
+  fullName: TrackedImageDebugToggle.OnToggleDebug(System.Boolean)
+  type: Method
+  source:
+    id: OnToggleDebug
+    path: ''
+    startLine: 25515
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnToggleDebug(bool debug)
+    parameters:
+    - id: debug
+      type: System.Boolean
+    content.vb: Public Sub OnToggleDebug(debug As Boolean)
+  overload: Global.TrackedImageDebugToggle.OnToggleDebug*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Renderer
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: Global.TrackedImageDebugToggle.OnToggleDebug*
+  commentId: Overload:Global.TrackedImageDebugToggle.OnToggleDebug
+  name: OnToggleDebug
+  nameWithType: TrackedImageDebugToggle.OnToggleDebug
+  fullName: TrackedImageDebugToggle.OnToggleDebug
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

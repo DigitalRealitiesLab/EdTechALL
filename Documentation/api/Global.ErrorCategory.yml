@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ErrorCategory
+  commentId: T:Global.ErrorCategory
+  id: ErrorCategory
+  parent: Global
+  children:
+  - Global.ErrorCategory.Fatal
+  - Global.ErrorCategory.Info
+  - Global.ErrorCategory.Warning
+  langs:
+  - csharp
+  - vb
+  name: ErrorCategory
+  nameWithType: ErrorCategory
+  fullName: ErrorCategory
+  type: Enum
+  source:
+    id: ErrorCategory
+    path: ''
+    startLine: 20836
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum ErrorCategory
+    content.vb: Public Enum ErrorCategory
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.ErrorCategory.Fatal
+  commentId: F:Global.ErrorCategory.Fatal
+  id: Fatal
+  parent: Global.ErrorCategory
+  langs:
+  - csharp
+  - vb
+  name: Fatal
+  nameWithType: ErrorCategory.Fatal
+  fullName: ErrorCategory.Fatal
+  type: Field
+  source:
+    id: Fatal
+    path: ''
+    startLine: 20838
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Fatal = 0
+    return:
+      type: Global.ErrorCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.ErrorCategory.Warning
+  commentId: F:Global.ErrorCategory.Warning
+  id: Warning
+  parent: Global.ErrorCategory
+  langs:
+  - csharp
+  - vb
+  name: Warning
+  nameWithType: ErrorCategory.Warning
+  fullName: ErrorCategory.Warning
+  type: Field
+  source:
+    id: Warning
+    path: ''
+    startLine: 20839
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Warning = 1
+    return:
+      type: Global.ErrorCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.ErrorCategory.Info
+  commentId: F:Global.ErrorCategory.Info
+  id: Info
+  parent: Global.ErrorCategory
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: ErrorCategory.Info
+  fullName: ErrorCategory.Info
+  type: Field
+  source:
+    id: Info
+    path: ''
+    startLine: 20840
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Info = 2
+    return:
+      type: Global.ErrorCategory
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.ErrorCategory
+  commentId: T:Global.ErrorCategory
+  name: ErrorCategory
+  nameWithType: ErrorCategory
+  fullName: ErrorCategory

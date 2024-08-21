@@ -1,0 +1,41 @@
+Creative Commons Attribution Share Alike 3.0 License
+(https://creativecommons.org/licenses/by-sa/3.0/)
+- applies to the images and data found at the following sources and all
+  derivative works of them used in this project:
+    https://commons.wikimedia.org/wiki/File:Reliefkarte_Salzburg.png
+      Author: Tschubby
+      Title: Reliefkarte Salzburg
+    https://commons.wikimedia.org/wiki/File:Austria_Salzburg_relief_location_map.svg
+      Author: NordNordWest
+      Title: Location map of Salzburg, Austria
+
+Creative Commons Attribution 4.0 International Public License
+(https://creativecommons.org/licenses/by/4.0/)
+- applies to the images and data found at the following sources and all
+  derivative works of them used in this project:
+    https://service.salzburg.gv.at/ogd/client/showDetail/e8e930e6-dac4-4d1b-8463-6c466f3a7b62
+      Author: OGD Salzburg : „Datenquelle: Land Salzburg – data.salzburg.gv.at“
+      Title: Schummerung DGM 1 m Land Salzburg
+    https://service.salzburg.gv.at/ogd/client/showDetail/3d9514ef-7f1e-47f9-a9bd-e6bc2ce4af58
+      Author: OGD Salzburg : „Datenquelle: Land Salzburg – data.salzburg.gv.at“
+      Title: Verwaltungsgrenzen (VGD) - Stichtagsdaten Land Salzburg
+    https://service.salzburg.gv.at/ogd/client/showDetail/101d1af5-8fa9-4373-91bb-3007cfd301d6
+      Author: OGD Salzburg : „Datenquelle: Land Salzburg – data.salzburg.gv.at“
+      Title: Landschaftsräume Land Salzburg
+    https://service.salzburg.gv.at/ogd/client/showDetail/d9ca9622-5be5-444a-b6f3-1beb6d11b755
+      Author: OGD Salzburg : „Datenquelle: Land Salzburg – data.salzburg.gv.at“
+      Title: Waldflächen aus Orthofotos Land Salzburg
+    https://service.salzburg.gv.at/ogd/client/showDetail/ea68ecc1-b0bb-4911-ad81-fe6e0112a0ed
+      Author: OGD Salzburg : „Datenquelle: Land Salzburg – data.salzburg.gv.at“
+      Title: Gewässernetz Land Salzburg
+
+Creative Commons Attribution No Derivatives 4.0 International Public License
+(https://creativecommons.org/licenses/by-nd/4.0/)
+- applies to databases, images, tables, text, and any other objects created by
+  Fachhochschule Salzburg GmbH and their associates:
+    Animation videos and images describing the machinery of a dairy plant
+      Author: Lena Lamberger
+    Videos and photos describing the application and interactions with it
+      Author: Pascal Hurlbrink
+    3D Models and Textures for different parts of a farm
+      Author: Marco Mairer

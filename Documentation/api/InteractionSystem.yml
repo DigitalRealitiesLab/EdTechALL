@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  id: InteractionSystem
+  children:
+  - InteractionSystem.HoverController
+  - InteractionSystem.IHoverable
+  - InteractionSystem.IInteractable
+  - InteractionSystem.Raycaster
+  - InteractionSystem.SelectionController
+  - InteractionSystem.Sensable
+  langs:
+  - csharp
+  - vb
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: InteractionSystem.Raycaster
+  commentId: T:InteractionSystem.Raycaster
+  name: Raycaster
+  nameWithType: Raycaster
+  fullName: InteractionSystem.Raycaster
+- uid: InteractionSystem.HoverController
+  commentId: T:InteractionSystem.HoverController
+  name: HoverController
+  nameWithType: HoverController
+  fullName: InteractionSystem.HoverController
+- uid: InteractionSystem.SelectionController
+  commentId: T:InteractionSystem.SelectionController
+  name: SelectionController
+  nameWithType: SelectionController
+  fullName: InteractionSystem.SelectionController
+- uid: InteractionSystem.Sensable
+  commentId: T:InteractionSystem.Sensable
+  parent: InteractionSystem
+  name: Sensable
+  nameWithType: Sensable
+  fullName: InteractionSystem.Sensable
+- uid: InteractionSystem.IInteractable
+  commentId: T:InteractionSystem.IInteractable
+  parent: InteractionSystem
+  name: IInteractable
+  nameWithType: IInteractable
+  fullName: InteractionSystem.IInteractable
+- uid: InteractionSystem.IHoverable
+  commentId: T:InteractionSystem.IHoverable
+  parent: InteractionSystem
+  name: IHoverable
+  nameWithType: IHoverable
+  fullName: InteractionSystem.IHoverable
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem

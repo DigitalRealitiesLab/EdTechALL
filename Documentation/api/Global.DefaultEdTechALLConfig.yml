@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DefaultEdTechALLConfig
+  commentId: T:Global.DefaultEdTechALLConfig
+  id: DefaultEdTechALLConfig
+  parent: Global
+  children:
+  - Global.DefaultEdTechALLConfig.defaultImageLibrary
+  - Global.DefaultEdTechALLConfig.defaultTextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: DefaultEdTechALLConfig
+  nameWithType: DefaultEdTechALLConfig
+  fullName: DefaultEdTechALLConfig
+  type: Class
+  source:
+    id: DefaultEdTechALLConfig
+    path: ''
+    startLine: 20484
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class DefaultEdTechALLConfig : MonoBehaviour'
+    content.vb: >-
+      Public Class DefaultEdTechALLConfig
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DefaultEdTechALLConfig.defaultImageLibrary
+  commentId: F:Global.DefaultEdTechALLConfig.defaultImageLibrary
+  id: defaultImageLibrary
+  parent: Global.DefaultEdTechALLConfig
+  langs:
+  - csharp
+  - vb
+  name: defaultImageLibrary
+  nameWithType: DefaultEdTechALLConfig.defaultImageLibrary
+  fullName: DefaultEdTechALLConfig.defaultImageLibrary
+  type: Field
+  source:
+    id: defaultImageLibrary
+    path: ''
+    startLine: 20487
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public XRReferenceImageLibrary defaultImageLibrary
+    return:
+      type: Global.XRReferenceImageLibrary
+    content.vb: Public defaultImageLibrary As XRReferenceImageLibrary
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DefaultEdTechALLConfig.defaultTextureToPrefabMapper
+  commentId: F:Global.DefaultEdTechALLConfig.defaultTextureToPrefabMapper
+  id: defaultTextureToPrefabMapper
+  parent: Global.DefaultEdTechALLConfig
+  langs:
+  - csharp
+  - vb
+  name: defaultTextureToPrefabMapper
+  nameWithType: DefaultEdTechALLConfig.defaultTextureToPrefabMapper
+  fullName: DefaultEdTechALLConfig.defaultTextureToPrefabMapper
+  type: Field
+  source:
+    id: defaultTextureToPrefabMapper
+    path: ''
+    startLine: 20488
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextureToPrefabMapper defaultTextureToPrefabMapper
+    return:
+      type: Global.TextureToPrefabMapper
+    content.vb: Public defaultTextureToPrefabMapper As TextureToPrefabMapper
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.XRReferenceImageLibrary
+  commentId: '!:Global.XRReferenceImageLibrary'
+  isExternal: true
+  name: XRReferenceImageLibrary
+  nameWithType: XRReferenceImageLibrary
+  fullName: XRReferenceImageLibrary
+- uid: Global.TextureToPrefabMapper
+  commentId: T:Global.TextureToPrefabMapper
+  name: TextureToPrefabMapper
+  nameWithType: TextureToPrefabMapper
+  fullName: TextureToPrefabMapper

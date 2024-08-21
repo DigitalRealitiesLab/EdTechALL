@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8411baf215a64ab89a0ee245097f383, type: 3}
+  m_Name: MarkerMapperMaps
+  m_EditorClassIdentifier: 
+  presets:
+  - texture: {fileID: 2800000, guid: 9edbf50f690074ccc98bfcc33c632765, type: 3}
+    displaySprite: {fileID: 21300000, guid: ce95e7820d3f8406286588e065710b30, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: 52a271fb7535f49b0b340ef6ca40cda4, type: 3}
+    name: FloorMapMarker1
+  - texture: {fileID: 2800000, guid: 45448bc9ea7fd42b6ae70f169e502d7a, type: 3}
+    displaySprite: {fileID: 21300000, guid: f78c7e5873ffe46fd8a96d60b61e1a27, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: a6b5dc82d1f0d4cbaa5fc66149e3b5cf, type: 3}
+    name: FloorMapMarker2
+  - texture: {fileID: 2800000, guid: fd54d9ab613064d20bbd5701c16d2750, type: 3}
+    displaySprite: {fileID: 21300000, guid: f5f5ee9e5332f4bd9ab4aeda9a72cbd9, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: a2cd59e53686a4eadabfc183d67950a1, type: 3}
+    name: FloorMapMarker3
+  - texture: {fileID: 2800000, guid: 8c3aef96ad9fc4fab80ef865efc0be84, type: 3}
+    displaySprite: {fileID: 21300000, guid: 333bac4b8f21e4175a562bd260a63190, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: 20cb4d20291924b55883583798ad893f, type: 3}
+    name: FloorMapMarker4
+  - texture: {fileID: 2800000, guid: 6a80156f7d92149c8b00f99912bbd028, type: 3}
+    displaySprite: {fileID: 21300000, guid: 34c78ba9fac094bc5ab6e6842759af24, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: 2c86808df2dc44fe5b1edf95d7df843e, type: 3}
+    name: FloorMapMarker5
+  - texture: {fileID: 2800000, guid: f714f625a8e2a45dbaa6a60968bd1fc0, type: 3}
+    displaySprite: {fileID: 21300000, guid: ab177ac2b6c2f4bfe91d9c67aafd2e69, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: dc807ed75b3834cc4ba3cb2090e6c720, type: 3}
+    name: FloorMapMarker6
+  - texture: {fileID: 2800000, guid: 5821b9c2e5ec547e9b0359b33364bd25, type: 3}
+    displaySprite: {fileID: 21300000, guid: c9e0653d4e2d04c9a9a70c8935a5406e, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: 2c56e411d624b4d6bb2646292a07eb22, type: 3}
+    name: FloorMapMarker7
+  - texture: {fileID: 2800000, guid: c9074ea0660b3476e8f6b7ae4edcf3ee, type: 3}
+    displaySprite: {fileID: 21300000, guid: 5a440f36716df47fe9b0b39adc8c8567, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: bfed1ccdc4d88434f9aa17edff2329d7, type: 3}
+    name: FloorMapMarker8
+  - texture: {fileID: 2800000, guid: c13bbe90a680946a5902b52fc98ee70f, type: 3}
+    displaySprite: {fileID: 21300000, guid: 7e91bddde81aa43209a388cbea435d14, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: 84de4cc7ba918485d874f5f59a47d258, type: 3}
+    name: FloorMapMarker9
+  - texture: {fileID: 2800000, guid: f9978ae8dbe8b449aa09927049a1d211, type: 3}
+    displaySprite: {fileID: 21300000, guid: 9327a1a397d684d6b885321885a75cab, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: 59b9513d419eb45b88f92adaab1c744f, type: 3}
+    name: HandMapMarker1
+  - texture: {fileID: 2800000, guid: c573b54a1cc0b46f6ab3628289b84501, type: 3}
+    displaySprite: {fileID: 21300000, guid: f26c51cca1f9c4df6b079c2a2312de20, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: c8bfe3d57f6ec4334acde815f6f2c356, type: 3}
+    name: HandMapMarker2
+  - texture: {fileID: 2800000, guid: 14785c04e2a9c400cb6c2006b3cbdc67, type: 3}
+    displaySprite: {fileID: 21300000, guid: 725817a38a2dd4dd285844c87a2d3a15, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: 1609baa2d4bd74dcb87f698063ebaa98, type: 3}
+    name: HandMapMarker3
+  - texture: {fileID: 2800000, guid: dac5fdede2120468ab24c2b53fe44e5c, type: 3}
+    displaySprite: {fileID: 21300000, guid: c2fdc86c278404bfa99c23c3b13b813f, type: 3}
+    prefab: {fileID: 6998750499834204922, guid: 4a1b9147e299c4078bac1d2313bcc1fb, type: 3}
+    name: HandMapMarker4

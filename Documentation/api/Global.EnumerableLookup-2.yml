@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EnumerableLookup`2
+  commentId: T:Global.EnumerableLookup`2
+  id: EnumerableLookup`2
+  parent: Global
+  children:
+  - Global.EnumerableLookup`2.lookup
+  - Global.EnumerableLookup`2.values
+  langs:
+  - csharp
+  - vb
+  name: EnumerableLookup<E, V>
+  nameWithType: EnumerableLookup<E, V>
+  fullName: EnumerableLookup<E, V>
+  type: Class
+  source:
+    id: EnumerableLookup
+    path: ''
+    startLine: 16378
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class EnumerableLookup<E, V>
+          where E : struct
+    typeParameters:
+    - id: E
+    - id: V
+    content.vb: >-
+      <Serializable>
+
+      Public Class EnumerableLookup(Of E As Structure, V)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  nameWithType.vb: EnumerableLookup(Of E, V)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: EnumerableLookup(Of E, V)
+  name.vb: EnumerableLookup(Of E, V)
+- uid: Global.EnumerableLookup`2.values
+  commentId: F:Global.EnumerableLookup`2.values
+  id: values
+  parent: Global.EnumerableLookup`2
+  langs:
+  - csharp
+  - vb
+  name: values
+  nameWithType: EnumerableLookup<E, V>.values
+  fullName: EnumerableLookup<E, V>.values
+  type: Field
+  source:
+    id: values
+    path: ''
+    startLine: 16381
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public EnumerableValue<E, V>[] values
+    return:
+      type: Global.EnumerableValue{{E},{V}}[]
+    content.vb: Public values As EnumerableValue(Of E, V)()
+  nameWithType.vb: EnumerableLookup(Of E, V).values
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: EnumerableLookup(Of E, V).values
+- uid: Global.EnumerableLookup`2.lookup
+  commentId: P:Global.EnumerableLookup`2.lookup
+  id: lookup
+  parent: Global.EnumerableLookup`2
+  langs:
+  - csharp
+  - vb
+  name: lookup
+  nameWithType: EnumerableLookup<E, V>.lookup
+  fullName: EnumerableLookup<E, V>.lookup
+  type: Property
+  source:
+    id: lookup
+    path: ''
+    startLine: 16382
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Dictionary<E, V> lookup { get; }
+    parameters: []
+    return:
+      type: Global.Dictionary{{E},{V}}
+    content.vb: Public ReadOnly Property lookup As Dictionary(Of E, V)
+  overload: Global.EnumerableLookup`2.lookup*
+  nameWithType.vb: EnumerableLookup(Of E, V).lookup
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: EnumerableLookup(Of E, V).lookup
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.EnumerableValue{{E},{V}}[]
+  isExternal: true
+  name: EnumerableValue<E, V>[]
+  nameWithType: EnumerableValue<E, V>[]
+  fullName: EnumerableValue<E, V>[]
+  nameWithType.vb: EnumerableValue(Of E, V)()
+  fullName.vb: EnumerableValue(Of E, V)()
+  name.vb: EnumerableValue(Of E, V)()
+  spec.csharp:
+  - uid: Global.EnumerableValue`2
+    name: EnumerableValue
+    nameWithType: EnumerableValue
+    fullName: EnumerableValue
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.EnumerableValue`2
+    name: EnumerableValue
+    nameWithType: EnumerableValue
+    fullName: EnumerableValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.EnumerableLookup`2.lookup*
+  commentId: Overload:Global.EnumerableLookup`2.lookup
+  name: lookup
+  nameWithType: EnumerableLookup<E, V>.lookup
+  fullName: EnumerableLookup<E, V>.lookup
+  nameWithType.vb: EnumerableLookup(Of E, V).lookup
+  fullName.vb: EnumerableLookup(Of E, V).lookup
+- uid: Global.Dictionary{{E},{V}}
+  commentId: '!:Global.Dictionary{`0,`1}'
+  definition: Global.Dictionary`2
+  name: Dictionary<E, V>
+  nameWithType: Dictionary<E, V>
+  fullName: Dictionary<E, V>
+  nameWithType.vb: Dictionary(Of E, V)
+  fullName.vb: Dictionary(Of E, V)
+  name.vb: Dictionary(Of E, V)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

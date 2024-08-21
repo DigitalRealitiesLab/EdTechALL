@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: GuidanceSystem.AGuidanceSystemTarget
+  commentId: T:GuidanceSystem.AGuidanceSystemTarget
+  id: AGuidanceSystemTarget
+  parent: GuidanceSystem
+  children:
+  - GuidanceSystem.AGuidanceSystemTarget.bounds
+  - GuidanceSystem.AGuidanceSystemTarget.HighlightTarget(System.Boolean)
+  - GuidanceSystem.AGuidanceSystemTarget.highlightWithRandomOffset
+  - GuidanceSystem.AGuidanceSystemTarget.requireHighlightAreaText
+  langs:
+  - csharp
+  - vb
+  name: AGuidanceSystemTarget
+  nameWithType: AGuidanceSystemTarget
+  fullName: GuidanceSystem.AGuidanceSystemTarget
+  type: Class
+  source:
+    id: AGuidanceSystemTarget
+    path: ''
+    startLine: 19383
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: 'public abstract class AGuidanceSystemTarget : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AGuidanceSystemTarget
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: GuidanceSystem.AGuidanceSystemTarget.bounds
+  commentId: P:GuidanceSystem.AGuidanceSystemTarget.bounds
+  id: bounds
+  parent: GuidanceSystem.AGuidanceSystemTarget
+  langs:
+  - csharp
+  - vb
+  name: bounds
+  nameWithType: AGuidanceSystemTarget.bounds
+  fullName: GuidanceSystem.AGuidanceSystemTarget.bounds
+  type: Property
+  source:
+    id: bounds
+    path: ''
+    startLine: 19385
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public abstract Bounds bounds { get; }
+    parameters: []
+    return:
+      type: Global.Bounds
+    content.vb: Public MustOverride ReadOnly Property bounds As Bounds
+  overload: GuidanceSystem.AGuidanceSystemTarget.bounds*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: GuidanceSystem.AGuidanceSystemTarget.HighlightTarget(System.Boolean)
+  commentId: M:GuidanceSystem.AGuidanceSystemTarget.HighlightTarget(System.Boolean)
+  id: HighlightTarget(System.Boolean)
+  parent: GuidanceSystem.AGuidanceSystemTarget
+  langs:
+  - csharp
+  - vb
+  name: HighlightTarget(Boolean)
+  nameWithType: AGuidanceSystemTarget.HighlightTarget(Boolean)
+  fullName: GuidanceSystem.AGuidanceSystemTarget.HighlightTarget(System.Boolean)
+  type: Method
+  source:
+    id: HighlightTarget
+    path: ''
+    startLine: 19386
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public abstract void HighlightTarget(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public MustOverride Sub HighlightTarget(enabled As Boolean)
+  overload: GuidanceSystem.AGuidanceSystemTarget.HighlightTarget*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: GuidanceSystem.AGuidanceSystemTarget.requireHighlightAreaText
+  commentId: P:GuidanceSystem.AGuidanceSystemTarget.requireHighlightAreaText
+  id: requireHighlightAreaText
+  parent: GuidanceSystem.AGuidanceSystemTarget
+  langs:
+  - csharp
+  - vb
+  name: requireHighlightAreaText
+  nameWithType: AGuidanceSystemTarget.requireHighlightAreaText
+  fullName: GuidanceSystem.AGuidanceSystemTarget.requireHighlightAreaText
+  type: Property
+  source:
+    id: requireHighlightAreaText
+    path: ''
+    startLine: 19387
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public abstract bool requireHighlightAreaText { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public MustOverride ReadOnly Property requireHighlightAreaText As Boolean
+  overload: GuidanceSystem.AGuidanceSystemTarget.requireHighlightAreaText*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: GuidanceSystem.AGuidanceSystemTarget.highlightWithRandomOffset
+  commentId: F:GuidanceSystem.AGuidanceSystemTarget.highlightWithRandomOffset
+  id: highlightWithRandomOffset
+  parent: GuidanceSystem.AGuidanceSystemTarget
+  langs:
+  - csharp
+  - vb
+  name: highlightWithRandomOffset
+  nameWithType: AGuidanceSystemTarget.highlightWithRandomOffset
+  fullName: GuidanceSystem.AGuidanceSystemTarget.highlightWithRandomOffset
+  type: Field
+  source:
+    id: highlightWithRandomOffset
+    path: ''
+    startLine: 19388
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public bool highlightWithRandomOffset
+    return:
+      type: System.Boolean
+    content.vb: Public highlightWithRandomOffset As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GuidanceSystem
+  commentId: N:GuidanceSystem
+  name: GuidanceSystem
+  nameWithType: GuidanceSystem
+  fullName: GuidanceSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GuidanceSystem.AGuidanceSystemTarget.bounds*
+  commentId: Overload:GuidanceSystem.AGuidanceSystemTarget.bounds
+  name: bounds
+  nameWithType: AGuidanceSystemTarget.bounds
+  fullName: GuidanceSystem.AGuidanceSystemTarget.bounds
+- uid: Global.Bounds
+  isExternal: true
+  name: Bounds
+  nameWithType: Bounds
+  fullName: Bounds
+- uid: GuidanceSystem.AGuidanceSystemTarget.HighlightTarget*
+  commentId: Overload:GuidanceSystem.AGuidanceSystemTarget.HighlightTarget
+  name: HighlightTarget
+  nameWithType: AGuidanceSystemTarget.HighlightTarget
+  fullName: GuidanceSystem.AGuidanceSystemTarget.HighlightTarget
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GuidanceSystem.AGuidanceSystemTarget.requireHighlightAreaText*
+  commentId: Overload:GuidanceSystem.AGuidanceSystemTarget.requireHighlightAreaText
+  name: requireHighlightAreaText
+  nameWithType: AGuidanceSystemTarget.requireHighlightAreaText
+  fullName: GuidanceSystem.AGuidanceSystemTarget.requireHighlightAreaText

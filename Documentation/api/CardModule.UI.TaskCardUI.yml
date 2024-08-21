@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.TaskCardUI
+  commentId: T:CardModule.UI.TaskCardUI
+  id: TaskCardUI
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.TaskCardUI.taskCardData
+  - CardModule.UI.TaskCardUI.taskDescription
+  - CardModule.UI.TaskCardUI.taskHeading
+  langs:
+  - csharp
+  - vb
+  name: TaskCardUI
+  nameWithType: TaskCardUI
+  fullName: CardModule.UI.TaskCardUI
+  type: Class
+  source:
+    id: TaskCardUI
+    path: ''
+    startLine: 19735
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: 'public class TaskCardUI : MonoBehaviour'
+    content.vb: >-
+      Public Class TaskCardUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.UI.TaskCardUI.taskCardData
+  commentId: P:CardModule.UI.TaskCardUI.taskCardData
+  id: taskCardData
+  parent: CardModule.UI.TaskCardUI
+  langs:
+  - csharp
+  - vb
+  name: taskCardData
+  nameWithType: TaskCardUI.taskCardData
+  fullName: CardModule.UI.TaskCardUI.taskCardData
+  type: Property
+  source:
+    id: taskCardData
+    path: ''
+    startLine: 19738
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TaskData taskCardData { get; set; }
+    parameters: []
+    return:
+      type: Global.TaskData
+    content.vb: Public Property taskCardData As TaskData
+  overload: CardModule.UI.TaskCardUI.taskCardData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.TaskCardUI.taskHeading
+  commentId: F:CardModule.UI.TaskCardUI.taskHeading
+  id: taskHeading
+  parent: CardModule.UI.TaskCardUI
+  langs:
+  - csharp
+  - vb
+  name: taskHeading
+  nameWithType: TaskCardUI.taskHeading
+  fullName: CardModule.UI.TaskCardUI.taskHeading
+  type: Field
+  source:
+    id: taskHeading
+    path: ''
+    startLine: 19751
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TextMeshProUGUI taskHeading
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public taskHeading As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.TaskCardUI.taskDescription
+  commentId: F:CardModule.UI.TaskCardUI.taskDescription
+  id: taskDescription
+  parent: CardModule.UI.TaskCardUI
+  langs:
+  - csharp
+  - vb
+  name: taskDescription
+  nameWithType: TaskCardUI.taskDescription
+  fullName: CardModule.UI.TaskCardUI.taskDescription
+  type: Field
+  source:
+    id: taskDescription
+    path: ''
+    startLine: 19752
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TextMeshProUGUI taskDescription
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public taskDescription As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardModule.UI.TaskCardUI.taskCardData*
+  commentId: Overload:CardModule.UI.TaskCardUI.taskCardData
+  name: taskCardData
+  nameWithType: TaskCardUI.taskCardData
+  fullName: CardModule.UI.TaskCardUI.taskCardData
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI

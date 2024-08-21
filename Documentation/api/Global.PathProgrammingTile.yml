@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PathProgrammingTile
+  commentId: T:Global.PathProgrammingTile
+  id: PathProgrammingTile
+  parent: Global
+  children:
+  - Global.PathProgrammingTile.position
+  - Global.PathProgrammingTile.type
+  langs:
+  - csharp
+  - vb
+  name: PathProgrammingTile
+  nameWithType: PathProgrammingTile
+  fullName: PathProgrammingTile
+  type: Class
+  source:
+    id: PathProgrammingTile
+    path: ''
+    startLine: 15853
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PathProgrammingTile : MonoBehaviour'
+    content.vb: >-
+      Public Class PathProgrammingTile
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PathProgrammingTile.position
+  commentId: F:Global.PathProgrammingTile.position
+  id: position
+  parent: Global.PathProgrammingTile
+  langs:
+  - csharp
+  - vb
+  name: position
+  nameWithType: PathProgrammingTile.position
+  fullName: PathProgrammingTile.position
+  type: Field
+  source:
+    id: position
+    path: ''
+    startLine: 15855
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector2Int position
+    return:
+      type: Global.Vector2Int
+    content.vb: Public position As Vector2Int
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingTile.type
+  commentId: F:Global.PathProgrammingTile.type
+  id: type
+  parent: Global.PathProgrammingTile
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: PathProgrammingTile.type
+  fullName: PathProgrammingTile.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 15856
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GridTileType type
+    return:
+      type: Global.GridTileType
+    content.vb: Public type As GridTileType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Global.GridTileType
+  commentId: T:Global.GridTileType
+  name: GridTileType
+  nameWithType: GridTileType
+  fullName: GridTileType

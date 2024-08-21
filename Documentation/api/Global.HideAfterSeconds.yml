@@ -1,0 +1,199 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.HideAfterSeconds
+  commentId: T:Global.HideAfterSeconds
+  id: HideAfterSeconds
+  parent: Global
+  children:
+  - Global.HideAfterSeconds.objectsToHide
+  - Global.HideAfterSeconds.seconds
+  langs:
+  - csharp
+  - vb
+  name: HideAfterSeconds
+  nameWithType: HideAfterSeconds
+  fullName: HideAfterSeconds
+  type: Class
+  source:
+    id: HideAfterSeconds
+    path: ''
+    startLine: 16356
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class HideAfterSeconds : MonoBehaviour'
+    content.vb: >-
+      Public Class HideAfterSeconds
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.HideAfterSeconds.seconds
+  commentId: F:Global.HideAfterSeconds.seconds
+  id: seconds
+  parent: Global.HideAfterSeconds
+  langs:
+  - csharp
+  - vb
+  name: seconds
+  nameWithType: HideAfterSeconds.seconds
+  fullName: HideAfterSeconds.seconds
+  type: Field
+  source:
+    id: seconds
+    path: ''
+    startLine: 16358
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float seconds
+    return:
+      type: System.Single
+    content.vb: Public seconds As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.HideAfterSeconds.objectsToHide
+  commentId: F:Global.HideAfterSeconds.objectsToHide
+  id: objectsToHide
+  parent: Global.HideAfterSeconds
+  langs:
+  - csharp
+  - vb
+  name: objectsToHide
+  nameWithType: HideAfterSeconds.objectsToHide
+  fullName: HideAfterSeconds.objectsToHide
+  type: Field
+  source:
+    id: objectsToHide
+    path: ''
+    startLine: 16360
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> objectsToHide
+    return:
+      type: Global.List{GameObject}
+    content.vb: Public objectsToHide As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.List{GameObject}
+  commentId: '!:Global.List{GameObject}'
+  definition: Global.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

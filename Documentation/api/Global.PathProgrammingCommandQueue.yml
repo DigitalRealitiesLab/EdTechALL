@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PathProgrammingCommandQueue
+  commentId: T:Global.PathProgrammingCommandQueue
+  id: PathProgrammingCommandQueue
+  parent: Global
+  children:
+  - Global.PathProgrammingCommandQueue.pathProgrammingButtons
+  - Global.PathProgrammingCommandQueue.programmingQueuePanel
+  langs:
+  - csharp
+  - vb
+  name: PathProgrammingCommandQueue
+  nameWithType: PathProgrammingCommandQueue
+  fullName: PathProgrammingCommandQueue
+  type: Class
+  source:
+    id: PathProgrammingCommandQueue
+    path: ''
+    startLine: 16033
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PathProgrammingCommandQueue : MonoBehaviour'
+    content.vb: >-
+      Public Class PathProgrammingCommandQueue
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PathProgrammingCommandQueue.pathProgrammingButtons
+  commentId: F:Global.PathProgrammingCommandQueue.pathProgrammingButtons
+  id: pathProgrammingButtons
+  parent: Global.PathProgrammingCommandQueue
+  langs:
+  - csharp
+  - vb
+  name: pathProgrammingButtons
+  nameWithType: PathProgrammingCommandQueue.pathProgrammingButtons
+  fullName: PathProgrammingCommandQueue.pathProgrammingButtons
+  type: Field
+  source:
+    id: pathProgrammingButtons
+    path: ''
+    startLine: 16036
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button[] pathProgrammingButtons
+    return:
+      type: Global.Button[]
+    content.vb: Public pathProgrammingButtons As Button()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingCommandQueue.programmingQueuePanel
+  commentId: F:Global.PathProgrammingCommandQueue.programmingQueuePanel
+  id: programmingQueuePanel
+  parent: Global.PathProgrammingCommandQueue
+  langs:
+  - csharp
+  - vb
+  name: programmingQueuePanel
+  nameWithType: PathProgrammingCommandQueue.programmingQueuePanel
+  fullName: PathProgrammingCommandQueue.programmingQueuePanel
+  type: Field
+  source:
+    id: programmingQueuePanel
+    path: ''
+    startLine: 16037
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform programmingQueuePanel
+    return:
+      type: Global.Transform
+    content.vb: Public programmingQueuePanel As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Button[]
+  isExternal: true
+  name: Button[]
+  nameWithType: Button[]
+  fullName: Button[]
+  nameWithType.vb: Button()
+  fullName.vb: Button()
+  name.vb: Button()
+  spec.csharp:
+  - uid: Global.Button
+    name: Button
+    nameWithType: Button
+    fullName: Button
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Button
+    name: Button
+    nameWithType: Button
+    fullName: Button
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform

@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UnlockableType
+  commentId: T:Global.UnlockableType
+  id: UnlockableType
+  parent: Global
+  children:
+  - Global.UnlockableType.Info
+  - Global.UnlockableType.MiniGame
+  - Global.UnlockableType.Quiz
+  - Global.UnlockableType.Task
+  langs:
+  - csharp
+  - vb
+  name: UnlockableType
+  nameWithType: UnlockableType
+  fullName: UnlockableType
+  type: Enum
+  source:
+    id: UnlockableType
+    path: ''
+    startLine: 18417
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum UnlockableType
+    content.vb: Public Enum UnlockableType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.UnlockableType.Info
+  commentId: F:Global.UnlockableType.Info
+  id: Info
+  parent: Global.UnlockableType
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: UnlockableType.Info
+  fullName: UnlockableType.Info
+  type: Field
+  source:
+    id: Info
+    path: ''
+    startLine: 18419
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Info = 0
+    return:
+      type: Global.UnlockableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.UnlockableType.Quiz
+  commentId: F:Global.UnlockableType.Quiz
+  id: Quiz
+  parent: Global.UnlockableType
+  langs:
+  - csharp
+  - vb
+  name: Quiz
+  nameWithType: UnlockableType.Quiz
+  fullName: UnlockableType.Quiz
+  type: Field
+  source:
+    id: Quiz
+    path: ''
+    startLine: 18420
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Quiz = 1
+    return:
+      type: Global.UnlockableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.UnlockableType.Task
+  commentId: F:Global.UnlockableType.Task
+  id: Task
+  parent: Global.UnlockableType
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: UnlockableType.Task
+  fullName: UnlockableType.Task
+  type: Field
+  source:
+    id: Task
+    path: ''
+    startLine: 18421
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Task = 2
+    return:
+      type: Global.UnlockableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.UnlockableType.MiniGame
+  commentId: F:Global.UnlockableType.MiniGame
+  id: MiniGame
+  parent: Global.UnlockableType
+  langs:
+  - csharp
+  - vb
+  name: MiniGame
+  nameWithType: UnlockableType.MiniGame
+  fullName: UnlockableType.MiniGame
+  type: Field
+  source:
+    id: MiniGame
+    path: ''
+    startLine: 18422
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MiniGame = 3
+    return:
+      type: Global.UnlockableType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.UnlockableType
+  commentId: T:Global.UnlockableType
+  name: UnlockableType
+  nameWithType: UnlockableType
+  fullName: UnlockableType

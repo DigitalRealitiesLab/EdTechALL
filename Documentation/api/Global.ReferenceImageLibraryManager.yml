@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ReferenceImageLibraryManager
+  commentId: T:Global.ReferenceImageLibraryManager
+  id: ReferenceImageLibraryManager
+  parent: Global
+  children:
+  - Global.ReferenceImageLibraryManager.imageManager
+  - Global.ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest(ReferenceLibrarySignature)
+  - Global.ReferenceImageLibraryManager.staticReferenceImageLibraries
+  langs:
+  - csharp
+  - vb
+  name: ReferenceImageLibraryManager
+  nameWithType: ReferenceImageLibraryManager
+  fullName: ReferenceImageLibraryManager
+  type: Class
+  source:
+    id: ReferenceImageLibraryManager
+    path: ''
+    startLine: 25392
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ReferenceImageLibraryManager : MonoBehaviour'
+    content.vb: >-
+      Public Class ReferenceImageLibraryManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ReferenceImageLibraryManager.imageManager
+  commentId: F:Global.ReferenceImageLibraryManager.imageManager
+  id: imageManager
+  parent: Global.ReferenceImageLibraryManager
+  langs:
+  - csharp
+  - vb
+  name: imageManager
+  nameWithType: ReferenceImageLibraryManager.imageManager
+  fullName: ReferenceImageLibraryManager.imageManager
+  type: Field
+  source:
+    id: imageManager
+    path: ''
+    startLine: 25394
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ARTrackedImageManager imageManager
+    return:
+      type: Global.ARTrackedImageManager
+    content.vb: Public imageManager As ARTrackedImageManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ReferenceImageLibraryManager.staticReferenceImageLibraries
+  commentId: F:Global.ReferenceImageLibraryManager.staticReferenceImageLibraries
+  id: staticReferenceImageLibraries
+  parent: Global.ReferenceImageLibraryManager
+  langs:
+  - csharp
+  - vb
+  name: staticReferenceImageLibraries
+  nameWithType: ReferenceImageLibraryManager.staticReferenceImageLibraries
+  fullName: ReferenceImageLibraryManager.staticReferenceImageLibraries
+  type: Field
+  source:
+    id: staticReferenceImageLibraries
+    path: ''
+    startLine: 25395
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<XRReferenceImageLibrary> staticReferenceImageLibraries
+    return:
+      type: Global.List{XRReferenceImageLibrary}
+    content.vb: Public staticReferenceImageLibraries As List(Of XRReferenceImageLibrary)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest(ReferenceLibrarySignature)
+  commentId: M:Global.ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest(ReferenceLibrarySignature)
+  id: OnRuntimeReferenceImageLibraryRequest(ReferenceLibrarySignature)
+  parent: Global.ReferenceImageLibraryManager
+  langs:
+  - csharp
+  - vb
+  name: OnRuntimeReferenceImageLibraryRequest(ReferenceLibrarySignature)
+  nameWithType: ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest(ReferenceLibrarySignature)
+  fullName: ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest(ReferenceLibrarySignature)
+  type: Method
+  source:
+    id: OnRuntimeReferenceImageLibraryRequest
+    path: ''
+    startLine: 25422
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRuntimeReferenceImageLibraryRequest(ReferenceLibrarySignature signature)
+    parameters:
+    - id: signature
+      type: Global.ReferenceLibrarySignature
+    content.vb: Public Sub OnRuntimeReferenceImageLibraryRequest(signature As ReferenceLibrarySignature)
+  overload: Global.ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ARTrackedImageManager
+  isExternal: true
+  name: ARTrackedImageManager
+  nameWithType: ARTrackedImageManager
+  fullName: ARTrackedImageManager
+- uid: Global.List{XRReferenceImageLibrary}
+  commentId: '!:Global.List{XRReferenceImageLibrary}'
+  definition: Global.List`1
+  name: List<XRReferenceImageLibrary>
+  nameWithType: List<XRReferenceImageLibrary>
+  fullName: List<XRReferenceImageLibrary>
+  nameWithType.vb: List(Of XRReferenceImageLibrary)
+  fullName.vb: List(Of XRReferenceImageLibrary)
+  name.vb: List(Of XRReferenceImageLibrary)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.XRReferenceImageLibrary
+    name: XRReferenceImageLibrary
+    nameWithType: XRReferenceImageLibrary
+    fullName: XRReferenceImageLibrary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.XRReferenceImageLibrary
+    name: XRReferenceImageLibrary
+    nameWithType: XRReferenceImageLibrary
+    fullName: XRReferenceImageLibrary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest*
+  commentId: Overload:Global.ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest
+  name: OnRuntimeReferenceImageLibraryRequest
+  nameWithType: ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest
+  fullName: ReferenceImageLibraryManager.OnRuntimeReferenceImageLibraryRequest
+- uid: Global.ReferenceLibrarySignature
+  commentId: T:Global.ReferenceLibrarySignature
+  name: ReferenceLibrarySignature
+  nameWithType: ReferenceLibrarySignature
+  fullName: ReferenceLibrarySignature

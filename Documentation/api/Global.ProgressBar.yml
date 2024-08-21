@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ProgressBar
+  commentId: T:Global.ProgressBar
+  id: ProgressBar
+  parent: Global
+  children:
+  - Global.ProgressBar._progress
+  - Global.ProgressBar.progress
+  - Global.ProgressBar.progressBar
+  langs:
+  - csharp
+  - vb
+  name: ProgressBar
+  nameWithType: ProgressBar
+  fullName: ProgressBar
+  type: Class
+  source:
+    id: ProgressBar
+    path: ''
+    startLine: 16631
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ProgressBar : MonoBehaviour'
+    content.vb: >-
+      Public Class ProgressBar
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ProgressBar.progressBar
+  commentId: F:Global.ProgressBar.progressBar
+  id: progressBar
+  parent: Global.ProgressBar
+  langs:
+  - csharp
+  - vb
+  name: progressBar
+  nameWithType: ProgressBar.progressBar
+  fullName: ProgressBar.progressBar
+  type: Field
+  source:
+    id: progressBar
+    path: ''
+    startLine: 16634
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RectTransform progressBar
+    return:
+      type: Global.RectTransform
+    content.vb: Public progressBar As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ProgressBar._progress
+  commentId: F:Global.ProgressBar._progress
+  id: _progress
+  parent: Global.ProgressBar
+  langs:
+  - csharp
+  - vb
+  name: _progress
+  nameWithType: ProgressBar._progress
+  fullName: ProgressBar._progress
+  type: Field
+  source:
+    id: _progress
+    path: ''
+    startLine: 16637
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected float _progress
+    return:
+      type: System.Single
+    content.vb: Protected _progress As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.ProgressBar.progress
+  commentId: P:Global.ProgressBar.progress
+  id: progress
+  parent: Global.ProgressBar
+  langs:
+  - csharp
+  - vb
+  name: progress
+  nameWithType: ProgressBar.progress
+  fullName: ProgressBar.progress
+  type: Property
+  source:
+    id: progress
+    path: ''
+    startLine: 16638
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float progress { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property progress As Single
+  overload: Global.ProgressBar.progress*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.ProgressBar.progress*
+  commentId: Overload:Global.ProgressBar.progress
+  name: progress
+  nameWithType: ProgressBar.progress
+  fullName: ProgressBar.progress

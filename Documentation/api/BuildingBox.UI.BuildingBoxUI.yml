@@ -1,0 +1,435 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.UI.BuildingBoxUI
+  commentId: T:BuildingBox.UI.BuildingBoxUI
+  id: BuildingBoxUI
+  parent: BuildingBox.UI
+  children:
+  - BuildingBox.UI.BuildingBoxUI.availableResourcesText
+  - BuildingBox.UI.BuildingBoxUI.Awake
+  - BuildingBox.UI.BuildingBoxUI.buildingBoxData
+  - BuildingBox.UI.BuildingBoxUI.content
+  - BuildingBox.UI.BuildingBoxUI.defaultBuildingBoxData
+  - BuildingBox.UI.BuildingBoxUI.destroyModeToggle
+  - BuildingBox.UI.BuildingBoxUI.gainedResourcesText
+  - BuildingBox.UI.BuildingBoxUI.InstantiateBuildingBoxUIElements
+  - BuildingBox.UI.BuildingBoxUI.SetActiveBuildingArea(BuildingBox.BuildingArea)
+  - BuildingBox.UI.BuildingBoxUI.SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  - BuildingBox.UI.BuildingBoxUI.SetResourcesDisplayEnabled
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxUI
+  nameWithType: BuildingBoxUI
+  fullName: BuildingBox.UI.BuildingBoxUI
+  type: Class
+  source:
+    id: BuildingBoxUI
+    path: ''
+    startLine: 66
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: 'public class BuildingBoxUI : MonoBehaviour'
+    content.vb: >-
+      Public Class BuildingBoxUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.UI.BuildingBoxUI.content
+  commentId: F:BuildingBox.UI.BuildingBoxUI.content
+  id: content
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: content
+  nameWithType: BuildingBoxUI.content
+  fullName: BuildingBox.UI.BuildingBoxUI.content
+  type: Field
+  source:
+    id: content
+    path: ''
+    startLine: 68
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public RectTransform content
+    return:
+      type: Global.RectTransform
+    content.vb: Public content As RectTransform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.availableResourcesText
+  commentId: F:BuildingBox.UI.BuildingBoxUI.availableResourcesText
+  id: availableResourcesText
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: availableResourcesText
+  nameWithType: BuildingBoxUI.availableResourcesText
+  fullName: BuildingBox.UI.BuildingBoxUI.availableResourcesText
+  type: Field
+  source:
+    id: availableResourcesText
+    path: ''
+    startLine: 71
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public TextMeshProUGUI availableResourcesText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public availableResourcesText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.gainedResourcesText
+  commentId: F:BuildingBox.UI.BuildingBoxUI.gainedResourcesText
+  id: gainedResourcesText
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: gainedResourcesText
+  nameWithType: BuildingBoxUI.gainedResourcesText
+  fullName: BuildingBox.UI.BuildingBoxUI.gainedResourcesText
+  type: Field
+  source:
+    id: gainedResourcesText
+    path: ''
+    startLine: 72
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public TextMeshProUGUI gainedResourcesText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public gainedResourcesText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.destroyModeToggle
+  commentId: F:BuildingBox.UI.BuildingBoxUI.destroyModeToggle
+  id: destroyModeToggle
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: destroyModeToggle
+  nameWithType: BuildingBoxUI.destroyModeToggle
+  fullName: BuildingBox.UI.BuildingBoxUI.destroyModeToggle
+  type: Field
+  source:
+    id: destroyModeToggle
+    path: ''
+    startLine: 73
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public Toggle destroyModeToggle
+    return:
+      type: Global.Toggle
+    content.vb: Public destroyModeToggle As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.defaultBuildingBoxData
+  commentId: F:BuildingBox.UI.BuildingBoxUI.defaultBuildingBoxData
+  id: defaultBuildingBoxData
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: defaultBuildingBoxData
+  nameWithType: BuildingBoxUI.defaultBuildingBoxData
+  fullName: BuildingBox.UI.BuildingBoxUI.defaultBuildingBoxData
+  type: Field
+  source:
+    id: defaultBuildingBoxData
+    path: ''
+    startLine: 79
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public BuildingBoxData defaultBuildingBoxData
+    return:
+      type: BuildingBox.BuildingBoxData
+    content.vb: Public defaultBuildingBoxData As BuildingBoxData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.buildingBoxData
+  commentId: P:BuildingBox.UI.BuildingBoxUI.buildingBoxData
+  id: buildingBoxData
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: buildingBoxData
+  nameWithType: BuildingBoxUI.buildingBoxData
+  fullName: BuildingBox.UI.BuildingBoxUI.buildingBoxData
+  type: Property
+  source:
+    id: buildingBoxData
+    path: ''
+    startLine: 81
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public BuildingBoxData buildingBoxData { get; set; }
+    parameters: []
+    return:
+      type: BuildingBox.BuildingBoxData
+    content.vb: Public Property buildingBoxData As BuildingBoxData
+  overload: BuildingBox.UI.BuildingBoxUI.buildingBoxData*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.Awake
+  commentId: M:BuildingBox.UI.BuildingBoxUI.Awake
+  id: Awake
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: BuildingBoxUI.Awake()
+  fullName: BuildingBox.UI.BuildingBoxUI.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 111
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: BuildingBox.UI.BuildingBoxUI.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.InstantiateBuildingBoxUIElements
+  commentId: M:BuildingBox.UI.BuildingBoxUI.InstantiateBuildingBoxUIElements
+  id: InstantiateBuildingBoxUIElements
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: InstantiateBuildingBoxUIElements()
+  nameWithType: BuildingBoxUI.InstantiateBuildingBoxUIElements()
+  fullName: BuildingBox.UI.BuildingBoxUI.InstantiateBuildingBoxUIElements()
+  type: Method
+  source:
+    id: InstantiateBuildingBoxUIElements
+    path: ''
+    startLine: 140
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public void InstantiateBuildingBoxUIElements()
+    content.vb: Public Sub InstantiateBuildingBoxUIElements
+  overload: BuildingBox.UI.BuildingBoxUI.InstantiateBuildingBoxUIElements*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.SetResourcesDisplayEnabled
+  commentId: M:BuildingBox.UI.BuildingBoxUI.SetResourcesDisplayEnabled
+  id: SetResourcesDisplayEnabled
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: SetResourcesDisplayEnabled()
+  nameWithType: BuildingBoxUI.SetResourcesDisplayEnabled()
+  fullName: BuildingBox.UI.BuildingBoxUI.SetResourcesDisplayEnabled()
+  type: Method
+  source:
+    id: SetResourcesDisplayEnabled
+    path: ''
+    startLine: 165
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public void SetResourcesDisplayEnabled()
+    content.vb: Public Sub SetResourcesDisplayEnabled
+  overload: BuildingBox.UI.BuildingBoxUI.SetResourcesDisplayEnabled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  commentId: M:BuildingBox.UI.BuildingBoxUI.SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  id: SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: SetBuildingBoxDestroyModeEnabled(Boolean)
+  nameWithType: BuildingBoxUI.SetBuildingBoxDestroyModeEnabled(Boolean)
+  fullName: BuildingBox.UI.BuildingBoxUI.SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  type: Method
+  source:
+    id: SetBuildingBoxDestroyModeEnabled
+    path: ''
+    startLine: 186
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public void SetBuildingBoxDestroyModeEnabled(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub SetBuildingBoxDestroyModeEnabled(enabled As Boolean)
+  overload: BuildingBox.UI.BuildingBoxUI.SetBuildingBoxDestroyModeEnabled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxUI.SetActiveBuildingArea(BuildingBox.BuildingArea)
+  commentId: M:BuildingBox.UI.BuildingBoxUI.SetActiveBuildingArea(BuildingBox.BuildingArea)
+  id: SetActiveBuildingArea(BuildingBox.BuildingArea)
+  parent: BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: SetActiveBuildingArea(BuildingArea)
+  nameWithType: BuildingBoxUI.SetActiveBuildingArea(BuildingArea)
+  fullName: BuildingBox.UI.BuildingBoxUI.SetActiveBuildingArea(BuildingBox.BuildingArea)
+  type: Method
+  source:
+    id: SetActiveBuildingArea
+    path: ''
+    startLine: 191
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public void SetActiveBuildingArea(BuildingArea buildingArea)
+    parameters:
+    - id: buildingArea
+      type: BuildingBox.BuildingArea
+    content.vb: Public Sub SetActiveBuildingArea(buildingArea As BuildingArea)
+  overload: BuildingBox.UI.BuildingBoxUI.SetActiveBuildingArea*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox.UI
+  commentId: N:BuildingBox.UI
+  name: BuildingBox.UI
+  nameWithType: BuildingBox.UI
+  fullName: BuildingBox.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.RectTransform
+  isExternal: true
+  name: RectTransform
+  nameWithType: RectTransform
+  fullName: RectTransform
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Toggle
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: Toggle
+- uid: BuildingBox.BuildingBoxData
+  commentId: T:BuildingBox.BuildingBoxData
+  parent: BuildingBox
+  name: BuildingBoxData
+  nameWithType: BuildingBoxData
+  fullName: BuildingBox.BuildingBoxData
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: BuildingBox.UI.BuildingBoxUI.buildingBoxData*
+  commentId: Overload:BuildingBox.UI.BuildingBoxUI.buildingBoxData
+  name: buildingBoxData
+  nameWithType: BuildingBoxUI.buildingBoxData
+  fullName: BuildingBox.UI.BuildingBoxUI.buildingBoxData
+- uid: BuildingBox.UI.BuildingBoxUI.Awake*
+  commentId: Overload:BuildingBox.UI.BuildingBoxUI.Awake
+  name: Awake
+  nameWithType: BuildingBoxUI.Awake
+  fullName: BuildingBox.UI.BuildingBoxUI.Awake
+- uid: BuildingBox.UI.BuildingBoxUI.InstantiateBuildingBoxUIElements*
+  commentId: Overload:BuildingBox.UI.BuildingBoxUI.InstantiateBuildingBoxUIElements
+  name: InstantiateBuildingBoxUIElements
+  nameWithType: BuildingBoxUI.InstantiateBuildingBoxUIElements
+  fullName: BuildingBox.UI.BuildingBoxUI.InstantiateBuildingBoxUIElements
+- uid: BuildingBox.UI.BuildingBoxUI.SetResourcesDisplayEnabled*
+  commentId: Overload:BuildingBox.UI.BuildingBoxUI.SetResourcesDisplayEnabled
+  name: SetResourcesDisplayEnabled
+  nameWithType: BuildingBoxUI.SetResourcesDisplayEnabled
+  fullName: BuildingBox.UI.BuildingBoxUI.SetResourcesDisplayEnabled
+- uid: BuildingBox.UI.BuildingBoxUI.SetBuildingBoxDestroyModeEnabled*
+  commentId: Overload:BuildingBox.UI.BuildingBoxUI.SetBuildingBoxDestroyModeEnabled
+  name: SetBuildingBoxDestroyModeEnabled
+  nameWithType: BuildingBoxUI.SetBuildingBoxDestroyModeEnabled
+  fullName: BuildingBox.UI.BuildingBoxUI.SetBuildingBoxDestroyModeEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BuildingBox.UI.BuildingBoxUI.SetActiveBuildingArea*
+  commentId: Overload:BuildingBox.UI.BuildingBoxUI.SetActiveBuildingArea
+  name: SetActiveBuildingArea
+  nameWithType: BuildingBoxUI.SetActiveBuildingArea
+  fullName: BuildingBox.UI.BuildingBoxUI.SetActiveBuildingArea
+- uid: BuildingBox.BuildingArea
+  commentId: T:BuildingBox.BuildingArea
+  parent: BuildingBox
+  name: BuildingArea
+  nameWithType: BuildingArea
+  fullName: BuildingBox.BuildingArea

@@ -1,0 +1,711 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ATask
+  commentId: T:Global.ATask
+  id: ATask
+  parent: Global
+  children:
+  - Global.ATask._taskData
+  - Global.ATask.ActivateTask
+  - Global.ATask.Awake
+  - Global.ATask.CheckForIsComplete(TaskCallback)
+  - Global.ATask.completed
+  - Global.ATask.Construct(TaskData)
+  - Global.ATask.DeactivateTask
+  - Global.ATask.OnTaskCompleted
+  - Global.ATask.subTasks
+  - Global.ATask.subtasksCompleted
+  - Global.ATask.taskCallbacks
+  - Global.ATask.taskCompletionEventId
+  - Global.ATask.taskData
+  langs:
+  - csharp
+  - vb
+  name: ATask
+  nameWithType: ATask
+  fullName: ATask
+  type: Class
+  source:
+    id: ATask
+    path: ''
+    startLine: 18551
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class ATask : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class ATask
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.AutoSpawnTask
+  - Global.CardTask
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Global.ATask.subTasks
+  commentId: F:Global.ATask.subTasks
+  id: subTasks
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: subTasks
+  nameWithType: ATask.subTasks
+  fullName: ATask.subTasks
+  type: Field
+  source:
+    id: subTasks
+    path: ''
+    startLine: 18554
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected List<ATask> subTasks
+    return:
+      type: Global.List{ATask}
+    content.vb: Protected subTasks As List(Of ATask)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.ATask.OnTaskCompleted
+  commentId: F:Global.ATask.OnTaskCompleted
+  id: OnTaskCompleted
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: OnTaskCompleted
+  nameWithType: ATask.OnTaskCompleted
+  fullName: ATask.OnTaskCompleted
+  type: Field
+  source:
+    id: OnTaskCompleted
+    path: ''
+    startLine: 18557
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent<ATask> OnTaskCompleted
+    return:
+      type: Global.UnityEvent{ATask}
+    content.vb: Public OnTaskCompleted As UnityEvent(Of ATask)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ATask.taskCompletionEventId
+  commentId: F:Global.ATask.taskCompletionEventId
+  id: taskCompletionEventId
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: taskCompletionEventId
+  nameWithType: ATask.taskCompletionEventId
+  fullName: ATask.taskCompletionEventId
+  type: Field
+  source:
+    id: taskCompletionEventId
+    path: ''
+    startLine: 18559
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected const string taskCompletionEventId = "CheckForIsComplete"
+    return:
+      type: System.String
+    content.vb: Protected Const taskCompletionEventId As String = "CheckForIsComplete"
+  modifiers.csharp:
+  - protected
+  - const
+  modifiers.vb:
+  - Protected
+  - Const
+- uid: Global.ATask.taskCallbacks
+  commentId: P:Global.ATask.taskCallbacks
+  id: taskCallbacks
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: taskCallbacks
+  nameWithType: ATask.taskCallbacks
+  fullName: ATask.taskCallbacks
+  type: Property
+  source:
+    id: taskCallbacks
+    path: ''
+    startLine: 18561
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected abstract TaskCallback[] taskCallbacks { get; }
+    parameters: []
+    return:
+      type: Global.TaskCallback[]
+    content.vb: Protected MustOverride ReadOnly Property taskCallbacks As TaskCallback()
+  overload: Global.ATask.taskCallbacks*
+  modifiers.csharp:
+  - protected
+  - abstract
+  - get
+  modifiers.vb:
+  - Protected
+  - MustOverride
+  - ReadOnly
+- uid: Global.ATask._taskData
+  commentId: F:Global.ATask._taskData
+  id: _taskData
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: _taskData
+  nameWithType: ATask._taskData
+  fullName: ATask._taskData
+  type: Field
+  source:
+    id: _taskData
+    path: ''
+    startLine: 18564
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected TaskData _taskData
+    return:
+      type: Global.TaskData
+    content.vb: Protected _taskData As TaskData
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.ATask.taskData
+  commentId: P:Global.ATask.taskData
+  id: taskData
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: taskData
+  nameWithType: ATask.taskData
+  fullName: ATask.taskData
+  type: Property
+  source:
+    id: taskData
+    path: ''
+    startLine: 18565
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskData taskData { get; }
+    parameters: []
+    return:
+      type: Global.TaskData
+    content.vb: Public ReadOnly Property taskData As TaskData
+  overload: Global.ATask.taskData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.ATask.completed
+  commentId: P:Global.ATask.completed
+  id: completed
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: completed
+  nameWithType: ATask.completed
+  fullName: ATask.completed
+  type: Property
+  source:
+    id: completed
+    path: ''
+    startLine: 18567
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool completed { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property completed As Boolean
+  overload: Global.ATask.completed*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Global.ATask.subtasksCompleted
+  commentId: P:Global.ATask.subtasksCompleted
+  id: subtasksCompleted
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: subtasksCompleted
+  nameWithType: ATask.subtasksCompleted
+  fullName: ATask.subtasksCompleted
+  type: Property
+  source:
+    id: subtasksCompleted
+    path: ''
+    startLine: 18580
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected bool subtasksCompleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected ReadOnly Property subtasksCompleted As Boolean
+  overload: Global.ATask.subtasksCompleted*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: Global.ATask.Awake
+  commentId: M:Global.ATask.Awake
+  id: Awake
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ATask.Awake()
+  fullName: ATask.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 18591
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: Global.ATask.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Global.ATask.Construct(TaskData)
+  commentId: M:Global.ATask.Construct(TaskData)
+  id: Construct(TaskData)
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: Construct(TaskData)
+  nameWithType: ATask.Construct(TaskData)
+  fullName: ATask.Construct(TaskData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 18600
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void Construct(TaskData taskData)
+    parameters:
+    - id: taskData
+      type: Global.TaskData
+    content.vb: Public Overridable Sub Construct(taskData As TaskData)
+  overload: Global.ATask.Construct*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Global.ATask.ActivateTask
+  commentId: M:Global.ATask.ActivateTask
+  id: ActivateTask
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: ActivateTask()
+  nameWithType: ATask.ActivateTask()
+  fullName: ATask.ActivateTask()
+  type: Method
+  source:
+    id: ActivateTask
+    path: ''
+    startLine: 18608
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void ActivateTask()
+    content.vb: Public Overridable Sub ActivateTask
+  overload: Global.ATask.ActivateTask*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Global.ATask.DeactivateTask
+  commentId: M:Global.ATask.DeactivateTask
+  id: DeactivateTask
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: DeactivateTask()
+  nameWithType: ATask.DeactivateTask()
+  fullName: ATask.DeactivateTask()
+  type: Method
+  source:
+    id: DeactivateTask
+    path: ''
+    startLine: 18617
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void DeactivateTask()
+    content.vb: Public Overridable Sub DeactivateTask
+  overload: Global.ATask.DeactivateTask*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Global.ATask.CheckForIsComplete(TaskCallback)
+  commentId: M:Global.ATask.CheckForIsComplete(TaskCallback)
+  id: CheckForIsComplete(TaskCallback)
+  parent: Global.ATask
+  langs:
+  - csharp
+  - vb
+  name: CheckForIsComplete(TaskCallback)
+  nameWithType: ATask.CheckForIsComplete(TaskCallback)
+  fullName: ATask.CheckForIsComplete(TaskCallback)
+  type: Method
+  source:
+    id: CheckForIsComplete
+    path: ''
+    startLine: 18639
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nshould set isCompleted, method is registered to the EventBus with the overridden TaskCallback\n"
+  example: []
+  syntax:
+    content: public abstract void CheckForIsComplete(TaskCallback taskCallback)
+    parameters:
+    - id: taskCallback
+      type: Global.TaskCallback
+    content.vb: Public MustOverride Sub CheckForIsComplete(taskCallback As TaskCallback)
+  overload: Global.ATask.CheckForIsComplete*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{ATask}
+  commentId: '!:Global.List{ATask}'
+  definition: Global.List`1
+  name: List<ATask>
+  nameWithType: List<ATask>
+  fullName: List<ATask>
+  nameWithType.vb: List(Of ATask)
+  fullName.vb: List(Of ATask)
+  name.vb: List(Of ATask)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.ATask
+    name: ATask
+    nameWithType: ATask
+    fullName: ATask
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.ATask
+    name: ATask
+    nameWithType: ATask
+    fullName: ATask
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityEvent{ATask}
+  commentId: '!:Global.UnityEvent{ATask}'
+  definition: Global.UnityEvent`1
+  name: UnityEvent<ATask>
+  nameWithType: UnityEvent<ATask>
+  fullName: UnityEvent<ATask>
+  nameWithType.vb: UnityEvent(Of ATask)
+  fullName.vb: UnityEvent(Of ATask)
+  name.vb: UnityEvent(Of ATask)
+  spec.csharp:
+  - uid: Global.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.ATask
+    name: ATask
+    nameWithType: ATask
+    fullName: ATask
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.ATask
+    name: ATask
+    nameWithType: ATask
+    fullName: ATask
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UnityEvent`1
+  commentId: '!:Global.UnityEvent`1'
+  isExternal: true
+  name: UnityEvent<>
+  nameWithType: UnityEvent<>
+  fullName: UnityEvent<>
+  nameWithType.vb: UnityEvent(Of )
+  fullName.vb: UnityEvent(Of )
+  name.vb: UnityEvent(Of )
+  spec.csharp:
+  - uid: Global.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.UnityEvent`1
+    name: UnityEvent
+    nameWithType: UnityEvent
+    fullName: UnityEvent
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.ATask.taskCallbacks*
+  commentId: Overload:Global.ATask.taskCallbacks
+  name: taskCallbacks
+  nameWithType: ATask.taskCallbacks
+  fullName: ATask.taskCallbacks
+- uid: Global.TaskCallback[]
+  isExternal: true
+  name: TaskCallback[]
+  nameWithType: TaskCallback[]
+  fullName: TaskCallback[]
+  nameWithType.vb: TaskCallback()
+  fullName.vb: TaskCallback()
+  name.vb: TaskCallback()
+  spec.csharp:
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+- uid: Global.ATask.taskData*
+  commentId: Overload:Global.ATask.taskData
+  name: taskData
+  nameWithType: ATask.taskData
+  fullName: ATask.taskData
+- uid: Global.ATask.completed*
+  commentId: Overload:Global.ATask.completed
+  name: completed
+  nameWithType: ATask.completed
+  fullName: ATask.completed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.ATask.subtasksCompleted*
+  commentId: Overload:Global.ATask.subtasksCompleted
+  name: subtasksCompleted
+  nameWithType: ATask.subtasksCompleted
+  fullName: ATask.subtasksCompleted
+- uid: Global.ATask.Awake*
+  commentId: Overload:Global.ATask.Awake
+  name: Awake
+  nameWithType: ATask.Awake
+  fullName: ATask.Awake
+- uid: Global.ATask.Construct*
+  commentId: Overload:Global.ATask.Construct
+  name: Construct
+  nameWithType: ATask.Construct
+  fullName: ATask.Construct
+- uid: Global.ATask.ActivateTask*
+  commentId: Overload:Global.ATask.ActivateTask
+  name: ActivateTask
+  nameWithType: ATask.ActivateTask
+  fullName: ATask.ActivateTask
+- uid: Global.ATask.DeactivateTask*
+  commentId: Overload:Global.ATask.DeactivateTask
+  name: DeactivateTask
+  nameWithType: ATask.DeactivateTask
+  fullName: ATask.DeactivateTask
+- uid: Global.ATask.CheckForIsComplete*
+  commentId: Overload:Global.ATask.CheckForIsComplete
+  name: CheckForIsComplete
+  nameWithType: ATask.CheckForIsComplete
+  fullName: ATask.CheckForIsComplete
+- uid: Global.TaskCallback
+  commentId: T:Global.TaskCallback
+  name: TaskCallback
+  nameWithType: TaskCallback
+  fullName: TaskCallback

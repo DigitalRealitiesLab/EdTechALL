@@ -1,0 +1,332 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Hand.Hand
+  commentId: T:InteractionSystem.Hand.Hand
+  id: Hand
+  parent: InteractionSystem.Hand
+  children:
+  - InteractionSystem.Hand.Hand.currentInteractable
+  - InteractionSystem.Hand.Hand.handColorChanger
+  - InteractionSystem.Hand.Hand.handSensor
+  - InteractionSystem.Hand.Hand.handState
+  - InteractionSystem.Hand.Hand.handStates
+  - InteractionSystem.Hand.Hand.Reset
+  - InteractionSystem.Hand.Hand.saturnHandVisualization
+  langs:
+  - csharp
+  - vb
+  name: Hand
+  nameWithType: Hand
+  fullName: InteractionSystem.Hand.Hand
+  type: Class
+  source:
+    id: Hand
+    path: ''
+    startLine: 24127
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: 'public class Hand : MonoBehaviour'
+    content.vb: >-
+      Public Class Hand
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Hand.Hand.handSensor
+  commentId: F:InteractionSystem.Hand.Hand.handSensor
+  id: handSensor
+  parent: InteractionSystem.Hand.Hand
+  langs:
+  - csharp
+  - vb
+  name: handSensor
+  nameWithType: Hand.handSensor
+  fullName: InteractionSystem.Hand.Hand.handSensor
+  type: Field
+  source:
+    id: handSensor
+    path: ''
+    startLine: 24129
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public HandSensor handSensor
+    return:
+      type: InteractionSystem.Hand.HandSensor
+    content.vb: Public handSensor As HandSensor
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.Hand.saturnHandVisualization
+  commentId: F:InteractionSystem.Hand.Hand.saturnHandVisualization
+  id: saturnHandVisualization
+  parent: InteractionSystem.Hand.Hand
+  langs:
+  - csharp
+  - vb
+  name: saturnHandVisualization
+  nameWithType: Hand.saturnHandVisualization
+  fullName: InteractionSystem.Hand.Hand.saturnHandVisualization
+  type: Field
+  source:
+    id: saturnHandVisualization
+    path: ''
+    startLine: 24130
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public HandVisualizer saturnHandVisualization
+    return:
+      type: InteractionSystem.Hand.HandVisualizer
+    content.vb: Public saturnHandVisualization As HandVisualizer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.Hand.handColorChanger
+  commentId: F:InteractionSystem.Hand.Hand.handColorChanger
+  id: handColorChanger
+  parent: InteractionSystem.Hand.Hand
+  langs:
+  - csharp
+  - vb
+  name: handColorChanger
+  nameWithType: Hand.handColorChanger
+  fullName: InteractionSystem.Hand.Hand.handColorChanger
+  type: Field
+  source:
+    id: handColorChanger
+    path: ''
+    startLine: 24131
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public HandColorChanger handColorChanger
+    return:
+      type: InteractionSystem.Hand.HandColorChanger
+    content.vb: Public handColorChanger As HandColorChanger
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.Hand.handStates
+  commentId: F:InteractionSystem.Hand.Hand.handStates
+  id: handStates
+  parent: InteractionSystem.Hand.Hand
+  langs:
+  - csharp
+  - vb
+  name: handStates
+  nameWithType: Hand.handStates
+  fullName: InteractionSystem.Hand.Hand.handStates
+  type: Field
+  source:
+    id: handStates
+    path: ''
+    startLine: 24132
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public AHandState[] handStates
+    return:
+      type: InteractionSystem.Hand.AHandState[]
+    content.vb: Public handStates As AHandState()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.Hand.currentInteractable
+  commentId: P:InteractionSystem.Hand.Hand.currentInteractable
+  id: currentInteractable
+  parent: InteractionSystem.Hand.Hand
+  langs:
+  - csharp
+  - vb
+  name: currentInteractable
+  nameWithType: Hand.currentInteractable
+  fullName: InteractionSystem.Hand.Hand.currentInteractable
+  type: Property
+  source:
+    id: currentInteractable
+    path: ''
+    startLine: 24135
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public Interactable currentInteractable { get; set; }
+    parameters: []
+    return:
+      type: InteractionSystem.Interactable.Interactable
+    content.vb: Public Property currentInteractable As Interactable
+  overload: InteractionSystem.Hand.Hand.currentInteractable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.Hand.handState
+  commentId: P:InteractionSystem.Hand.Hand.handState
+  id: handState
+  parent: InteractionSystem.Hand.Hand
+  langs:
+  - csharp
+  - vb
+  name: handState
+  nameWithType: Hand.handState
+  fullName: InteractionSystem.Hand.Hand.handState
+  type: Property
+  source:
+    id: handState
+    path: ''
+    startLine: 24156
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  summary: "\ncurrent AHandState  - Invisible, Hover or Selected\n"
+  example: []
+  syntax:
+    content: public AHandState handState { get; set; }
+    parameters: []
+    return:
+      type: InteractionSystem.Hand.AHandState
+    content.vb: Public Property handState As AHandState
+  overload: InteractionSystem.Hand.Hand.handState*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.Hand.Reset
+  commentId: M:InteractionSystem.Hand.Hand.Reset
+  id: Reset
+  parent: InteractionSystem.Hand.Hand
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: Hand.Reset()
+  fullName: InteractionSystem.Hand.Hand.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 24205
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: InteractionSystem.Hand.Hand.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Hand
+  commentId: N:InteractionSystem.Hand
+  name: InteractionSystem.Hand
+  nameWithType: InteractionSystem.Hand
+  fullName: InteractionSystem.Hand
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Hand.HandSensor
+  commentId: T:InteractionSystem.Hand.HandSensor
+  parent: InteractionSystem.Hand
+  name: HandSensor
+  nameWithType: HandSensor
+  fullName: InteractionSystem.Hand.HandSensor
+- uid: InteractionSystem.Hand.HandVisualizer
+  commentId: T:InteractionSystem.Hand.HandVisualizer
+  parent: InteractionSystem.Hand
+  name: HandVisualizer
+  nameWithType: HandVisualizer
+  fullName: InteractionSystem.Hand.HandVisualizer
+- uid: InteractionSystem.Hand.HandColorChanger
+  commentId: T:InteractionSystem.Hand.HandColorChanger
+  parent: InteractionSystem.Hand
+  name: HandColorChanger
+  nameWithType: HandColorChanger
+  fullName: InteractionSystem.Hand.HandColorChanger
+- uid: InteractionSystem.Hand.AHandState[]
+  isExternal: true
+  name: AHandState[]
+  nameWithType: AHandState[]
+  fullName: InteractionSystem.Hand.AHandState[]
+  nameWithType.vb: AHandState()
+  fullName.vb: InteractionSystem.Hand.AHandState()
+  name.vb: AHandState()
+  spec.csharp:
+  - uid: InteractionSystem.Hand.AHandState
+    name: AHandState
+    nameWithType: AHandState
+    fullName: InteractionSystem.Hand.AHandState
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: InteractionSystem.Hand.AHandState
+    name: AHandState
+    nameWithType: AHandState
+    fullName: InteractionSystem.Hand.AHandState
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: InteractionSystem.Hand.Hand.currentInteractable*
+  commentId: Overload:InteractionSystem.Hand.Hand.currentInteractable
+  name: currentInteractable
+  nameWithType: Hand.currentInteractable
+  fullName: InteractionSystem.Hand.Hand.currentInteractable
+- uid: InteractionSystem.Interactable.Interactable
+  commentId: T:InteractionSystem.Interactable.Interactable
+  parent: InteractionSystem.Interactable
+  name: Interactable
+  nameWithType: Interactable
+  fullName: InteractionSystem.Interactable.Interactable
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+- uid: InteractionSystem.Hand.Hand.handState*
+  commentId: Overload:InteractionSystem.Hand.Hand.handState
+  name: handState
+  nameWithType: Hand.handState
+  fullName: InteractionSystem.Hand.Hand.handState
+- uid: InteractionSystem.Hand.AHandState
+  commentId: T:InteractionSystem.Hand.AHandState
+  parent: InteractionSystem.Hand
+  name: AHandState
+  nameWithType: AHandState
+  fullName: InteractionSystem.Hand.AHandState
+- uid: InteractionSystem.Hand.Hand.Reset*
+  commentId: Overload:InteractionSystem.Hand.Hand.Reset
+  name: Reset
+  nameWithType: Hand.Reset
+  fullName: InteractionSystem.Hand.Hand.Reset

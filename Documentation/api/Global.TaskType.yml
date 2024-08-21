@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TaskType
+  commentId: T:Global.TaskType
+  id: TaskType
+  parent: Global
+  children:
+  - Global.TaskType.InfoCard
+  - Global.TaskType.InfoCardAutoSpawn
+  - Global.TaskType.MiniGameCard
+  - Global.TaskType.None
+  - Global.TaskType.QuizCard
+  - Global.TaskType.QuizCardAutoSpawn
+  - Global.TaskType.TaskCardAutoSpawn
+  langs:
+  - csharp
+  - vb
+  name: TaskType
+  nameWithType: TaskType
+  fullName: TaskType
+  type: Enum
+  source:
+    id: TaskType
+    path: ''
+    startLine: 18686
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum TaskType
+    content.vb: Public Enum TaskType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.TaskType.None
+  commentId: F:Global.TaskType.None
+  id: None
+  parent: Global.TaskType
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: TaskType.None
+  fullName: TaskType.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 18688
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: None = 0
+    return:
+      type: Global.TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.TaskType.InfoCard
+  commentId: F:Global.TaskType.InfoCard
+  id: InfoCard
+  parent: Global.TaskType
+  langs:
+  - csharp
+  - vb
+  name: InfoCard
+  nameWithType: TaskType.InfoCard
+  fullName: TaskType.InfoCard
+  type: Field
+  source:
+    id: InfoCard
+    path: ''
+    startLine: 18689
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: InfoCard = 1
+    return:
+      type: Global.TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.TaskType.InfoCardAutoSpawn
+  commentId: F:Global.TaskType.InfoCardAutoSpawn
+  id: InfoCardAutoSpawn
+  parent: Global.TaskType
+  langs:
+  - csharp
+  - vb
+  name: InfoCardAutoSpawn
+  nameWithType: TaskType.InfoCardAutoSpawn
+  fullName: TaskType.InfoCardAutoSpawn
+  type: Field
+  source:
+    id: InfoCardAutoSpawn
+    path: ''
+    startLine: 18690
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: InfoCardAutoSpawn = 2
+    return:
+      type: Global.TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.TaskType.QuizCard
+  commentId: F:Global.TaskType.QuizCard
+  id: QuizCard
+  parent: Global.TaskType
+  langs:
+  - csharp
+  - vb
+  name: QuizCard
+  nameWithType: TaskType.QuizCard
+  fullName: TaskType.QuizCard
+  type: Field
+  source:
+    id: QuizCard
+    path: ''
+    startLine: 18691
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: QuizCard = 3
+    return:
+      type: Global.TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.TaskType.QuizCardAutoSpawn
+  commentId: F:Global.TaskType.QuizCardAutoSpawn
+  id: QuizCardAutoSpawn
+  parent: Global.TaskType
+  langs:
+  - csharp
+  - vb
+  name: QuizCardAutoSpawn
+  nameWithType: TaskType.QuizCardAutoSpawn
+  fullName: TaskType.QuizCardAutoSpawn
+  type: Field
+  source:
+    id: QuizCardAutoSpawn
+    path: ''
+    startLine: 18692
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: QuizCardAutoSpawn = 4
+    return:
+      type: Global.TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.TaskType.TaskCardAutoSpawn
+  commentId: F:Global.TaskType.TaskCardAutoSpawn
+  id: TaskCardAutoSpawn
+  parent: Global.TaskType
+  langs:
+  - csharp
+  - vb
+  name: TaskCardAutoSpawn
+  nameWithType: TaskType.TaskCardAutoSpawn
+  fullName: TaskType.TaskCardAutoSpawn
+  type: Field
+  source:
+    id: TaskCardAutoSpawn
+    path: ''
+    startLine: 18693
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: TaskCardAutoSpawn = 5
+    return:
+      type: Global.TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.TaskType.MiniGameCard
+  commentId: F:Global.TaskType.MiniGameCard
+  id: MiniGameCard
+  parent: Global.TaskType
+  langs:
+  - csharp
+  - vb
+  name: MiniGameCard
+  nameWithType: TaskType.MiniGameCard
+  fullName: TaskType.MiniGameCard
+  type: Field
+  source:
+    id: MiniGameCard
+    path: ''
+    startLine: 18694
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MiniGameCard = 6
+    return:
+      type: Global.TaskType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.TaskType
+  commentId: T:Global.TaskType
+  name: TaskType
+  nameWithType: TaskType
+  fullName: TaskType

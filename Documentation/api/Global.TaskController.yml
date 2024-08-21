@@ -1,0 +1,278 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TaskController
+  commentId: T:Global.TaskController
+  id: TaskController
+  parent: Global
+  children:
+  - Global.TaskController.ActivateTask(ATask)
+  - Global.TaskController.ConstructTask(System.Int32)
+  - Global.TaskController.DeactivateTask(ATask)
+  - Global.TaskController.taskFactory
+  - Global.TaskController.unlockableLoader
+  - Global.TaskController.UnlockTaskUnlockables(UnlockableGroup)
+  langs:
+  - csharp
+  - vb
+  name: TaskController
+  nameWithType: TaskController
+  fullName: TaskController
+  type: Class
+  source:
+    id: TaskController
+    path: ''
+    startLine: 18426
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TaskController : MonoBehaviour'
+    content.vb: >-
+      Public Class TaskController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TaskController.taskFactory
+  commentId: F:Global.TaskController.taskFactory
+  id: taskFactory
+  parent: Global.TaskController
+  langs:
+  - csharp
+  - vb
+  name: taskFactory
+  nameWithType: TaskController.taskFactory
+  fullName: TaskController.taskFactory
+  type: Field
+  source:
+    id: taskFactory
+    path: ''
+    startLine: 18429
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskFactory taskFactory
+    return:
+      type: Global.TaskFactory
+    content.vb: Public taskFactory As TaskFactory
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskController.unlockableLoader
+  commentId: F:Global.TaskController.unlockableLoader
+  id: unlockableLoader
+  parent: Global.TaskController
+  langs:
+  - csharp
+  - vb
+  name: unlockableLoader
+  nameWithType: TaskController.unlockableLoader
+  fullName: TaskController.unlockableLoader
+  type: Field
+  source:
+    id: unlockableLoader
+    path: ''
+    startLine: 18430
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnlockableLoader unlockableLoader
+    return:
+      type: Global.UnlockableLoader
+    content.vb: Public unlockableLoader As UnlockableLoader
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskController.ConstructTask(System.Int32)
+  commentId: M:Global.TaskController.ConstructTask(System.Int32)
+  id: ConstructTask(System.Int32)
+  parent: Global.TaskController
+  langs:
+  - csharp
+  - vb
+  name: ConstructTask(Int32)
+  nameWithType: TaskController.ConstructTask(Int32)
+  fullName: TaskController.ConstructTask(System.Int32)
+  type: Method
+  source:
+    id: ConstructTask
+    path: ''
+    startLine: 18459
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ConstructTask(int taskIndex)
+    parameters:
+    - id: taskIndex
+      type: System.Int32
+    content.vb: Public Sub ConstructTask(taskIndex As Integer)
+  overload: Global.TaskController.ConstructTask*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskController.ActivateTask(ATask)
+  commentId: M:Global.TaskController.ActivateTask(ATask)
+  id: ActivateTask(ATask)
+  parent: Global.TaskController
+  langs:
+  - csharp
+  - vb
+  name: ActivateTask(ATask)
+  nameWithType: TaskController.ActivateTask(ATask)
+  fullName: TaskController.ActivateTask(ATask)
+  type: Method
+  source:
+    id: ActivateTask
+    path: ''
+    startLine: 18470
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ActivateTask(ATask task)
+    parameters:
+    - id: task
+      type: Global.ATask
+    content.vb: Public Sub ActivateTask(task As ATask)
+  overload: Global.TaskController.ActivateTask*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskController.DeactivateTask(ATask)
+  commentId: M:Global.TaskController.DeactivateTask(ATask)
+  id: DeactivateTask(ATask)
+  parent: Global.TaskController
+  langs:
+  - csharp
+  - vb
+  name: DeactivateTask(ATask)
+  nameWithType: TaskController.DeactivateTask(ATask)
+  fullName: TaskController.DeactivateTask(ATask)
+  type: Method
+  source:
+    id: DeactivateTask
+    path: ''
+    startLine: 18476
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DeactivateTask(ATask task)
+    parameters:
+    - id: task
+      type: Global.ATask
+    content.vb: Public Sub DeactivateTask(task As ATask)
+  overload: Global.TaskController.DeactivateTask*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskController.UnlockTaskUnlockables(UnlockableGroup)
+  commentId: M:Global.TaskController.UnlockTaskUnlockables(UnlockableGroup)
+  id: UnlockTaskUnlockables(UnlockableGroup)
+  parent: Global.TaskController
+  langs:
+  - csharp
+  - vb
+  name: UnlockTaskUnlockables(UnlockableGroup)
+  nameWithType: TaskController.UnlockTaskUnlockables(UnlockableGroup)
+  fullName: TaskController.UnlockTaskUnlockables(UnlockableGroup)
+  type: Method
+  source:
+    id: UnlockTaskUnlockables
+    path: ''
+    startLine: 18488
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void UnlockTaskUnlockables(UnlockableGroup unlockableGroup)
+    parameters:
+    - id: unlockableGroup
+      type: Global.UnlockableGroup
+    content.vb: Public Sub UnlockTaskUnlockables(unlockableGroup As UnlockableGroup)
+  overload: Global.TaskController.UnlockTaskUnlockables*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TaskFactory
+  commentId: T:Global.TaskFactory
+  name: TaskFactory
+  nameWithType: TaskFactory
+  fullName: TaskFactory
+- uid: Global.UnlockableLoader
+  commentId: T:Global.UnlockableLoader
+  name: UnlockableLoader
+  nameWithType: UnlockableLoader
+  fullName: UnlockableLoader
+- uid: Global.TaskController.ConstructTask*
+  commentId: Overload:Global.TaskController.ConstructTask
+  name: ConstructTask
+  nameWithType: TaskController.ConstructTask
+  fullName: TaskController.ConstructTask
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.TaskController.ActivateTask*
+  commentId: Overload:Global.TaskController.ActivateTask
+  name: ActivateTask
+  nameWithType: TaskController.ActivateTask
+  fullName: TaskController.ActivateTask
+- uid: Global.ATask
+  commentId: T:Global.ATask
+  name: ATask
+  nameWithType: ATask
+  fullName: ATask
+- uid: Global.TaskController.DeactivateTask*
+  commentId: Overload:Global.TaskController.DeactivateTask
+  name: DeactivateTask
+  nameWithType: TaskController.DeactivateTask
+  fullName: TaskController.DeactivateTask
+- uid: Global.TaskController.UnlockTaskUnlockables*
+  commentId: Overload:Global.TaskController.UnlockTaskUnlockables
+  name: UnlockTaskUnlockables
+  nameWithType: TaskController.UnlockTaskUnlockables
+  fullName: TaskController.UnlockTaskUnlockables
+- uid: Global.UnlockableGroup
+  commentId: T:Global.UnlockableGroup
+  name: UnlockableGroup
+  nameWithType: UnlockableGroup
+  fullName: UnlockableGroup

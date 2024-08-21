@@ -1,0 +1,553 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MunicipalityLookup
+  commentId: T:Global.MunicipalityLookup
+  id: MunicipalityLookup
+  parent: Global
+  children:
+  - Global.MunicipalityLookup.Awake
+  langs:
+  - csharp
+  - vb
+  name: MunicipalityLookup
+  nameWithType: MunicipalityLookup
+  fullName: MunicipalityLookup
+  type: Class
+  source:
+    id: MunicipalityLookup
+    path: ''
+    startLine: 22878
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MunicipalityLookup : JsonLookup<string, Municipality, Municipalities>'
+    content.vb: >-
+      Public Class MunicipalityLookup
+          Inherits JsonLookup(Of String, Municipality, Municipalities)
+  inheritance:
+  - System.Object
+  - Global.Singleton{JsonLookup{System.String,Municipality,Municipalities}}
+  - Global.JsonLookup{System.String,Municipality,Municipalities}
+  inheritedMembers:
+  - Global.JsonLookup{System.String,Municipality,Municipalities}.sourceData
+  - Global.JsonLookup{System.String,Municipality,Municipalities}.keyName
+  - Global.JsonLookup{System.String,Municipality,Municipalities}.lookup
+  - Global.JsonLookup{System.String,Municipality,Municipalities}.Awake
+  - Global.JsonLookup{System.String,Municipality,Municipalities}.GetAt(System.String)
+  - Global.Singleton{JsonLookup{System.String,Municipality,Municipalities}}.Instance
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MunicipalityLookup.Awake
+  commentId: M:Global.MunicipalityLookup.Awake
+  id: Awake
+  parent: Global.MunicipalityLookup
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: MunicipalityLookup.Awake()
+  fullName: MunicipalityLookup.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 22880
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: Global.JsonLookup{System.String,Municipality,Municipalities}.Awake
+  overload: Global.MunicipalityLookup.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Singleton{JsonLookup{System.String,Municipality,Municipalities}}
+  commentId: T:Global.Singleton{JsonLookup{System.String,Municipality,Municipalities}}
+  definition: Global.Singleton`1
+  name: Singleton<JsonLookup<String, Municipality, Municipalities>>
+  nameWithType: Singleton<JsonLookup<String, Municipality, Municipalities>>
+  fullName: Singleton<JsonLookup<System.String, Municipality, Municipalities>>
+  nameWithType.vb: Singleton(Of JsonLookup(Of String, Municipality, Municipalities))
+  fullName.vb: Singleton(Of JsonLookup(Of System.String, Municipality, Municipalities))
+  name.vb: Singleton(Of JsonLookup(Of String, Municipality, Municipalities))
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Municipality
+    name: Municipality
+    nameWithType: Municipality
+    fullName: Municipality
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Municipalities
+    name: Municipalities
+    nameWithType: Municipalities
+    fullName: Municipalities
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Municipality
+    name: Municipality
+    nameWithType: Municipality
+    fullName: Municipality
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Municipalities
+    name: Municipalities
+    nameWithType: Municipalities
+    fullName: Municipalities
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.JsonLookup{System.String,Municipality,Municipalities}
+  commentId: T:Global.JsonLookup{System.String,Municipality,Municipalities}
+  definition: Global.JsonLookup`3
+  name: JsonLookup<String, Municipality, Municipalities>
+  nameWithType: JsonLookup<String, Municipality, Municipalities>
+  fullName: JsonLookup<System.String, Municipality, Municipalities>
+  nameWithType.vb: JsonLookup(Of String, Municipality, Municipalities)
+  fullName.vb: JsonLookup(Of System.String, Municipality, Municipalities)
+  name.vb: JsonLookup(Of String, Municipality, Municipalities)
+  spec.csharp:
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Municipality
+    name: Municipality
+    nameWithType: Municipality
+    fullName: Municipality
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Municipalities
+    name: Municipalities
+    nameWithType: Municipalities
+    fullName: Municipalities
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Municipality
+    name: Municipality
+    nameWithType: Municipality
+    fullName: Municipality
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.Municipalities
+    name: Municipalities
+    nameWithType: Municipalities
+    fullName: Municipalities
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.JsonLookup{System.String,Municipality,Municipalities}.sourceData
+  commentId: F:Global.JsonLookup{System.String,Municipality,Municipalities}.sourceData
+  parent: Global.JsonLookup{System.String,Municipality,Municipalities}
+  definition: Global.JsonLookup`3.sourceData
+  name: sourceData
+  nameWithType: JsonLookup<String, Municipality, Municipalities>.sourceData
+  fullName: JsonLookup<System.String, Municipality, Municipalities>.sourceData
+  nameWithType.vb: JsonLookup(Of String, Municipality, Municipalities).sourceData
+  fullName.vb: JsonLookup(Of System.String, Municipality, Municipalities).sourceData
+- uid: Global.JsonLookup{System.String,Municipality,Municipalities}.keyName
+  commentId: F:Global.JsonLookup{System.String,Municipality,Municipalities}.keyName
+  parent: Global.JsonLookup{System.String,Municipality,Municipalities}
+  definition: Global.JsonLookup`3.keyName
+  name: keyName
+  nameWithType: JsonLookup<String, Municipality, Municipalities>.keyName
+  fullName: JsonLookup<System.String, Municipality, Municipalities>.keyName
+  nameWithType.vb: JsonLookup(Of String, Municipality, Municipalities).keyName
+  fullName.vb: JsonLookup(Of System.String, Municipality, Municipalities).keyName
+- uid: Global.JsonLookup{System.String,Municipality,Municipalities}.lookup
+  commentId: F:Global.JsonLookup{System.String,Municipality,Municipalities}.lookup
+  parent: Global.JsonLookup{System.String,Municipality,Municipalities}
+  definition: Global.JsonLookup`3.lookup
+  name: lookup
+  nameWithType: JsonLookup<String, Municipality, Municipalities>.lookup
+  fullName: JsonLookup<System.String, Municipality, Municipalities>.lookup
+  nameWithType.vb: JsonLookup(Of String, Municipality, Municipalities).lookup
+  fullName.vb: JsonLookup(Of System.String, Municipality, Municipalities).lookup
+- uid: Global.JsonLookup{System.String,Municipality,Municipalities}.Awake
+  commentId: M:Global.JsonLookup{System.String,Municipality,Municipalities}.Awake
+  parent: Global.JsonLookup{System.String,Municipality,Municipalities}
+  definition: Global.JsonLookup`3.Awake
+  name: Awake()
+  nameWithType: JsonLookup<String, Municipality, Municipalities>.Awake()
+  fullName: JsonLookup<System.String, Municipality, Municipalities>.Awake()
+  nameWithType.vb: JsonLookup(Of String, Municipality, Municipalities).Awake()
+  fullName.vb: JsonLookup(Of System.String, Municipality, Municipalities).Awake()
+  spec.csharp:
+  - uid: Global.JsonLookup`3.Awake
+    name: Awake
+    nameWithType: JsonLookup<String, Municipality, Municipalities>.Awake
+    fullName: JsonLookup<System.String, Municipality, Municipalities>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.JsonLookup`3.Awake
+    name: Awake
+    nameWithType: JsonLookup(Of String, Municipality, Municipalities).Awake
+    fullName: JsonLookup(Of System.String, Municipality, Municipalities).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.JsonLookup{System.String,Municipality,Municipalities}.GetAt(System.String)
+  commentId: M:Global.JsonLookup{System.String,Municipality,Municipalities}.GetAt(System.String)
+  parent: Global.JsonLookup{System.String,Municipality,Municipalities}
+  definition: Global.JsonLookup`3.GetAt(`0)
+  name: GetAt(String)
+  nameWithType: JsonLookup<String, Municipality, Municipalities>.GetAt(String)
+  fullName: JsonLookup<System.String, Municipality, Municipalities>.GetAt(System.String)
+  nameWithType.vb: JsonLookup(Of String, Municipality, Municipalities).GetAt(String)
+  fullName.vb: JsonLookup(Of System.String, Municipality, Municipalities).GetAt(System.String)
+  spec.csharp:
+  - uid: Global.JsonLookup`3.GetAt(`0)
+    name: GetAt
+    nameWithType: JsonLookup<String, Municipality, Municipalities>.GetAt
+    fullName: JsonLookup<System.String, Municipality, Municipalities>.GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.JsonLookup`3.GetAt(`0)
+    name: GetAt
+    nameWithType: JsonLookup(Of String, Municipality, Municipalities).GetAt
+    fullName: JsonLookup(Of System.String, Municipality, Municipalities).GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{JsonLookup{System.String,Municipality,Municipalities}}.Instance
+  commentId: P:Global.Singleton{JsonLookup{System.String,Municipality,Municipalities}}.Instance
+  parent: Global.Singleton{JsonLookup{System.String,Municipality,Municipalities}}
+  definition: Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<JsonLookup<String, Municipality, Municipalities>>.Instance
+  fullName: Singleton<JsonLookup<System.String, Municipality, Municipalities>>.Instance
+  nameWithType.vb: Singleton(Of JsonLookup(Of String, Municipality, Municipalities)).Instance
+  fullName.vb: Singleton(Of JsonLookup(Of System.String, Municipality, Municipalities)).Instance
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton`1
+  commentId: T:Global.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.JsonLookup`3
+  commentId: T:Global.JsonLookup`3
+  name: JsonLookup<K, V, S>
+  nameWithType: JsonLookup<K, V, S>
+  fullName: JsonLookup<K, V, S>
+  nameWithType.vb: JsonLookup(Of K, V, S)
+  fullName.vb: JsonLookup(Of K, V, S)
+  name.vb: JsonLookup(Of K, V, S)
+  spec.csharp:
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.JsonLookup`3.sourceData
+  commentId: F:Global.JsonLookup`3.sourceData
+  name: sourceData
+  nameWithType: JsonLookup<K, V, S>.sourceData
+  fullName: JsonLookup<K, V, S>.sourceData
+  nameWithType.vb: JsonLookup(Of K, V, S).sourceData
+  fullName.vb: JsonLookup(Of K, V, S).sourceData
+- uid: Global.JsonLookup`3.keyName
+  commentId: F:Global.JsonLookup`3.keyName
+  name: keyName
+  nameWithType: JsonLookup<K, V, S>.keyName
+  fullName: JsonLookup<K, V, S>.keyName
+  nameWithType.vb: JsonLookup(Of K, V, S).keyName
+  fullName.vb: JsonLookup(Of K, V, S).keyName
+- uid: Global.JsonLookup`3.lookup
+  commentId: F:Global.JsonLookup`3.lookup
+  name: lookup
+  nameWithType: JsonLookup<K, V, S>.lookup
+  fullName: JsonLookup<K, V, S>.lookup
+  nameWithType.vb: JsonLookup(Of K, V, S).lookup
+  fullName.vb: JsonLookup(Of K, V, S).lookup
+- uid: Global.JsonLookup`3.Awake
+  commentId: M:Global.JsonLookup`3.Awake
+  name: Awake()
+  nameWithType: JsonLookup<K, V, S>.Awake()
+  fullName: JsonLookup<K, V, S>.Awake()
+  nameWithType.vb: JsonLookup(Of K, V, S).Awake()
+  fullName.vb: JsonLookup(Of K, V, S).Awake()
+  spec.csharp:
+  - uid: Global.JsonLookup`3.Awake
+    name: Awake
+    nameWithType: JsonLookup<K, V, S>.Awake
+    fullName: JsonLookup<K, V, S>.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.JsonLookup`3.Awake
+    name: Awake
+    nameWithType: JsonLookup(Of K, V, S).Awake
+    fullName: JsonLookup(Of K, V, S).Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.JsonLookup`3.GetAt(`0)
+  commentId: M:Global.JsonLookup`3.GetAt(`0)
+  name: GetAt(K)
+  nameWithType: JsonLookup<K, V, S>.GetAt(K)
+  fullName: JsonLookup<K, V, S>.GetAt(K)
+  nameWithType.vb: JsonLookup(Of K, V, S).GetAt(K)
+  fullName.vb: JsonLookup(Of K, V, S).GetAt(K)
+  spec.csharp:
+  - uid: Global.JsonLookup`3.GetAt(`0)
+    name: GetAt
+    nameWithType: JsonLookup<K, V, S>.GetAt
+    fullName: JsonLookup<K, V, S>.GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.JsonLookup`3.GetAt(`0)
+    name: GetAt
+    nameWithType: JsonLookup(Of K, V, S).GetAt
+    fullName: JsonLookup(Of K, V, S).GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Instance
+  commentId: P:Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: Singleton(Of T).Instance
+- uid: Global.MunicipalityLookup.Awake*
+  commentId: Overload:Global.MunicipalityLookup.Awake
+  name: Awake
+  nameWithType: MunicipalityLookup.Awake
+  fullName: MunicipalityLookup.Awake

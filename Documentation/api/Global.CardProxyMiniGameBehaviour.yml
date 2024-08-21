@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CardProxyMiniGameBehaviour
+  commentId: T:Global.CardProxyMiniGameBehaviour
+  id: CardProxyMiniGameBehaviour
+  parent: Global
+  children:
+  - Global.CardProxyMiniGameBehaviour.Awake
+  - Global.CardProxyMiniGameBehaviour.DestroyCard
+  - Global.CardProxyMiniGameBehaviour.OnInteract
+  - Global.CardProxyMiniGameBehaviour.SetCardActive
+  langs:
+  - csharp
+  - vb
+  name: CardProxyMiniGameBehaviour
+  nameWithType: CardProxyMiniGameBehaviour
+  fullName: CardProxyMiniGameBehaviour
+  type: Class
+  source:
+    id: CardProxyMiniGameBehaviour
+    path: ''
+    startLine: 14677
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CardProxyMiniGameBehaviour : ACardProxyBehaviour'
+    content.vb: >-
+      Public Class CardProxyMiniGameBehaviour
+          Inherits ACardProxyBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CardProxyMiniGameBehaviour.Awake
+  commentId: M:Global.CardProxyMiniGameBehaviour.Awake
+  id: Awake
+  parent: Global.CardProxyMiniGameBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: CardProxyMiniGameBehaviour.Awake()
+  fullName: CardProxyMiniGameBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 14679
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overload: Global.CardProxyMiniGameBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Global.CardProxyMiniGameBehaviour.OnInteract
+  commentId: M:Global.CardProxyMiniGameBehaviour.OnInteract
+  id: OnInteract
+  parent: Global.CardProxyMiniGameBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnInteract()
+  nameWithType: CardProxyMiniGameBehaviour.OnInteract()
+  fullName: CardProxyMiniGameBehaviour.OnInteract()
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 14685
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInteract()
+    content.vb: Public Overrides Sub OnInteract
+  overload: Global.CardProxyMiniGameBehaviour.OnInteract*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.CardProxyMiniGameBehaviour.SetCardActive
+  commentId: M:Global.CardProxyMiniGameBehaviour.SetCardActive
+  id: SetCardActive
+  parent: Global.CardProxyMiniGameBehaviour
+  langs:
+  - csharp
+  - vb
+  name: SetCardActive()
+  nameWithType: CardProxyMiniGameBehaviour.SetCardActive()
+  fullName: CardProxyMiniGameBehaviour.SetCardActive()
+  type: Method
+  source:
+    id: SetCardActive
+    path: ''
+    startLine: 14694
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetCardActive()
+    content.vb: Public Sub SetCardActive
+  overload: Global.CardProxyMiniGameBehaviour.SetCardActive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CardProxyMiniGameBehaviour.DestroyCard
+  commentId: M:Global.CardProxyMiniGameBehaviour.DestroyCard
+  id: DestroyCard
+  parent: Global.CardProxyMiniGameBehaviour
+  langs:
+  - csharp
+  - vb
+  name: DestroyCard()
+  nameWithType: CardProxyMiniGameBehaviour.DestroyCard()
+  fullName: CardProxyMiniGameBehaviour.DestroyCard()
+  type: Method
+  source:
+    id: DestroyCard
+    path: ''
+    startLine: 14699
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DestroyCard()
+    content.vb: Public Sub DestroyCard
+  overload: Global.CardProxyMiniGameBehaviour.DestroyCard*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CardProxyMiniGameBehaviour.Awake*
+  commentId: Overload:Global.CardProxyMiniGameBehaviour.Awake
+  name: Awake
+  nameWithType: CardProxyMiniGameBehaviour.Awake
+  fullName: CardProxyMiniGameBehaviour.Awake
+- uid: Global.CardProxyMiniGameBehaviour.OnInteract*
+  commentId: Overload:Global.CardProxyMiniGameBehaviour.OnInteract
+  name: OnInteract
+  nameWithType: CardProxyMiniGameBehaviour.OnInteract
+  fullName: CardProxyMiniGameBehaviour.OnInteract
+- uid: Global.CardProxyMiniGameBehaviour.SetCardActive*
+  commentId: Overload:Global.CardProxyMiniGameBehaviour.SetCardActive
+  name: SetCardActive
+  nameWithType: CardProxyMiniGameBehaviour.SetCardActive
+  fullName: CardProxyMiniGameBehaviour.SetCardActive
+- uid: Global.CardProxyMiniGameBehaviour.DestroyCard*
+  commentId: Overload:Global.CardProxyMiniGameBehaviour.DestroyCard
+  name: DestroyCard
+  nameWithType: CardProxyMiniGameBehaviour.DestroyCard
+  fullName: CardProxyMiniGameBehaviour.DestroyCard

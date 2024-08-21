@@ -1,0 +1,312 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UIPanelController
+  commentId: T:Global.UIPanelController
+  id: UIPanelController
+  parent: Global
+  children:
+  - Global.UIPanelController.activePanel
+  - Global.UIPanelController.OnDestroy
+  - Global.UIPanelController.OnRequestActiveUIPanel(System.Int32)
+  - Global.UIPanelController.panels
+  - Global.UIPanelController.Start
+  langs:
+  - csharp
+  - vb
+  name: UIPanelController
+  nameWithType: UIPanelController
+  fullName: UIPanelController
+  type: Class
+  source:
+    id: UIPanelController
+    path: ''
+    startLine: 20623
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UIPanelController : MonoBehaviour'
+    content.vb: >-
+      Public Class UIPanelController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UIPanelController.panels
+  commentId: F:Global.UIPanelController.panels
+  id: panels
+  parent: Global.UIPanelController
+  langs:
+  - csharp
+  - vb
+  name: panels
+  nameWithType: UIPanelController.panels
+  fullName: UIPanelController.panels
+  type: Field
+  source:
+    id: panels
+    path: ''
+    startLine: 20626
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> panels
+    return:
+      type: Global.List{GameObject}
+    content.vb: Public panels As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UIPanelController.activePanel
+  commentId: P:Global.UIPanelController.activePanel
+  id: activePanel
+  parent: Global.UIPanelController
+  langs:
+  - csharp
+  - vb
+  name: activePanel
+  nameWithType: UIPanelController.activePanel
+  fullName: UIPanelController.activePanel
+  type: Property
+  source:
+    id: activePanel
+    path: ''
+    startLine: 20629
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject activePanel { get; set; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public Property activePanel As GameObject
+  overload: Global.UIPanelController.activePanel*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.UIPanelController.Start
+  commentId: M:Global.UIPanelController.Start
+  id: Start
+  parent: Global.UIPanelController
+  langs:
+  - csharp
+  - vb
+  name: Start()
+  nameWithType: UIPanelController.Start()
+  fullName: UIPanelController.Start()
+  type: Method
+  source:
+    id: Start
+    path: ''
+    startLine: 20640
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Start()
+    content.vb: Public Sub Start
+  overload: Global.UIPanelController.Start*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UIPanelController.OnDestroy
+  commentId: M:Global.UIPanelController.OnDestroy
+  id: OnDestroy
+  parent: Global.UIPanelController
+  langs:
+  - csharp
+  - vb
+  name: OnDestroy()
+  nameWithType: UIPanelController.OnDestroy()
+  fullName: UIPanelController.OnDestroy()
+  type: Method
+  source:
+    id: OnDestroy
+    path: ''
+    startLine: 20647
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnDestroy()
+    content.vb: Public Sub OnDestroy
+  overload: Global.UIPanelController.OnDestroy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UIPanelController.OnRequestActiveUIPanel(System.Int32)
+  commentId: M:Global.UIPanelController.OnRequestActiveUIPanel(System.Int32)
+  id: OnRequestActiveUIPanel(System.Int32)
+  parent: Global.UIPanelController
+  langs:
+  - csharp
+  - vb
+  name: OnRequestActiveUIPanel(Int32)
+  nameWithType: UIPanelController.OnRequestActiveUIPanel(Int32)
+  fullName: UIPanelController.OnRequestActiveUIPanel(System.Int32)
+  type: Method
+  source:
+    id: OnRequestActiveUIPanel
+    path: ''
+    startLine: 20652
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRequestActiveUIPanel(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub OnRequestActiveUIPanel(index As Integer)
+  overload: Global.UIPanelController.OnRequestActiveUIPanel*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{GameObject}
+  commentId: '!:Global.List{GameObject}'
+  definition: Global.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.UIPanelController.activePanel*
+  commentId: Overload:Global.UIPanelController.activePanel
+  name: activePanel
+  nameWithType: UIPanelController.activePanel
+  fullName: UIPanelController.activePanel
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.UIPanelController.Start*
+  commentId: Overload:Global.UIPanelController.Start
+  name: Start
+  nameWithType: UIPanelController.Start
+  fullName: UIPanelController.Start
+- uid: Global.UIPanelController.OnDestroy*
+  commentId: Overload:Global.UIPanelController.OnDestroy
+  name: OnDestroy
+  nameWithType: UIPanelController.OnDestroy
+  fullName: UIPanelController.OnDestroy
+- uid: Global.UIPanelController.OnRequestActiveUIPanel*
+  commentId: Overload:Global.UIPanelController.OnRequestActiveUIPanel
+  name: OnRequestActiveUIPanel
+  nameWithType: UIPanelController.OnRequestActiveUIPanel
+  fullName: UIPanelController.OnRequestActiveUIPanel
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

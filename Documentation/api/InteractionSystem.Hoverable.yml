@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Hoverable
+  commentId: N:InteractionSystem.Hoverable
+  id: InteractionSystem.Hoverable
+  children:
+  - InteractionSystem.Hoverable.AHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InteractionSystem.Hoverable
+  nameWithType: InteractionSystem.Hoverable
+  fullName: InteractionSystem.Hoverable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: InteractionSystem.Hoverable.AHoverBehaviour
+  commentId: T:InteractionSystem.Hoverable.AHoverBehaviour
+  name: AHoverBehaviour
+  nameWithType: AHoverBehaviour
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour

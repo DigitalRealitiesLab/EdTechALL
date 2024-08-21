@@ -1,0 +1,422 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingBoxData
+  commentId: T:BuildingBox.BuildingBoxData
+  id: BuildingBoxData
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingBoxData.activeBuildingArea
+  - BuildingBox.BuildingBoxData.buildingBoxElements
+  - BuildingBox.BuildingBoxData.buildingBoxEnabled
+  - BuildingBox.BuildingBoxData.destroyModeEnabled
+  - BuildingBox.BuildingBoxData.goalGain
+  - BuildingBox.BuildingBoxData.isResourcesBased
+  - BuildingBox.BuildingBoxData.resources
+  - BuildingBox.BuildingBoxData.spawnInHand
+  - BuildingBox.BuildingBoxData.UIPrefab
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxData
+  nameWithType: BuildingBoxData
+  fullName: BuildingBox.BuildingBoxData
+  type: Class
+  source:
+    id: BuildingBoxData
+    path: ''
+    startLine: 789
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class BuildingBoxData : ScriptableObject'
+    content.vb: >-
+      Public Class BuildingBoxData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingBoxData.buildingBoxEnabled
+  commentId: F:BuildingBox.BuildingBoxData.buildingBoxEnabled
+  id: buildingBoxEnabled
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: buildingBoxEnabled
+  nameWithType: BuildingBoxData.buildingBoxEnabled
+  fullName: BuildingBox.BuildingBoxData.buildingBoxEnabled
+  type: Field
+  source:
+    id: buildingBoxEnabled
+    path: ''
+    startLine: 792
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static bool buildingBoxEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public Shared buildingBoxEnabled As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BuildingBox.BuildingBoxData.destroyModeEnabled
+  commentId: F:BuildingBox.BuildingBoxData.destroyModeEnabled
+  id: destroyModeEnabled
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: destroyModeEnabled
+  nameWithType: BuildingBoxData.destroyModeEnabled
+  fullName: BuildingBox.BuildingBoxData.destroyModeEnabled
+  type: Field
+  source:
+    id: destroyModeEnabled
+    path: ''
+    startLine: 793
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static bool destroyModeEnabled
+    return:
+      type: System.Boolean
+    content.vb: Public Shared destroyModeEnabled As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BuildingBox.BuildingBoxData.buildingBoxElements
+  commentId: F:BuildingBox.BuildingBoxData.buildingBoxElements
+  id: buildingBoxElements
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: buildingBoxElements
+  nameWithType: BuildingBoxData.buildingBoxElements
+  fullName: BuildingBox.BuildingBoxData.buildingBoxElements
+  type: Field
+  source:
+    id: buildingBoxElements
+    path: ''
+    startLine: 795
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public List<BuildingBoxElementData> buildingBoxElements
+    return:
+      type: Global.List{BuildingBox.BuildingBoxElementData}
+    content.vb: Public buildingBoxElements As List(Of BuildingBoxElementData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxData.resources
+  commentId: F:BuildingBox.BuildingBoxData.resources
+  id: resources
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: resources
+  nameWithType: BuildingBoxData.resources
+  fullName: BuildingBox.BuildingBoxData.resources
+  type: Field
+  source:
+    id: resources
+    path: ''
+    startLine: 796
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int resources
+    return:
+      type: System.Int32
+    content.vb: Public resources As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxData.goalGain
+  commentId: F:BuildingBox.BuildingBoxData.goalGain
+  id: goalGain
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: goalGain
+  nameWithType: BuildingBoxData.goalGain
+  fullName: BuildingBox.BuildingBoxData.goalGain
+  type: Field
+  source:
+    id: goalGain
+    path: ''
+    startLine: 797
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int goalGain
+    return:
+      type: System.Int32
+    content.vb: Public goalGain As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxData.UIPrefab
+  commentId: F:BuildingBox.BuildingBoxData.UIPrefab
+  id: UIPrefab
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: UIPrefab
+  nameWithType: BuildingBoxData.UIPrefab
+  fullName: BuildingBox.BuildingBoxData.UIPrefab
+  type: Field
+  source:
+    id: UIPrefab
+    path: ''
+    startLine: 798
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public GameObject UIPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public UIPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxData.spawnInHand
+  commentId: F:BuildingBox.BuildingBoxData.spawnInHand
+  id: spawnInHand
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: spawnInHand
+  nameWithType: BuildingBoxData.spawnInHand
+  fullName: BuildingBox.BuildingBoxData.spawnInHand
+  type: Field
+  source:
+    id: spawnInHand
+    path: ''
+    startLine: 799
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public bool spawnInHand
+    return:
+      type: System.Boolean
+    content.vb: Public spawnInHand As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxData.isResourcesBased
+  commentId: P:BuildingBox.BuildingBoxData.isResourcesBased
+  id: isResourcesBased
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: isResourcesBased
+  nameWithType: BuildingBoxData.isResourcesBased
+  fullName: BuildingBox.BuildingBoxData.isResourcesBased
+  type: Property
+  source:
+    id: isResourcesBased
+    path: ''
+    startLine: 801
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public bool isResourcesBased { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isResourcesBased As Boolean
+  overload: BuildingBox.BuildingBoxData.isResourcesBased*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.BuildingBoxData.activeBuildingArea
+  commentId: F:BuildingBox.BuildingBoxData.activeBuildingArea
+  id: activeBuildingArea
+  parent: BuildingBox.BuildingBoxData
+  langs:
+  - csharp
+  - vb
+  name: activeBuildingArea
+  nameWithType: BuildingBoxData.activeBuildingArea
+  fullName: BuildingBox.BuildingBoxData.activeBuildingArea
+  type: Field
+  source:
+    id: activeBuildingArea
+    path: ''
+    startLine: 802
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingArea activeBuildingArea
+    return:
+      type: BuildingBox.BuildingArea
+    content.vb: Public activeBuildingArea As BuildingArea
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.List{BuildingBox.BuildingBoxElementData}
+  commentId: '!:Global.List{BuildingBox.BuildingBoxElementData}'
+  definition: Global.List`1
+  name: List<BuildingBoxElementData>
+  nameWithType: List<BuildingBoxElementData>
+  fullName: List<BuildingBox.BuildingBoxElementData>
+  nameWithType.vb: List(Of BuildingBoxElementData)
+  fullName.vb: List(Of BuildingBox.BuildingBoxElementData)
+  name.vb: List(Of BuildingBoxElementData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: BuildingBox.BuildingBoxElementData
+    name: BuildingBoxElementData
+    nameWithType: BuildingBoxElementData
+    fullName: BuildingBox.BuildingBoxElementData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: BuildingBox.BuildingBoxElementData
+    name: BuildingBoxElementData
+    nameWithType: BuildingBoxElementData
+    fullName: BuildingBox.BuildingBoxElementData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: BuildingBox.BuildingBoxData.isResourcesBased*
+  commentId: Overload:BuildingBox.BuildingBoxData.isResourcesBased
+  name: isResourcesBased
+  nameWithType: BuildingBoxData.isResourcesBased
+  fullName: BuildingBox.BuildingBoxData.isResourcesBased
+- uid: BuildingBox.BuildingArea
+  commentId: T:BuildingBox.BuildingArea
+  parent: BuildingBox
+  name: BuildingArea
+  nameWithType: BuildingArea
+  fullName: BuildingBox.BuildingArea

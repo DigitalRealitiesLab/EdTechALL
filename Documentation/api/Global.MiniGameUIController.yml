@@ -1,0 +1,780 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniGameUIController
+  commentId: T:Global.MiniGameUIController
+  id: MiniGameUIController
+  parent: Global
+  children:
+  - Global.MiniGameUIController.abortButton
+  - Global.MiniGameUIController.abortUI
+  - Global.MiniGameUIController.activeMiniGameWindow
+  - Global.MiniGameUIController.currentGameUIPanel
+  - Global.MiniGameUIController.gameUIPanels
+  - Global.MiniGameUIController.miniGameManager
+  - Global.MiniGameUIController.miniGameWindows
+  - Global.MiniGameUIController.OnAbortAbort
+  - Global.MiniGameUIController.OnAbortConfirm
+  - Global.MiniGameUIController.OnDisplayCardRequest(ProxyCardData)
+  - Global.MiniGameUIController.OnRequestAbortWindow
+  - Global.MiniGameUIController.OnRequestPromptWindow
+  - Global.MiniGameUIController.OnRequestScoreWindow
+  - Global.MiniGameUIController.OnRequestStartWindow
+  - Global.MiniGameUIController.OnScoreConfirm
+  - Global.MiniGameUIController.OnStartAbort
+  - Global.MiniGameUIController.OnStartConfirm
+  - Global.MiniGameUIController.promptUI
+  - Global.MiniGameUIController.scoreUI
+  - Global.MiniGameUIController.startUI
+  langs:
+  - csharp
+  - vb
+  name: MiniGameUIController
+  nameWithType: MiniGameUIController
+  fullName: MiniGameUIController
+  type: Class
+  source:
+    id: MiniGameUIController
+    path: ''
+    startLine: 14960
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MiniGameUIController : MonoBehaviour'
+    content.vb: >-
+      Public Class MiniGameUIController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MiniGameUIController.miniGameManager
+  commentId: F:Global.MiniGameUIController.miniGameManager
+  id: miniGameManager
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: miniGameManager
+  nameWithType: MiniGameUIController.miniGameManager
+  fullName: MiniGameUIController.miniGameManager
+  type: Field
+  source:
+    id: miniGameManager
+    path: ''
+    startLine: 14962
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameManager miniGameManager
+    return:
+      type: Global.MiniGameManager
+    content.vb: Public miniGameManager As MiniGameManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.abortButton
+  commentId: F:Global.MiniGameUIController.abortButton
+  id: abortButton
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: abortButton
+  nameWithType: MiniGameUIController.abortButton
+  fullName: MiniGameUIController.abortButton
+  type: Field
+  source:
+    id: abortButton
+    path: ''
+    startLine: 14963
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button abortButton
+    return:
+      type: Global.Button
+    content.vb: Public abortButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.startUI
+  commentId: F:Global.MiniGameUIController.startUI
+  id: startUI
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: startUI
+  nameWithType: MiniGameUIController.startUI
+  fullName: MiniGameUIController.startUI
+  type: Field
+  source:
+    id: startUI
+    path: ''
+    startLine: 14964
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameStartUI startUI
+    return:
+      type: Global.MiniGameStartUI
+    content.vb: Public startUI As MiniGameStartUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.abortUI
+  commentId: F:Global.MiniGameUIController.abortUI
+  id: abortUI
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: abortUI
+  nameWithType: MiniGameUIController.abortUI
+  fullName: MiniGameUIController.abortUI
+  type: Field
+  source:
+    id: abortUI
+    path: ''
+    startLine: 14965
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameAbortUI abortUI
+    return:
+      type: Global.MiniGameAbortUI
+    content.vb: Public abortUI As MiniGameAbortUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.scoreUI
+  commentId: F:Global.MiniGameUIController.scoreUI
+  id: scoreUI
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: scoreUI
+  nameWithType: MiniGameUIController.scoreUI
+  fullName: MiniGameUIController.scoreUI
+  type: Field
+  source:
+    id: scoreUI
+    path: ''
+    startLine: 14966
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameScoreUI scoreUI
+    return:
+      type: Global.MiniGameScoreUI
+    content.vb: Public scoreUI As MiniGameScoreUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.promptUI
+  commentId: F:Global.MiniGameUIController.promptUI
+  id: promptUI
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: promptUI
+  nameWithType: MiniGameUIController.promptUI
+  fullName: MiniGameUIController.promptUI
+  type: Field
+  source:
+    id: promptUI
+    path: ''
+    startLine: 14967
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGamePromptUI promptUI
+    return:
+      type: Global.MiniGamePromptUI
+    content.vb: Public promptUI As MiniGamePromptUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.activeMiniGameWindow
+  commentId: P:Global.MiniGameUIController.activeMiniGameWindow
+  id: activeMiniGameWindow
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: activeMiniGameWindow
+  nameWithType: MiniGameUIController.activeMiniGameWindow
+  fullName: MiniGameUIController.activeMiniGameWindow
+  type: Property
+  source:
+    id: activeMiniGameWindow
+    path: ''
+    startLine: 14969
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AMiniGameWindow activeMiniGameWindow { get; set; }
+    parameters: []
+    return:
+      type: Global.AMiniGameWindow
+    content.vb: Public Property activeMiniGameWindow As AMiniGameWindow
+  overload: Global.MiniGameUIController.activeMiniGameWindow*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.gameUIPanels
+  commentId: F:Global.MiniGameUIController.gameUIPanels
+  id: gameUIPanels
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: gameUIPanels
+  nameWithType: MiniGameUIController.gameUIPanels
+  fullName: MiniGameUIController.gameUIPanels
+  type: Field
+  source:
+    id: gameUIPanels
+    path: ''
+    startLine: 14992
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject[] gameUIPanels
+    return:
+      type: Global.GameObject[]
+    content.vb: Public gameUIPanels As GameObject()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.currentGameUIPanel
+  commentId: P:Global.MiniGameUIController.currentGameUIPanel
+  id: currentGameUIPanel
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: currentGameUIPanel
+  nameWithType: MiniGameUIController.currentGameUIPanel
+  fullName: MiniGameUIController.currentGameUIPanel
+  type: Property
+  source:
+    id: currentGameUIPanel
+    path: ''
+    startLine: 14993
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject currentGameUIPanel { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public ReadOnly Property currentGameUIPanel As GameObject
+  overload: Global.MiniGameUIController.currentGameUIPanel*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.MiniGameUIController.miniGameWindows
+  commentId: P:Global.MiniGameUIController.miniGameWindows
+  id: miniGameWindows
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: miniGameWindows
+  nameWithType: MiniGameUIController.miniGameWindows
+  fullName: MiniGameUIController.miniGameWindows
+  type: Property
+  source:
+    id: miniGameWindows
+    path: ''
+    startLine: 15004
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AMiniGameWindow[] miniGameWindows { get; }
+    parameters: []
+    return:
+      type: Global.AMiniGameWindow[]
+    content.vb: Public ReadOnly Property miniGameWindows As AMiniGameWindow()
+  overload: Global.MiniGameUIController.miniGameWindows*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.MiniGameUIController.OnDisplayCardRequest(ProxyCardData)
+  commentId: M:Global.MiniGameUIController.OnDisplayCardRequest(ProxyCardData)
+  id: OnDisplayCardRequest(ProxyCardData)
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnDisplayCardRequest(ProxyCardData)
+  nameWithType: MiniGameUIController.OnDisplayCardRequest(ProxyCardData)
+  fullName: MiniGameUIController.OnDisplayCardRequest(ProxyCardData)
+  type: Method
+  source:
+    id: OnDisplayCardRequest
+    path: ''
+    startLine: 15023
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnDisplayCardRequest(ProxyCardData proxyCardData)
+    parameters:
+    - id: proxyCardData
+      type: Global.ProxyCardData
+    content.vb: Public Sub OnDisplayCardRequest(proxyCardData As ProxyCardData)
+  overload: Global.MiniGameUIController.OnDisplayCardRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnRequestStartWindow
+  commentId: M:Global.MiniGameUIController.OnRequestStartWindow
+  id: OnRequestStartWindow
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnRequestStartWindow()
+  nameWithType: MiniGameUIController.OnRequestStartWindow()
+  fullName: MiniGameUIController.OnRequestStartWindow()
+  type: Method
+  source:
+    id: OnRequestStartWindow
+    path: ''
+    startLine: 15037
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRequestStartWindow()
+    content.vb: Public Sub OnRequestStartWindow
+  overload: Global.MiniGameUIController.OnRequestStartWindow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnRequestScoreWindow
+  commentId: M:Global.MiniGameUIController.OnRequestScoreWindow
+  id: OnRequestScoreWindow
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnRequestScoreWindow()
+  nameWithType: MiniGameUIController.OnRequestScoreWindow()
+  fullName: MiniGameUIController.OnRequestScoreWindow()
+  type: Method
+  source:
+    id: OnRequestScoreWindow
+    path: ''
+    startLine: 15038
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRequestScoreWindow()
+    content.vb: Public Sub OnRequestScoreWindow
+  overload: Global.MiniGameUIController.OnRequestScoreWindow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnRequestAbortWindow
+  commentId: M:Global.MiniGameUIController.OnRequestAbortWindow
+  id: OnRequestAbortWindow
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnRequestAbortWindow()
+  nameWithType: MiniGameUIController.OnRequestAbortWindow()
+  fullName: MiniGameUIController.OnRequestAbortWindow()
+  type: Method
+  source:
+    id: OnRequestAbortWindow
+    path: ''
+    startLine: 15039
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRequestAbortWindow()
+    content.vb: Public Sub OnRequestAbortWindow
+  overload: Global.MiniGameUIController.OnRequestAbortWindow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnRequestPromptWindow
+  commentId: M:Global.MiniGameUIController.OnRequestPromptWindow
+  id: OnRequestPromptWindow
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnRequestPromptWindow()
+  nameWithType: MiniGameUIController.OnRequestPromptWindow()
+  fullName: MiniGameUIController.OnRequestPromptWindow()
+  type: Method
+  source:
+    id: OnRequestPromptWindow
+    path: ''
+    startLine: 15047
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRequestPromptWindow()
+    content.vb: Public Sub OnRequestPromptWindow
+  overload: Global.MiniGameUIController.OnRequestPromptWindow*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnStartConfirm
+  commentId: M:Global.MiniGameUIController.OnStartConfirm
+  id: OnStartConfirm
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnStartConfirm()
+  nameWithType: MiniGameUIController.OnStartConfirm()
+  fullName: MiniGameUIController.OnStartConfirm()
+  type: Method
+  source:
+    id: OnStartConfirm
+    path: ''
+    startLine: 15053
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnStartConfirm()
+    content.vb: Public Sub OnStartConfirm
+  overload: Global.MiniGameUIController.OnStartConfirm*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnStartAbort
+  commentId: M:Global.MiniGameUIController.OnStartAbort
+  id: OnStartAbort
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnStartAbort()
+  nameWithType: MiniGameUIController.OnStartAbort()
+  fullName: MiniGameUIController.OnStartAbort()
+  type: Method
+  source:
+    id: OnStartAbort
+    path: ''
+    startLine: 15060
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnStartAbort()
+    content.vb: Public Sub OnStartAbort
+  overload: Global.MiniGameUIController.OnStartAbort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnAbortConfirm
+  commentId: M:Global.MiniGameUIController.OnAbortConfirm
+  id: OnAbortConfirm
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnAbortConfirm()
+  nameWithType: MiniGameUIController.OnAbortConfirm()
+  fullName: MiniGameUIController.OnAbortConfirm()
+  type: Method
+  source:
+    id: OnAbortConfirm
+    path: ''
+    startLine: 15068
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnAbortConfirm()
+    content.vb: Public Sub OnAbortConfirm
+  overload: Global.MiniGameUIController.OnAbortConfirm*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnAbortAbort
+  commentId: M:Global.MiniGameUIController.OnAbortAbort
+  id: OnAbortAbort
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnAbortAbort()
+  nameWithType: MiniGameUIController.OnAbortAbort()
+  fullName: MiniGameUIController.OnAbortAbort()
+  type: Method
+  source:
+    id: OnAbortAbort
+    path: ''
+    startLine: 15076
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnAbortAbort()
+    content.vb: Public Sub OnAbortAbort
+  overload: Global.MiniGameUIController.OnAbortAbort*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameUIController.OnScoreConfirm
+  commentId: M:Global.MiniGameUIController.OnScoreConfirm
+  id: OnScoreConfirm
+  parent: Global.MiniGameUIController
+  langs:
+  - csharp
+  - vb
+  name: OnScoreConfirm()
+  nameWithType: MiniGameUIController.OnScoreConfirm()
+  fullName: MiniGameUIController.OnScoreConfirm()
+  type: Method
+  source:
+    id: OnScoreConfirm
+    path: ''
+    startLine: 15081
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnScoreConfirm()
+    content.vb: Public Sub OnScoreConfirm
+  overload: Global.MiniGameUIController.OnScoreConfirm*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MiniGameManager
+  commentId: T:Global.MiniGameManager
+  name: MiniGameManager
+  nameWithType: MiniGameManager
+  fullName: MiniGameManager
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.MiniGameStartUI
+  commentId: T:Global.MiniGameStartUI
+  name: MiniGameStartUI
+  nameWithType: MiniGameStartUI
+  fullName: MiniGameStartUI
+- uid: Global.MiniGameAbortUI
+  commentId: T:Global.MiniGameAbortUI
+  name: MiniGameAbortUI
+  nameWithType: MiniGameAbortUI
+  fullName: MiniGameAbortUI
+- uid: Global.MiniGameScoreUI
+  commentId: T:Global.MiniGameScoreUI
+  name: MiniGameScoreUI
+  nameWithType: MiniGameScoreUI
+  fullName: MiniGameScoreUI
+- uid: Global.MiniGamePromptUI
+  commentId: T:Global.MiniGamePromptUI
+  name: MiniGamePromptUI
+  nameWithType: MiniGamePromptUI
+  fullName: MiniGamePromptUI
+- uid: Global.MiniGameUIController.activeMiniGameWindow*
+  commentId: Overload:Global.MiniGameUIController.activeMiniGameWindow
+  name: activeMiniGameWindow
+  nameWithType: MiniGameUIController.activeMiniGameWindow
+  fullName: MiniGameUIController.activeMiniGameWindow
+- uid: Global.AMiniGameWindow
+  commentId: T:Global.AMiniGameWindow
+  name: AMiniGameWindow
+  nameWithType: AMiniGameWindow
+  fullName: AMiniGameWindow
+- uid: Global.GameObject[]
+  isExternal: true
+  name: GameObject[]
+  nameWithType: GameObject[]
+  fullName: GameObject[]
+  nameWithType.vb: GameObject()
+  fullName.vb: GameObject()
+  name.vb: GameObject()
+  spec.csharp:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.MiniGameUIController.currentGameUIPanel*
+  commentId: Overload:Global.MiniGameUIController.currentGameUIPanel
+  name: currentGameUIPanel
+  nameWithType: MiniGameUIController.currentGameUIPanel
+  fullName: MiniGameUIController.currentGameUIPanel
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.MiniGameUIController.miniGameWindows*
+  commentId: Overload:Global.MiniGameUIController.miniGameWindows
+  name: miniGameWindows
+  nameWithType: MiniGameUIController.miniGameWindows
+  fullName: MiniGameUIController.miniGameWindows
+- uid: Global.AMiniGameWindow[]
+  isExternal: true
+  name: AMiniGameWindow[]
+  nameWithType: AMiniGameWindow[]
+  fullName: AMiniGameWindow[]
+  nameWithType.vb: AMiniGameWindow()
+  fullName.vb: AMiniGameWindow()
+  name.vb: AMiniGameWindow()
+  spec.csharp:
+  - uid: Global.AMiniGameWindow
+    name: AMiniGameWindow
+    nameWithType: AMiniGameWindow
+    fullName: AMiniGameWindow
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.AMiniGameWindow
+    name: AMiniGameWindow
+    nameWithType: AMiniGameWindow
+    fullName: AMiniGameWindow
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.MiniGameUIController.OnDisplayCardRequest*
+  commentId: Overload:Global.MiniGameUIController.OnDisplayCardRequest
+  name: OnDisplayCardRequest
+  nameWithType: MiniGameUIController.OnDisplayCardRequest
+  fullName: MiniGameUIController.OnDisplayCardRequest
+- uid: Global.ProxyCardData
+  isExternal: true
+  name: ProxyCardData
+  nameWithType: ProxyCardData
+  fullName: ProxyCardData
+- uid: Global.MiniGameUIController.OnRequestStartWindow*
+  commentId: Overload:Global.MiniGameUIController.OnRequestStartWindow
+  name: OnRequestStartWindow
+  nameWithType: MiniGameUIController.OnRequestStartWindow
+  fullName: MiniGameUIController.OnRequestStartWindow
+- uid: Global.MiniGameUIController.OnRequestScoreWindow*
+  commentId: Overload:Global.MiniGameUIController.OnRequestScoreWindow
+  name: OnRequestScoreWindow
+  nameWithType: MiniGameUIController.OnRequestScoreWindow
+  fullName: MiniGameUIController.OnRequestScoreWindow
+- uid: Global.MiniGameUIController.OnRequestAbortWindow*
+  commentId: Overload:Global.MiniGameUIController.OnRequestAbortWindow
+  name: OnRequestAbortWindow
+  nameWithType: MiniGameUIController.OnRequestAbortWindow
+  fullName: MiniGameUIController.OnRequestAbortWindow
+- uid: Global.MiniGameUIController.OnRequestPromptWindow*
+  commentId: Overload:Global.MiniGameUIController.OnRequestPromptWindow
+  name: OnRequestPromptWindow
+  nameWithType: MiniGameUIController.OnRequestPromptWindow
+  fullName: MiniGameUIController.OnRequestPromptWindow
+- uid: Global.MiniGameUIController.OnStartConfirm*
+  commentId: Overload:Global.MiniGameUIController.OnStartConfirm
+  name: OnStartConfirm
+  nameWithType: MiniGameUIController.OnStartConfirm
+  fullName: MiniGameUIController.OnStartConfirm
+- uid: Global.MiniGameUIController.OnStartAbort*
+  commentId: Overload:Global.MiniGameUIController.OnStartAbort
+  name: OnStartAbort
+  nameWithType: MiniGameUIController.OnStartAbort
+  fullName: MiniGameUIController.OnStartAbort
+- uid: Global.MiniGameUIController.OnAbortConfirm*
+  commentId: Overload:Global.MiniGameUIController.OnAbortConfirm
+  name: OnAbortConfirm
+  nameWithType: MiniGameUIController.OnAbortConfirm
+  fullName: MiniGameUIController.OnAbortConfirm
+- uid: Global.MiniGameUIController.OnAbortAbort*
+  commentId: Overload:Global.MiniGameUIController.OnAbortAbort
+  name: OnAbortAbort
+  nameWithType: MiniGameUIController.OnAbortAbort
+  fullName: MiniGameUIController.OnAbortAbort
+- uid: Global.MiniGameUIController.OnScoreConfirm*
+  commentId: Overload:Global.MiniGameUIController.OnScoreConfirm
+  name: OnScoreConfirm
+  nameWithType: MiniGameUIController.OnScoreConfirm
+  fullName: MiniGameUIController.OnScoreConfirm

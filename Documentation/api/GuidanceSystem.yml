@@ -1,0 +1,65 @@
+### YamlMime:ManagedReference
+items:
+- uid: GuidanceSystem
+  commentId: N:GuidanceSystem
+  id: GuidanceSystem
+  children:
+  - GuidanceSystem.AGuidanceSystem
+  - GuidanceSystem.AGuidanceSystemTarget
+  - GuidanceSystem.ArrowGuidanceSystem
+  - GuidanceSystem.FunnelGuidanceSystem
+  - GuidanceSystem.GuidanceSystemController
+  - GuidanceSystem.HighlightArea
+  - GuidanceSystem.SphericalWaveGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: GuidanceSystem
+  nameWithType: GuidanceSystem
+  fullName: GuidanceSystem
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: GuidanceSystem.SphericalWaveGuidanceSystem
+  commentId: T:GuidanceSystem.SphericalWaveGuidanceSystem
+  name: SphericalWaveGuidanceSystem
+  nameWithType: SphericalWaveGuidanceSystem
+  fullName: GuidanceSystem.SphericalWaveGuidanceSystem
+- uid: GuidanceSystem.GuidanceSystemController
+  commentId: T:GuidanceSystem.GuidanceSystemController
+  name: GuidanceSystemController
+  nameWithType: GuidanceSystemController
+  fullName: GuidanceSystem.GuidanceSystemController
+- uid: GuidanceSystem.ArrowGuidanceSystem
+  commentId: T:GuidanceSystem.ArrowGuidanceSystem
+  name: ArrowGuidanceSystem
+  nameWithType: ArrowGuidanceSystem
+  fullName: GuidanceSystem.ArrowGuidanceSystem
+- uid: GuidanceSystem.AGuidanceSystem
+  commentId: T:GuidanceSystem.AGuidanceSystem
+  parent: GuidanceSystem
+  name: AGuidanceSystem
+  nameWithType: AGuidanceSystem
+  fullName: GuidanceSystem.AGuidanceSystem
+- uid: GuidanceSystem.FunnelGuidanceSystem
+  commentId: T:GuidanceSystem.FunnelGuidanceSystem
+  name: FunnelGuidanceSystem
+  nameWithType: FunnelGuidanceSystem
+  fullName: GuidanceSystem.FunnelGuidanceSystem
+- uid: GuidanceSystem.AGuidanceSystemTarget
+  commentId: T:GuidanceSystem.AGuidanceSystemTarget
+  parent: GuidanceSystem
+  name: AGuidanceSystemTarget
+  nameWithType: AGuidanceSystemTarget
+  fullName: GuidanceSystem.AGuidanceSystemTarget
+- uid: GuidanceSystem.HighlightArea
+  commentId: T:GuidanceSystem.HighlightArea
+  name: HighlightArea
+  nameWithType: HighlightArea
+  fullName: GuidanceSystem.HighlightArea
+- uid: GuidanceSystem
+  commentId: N:GuidanceSystem
+  name: GuidanceSystem
+  nameWithType: GuidanceSystem
+  fullName: GuidanceSystem

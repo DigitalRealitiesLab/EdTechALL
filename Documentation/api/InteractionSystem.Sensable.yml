@@ -1,0 +1,237 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Sensable
+  commentId: T:InteractionSystem.Sensable
+  id: Sensable
+  parent: InteractionSystem
+  children:
+  - InteractionSystem.Sensable._root
+  - InteractionSystem.Sensable.Awake
+  - InteractionSystem.Sensable.FindRoot
+  - InteractionSystem.Sensable.hasForwardingRole
+  - InteractionSystem.Sensable.root
+  langs:
+  - csharp
+  - vb
+  name: Sensable
+  nameWithType: Sensable
+  fullName: InteractionSystem.Sensable
+  type: Class
+  source:
+    id: Sensable
+    path: ''
+    startLine: 24468
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: 'public class Sensable : MonoBehaviour'
+    content.vb: >-
+      Public Class Sensable
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - InteractionSystem.Interactable.Interactable
+  - InteractionSystem.Placeholder.Placeholder
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Sensable.root
+  commentId: P:InteractionSystem.Sensable.root
+  id: root
+  parent: InteractionSystem.Sensable
+  langs:
+  - csharp
+  - vb
+  name: root
+  nameWithType: Sensable.root
+  fullName: InteractionSystem.Sensable.root
+  type: Property
+  source:
+    id: root
+    path: ''
+    startLine: 24470
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public Sensable root { get; }
+    parameters: []
+    return:
+      type: InteractionSystem.Sensable
+    content.vb: Public ReadOnly Property root As Sensable
+  overload: InteractionSystem.Sensable.root*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: InteractionSystem.Sensable._root
+  commentId: F:InteractionSystem.Sensable._root
+  id: _root
+  parent: InteractionSystem.Sensable
+  langs:
+  - csharp
+  - vb
+  name: _root
+  nameWithType: Sensable._root
+  fullName: InteractionSystem.Sensable._root
+  type: Field
+  source:
+    id: _root
+    path: ''
+    startLine: 24472
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: protected Sensable _root
+    return:
+      type: InteractionSystem.Sensable
+    content.vb: Protected _root As Sensable
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: InteractionSystem.Sensable.hasForwardingRole
+  commentId: P:InteractionSystem.Sensable.hasForwardingRole
+  id: hasForwardingRole
+  parent: InteractionSystem.Sensable
+  langs:
+  - csharp
+  - vb
+  name: hasForwardingRole
+  nameWithType: Sensable.hasForwardingRole
+  fullName: InteractionSystem.Sensable.hasForwardingRole
+  type: Property
+  source:
+    id: hasForwardingRole
+    path: ''
+    startLine: 24473
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: protected bool hasForwardingRole { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Protected ReadOnly Property hasForwardingRole As Boolean
+  overload: InteractionSystem.Sensable.hasForwardingRole*
+  modifiers.csharp:
+  - protected
+  - get
+  modifiers.vb:
+  - Protected
+  - ReadOnly
+- uid: InteractionSystem.Sensable.Awake
+  commentId: M:InteractionSystem.Sensable.Awake
+  id: Awake
+  parent: InteractionSystem.Sensable
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Sensable.Awake()
+  fullName: InteractionSystem.Sensable.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24475
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: InteractionSystem.Sensable.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: InteractionSystem.Sensable.FindRoot
+  commentId: M:InteractionSystem.Sensable.FindRoot
+  id: FindRoot
+  parent: InteractionSystem.Sensable
+  langs:
+  - csharp
+  - vb
+  name: FindRoot()
+  nameWithType: Sensable.FindRoot()
+  fullName: InteractionSystem.Sensable.FindRoot()
+  type: Method
+  source:
+    id: FindRoot
+    path: ''
+    startLine: 24481
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: protected void FindRoot()
+    content.vb: Protected Sub FindRoot
+  overload: InteractionSystem.Sensable.FindRoot*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Sensable.root*
+  commentId: Overload:InteractionSystem.Sensable.root
+  name: root
+  nameWithType: Sensable.root
+  fullName: InteractionSystem.Sensable.root
+- uid: InteractionSystem.Sensable
+  commentId: T:InteractionSystem.Sensable
+  parent: InteractionSystem
+  name: Sensable
+  nameWithType: Sensable
+  fullName: InteractionSystem.Sensable
+- uid: InteractionSystem.Sensable.hasForwardingRole*
+  commentId: Overload:InteractionSystem.Sensable.hasForwardingRole
+  name: hasForwardingRole
+  nameWithType: Sensable.hasForwardingRole
+  fullName: InteractionSystem.Sensable.hasForwardingRole
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: InteractionSystem.Sensable.Awake*
+  commentId: Overload:InteractionSystem.Sensable.Awake
+  name: Awake
+  nameWithType: Sensable.Awake
+  fullName: InteractionSystem.Sensable.Awake
+- uid: InteractionSystem.Sensable.FindRoot*
+  commentId: Overload:InteractionSystem.Sensable.FindRoot
+  name: FindRoot
+  nameWithType: Sensable.FindRoot
+  fullName: InteractionSystem.Sensable.FindRoot

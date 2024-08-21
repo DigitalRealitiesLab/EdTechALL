@@ -1,0 +1,186 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ArticleDescriptor
+  commentId: T:Global.ArticleDescriptor
+  id: ArticleDescriptor
+  parent: Global
+  children:
+  - Global.ArticleDescriptor.#ctor(Gender,Casus,Numerus)
+  - Global.ArticleDescriptor.casus
+  - Global.ArticleDescriptor.gender
+  - Global.ArticleDescriptor.numerus
+  langs:
+  - csharp
+  - vb
+  name: ArticleDescriptor
+  nameWithType: ArticleDescriptor
+  fullName: ArticleDescriptor
+  type: Struct
+  source:
+    id: ArticleDescriptor
+    path: ''
+    startLine: 16258
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct ArticleDescriptor
+    content.vb: >-
+      <Serializable>
+
+      Public Structure ArticleDescriptor
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.ArticleDescriptor.#ctor(Gender,Casus,Numerus)
+  commentId: M:Global.ArticleDescriptor.#ctor(Gender,Casus,Numerus)
+  id: '#ctor(Gender,Casus,Numerus)'
+  parent: Global.ArticleDescriptor
+  langs:
+  - csharp
+  - vb
+  name: ArticleDescriptor(Gender, Casus, Numerus)
+  nameWithType: ArticleDescriptor.ArticleDescriptor(Gender, Casus, Numerus)
+  fullName: ArticleDescriptor.ArticleDescriptor(Gender, Casus, Numerus)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16261
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ArticleDescriptor(Gender gender, Casus casus, Numerus numerus)
+    parameters:
+    - id: gender
+      type: Global.Gender
+    - id: casus
+      type: Global.Casus
+    - id: numerus
+      type: Global.Numerus
+    content.vb: Public Sub New(gender As Gender, casus As Casus, numerus As Numerus)
+  overload: Global.ArticleDescriptor.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ArticleDescriptor.gender
+  commentId: F:Global.ArticleDescriptor.gender
+  id: gender
+  parent: Global.ArticleDescriptor
+  langs:
+  - csharp
+  - vb
+  name: gender
+  nameWithType: ArticleDescriptor.gender
+  fullName: ArticleDescriptor.gender
+  type: Field
+  source:
+    id: gender
+    path: ''
+    startLine: 16268
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Gender gender
+    return:
+      type: Global.Gender
+    content.vb: Public gender As Gender
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ArticleDescriptor.casus
+  commentId: F:Global.ArticleDescriptor.casus
+  id: casus
+  parent: Global.ArticleDescriptor
+  langs:
+  - csharp
+  - vb
+  name: casus
+  nameWithType: ArticleDescriptor.casus
+  fullName: ArticleDescriptor.casus
+  type: Field
+  source:
+    id: casus
+    path: ''
+    startLine: 16269
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Casus casus
+    return:
+      type: Global.Casus
+    content.vb: Public casus As Casus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ArticleDescriptor.numerus
+  commentId: F:Global.ArticleDescriptor.numerus
+  id: numerus
+  parent: Global.ArticleDescriptor
+  langs:
+  - csharp
+  - vb
+  name: numerus
+  nameWithType: ArticleDescriptor.numerus
+  fullName: ArticleDescriptor.numerus
+  type: Field
+  source:
+    id: numerus
+    path: ''
+    startLine: 16270
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Numerus numerus
+    return:
+      type: Global.Numerus
+    content.vb: Public numerus As Numerus
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.ArticleDescriptor.#ctor*
+  commentId: Overload:Global.ArticleDescriptor.#ctor
+  name: ArticleDescriptor
+  nameWithType: ArticleDescriptor.ArticleDescriptor
+  fullName: ArticleDescriptor.ArticleDescriptor
+- uid: Global.Gender
+  commentId: T:Global.Gender
+  name: Gender
+  nameWithType: Gender
+  fullName: Gender
+- uid: Global.Casus
+  commentId: T:Global.Casus
+  name: Casus
+  nameWithType: Casus
+  fullName: Casus
+- uid: Global.Numerus
+  commentId: T:Global.Numerus
+  name: Numerus
+  nameWithType: Numerus
+  fullName: Numerus

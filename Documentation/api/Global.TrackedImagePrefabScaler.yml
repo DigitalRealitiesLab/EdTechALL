@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TrackedImagePrefabScaler
+  commentId: T:Global.TrackedImagePrefabScaler
+  id: TrackedImagePrefabScaler
+  parent: Global
+  children:
+  - Global.TrackedImagePrefabScaler.ResizeToWidth(System.Single)
+  - Global.TrackedImagePrefabScaler.scaleTarget
+  langs:
+  - csharp
+  - vb
+  name: TrackedImagePrefabScaler
+  nameWithType: TrackedImagePrefabScaler
+  fullName: TrackedImagePrefabScaler
+  type: Class
+  source:
+    id: TrackedImagePrefabScaler
+    path: ''
+    startLine: 25472
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TrackedImagePrefabScaler : MonoBehaviour'
+    content.vb: >-
+      Public Class TrackedImagePrefabScaler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TrackedImagePrefabScaler.scaleTarget
+  commentId: F:Global.TrackedImagePrefabScaler.scaleTarget
+  id: scaleTarget
+  parent: Global.TrackedImagePrefabScaler
+  langs:
+  - csharp
+  - vb
+  name: scaleTarget
+  nameWithType: TrackedImagePrefabScaler.scaleTarget
+  fullName: TrackedImagePrefabScaler.scaleTarget
+  type: Field
+  source:
+    id: scaleTarget
+    path: ''
+    startLine: 25474
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform scaleTarget
+    return:
+      type: Global.Transform
+    content.vb: Public scaleTarget As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TrackedImagePrefabScaler.ResizeToWidth(System.Single)
+  commentId: M:Global.TrackedImagePrefabScaler.ResizeToWidth(System.Single)
+  id: ResizeToWidth(System.Single)
+  parent: Global.TrackedImagePrefabScaler
+  langs:
+  - csharp
+  - vb
+  name: ResizeToWidth(Single)
+  nameWithType: TrackedImagePrefabScaler.ResizeToWidth(Single)
+  fullName: TrackedImagePrefabScaler.ResizeToWidth(System.Single)
+  type: Method
+  source:
+    id: ResizeToWidth
+    path: ''
+    startLine: 25482
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResizeToWidth(float width)
+    parameters:
+    - id: width
+      type: System.Single
+    content.vb: Public Sub ResizeToWidth(width As Single)
+  overload: Global.TrackedImagePrefabScaler.ResizeToWidth*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.TrackedImagePrefabScaler.ResizeToWidth*
+  commentId: Overload:Global.TrackedImagePrefabScaler.ResizeToWidth
+  name: ResizeToWidth
+  nameWithType: TrackedImagePrefabScaler.ResizeToWidth
+  fullName: TrackedImagePrefabScaler.ResizeToWidth
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

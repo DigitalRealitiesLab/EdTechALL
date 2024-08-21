@@ -1,0 +1,564 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.CardData
+  commentId: T:CardModule.CardData
+  id: CardData
+  parent: CardModule
+  children:
+  - CardModule.CardData.GetInfoCardDataByIndex(System.Int32)
+  - CardModule.CardData.GetMiniGameConfigByIndex(System.Int32)
+  - CardModule.CardData.GetQuizCardDataByIndex(System.Int32)
+  - CardModule.CardData.GetTaskCardDataByIndex(System.Int32)
+  - CardModule.CardData.hasInfoCardData
+  - CardModule.CardData.hasMiniGameData
+  - CardModule.CardData.hasQuizCardData
+  - CardModule.CardData.hasTaskCardData
+  - CardModule.CardData.infoCardData
+  - CardModule.CardData.miniGameData
+  - CardModule.CardData.quizCardData
+  - CardModule.CardData.taskCardData
+  langs:
+  - csharp
+  - vb
+  name: CardData
+  nameWithType: CardData
+  fullName: CardModule.CardData
+  type: Class
+  source:
+    id: CardData
+    path: ''
+    startLine: 19434
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: 'public class CardData : ScriptableObject'
+    content.vb: >-
+      Public Class CardData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.CardData.infoCardData
+  commentId: F:CardModule.CardData.infoCardData
+  id: infoCardData
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: infoCardData
+  nameWithType: CardData.infoCardData
+  fullName: CardModule.CardData.infoCardData
+  type: Field
+  source:
+    id: infoCardData
+    path: ''
+    startLine: 19437
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public H5PCardData[] infoCardData
+    return:
+      type: CardModule.H5PCardData[]
+    content.vb: Public infoCardData As H5PCardData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardData.quizCardData
+  commentId: F:CardModule.CardData.quizCardData
+  id: quizCardData
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: quizCardData
+  nameWithType: CardData.quizCardData
+  fullName: CardModule.CardData.quizCardData
+  type: Field
+  source:
+    id: quizCardData
+    path: ''
+    startLine: 19438
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public H5PCardData[] quizCardData
+    return:
+      type: CardModule.H5PCardData[]
+    content.vb: Public quizCardData As H5PCardData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardData.miniGameData
+  commentId: F:CardModule.CardData.miniGameData
+  id: miniGameData
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: miniGameData
+  nameWithType: CardData.miniGameData
+  fullName: CardModule.CardData.miniGameData
+  type: Field
+  source:
+    id: miniGameData
+    path: ''
+    startLine: 19439
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public MiniGameConfig[] miniGameData
+    return:
+      type: CardModule.MiniGameConfig[]
+    content.vb: Public miniGameData As MiniGameConfig()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardData.taskCardData
+  commentId: F:CardModule.CardData.taskCardData
+  id: taskCardData
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: taskCardData
+  nameWithType: CardData.taskCardData
+  fullName: CardModule.CardData.taskCardData
+  type: Field
+  source:
+    id: taskCardData
+    path: ''
+    startLine: 19440
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public TaskData[] taskCardData
+    return:
+      type: Global.TaskData[]
+    content.vb: Public taskCardData As TaskData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardData.hasInfoCardData
+  commentId: P:CardModule.CardData.hasInfoCardData
+  id: hasInfoCardData
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: hasInfoCardData
+  nameWithType: CardData.hasInfoCardData
+  fullName: CardModule.CardData.hasInfoCardData
+  type: Property
+  source:
+    id: hasInfoCardData
+    path: ''
+    startLine: 19442
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public bool hasInfoCardData { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property hasInfoCardData As Boolean
+  overload: CardModule.CardData.hasInfoCardData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardModule.CardData.hasQuizCardData
+  commentId: P:CardModule.CardData.hasQuizCardData
+  id: hasQuizCardData
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: hasQuizCardData
+  nameWithType: CardData.hasQuizCardData
+  fullName: CardModule.CardData.hasQuizCardData
+  type: Property
+  source:
+    id: hasQuizCardData
+    path: ''
+    startLine: 19443
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public bool hasQuizCardData { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property hasQuizCardData As Boolean
+  overload: CardModule.CardData.hasQuizCardData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardModule.CardData.hasTaskCardData
+  commentId: P:CardModule.CardData.hasTaskCardData
+  id: hasTaskCardData
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: hasTaskCardData
+  nameWithType: CardData.hasTaskCardData
+  fullName: CardModule.CardData.hasTaskCardData
+  type: Property
+  source:
+    id: hasTaskCardData
+    path: ''
+    startLine: 19444
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public bool hasTaskCardData { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property hasTaskCardData As Boolean
+  overload: CardModule.CardData.hasTaskCardData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardModule.CardData.hasMiniGameData
+  commentId: P:CardModule.CardData.hasMiniGameData
+  id: hasMiniGameData
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: hasMiniGameData
+  nameWithType: CardData.hasMiniGameData
+  fullName: CardModule.CardData.hasMiniGameData
+  type: Property
+  source:
+    id: hasMiniGameData
+    path: ''
+    startLine: 19445
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public bool hasMiniGameData { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property hasMiniGameData As Boolean
+  overload: CardModule.CardData.hasMiniGameData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardModule.CardData.GetInfoCardDataByIndex(System.Int32)
+  commentId: M:CardModule.CardData.GetInfoCardDataByIndex(System.Int32)
+  id: GetInfoCardDataByIndex(System.Int32)
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: GetInfoCardDataByIndex(Int32)
+  nameWithType: CardData.GetInfoCardDataByIndex(Int32)
+  fullName: CardModule.CardData.GetInfoCardDataByIndex(System.Int32)
+  type: Method
+  source:
+    id: GetInfoCardDataByIndex
+    path: ''
+    startLine: 19447
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public H5PCardData GetInfoCardDataByIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: CardModule.H5PCardData
+    content.vb: Public Function GetInfoCardDataByIndex(index As Integer) As H5PCardData
+  overload: CardModule.CardData.GetInfoCardDataByIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardData.GetQuizCardDataByIndex(System.Int32)
+  commentId: M:CardModule.CardData.GetQuizCardDataByIndex(System.Int32)
+  id: GetQuizCardDataByIndex(System.Int32)
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: GetQuizCardDataByIndex(Int32)
+  nameWithType: CardData.GetQuizCardDataByIndex(Int32)
+  fullName: CardModule.CardData.GetQuizCardDataByIndex(System.Int32)
+  type: Method
+  source:
+    id: GetQuizCardDataByIndex
+    path: ''
+    startLine: 19452
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public H5PCardData GetQuizCardDataByIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: CardModule.H5PCardData
+    content.vb: Public Function GetQuizCardDataByIndex(index As Integer) As H5PCardData
+  overload: CardModule.CardData.GetQuizCardDataByIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardData.GetTaskCardDataByIndex(System.Int32)
+  commentId: M:CardModule.CardData.GetTaskCardDataByIndex(System.Int32)
+  id: GetTaskCardDataByIndex(System.Int32)
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: GetTaskCardDataByIndex(Int32)
+  nameWithType: CardData.GetTaskCardDataByIndex(Int32)
+  fullName: CardModule.CardData.GetTaskCardDataByIndex(System.Int32)
+  type: Method
+  source:
+    id: GetTaskCardDataByIndex
+    path: ''
+    startLine: 19457
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public TaskData GetTaskCardDataByIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Global.TaskData
+    content.vb: Public Function GetTaskCardDataByIndex(index As Integer) As TaskData
+  overload: CardModule.CardData.GetTaskCardDataByIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardData.GetMiniGameConfigByIndex(System.Int32)
+  commentId: M:CardModule.CardData.GetMiniGameConfigByIndex(System.Int32)
+  id: GetMiniGameConfigByIndex(System.Int32)
+  parent: CardModule.CardData
+  langs:
+  - csharp
+  - vb
+  name: GetMiniGameConfigByIndex(Int32)
+  nameWithType: CardData.GetMiniGameConfigByIndex(Int32)
+  fullName: CardModule.CardData.GetMiniGameConfigByIndex(System.Int32)
+  type: Method
+  source:
+    id: GetMiniGameConfigByIndex
+    path: ''
+    startLine: 19462
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public MiniGameConfig GetMiniGameConfigByIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: CardModule.MiniGameConfig
+    content.vb: Public Function GetMiniGameConfigByIndex(index As Integer) As MiniGameConfig
+  overload: CardModule.CardData.GetMiniGameConfigByIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardModule.H5PCardData[]
+  isExternal: true
+  name: H5PCardData[]
+  nameWithType: H5PCardData[]
+  fullName: CardModule.H5PCardData[]
+  nameWithType.vb: H5PCardData()
+  fullName.vb: CardModule.H5PCardData()
+  name.vb: H5PCardData()
+  spec.csharp:
+  - uid: CardModule.H5PCardData
+    name: H5PCardData
+    nameWithType: H5PCardData
+    fullName: CardModule.H5PCardData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: CardModule.H5PCardData
+    name: H5PCardData
+    nameWithType: H5PCardData
+    fullName: CardModule.H5PCardData
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: CardModule.MiniGameConfig[]
+  isExternal: true
+  name: MiniGameConfig[]
+  nameWithType: MiniGameConfig[]
+  fullName: CardModule.MiniGameConfig[]
+  nameWithType.vb: MiniGameConfig()
+  fullName.vb: CardModule.MiniGameConfig()
+  name.vb: MiniGameConfig()
+  spec.csharp:
+  - uid: CardModule.MiniGameConfig
+    name: MiniGameConfig
+    nameWithType: MiniGameConfig
+    fullName: CardModule.MiniGameConfig
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: CardModule.MiniGameConfig
+    name: MiniGameConfig
+    nameWithType: MiniGameConfig
+    fullName: CardModule.MiniGameConfig
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.TaskData[]
+  isExternal: true
+  name: TaskData[]
+  nameWithType: TaskData[]
+  fullName: TaskData[]
+  nameWithType.vb: TaskData()
+  fullName.vb: TaskData()
+  name.vb: TaskData()
+  spec.csharp:
+  - uid: Global.TaskData
+    name: TaskData
+    nameWithType: TaskData
+    fullName: TaskData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.TaskData
+    name: TaskData
+    nameWithType: TaskData
+    fullName: TaskData
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: CardModule.CardData.hasInfoCardData*
+  commentId: Overload:CardModule.CardData.hasInfoCardData
+  name: hasInfoCardData
+  nameWithType: CardData.hasInfoCardData
+  fullName: CardModule.CardData.hasInfoCardData
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CardModule.CardData.hasQuizCardData*
+  commentId: Overload:CardModule.CardData.hasQuizCardData
+  name: hasQuizCardData
+  nameWithType: CardData.hasQuizCardData
+  fullName: CardModule.CardData.hasQuizCardData
+- uid: CardModule.CardData.hasTaskCardData*
+  commentId: Overload:CardModule.CardData.hasTaskCardData
+  name: hasTaskCardData
+  nameWithType: CardData.hasTaskCardData
+  fullName: CardModule.CardData.hasTaskCardData
+- uid: CardModule.CardData.hasMiniGameData*
+  commentId: Overload:CardModule.CardData.hasMiniGameData
+  name: hasMiniGameData
+  nameWithType: CardData.hasMiniGameData
+  fullName: CardModule.CardData.hasMiniGameData
+- uid: CardModule.CardData.GetInfoCardDataByIndex*
+  commentId: Overload:CardModule.CardData.GetInfoCardDataByIndex
+  name: GetInfoCardDataByIndex
+  nameWithType: CardData.GetInfoCardDataByIndex
+  fullName: CardModule.CardData.GetInfoCardDataByIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardModule.H5PCardData
+  commentId: T:CardModule.H5PCardData
+  parent: CardModule
+  name: H5PCardData
+  nameWithType: H5PCardData
+  fullName: CardModule.H5PCardData
+- uid: CardModule.CardData.GetQuizCardDataByIndex*
+  commentId: Overload:CardModule.CardData.GetQuizCardDataByIndex
+  name: GetQuizCardDataByIndex
+  nameWithType: CardData.GetQuizCardDataByIndex
+  fullName: CardModule.CardData.GetQuizCardDataByIndex
+- uid: CardModule.CardData.GetTaskCardDataByIndex*
+  commentId: Overload:CardModule.CardData.GetTaskCardDataByIndex
+  name: GetTaskCardDataByIndex
+  nameWithType: CardData.GetTaskCardDataByIndex
+  fullName: CardModule.CardData.GetTaskCardDataByIndex
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+- uid: CardModule.CardData.GetMiniGameConfigByIndex*
+  commentId: Overload:CardModule.CardData.GetMiniGameConfigByIndex
+  name: GetMiniGameConfigByIndex
+  nameWithType: CardData.GetMiniGameConfigByIndex
+  fullName: CardModule.CardData.GetMiniGameConfigByIndex
+- uid: CardModule.MiniGameConfig
+  commentId: T:CardModule.MiniGameConfig
+  parent: CardModule
+  name: MiniGameConfig
+  nameWithType: MiniGameConfig
+  fullName: CardModule.MiniGameConfig

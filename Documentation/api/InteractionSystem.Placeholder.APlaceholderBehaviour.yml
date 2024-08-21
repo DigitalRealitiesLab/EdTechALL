@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour
+  commentId: T:InteractionSystem.Placeholder.APlaceholderBehaviour
+  id: APlaceholderBehaviour
+  parent: InteractionSystem.Placeholder
+  children:
+  - InteractionSystem.Placeholder.APlaceholderBehaviour.Awake
+  - InteractionSystem.Placeholder.APlaceholderBehaviour.OnDestroy
+  - InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderEnter(InteractionSystem.Selectable.Selectable)
+  - InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderExit(InteractionSystem.Selectable.Selectable)
+  - InteractionSystem.Placeholder.APlaceholderBehaviour.placeholder
+  langs:
+  - csharp
+  - vb
+  name: APlaceholderBehaviour
+  nameWithType: APlaceholderBehaviour
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour
+  type: Class
+  source:
+    id: APlaceholderBehaviour
+    path: ''
+    startLine: 24597
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: 'public abstract class APlaceholderBehaviour : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class APlaceholderBehaviour
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - InteractionSystem.Placeholder.PlaceholderAudio
+  - InteractionSystem.Placeholder.PlaceholderRendererSwitch
+  - InteractionSystem.Placeholder.PlaceholderText
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.placeholder
+  commentId: F:InteractionSystem.Placeholder.APlaceholderBehaviour.placeholder
+  id: placeholder
+  parent: InteractionSystem.Placeholder.APlaceholderBehaviour
+  langs:
+  - csharp
+  - vb
+  name: placeholder
+  nameWithType: APlaceholderBehaviour.placeholder
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.placeholder
+  type: Field
+  source:
+    id: placeholder
+    path: ''
+    startLine: 24599
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: public Placeholder placeholder
+    return:
+      type: InteractionSystem.Placeholder.Placeholder
+    content.vb: Public placeholder As Placeholder
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.Awake
+  commentId: M:InteractionSystem.Placeholder.APlaceholderBehaviour.Awake
+  id: Awake
+  parent: InteractionSystem.Placeholder.APlaceholderBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: APlaceholderBehaviour.Awake()
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24600
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: InteractionSystem.Placeholder.APlaceholderBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderEnter(InteractionSystem.Selectable.Selectable)
+  commentId: M:InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderEnter(InteractionSystem.Selectable.Selectable)
+  id: OnPlaceholderEnter(InteractionSystem.Selectable.Selectable)
+  parent: InteractionSystem.Placeholder.APlaceholderBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnPlaceholderEnter(Selectable)
+  nameWithType: APlaceholderBehaviour.OnPlaceholderEnter(Selectable)
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderEnter(InteractionSystem.Selectable.Selectable)
+  type: Method
+  source:
+    id: OnPlaceholderEnter
+    path: ''
+    startLine: 24608
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: public abstract void OnPlaceholderEnter(Selectable selectable)
+    parameters:
+    - id: selectable
+      type: InteractionSystem.Selectable.Selectable
+    content.vb: Public MustOverride Sub OnPlaceholderEnter(selectable As Selectable)
+  overload: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderEnter*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderExit(InteractionSystem.Selectable.Selectable)
+  commentId: M:InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderExit(InteractionSystem.Selectable.Selectable)
+  id: OnPlaceholderExit(InteractionSystem.Selectable.Selectable)
+  parent: InteractionSystem.Placeholder.APlaceholderBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnPlaceholderExit(Selectable)
+  nameWithType: APlaceholderBehaviour.OnPlaceholderExit(Selectable)
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderExit(InteractionSystem.Selectable.Selectable)
+  type: Method
+  source:
+    id: OnPlaceholderExit
+    path: ''
+    startLine: 24609
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: public abstract void OnPlaceholderExit(Selectable selectable)
+    parameters:
+    - id: selectable
+      type: InteractionSystem.Selectable.Selectable
+    content.vb: Public MustOverride Sub OnPlaceholderExit(selectable As Selectable)
+  overload: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderExit*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.OnDestroy
+  commentId: M:InteractionSystem.Placeholder.APlaceholderBehaviour.OnDestroy
+  id: OnDestroy
+  parent: InteractionSystem.Placeholder.APlaceholderBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDestroy()
+  nameWithType: APlaceholderBehaviour.OnDestroy()
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.OnDestroy()
+  type: Method
+  source:
+    id: OnDestroy
+    path: ''
+    startLine: 24612
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: protected virtual void OnDestroy()
+    content.vb: Protected Overridable Sub OnDestroy
+  overload: InteractionSystem.Placeholder.APlaceholderBehaviour.OnDestroy*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+references:
+- uid: InteractionSystem.Placeholder
+  commentId: N:InteractionSystem.Placeholder
+  name: InteractionSystem.Placeholder
+  nameWithType: InteractionSystem.Placeholder
+  fullName: InteractionSystem.Placeholder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Placeholder.Placeholder
+  commentId: T:InteractionSystem.Placeholder.Placeholder
+  parent: InteractionSystem.Placeholder
+  name: Placeholder
+  nameWithType: Placeholder
+  fullName: InteractionSystem.Placeholder.Placeholder
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.Awake*
+  commentId: Overload:InteractionSystem.Placeholder.APlaceholderBehaviour.Awake
+  name: Awake
+  nameWithType: APlaceholderBehaviour.Awake
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.Awake
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderEnter*
+  commentId: Overload:InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderEnter
+  name: OnPlaceholderEnter
+  nameWithType: APlaceholderBehaviour.OnPlaceholderEnter
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderEnter
+- uid: InteractionSystem.Selectable.Selectable
+  commentId: T:InteractionSystem.Selectable.Selectable
+  parent: InteractionSystem.Selectable
+  name: Selectable
+  nameWithType: Selectable
+  fullName: InteractionSystem.Selectable.Selectable
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderExit*
+  commentId: Overload:InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderExit
+  name: OnPlaceholderExit
+  nameWithType: APlaceholderBehaviour.OnPlaceholderExit
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.OnPlaceholderExit
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour.OnDestroy*
+  commentId: Overload:InteractionSystem.Placeholder.APlaceholderBehaviour.OnDestroy
+  name: OnDestroy
+  nameWithType: APlaceholderBehaviour.OnDestroy
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour.OnDestroy

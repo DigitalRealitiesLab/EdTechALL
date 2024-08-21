@@ -1,0 +1,344 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UnlockableLoader
+  commentId: T:Global.UnlockableLoader
+  id: UnlockableLoader
+  parent: Global
+  children:
+  - Global.UnlockableLoader.AddUnlockable(Unlockable)
+  - Global.UnlockableLoader.cardStackPanel
+  - Global.UnlockableLoader.hasLastUnlockedGroup
+  - Global.UnlockableLoader.inactiveUnlocked
+  - Global.UnlockableLoader.LoadLastUnlockableGroup
+  - Global.UnlockableLoader.ProcessUnlockableGroup(UnlockableGroup)
+  - Global.UnlockableLoader.taskController
+  langs:
+  - csharp
+  - vb
+  name: UnlockableLoader
+  nameWithType: UnlockableLoader
+  fullName: UnlockableLoader
+  type: Class
+  source:
+    id: UnlockableLoader
+    path: ''
+    startLine: 18292
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class UnlockableLoader : MonoBehaviour'
+    content.vb: >-
+      Public Class UnlockableLoader
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.UnlockableLoader.taskController
+  commentId: F:Global.UnlockableLoader.taskController
+  id: taskController
+  parent: Global.UnlockableLoader
+  langs:
+  - csharp
+  - vb
+  name: taskController
+  nameWithType: UnlockableLoader.taskController
+  fullName: UnlockableLoader.taskController
+  type: Field
+  source:
+    id: taskController
+    path: ''
+    startLine: 18295
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskController taskController
+    return:
+      type: Global.TaskController
+    content.vb: Public taskController As TaskController
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UnlockableLoader.cardStackPanel
+  commentId: F:Global.UnlockableLoader.cardStackPanel
+  id: cardStackPanel
+  parent: Global.UnlockableLoader
+  langs:
+  - csharp
+  - vb
+  name: cardStackPanel
+  nameWithType: UnlockableLoader.cardStackPanel
+  fullName: UnlockableLoader.cardStackPanel
+  type: Field
+  source:
+    id: cardStackPanel
+    path: ''
+    startLine: 18296
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CardStackPanelUI cardStackPanel
+    return:
+      type: Global.CardStackPanelUI
+    content.vb: Public cardStackPanel As CardStackPanelUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UnlockableLoader.hasLastUnlockedGroup
+  commentId: P:Global.UnlockableLoader.hasLastUnlockedGroup
+  id: hasLastUnlockedGroup
+  parent: Global.UnlockableLoader
+  langs:
+  - csharp
+  - vb
+  name: hasLastUnlockedGroup
+  nameWithType: UnlockableLoader.hasLastUnlockedGroup
+  fullName: UnlockableLoader.hasLastUnlockedGroup
+  type: Property
+  source:
+    id: hasLastUnlockedGroup
+    path: ''
+    startLine: 18301
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool hasLastUnlockedGroup { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property hasLastUnlockedGroup As Boolean
+  overload: Global.UnlockableLoader.hasLastUnlockedGroup*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.UnlockableLoader.inactiveUnlocked
+  commentId: P:Global.UnlockableLoader.inactiveUnlocked
+  id: inactiveUnlocked
+  parent: Global.UnlockableLoader
+  langs:
+  - csharp
+  - vb
+  name: inactiveUnlocked
+  nameWithType: UnlockableLoader.inactiveUnlocked
+  fullName: UnlockableLoader.inactiveUnlocked
+  type: Property
+  source:
+    id: inactiveUnlocked
+    path: ''
+    startLine: 18307
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nArray of unlockables that have surely been unlocked\nequals unlocked.data without unlocked.lastUnlockedGroup and cards unlocked by the last unlocked group\n"
+  example: []
+  syntax:
+    content: public Unlockable[] inactiveUnlocked { get; }
+    parameters: []
+    return:
+      type: Global.Unlockable[]
+    content.vb: Public ReadOnly Property inactiveUnlocked As Unlockable()
+  overload: Global.UnlockableLoader.inactiveUnlocked*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.UnlockableLoader.ProcessUnlockableGroup(UnlockableGroup)
+  commentId: M:Global.UnlockableLoader.ProcessUnlockableGroup(UnlockableGroup)
+  id: ProcessUnlockableGroup(UnlockableGroup)
+  parent: Global.UnlockableLoader
+  langs:
+  - csharp
+  - vb
+  name: ProcessUnlockableGroup(UnlockableGroup)
+  nameWithType: UnlockableLoader.ProcessUnlockableGroup(UnlockableGroup)
+  fullName: UnlockableLoader.ProcessUnlockableGroup(UnlockableGroup)
+  type: Method
+  source:
+    id: ProcessUnlockableGroup
+    path: ''
+    startLine: 18335
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nprocess an unlockable group into automated tasks, and add the unlockables to the saved data\n"
+  example: []
+  syntax:
+    content: public void ProcessUnlockableGroup(UnlockableGroup group)
+    parameters:
+    - id: group
+      type: Global.UnlockableGroup
+      description: ''
+    content.vb: Public Sub ProcessUnlockableGroup(group As UnlockableGroup)
+  overload: Global.UnlockableLoader.ProcessUnlockableGroup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UnlockableLoader.LoadLastUnlockableGroup
+  commentId: M:Global.UnlockableLoader.LoadLastUnlockableGroup
+  id: LoadLastUnlockableGroup
+  parent: Global.UnlockableLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadLastUnlockableGroup()
+  nameWithType: UnlockableLoader.LoadLastUnlockableGroup()
+  fullName: UnlockableLoader.LoadLastUnlockableGroup()
+  type: Method
+  source:
+    id: LoadLastUnlockableGroup
+    path: ''
+    startLine: 18342
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadLastUnlockableGroup()
+    content.vb: Public Sub LoadLastUnlockableGroup
+  overload: Global.UnlockableLoader.LoadLastUnlockableGroup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.UnlockableLoader.AddUnlockable(Unlockable)
+  commentId: M:Global.UnlockableLoader.AddUnlockable(Unlockable)
+  id: AddUnlockable(Unlockable)
+  parent: Global.UnlockableLoader
+  langs:
+  - csharp
+  - vb
+  name: AddUnlockable(Unlockable)
+  nameWithType: UnlockableLoader.AddUnlockable(Unlockable)
+  fullName: UnlockableLoader.AddUnlockable(Unlockable)
+  type: Method
+  source:
+    id: AddUnlockable
+    path: ''
+    startLine: 18348
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AddUnlockable(Unlockable unlockable)
+    parameters:
+    - id: unlockable
+      type: Global.Unlockable
+    content.vb: Public Sub AddUnlockable(unlockable As Unlockable)
+  overload: Global.UnlockableLoader.AddUnlockable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TaskController
+  commentId: T:Global.TaskController
+  name: TaskController
+  nameWithType: TaskController
+  fullName: TaskController
+- uid: Global.CardStackPanelUI
+  commentId: '!:Global.CardStackPanelUI'
+  isExternal: true
+  name: CardStackPanelUI
+  nameWithType: CardStackPanelUI
+  fullName: CardStackPanelUI
+- uid: Global.UnlockableLoader.hasLastUnlockedGroup*
+  commentId: Overload:Global.UnlockableLoader.hasLastUnlockedGroup
+  name: hasLastUnlockedGroup
+  nameWithType: UnlockableLoader.hasLastUnlockedGroup
+  fullName: UnlockableLoader.hasLastUnlockedGroup
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.UnlockableLoader.inactiveUnlocked*
+  commentId: Overload:Global.UnlockableLoader.inactiveUnlocked
+  name: inactiveUnlocked
+  nameWithType: UnlockableLoader.inactiveUnlocked
+  fullName: UnlockableLoader.inactiveUnlocked
+- uid: Global.Unlockable[]
+  isExternal: true
+  name: Unlockable[]
+  nameWithType: Unlockable[]
+  fullName: Unlockable[]
+  nameWithType.vb: Unlockable()
+  fullName.vb: Unlockable()
+  name.vb: Unlockable()
+  spec.csharp:
+  - uid: Global.Unlockable
+    name: Unlockable
+    nameWithType: Unlockable
+    fullName: Unlockable
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Unlockable
+    name: Unlockable
+    nameWithType: Unlockable
+    fullName: Unlockable
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.UnlockableLoader.ProcessUnlockableGroup*
+  commentId: Overload:Global.UnlockableLoader.ProcessUnlockableGroup
+  name: ProcessUnlockableGroup
+  nameWithType: UnlockableLoader.ProcessUnlockableGroup
+  fullName: UnlockableLoader.ProcessUnlockableGroup
+- uid: Global.UnlockableGroup
+  commentId: T:Global.UnlockableGroup
+  name: UnlockableGroup
+  nameWithType: UnlockableGroup
+  fullName: UnlockableGroup
+- uid: Global.UnlockableLoader.LoadLastUnlockableGroup*
+  commentId: Overload:Global.UnlockableLoader.LoadLastUnlockableGroup
+  name: LoadLastUnlockableGroup
+  nameWithType: UnlockableLoader.LoadLastUnlockableGroup
+  fullName: UnlockableLoader.LoadLastUnlockableGroup
+- uid: Global.UnlockableLoader.AddUnlockable*
+  commentId: Overload:Global.UnlockableLoader.AddUnlockable
+  name: AddUnlockable
+  nameWithType: UnlockableLoader.AddUnlockable
+  fullName: UnlockableLoader.AddUnlockable
+- uid: Global.Unlockable
+  commentId: T:Global.Unlockable
+  name: Unlockable
+  nameWithType: Unlockable
+  fullName: Unlockable

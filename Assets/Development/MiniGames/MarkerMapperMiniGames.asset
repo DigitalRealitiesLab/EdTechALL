@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8411baf215a64ab89a0ee245097f383, type: 3}
+  m_Name: MarkerMapperMiniGames
+  m_EditorClassIdentifier: 
+  presets:
+  - texture: {fileID: 2800000, guid: 930fe0b385e12496c87708860a5d7f71, type: 3}
+    displaySprite: {fileID: 21300000, guid: 703272dbb415e426c88a7b039bc42616, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker01
+  - texture: {fileID: 2800000, guid: 6647c3922945a4a8290c6e3e0c2a6650, type: 3}
+    displaySprite: {fileID: 21300000, guid: c915322d98f4542d3a68aeb0db7d3fd1, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker02
+  - texture: {fileID: 2800000, guid: bfdcba2220df947c58ff20faf40f81bb, type: 3}
+    displaySprite: {fileID: 21300000, guid: 065a6ebc2c5e34465af70e068325a1d4, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker03
+  - texture: {fileID: 2800000, guid: caad02ba2390f4df6b33a5cb81992ac0, type: 3}
+    displaySprite: {fileID: 21300000, guid: 9ee3e1e7ac8a5470b83f47c9aead6cfc, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker04
+  - texture: {fileID: 2800000, guid: ec87a357c914a4a31958c0331ac506e4, type: 3}
+    displaySprite: {fileID: 21300000, guid: 6d59304d35d494cfda94961b424a2b64, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker05
+  - texture: {fileID: 2800000, guid: 3d415011d02324c3ca72a6397ef34361, type: 3}
+    displaySprite: {fileID: 21300000, guid: b6ea528aa84ae4806a09e89791806d15, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker06
+  - texture: {fileID: 2800000, guid: 8e5b9c9e81a3b4220863a4a8e895d457, type: 3}
+    displaySprite: {fileID: 21300000, guid: d92dd2147dce74fe094f2cef5bd781a5, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker07
+  - texture: {fileID: 2800000, guid: b1042f69cabe747b4a174e98fed3eb72, type: 3}
+    displaySprite: {fileID: 21300000, guid: 6f491b8b9a2834c10b519681d3592f4e, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker08
+  - texture: {fileID: 2800000, guid: 45f0a5c7d84114477beb3ff5bb8dc151, type: 3}
+    displaySprite: {fileID: 21300000, guid: 6abc1c04c3d4b4b888dfcd2c77f0066c, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker09
+  - texture: {fileID: 2800000, guid: 774aab732d05546e1964122b696451d6, type: 3}
+    displaySprite: {fileID: 21300000, guid: fcbf667cfea084732b164bc86e8963ae, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: MiniGameMarker10
+  - texture: {fileID: 2800000, guid: 8fd3a249a442b4f789106389c9305d6f, type: 3}
+    displaySprite: {fileID: 21300000, guid: 1770edee12d29422996d4ec0d07955a9, type: 3}
+    prefab: {fileID: 7696978915961526283, guid: 0dcbf2b4682c440a28e9006dba1b2830, type: 3}
+    name: TrashMarker

@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Hoverable.AHoverBehaviour
+  commentId: T:InteractionSystem.Hoverable.AHoverBehaviour
+  id: AHoverBehaviour
+  parent: InteractionSystem.Hoverable
+  children:
+  - InteractionSystem.Hoverable.AHoverBehaviour.Awake
+  - InteractionSystem.Hoverable.AHoverBehaviour.interactable
+  - InteractionSystem.Hoverable.AHoverBehaviour.OnHoverEnter
+  - InteractionSystem.Hoverable.AHoverBehaviour.OnHoverExit
+  langs:
+  - csharp
+  - vb
+  name: AHoverBehaviour
+  nameWithType: AHoverBehaviour
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour
+  type: Class
+  source:
+    id: AHoverBehaviour
+    path: ''
+    startLine: 24750
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hoverable
+  syntax:
+    content: 'public abstract class AHoverBehaviour : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AHoverBehaviour
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: InteractionSystem.Hoverable.AHoverBehaviour.interactable
+  commentId: F:InteractionSystem.Hoverable.AHoverBehaviour.interactable
+  id: interactable
+  parent: InteractionSystem.Hoverable.AHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: interactable
+  nameWithType: AHoverBehaviour.interactable
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour.interactable
+  type: Field
+  source:
+    id: interactable
+    path: ''
+    startLine: 24753
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hoverable
+  syntax:
+    content: protected Interactable interactable
+    return:
+      type: InteractionSystem.Interactable.Interactable
+    content.vb: Protected interactable As Interactable
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: InteractionSystem.Hoverable.AHoverBehaviour.Awake
+  commentId: M:InteractionSystem.Hoverable.AHoverBehaviour.Awake
+  id: Awake
+  parent: InteractionSystem.Hoverable.AHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: AHoverBehaviour.Awake()
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24755
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hoverable
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: InteractionSystem.Hoverable.AHoverBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverEnter
+  commentId: M:InteractionSystem.Hoverable.AHoverBehaviour.OnHoverEnter
+  id: OnHoverEnter
+  parent: InteractionSystem.Hoverable.AHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnHoverEnter()
+  nameWithType: AHoverBehaviour.OnHoverEnter()
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverEnter()
+  type: Method
+  source:
+    id: OnHoverEnter
+    path: ''
+    startLine: 24760
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hoverable
+  syntax:
+    content: public virtual void OnHoverEnter()
+    content.vb: Public Overridable Sub OnHoverEnter
+  overload: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverEnter*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverExit
+  commentId: M:InteractionSystem.Hoverable.AHoverBehaviour.OnHoverExit
+  id: OnHoverExit
+  parent: InteractionSystem.Hoverable.AHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnHoverExit()
+  nameWithType: AHoverBehaviour.OnHoverExit()
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverExit()
+  type: Method
+  source:
+    id: OnHoverExit
+    path: ''
+    startLine: 24761
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hoverable
+  syntax:
+    content: public virtual void OnHoverExit()
+    content.vb: Public Overridable Sub OnHoverExit
+  overload: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverExit*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: InteractionSystem.Hoverable
+  commentId: N:InteractionSystem.Hoverable
+  name: InteractionSystem.Hoverable
+  nameWithType: InteractionSystem.Hoverable
+  fullName: InteractionSystem.Hoverable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Interactable.Interactable
+  commentId: T:InteractionSystem.Interactable.Interactable
+  parent: InteractionSystem.Interactable
+  name: Interactable
+  nameWithType: Interactable
+  fullName: InteractionSystem.Interactable.Interactable
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+- uid: InteractionSystem.Hoverable.AHoverBehaviour.Awake*
+  commentId: Overload:InteractionSystem.Hoverable.AHoverBehaviour.Awake
+  name: Awake
+  nameWithType: AHoverBehaviour.Awake
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour.Awake
+- uid: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverEnter*
+  commentId: Overload:InteractionSystem.Hoverable.AHoverBehaviour.OnHoverEnter
+  name: OnHoverEnter
+  nameWithType: AHoverBehaviour.OnHoverEnter
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverEnter
+- uid: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverExit*
+  commentId: Overload:InteractionSystem.Hoverable.AHoverBehaviour.OnHoverExit
+  name: OnHoverExit
+  nameWithType: AHoverBehaviour.OnHoverExit
+  fullName: InteractionSystem.Hoverable.AHoverBehaviour.OnHoverExit

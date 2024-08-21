@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LessonLoaderWindow
+  commentId: T:Global.LessonLoaderWindow
+  id: LessonLoaderWindow
+  parent: Global
+  children:
+  - Global.LessonLoaderWindow.abort
+  - Global.LessonLoaderWindow.Awake
+  - Global.LessonLoaderWindow.confirm
+  - Global.LessonLoaderWindow.description
+  - Global.LessonLoaderWindow.heading
+  - Global.LessonLoaderWindow.OnRequestLessonLoadUI(LessonSceneLoadData)
+  langs:
+  - csharp
+  - vb
+  name: LessonLoaderWindow
+  nameWithType: LessonLoaderWindow
+  fullName: LessonLoaderWindow
+  type: Class
+  source:
+    id: LessonLoaderWindow
+    path: ''
+    startLine: 25228
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class LessonLoaderWindow : MonoBehaviour'
+    content.vb: >-
+      Public Class LessonLoaderWindow
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.LessonLoaderWindow.confirm
+  commentId: F:Global.LessonLoaderWindow.confirm
+  id: confirm
+  parent: Global.LessonLoaderWindow
+  langs:
+  - csharp
+  - vb
+  name: confirm
+  nameWithType: LessonLoaderWindow.confirm
+  fullName: LessonLoaderWindow.confirm
+  type: Field
+  source:
+    id: confirm
+    path: ''
+    startLine: 25230
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button confirm
+    return:
+      type: Global.Button
+    content.vb: Public confirm As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LessonLoaderWindow.abort
+  commentId: F:Global.LessonLoaderWindow.abort
+  id: abort
+  parent: Global.LessonLoaderWindow
+  langs:
+  - csharp
+  - vb
+  name: abort
+  nameWithType: LessonLoaderWindow.abort
+  fullName: LessonLoaderWindow.abort
+  type: Field
+  source:
+    id: abort
+    path: ''
+    startLine: 25231
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button abort
+    return:
+      type: Global.Button
+    content.vb: Public abort As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LessonLoaderWindow.heading
+  commentId: F:Global.LessonLoaderWindow.heading
+  id: heading
+  parent: Global.LessonLoaderWindow
+  langs:
+  - csharp
+  - vb
+  name: heading
+  nameWithType: LessonLoaderWindow.heading
+  fullName: LessonLoaderWindow.heading
+  type: Field
+  source:
+    id: heading
+    path: ''
+    startLine: 25233
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI heading
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public heading As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LessonLoaderWindow.description
+  commentId: F:Global.LessonLoaderWindow.description
+  id: description
+  parent: Global.LessonLoaderWindow
+  langs:
+  - csharp
+  - vb
+  name: description
+  nameWithType: LessonLoaderWindow.description
+  fullName: LessonLoaderWindow.description
+  type: Field
+  source:
+    id: description
+    path: ''
+    startLine: 25234
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI description
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public description As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LessonLoaderWindow.Awake
+  commentId: M:Global.LessonLoaderWindow.Awake
+  id: Awake
+  parent: Global.LessonLoaderWindow
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: LessonLoaderWindow.Awake()
+  fullName: LessonLoaderWindow.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 25238
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: Global.LessonLoaderWindow.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LessonLoaderWindow.OnRequestLessonLoadUI(LessonSceneLoadData)
+  commentId: M:Global.LessonLoaderWindow.OnRequestLessonLoadUI(LessonSceneLoadData)
+  id: OnRequestLessonLoadUI(LessonSceneLoadData)
+  parent: Global.LessonLoaderWindow
+  langs:
+  - csharp
+  - vb
+  name: OnRequestLessonLoadUI(LessonSceneLoadData)
+  nameWithType: LessonLoaderWindow.OnRequestLessonLoadUI(LessonSceneLoadData)
+  fullName: LessonLoaderWindow.OnRequestLessonLoadUI(LessonSceneLoadData)
+  type: Method
+  source:
+    id: OnRequestLessonLoadUI
+    path: ''
+    startLine: 25251
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRequestLessonLoadUI(LessonSceneLoadData lessonLoadData)
+    parameters:
+    - id: lessonLoadData
+      type: Global.LessonSceneLoadData
+    content.vb: Public Sub OnRequestLessonLoadUI(lessonLoadData As LessonSceneLoadData)
+  overload: Global.LessonLoaderWindow.OnRequestLessonLoadUI*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.LessonLoaderWindow.Awake*
+  commentId: Overload:Global.LessonLoaderWindow.Awake
+  name: Awake
+  nameWithType: LessonLoaderWindow.Awake
+  fullName: LessonLoaderWindow.Awake
+- uid: Global.LessonLoaderWindow.OnRequestLessonLoadUI*
+  commentId: Overload:Global.LessonLoaderWindow.OnRequestLessonLoadUI
+  name: OnRequestLessonLoadUI
+  nameWithType: LessonLoaderWindow.OnRequestLessonLoadUI
+  fullName: LessonLoaderWindow.OnRequestLessonLoadUI
+- uid: Global.LessonSceneLoadData
+  commentId: T:Global.LessonSceneLoadData
+  name: LessonSceneLoadData
+  nameWithType: LessonSceneLoadData
+  fullName: LessonSceneLoadData

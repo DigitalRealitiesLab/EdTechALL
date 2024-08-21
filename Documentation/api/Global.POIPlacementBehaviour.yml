@@ -1,0 +1,460 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.POIPlacementBehaviour
+  commentId: T:Global.POIPlacementBehaviour
+  id: POIPlacementBehaviour
+  parent: Global
+  children:
+  - Global.POIPlacementBehaviour.behaviourType
+  - Global.POIPlacementBehaviour.InitBehaviour
+  - Global.POIPlacementBehaviour.needle
+  - Global.POIPlacementBehaviour.needleDirection
+  - Global.POIPlacementBehaviour.needleLength
+  - Global.POIPlacementBehaviour.OnGlobalScaleChanged(System.Single)
+  - Global.POIPlacementBehaviour.PlacePOI(Vector3)
+  - Global.POIPlacementBehaviour.poiTransform
+  - Global.POIPlacementBehaviour.UpdateBehaviour
+  langs:
+  - csharp
+  - vb
+  name: POIPlacementBehaviour
+  nameWithType: POIPlacementBehaviour
+  fullName: POIPlacementBehaviour
+  type: Class
+  source:
+    id: POIPlacementBehaviour
+    path: ''
+    startLine: 23279
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class POIPlacementBehaviour : APOIBehaviour'
+    content.vb: >-
+      Public Class POIPlacementBehaviour
+          Inherits APOIBehaviour
+  inheritance:
+  - System.Object
+  - Global.APOIBehaviour
+  inheritedMembers:
+  - Global.APOIBehaviour.viewer
+  - Global.APOIBehaviour.poi
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.POIPlacementBehaviour.needle
+  commentId: F:Global.POIPlacementBehaviour.needle
+  id: needle
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: needle
+  nameWithType: POIPlacementBehaviour.needle
+  fullName: POIPlacementBehaviour.needle
+  type: Field
+  source:
+    id: needle
+    path: ''
+    startLine: 23281
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public LineRenderer needle
+    return:
+      type: Global.LineRenderer
+    content.vb: Public needle As LineRenderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIPlacementBehaviour.poiTransform
+  commentId: F:Global.POIPlacementBehaviour.poiTransform
+  id: poiTransform
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: poiTransform
+  nameWithType: POIPlacementBehaviour.poiTransform
+  fullName: POIPlacementBehaviour.poiTransform
+  type: Field
+  source:
+    id: poiTransform
+    path: ''
+    startLine: 23282
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform poiTransform
+    return:
+      type: Global.Transform
+    content.vb: Public poiTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIPlacementBehaviour.needleDirection
+  commentId: F:Global.POIPlacementBehaviour.needleDirection
+  id: needleDirection
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: needleDirection
+  nameWithType: POIPlacementBehaviour.needleDirection
+  fullName: POIPlacementBehaviour.needleDirection
+  type: Field
+  source:
+    id: needleDirection
+    path: ''
+    startLine: 23283
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector3 needleDirection
+    return:
+      type: Global.Vector3
+    content.vb: Public needleDirection As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIPlacementBehaviour.needleLength
+  commentId: F:Global.POIPlacementBehaviour.needleLength
+  id: needleLength
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: needleLength
+  nameWithType: POIPlacementBehaviour.needleLength
+  fullName: POIPlacementBehaviour.needleLength
+  type: Field
+  source:
+    id: needleLength
+    path: ''
+    startLine: 23284
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float needleLength
+    return:
+      type: System.Single
+    content.vb: Public needleLength As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIPlacementBehaviour.behaviourType
+  commentId: P:Global.POIPlacementBehaviour.behaviourType
+  id: behaviourType
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: behaviourType
+  nameWithType: POIPlacementBehaviour.behaviourType
+  fullName: POIPlacementBehaviour.behaviourType
+  type: Property
+  source:
+    id: behaviourType
+    path: ''
+    startLine: 23286
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override string behaviourType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property behaviourType As String
+  overridden: Global.APOIBehaviour.behaviourType
+  overload: Global.POIPlacementBehaviour.behaviourType*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Global.POIPlacementBehaviour.InitBehaviour
+  commentId: M:Global.POIPlacementBehaviour.InitBehaviour
+  id: InitBehaviour
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InitBehaviour()
+  nameWithType: POIPlacementBehaviour.InitBehaviour()
+  fullName: POIPlacementBehaviour.InitBehaviour()
+  type: Method
+  source:
+    id: InitBehaviour
+    path: ''
+    startLine: 23288
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void InitBehaviour()
+    content.vb: Public Overrides Sub InitBehaviour
+  overridden: Global.APOIBehaviour.InitBehaviour
+  overload: Global.POIPlacementBehaviour.InitBehaviour*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.POIPlacementBehaviour.PlacePOI(Vector3)
+  commentId: M:Global.POIPlacementBehaviour.PlacePOI(Vector3)
+  id: PlacePOI(Vector3)
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: PlacePOI(Vector3)
+  nameWithType: POIPlacementBehaviour.PlacePOI(Vector3)
+  fullName: POIPlacementBehaviour.PlacePOI(Vector3)
+  type: Method
+  source:
+    id: PlacePOI
+    path: ''
+    startLine: 23298
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PlacePOI(Vector3 worldPosition)
+    parameters:
+    - id: worldPosition
+      type: Global.Vector3
+    content.vb: Public Sub PlacePOI(worldPosition As Vector3)
+  overload: Global.POIPlacementBehaviour.PlacePOI*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIPlacementBehaviour.UpdateBehaviour
+  commentId: M:Global.POIPlacementBehaviour.UpdateBehaviour
+  id: UpdateBehaviour
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: UpdateBehaviour()
+  nameWithType: POIPlacementBehaviour.UpdateBehaviour()
+  fullName: POIPlacementBehaviour.UpdateBehaviour()
+  type: Method
+  source:
+    id: UpdateBehaviour
+    path: ''
+    startLine: 23305
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void UpdateBehaviour()
+    content.vb: Public Overrides Sub UpdateBehaviour
+  overridden: Global.APOIBehaviour.UpdateBehaviour
+  overload: Global.POIPlacementBehaviour.UpdateBehaviour*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.POIPlacementBehaviour.OnGlobalScaleChanged(System.Single)
+  commentId: M:Global.POIPlacementBehaviour.OnGlobalScaleChanged(System.Single)
+  id: OnGlobalScaleChanged(System.Single)
+  parent: Global.POIPlacementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnGlobalScaleChanged(Single)
+  nameWithType: POIPlacementBehaviour.OnGlobalScaleChanged(Single)
+  fullName: POIPlacementBehaviour.OnGlobalScaleChanged(System.Single)
+  type: Method
+  source:
+    id: OnGlobalScaleChanged
+    path: ''
+    startLine: 23310
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnGlobalScaleChanged(float deltaScaleMultiplier)
+    parameters:
+    - id: deltaScaleMultiplier
+      type: System.Single
+    content.vb: Public Sub OnGlobalScaleChanged(deltaScaleMultiplier As Single)
+  overload: Global.POIPlacementBehaviour.OnGlobalScaleChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.APOIBehaviour
+  commentId: T:Global.APOIBehaviour
+  name: APOIBehaviour
+  nameWithType: APOIBehaviour
+  fullName: APOIBehaviour
+- uid: Global.APOIBehaviour.viewer
+  commentId: F:Global.APOIBehaviour.viewer
+  parent: Global.APOIBehaviour
+  name: viewer
+  nameWithType: APOIBehaviour.viewer
+  fullName: APOIBehaviour.viewer
+- uid: Global.APOIBehaviour.poi
+  commentId: F:Global.APOIBehaviour.poi
+  parent: Global.APOIBehaviour
+  name: poi
+  nameWithType: APOIBehaviour.poi
+  fullName: APOIBehaviour.poi
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.LineRenderer
+  commentId: '!:Global.LineRenderer'
+  isExternal: true
+  name: LineRenderer
+  nameWithType: LineRenderer
+  fullName: LineRenderer
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.APOIBehaviour.behaviourType
+  commentId: P:Global.APOIBehaviour.behaviourType
+  parent: Global.APOIBehaviour
+  name: behaviourType
+  nameWithType: APOIBehaviour.behaviourType
+  fullName: APOIBehaviour.behaviourType
+- uid: Global.POIPlacementBehaviour.behaviourType*
+  commentId: Overload:Global.POIPlacementBehaviour.behaviourType
+  name: behaviourType
+  nameWithType: POIPlacementBehaviour.behaviourType
+  fullName: POIPlacementBehaviour.behaviourType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.APOIBehaviour.InitBehaviour
+  commentId: M:Global.APOIBehaviour.InitBehaviour
+  parent: Global.APOIBehaviour
+  name: InitBehaviour()
+  nameWithType: APOIBehaviour.InitBehaviour()
+  fullName: APOIBehaviour.InitBehaviour()
+  spec.csharp:
+  - uid: Global.APOIBehaviour.InitBehaviour
+    name: InitBehaviour
+    nameWithType: APOIBehaviour.InitBehaviour
+    fullName: APOIBehaviour.InitBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.APOIBehaviour.InitBehaviour
+    name: InitBehaviour
+    nameWithType: APOIBehaviour.InitBehaviour
+    fullName: APOIBehaviour.InitBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.POIPlacementBehaviour.InitBehaviour*
+  commentId: Overload:Global.POIPlacementBehaviour.InitBehaviour
+  name: InitBehaviour
+  nameWithType: POIPlacementBehaviour.InitBehaviour
+  fullName: POIPlacementBehaviour.InitBehaviour
+- uid: Global.POIPlacementBehaviour.PlacePOI*
+  commentId: Overload:Global.POIPlacementBehaviour.PlacePOI
+  name: PlacePOI
+  nameWithType: POIPlacementBehaviour.PlacePOI
+  fullName: POIPlacementBehaviour.PlacePOI
+- uid: Global.APOIBehaviour.UpdateBehaviour
+  commentId: M:Global.APOIBehaviour.UpdateBehaviour
+  parent: Global.APOIBehaviour
+  name: UpdateBehaviour()
+  nameWithType: APOIBehaviour.UpdateBehaviour()
+  fullName: APOIBehaviour.UpdateBehaviour()
+  spec.csharp:
+  - uid: Global.APOIBehaviour.UpdateBehaviour
+    name: UpdateBehaviour
+    nameWithType: APOIBehaviour.UpdateBehaviour
+    fullName: APOIBehaviour.UpdateBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.APOIBehaviour.UpdateBehaviour
+    name: UpdateBehaviour
+    nameWithType: APOIBehaviour.UpdateBehaviour
+    fullName: APOIBehaviour.UpdateBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.POIPlacementBehaviour.UpdateBehaviour*
+  commentId: Overload:Global.POIPlacementBehaviour.UpdateBehaviour
+  name: UpdateBehaviour
+  nameWithType: POIPlacementBehaviour.UpdateBehaviour
+  fullName: POIPlacementBehaviour.UpdateBehaviour
+- uid: Global.POIPlacementBehaviour.OnGlobalScaleChanged*
+  commentId: Overload:Global.POIPlacementBehaviour.OnGlobalScaleChanged
+  name: OnGlobalScaleChanged
+  nameWithType: POIPlacementBehaviour.OnGlobalScaleChanged
+  fullName: POIPlacementBehaviour.OnGlobalScaleChanged

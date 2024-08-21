@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be7214d05702c454a90e8be032e06b5b, type: 3}
+  m_Name: MiniGameSceneLookup
+  m_EditorClassIdentifier: 
+  imageMarkerData:
+  - lookupKey: MiniGameMarker01
+    sceneName: MunicipalitySearch
+    sceneSprite: {fileID: 21300000, guid: 495b227de8ece4c879da4e8f701deb13, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 0
+  - lookupKey: MiniGameMarker02
+    sceneName: CountyPuzzle
+    sceneSprite: {fileID: 21300000, guid: 4c380ba22061f4675b4da7987f7c1e9d, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 1
+  - lookupKey: MiniGameMarker03
+    sceneName: MapLegend
+    sceneSprite: {fileID: 21300000, guid: 90b318c63278a4f619286eafbc8cee78, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 2
+  - lookupKey: MiniGameMarker04
+    sceneName: Topography
+    sceneSprite: {fileID: 21300000, guid: 3f989f004117f438db4a06c715374c82, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 3
+  - lookupKey: MiniGameMarker05
+    sceneName: FarmOverview
+    sceneSprite: {fileID: 21300000, guid: e586064b0ce3542ad8104b8abcedf23f, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 4
+  - lookupKey: MiniGameMarker06
+    sceneName: FarmTour
+    sceneSprite: {fileID: 21300000, guid: 0a77d13bb553c47deab4ef44642b1686, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 5
+  - lookupKey: MiniGameMarker07
+    sceneName: LandscapeLayers
+    sceneSprite: {fileID: 21300000, guid: bff8dedd3a071482e847ad651ca8098f, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 6
+  - lookupKey: MiniGameMarker08
+    sceneName: VirtualAnimals
+    sceneSprite: {fileID: 21300000, guid: 616a5bf678b1c4a5c96cac6d23fd69de, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 7
+  - lookupKey: MiniGameMarker09
+    sceneName: DairyTour
+    sceneSprite: {fileID: 21300000, guid: 8308e997fb3134cc9b785ec177e91af6, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 8
+  - lookupKey: MiniGameMarker10
+    sceneName: FridgeCleanup
+    sceneSprite: {fileID: 21300000, guid: 155f2240fb27e431a8e8490a9539a99e, type: 3}
+    prefabMapper: {fileID: 11400000, guid: 4d601428f42e043f595cc3797bec1388, type: 2}
+    miniGameType: 9

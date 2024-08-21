@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LineRendererScaler
+  commentId: T:Global.LineRendererScaler
+  id: LineRendererScaler
+  parent: Global
+  children:
+  - Global.LineRendererScaler.OnGlobalScaleChanged(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: LineRendererScaler
+  nameWithType: LineRendererScaler
+  fullName: LineRendererScaler
+  type: Class
+  source:
+    id: LineRendererScaler
+    path: ''
+    startLine: 22759
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class LineRendererScaler : MonoBehaviour'
+    content.vb: >-
+      Public Class LineRendererScaler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.LineRendererScaler.OnGlobalScaleChanged(System.Single)
+  commentId: M:Global.LineRendererScaler.OnGlobalScaleChanged(System.Single)
+  id: OnGlobalScaleChanged(System.Single)
+  parent: Global.LineRendererScaler
+  langs:
+  - csharp
+  - vb
+  name: OnGlobalScaleChanged(Single)
+  nameWithType: LineRendererScaler.OnGlobalScaleChanged(Single)
+  fullName: LineRendererScaler.OnGlobalScaleChanged(System.Single)
+  type: Method
+  source:
+    id: OnGlobalScaleChanged
+    path: ''
+    startLine: 22769
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnGlobalScaleChanged(float deltaMultiplier)
+    parameters:
+    - id: deltaMultiplier
+      type: System.Single
+    content.vb: Public Sub OnGlobalScaleChanged(deltaMultiplier As Single)
+  overload: Global.LineRendererScaler.OnGlobalScaleChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.LineRendererScaler.OnGlobalScaleChanged*
+  commentId: Overload:Global.LineRendererScaler.OnGlobalScaleChanged
+  name: OnGlobalScaleChanged
+  nameWithType: LineRendererScaler.OnGlobalScaleChanged
+  fullName: LineRendererScaler.OnGlobalScaleChanged
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

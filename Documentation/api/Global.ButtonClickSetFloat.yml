@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ButtonClickSetFloat
+  commentId: T:Global.ButtonClickSetFloat
+  id: ButtonClickSetFloat
+  parent: Global
+  children:
+  - Global.ButtonClickSetFloat.button
+  - Global.ButtonClickSetFloat.inputField
+  - Global.ButtonClickSetFloat.value
+  langs:
+  - csharp
+  - vb
+  name: ButtonClickSetFloat
+  nameWithType: ButtonClickSetFloat
+  fullName: ButtonClickSetFloat
+  type: Class
+  source:
+    id: ButtonClickSetFloat
+    path: ''
+    startLine: 21135
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ButtonClickSetFloat : MonoBehaviour'
+    content.vb: >-
+      Public Class ButtonClickSetFloat
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ButtonClickSetFloat.button
+  commentId: F:Global.ButtonClickSetFloat.button
+  id: button
+  parent: Global.ButtonClickSetFloat
+  langs:
+  - csharp
+  - vb
+  name: button
+  nameWithType: ButtonClickSetFloat.button
+  fullName: ButtonClickSetFloat.button
+  type: Field
+  source:
+    id: button
+    path: ''
+    startLine: 21137
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button button
+    return:
+      type: Global.Button
+    content.vb: Public button As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ButtonClickSetFloat.inputField
+  commentId: F:Global.ButtonClickSetFloat.inputField
+  id: inputField
+  parent: Global.ButtonClickSetFloat
+  langs:
+  - csharp
+  - vb
+  name: inputField
+  nameWithType: ButtonClickSetFloat.inputField
+  fullName: ButtonClickSetFloat.inputField
+  type: Field
+  source:
+    id: inputField
+    path: ''
+    startLine: 21138
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMPro.TMP_InputField inputField
+    return:
+      type: Global.TMPro.TMP_InputField
+    content.vb: Public inputField As TMPro.TMP_InputField
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ButtonClickSetFloat.value
+  commentId: F:Global.ButtonClickSetFloat.value
+  id: value
+  parent: Global.ButtonClickSetFloat
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: ButtonClickSetFloat.value
+  fullName: ButtonClickSetFloat.value
+  type: Field
+  source:
+    id: value
+    path: ''
+    startLine: 21139
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float value
+    return:
+      type: System.Single
+    content.vb: Public value As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.TMPro.TMP_InputField
+  commentId: '!:Global.TMPro.TMP_InputField'
+  isExternal: true
+  name: TMPro.TMP_InputField
+  nameWithType: TMPro.TMP_InputField
+  fullName: TMPro.TMP_InputField
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

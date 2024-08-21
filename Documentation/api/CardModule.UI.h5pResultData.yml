@@ -1,0 +1,212 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.h5pResultData
+  commentId: T:CardModule.UI.h5pResultData
+  id: h5pResultData
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.h5pResultData.completion
+  - CardModule.UI.h5pResultData.duration
+  - CardModule.UI.h5pResultData.response
+  - CardModule.UI.h5pResultData.score
+  - CardModule.UI.h5pResultData.success
+  langs:
+  - csharp
+  - vb
+  name: h5pResultData
+  nameWithType: h5pResultData
+  fullName: CardModule.UI.h5pResultData
+  type: Struct
+  source:
+    id: h5pResultData
+    path: ''
+    startLine: 19909
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct h5pResultData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure h5pResultData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: CardModule.UI.h5pResultData.score
+  commentId: F:CardModule.UI.h5pResultData.score
+  id: score
+  parent: CardModule.UI.h5pResultData
+  langs:
+  - csharp
+  - vb
+  name: score
+  nameWithType: h5pResultData.score
+  fullName: CardModule.UI.h5pResultData.score
+  type: Field
+  source:
+    id: score
+    path: ''
+    startLine: 19912
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public h5pScore score
+    return:
+      type: CardModule.UI.h5pScore
+    content.vb: Public score As h5pScore
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pResultData.completion
+  commentId: F:CardModule.UI.h5pResultData.completion
+  id: completion
+  parent: CardModule.UI.h5pResultData
+  langs:
+  - csharp
+  - vb
+  name: completion
+  nameWithType: h5pResultData.completion
+  fullName: CardModule.UI.h5pResultData.completion
+  type: Field
+  source:
+    id: completion
+    path: ''
+    startLine: 19913
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public bool completion
+    return:
+      type: System.Boolean
+    content.vb: Public completion As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pResultData.success
+  commentId: F:CardModule.UI.h5pResultData.success
+  id: success
+  parent: CardModule.UI.h5pResultData
+  langs:
+  - csharp
+  - vb
+  name: success
+  nameWithType: h5pResultData.success
+  fullName: CardModule.UI.h5pResultData.success
+  type: Field
+  source:
+    id: success
+    path: ''
+    startLine: 19914
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public bool success
+    return:
+      type: System.Boolean
+    content.vb: Public success As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pResultData.duration
+  commentId: F:CardModule.UI.h5pResultData.duration
+  id: duration
+  parent: CardModule.UI.h5pResultData
+  langs:
+  - csharp
+  - vb
+  name: duration
+  nameWithType: h5pResultData.duration
+  fullName: CardModule.UI.h5pResultData.duration
+  type: Field
+  source:
+    id: duration
+    path: ''
+    startLine: 19915
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public string duration
+    return:
+      type: System.String
+    content.vb: Public duration As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pResultData.response
+  commentId: F:CardModule.UI.h5pResultData.response
+  id: response
+  parent: CardModule.UI.h5pResultData
+  langs:
+  - csharp
+  - vb
+  name: response
+  nameWithType: h5pResultData.response
+  fullName: CardModule.UI.h5pResultData.response
+  type: Field
+  source:
+    id: response
+    path: ''
+    startLine: 19916
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public string response
+    return:
+      type: System.String
+    content.vb: Public response As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: CardModule.UI.h5pScore
+  commentId: T:CardModule.UI.h5pScore
+  parent: CardModule.UI
+  name: h5pScore
+  nameWithType: h5pScore
+  fullName: CardModule.UI.h5pScore
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

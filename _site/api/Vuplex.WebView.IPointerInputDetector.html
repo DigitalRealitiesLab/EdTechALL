@@ -1,0 +1,351 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IPointerInputDetector
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IPointerInputDetector
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Vuplex.WebView.IPointerInputDetector">
+  
+  
+  <h1 id="Vuplex_WebView_IPointerInputDetector" data-uid="Vuplex.WebView.IPointerInputDetector" class="text-break">Interface IPointerInputDetector
+  </h1>
+  <div class="markdown level0 summary"><p>An interface that can be passed to WebViewPrefab.SetPointerInputDetector()
+CanvasWebViewPrefab.SetPointerInputDetector() to override how the prefab detects pointer input.
+For example implementations of this interface, please see 3D WebView&apos;s DefaultPointerInputDetector.cs
+and CanvasPointerInputDetector.cs scripts.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Vuplex.WebView.html">Vuplex.WebView</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Vuplex_WebView_IPointerInputDetector_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IPointerInputDetector</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Vuplex_WebView_IPointerInputDetector_PointerMovedEnabled_" data-uid="Vuplex.WebView.IPointerInputDetector.PointerMovedEnabled*"></a>
+  <h4 id="Vuplex_WebView_IPointerInputDetector_PointerMovedEnabled" data-uid="Vuplex.WebView.IPointerInputDetector.PointerMovedEnabled">PointerMovedEnabled</h4>
+  <div class="markdown level1 summary"><p>The prefab sets this property to indicate whether
+the PointerMoved event should be enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool PointerMovedEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Vuplex_WebView_IPointerInputDetector_BeganDrag" data-uid="Vuplex.WebView.IPointerInputDetector.BeganDrag">BeganDrag</h4>
+  <div class="markdown level1 summary"><p>Indicates the beginning of a drag interaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&lt;Vector2&gt;&gt; BeganDrag</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.EventArgs-1.html">EventArgs</a>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IPointerInputDetector_BeganDrag_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The x and y components of the point are values in the range of [0, 1] that
+are normalized to the webview&apos;s width and height. For example,
+<code>point.x = xInPixels / webView.SizeInPixels.x</code>. Like in the browser,
+the origin is in the upper-left corner, the positive direction of the y-axis
+is down, and the positive direction of the x-axis is right.</p>
+</div>
+  
+  
+  <h4 id="Vuplex_WebView_IPointerInputDetector_Dragged" data-uid="Vuplex.WebView.IPointerInputDetector.Dragged">Dragged</h4>
+  <div class="markdown level1 summary"><p>Indicates the continuation of a drag interaction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&lt;Vector2&gt;&gt; Dragged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.EventArgs-1.html">EventArgs</a>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IPointerInputDetector_Dragged_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The x and y components of the point are values in the range of [0, 1] that
+are normalized to the webview&apos;s width and height. For example,
+<code>point.x = xInPixels / webView.SizeInPixels.x</code>. Like in the browser,
+the origin is in the upper-left corner, the positive direction of the y-axis
+is down, and the positive direction of the x-axis is right.</p>
+</div>
+  
+  
+  <h4 id="Vuplex_WebView_IPointerInputDetector_PointerDown" data-uid="Vuplex.WebView.IPointerInputDetector.PointerDown">PointerDown</h4>
+  <div class="markdown level1 summary"><p>Indicates a pointer down interaction occurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;PointerEventArgs&gt; PointerDown</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.PointerEventArgs.html">PointerEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Vuplex_WebView_IPointerInputDetector_PointerExited" data-uid="Vuplex.WebView.IPointerInputDetector.PointerExited">PointerExited</h4>
+  <div class="markdown level1 summary"><p>Indicates that the pointer exited.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler PointerExited</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Vuplex_WebView_IPointerInputDetector_PointerMoved" data-uid="Vuplex.WebView.IPointerInputDetector.PointerMoved">PointerMoved</h4>
+  <div class="markdown level1 summary"><p>Indicates that the pointer moved.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&lt;Vector2&gt;&gt; PointerMoved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.EventArgs-1.html">EventArgs</a>&lt;<span class="xref">UnityEngine.Vector2</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IPointerInputDetector_PointerMoved_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The x and y components of the point are values in the range of [0, 1] that
+are normalized to the webview&apos;s width and height. For example,
+<code>point.x = xInPixels / webView.SizeInPixels.x</code>. Like in the browser,
+the origin is in the upper-left corner, the positive direction of the y-axis
+is down, and the positive direction of the x-axis is right.</p>
+</div>
+  
+  
+  <h4 id="Vuplex_WebView_IPointerInputDetector_PointerUp" data-uid="Vuplex.WebView.IPointerInputDetector.PointerUp">PointerUp</h4>
+  <div class="markdown level1 summary"><p>Indicates a pointer up interaction occurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;PointerEventArgs&gt; PointerUp</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.PointerEventArgs.html">PointerEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="Vuplex_WebView_IPointerInputDetector_Scrolled" data-uid="Vuplex.WebView.IPointerInputDetector.Scrolled">Scrolled</h4>
+  <div class="markdown level1 summary"><p>Indicates a scroll interaction occurred.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ScrolledEventArgs&gt; Scrolled</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.ScrolledEventArgs.html">ScrolledEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

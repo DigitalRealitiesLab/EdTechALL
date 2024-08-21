@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CollisionForwarder
+  commentId: T:Global.CollisionForwarder
+  id: CollisionForwarder
+  parent: Global
+  children:
+  - Global.CollisionForwarder.target
+  langs:
+  - csharp
+  - vb
+  name: CollisionForwarder
+  nameWithType: CollisionForwarder
+  fullName: CollisionForwarder
+  type: Class
+  source:
+    id: CollisionForwarder
+    path: ''
+    startLine: 16586
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CollisionForwarder : MonoBehaviour'
+    content.vb: >-
+      Public Class CollisionForwarder
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CollisionForwarder.target
+  commentId: F:Global.CollisionForwarder.target
+  id: target
+  parent: Global.CollisionForwarder
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: CollisionForwarder.target
+  fullName: CollisionForwarder.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 16588
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject target
+    return:
+      type: Global.GameObject
+    content.vb: Public target As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

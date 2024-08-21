@@ -1,0 +1,340 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Placeholder.Placeholder
+  commentId: T:InteractionSystem.Placeholder.Placeholder
+  id: Placeholder
+  parent: InteractionSystem.Placeholder
+  children:
+  - InteractionSystem.Placeholder.Placeholder.isAvailableToSelectable(InteractionSystem.Selectable.SnappingBehaviour)
+  - InteractionSystem.Placeholder.Placeholder.occupyingSelectable
+  - InteractionSystem.Placeholder.Placeholder.OnPlaceholderEnter
+  - InteractionSystem.Placeholder.Placeholder.OnPlaceholderExit
+  - InteractionSystem.Placeholder.Placeholder.placeholderTag
+  langs:
+  - csharp
+  - vb
+  name: Placeholder
+  nameWithType: Placeholder
+  fullName: InteractionSystem.Placeholder.Placeholder
+  type: Class
+  source:
+    id: Placeholder
+    path: ''
+    startLine: 24530
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: 'public class Placeholder : Sensable'
+    content.vb: >-
+      Public Class Placeholder
+          Inherits Sensable
+  inheritance:
+  - System.Object
+  - InteractionSystem.Sensable
+  inheritedMembers:
+  - InteractionSystem.Sensable.root
+  - InteractionSystem.Sensable._root
+  - InteractionSystem.Sensable.hasForwardingRole
+  - InteractionSystem.Sensable.Awake
+  - InteractionSystem.Sensable.FindRoot
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Placeholder.Placeholder.OnPlaceholderEnter
+  commentId: F:InteractionSystem.Placeholder.Placeholder.OnPlaceholderEnter
+  id: OnPlaceholderEnter
+  parent: InteractionSystem.Placeholder.Placeholder
+  langs:
+  - csharp
+  - vb
+  name: OnPlaceholderEnter
+  nameWithType: Placeholder.OnPlaceholderEnter
+  fullName: InteractionSystem.Placeholder.Placeholder.OnPlaceholderEnter
+  type: Field
+  source:
+    id: OnPlaceholderEnter
+    path: ''
+    startLine: 24533
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: public SelectableEvent OnPlaceholderEnter
+    return:
+      type: InteractionSystem.Selectable.SelectableEvent
+    content.vb: Public OnPlaceholderEnter As SelectableEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Placeholder.Placeholder.OnPlaceholderExit
+  commentId: F:InteractionSystem.Placeholder.Placeholder.OnPlaceholderExit
+  id: OnPlaceholderExit
+  parent: InteractionSystem.Placeholder.Placeholder
+  langs:
+  - csharp
+  - vb
+  name: OnPlaceholderExit
+  nameWithType: Placeholder.OnPlaceholderExit
+  fullName: InteractionSystem.Placeholder.Placeholder.OnPlaceholderExit
+  type: Field
+  source:
+    id: OnPlaceholderExit
+    path: ''
+    startLine: 24535
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: public SelectableEvent OnPlaceholderExit
+    return:
+      type: InteractionSystem.Selectable.SelectableEvent
+    content.vb: Public OnPlaceholderExit As SelectableEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Placeholder.Placeholder.placeholderTag
+  commentId: F:InteractionSystem.Placeholder.Placeholder.placeholderTag
+  id: placeholderTag
+  parent: InteractionSystem.Placeholder.Placeholder
+  langs:
+  - csharp
+  - vb
+  name: placeholderTag
+  nameWithType: Placeholder.placeholderTag
+  fullName: InteractionSystem.Placeholder.Placeholder.placeholderTag
+  type: Field
+  source:
+    id: placeholderTag
+    path: ''
+    startLine: 24537
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: public string placeholderTag
+    return:
+      type: System.String
+    content.vb: Public placeholderTag As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Placeholder.Placeholder.occupyingSelectable
+  commentId: P:InteractionSystem.Placeholder.Placeholder.occupyingSelectable
+  id: occupyingSelectable
+  parent: InteractionSystem.Placeholder.Placeholder
+  langs:
+  - csharp
+  - vb
+  name: occupyingSelectable
+  nameWithType: Placeholder.occupyingSelectable
+  fullName: InteractionSystem.Placeholder.Placeholder.occupyingSelectable
+  type: Property
+  source:
+    id: occupyingSelectable
+    path: ''
+    startLine: 24540
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: public Selectable occupyingSelectable { get; set; }
+    parameters: []
+    return:
+      type: InteractionSystem.Selectable.Selectable
+    content.vb: Public Property occupyingSelectable As Selectable
+  overload: InteractionSystem.Placeholder.Placeholder.occupyingSelectable*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Placeholder.Placeholder.isAvailableToSelectable(InteractionSystem.Selectable.SnappingBehaviour)
+  commentId: M:InteractionSystem.Placeholder.Placeholder.isAvailableToSelectable(InteractionSystem.Selectable.SnappingBehaviour)
+  id: isAvailableToSelectable(InteractionSystem.Selectable.SnappingBehaviour)
+  parent: InteractionSystem.Placeholder.Placeholder
+  langs:
+  - csharp
+  - vb
+  name: isAvailableToSelectable(SnappingBehaviour)
+  nameWithType: Placeholder.isAvailableToSelectable(SnappingBehaviour)
+  fullName: InteractionSystem.Placeholder.Placeholder.isAvailableToSelectable(InteractionSystem.Selectable.SnappingBehaviour)
+  type: Method
+  source:
+    id: isAvailableToSelectable
+    path: ''
+    startLine: 24558
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Placeholder
+  syntax:
+    content: public bool isAvailableToSelectable(SnappingBehaviour selectable)
+    parameters:
+    - id: selectable
+      type: InteractionSystem.Selectable.SnappingBehaviour
+    return:
+      type: System.Boolean
+    content.vb: Public Function isAvailableToSelectable(selectable As SnappingBehaviour) As Boolean
+  overload: InteractionSystem.Placeholder.Placeholder.isAvailableToSelectable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Placeholder
+  commentId: N:InteractionSystem.Placeholder
+  name: InteractionSystem.Placeholder
+  nameWithType: InteractionSystem.Placeholder
+  fullName: InteractionSystem.Placeholder
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: InteractionSystem.Sensable
+  commentId: T:InteractionSystem.Sensable
+  parent: InteractionSystem
+  name: Sensable
+  nameWithType: Sensable
+  fullName: InteractionSystem.Sensable
+- uid: InteractionSystem.Sensable.root
+  commentId: P:InteractionSystem.Sensable.root
+  parent: InteractionSystem.Sensable
+  name: root
+  nameWithType: Sensable.root
+  fullName: InteractionSystem.Sensable.root
+- uid: InteractionSystem.Sensable._root
+  commentId: F:InteractionSystem.Sensable._root
+  parent: InteractionSystem.Sensable
+  name: _root
+  nameWithType: Sensable._root
+  fullName: InteractionSystem.Sensable._root
+- uid: InteractionSystem.Sensable.hasForwardingRole
+  commentId: P:InteractionSystem.Sensable.hasForwardingRole
+  parent: InteractionSystem.Sensable
+  name: hasForwardingRole
+  nameWithType: Sensable.hasForwardingRole
+  fullName: InteractionSystem.Sensable.hasForwardingRole
+- uid: InteractionSystem.Sensable.Awake
+  commentId: M:InteractionSystem.Sensable.Awake
+  parent: InteractionSystem.Sensable
+  name: Awake()
+  nameWithType: Sensable.Awake()
+  fullName: InteractionSystem.Sensable.Awake()
+  spec.csharp:
+  - uid: InteractionSystem.Sensable.Awake
+    name: Awake
+    nameWithType: Sensable.Awake
+    fullName: InteractionSystem.Sensable.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Sensable.Awake
+    name: Awake
+    nameWithType: Sensable.Awake
+    fullName: InteractionSystem.Sensable.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Sensable.FindRoot
+  commentId: M:InteractionSystem.Sensable.FindRoot
+  parent: InteractionSystem.Sensable
+  name: FindRoot()
+  nameWithType: Sensable.FindRoot()
+  fullName: InteractionSystem.Sensable.FindRoot()
+  spec.csharp:
+  - uid: InteractionSystem.Sensable.FindRoot
+    name: FindRoot
+    nameWithType: Sensable.FindRoot
+    fullName: InteractionSystem.Sensable.FindRoot
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Sensable.FindRoot
+    name: FindRoot
+    nameWithType: Sensable.FindRoot
+    fullName: InteractionSystem.Sensable.FindRoot
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: InteractionSystem.Selectable.SelectableEvent
+  commentId: T:InteractionSystem.Selectable.SelectableEvent
+  parent: InteractionSystem.Selectable
+  name: SelectableEvent
+  nameWithType: SelectableEvent
+  fullName: InteractionSystem.Selectable.SelectableEvent
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: InteractionSystem.Placeholder.Placeholder.occupyingSelectable*
+  commentId: Overload:InteractionSystem.Placeholder.Placeholder.occupyingSelectable
+  name: occupyingSelectable
+  nameWithType: Placeholder.occupyingSelectable
+  fullName: InteractionSystem.Placeholder.Placeholder.occupyingSelectable
+- uid: InteractionSystem.Selectable.Selectable
+  commentId: T:InteractionSystem.Selectable.Selectable
+  parent: InteractionSystem.Selectable
+  name: Selectable
+  nameWithType: Selectable
+  fullName: InteractionSystem.Selectable.Selectable
+- uid: InteractionSystem.Placeholder.Placeholder.isAvailableToSelectable*
+  commentId: Overload:InteractionSystem.Placeholder.Placeholder.isAvailableToSelectable
+  name: isAvailableToSelectable
+  nameWithType: Placeholder.isAvailableToSelectable
+  fullName: InteractionSystem.Placeholder.Placeholder.isAvailableToSelectable
+- uid: InteractionSystem.Selectable.SnappingBehaviour
+  commentId: T:InteractionSystem.Selectable.SnappingBehaviour
+  parent: InteractionSystem.Selectable
+  name: SnappingBehaviour
+  nameWithType: SnappingBehaviour
+  fullName: InteractionSystem.Selectable.SnappingBehaviour
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

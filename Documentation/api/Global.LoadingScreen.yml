@@ -1,0 +1,211 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LoadingScreen
+  commentId: T:Global.LoadingScreen
+  id: LoadingScreen
+  parent: Global
+  children:
+  - Global.LoadingScreen.OnRequestSceneLoad(System.String,LoadSceneMode)
+  - Global.LoadingScreen.OnSceneFinishedLoading
+  - Global.LoadingScreen.OnSceneProgressUpdate(System.Single)
+  - Global.LoadingScreen.progressBar
+  langs:
+  - csharp
+  - vb
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: LoadingScreen
+  type: Class
+  source:
+    id: LoadingScreen
+    path: ''
+    startLine: 17052
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class LoadingScreen : MonoBehaviour'
+    content.vb: >-
+      Public Class LoadingScreen
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.LoadingScreen.progressBar
+  commentId: F:Global.LoadingScreen.progressBar
+  id: progressBar
+  parent: Global.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: progressBar
+  nameWithType: LoadingScreen.progressBar
+  fullName: LoadingScreen.progressBar
+  type: Field
+  source:
+    id: progressBar
+    path: ''
+    startLine: 17055
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ProgressBar progressBar
+    return:
+      type: Global.ProgressBar
+    content.vb: Public progressBar As ProgressBar
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LoadingScreen.OnRequestSceneLoad(System.String,LoadSceneMode)
+  commentId: M:Global.LoadingScreen.OnRequestSceneLoad(System.String,LoadSceneMode)
+  id: OnRequestSceneLoad(System.String,LoadSceneMode)
+  parent: Global.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnRequestSceneLoad(String, LoadSceneMode)
+  nameWithType: LoadingScreen.OnRequestSceneLoad(String, LoadSceneMode)
+  fullName: LoadingScreen.OnRequestSceneLoad(System.String, LoadSceneMode)
+  type: Method
+  source:
+    id: OnRequestSceneLoad
+    path: ''
+    startLine: 17064
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRequestSceneLoad(string sceneName, LoadSceneMode loadMode)
+    parameters:
+    - id: sceneName
+      type: System.String
+    - id: loadMode
+      type: Global.LoadSceneMode
+    content.vb: Public Sub OnRequestSceneLoad(sceneName As String, loadMode As LoadSceneMode)
+  overload: Global.LoadingScreen.OnRequestSceneLoad*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LoadingScreen.OnSceneProgressUpdate(System.Single)
+  commentId: M:Global.LoadingScreen.OnSceneProgressUpdate(System.Single)
+  id: OnSceneProgressUpdate(System.Single)
+  parent: Global.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnSceneProgressUpdate(Single)
+  nameWithType: LoadingScreen.OnSceneProgressUpdate(Single)
+  fullName: LoadingScreen.OnSceneProgressUpdate(System.Single)
+  type: Method
+  source:
+    id: OnSceneProgressUpdate
+    path: ''
+    startLine: 17074
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnSceneProgressUpdate(float progress)
+    parameters:
+    - id: progress
+      type: System.Single
+    content.vb: Public Sub OnSceneProgressUpdate(progress As Single)
+  overload: Global.LoadingScreen.OnSceneProgressUpdate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LoadingScreen.OnSceneFinishedLoading
+  commentId: M:Global.LoadingScreen.OnSceneFinishedLoading
+  id: OnSceneFinishedLoading
+  parent: Global.LoadingScreen
+  langs:
+  - csharp
+  - vb
+  name: OnSceneFinishedLoading()
+  nameWithType: LoadingScreen.OnSceneFinishedLoading()
+  fullName: LoadingScreen.OnSceneFinishedLoading()
+  type: Method
+  source:
+    id: OnSceneFinishedLoading
+    path: ''
+    startLine: 17079
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnSceneFinishedLoading()
+    content.vb: Public Sub OnSceneFinishedLoading
+  overload: Global.LoadingScreen.OnSceneFinishedLoading*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ProgressBar
+  commentId: T:Global.ProgressBar
+  name: ProgressBar
+  nameWithType: ProgressBar
+  fullName: ProgressBar
+- uid: Global.LoadingScreen.OnRequestSceneLoad*
+  commentId: Overload:Global.LoadingScreen.OnRequestSceneLoad
+  name: OnRequestSceneLoad
+  nameWithType: LoadingScreen.OnRequestSceneLoad
+  fullName: LoadingScreen.OnRequestSceneLoad
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.LoadSceneMode
+  isExternal: true
+  name: LoadSceneMode
+  nameWithType: LoadSceneMode
+  fullName: LoadSceneMode
+- uid: Global.LoadingScreen.OnSceneProgressUpdate*
+  commentId: Overload:Global.LoadingScreen.OnSceneProgressUpdate
+  name: OnSceneProgressUpdate
+  nameWithType: LoadingScreen.OnSceneProgressUpdate
+  fullName: LoadingScreen.OnSceneProgressUpdate
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.LoadingScreen.OnSceneFinishedLoading*
+  commentId: Overload:Global.LoadingScreen.OnSceneFinishedLoading
+  name: OnSceneFinishedLoading
+  nameWithType: LoadingScreen.OnSceneFinishedLoading
+  fullName: LoadingScreen.OnSceneFinishedLoading

@@ -1,0 +1,854 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SaveManager
+  commentId: T:Global.SaveManager
+  id: SaveManager
+  parent: Global
+  children:
+  - Global.SaveManager.absolutePathToId(System.String)
+  - Global.SaveManager.DeleteAllSaveData
+  - Global.SaveManager.DeleteSaveDataFile(System.String)
+  - Global.SaveManager.fullSaveDirectory
+  - Global.SaveManager.fullSaveLocation(System.String)
+  - Global.SaveManager.hasSaveDataForPath(System.String)
+  - Global.SaveManager.hasSaveDataForPathByScene(System.String)
+  - Global.SaveManager.instance
+  - Global.SaveManager.LoadData``1(System.String)
+  - Global.SaveManager.LoadDataByScene``1(System.String)
+  - Global.SaveManager.LoadDataOverride(System.String,System.Object)
+  - Global.SaveManager.LoadDataOverrideByScene(System.String,System.Object)
+  - Global.SaveManager.LoadSaveDataRecursive(System.String)
+  - Global.SaveManager.SaveData``1(System.Object,System.String)
+  - Global.SaveManager.SaveDataByScene``1(System.Object,System.String)
+  - Global.SaveManager.saves
+  - Global.SaveManager.sceneDirectory
+  langs:
+  - csharp
+  - vb
+  name: SaveManager
+  nameWithType: SaveManager
+  fullName: SaveManager
+  type: Class
+  source:
+    id: SaveManager
+    path: ''
+    startLine: 16748
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class SaveManager
+    content.vb: Public Class SaveManager
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SaveManager.instance
+  commentId: P:Global.SaveManager.instance
+  id: instance
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: SaveManager.instance
+  fullName: SaveManager.instance
+  type: Property
+  source:
+    id: instance
+    path: ''
+    startLine: 16752
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static SaveManager instance { get; }
+    parameters: []
+    return:
+      type: Global.SaveManager
+    content.vb: Public Shared ReadOnly Property instance As SaveManager
+  overload: Global.SaveManager.instance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.SaveManager.saves
+  commentId: F:Global.SaveManager.saves
+  id: saves
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: saves
+  nameWithType: SaveManager.saves
+  fullName: SaveManager.saves
+  type: Field
+  source:
+    id: saves
+    path: ''
+    startLine: 16777
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Dictionary<string, SaveData> saves
+    return:
+      type: Global.Dictionary{System.String,SaveData}
+    content.vb: Public saves As Dictionary(Of String, SaveData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveManager.fullSaveDirectory
+  commentId: P:Global.SaveManager.fullSaveDirectory
+  id: fullSaveDirectory
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: fullSaveDirectory
+  nameWithType: SaveManager.fullSaveDirectory
+  fullName: SaveManager.fullSaveDirectory
+  type: Property
+  source:
+    id: fullSaveDirectory
+    path: ''
+    startLine: 16778
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string fullSaveDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property fullSaveDirectory As String
+  overload: Global.SaveManager.fullSaveDirectory*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.SaveManager.sceneDirectory
+  commentId: P:Global.SaveManager.sceneDirectory
+  id: sceneDirectory
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: sceneDirectory
+  nameWithType: SaveManager.sceneDirectory
+  fullName: SaveManager.sceneDirectory
+  type: Property
+  source:
+    id: sceneDirectory
+    path: ''
+    startLine: 16780
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string sceneDirectory { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property sceneDirectory As String
+  overload: Global.SaveManager.sceneDirectory*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.SaveManager.fullSaveLocation(System.String)
+  commentId: M:Global.SaveManager.fullSaveLocation(System.String)
+  id: fullSaveLocation(System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: fullSaveLocation(String)
+  nameWithType: SaveManager.fullSaveLocation(String)
+  fullName: SaveManager.fullSaveLocation(System.String)
+  type: Method
+  source:
+    id: fullSaveLocation
+    path: ''
+    startLine: 16781
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string fullSaveLocation(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Function fullSaveLocation(id As String) As String
+  overload: Global.SaveManager.fullSaveLocation*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveManager.hasSaveDataForPath(System.String)
+  commentId: M:Global.SaveManager.hasSaveDataForPath(System.String)
+  id: hasSaveDataForPath(System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: hasSaveDataForPath(String)
+  nameWithType: SaveManager.hasSaveDataForPath(String)
+  fullName: SaveManager.hasSaveDataForPath(System.String)
+  type: Method
+  source:
+    id: hasSaveDataForPath
+    path: ''
+    startLine: 16783
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool hasSaveDataForPath(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function hasSaveDataForPath(path As String) As Boolean
+  overload: Global.SaveManager.hasSaveDataForPath*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SaveManager.hasSaveDataForPathByScene(System.String)
+  commentId: M:Global.SaveManager.hasSaveDataForPathByScene(System.String)
+  id: hasSaveDataForPathByScene(System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: hasSaveDataForPathByScene(String)
+  nameWithType: SaveManager.hasSaveDataForPathByScene(String)
+  fullName: SaveManager.hasSaveDataForPathByScene(System.String)
+  type: Method
+  source:
+    id: hasSaveDataForPathByScene
+    path: ''
+    startLine: 16784
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool hasSaveDataForPathByScene(string path)
+    parameters:
+    - id: path
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function hasSaveDataForPathByScene(path As String) As Boolean
+  overload: Global.SaveManager.hasSaveDataForPathByScene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SaveManager.LoadSaveDataRecursive(System.String)
+  commentId: M:Global.SaveManager.LoadSaveDataRecursive(System.String)
+  id: LoadSaveDataRecursive(System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: LoadSaveDataRecursive(String)
+  nameWithType: SaveManager.LoadSaveDataRecursive(String)
+  fullName: SaveManager.LoadSaveDataRecursive(System.String)
+  type: Method
+  source:
+    id: LoadSaveDataRecursive
+    path: ''
+    startLine: 16786
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadSaveDataRecursive(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Sub LoadSaveDataRecursive(path As String)
+  overload: Global.SaveManager.LoadSaveDataRecursive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveManager.absolutePathToId(System.String)
+  commentId: M:Global.SaveManager.absolutePathToId(System.String)
+  id: absolutePathToId(System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: absolutePathToId(String)
+  nameWithType: SaveManager.absolutePathToId(String)
+  fullName: SaveManager.absolutePathToId(System.String)
+  type: Method
+  source:
+    id: absolutePathToId
+    path: ''
+    startLine: 16801
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string absolutePathToId(string absolutePath)
+    parameters:
+    - id: absolutePath
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function absolutePathToId(absolutePath As String) As String
+  overload: Global.SaveManager.absolutePathToId*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SaveManager.LoadDataByScene``1(System.String)
+  commentId: M:Global.SaveManager.LoadDataByScene``1(System.String)
+  id: LoadDataByScene``1(System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: LoadDataByScene<T>(String)
+  nameWithType: SaveManager.LoadDataByScene<T>(String)
+  fullName: SaveManager.LoadDataByScene<T>(System.String)
+  type: Method
+  source:
+    id: LoadDataByScene
+    path: ''
+    startLine: 16814
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nAppends scene directory in front of save path\n"
+  example: []
+  syntax:
+    content: public static T LoadDataByScene<T>(string path)
+    parameters:
+    - id: path
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function LoadDataByScene(Of T)(path As String) As T
+  overload: Global.SaveManager.LoadDataByScene*
+  nameWithType.vb: SaveManager.LoadDataByScene(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SaveManager.LoadDataByScene(Of T)(System.String)
+  name.vb: LoadDataByScene(Of T)(String)
+- uid: Global.SaveManager.LoadData``1(System.String)
+  commentId: M:Global.SaveManager.LoadData``1(System.String)
+  id: LoadData``1(System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: LoadData<T>(String)
+  nameWithType: SaveManager.LoadData<T>(String)
+  fullName: SaveManager.LoadData<T>(System.String)
+  type: Method
+  source:
+    id: LoadData
+    path: ''
+    startLine: 16819
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static T LoadData<T>(string path)
+    parameters:
+    - id: path
+      type: System.String
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Shared Function LoadData(Of T)(path As String) As T
+  overload: Global.SaveManager.LoadData*
+  nameWithType.vb: SaveManager.LoadData(Of T)(String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SaveManager.LoadData(Of T)(System.String)
+  name.vb: LoadData(Of T)(String)
+- uid: Global.SaveManager.LoadDataOverrideByScene(System.String,System.Object)
+  commentId: M:Global.SaveManager.LoadDataOverrideByScene(System.String,System.Object)
+  id: LoadDataOverrideByScene(System.String,System.Object)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: LoadDataOverrideByScene(String, Object)
+  nameWithType: SaveManager.LoadDataOverrideByScene(String, Object)
+  fullName: SaveManager.LoadDataOverrideByScene(System.String, System.Object)
+  type: Method
+  source:
+    id: LoadDataOverrideByScene
+    path: ''
+    startLine: 16830
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nAppends scene directory in front of save path\n"
+  example: []
+  syntax:
+    content: public static void LoadDataOverrideByScene(string path, object overridable)
+    parameters:
+    - id: path
+      type: System.String
+    - id: overridable
+      type: System.Object
+    content.vb: Public Shared Sub LoadDataOverrideByScene(path As String, overridable As Object)
+  overload: Global.SaveManager.LoadDataOverrideByScene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SaveManager.LoadDataOverride(System.String,System.Object)
+  commentId: M:Global.SaveManager.LoadDataOverride(System.String,System.Object)
+  id: LoadDataOverride(System.String,System.Object)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: LoadDataOverride(String, Object)
+  nameWithType: SaveManager.LoadDataOverride(String, Object)
+  fullName: SaveManager.LoadDataOverride(System.String, System.Object)
+  type: Method
+  source:
+    id: LoadDataOverride
+    path: ''
+    startLine: 16835
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void LoadDataOverride(string path, object overrideable)
+    parameters:
+    - id: path
+      type: System.String
+    - id: overrideable
+      type: System.Object
+    content.vb: Public Shared Sub LoadDataOverride(path As String, overrideable As Object)
+  overload: Global.SaveManager.LoadDataOverride*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SaveManager.SaveDataByScene``1(System.Object,System.String)
+  commentId: M:Global.SaveManager.SaveDataByScene``1(System.Object,System.String)
+  id: SaveDataByScene``1(System.Object,System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: SaveDataByScene<T>(Object, String)
+  nameWithType: SaveManager.SaveDataByScene<T>(Object, String)
+  fullName: SaveManager.SaveDataByScene<T>(System.Object, System.String)
+  type: Method
+  source:
+    id: SaveDataByScene
+    path: ''
+    startLine: 16846
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nAppends scene directory in front of save path\n"
+  example: []
+  syntax:
+    content: public static void SaveDataByScene<T>(object dataSource, string path)
+    parameters:
+    - id: dataSource
+      type: System.Object
+    - id: path
+      type: System.String
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub SaveDataByScene(Of T)(dataSource As Object, path As String)
+  overload: Global.SaveManager.SaveDataByScene*
+  nameWithType.vb: SaveManager.SaveDataByScene(Of T)(Object, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SaveManager.SaveDataByScene(Of T)(System.Object, System.String)
+  name.vb: SaveDataByScene(Of T)(Object, String)
+- uid: Global.SaveManager.SaveData``1(System.Object,System.String)
+  commentId: M:Global.SaveManager.SaveData``1(System.Object,System.String)
+  id: SaveData``1(System.Object,System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: SaveData<T>(Object, String)
+  nameWithType: SaveManager.SaveData<T>(Object, String)
+  fullName: SaveManager.SaveData<T>(System.Object, System.String)
+  type: Method
+  source:
+    id: SaveData
+    path: ''
+    startLine: 16851
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SaveData<T>(object dataSource, string path)
+    parameters:
+    - id: dataSource
+      type: System.Object
+    - id: path
+      type: System.String
+    typeParameters:
+    - id: T
+    content.vb: Public Shared Sub SaveData(Of T)(dataSource As Object, path As String)
+  overload: Global.SaveManager.SaveData*
+  nameWithType.vb: SaveManager.SaveData(Of T)(Object, String)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SaveManager.SaveData(Of T)(System.Object, System.String)
+  name.vb: SaveData(Of T)(Object, String)
+- uid: Global.SaveManager.DeleteSaveDataFile(System.String)
+  commentId: M:Global.SaveManager.DeleteSaveDataFile(System.String)
+  id: DeleteSaveDataFile(System.String)
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteSaveDataFile(String)
+  nameWithType: SaveManager.DeleteSaveDataFile(String)
+  fullName: SaveManager.DeleteSaveDataFile(System.String)
+  type: Method
+  source:
+    id: DeleteSaveDataFile
+    path: ''
+    startLine: 16873
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void DeleteSaveDataFile(string path)
+    parameters:
+    - id: path
+      type: System.String
+    content.vb: Public Shared Sub DeleteSaveDataFile(path As String)
+  overload: Global.SaveManager.DeleteSaveDataFile*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SaveManager.DeleteAllSaveData
+  commentId: M:Global.SaveManager.DeleteAllSaveData
+  id: DeleteAllSaveData
+  parent: Global.SaveManager
+  langs:
+  - csharp
+  - vb
+  name: DeleteAllSaveData()
+  nameWithType: SaveManager.DeleteAllSaveData()
+  fullName: SaveManager.DeleteAllSaveData()
+  type: Method
+  source:
+    id: DeleteAllSaveData
+    path: ''
+    startLine: 16882
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void DeleteAllSaveData()
+    content.vb: Public Shared Sub DeleteAllSaveData
+  overload: Global.SaveManager.DeleteAllSaveData*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SaveManager.instance*
+  commentId: Overload:Global.SaveManager.instance
+  name: instance
+  nameWithType: SaveManager.instance
+  fullName: SaveManager.instance
+- uid: Global.SaveManager
+  commentId: T:Global.SaveManager
+  name: SaveManager
+  nameWithType: SaveManager
+  fullName: SaveManager
+- uid: Global.Dictionary{System.String,SaveData}
+  commentId: '!:Global.Dictionary{System.String,SaveData}'
+  definition: Global.Dictionary`2
+  name: Dictionary<String, SaveData>
+  nameWithType: Dictionary<String, SaveData>
+  fullName: Dictionary<System.String, SaveData>
+  nameWithType.vb: Dictionary(Of String, SaveData)
+  fullName.vb: Dictionary(Of System.String, SaveData)
+  name.vb: Dictionary(Of String, SaveData)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.SaveData
+    name: SaveData
+    nameWithType: SaveData
+    fullName: SaveData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.SaveData
+    name: SaveData
+    nameWithType: SaveData
+    fullName: SaveData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.SaveManager.fullSaveDirectory*
+  commentId: Overload:Global.SaveManager.fullSaveDirectory
+  name: fullSaveDirectory
+  nameWithType: SaveManager.fullSaveDirectory
+  fullName: SaveManager.fullSaveDirectory
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SaveManager.sceneDirectory*
+  commentId: Overload:Global.SaveManager.sceneDirectory
+  name: sceneDirectory
+  nameWithType: SaveManager.sceneDirectory
+  fullName: SaveManager.sceneDirectory
+- uid: Global.SaveManager.fullSaveLocation*
+  commentId: Overload:Global.SaveManager.fullSaveLocation
+  name: fullSaveLocation
+  nameWithType: SaveManager.fullSaveLocation
+  fullName: SaveManager.fullSaveLocation
+- uid: Global.SaveManager.hasSaveDataForPath*
+  commentId: Overload:Global.SaveManager.hasSaveDataForPath
+  name: hasSaveDataForPath
+  nameWithType: SaveManager.hasSaveDataForPath
+  fullName: SaveManager.hasSaveDataForPath
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.SaveManager.hasSaveDataForPathByScene*
+  commentId: Overload:Global.SaveManager.hasSaveDataForPathByScene
+  name: hasSaveDataForPathByScene
+  nameWithType: SaveManager.hasSaveDataForPathByScene
+  fullName: SaveManager.hasSaveDataForPathByScene
+- uid: Global.SaveManager.LoadSaveDataRecursive*
+  commentId: Overload:Global.SaveManager.LoadSaveDataRecursive
+  name: LoadSaveDataRecursive
+  nameWithType: SaveManager.LoadSaveDataRecursive
+  fullName: SaveManager.LoadSaveDataRecursive
+- uid: Global.SaveManager.absolutePathToId*
+  commentId: Overload:Global.SaveManager.absolutePathToId
+  name: absolutePathToId
+  nameWithType: SaveManager.absolutePathToId
+  fullName: SaveManager.absolutePathToId
+- uid: Global.SaveManager.LoadDataByScene*
+  commentId: Overload:Global.SaveManager.LoadDataByScene
+  name: LoadDataByScene
+  nameWithType: SaveManager.LoadDataByScene
+  fullName: SaveManager.LoadDataByScene
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.SaveManager.LoadData*
+  commentId: Overload:Global.SaveManager.LoadData
+  name: LoadData
+  nameWithType: SaveManager.LoadData
+  fullName: SaveManager.LoadData
+- uid: Global.SaveManager.LoadDataOverrideByScene*
+  commentId: Overload:Global.SaveManager.LoadDataOverrideByScene
+  name: LoadDataOverrideByScene
+  nameWithType: SaveManager.LoadDataOverrideByScene
+  fullName: SaveManager.LoadDataOverrideByScene
+- uid: Global.SaveManager.LoadDataOverride*
+  commentId: Overload:Global.SaveManager.LoadDataOverride
+  name: LoadDataOverride
+  nameWithType: SaveManager.LoadDataOverride
+  fullName: SaveManager.LoadDataOverride
+- uid: Global.SaveManager.SaveDataByScene*
+  commentId: Overload:Global.SaveManager.SaveDataByScene
+  name: SaveDataByScene
+  nameWithType: SaveManager.SaveDataByScene
+  fullName: SaveManager.SaveDataByScene
+- uid: Global.SaveManager.SaveData*
+  commentId: Overload:Global.SaveManager.SaveData
+  name: SaveData
+  nameWithType: SaveManager.SaveData
+  fullName: SaveManager.SaveData
+- uid: Global.SaveManager.DeleteSaveDataFile*
+  commentId: Overload:Global.SaveManager.DeleteSaveDataFile
+  name: DeleteSaveDataFile
+  nameWithType: SaveManager.DeleteSaveDataFile
+  fullName: SaveManager.DeleteSaveDataFile
+- uid: Global.SaveManager.DeleteAllSaveData*
+  commentId: Overload:Global.SaveManager.DeleteAllSaveData
+  name: DeleteAllSaveData
+  nameWithType: SaveManager.DeleteAllSaveData
+  fullName: SaveManager.DeleteAllSaveData

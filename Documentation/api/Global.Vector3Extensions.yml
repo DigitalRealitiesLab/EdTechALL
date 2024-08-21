@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Vector3Extensions
+  commentId: T:Global.Vector3Extensions
+  id: Vector3Extensions
+  parent: Global
+  children:
+  - Global.Vector3Extensions.Clamp(Vector3,Vector3,Vector3)
+  - Global.Vector3Extensions.Divide(Vector3,Vector3)
+  - Global.Vector3Extensions.Multiply(Vector3,Vector3)
+  langs:
+  - csharp
+  - vb
+  name: Vector3Extensions
+  nameWithType: Vector3Extensions
+  fullName: Vector3Extensions
+  type: Class
+  source:
+    id: Vector3Extensions
+    path: ''
+    startLine: 17017
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Vector3Extensions
+    content.vb: Public Module Vector3Extensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Vector3Extensions.Divide(Vector3,Vector3)
+  commentId: M:Global.Vector3Extensions.Divide(Vector3,Vector3)
+  id: Divide(Vector3,Vector3)
+  isExtensionMethod: true
+  parent: Global.Vector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: Divide(Vector3, Vector3)
+  nameWithType: Vector3Extensions.Divide(Vector3, Vector3)
+  fullName: Vector3Extensions.Divide(Vector3, Vector3)
+  type: Method
+  source:
+    id: Divide
+    path: ''
+    startLine: 17019
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Vector3 Divide(this Vector3 vector, Vector3 by)
+    parameters:
+    - id: vector
+      type: Global.Vector3
+    - id: by
+      type: Global.Vector3
+    return:
+      type: Global.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Divide(vector As Vector3, by As Vector3) As Vector3
+  overload: Global.Vector3Extensions.Divide*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Vector3Extensions.Multiply(Vector3,Vector3)
+  commentId: M:Global.Vector3Extensions.Multiply(Vector3,Vector3)
+  id: Multiply(Vector3,Vector3)
+  isExtensionMethod: true
+  parent: Global.Vector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: Multiply(Vector3, Vector3)
+  nameWithType: Vector3Extensions.Multiply(Vector3, Vector3)
+  fullName: Vector3Extensions.Multiply(Vector3, Vector3)
+  type: Method
+  source:
+    id: Multiply
+    path: ''
+    startLine: 17028
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Vector3 Multiply(this Vector3 vector, Vector3 by)
+    parameters:
+    - id: vector
+      type: Global.Vector3
+    - id: by
+      type: Global.Vector3
+    return:
+      type: Global.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Multiply(vector As Vector3, by As Vector3) As Vector3
+  overload: Global.Vector3Extensions.Multiply*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Vector3Extensions.Clamp(Vector3,Vector3,Vector3)
+  commentId: M:Global.Vector3Extensions.Clamp(Vector3,Vector3,Vector3)
+  id: Clamp(Vector3,Vector3,Vector3)
+  isExtensionMethod: true
+  parent: Global.Vector3Extensions
+  langs:
+  - csharp
+  - vb
+  name: Clamp(Vector3, Vector3, Vector3)
+  nameWithType: Vector3Extensions.Clamp(Vector3, Vector3, Vector3)
+  fullName: Vector3Extensions.Clamp(Vector3, Vector3, Vector3)
+  type: Method
+  source:
+    id: Clamp
+    path: ''
+    startLine: 17037
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Vector3 Clamp(this Vector3 vector, Vector3 min, Vector3 max)
+    parameters:
+    - id: vector
+      type: Global.Vector3
+    - id: min
+      type: Global.Vector3
+    - id: max
+      type: Global.Vector3
+    return:
+      type: Global.Vector3
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Clamp(vector As Vector3, min As Vector3, max As Vector3) As Vector3
+  overload: Global.Vector3Extensions.Clamp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector3Extensions.Divide*
+  commentId: Overload:Global.Vector3Extensions.Divide
+  name: Divide
+  nameWithType: Vector3Extensions.Divide
+  fullName: Vector3Extensions.Divide
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.Vector3Extensions.Multiply*
+  commentId: Overload:Global.Vector3Extensions.Multiply
+  name: Multiply
+  nameWithType: Vector3Extensions.Multiply
+  fullName: Vector3Extensions.Multiply
+- uid: Global.Vector3Extensions.Clamp*
+  commentId: Overload:Global.Vector3Extensions.Clamp
+  name: Clamp
+  nameWithType: Vector3Extensions.Clamp
+  fullName: Vector3Extensions.Clamp

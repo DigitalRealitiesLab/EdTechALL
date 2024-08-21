@@ -1,0 +1,51 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.EventId
+  commentId: T:CardModule.EventId
+  id: EventId
+  parent: CardModule
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: EventId
+  fullName: CardModule.EventId
+  type: Class
+  source:
+    id: EventId
+    path: ''
+    startLine: 19553
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public class EventId
+    content.vb: Public Class EventId
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

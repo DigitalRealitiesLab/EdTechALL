@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingBoxUIElementData
+  commentId: T:BuildingBox.BuildingBoxUIElementData
+  id: BuildingBoxUIElementData
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingBoxUIElementData.resourceCost
+  - BuildingBox.BuildingBoxUIElementData.resourceGain
+  - BuildingBox.BuildingBoxUIElementData.sprite
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxUIElementData
+  nameWithType: BuildingBoxUIElementData
+  fullName: BuildingBox.BuildingBoxUIElementData
+  type: Class
+  source:
+    id: BuildingBoxUIElementData
+    path: ''
+    startLine: 902
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class BuildingBoxUIElementData
+    content.vb: >-
+      <Serializable>
+
+      Public Class BuildingBoxUIElementData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingBoxUIElementData.sprite
+  commentId: F:BuildingBox.BuildingBoxUIElementData.sprite
+  id: sprite
+  parent: BuildingBox.BuildingBoxUIElementData
+  langs:
+  - csharp
+  - vb
+  name: sprite
+  nameWithType: BuildingBoxUIElementData.sprite
+  fullName: BuildingBox.BuildingBoxUIElementData.sprite
+  type: Field
+  source:
+    id: sprite
+    path: ''
+    startLine: 905
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Sprite sprite
+    return:
+      type: Global.Sprite
+    content.vb: Public sprite As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxUIElementData.resourceCost
+  commentId: F:BuildingBox.BuildingBoxUIElementData.resourceCost
+  id: resourceCost
+  parent: BuildingBox.BuildingBoxUIElementData
+  langs:
+  - csharp
+  - vb
+  name: resourceCost
+  nameWithType: BuildingBoxUIElementData.resourceCost
+  fullName: BuildingBox.BuildingBoxUIElementData.resourceCost
+  type: Field
+  source:
+    id: resourceCost
+    path: ''
+    startLine: 906
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int resourceCost
+    return:
+      type: System.Int32
+    content.vb: Public resourceCost As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxUIElementData.resourceGain
+  commentId: F:BuildingBox.BuildingBoxUIElementData.resourceGain
+  id: resourceGain
+  parent: BuildingBox.BuildingBoxUIElementData
+  langs:
+  - csharp
+  - vb
+  name: resourceGain
+  nameWithType: BuildingBoxUIElementData.resourceGain
+  fullName: BuildingBox.BuildingBoxUIElementData.resourceGain
+  type: Field
+  source:
+    id: resourceGain
+    path: ''
+    startLine: 907
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int resourceGain
+    return:
+      type: System.Int32
+    content.vb: Public resourceGain As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

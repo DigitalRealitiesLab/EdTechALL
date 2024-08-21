@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventCallback
+  commentId: T:Global.EventCallback
+  id: EventCallback
+  parent: Global
+  children:
+  - Global.EventCallback.#ctor(System.Object,System.String,System.String)
+  - Global.EventCallback.callbackMethodName
+  - Global.EventCallback.eventId
+  - Global.EventCallback.method
+  - Global.EventCallback.subscriber
+  langs:
+  - csharp
+  - vb
+  name: EventCallback
+  nameWithType: EventCallback
+  fullName: EventCallback
+  type: Class
+  source:
+    id: EventCallback
+    path: ''
+    startLine: 17797
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class EventCallback
+    content.vb: Public Class EventCallback
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.EventCallback.subscriber
+  commentId: P:Global.EventCallback.subscriber
+  id: subscriber
+  parent: Global.EventCallback
+  langs:
+  - csharp
+  - vb
+  name: subscriber
+  nameWithType: EventCallback.subscriber
+  fullName: EventCallback.subscriber
+  type: Property
+  source:
+    id: subscriber
+    path: ''
+    startLine: 17799
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public object subscriber { get; }
+    parameters: []
+    return:
+      type: System.Object
+    content.vb: Public ReadOnly Property subscriber As Object
+  overload: Global.EventCallback.subscriber*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.EventCallback.eventId
+  commentId: P:Global.EventCallback.eventId
+  id: eventId
+  parent: Global.EventCallback
+  langs:
+  - csharp
+  - vb
+  name: eventId
+  nameWithType: EventCallback.eventId
+  fullName: EventCallback.eventId
+  type: Property
+  source:
+    id: eventId
+    path: ''
+    startLine: 17800
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string eventId { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property eventId As String
+  overload: Global.EventCallback.eventId*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.EventCallback.callbackMethodName
+  commentId: P:Global.EventCallback.callbackMethodName
+  id: callbackMethodName
+  parent: Global.EventCallback
+  langs:
+  - csharp
+  - vb
+  name: callbackMethodName
+  nameWithType: EventCallback.callbackMethodName
+  fullName: EventCallback.callbackMethodName
+  type: Property
+  source:
+    id: callbackMethodName
+    path: ''
+    startLine: 17801
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string callbackMethodName { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property callbackMethodName As String
+  overload: Global.EventCallback.callbackMethodName*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.EventCallback.method
+  commentId: P:Global.EventCallback.method
+  id: method
+  parent: Global.EventCallback
+  langs:
+  - csharp
+  - vb
+  name: method
+  nameWithType: EventCallback.method
+  fullName: EventCallback.method
+  type: Property
+  source:
+    id: method
+    path: ''
+    startLine: 17802
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MethodBase method { get; }
+    parameters: []
+    return:
+      type: Global.MethodBase
+    content.vb: Public ReadOnly Property method As MethodBase
+  overload: Global.EventCallback.method*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.EventCallback.#ctor(System.Object,System.String,System.String)
+  commentId: M:Global.EventCallback.#ctor(System.Object,System.String,System.String)
+  id: '#ctor(System.Object,System.String,System.String)'
+  parent: Global.EventCallback
+  langs:
+  - csharp
+  - vb
+  name: EventCallback(Object, String, String)
+  nameWithType: EventCallback.EventCallback(Object, String, String)
+  fullName: EventCallback.EventCallback(System.Object, System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17804
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public EventCallback(object subscriber, string eventId, string callbackMethodName)
+    parameters:
+    - id: subscriber
+      type: System.Object
+    - id: eventId
+      type: System.String
+    - id: callbackMethodName
+      type: System.String
+    content.vb: Public Sub New(subscriber As Object, eventId As String, callbackMethodName As String)
+  overload: Global.EventCallback.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.EventCallback.subscriber*
+  commentId: Overload:Global.EventCallback.subscriber
+  name: subscriber
+  nameWithType: EventCallback.subscriber
+  fullName: EventCallback.subscriber
+- uid: Global.EventCallback.eventId*
+  commentId: Overload:Global.EventCallback.eventId
+  name: eventId
+  nameWithType: EventCallback.eventId
+  fullName: EventCallback.eventId
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.EventCallback.callbackMethodName*
+  commentId: Overload:Global.EventCallback.callbackMethodName
+  name: callbackMethodName
+  nameWithType: EventCallback.callbackMethodName
+  fullName: EventCallback.callbackMethodName
+- uid: Global.EventCallback.method*
+  commentId: Overload:Global.EventCallback.method
+  name: method
+  nameWithType: EventCallback.method
+  fullName: EventCallback.method
+- uid: Global.MethodBase
+  commentId: '!:Global.MethodBase'
+  isExternal: true
+  name: MethodBase
+  nameWithType: MethodBase
+  fullName: MethodBase
+- uid: Global.EventCallback.#ctor*
+  commentId: Overload:Global.EventCallback.#ctor
+  name: EventCallback
+  nameWithType: EventCallback.EventCallback
+  fullName: EventCallback.EventCallback

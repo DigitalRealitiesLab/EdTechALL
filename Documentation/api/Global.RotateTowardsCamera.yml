@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RotateTowardsCamera
+  commentId: T:Global.RotateTowardsCamera
+  id: RotateTowardsCamera
+  parent: Global
+  children:
+  - Global.RotateTowardsCamera.target
+  langs:
+  - csharp
+  - vb
+  name: RotateTowardsCamera
+  nameWithType: RotateTowardsCamera
+  fullName: RotateTowardsCamera
+  type: Class
+  source:
+    id: RotateTowardsCamera
+    path: ''
+    startLine: 16424
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class RotateTowardsCamera : MonoBehaviour'
+    content.vb: >-
+      Public Class RotateTowardsCamera
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.RotateTowardsCamera.target
+  commentId: F:Global.RotateTowardsCamera.target
+  id: target
+  parent: Global.RotateTowardsCamera
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: RotateTowardsCamera.target
+  fullName: RotateTowardsCamera.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 16426
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform target
+    return:
+      type: Global.Transform
+    content.vb: Public target As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform

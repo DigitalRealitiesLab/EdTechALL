@@ -1,0 +1,411 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator
+  commentId: T:BuildingBox.LayDownAreaBuildingBoxCommunicator
+  id: LayDownAreaBuildingBoxCommunicator
+  parent: BuildingBox
+  children:
+  - BuildingBox.LayDownAreaBuildingBoxCommunicator.Awake
+  - BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorEnter(BuildingBox.AreaInteractor)
+  - BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorExit(BuildingBox.AreaInteractor)
+  - BuildingBox.LayDownAreaBuildingBoxCommunicator.replacementBuildingArea
+  - BuildingBox.LayDownAreaBuildingBoxCommunicator.selectable
+  langs:
+  - csharp
+  - vb
+  name: LayDownAreaBuildingBoxCommunicator
+  nameWithType: LayDownAreaBuildingBoxCommunicator
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator
+  type: Class
+  source:
+    id: LayDownAreaBuildingBoxCommunicator
+    path: ''
+    startLine: 915
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class LayDownAreaBuildingBoxCommunicator : AReactionBehaviour'
+    content.vb: >-
+      Public Class LayDownAreaBuildingBoxCommunicator
+          Inherits AReactionBehaviour
+  inheritance:
+  - System.Object
+  - BuildingBox.AReactionBehaviour
+  inheritedMembers:
+  - BuildingBox.AReactionBehaviour.interactionArea
+  - BuildingBox.AReactionBehaviour.OnEnable
+  - BuildingBox.AReactionBehaviour.OnDisable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator.replacementBuildingArea
+  commentId: F:BuildingBox.LayDownAreaBuildingBoxCommunicator.replacementBuildingArea
+  id: replacementBuildingArea
+  parent: BuildingBox.LayDownAreaBuildingBoxCommunicator
+  langs:
+  - csharp
+  - vb
+  name: replacementBuildingArea
+  nameWithType: LayDownAreaBuildingBoxCommunicator.replacementBuildingArea
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator.replacementBuildingArea
+  type: Field
+  source:
+    id: replacementBuildingArea
+    path: ''
+    startLine: 917
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingArea replacementBuildingArea
+    return:
+      type: BuildingBox.BuildingArea
+    content.vb: Public replacementBuildingArea As BuildingArea
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator.selectable
+  commentId: F:BuildingBox.LayDownAreaBuildingBoxCommunicator.selectable
+  id: selectable
+  parent: BuildingBox.LayDownAreaBuildingBoxCommunicator
+  langs:
+  - csharp
+  - vb
+  name: selectable
+  nameWithType: LayDownAreaBuildingBoxCommunicator.selectable
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator.selectable
+  type: Field
+  source:
+    id: selectable
+    path: ''
+    startLine: 919
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Selectable selectable
+    return:
+      type: Global.Selectable
+    content.vb: Public selectable As Selectable
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator.Awake
+  commentId: M:BuildingBox.LayDownAreaBuildingBoxCommunicator.Awake
+  id: Awake
+  parent: BuildingBox.LayDownAreaBuildingBoxCommunicator
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: LayDownAreaBuildingBoxCommunicator.Awake()
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 921
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: BuildingBox.AReactionBehaviour.Awake
+  overload: BuildingBox.LayDownAreaBuildingBoxCommunicator.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorEnter(BuildingBox.AreaInteractor)
+  commentId: M:BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorEnter(BuildingBox.AreaInteractor)
+  id: OnInteractorEnter(BuildingBox.AreaInteractor)
+  parent: BuildingBox.LayDownAreaBuildingBoxCommunicator
+  langs:
+  - csharp
+  - vb
+  name: OnInteractorEnter(AreaInteractor)
+  nameWithType: LayDownAreaBuildingBoxCommunicator.OnInteractorEnter(AreaInteractor)
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorEnter(BuildingBox.AreaInteractor)
+  type: Method
+  source:
+    id: OnInteractorEnter
+    path: ''
+    startLine: 930
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public override void OnInteractorEnter(AreaInteractor interactor)
+    parameters:
+    - id: interactor
+      type: BuildingBox.AreaInteractor
+    content.vb: Public Overrides Sub OnInteractorEnter(interactor As AreaInteractor)
+  overridden: BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+  overload: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorEnter*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorExit(BuildingBox.AreaInteractor)
+  commentId: M:BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorExit(BuildingBox.AreaInteractor)
+  id: OnInteractorExit(BuildingBox.AreaInteractor)
+  parent: BuildingBox.LayDownAreaBuildingBoxCommunicator
+  langs:
+  - csharp
+  - vb
+  name: OnInteractorExit(AreaInteractor)
+  nameWithType: LayDownAreaBuildingBoxCommunicator.OnInteractorExit(AreaInteractor)
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorExit(BuildingBox.AreaInteractor)
+  type: Method
+  source:
+    id: OnInteractorExit
+    path: ''
+    startLine: 936
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public override void OnInteractorExit(AreaInteractor interactor)
+    parameters:
+    - id: interactor
+      type: BuildingBox.AreaInteractor
+    content.vb: Public Overrides Sub OnInteractorExit(interactor As AreaInteractor)
+  overridden: BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+  overload: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorExit*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BuildingBox.AReactionBehaviour
+  commentId: T:BuildingBox.AReactionBehaviour
+  parent: BuildingBox
+  name: AReactionBehaviour
+  nameWithType: AReactionBehaviour
+  fullName: BuildingBox.AReactionBehaviour
+- uid: BuildingBox.AReactionBehaviour.interactionArea
+  commentId: F:BuildingBox.AReactionBehaviour.interactionArea
+  parent: BuildingBox.AReactionBehaviour
+  name: interactionArea
+  nameWithType: AReactionBehaviour.interactionArea
+  fullName: BuildingBox.AReactionBehaviour.interactionArea
+- uid: BuildingBox.AReactionBehaviour.OnEnable
+  commentId: M:BuildingBox.AReactionBehaviour.OnEnable
+  parent: BuildingBox.AReactionBehaviour
+  name: OnEnable()
+  nameWithType: AReactionBehaviour.OnEnable()
+  fullName: BuildingBox.AReactionBehaviour.OnEnable()
+  spec.csharp:
+  - uid: BuildingBox.AReactionBehaviour.OnEnable
+    name: OnEnable
+    nameWithType: AReactionBehaviour.OnEnable
+    fullName: BuildingBox.AReactionBehaviour.OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BuildingBox.AReactionBehaviour.OnEnable
+    name: OnEnable
+    nameWithType: AReactionBehaviour.OnEnable
+    fullName: BuildingBox.AReactionBehaviour.OnEnable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BuildingBox.AReactionBehaviour.OnDisable
+  commentId: M:BuildingBox.AReactionBehaviour.OnDisable
+  parent: BuildingBox.AReactionBehaviour
+  name: OnDisable()
+  nameWithType: AReactionBehaviour.OnDisable()
+  fullName: BuildingBox.AReactionBehaviour.OnDisable()
+  spec.csharp:
+  - uid: BuildingBox.AReactionBehaviour.OnDisable
+    name: OnDisable
+    nameWithType: AReactionBehaviour.OnDisable
+    fullName: BuildingBox.AReactionBehaviour.OnDisable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BuildingBox.AReactionBehaviour.OnDisable
+    name: OnDisable
+    nameWithType: AReactionBehaviour.OnDisable
+    fullName: BuildingBox.AReactionBehaviour.OnDisable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BuildingBox.BuildingArea
+  commentId: T:BuildingBox.BuildingArea
+  parent: BuildingBox
+  name: BuildingArea
+  nameWithType: BuildingArea
+  fullName: BuildingBox.BuildingArea
+- uid: Global.Selectable
+  commentId: '!:Global.Selectable'
+  isExternal: true
+  name: Selectable
+  nameWithType: Selectable
+  fullName: Selectable
+- uid: BuildingBox.AReactionBehaviour.Awake
+  commentId: M:BuildingBox.AReactionBehaviour.Awake
+  parent: BuildingBox.AReactionBehaviour
+  name: Awake()
+  nameWithType: AReactionBehaviour.Awake()
+  fullName: BuildingBox.AReactionBehaviour.Awake()
+  spec.csharp:
+  - uid: BuildingBox.AReactionBehaviour.Awake
+    name: Awake
+    nameWithType: AReactionBehaviour.Awake
+    fullName: BuildingBox.AReactionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BuildingBox.AReactionBehaviour.Awake
+    name: Awake
+    nameWithType: AReactionBehaviour.Awake
+    fullName: BuildingBox.AReactionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator.Awake*
+  commentId: Overload:BuildingBox.LayDownAreaBuildingBoxCommunicator.Awake
+  name: Awake
+  nameWithType: LayDownAreaBuildingBoxCommunicator.Awake
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator.Awake
+- uid: BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+  commentId: M:BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+  parent: BuildingBox.AReactionBehaviour
+  name: OnInteractorEnter(AreaInteractor)
+  nameWithType: AReactionBehaviour.OnInteractorEnter(AreaInteractor)
+  fullName: BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+  spec.csharp:
+  - uid: BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+    name: OnInteractorEnter
+    nameWithType: AReactionBehaviour.OnInteractorEnter
+    fullName: BuildingBox.AReactionBehaviour.OnInteractorEnter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BuildingBox.AreaInteractor
+    name: AreaInteractor
+    nameWithType: AreaInteractor
+    fullName: BuildingBox.AreaInteractor
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+    name: OnInteractorEnter
+    nameWithType: AReactionBehaviour.OnInteractorEnter
+    fullName: BuildingBox.AReactionBehaviour.OnInteractorEnter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BuildingBox.AreaInteractor
+    name: AreaInteractor
+    nameWithType: AreaInteractor
+    fullName: BuildingBox.AreaInteractor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorEnter*
+  commentId: Overload:BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorEnter
+  name: OnInteractorEnter
+  nameWithType: LayDownAreaBuildingBoxCommunicator.OnInteractorEnter
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorEnter
+- uid: BuildingBox.AreaInteractor
+  commentId: T:BuildingBox.AreaInteractor
+  parent: BuildingBox
+  name: AreaInteractor
+  nameWithType: AreaInteractor
+  fullName: BuildingBox.AreaInteractor
+- uid: BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+  commentId: M:BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+  parent: BuildingBox.AReactionBehaviour
+  name: OnInteractorExit(AreaInteractor)
+  nameWithType: AReactionBehaviour.OnInteractorExit(AreaInteractor)
+  fullName: BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+  spec.csharp:
+  - uid: BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+    name: OnInteractorExit
+    nameWithType: AReactionBehaviour.OnInteractorExit
+    fullName: BuildingBox.AReactionBehaviour.OnInteractorExit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BuildingBox.AreaInteractor
+    name: AreaInteractor
+    nameWithType: AreaInteractor
+    fullName: BuildingBox.AreaInteractor
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+    name: OnInteractorExit
+    nameWithType: AReactionBehaviour.OnInteractorExit
+    fullName: BuildingBox.AReactionBehaviour.OnInteractorExit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BuildingBox.AreaInteractor
+    name: AreaInteractor
+    nameWithType: AreaInteractor
+    fullName: BuildingBox.AreaInteractor
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorExit*
+  commentId: Overload:BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorExit
+  name: OnInteractorExit
+  nameWithType: LayDownAreaBuildingBoxCommunicator.OnInteractorExit
+  fullName: BuildingBox.LayDownAreaBuildingBoxCommunicator.OnInteractorExit

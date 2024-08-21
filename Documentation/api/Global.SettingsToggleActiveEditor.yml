@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SettingsToggleActiveEditor
+  commentId: T:Global.SettingsToggleActiveEditor
+  id: SettingsToggleActiveEditor
+  parent: Global
+  children:
+  - Global.SettingsToggleActiveEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: SettingsToggleActiveEditor
+  nameWithType: SettingsToggleActiveEditor
+  fullName: SettingsToggleActiveEditor
+  type: Class
+  source:
+    id: SettingsToggleActiveEditor
+    path: ''
+    startLine: 21206
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SettingsToggleActiveEditor : Editor'
+    content.vb: >-
+      Public Class SettingsToggleActiveEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SettingsToggleActiveEditor.OnInspectorGUI
+  commentId: M:Global.SettingsToggleActiveEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.SettingsToggleActiveEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: SettingsToggleActiveEditor.OnInspectorGUI()
+  fullName: SettingsToggleActiveEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 21209
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.SettingsToggleActiveEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SettingsToggleActiveEditor.OnInspectorGUI*
+  commentId: Overload:Global.SettingsToggleActiveEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: SettingsToggleActiveEditor.OnInspectorGUI
+  fullName: SettingsToggleActiveEditor.OnInspectorGUI

@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Casus
+  commentId: T:Global.Casus
+  id: Casus
+  parent: Global
+  children:
+  - Global.Casus.Akkusativ
+  - Global.Casus.Dativ
+  - Global.Casus.Genitiv
+  - Global.Casus.Nominativ
+  langs:
+  - csharp
+  - vb
+  name: Casus
+  nameWithType: Casus
+  fullName: Casus
+  type: Enum
+  source:
+    id: Casus
+    path: ''
+    startLine: 16287
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum Casus
+    content.vb: Public Enum Casus
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Casus.Nominativ
+  commentId: F:Global.Casus.Nominativ
+  id: Nominativ
+  parent: Global.Casus
+  langs:
+  - csharp
+  - vb
+  name: Nominativ
+  nameWithType: Casus.Nominativ
+  fullName: Casus.Nominativ
+  type: Field
+  source:
+    id: Nominativ
+    path: ''
+    startLine: 16289
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Nominativ = 0
+    return:
+      type: Global.Casus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Casus.Genitiv
+  commentId: F:Global.Casus.Genitiv
+  id: Genitiv
+  parent: Global.Casus
+  langs:
+  - csharp
+  - vb
+  name: Genitiv
+  nameWithType: Casus.Genitiv
+  fullName: Casus.Genitiv
+  type: Field
+  source:
+    id: Genitiv
+    path: ''
+    startLine: 16290
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Genitiv = 1
+    return:
+      type: Global.Casus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Casus.Dativ
+  commentId: F:Global.Casus.Dativ
+  id: Dativ
+  parent: Global.Casus
+  langs:
+  - csharp
+  - vb
+  name: Dativ
+  nameWithType: Casus.Dativ
+  fullName: Casus.Dativ
+  type: Field
+  source:
+    id: Dativ
+    path: ''
+    startLine: 16291
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Dativ = 2
+    return:
+      type: Global.Casus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Casus.Akkusativ
+  commentId: F:Global.Casus.Akkusativ
+  id: Akkusativ
+  parent: Global.Casus
+  langs:
+  - csharp
+  - vb
+  name: Akkusativ
+  nameWithType: Casus.Akkusativ
+  fullName: Casus.Akkusativ
+  type: Field
+  source:
+    id: Akkusativ
+    path: ''
+    startLine: 16292
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Akkusativ = 3
+    return:
+      type: Global.Casus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Casus
+  commentId: T:Global.Casus
+  name: Casus
+  nameWithType: Casus
+  fullName: Casus

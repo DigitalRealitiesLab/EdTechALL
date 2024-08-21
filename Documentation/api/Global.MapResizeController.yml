@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MapResizeController
+  commentId: T:Global.MapResizeController
+  id: MapResizeController
+  parent: Global
+  children:
+  - Global.MapResizeController.initialized
+  - Global.MapResizeController.ResizeRelative(Transform,Vector3,Vector3)
+  - Global.MapResizeController.ResizeRelativeUniform(Transform,System.Single,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: MapResizeController
+  nameWithType: MapResizeController
+  fullName: MapResizeController
+  type: Class
+  source:
+    id: MapResizeController
+    path: ''
+    startLine: 20507
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MapResizeController : MonoBehaviour'
+    content.vb: >-
+      Public Class MapResizeController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MapResizeController.initialized
+  commentId: F:Global.MapResizeController.initialized
+  id: initialized
+  parent: Global.MapResizeController
+  langs:
+  - csharp
+  - vb
+  name: initialized
+  nameWithType: MapResizeController.initialized
+  fullName: MapResizeController.initialized
+  type: Field
+  source:
+    id: initialized
+    path: ''
+    startLine: 20510
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool initialized
+    return:
+      type: System.Boolean
+    content.vb: Public Shared initialized As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.MapResizeController.ResizeRelative(Transform,Vector3,Vector3)
+  commentId: M:Global.MapResizeController.ResizeRelative(Transform,Vector3,Vector3)
+  id: ResizeRelative(Transform,Vector3,Vector3)
+  parent: Global.MapResizeController
+  langs:
+  - csharp
+  - vb
+  name: ResizeRelative(Transform, Vector3, Vector3)
+  nameWithType: MapResizeController.ResizeRelative(Transform, Vector3, Vector3)
+  fullName: MapResizeController.ResizeRelative(Transform, Vector3, Vector3)
+  type: Method
+  source:
+    id: ResizeRelative
+    path: ''
+    startLine: 20521
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResizeRelative(Transform target, Vector3 targetWorldSize, Vector3 sizeFraction)
+    parameters:
+    - id: target
+      type: Global.Transform
+    - id: targetWorldSize
+      type: Global.Vector3
+    - id: sizeFraction
+      type: Global.Vector3
+    content.vb: Public Sub ResizeRelative(target As Transform, targetWorldSize As Vector3, sizeFraction As Vector3)
+  overload: Global.MapResizeController.ResizeRelative*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapResizeController.ResizeRelativeUniform(Transform,System.Single,System.Single)
+  commentId: M:Global.MapResizeController.ResizeRelativeUniform(Transform,System.Single,System.Single)
+  id: ResizeRelativeUniform(Transform,System.Single,System.Single)
+  parent: Global.MapResizeController
+  langs:
+  - csharp
+  - vb
+  name: ResizeRelativeUniform(Transform, Single, Single)
+  nameWithType: MapResizeController.ResizeRelativeUniform(Transform, Single, Single)
+  fullName: MapResizeController.ResizeRelativeUniform(Transform, System.Single, System.Single)
+  type: Method
+  source:
+    id: ResizeRelativeUniform
+    path: ''
+    startLine: 20534
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ResizeRelativeUniform(Transform target, float targetWorldSize, float sizeFraction)
+    parameters:
+    - id: target
+      type: Global.Transform
+    - id: targetWorldSize
+      type: System.Single
+    - id: sizeFraction
+      type: System.Single
+    content.vb: Public Sub ResizeRelativeUniform(target As Transform, targetWorldSize As Single, sizeFraction As Single)
+  overload: Global.MapResizeController.ResizeRelativeUniform*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.MapResizeController.ResizeRelative*
+  commentId: Overload:Global.MapResizeController.ResizeRelative
+  name: ResizeRelative
+  nameWithType: MapResizeController.ResizeRelative
+  fullName: MapResizeController.ResizeRelative
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.MapResizeController.ResizeRelativeUniform*
+  commentId: Overload:Global.MapResizeController.ResizeRelativeUniform
+  name: ResizeRelativeUniform
+  nameWithType: MapResizeController.ResizeRelativeUniform
+  fullName: MapResizeController.ResizeRelativeUniform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

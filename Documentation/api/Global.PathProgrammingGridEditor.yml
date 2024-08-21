@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PathProgrammingGridEditor
+  commentId: T:Global.PathProgrammingGridEditor
+  id: PathProgrammingGridEditor
+  parent: Global
+  children:
+  - Global.PathProgrammingGridEditor.OnInspectorGUI
+  - Global.PathProgrammingGridEditor.tileMeasures
+  - Global.PathProgrammingGridEditor.tilePrefab
+  langs:
+  - csharp
+  - vb
+  name: PathProgrammingGridEditor
+  nameWithType: PathProgrammingGridEditor
+  fullName: PathProgrammingGridEditor
+  type: Class
+  source:
+    id: PathProgrammingGridEditor
+    path: ''
+    startLine: 16167
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PathProgrammingGridEditor : Editor'
+    content.vb: >-
+      Public Class PathProgrammingGridEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PathProgrammingGridEditor.tilePrefab
+  commentId: F:Global.PathProgrammingGridEditor.tilePrefab
+  id: tilePrefab
+  parent: Global.PathProgrammingGridEditor
+  langs:
+  - csharp
+  - vb
+  name: tilePrefab
+  nameWithType: PathProgrammingGridEditor.tilePrefab
+  fullName: PathProgrammingGridEditor.tilePrefab
+  type: Field
+  source:
+    id: tilePrefab
+    path: ''
+    startLine: 16170
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static GameObject tilePrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public Shared tilePrefab As GameObject
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PathProgrammingGridEditor.tileMeasures
+  commentId: F:Global.PathProgrammingGridEditor.tileMeasures
+  id: tileMeasures
+  parent: Global.PathProgrammingGridEditor
+  langs:
+  - csharp
+  - vb
+  name: tileMeasures
+  nameWithType: PathProgrammingGridEditor.tileMeasures
+  fullName: PathProgrammingGridEditor.tileMeasures
+  type: Field
+  source:
+    id: tileMeasures
+    path: ''
+    startLine: 16171
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Vector3 tileMeasures
+    return:
+      type: Global.Vector3
+    content.vb: Public Shared tileMeasures As Vector3
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PathProgrammingGridEditor.OnInspectorGUI
+  commentId: M:Global.PathProgrammingGridEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.PathProgrammingGridEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: PathProgrammingGridEditor.OnInspectorGUI()
+  fullName: PathProgrammingGridEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 16174
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.PathProgrammingGridEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.PathProgrammingGridEditor.OnInspectorGUI*
+  commentId: Overload:Global.PathProgrammingGridEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: PathProgrammingGridEditor.OnInspectorGUI
+  fullName: PathProgrammingGridEditor.OnInspectorGUI

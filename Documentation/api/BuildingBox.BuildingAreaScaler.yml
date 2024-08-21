@@ -1,0 +1,317 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingAreaScaler
+  commentId: T:BuildingBox.BuildingAreaScaler
+  id: BuildingAreaScaler
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingAreaScaler.buildingAreaVisualization
+  - BuildingBox.BuildingAreaScaler.columnCount
+  - BuildingBox.BuildingAreaScaler.grid
+  - BuildingBox.BuildingAreaScaler.localBoundSize
+  - BuildingBox.BuildingAreaScaler.rowCount
+  - BuildingBox.BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid(BuildingBox.BuildingBoxElement)
+  - BuildingBox.BuildingAreaScaler.ScaleToAreaGrid(Transform,Vector2,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: BuildingAreaScaler
+  nameWithType: BuildingAreaScaler
+  fullName: BuildingBox.BuildingAreaScaler
+  type: Class
+  source:
+    id: BuildingAreaScaler
+    path: ''
+    startLine: 681
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class BuildingAreaScaler : MonoBehaviour'
+    content.vb: >-
+      Public Class BuildingAreaScaler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingAreaScaler.grid
+  commentId: F:BuildingBox.BuildingAreaScaler.grid
+  id: grid
+  parent: BuildingBox.BuildingAreaScaler
+  langs:
+  - csharp
+  - vb
+  name: grid
+  nameWithType: BuildingAreaScaler.grid
+  fullName: BuildingBox.BuildingAreaScaler.grid
+  type: Field
+  source:
+    id: grid
+    path: ''
+    startLine: 684
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Grid grid
+    return:
+      type: Global.Grid
+    content.vb: Public grid As Grid
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingAreaScaler.rowCount
+  commentId: F:BuildingBox.BuildingAreaScaler.rowCount
+  id: rowCount
+  parent: BuildingBox.BuildingAreaScaler
+  langs:
+  - csharp
+  - vb
+  name: rowCount
+  nameWithType: BuildingAreaScaler.rowCount
+  fullName: BuildingBox.BuildingAreaScaler.rowCount
+  type: Field
+  source:
+    id: rowCount
+    path: ''
+    startLine: 685
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int rowCount
+    return:
+      type: System.Int32
+    content.vb: Public rowCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingAreaScaler.columnCount
+  commentId: F:BuildingBox.BuildingAreaScaler.columnCount
+  id: columnCount
+  parent: BuildingBox.BuildingAreaScaler
+  langs:
+  - csharp
+  - vb
+  name: columnCount
+  nameWithType: BuildingAreaScaler.columnCount
+  fullName: BuildingBox.BuildingAreaScaler.columnCount
+  type: Field
+  source:
+    id: columnCount
+    path: ''
+    startLine: 686
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int columnCount
+    return:
+      type: System.Int32
+    content.vb: Public columnCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingAreaScaler.buildingAreaVisualization
+  commentId: F:BuildingBox.BuildingAreaScaler.buildingAreaVisualization
+  id: buildingAreaVisualization
+  parent: BuildingBox.BuildingAreaScaler
+  langs:
+  - csharp
+  - vb
+  name: buildingAreaVisualization
+  nameWithType: BuildingAreaScaler.buildingAreaVisualization
+  fullName: BuildingBox.BuildingAreaScaler.buildingAreaVisualization
+  type: Field
+  source:
+    id: buildingAreaVisualization
+    path: ''
+    startLine: 687
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Transform buildingAreaVisualization
+    return:
+      type: Global.Transform
+    content.vb: Public buildingAreaVisualization As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingAreaScaler.localBoundSize
+  commentId: P:BuildingBox.BuildingAreaScaler.localBoundSize
+  id: localBoundSize
+  parent: BuildingBox.BuildingAreaScaler
+  langs:
+  - csharp
+  - vb
+  name: localBoundSize
+  nameWithType: BuildingAreaScaler.localBoundSize
+  fullName: BuildingBox.BuildingAreaScaler.localBoundSize
+  type: Property
+  source:
+    id: localBoundSize
+    path: ''
+    startLine: 692
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Vector3 localBoundSize { get; }
+    parameters: []
+    return:
+      type: Global.Vector3
+    content.vb: Public ReadOnly Property localBoundSize As Vector3
+  overload: BuildingBox.BuildingAreaScaler.localBoundSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid(BuildingBox.BuildingBoxElement)
+  commentId: M:BuildingBox.BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid(BuildingBox.BuildingBoxElement)
+  id: ScaleBuildingBoxElementToAreaGrid(BuildingBox.BuildingBoxElement)
+  parent: BuildingBox.BuildingAreaScaler
+  langs:
+  - csharp
+  - vb
+  name: ScaleBuildingBoxElementToAreaGrid(BuildingBoxElement)
+  nameWithType: BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid(BuildingBoxElement)
+  fullName: BuildingBox.BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid(BuildingBox.BuildingBoxElement)
+  type: Method
+  source:
+    id: ScaleBuildingBoxElementToAreaGrid
+    path: ''
+    startLine: 731
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void ScaleBuildingBoxElementToAreaGrid(BuildingBoxElement element)
+    parameters:
+    - id: element
+      type: BuildingBox.BuildingBoxElement
+    content.vb: Public Sub ScaleBuildingBoxElementToAreaGrid(element As BuildingBoxElement)
+  overload: BuildingBox.BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingAreaScaler.ScaleToAreaGrid(Transform,Vector2,System.Single)
+  commentId: M:BuildingBox.BuildingAreaScaler.ScaleToAreaGrid(Transform,Vector2,System.Single)
+  id: ScaleToAreaGrid(Transform,Vector2,System.Single)
+  parent: BuildingBox.BuildingAreaScaler
+  langs:
+  - csharp
+  - vb
+  name: ScaleToAreaGrid(Transform, Vector2, Single)
+  nameWithType: BuildingAreaScaler.ScaleToAreaGrid(Transform, Vector2, Single)
+  fullName: BuildingBox.BuildingAreaScaler.ScaleToAreaGrid(Transform, Vector2, System.Single)
+  type: Method
+  source:
+    id: ScaleToAreaGrid
+    path: ''
+    startLine: 738
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void ScaleToAreaGrid(Transform target, Vector2 size, float localSizeReference)
+    parameters:
+    - id: target
+      type: Global.Transform
+    - id: size
+      type: Global.Vector2
+    - id: localSizeReference
+      type: System.Single
+    content.vb: Public Sub ScaleToAreaGrid(target As Transform, size As Vector2, localSizeReference As Single)
+  overload: BuildingBox.BuildingAreaScaler.ScaleToAreaGrid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Grid
+  commentId: '!:Global.Grid'
+  isExternal: true
+  name: Grid
+  nameWithType: Grid
+  fullName: Grid
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: BuildingBox.BuildingAreaScaler.localBoundSize*
+  commentId: Overload:BuildingBox.BuildingAreaScaler.localBoundSize
+  name: localBoundSize
+  nameWithType: BuildingAreaScaler.localBoundSize
+  fullName: BuildingBox.BuildingAreaScaler.localBoundSize
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: BuildingBox.BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid*
+  commentId: Overload:BuildingBox.BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid
+  name: ScaleBuildingBoxElementToAreaGrid
+  nameWithType: BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid
+  fullName: BuildingBox.BuildingAreaScaler.ScaleBuildingBoxElementToAreaGrid
+- uid: BuildingBox.BuildingBoxElement
+  commentId: T:BuildingBox.BuildingBoxElement
+  parent: BuildingBox
+  name: BuildingBoxElement
+  nameWithType: BuildingBoxElement
+  fullName: BuildingBox.BuildingBoxElement
+- uid: BuildingBox.BuildingAreaScaler.ScaleToAreaGrid*
+  commentId: Overload:BuildingBox.BuildingAreaScaler.ScaleToAreaGrid
+  name: ScaleToAreaGrid
+  nameWithType: BuildingAreaScaler.ScaleToAreaGrid
+  fullName: BuildingBox.BuildingAreaScaler.ScaleToAreaGrid
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Selectable.ASelectionBehaviour
+  commentId: T:InteractionSystem.Selectable.ASelectionBehaviour
+  id: ASelectionBehaviour
+  parent: InteractionSystem.Selectable
+  children:
+  - InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  langs:
+  - csharp
+  - vb
+  name: ASelectionBehaviour
+  nameWithType: ASelectionBehaviour
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour
+  type: Class
+  source:
+    id: ASelectionBehaviour
+    path: ''
+    startLine: 24730
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: 'public abstract class ASelectionBehaviour : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class ASelectionBehaviour
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - InteractionSystem.Selectable.ChangeMaterialBehaviour
+  - InteractionSystem.Selectable.HandFollowBehaviour
+  - InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  - InteractionSystem.Selectable.SnappingBehaviour
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  commentId: F:InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  id: selectable
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: selectable
+  nameWithType: ASelectionBehaviour.selectable
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  type: Field
+  source:
+    id: selectable
+    path: ''
+    startLine: 24733
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: protected Selectable selectable
+    return:
+      type: InteractionSystem.Selectable.Selectable
+    content.vb: Protected selectable As Selectable
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  id: Awake
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ASelectionBehaviour.Awake()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24735
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: InteractionSystem.Selectable.ASelectionBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  id: OnSelect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnSelect()
+  nameWithType: ASelectionBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect()
+  type: Method
+  source:
+    id: OnSelect
+    path: ''
+    startLine: 24740
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public abstract void OnSelect()
+    content.vb: Public MustOverride Sub OnSelect
+  overload: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  id: OnDeselect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDeselect()
+  nameWithType: ASelectionBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect()
+  type: Method
+  source:
+    id: OnDeselect
+    path: ''
+    startLine: 24741
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public abstract void OnDeselect()
+    content.vb: Public MustOverride Sub OnDeselect
+  overload: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Selectable.Selectable
+  commentId: T:InteractionSystem.Selectable.Selectable
+  parent: InteractionSystem.Selectable
+  name: Selectable
+  nameWithType: Selectable
+  fullName: InteractionSystem.Selectable.Selectable
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake*
+  commentId: Overload:InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  name: Awake
+  nameWithType: ASelectionBehaviour.Awake
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect*
+  commentId: Overload:InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  name: OnSelect
+  nameWithType: ASelectionBehaviour.OnSelect
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect*
+  commentId: Overload:InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  name: OnDeselect
+  nameWithType: ASelectionBehaviour.OnDeselect
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect

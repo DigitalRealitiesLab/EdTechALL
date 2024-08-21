@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Municipalities
+  commentId: T:Global.Municipalities
+  id: Municipalities
+  parent: Global
+  children:
+  - Global.Municipalities.Gemeinden
+  - Global.Municipalities.GetEnumerator
+  langs:
+  - csharp
+  - vb
+  name: Municipalities
+  nameWithType: Municipalities
+  fullName: Municipalities
+  type: Class
+  source:
+    id: Municipalities
+    path: ''
+    startLine: 22896
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Municipalities : IEnumerable<Municipality>
+    content.vb: >-
+      <Serializable>
+
+      Public Class Municipalities
+          Inherits IEnumerable(Of Municipality)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Municipalities.Gemeinden
+  commentId: F:Global.Municipalities.Gemeinden
+  id: Gemeinden
+  parent: Global.Municipalities
+  langs:
+  - csharp
+  - vb
+  name: Gemeinden
+  nameWithType: Municipalities.Gemeinden
+  fullName: Municipalities.Gemeinden
+  type: Field
+  source:
+    id: Gemeinden
+    path: ''
+    startLine: 22899
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Municipality[] Gemeinden
+    return:
+      type: Global.Municipality[]
+    content.vb: Public Gemeinden As Municipality()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Municipalities.GetEnumerator
+  commentId: M:Global.Municipalities.GetEnumerator
+  id: GetEnumerator
+  parent: Global.Municipalities
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: Municipalities.GetEnumerator()
+  fullName: Municipalities.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: ''
+    startLine: 22911
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MunicipalityEnum GetEnumerator()
+    return:
+      type: Global.MunicipalityEnum
+    content.vb: Public Function GetEnumerator As MunicipalityEnum
+  overload: Global.Municipalities.GetEnumerator*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Municipality[]
+  isExternal: true
+  name: Municipality[]
+  nameWithType: Municipality[]
+  fullName: Municipality[]
+  nameWithType.vb: Municipality()
+  fullName.vb: Municipality()
+  name.vb: Municipality()
+  spec.csharp:
+  - uid: Global.Municipality
+    name: Municipality
+    nameWithType: Municipality
+    fullName: Municipality
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Municipality
+    name: Municipality
+    nameWithType: Municipality
+    fullName: Municipality
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Municipalities.GetEnumerator*
+  commentId: Overload:Global.Municipalities.GetEnumerator
+  name: GetEnumerator
+  nameWithType: Municipalities.GetEnumerator
+  fullName: Municipalities.GetEnumerator
+- uid: Global.MunicipalityEnum
+  commentId: T:Global.MunicipalityEnum
+  name: MunicipalityEnum
+  nameWithType: MunicipalityEnum
+  fullName: MunicipalityEnum

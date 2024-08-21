@@ -1,0 +1,379 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AMiniGame
+  commentId: T:Global.AMiniGame
+  id: AMiniGame
+  parent: Global
+  children:
+  - Global.AMiniGame.AbortMiniGame
+  - Global.AMiniGame.ExitMiniGame
+  - Global.AMiniGame.miniGameConfig
+  - Global.AMiniGame.RequestScoreWindow
+  - Global.AMiniGame.RquestPromtWindow
+  - Global.AMiniGame.score
+  - Global.AMiniGame.StartMiniGame
+  - Global.AMiniGame.success
+  - Global.AMiniGame.windowText
+  langs:
+  - csharp
+  - vb
+  name: AMiniGame
+  nameWithType: AMiniGame
+  fullName: AMiniGame
+  type: Class
+  source:
+    id: AMiniGame
+    path: ''
+    startLine: 14719
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class AMiniGame : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AMiniGame
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.CowCaretakerMiniGame
+  - Global.GemeindeSucheMiniGame
+  - Global.MapLayerMiniGame
+  - Global.PathProgrammingMiniGame
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Global.AMiniGame.miniGameConfig
+  commentId: F:Global.AMiniGame.miniGameConfig
+  id: miniGameConfig
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: miniGameConfig
+  nameWithType: AMiniGame.miniGameConfig
+  fullName: AMiniGame.miniGameConfig
+  type: Field
+  source:
+    id: miniGameConfig
+    path: ''
+    startLine: 14721
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameConfig miniGameConfig
+    return:
+      type: Global.MiniGameConfig
+    content.vb: Public miniGameConfig As MiniGameConfig
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGame.score
+  commentId: F:Global.AMiniGame.score
+  id: score
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: score
+  nameWithType: AMiniGame.score
+  fullName: AMiniGame.score
+  type: Field
+  source:
+    id: score
+    path: ''
+    startLine: 14723
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int score
+    return:
+      type: System.Int32
+    content.vb: Public score As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGame.success
+  commentId: P:Global.AMiniGame.success
+  id: success
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: success
+  nameWithType: AMiniGame.success
+  fullName: AMiniGame.success
+  type: Property
+  source:
+    id: success
+    path: ''
+    startLine: 14724
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool success { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property success As Boolean
+  overload: Global.AMiniGame.success*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: Global.AMiniGame.windowText
+  commentId: F:Global.AMiniGame.windowText
+  id: windowText
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: windowText
+  nameWithType: AMiniGame.windowText
+  fullName: AMiniGame.windowText
+  type: Field
+  source:
+    id: windowText
+    path: ''
+    startLine: 14725
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string windowText
+    return:
+      type: System.String
+    content.vb: Public windowText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGame.RequestScoreWindow
+  commentId: M:Global.AMiniGame.RequestScoreWindow
+  id: RequestScoreWindow
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: RequestScoreWindow()
+  nameWithType: AMiniGame.RequestScoreWindow()
+  fullName: AMiniGame.RequestScoreWindow()
+  type: Method
+  source:
+    id: RequestScoreWindow
+    path: ''
+    startLine: 14727
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void RequestScoreWindow()
+    content.vb: Public Shared Sub RequestScoreWindow
+  overload: Global.AMiniGame.RequestScoreWindow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.AMiniGame.RquestPromtWindow
+  commentId: M:Global.AMiniGame.RquestPromtWindow
+  id: RquestPromtWindow
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: RquestPromtWindow()
+  nameWithType: AMiniGame.RquestPromtWindow()
+  fullName: AMiniGame.RquestPromtWindow()
+  type: Method
+  source:
+    id: RquestPromtWindow
+    path: ''
+    startLine: 14732
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void RquestPromtWindow()
+    content.vb: Protected Sub RquestPromtWindow
+  overload: Global.AMiniGame.RquestPromtWindow*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.AMiniGame.StartMiniGame
+  commentId: M:Global.AMiniGame.StartMiniGame
+  id: StartMiniGame
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: StartMiniGame()
+  nameWithType: AMiniGame.StartMiniGame()
+  fullName: AMiniGame.StartMiniGame()
+  type: Method
+  source:
+    id: StartMiniGame
+    path: ''
+    startLine: 14737
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract void StartMiniGame()
+    content.vb: Public MustOverride Sub StartMiniGame
+  overload: Global.AMiniGame.StartMiniGame*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Global.AMiniGame.ExitMiniGame
+  commentId: M:Global.AMiniGame.ExitMiniGame
+  id: ExitMiniGame
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: ExitMiniGame()
+  nameWithType: AMiniGame.ExitMiniGame()
+  fullName: AMiniGame.ExitMiniGame()
+  type: Method
+  source:
+    id: ExitMiniGame
+    path: ''
+    startLine: 14738
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract void ExitMiniGame()
+    content.vb: Public MustOverride Sub ExitMiniGame
+  overload: Global.AMiniGame.ExitMiniGame*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Global.AMiniGame.AbortMiniGame
+  commentId: M:Global.AMiniGame.AbortMiniGame
+  id: AbortMiniGame
+  parent: Global.AMiniGame
+  langs:
+  - csharp
+  - vb
+  name: AbortMiniGame()
+  nameWithType: AMiniGame.AbortMiniGame()
+  fullName: AMiniGame.AbortMiniGame()
+  type: Method
+  source:
+    id: AbortMiniGame
+    path: ''
+    startLine: 14739
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract void AbortMiniGame()
+    content.vb: Public MustOverride Sub AbortMiniGame
+  overload: Global.AMiniGame.AbortMiniGame*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MiniGameConfig
+  isExternal: true
+  name: MiniGameConfig
+  nameWithType: MiniGameConfig
+  fullName: MiniGameConfig
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.AMiniGame.success*
+  commentId: Overload:Global.AMiniGame.success
+  name: success
+  nameWithType: AMiniGame.success
+  fullName: AMiniGame.success
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.AMiniGame.RequestScoreWindow*
+  commentId: Overload:Global.AMiniGame.RequestScoreWindow
+  name: RequestScoreWindow
+  nameWithType: AMiniGame.RequestScoreWindow
+  fullName: AMiniGame.RequestScoreWindow
+- uid: Global.AMiniGame.RquestPromtWindow*
+  commentId: Overload:Global.AMiniGame.RquestPromtWindow
+  name: RquestPromtWindow
+  nameWithType: AMiniGame.RquestPromtWindow
+  fullName: AMiniGame.RquestPromtWindow
+- uid: Global.AMiniGame.StartMiniGame*
+  commentId: Overload:Global.AMiniGame.StartMiniGame
+  name: StartMiniGame
+  nameWithType: AMiniGame.StartMiniGame
+  fullName: AMiniGame.StartMiniGame
+- uid: Global.AMiniGame.ExitMiniGame*
+  commentId: Overload:Global.AMiniGame.ExitMiniGame
+  name: ExitMiniGame
+  nameWithType: AMiniGame.ExitMiniGame
+  fullName: AMiniGame.ExitMiniGame
+- uid: Global.AMiniGame.AbortMiniGame*
+  commentId: Overload:Global.AMiniGame.AbortMiniGame
+  name: AbortMiniGame
+  nameWithType: AMiniGame.AbortMiniGame
+  fullName: AMiniGame.AbortMiniGame

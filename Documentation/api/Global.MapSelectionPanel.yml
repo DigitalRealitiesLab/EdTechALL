@@ -1,0 +1,370 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MapSelectionPanel
+  commentId: T:Global.MapSelectionPanel
+  id: MapSelectionPanel
+  parent: Global
+  children:
+  - Global.MapSelectionPanel.dataSaveKey
+  - Global.MapSelectionPanel.LoadData
+  - Global.MapSelectionPanel.OnConfirm
+  - Global.MapSelectionPanel.OnConfirmReload
+  - Global.MapSelectionPanel.SaveData
+  - Global.MapSelectionPanel.staticReferenceImageLibraries
+  - Global.MapSelectionPanel.toggleGroup
+  langs:
+  - csharp
+  - vb
+  name: MapSelectionPanel
+  nameWithType: MapSelectionPanel
+  fullName: MapSelectionPanel
+  type: Class
+  source:
+    id: MapSelectionPanel
+    path: ''
+    startLine: 20848
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MapSelectionPanel : MonoBehaviour'
+    content.vb: >-
+      Public Class MapSelectionPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MapSelectionPanel.toggleGroup
+  commentId: F:Global.MapSelectionPanel.toggleGroup
+  id: toggleGroup
+  parent: Global.MapSelectionPanel
+  langs:
+  - csharp
+  - vb
+  name: toggleGroup
+  nameWithType: MapSelectionPanel.toggleGroup
+  fullName: MapSelectionPanel.toggleGroup
+  type: Field
+  source:
+    id: toggleGroup
+    path: ''
+    startLine: 20850
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ToggleGroup toggleGroup
+    return:
+      type: Global.ToggleGroup
+    content.vb: Public toggleGroup As ToggleGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapSelectionPanel.staticReferenceImageLibraries
+  commentId: F:Global.MapSelectionPanel.staticReferenceImageLibraries
+  id: staticReferenceImageLibraries
+  parent: Global.MapSelectionPanel
+  langs:
+  - csharp
+  - vb
+  name: staticReferenceImageLibraries
+  nameWithType: MapSelectionPanel.staticReferenceImageLibraries
+  fullName: MapSelectionPanel.staticReferenceImageLibraries
+  type: Field
+  source:
+    id: staticReferenceImageLibraries
+    path: ''
+    startLine: 20852
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<XRReferenceImageLibrary> staticReferenceImageLibraries
+    return:
+      type: Global.List{XRReferenceImageLibrary}
+    content.vb: Public staticReferenceImageLibraries As List(Of XRReferenceImageLibrary)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapSelectionPanel.dataSaveKey
+  commentId: P:Global.MapSelectionPanel.dataSaveKey
+  id: dataSaveKey
+  parent: Global.MapSelectionPanel
+  langs:
+  - csharp
+  - vb
+  name: dataSaveKey
+  nameWithType: MapSelectionPanel.dataSaveKey
+  fullName: MapSelectionPanel.dataSaveKey
+  type: Property
+  source:
+    id: dataSaveKey
+    path: ''
+    startLine: 20855
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string dataSaveKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property dataSaveKey As String
+  overload: Global.MapSelectionPanel.dataSaveKey*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.MapSelectionPanel.OnConfirm
+  commentId: M:Global.MapSelectionPanel.OnConfirm
+  id: OnConfirm
+  parent: Global.MapSelectionPanel
+  langs:
+  - csharp
+  - vb
+  name: OnConfirm()
+  nameWithType: MapSelectionPanel.OnConfirm()
+  fullName: MapSelectionPanel.OnConfirm()
+  type: Method
+  source:
+    id: OnConfirm
+    path: ''
+    startLine: 20898
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnConfirm()
+    content.vb: Public Sub OnConfirm
+  overload: Global.MapSelectionPanel.OnConfirm*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapSelectionPanel.OnConfirmReload
+  commentId: M:Global.MapSelectionPanel.OnConfirmReload
+  id: OnConfirmReload
+  parent: Global.MapSelectionPanel
+  langs:
+  - csharp
+  - vb
+  name: OnConfirmReload()
+  nameWithType: MapSelectionPanel.OnConfirmReload()
+  fullName: MapSelectionPanel.OnConfirmReload()
+  type: Method
+  source:
+    id: OnConfirmReload
+    path: ''
+    startLine: 20907
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnConfirmReload()
+    content.vb: Public Sub OnConfirmReload
+  overload: Global.MapSelectionPanel.OnConfirmReload*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapSelectionPanel.SaveData
+  commentId: M:Global.MapSelectionPanel.SaveData
+  id: SaveData
+  parent: Global.MapSelectionPanel
+  langs:
+  - csharp
+  - vb
+  name: SaveData()
+  nameWithType: MapSelectionPanel.SaveData()
+  fullName: MapSelectionPanel.SaveData()
+  type: Method
+  source:
+    id: SaveData
+    path: ''
+    startLine: 20913
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SaveData()
+    content.vb: Public Sub SaveData
+  overload: Global.MapSelectionPanel.SaveData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapSelectionPanel.LoadData
+  commentId: M:Global.MapSelectionPanel.LoadData
+  id: LoadData
+  parent: Global.MapSelectionPanel
+  langs:
+  - csharp
+  - vb
+  name: LoadData()
+  nameWithType: MapSelectionPanel.LoadData()
+  fullName: MapSelectionPanel.LoadData()
+  type: Method
+  source:
+    id: LoadData
+    path: ''
+    startLine: 20918
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadData()
+    content.vb: Public Sub LoadData
+  overload: Global.MapSelectionPanel.LoadData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ToggleGroup
+  commentId: '!:Global.ToggleGroup'
+  isExternal: true
+  name: ToggleGroup
+  nameWithType: ToggleGroup
+  fullName: ToggleGroup
+- uid: Global.List{XRReferenceImageLibrary}
+  commentId: '!:Global.List{XRReferenceImageLibrary}'
+  definition: Global.List`1
+  name: List<XRReferenceImageLibrary>
+  nameWithType: List<XRReferenceImageLibrary>
+  fullName: List<XRReferenceImageLibrary>
+  nameWithType.vb: List(Of XRReferenceImageLibrary)
+  fullName.vb: List(Of XRReferenceImageLibrary)
+  name.vb: List(Of XRReferenceImageLibrary)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.XRReferenceImageLibrary
+    name: XRReferenceImageLibrary
+    nameWithType: XRReferenceImageLibrary
+    fullName: XRReferenceImageLibrary
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.XRReferenceImageLibrary
+    name: XRReferenceImageLibrary
+    nameWithType: XRReferenceImageLibrary
+    fullName: XRReferenceImageLibrary
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.MapSelectionPanel.dataSaveKey*
+  commentId: Overload:Global.MapSelectionPanel.dataSaveKey
+  name: dataSaveKey
+  nameWithType: MapSelectionPanel.dataSaveKey
+  fullName: MapSelectionPanel.dataSaveKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.MapSelectionPanel.OnConfirm*
+  commentId: Overload:Global.MapSelectionPanel.OnConfirm
+  name: OnConfirm
+  nameWithType: MapSelectionPanel.OnConfirm
+  fullName: MapSelectionPanel.OnConfirm
+- uid: Global.MapSelectionPanel.OnConfirmReload*
+  commentId: Overload:Global.MapSelectionPanel.OnConfirmReload
+  name: OnConfirmReload
+  nameWithType: MapSelectionPanel.OnConfirmReload
+  fullName: MapSelectionPanel.OnConfirmReload
+- uid: Global.MapSelectionPanel.SaveData*
+  commentId: Overload:Global.MapSelectionPanel.SaveData
+  name: SaveData
+  nameWithType: MapSelectionPanel.SaveData
+  fullName: MapSelectionPanel.SaveData
+- uid: Global.MapSelectionPanel.LoadData*
+  commentId: Overload:Global.MapSelectionPanel.LoadData
+  name: LoadData
+  nameWithType: MapSelectionPanel.LoadData
+  fullName: MapSelectionPanel.LoadData

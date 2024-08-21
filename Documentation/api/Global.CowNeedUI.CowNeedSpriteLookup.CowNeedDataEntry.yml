@@ -1,0 +1,129 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  commentId: T:Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  id: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  parent: Global
+  children:
+  - Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.need
+  - Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.sprite
+  langs:
+  - csharp
+  - vb
+  name: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  nameWithType: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  fullName: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  type: Class
+  source:
+    id: CowNeedDataEntry
+    path: ''
+    startLine: 15264
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class CowNeedDataEntry
+    content.vb: >-
+      <Serializable>
+
+      Public Class CowNeedDataEntry
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.need
+  commentId: F:Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.need
+  id: need
+  parent: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  langs:
+  - csharp
+  - vb
+  name: need
+  nameWithType: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.need
+  fullName: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.need
+  type: Field
+  source:
+    id: need
+    path: ''
+    startLine: 15267
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Cow.CowNeed need
+    return:
+      type: Global.Cow.CowNeed
+    content.vb: Public need As Cow.CowNeed
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.sprite
+  commentId: F:Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.sprite
+  id: sprite
+  parent: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  langs:
+  - csharp
+  - vb
+  name: sprite
+  nameWithType: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.sprite
+  fullName: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry.sprite
+  type: Field
+  source:
+    id: sprite
+    path: ''
+    startLine: 15268
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Sprite sprite
+    return:
+      type: Global.Sprite
+    content.vb: Public sprite As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Cow.CowNeed
+  commentId: T:Global.Cow.CowNeed
+  name: Cow.CowNeed
+  nameWithType: Cow.CowNeed
+  fullName: Cow.CowNeed
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite

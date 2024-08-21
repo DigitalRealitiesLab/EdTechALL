@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AMiniGameWindow
+  commentId: T:Global.AMiniGameWindow
+  id: AMiniGameWindow
+  parent: Global
+  children:
+  - Global.AMiniGameWindow.Awake
+  - Global.AMiniGameWindow.exitButton
+  - Global.AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  - Global.AMiniGameWindow.mainButton
+  - Global.AMiniGameWindow.mainButtonText
+  - Global.AMiniGameWindow.mainButtonTextContent
+  - Global.AMiniGameWindow.miniGameDescriptionText
+  - Global.AMiniGameWindow.miniGameTitleText
+  - Global.AMiniGameWindow.miniGameUIController
+  - Global.AMiniGameWindow.UnloadMiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: AMiniGameWindow
+  nameWithType: AMiniGameWindow
+  fullName: AMiniGameWindow
+  type: Class
+  source:
+    id: AMiniGameWindow
+    path: ''
+    startLine: 14889
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class AMiniGameWindow : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AMiniGameWindow
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.MiniGameAbortUI
+  - Global.MiniGamePromptUI
+  - Global.MiniGameScoreUI
+  - Global.MiniGameStartUI
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Global.AMiniGameWindow.miniGameUIController
+  commentId: F:Global.AMiniGameWindow.miniGameUIController
+  id: miniGameUIController
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: miniGameUIController
+  nameWithType: AMiniGameWindow.miniGameUIController
+  fullName: AMiniGameWindow.miniGameUIController
+  type: Field
+  source:
+    id: miniGameUIController
+    path: ''
+    startLine: 14891
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameUIController miniGameUIController
+    return:
+      type: Global.MiniGameUIController
+    content.vb: Public miniGameUIController As MiniGameUIController
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGameWindow.miniGameTitleText
+  commentId: F:Global.AMiniGameWindow.miniGameTitleText
+  id: miniGameTitleText
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: miniGameTitleText
+  nameWithType: AMiniGameWindow.miniGameTitleText
+  fullName: AMiniGameWindow.miniGameTitleText
+  type: Field
+  source:
+    id: miniGameTitleText
+    path: ''
+    startLine: 14892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI miniGameTitleText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public miniGameTitleText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGameWindow.miniGameDescriptionText
+  commentId: F:Global.AMiniGameWindow.miniGameDescriptionText
+  id: miniGameDescriptionText
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: miniGameDescriptionText
+  nameWithType: AMiniGameWindow.miniGameDescriptionText
+  fullName: AMiniGameWindow.miniGameDescriptionText
+  type: Field
+  source:
+    id: miniGameDescriptionText
+    path: ''
+    startLine: 14892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI miniGameDescriptionText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public miniGameDescriptionText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGameWindow.mainButtonText
+  commentId: F:Global.AMiniGameWindow.mainButtonText
+  id: mainButtonText
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: mainButtonText
+  nameWithType: AMiniGameWindow.mainButtonText
+  fullName: AMiniGameWindow.mainButtonText
+  type: Field
+  source:
+    id: mainButtonText
+    path: ''
+    startLine: 14892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI mainButtonText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public mainButtonText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGameWindow.exitButton
+  commentId: F:Global.AMiniGameWindow.exitButton
+  id: exitButton
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: exitButton
+  nameWithType: AMiniGameWindow.exitButton
+  fullName: AMiniGameWindow.exitButton
+  type: Field
+  source:
+    id: exitButton
+    path: ''
+    startLine: 14893
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button exitButton
+    return:
+      type: Global.Button
+    content.vb: Public exitButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGameWindow.mainButton
+  commentId: F:Global.AMiniGameWindow.mainButton
+  id: mainButton
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: mainButton
+  nameWithType: AMiniGameWindow.mainButton
+  fullName: AMiniGameWindow.mainButton
+  type: Field
+  source:
+    id: mainButton
+    path: ''
+    startLine: 14893
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button mainButton
+    return:
+      type: Global.Button
+    content.vb: Public mainButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGameWindow.mainButtonTextContent
+  commentId: F:Global.AMiniGameWindow.mainButtonTextContent
+  id: mainButtonTextContent
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: mainButtonTextContent
+  nameWithType: AMiniGameWindow.mainButtonTextContent
+  fullName: AMiniGameWindow.mainButtonTextContent
+  type: Field
+  source:
+    id: mainButtonTextContent
+    path: ''
+    startLine: 14895
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string mainButtonTextContent
+    return:
+      type: System.String
+    content.vb: Public mainButtonTextContent As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AMiniGameWindow.Awake
+  commentId: M:Global.AMiniGameWindow.Awake
+  id: Awake
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: AMiniGameWindow.Awake()
+  fullName: AMiniGameWindow.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 14897
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: Global.AMiniGameWindow.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Global.AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  commentId: M:Global.AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  id: LoadMiniGameConfig(MiniGameConfig)
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: LoadMiniGameConfig(MiniGameConfig)
+  nameWithType: AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  fullName: AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  type: Method
+  source:
+    id: LoadMiniGameConfig
+    path: ''
+    startLine: 14909
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void LoadMiniGameConfig(MiniGameConfig config)
+    parameters:
+    - id: config
+      type: Global.MiniGameConfig
+    content.vb: Public Overridable Sub LoadMiniGameConfig(config As MiniGameConfig)
+  overload: Global.AMiniGameWindow.LoadMiniGameConfig*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: Global.AMiniGameWindow.UnloadMiniGameConfig
+  commentId: M:Global.AMiniGameWindow.UnloadMiniGameConfig
+  id: UnloadMiniGameConfig
+  parent: Global.AMiniGameWindow
+  langs:
+  - csharp
+  - vb
+  name: UnloadMiniGameConfig()
+  nameWithType: AMiniGameWindow.UnloadMiniGameConfig()
+  fullName: AMiniGameWindow.UnloadMiniGameConfig()
+  type: Method
+  source:
+    id: UnloadMiniGameConfig
+    path: ''
+    startLine: 14915
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void UnloadMiniGameConfig()
+    content.vb: Public Overridable Sub UnloadMiniGameConfig
+  overload: Global.AMiniGameWindow.UnloadMiniGameConfig*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MiniGameUIController
+  commentId: T:Global.MiniGameUIController
+  name: MiniGameUIController
+  nameWithType: MiniGameUIController
+  fullName: MiniGameUIController
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.AMiniGameWindow.Awake*
+  commentId: Overload:Global.AMiniGameWindow.Awake
+  name: Awake
+  nameWithType: AMiniGameWindow.Awake
+  fullName: AMiniGameWindow.Awake
+- uid: Global.AMiniGameWindow.LoadMiniGameConfig*
+  commentId: Overload:Global.AMiniGameWindow.LoadMiniGameConfig
+  name: LoadMiniGameConfig
+  nameWithType: AMiniGameWindow.LoadMiniGameConfig
+  fullName: AMiniGameWindow.LoadMiniGameConfig
+- uid: Global.MiniGameConfig
+  isExternal: true
+  name: MiniGameConfig
+  nameWithType: MiniGameConfig
+  fullName: MiniGameConfig
+- uid: Global.AMiniGameWindow.UnloadMiniGameConfig*
+  commentId: Overload:Global.AMiniGameWindow.UnloadMiniGameConfig
+  name: UnloadMiniGameConfig
+  nameWithType: AMiniGameWindow.UnloadMiniGameConfig
+  fullName: AMiniGameWindow.UnloadMiniGameConfig

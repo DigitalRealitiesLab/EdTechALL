@@ -1,0 +1,142 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ISaveData
+  commentId: T:Global.ISaveData
+  id: ISaveData
+  parent: Global
+  children:
+  - Global.ISaveData.dataSaveKey
+  - Global.ISaveData.LoadData
+  - Global.ISaveData.SaveData
+  langs:
+  - csharp
+  - vb
+  name: ISaveData
+  nameWithType: ISaveData
+  fullName: ISaveData
+  type: Interface
+  source:
+    id: ISaveData
+    path: ''
+    startLine: 16928
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public interface ISaveData
+    content.vb: Public Interface ISaveData
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: Global.ISaveData.dataSaveKey
+  commentId: P:Global.ISaveData.dataSaveKey
+  id: dataSaveKey
+  parent: Global.ISaveData
+  langs:
+  - csharp
+  - vb
+  name: dataSaveKey
+  nameWithType: ISaveData.dataSaveKey
+  fullName: ISaveData.dataSaveKey
+  type: Property
+  source:
+    id: dataSaveKey
+    path: ''
+    startLine: 16930
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: string dataSaveKey { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: ReadOnly Property dataSaveKey As String
+  overload: Global.ISaveData.dataSaveKey*
+  modifiers.csharp:
+  - get
+  modifiers.vb:
+  - ReadOnly
+- uid: Global.ISaveData.SaveData
+  commentId: M:Global.ISaveData.SaveData
+  id: SaveData
+  parent: Global.ISaveData
+  langs:
+  - csharp
+  - vb
+  name: SaveData()
+  nameWithType: ISaveData.SaveData()
+  fullName: ISaveData.SaveData()
+  type: Method
+  source:
+    id: SaveData
+    path: ''
+    startLine: 16931
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void SaveData()
+    content.vb: Sub SaveData
+  overload: Global.ISaveData.SaveData*
+- uid: Global.ISaveData.LoadData
+  commentId: M:Global.ISaveData.LoadData
+  id: LoadData
+  parent: Global.ISaveData
+  langs:
+  - csharp
+  - vb
+  name: LoadData()
+  nameWithType: ISaveData.LoadData()
+  fullName: ISaveData.LoadData()
+  type: Method
+  source:
+    id: LoadData
+    path: ''
+    startLine: 16932
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void LoadData()
+    content.vb: Sub LoadData
+  overload: Global.ISaveData.LoadData*
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.ISaveData.dataSaveKey*
+  commentId: Overload:Global.ISaveData.dataSaveKey
+  name: dataSaveKey
+  nameWithType: ISaveData.dataSaveKey
+  fullName: ISaveData.dataSaveKey
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ISaveData.SaveData*
+  commentId: Overload:Global.ISaveData.SaveData
+  name: SaveData
+  nameWithType: ISaveData.SaveData
+  fullName: ISaveData.SaveData
+- uid: Global.ISaveData.LoadData*
+  commentId: Overload:Global.ISaveData.LoadData
+  name: LoadData
+  nameWithType: ISaveData.LoadData
+  fullName: ISaveData.LoadData

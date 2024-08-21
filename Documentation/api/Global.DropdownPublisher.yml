@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DropdownPublisher
+  commentId: T:Global.DropdownPublisher
+  id: DropdownPublisher
+  parent: Global
+  children:
+  - Global.DropdownPublisher.dropdown
+  - Global.DropdownPublisher.eventId
+  - Global.DropdownPublisher.LoadFromPlayerPrefs(System.String)
+  - Global.DropdownPublisher.playerPrefsKey
+  - Global.DropdownPublisher.SaveToPlayerPrefs(System.String,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: DropdownPublisher
+  nameWithType: DropdownPublisher
+  fullName: DropdownPublisher
+  type: Class
+  source:
+    id: DropdownPublisher
+    path: ''
+    startLine: 21052
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class DropdownPublisher : MonoBehaviour, IPlayerPrefsIO<int>'
+    content.vb: >-
+      Public Class DropdownPublisher
+          Inherits MonoBehaviour
+          Implements IPlayerPrefsIO(Of Integer)
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IPlayerPrefsIO{System.Int32}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DropdownPublisher.dropdown
+  commentId: F:Global.DropdownPublisher.dropdown
+  id: dropdown
+  parent: Global.DropdownPublisher
+  langs:
+  - csharp
+  - vb
+  name: dropdown
+  nameWithType: DropdownPublisher.dropdown
+  fullName: DropdownPublisher.dropdown
+  type: Field
+  source:
+    id: dropdown
+    path: ''
+    startLine: 21055
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMP_Dropdown dropdown
+    return:
+      type: Global.TMP_Dropdown
+    content.vb: Public dropdown As TMP_Dropdown
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DropdownPublisher.eventId
+  commentId: F:Global.DropdownPublisher.eventId
+  id: eventId
+  parent: Global.DropdownPublisher
+  langs:
+  - csharp
+  - vb
+  name: eventId
+  nameWithType: DropdownPublisher.eventId
+  fullName: DropdownPublisher.eventId
+  type: Field
+  source:
+    id: eventId
+    path: ''
+    startLine: 21058
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string eventId
+    return:
+      type: System.String
+    content.vb: Public eventId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DropdownPublisher.playerPrefsKey
+  commentId: F:Global.DropdownPublisher.playerPrefsKey
+  id: playerPrefsKey
+  parent: Global.DropdownPublisher
+  langs:
+  - csharp
+  - vb
+  name: playerPrefsKey
+  nameWithType: DropdownPublisher.playerPrefsKey
+  fullName: DropdownPublisher.playerPrefsKey
+  type: Field
+  source:
+    id: playerPrefsKey
+    path: ''
+    startLine: 21061
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string playerPrefsKey
+    return:
+      type: System.String
+    content.vb: Public playerPrefsKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DropdownPublisher.SaveToPlayerPrefs(System.String,System.Int32)
+  commentId: M:Global.DropdownPublisher.SaveToPlayerPrefs(System.String,System.Int32)
+  id: SaveToPlayerPrefs(System.String,System.Int32)
+  parent: Global.DropdownPublisher
+  langs:
+  - csharp
+  - vb
+  name: SaveToPlayerPrefs(String, Int32)
+  nameWithType: DropdownPublisher.SaveToPlayerPrefs(String, Int32)
+  fullName: DropdownPublisher.SaveToPlayerPrefs(System.String, System.Int32)
+  type: Method
+  source:
+    id: SaveToPlayerPrefs
+    path: ''
+    startLine: 21084
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SaveToPlayerPrefs(string key, int value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.Int32
+    content.vb: Public Sub SaveToPlayerPrefs(key As String, value As Integer)
+  overload: Global.DropdownPublisher.SaveToPlayerPrefs*
+  implements:
+  - Global.IPlayerPrefsIO{System.Int32}.SaveToPlayerPrefs(System.String,System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DropdownPublisher.LoadFromPlayerPrefs(System.String)
+  commentId: M:Global.DropdownPublisher.LoadFromPlayerPrefs(System.String)
+  id: LoadFromPlayerPrefs(System.String)
+  parent: Global.DropdownPublisher
+  langs:
+  - csharp
+  - vb
+  name: LoadFromPlayerPrefs(String)
+  nameWithType: DropdownPublisher.LoadFromPlayerPrefs(String)
+  fullName: DropdownPublisher.LoadFromPlayerPrefs(System.String)
+  type: Method
+  source:
+    id: LoadFromPlayerPrefs
+    path: ''
+    startLine: 21090
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int LoadFromPlayerPrefs(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Int32
+    content.vb: Public Function LoadFromPlayerPrefs(key As String) As Integer
+  overload: Global.DropdownPublisher.LoadFromPlayerPrefs*
+  implements:
+  - Global.IPlayerPrefsIO{System.Int32}.LoadFromPlayerPrefs(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.IPlayerPrefsIO{System.Int32}
+  commentId: T:Global.IPlayerPrefsIO{System.Int32}
+  definition: Global.IPlayerPrefsIO`1
+  name: IPlayerPrefsIO<Int32>
+  nameWithType: IPlayerPrefsIO<Int32>
+  fullName: IPlayerPrefsIO<System.Int32>
+  nameWithType.vb: IPlayerPrefsIO(Of Int32)
+  fullName.vb: IPlayerPrefsIO(Of System.Int32)
+  name.vb: IPlayerPrefsIO(Of Int32)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.IPlayerPrefsIO`1
+  commentId: T:Global.IPlayerPrefsIO`1
+  name: IPlayerPrefsIO<T>
+  nameWithType: IPlayerPrefsIO<T>
+  fullName: IPlayerPrefsIO<T>
+  nameWithType.vb: IPlayerPrefsIO(Of T)
+  fullName.vb: IPlayerPrefsIO(Of T)
+  name.vb: IPlayerPrefsIO(Of T)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.TMP_Dropdown
+  commentId: '!:Global.TMP_Dropdown'
+  isExternal: true
+  name: TMP_Dropdown
+  nameWithType: TMP_Dropdown
+  fullName: TMP_Dropdown
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.DropdownPublisher.SaveToPlayerPrefs*
+  commentId: Overload:Global.DropdownPublisher.SaveToPlayerPrefs
+  name: SaveToPlayerPrefs
+  nameWithType: DropdownPublisher.SaveToPlayerPrefs
+  fullName: DropdownPublisher.SaveToPlayerPrefs
+- uid: Global.IPlayerPrefsIO{System.Int32}.SaveToPlayerPrefs(System.String,System.Int32)
+  commentId: M:Global.IPlayerPrefsIO{System.Int32}.SaveToPlayerPrefs(System.String,System.Int32)
+  parent: Global.IPlayerPrefsIO{System.Int32}
+  definition: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  name: SaveToPlayerPrefs(String, Int32)
+  nameWithType: IPlayerPrefsIO<Int32>.SaveToPlayerPrefs(String, Int32)
+  fullName: IPlayerPrefsIO<System.Int32>.SaveToPlayerPrefs(System.String, System.Int32)
+  nameWithType.vb: IPlayerPrefsIO(Of Int32).SaveToPlayerPrefs(String, Int32)
+  fullName.vb: IPlayerPrefsIO(Of System.Int32).SaveToPlayerPrefs(System.String, System.Int32)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+    name: SaveToPlayerPrefs
+    nameWithType: IPlayerPrefsIO<Int32>.SaveToPlayerPrefs
+    fullName: IPlayerPrefsIO<System.Int32>.SaveToPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+    name: SaveToPlayerPrefs
+    nameWithType: IPlayerPrefsIO(Of Int32).SaveToPlayerPrefs
+    fullName: IPlayerPrefsIO(Of System.Int32).SaveToPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  commentId: M:Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  isExternal: true
+  name: SaveToPlayerPrefs(String, T)
+  nameWithType: IPlayerPrefsIO<T>.SaveToPlayerPrefs(String, T)
+  fullName: IPlayerPrefsIO<T>.SaveToPlayerPrefs(System.String, T)
+  nameWithType.vb: IPlayerPrefsIO(Of T).SaveToPlayerPrefs(String, T)
+  fullName.vb: IPlayerPrefsIO(Of T).SaveToPlayerPrefs(System.String, T)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+    name: SaveToPlayerPrefs
+    nameWithType: IPlayerPrefsIO<T>.SaveToPlayerPrefs
+    fullName: IPlayerPrefsIO<T>.SaveToPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+    name: SaveToPlayerPrefs
+    nameWithType: IPlayerPrefsIO(Of T).SaveToPlayerPrefs
+    fullName: IPlayerPrefsIO(Of T).SaveToPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DropdownPublisher.LoadFromPlayerPrefs*
+  commentId: Overload:Global.DropdownPublisher.LoadFromPlayerPrefs
+  name: LoadFromPlayerPrefs
+  nameWithType: DropdownPublisher.LoadFromPlayerPrefs
+  fullName: DropdownPublisher.LoadFromPlayerPrefs
+- uid: Global.IPlayerPrefsIO{System.Int32}.LoadFromPlayerPrefs(System.String)
+  commentId: M:Global.IPlayerPrefsIO{System.Int32}.LoadFromPlayerPrefs(System.String)
+  parent: Global.IPlayerPrefsIO{System.Int32}
+  definition: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  name: LoadFromPlayerPrefs(String)
+  nameWithType: IPlayerPrefsIO<Int32>.LoadFromPlayerPrefs(String)
+  fullName: IPlayerPrefsIO<System.Int32>.LoadFromPlayerPrefs(System.String)
+  nameWithType.vb: IPlayerPrefsIO(Of Int32).LoadFromPlayerPrefs(String)
+  fullName.vb: IPlayerPrefsIO(Of System.Int32).LoadFromPlayerPrefs(System.String)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+    name: LoadFromPlayerPrefs
+    nameWithType: IPlayerPrefsIO<Int32>.LoadFromPlayerPrefs
+    fullName: IPlayerPrefsIO<System.Int32>.LoadFromPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+    name: LoadFromPlayerPrefs
+    nameWithType: IPlayerPrefsIO(Of Int32).LoadFromPlayerPrefs
+    fullName: IPlayerPrefsIO(Of System.Int32).LoadFromPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  commentId: M:Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  isExternal: true
+  name: LoadFromPlayerPrefs(String)
+  nameWithType: IPlayerPrefsIO<T>.LoadFromPlayerPrefs(String)
+  fullName: IPlayerPrefsIO<T>.LoadFromPlayerPrefs(System.String)
+  nameWithType.vb: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs(String)
+  fullName.vb: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs(System.String)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+    name: LoadFromPlayerPrefs
+    nameWithType: IPlayerPrefsIO<T>.LoadFromPlayerPrefs
+    fullName: IPlayerPrefsIO<T>.LoadFromPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+    name: LoadFromPlayerPrefs
+    nameWithType: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs
+    fullName: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

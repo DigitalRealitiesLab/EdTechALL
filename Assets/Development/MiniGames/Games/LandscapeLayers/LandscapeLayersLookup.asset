@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3f1f3f3096df4a839af264d6bd67b5d, type: 3}
+  m_Name: LandscapeLayersLookup
+  m_EditorClassIdentifier: 
+  landscapeLayersData:
+  - name: Wald
+    landscapeType: 0
+    texture: {fileID: 2800000, guid: 3934c7afb01454d089f97db6d8a7a6ad, type: 3}
+    alpha: 0.66
+    toggleColor: {r: 0.10588236, g: 0.41176474, b: 0.08627451, a: 1}
+    proxyCard:
+      title: Wald Info Karte
+      type: 0
+      taskIndex: -1
+      contentIndex: -1
+  - name: "Gew\xE4sser"
+    landscapeType: 1
+    texture: {fileID: 2800000, guid: 2c3bd0dd439ce4e15b1be7175050fe8e, type: 3}
+    alpha: 0.66
+    toggleColor: {r: 0.11764707, g: 0.32941177, b: 0.90196085, a: 1}
+    proxyCard:
+      title: Wald Info Karte
+      type: 0
+      taskIndex: -1
+      contentIndex: -1
+  - name: Landwirtschaft
+    landscapeType: 2
+    texture: {fileID: 2800000, guid: 7b24e591e565245e28adf0df38171214, type: 3}
+    alpha: 0.66
+    toggleColor: {r: 0.37647063, g: 0.8941177, b: 0.16078432, a: 1}
+    proxyCard:
+      title: Wald Info Karte
+      type: 0
+      taskIndex: -1
+      contentIndex: -1
+  - name: "Siedlungsfl\xE4che"
+    landscapeType: 3
+    texture: {fileID: 2800000, guid: 848410a6f87c745deb1ce4fa52bb22cf, type: 3}
+    alpha: 0.66
+    toggleColor: {r: 0.89019614, g: 0.43137258, b: 0.5921569, a: 1}
+    proxyCard:
+      title: Wald Info Karte
+      type: 0
+      taskIndex: -1
+      contentIndex: -1
+  - name: Gletscher
+    landscapeType: 4
+    texture: {fileID: 2800000, guid: f2ea3248bb8384d76bf113461e4a1e2c, type: 3}
+    alpha: 0.66
+    toggleColor: {r: 1, g: 1, b: 1, a: 1}
+    proxyCard:
+      title: Wald Info Karte
+      type: 0
+      taskIndex: -1
+      contentIndex: -1
+  - name: Fels
+    landscapeType: 5
+    texture: {fileID: 2800000, guid: 51a44ec8a6f8643cc954e827e05470f8, type: 3}
+    alpha: 0.66
+    toggleColor: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+    proxyCard:
+      title: Wald Info Karte
+      type: 0
+      taskIndex: -1
+      contentIndex: -1

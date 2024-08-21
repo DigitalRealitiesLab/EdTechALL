@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445c7d0ce24444a65aa4a28df9ed241c, type: 3}
+  m_Name: CardDataFarmOverview
+  m_EditorClassIdentifier: 
+  miniGameData:
+    type: 4
+    title: "Bauernh\xF6fe in Salzburg"
+    steps:
+    - Finde heraus, womit auf dem Hof Geld verdient wird.
+    - "Bringe alle K\xFChe zur\xFCck in den Stall."
+    - 
+    - Finde heraus, womit auf dem Hof Geld verdient wird.
+    - "Bringe alle K\xFChe zur\xFCck in den Stall."
+    - 
+    - Suche Bad Hofgastein auf der Karte.
+    - Suche Seekirchen am Wallersee auf der Karte.
+    - Mache ein Foto auf dem die ganze Karte zu sehen ist.
+    - Bearbeite Aufgabe 2C im Lerntagebuch.
+    abortText: 
+    scoreText: 
+    description: 
+    sprite: {fileID: 21300000, guid: 3c5be7e6a005e4d099e77de51ecb1151, type: 3}
+    videoClip: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: e833658ad86f14d72a7792d394372613, type: 3}
+    abortSprite: {fileID: 0}
+    abortVideoClip: {fileID: 0}
+    abortAudioClip: {fileID: 0}
+    scoreSprite: {fileID: 21300000, guid: 582bc6e09756a43b1970362e0aee9786, type: 3}
+    scoreVideoClip: {fileID: 0}
+    scoreAudioClip: {fileID: 8300000, guid: 8b3d524fd0c7f4941b4905cf6be5f4d0, type: 3}

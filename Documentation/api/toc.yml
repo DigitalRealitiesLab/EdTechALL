@@ -1,0 +1,633 @@
+### YamlMime:TableOfContent
+- uid: BuildingBox
+  name: BuildingBox
+  items:
+  - uid: BuildingBox.AReactionBehaviour
+    name: AReactionBehaviour
+  - uid: BuildingBox.AreaInteractor
+    name: AreaInteractor
+  - uid: BuildingBox.AreaInteractorEvent
+    name: AreaInteractorEvent
+  - uid: BuildingBox.BuildingArea
+    name: BuildingArea
+  - uid: BuildingBox.BuildingAreaScaler
+    name: BuildingAreaScaler
+  - uid: BuildingBox.BuildingBox
+    name: BuildingBox
+  - uid: BuildingBox.BuildingBoxData
+    name: BuildingBoxData
+  - uid: BuildingBox.BuildingBoxElement
+    name: BuildingBoxElement
+  - uid: BuildingBox.BuildingBoxElementData
+    name: BuildingBoxElementData
+  - uid: BuildingBox.BuildingBoxElementDestroyBehaviour
+    name: BuildingBoxElementDestroyBehaviour
+  - uid: BuildingBox.BuildingBoxElementHoverBehaviour
+    name: BuildingBoxElementHoverBehaviour
+  - uid: BuildingBox.BuildingBoxEvent
+    name: BuildingBoxEvent
+  - uid: BuildingBox.BuildingBoxSwitchSelectionBehaviour
+    name: BuildingBoxSwitchSelectionBehaviour
+  - uid: BuildingBox.BuildingBoxUIElementData
+    name: BuildingBoxUIElementData
+  - uid: BuildingBox.BuildingBoxWorldElementData
+    name: BuildingBoxWorldElementData
+  - uid: BuildingBox.EventId
+    name: EventId
+  - uid: BuildingBox.EventId.BuildingBoxEvents
+    name: EventId.BuildingBoxEvents
+  - uid: BuildingBox.EventId.SpawnEvent
+    name: EventId.SpawnEvent
+  - uid: BuildingBox.InteractionArea
+    name: InteractionArea
+  - uid: BuildingBox.LayDownAreaBuildingBoxCommunicator
+    name: LayDownAreaBuildingBoxCommunicator
+  - uid: BuildingBox.SpawnArea
+    name: SpawnArea
+  - uid: BuildingBox.SpawnBuildingBoxElementBehaviour
+    name: SpawnBuildingBoxElementBehaviour
+- uid: BuildingBox.UI
+  name: BuildingBox.UI
+  items:
+  - uid: BuildingBox.UI.BaseBuildingBoxUIElement
+    name: BaseBuildingBoxUIElement
+  - uid: BuildingBox.UI.BuildingBoxButtonUIElement
+    name: BuildingBoxButtonUIElement
+  - uid: BuildingBox.UI.BuildingBoxToggleUIElement
+    name: BuildingBoxToggleUIElement
+  - uid: BuildingBox.UI.BuildingBoxUI
+    name: BuildingBoxUI
+- uid: CardModule
+  name: CardModule
+  items:
+  - uid: CardModule.ACardProxyBehaviour
+    name: ACardProxyBehaviour
+  - uid: CardModule.CardData
+    name: CardData
+  - uid: CardModule.CardData.CardType
+    name: CardData.CardType
+  - uid: CardModule.CardDataLoader
+    name: CardDataLoader
+  - uid: CardModule.CardProxyCollectBehaviour
+    name: CardProxyCollectBehaviour
+  - uid: CardModule.CardProxyOpenBehaviour
+    name: CardProxyOpenBehaviour
+  - uid: CardModule.EventId
+    name: EventId
+  - uid: CardModule.EventId.CardEvents
+    name: EventId.CardEvents
+  - uid: CardModule.FileTransfer
+    name: FileTransfer
+  - uid: CardModule.H5PCardData
+    name: H5PCardData
+  - uid: CardModule.MiniGameConfig
+    name: MiniGameConfig
+  - uid: CardModule.ProxyCard
+    name: ProxyCard
+  - uid: CardModule.ProxyCardData
+    name: ProxyCardData
+- uid: CardModule.UI
+  name: CardModule.UI
+  items:
+  - uid: CardModule.UI.CardPanel
+    name: CardPanel
+  - uid: CardModule.UI.CardPanelWebView
+    name: CardPanelWebView
+  - uid: CardModule.UI.CardStackPanelUI
+    name: CardStackPanelUI
+  - uid: CardModule.UI.CardStackUI
+    name: CardStackUI
+  - uid: CardModule.UI.CardStackUIButton
+    name: CardStackUIButton
+  - uid: CardModule.UI.h5pMessageData
+    name: h5pMessageData
+  - uid: CardModule.UI.h5pMessageMetaData
+    name: h5pMessageMetaData
+  - uid: CardModule.UI.h5pResultData
+    name: h5pResultData
+  - uid: CardModule.UI.h5pScore
+    name: h5pScore
+  - uid: CardModule.UI.h5pxAPIMessage
+    name: h5pxAPIMessage
+  - uid: CardModule.UI.ProxyCardUI
+    name: ProxyCardUI
+  - uid: CardModule.UI.ProxyInfoCardUI
+    name: ProxyInfoCardUI
+  - uid: CardModule.UI.ProxyQuizCardUI
+    name: ProxyQuizCardUI
+  - uid: CardModule.UI.ProxyTaskCardUI
+    name: ProxyTaskCardUI
+  - uid: CardModule.UI.TaskCardUI
+    name: TaskCardUI
+- uid: Global
+  name: Global
+  items:
+  - uid: Global.AComponent`1
+    name: AComponent<K>
+    name.vb: AComponent(Of K)
+  - uid: Global.AImageMarkerLookupData
+    name: AImageMarkerLookupData
+  - uid: Global.AImageMarkerReactionBehaviour
+    name: AImageMarkerReactionBehaviour
+  - uid: Global.AMiniGame
+    name: AMiniGame
+  - uid: Global.AMiniGameWindow
+    name: AMiniGameWindow
+  - uid: Global.APOIBehaviour
+    name: APOIBehaviour
+  - uid: Global.ApplicationStatsPanel
+    name: ApplicationStatsPanel
+  - uid: Global.ARSupportCheck
+    name: ARSupportCheck
+  - uid: Global.ArticleDescriptor
+    name: ArticleDescriptor
+  - uid: Global.ASceneChangeArgsLoader
+    name: ASceneChangeArgsLoader
+  - uid: Global.AState
+    name: AState
+  - uid: Global.AState`1
+    name: AState<T>
+    name.vb: AState(Of T)
+  - uid: Global.ATask
+    name: ATask
+  - uid: Global.AutoSpawnTask
+    name: AutoSpawnTask
+  - uid: Global.BoolEvent
+    name: BoolEvent
+  - uid: Global.ButtonClickSetFloat
+    name: ButtonClickSetFloat
+  - uid: Global.CardPanelWebViewEditor
+    name: CardPanelWebViewEditor
+  - uid: Global.CardProxyMiniGameBehaviour
+    name: CardProxyMiniGameBehaviour
+  - uid: Global.CardTask
+    name: CardTask
+  - uid: Global.Casus
+    name: Casus
+  - uid: Global.CollisionForwarder
+    name: CollisionForwarder
+  - uid: Global.ComponentExtensions
+    name: ComponentExtensions
+  - uid: Global.Composite`1
+    name: Composite<K>
+    name.vb: Composite(Of K)
+  - uid: Global.Cow
+    name: Cow
+  - uid: Global.Cow.CowNeed
+    name: Cow.CowNeed
+  - uid: Global.CowCaretakerMiniGame
+    name: CowCaretakerMiniGame
+  - uid: Global.CowCaretakerTimeline
+    name: CowCaretakerTimeline
+  - uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+    name: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  - uid: Global.CowNeedFulfiller
+    name: CowNeedFulfiller
+  - uid: Global.CowNeedUI
+    name: CowNeedUI
+  - uid: Global.CowNeedUI.CowNeedSpriteLookup
+    name: CowNeedUI.CowNeedSpriteLookup
+  - uid: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+    name: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  - uid: Global.CubicSpline
+    name: CubicSpline
+  - uid: Global.CubicSplineEditor
+    name: CubicSplineEditor
+  - uid: Global.DebugToggleMonoBehaviour
+    name: DebugToggleMonoBehaviour
+  - uid: Global.DefaultEdTechALLConfig
+    name: DefaultEdTechALLConfig
+  - uid: Global.DeleteAllSaveDataButton
+    name: DeleteAllSaveDataButton
+  - uid: Global.DeleteSaveDataButton
+    name: DeleteSaveDataButton
+  - uid: Global.DictionaryListManager`2
+    name: DictionaryListManager<K, V>
+    name.vb: DictionaryListManager(Of K, V)
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager<K, V>
+    name.vb: DictionaryManager(Of K, V)
+  - uid: Global.DistrictData
+    name: DistrictData
+  - uid: Global.DistrictEnum
+    name: DistrictEnum
+  - uid: Global.DistrictLookup
+    name: DistrictLookup
+  - uid: Global.Districts
+    name: Districts
+  - uid: Global.DropdownPublisher
+    name: DropdownPublisher
+  - uid: Global.EditorScreenshotExtension
+    name: EditorScreenshotExtension
+  - uid: Global.EdTechALLConfig
+    name: EdTechALLConfig
+  - uid: Global.EnumerableLookup`2
+    name: EnumerableLookup<E, V>
+    name.vb: EnumerableLookup(Of E, V)
+  - uid: Global.EnumerableValue`2
+    name: EnumerableValue<E, V>
+    name.vb: EnumerableValue(Of E, V)
+  - uid: Global.Error
+    name: Error
+  - uid: Global.ErrorCategory
+    name: ErrorCategory
+  - uid: Global.ErrorWindow
+    name: ErrorWindow
+  - uid: Global.EventBus
+    name: EventBus
+  - uid: Global.EventBusTester
+    name: EventBusTester
+  - uid: Global.EventBusUpdater
+    name: EventBusUpdater
+  - uid: Global.EventCallback
+    name: EventCallback
+  - uid: Global.EventId
+    name: EventId
+  - uid: Global.EventId.CowCaretakerMiniGameEvents
+    name: EventId.CowCaretakerMiniGameEvents
+  - uid: Global.EventId.GemeindeSucheMiniGameEvents
+    name: EventId.GemeindeSucheMiniGameEvents
+  - uid: Global.EventId.MapLayerMiniGameEvents
+    name: EventId.MapLayerMiniGameEvents
+  - uid: Global.EventId.MiniGameEvents
+    name: EventId.MiniGameEvents
+  - uid: Global.EventId.SceneManagementEvents
+    name: EventId.SceneManagementEvents
+  - uid: Global.EventTogglePublisher
+    name: EventTogglePublisher
+  - uid: Global.FederalUnit
+    name: FederalUnit
+  - uid: Global.FindMissingScriptsRecursively
+    name: FindMissingScriptsRecursively
+  - uid: Global.GameObjectEvent
+    name: GameObjectEvent
+  - uid: Global.GemeindeSucheActiveImageMarkerUI
+    name: GemeindeSucheActiveImageMarkerUI
+  - uid: Global.GemeindeSucheBauernhofMiniGame
+    name: GemeindeSucheBauernhofMiniGame
+  - uid: Global.GemeindeSucheLookup
+    name: GemeindeSucheLookup
+  - uid: Global.GemeindeSucheLookupData
+    name: GemeindeSucheLookupData
+  - uid: Global.GemeindeSucheMarkerReactionBehaviour
+    name: GemeindeSucheMarkerReactionBehaviour
+  - uid: Global.GemeindeSucheMiniGame
+    name: GemeindeSucheMiniGame
+  - uid: Global.Gender
+    name: Gender
+  - uid: Global.GridTileType
+    name: GridTileType
+  - uid: Global.GuidanceSystemControllerEditor
+    name: GuidanceSystemControllerEditor
+  - uid: Global.HideAfterSeconds
+    name: HideAfterSeconds
+  - uid: Global.ImageMarkerDetector
+    name: ImageMarkerDetector
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup<T>
+    name.vb: ImageMarkerLookup(Of T)
+  - uid: Global.ImageTrackingObjectManager
+    name: ImageTrackingObjectManager
+  - uid: Global.InfoCardTask
+    name: InfoCardTask
+  - uid: Global.InstructionPanel
+    name: InstructionPanel
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO<T>
+    name.vb: IPlayerPrefsIO(Of T)
+  - uid: Global.IProvideSaveData
+    name: IProvideSaveData
+  - uid: Global.ISaveData
+    name: ISaveData
+  - uid: Global.JsonLookup`3
+    name: JsonLookup<K, V, S>
+    name.vb: JsonLookup(Of K, V, S)
+  - uid: Global.KastralGemeinde
+    name: KastralGemeinde
+  - uid: Global.LessonLoaderWindow
+    name: LessonLoaderWindow
+  - uid: Global.LessonSceneLoadData
+    name: LessonSceneLoadData
+  - uid: Global.LessonSceneLookup
+    name: LessonSceneLookup
+  - uid: Global.LightEstimation
+    name: LightEstimation
+  - uid: Global.LineRendererScaler
+    name: LineRendererScaler
+  - uid: Global.LoadingScreen
+    name: LoadingScreen
+  - uid: Global.LoadPreviousSceneButton
+    name: LoadPreviousSceneButton
+  - uid: Global.LoadSceneButton
+    name: LoadSceneButton
+  - uid: Global.ManualSceneLoadWindow
+    name: ManualSceneLoadWindow
+  - uid: Global.MapLayerData
+    name: MapLayerData
+  - uid: Global.MapLayerLookup
+    name: MapLayerLookup
+  - uid: Global.MapLayerMiniGame
+    name: MapLayerMiniGame
+  - uid: Global.MapLayerMiniGameToggle
+    name: MapLayerMiniGameToggle
+  - uid: Global.MapLayerMiniGameUI
+    name: MapLayerMiniGameUI
+  - uid: Global.MapResizeController
+    name: MapResizeController
+  - uid: Global.MapSelectionPanel
+    name: MapSelectionPanel
+  - uid: Global.MiniGameAbortUI
+    name: MiniGameAbortUI
+  - uid: Global.MiniGameCompletionInteractionBehaviour
+    name: MiniGameCompletionInteractionBehaviour
+  - uid: Global.MiniGameManager
+    name: MiniGameManager
+  - uid: Global.MiniGamePrefabLookup
+    name: MiniGamePrefabLookup
+  - uid: Global.MiniGamePrefabLookup.MiniGamePrefabData
+    name: MiniGamePrefabLookup.MiniGamePrefabData
+  - uid: Global.MiniGamePromptUI
+    name: MiniGamePromptUI
+  - uid: Global.MiniGameScoreUI
+    name: MiniGameScoreUI
+  - uid: Global.MiniGameStartUI
+    name: MiniGameStartUI
+  - uid: Global.MiniGameTask
+    name: MiniGameTask
+  - uid: Global.MiniGameType
+    name: MiniGameType
+  - uid: Global.MiniGameUIController
+    name: MiniGameUIController
+  - uid: Global.Municipalities
+    name: Municipalities
+  - uid: Global.Municipality
+    name: Municipality
+  - uid: Global.MunicipalityEnum
+    name: MunicipalityEnum
+  - uid: Global.MunicipalityLookup
+    name: MunicipalityLookup
+  - uid: Global.Numerus
+    name: Numerus
+  - uid: Global.ObjectSaveData
+    name: ObjectSaveData
+  - uid: Global.PathProgrammingButtonInfo
+    name: PathProgrammingButtonInfo
+  - uid: Global.PathProgrammingCommand
+    name: PathProgrammingCommand
+  - uid: Global.PathProgrammingCommandQueue
+    name: PathProgrammingCommandQueue
+  - uid: Global.PathProgrammingGrid
+    name: PathProgrammingGrid
+  - uid: Global.PathProgrammingGridEditor
+    name: PathProgrammingGridEditor
+  - uid: Global.PathProgrammingMiniGame
+    name: PathProgrammingMiniGame
+  - uid: Global.PathProgrammingTile
+    name: PathProgrammingTile
+  - uid: Global.PathProgrammingTileEditor
+    name: PathProgrammingTileEditor
+  - uid: Global.PersistentDataTransferWindow
+    name: PersistentDataTransferWindow
+  - uid: Global.POI
+    name: POI
+  - uid: Global.POIColorBehaviour
+    name: POIColorBehaviour
+  - uid: Global.POIHighlightAreaBehaviour
+    name: POIHighlightAreaBehaviour
+  - uid: Global.POIPlacementBehaviour
+    name: POIPlacementBehaviour
+  - uid: Global.POIRotateBehaviour
+    name: POIRotateBehaviour
+  - uid: Global.POIScaleBehaviour
+    name: POIScaleBehaviour
+  - uid: Global.POIType
+    name: POIType
+  - uid: Global.ProgressBar
+    name: ProgressBar
+  - uid: Global.ProxyCardAutoSpawnTask
+    name: ProxyCardAutoSpawnTask
+  - uid: Global.QuaternionExtensions
+    name: QuaternionExtensions
+  - uid: Global.QuizCardTask
+    name: QuizCardTask
+  - uid: Global.ReferenceImageLibraryManager
+    name: ReferenceImageLibraryManager
+  - uid: Global.ReferenceImageToggle
+    name: ReferenceImageToggle
+  - uid: Global.ReferenceLibrarySignature
+    name: ReferenceLibrarySignature
+  - uid: Global.Region
+    name: Region
+  - uid: Global.RegionEnum
+    name: RegionEnum
+  - uid: Global.RegionLookup
+    name: RegionLookup
+  - uid: Global.Regions
+    name: Regions
+  - uid: Global.RelativeResize
+    name: RelativeResize
+  - uid: Global.RelativeResizeTestEditor
+    name: RelativeResizeTestEditor
+  - uid: Global.RelativeUniformResize
+    name: RelativeUniformResize
+  - uid: Global.RotateTowardsCamera
+    name: RotateTowardsCamera
+  - uid: Global.Salzburg
+    name: Salzburg
+  - uid: Global.SampleData
+    name: SampleData
+  - uid: Global.SampleDataSaving
+    name: SampleDataSaving
+  - uid: Global.SaveData
+    name: SaveData
+  - uid: Global.SaveManager
+    name: SaveManager
+  - uid: Global.ScaleToRenderer
+    name: ScaleToRenderer
+  - uid: Global.SceneLoadButtonEditor
+    name: SceneLoadButtonEditor
+  - uid: Global.SceneLoader
+    name: SceneLoader
+  - uid: Global.SceneLoadingArguments
+    name: SceneLoadingArguments
+  - uid: Global.SceneLoadMarkerReactionBehaviour
+    name: SceneLoadMarkerReactionBehaviour
+  - uid: Global.SelectableEditor
+    name: SelectableEditor
+  - uid: Global.SettingsPanel
+    name: SettingsPanel
+  - uid: Global.SettingsToggle
+    name: SettingsToggle
+  - uid: Global.SettingsToggleActive
+    name: SettingsToggleActive
+  - uid: Global.SettingsToggleActiveEditor
+    name: SettingsToggleActiveEditor
+  - uid: Global.SettingsToggleEditor
+    name: SettingsToggleEditor
+  - uid: Global.Singleton`1
+    name: Singleton<T>
+    name.vb: Singleton(Of T)
+  - uid: Global.SnapshotCapture
+    name: SnapshotCapture
+  - uid: Global.StateTransition
+    name: StateTransition
+  - uid: Global.TaskCallback
+    name: TaskCallback
+  - uid: Global.TaskController
+    name: TaskController
+  - uid: Global.TaskData
+    name: TaskData
+  - uid: Global.TaskFactory
+    name: TaskFactory
+  - uid: Global.TaskFactoryData
+    name: TaskFactoryData
+  - uid: Global.TaskFactoryLookup
+    name: TaskFactoryLookup
+  - uid: Global.Tasks
+    name: Tasks
+  - uid: Global.TaskType
+    name: TaskType
+  - uid: Global.TerrainMeshMaterialModifer
+    name: TerrainMeshMaterialModifer
+  - uid: Global.TextSynthesisData
+    name: TextSynthesisData
+  - uid: Global.TextureToPrefabMapper
+    name: TextureToPrefabMapper
+  - uid: Global.TextureToPrefabPreset
+    name: TextureToPrefabPreset
+  - uid: Global.TrackedImageDebugToggle
+    name: TrackedImageDebugToggle
+  - uid: Global.TrackedImageLerper
+    name: TrackedImageLerper
+  - uid: Global.TrackedImagePrefabScaler
+    name: TrackedImagePrefabScaler
+  - uid: Global.TriggerForwarder
+    name: TriggerForwarder
+  - uid: Global.UIPanelController
+    name: UIPanelController
+  - uid: Global.UIPanels
+    name: UIPanels
+  - uid: Global.Unlockable
+    name: Unlockable
+  - uid: Global.UnlockableGroup
+    name: UnlockableGroup
+  - uid: Global.UnlockableLoader
+    name: UnlockableLoader
+  - uid: Global.UnlockableType
+    name: UnlockableType
+  - uid: Global.Util
+    name: Util
+  - uid: Global.Vector3Event
+    name: Vector3Event
+  - uid: Global.Vector3Extensions
+    name: Vector3Extensions
+  - uid: Global.WorldDeltaScaler
+    name: WorldDeltaScaler
+  name.vb: ''
+- uid: GuidanceSystem
+  name: GuidanceSystem
+  items:
+  - uid: GuidanceSystem.AGuidanceSystem
+    name: AGuidanceSystem
+  - uid: GuidanceSystem.AGuidanceSystemTarget
+    name: AGuidanceSystemTarget
+  - uid: GuidanceSystem.ArrowGuidanceSystem
+    name: ArrowGuidanceSystem
+  - uid: GuidanceSystem.FunnelGuidanceSystem
+    name: FunnelGuidanceSystem
+  - uid: GuidanceSystem.GuidanceSystemController
+    name: GuidanceSystemController
+  - uid: GuidanceSystem.HighlightArea
+    name: HighlightArea
+  - uid: GuidanceSystem.SphericalWaveGuidanceSystem
+    name: SphericalWaveGuidanceSystem
+- uid: InteractionSystem
+  name: InteractionSystem
+  items:
+  - uid: InteractionSystem.HoverController
+    name: HoverController
+  - uid: InteractionSystem.IHoverable
+    name: IHoverable
+  - uid: InteractionSystem.IInteractable
+    name: IInteractable
+  - uid: InteractionSystem.Raycaster
+    name: Raycaster
+  - uid: InteractionSystem.SelectionController
+    name: SelectionController
+  - uid: InteractionSystem.Sensable
+    name: Sensable
+- uid: InteractionSystem.Hand
+  name: InteractionSystem.Hand
+  items:
+  - uid: InteractionSystem.Hand.AHandState
+    name: AHandState
+  - uid: InteractionSystem.Hand.Hand
+    name: Hand
+  - uid: InteractionSystem.Hand.HandColorChanger
+    name: HandColorChanger
+  - uid: InteractionSystem.Hand.HandController
+    name: HandController
+  - uid: InteractionSystem.Hand.HandSensor
+    name: HandSensor
+  - uid: InteractionSystem.Hand.HandStateHover
+    name: HandStateHover
+  - uid: InteractionSystem.Hand.HandStateInvisible
+    name: HandStateInvisible
+  - uid: InteractionSystem.Hand.HandStateSelected
+    name: HandStateSelected
+  - uid: InteractionSystem.Hand.HandVisualizer
+    name: HandVisualizer
+  - uid: InteractionSystem.Hand.PlaceholderSensor
+    name: PlaceholderSensor
+- uid: InteractionSystem.Hoverable
+  name: InteractionSystem.Hoverable
+  items:
+  - uid: InteractionSystem.Hoverable.AHoverBehaviour
+    name: AHoverBehaviour
+- uid: InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  items:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour
+    name: AInteractionBehaviour
+  - uid: InteractionSystem.Interactable.Interactable
+    name: Interactable
+  - uid: InteractionSystem.Interactable.InteractableEvent
+    name: InteractableEvent
+  - uid: InteractionSystem.Interactable.InteractableEventExtension
+    name: InteractableEventExtension
+  - uid: InteractionSystem.Interactable.InteractableForwarder
+    name: InteractableForwarder
+  - uid: InteractionSystem.Interactable.ToggleActiveBehaviour
+    name: ToggleActiveBehaviour
+- uid: InteractionSystem.Placeholder
+  name: InteractionSystem.Placeholder
+  items:
+  - uid: InteractionSystem.Placeholder.APlaceholderBehaviour
+    name: APlaceholderBehaviour
+  - uid: InteractionSystem.Placeholder.Placeholder
+    name: Placeholder
+  - uid: InteractionSystem.Placeholder.PlaceholderAudio
+    name: PlaceholderAudio
+  - uid: InteractionSystem.Placeholder.PlaceholderEvent
+    name: PlaceholderEvent
+  - uid: InteractionSystem.Placeholder.PlaceholderRendererSwitch
+    name: PlaceholderRendererSwitch
+  - uid: InteractionSystem.Placeholder.PlaceholderText
+    name: PlaceholderText
+- uid: InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  items:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour
+    name: ASelectionBehaviour
+  - uid: InteractionSystem.Selectable.ChangeMaterialBehaviour
+    name: ChangeMaterialBehaviour
+  - uid: InteractionSystem.Selectable.HandFollowBehaviour
+    name: HandFollowBehaviour
+  - uid: InteractionSystem.Selectable.Selectable
+    name: Selectable
+  - uid: InteractionSystem.Selectable.SelectableEvent
+    name: SelectableEvent
+  - uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+    name: SelectionRotateToCameraBehaviour
+  - uid: InteractionSystem.Selectable.SnappingBehaviour
+    name: SnappingBehaviour

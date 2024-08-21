@@ -1,0 +1,777 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventId
+  commentId: T:Global.EventId
+  id: EventId
+  parent: Global
+  children:
+  - Global.EventId.ARSessionStateChanged
+  - Global.EventId.Error
+  - Global.EventId.ExecutePathCommands
+  - Global.EventId.GlobalScaleChanged
+  - Global.EventId.GuidanceSystemTargetChanged
+  - Global.EventId.RegisterGuidanceSystem
+  - Global.EventId.RequestActiveUIPanel
+  - Global.EventId.RequestLessonLoadUI
+  - Global.EventId.RequestRelativeResize
+  - Global.EventId.RequestRelativeUniformResize
+  - Global.EventId.RequestTargetHighlight
+  - Global.EventId.SetActiveGuidanceSystem
+  - Global.EventId.Settings
+  - Global.EventId.ShowDebugVisual
+  - Global.EventId.ShowGuidanceSystems
+  - Global.EventId.ShowPlaceholders
+  - Global.EventId.ShowSelectables
+  - Global.EventId.ShowTerrain
+  - Global.EventId.ShowTerrainPeakPOI
+  - Global.EventId.ShowTerrainPlacePOI
+  - Global.EventId.ShowTerrainRails
+  - Global.EventId.ShowTerrainStreets
+  - Global.EventId.ShowTerrainWaterPOI
+  langs:
+  - csharp
+  - vb
+  name: EventId
+  nameWithType: EventId
+  fullName: EventId
+  type: Class
+  source:
+    id: EventId
+    path: ''
+    startLine: 17904
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class EventId
+    content.vb: Public Module EventId
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.EventId.GuidanceSystemTargetChanged
+  commentId: F:Global.EventId.GuidanceSystemTargetChanged
+  id: GuidanceSystemTargetChanged
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: GuidanceSystemTargetChanged
+  nameWithType: EventId.GuidanceSystemTargetChanged
+  fullName: EventId.GuidanceSystemTargetChanged
+  type: Field
+  source:
+    id: GuidanceSystemTargetChanged
+    path: ''
+    startLine: 17907
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string GuidanceSystemTargetChanged = "GuidanceSystemTargetChanged"
+    return:
+      type: System.String
+    content.vb: Public Const GuidanceSystemTargetChanged As String = "GuidanceSystemTargetChanged"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.RegisterGuidanceSystem
+  commentId: F:Global.EventId.RegisterGuidanceSystem
+  id: RegisterGuidanceSystem
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: RegisterGuidanceSystem
+  nameWithType: EventId.RegisterGuidanceSystem
+  fullName: EventId.RegisterGuidanceSystem
+  type: Field
+  source:
+    id: RegisterGuidanceSystem
+    path: ''
+    startLine: 17908
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string RegisterGuidanceSystem = "RegisterGuidanceSystem"
+    return:
+      type: System.String
+    content.vb: Public Const RegisterGuidanceSystem As String = "RegisterGuidanceSystem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.RequestTargetHighlight
+  commentId: F:Global.EventId.RequestTargetHighlight
+  id: RequestTargetHighlight
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: RequestTargetHighlight
+  nameWithType: EventId.RequestTargetHighlight
+  fullName: EventId.RequestTargetHighlight
+  type: Field
+  source:
+    id: RequestTargetHighlight
+    path: ''
+    startLine: 17909
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string RequestTargetHighlight = "RequestTargetHighlight"
+    return:
+      type: System.String
+    content.vb: Public Const RequestTargetHighlight As String = "RequestTargetHighlight"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.SetActiveGuidanceSystem
+  commentId: F:Global.EventId.SetActiveGuidanceSystem
+  id: SetActiveGuidanceSystem
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: SetActiveGuidanceSystem
+  nameWithType: EventId.SetActiveGuidanceSystem
+  fullName: EventId.SetActiveGuidanceSystem
+  type: Field
+  source:
+    id: SetActiveGuidanceSystem
+    path: ''
+    startLine: 17910
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string SetActiveGuidanceSystem = "SetActiveGuidanceSystem"
+    return:
+      type: System.String
+    content.vb: Public Const SetActiveGuidanceSystem As String = "SetActiveGuidanceSystem"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowDebugVisual
+  commentId: F:Global.EventId.ShowDebugVisual
+  id: ShowDebugVisual
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowDebugVisual
+  nameWithType: EventId.ShowDebugVisual
+  fullName: EventId.ShowDebugVisual
+  type: Field
+  source:
+    id: ShowDebugVisual
+    path: ''
+    startLine: 17913
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowDebugVisual = "ShowDebugVisualizations"
+    return:
+      type: System.String
+    content.vb: Public Const ShowDebugVisual As String = "ShowDebugVisualizations"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowSelectables
+  commentId: F:Global.EventId.ShowSelectables
+  id: ShowSelectables
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowSelectables
+  nameWithType: EventId.ShowSelectables
+  fullName: EventId.ShowSelectables
+  type: Field
+  source:
+    id: ShowSelectables
+    path: ''
+    startLine: 17914
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowSelectables = "ShowSelectables"
+    return:
+      type: System.String
+    content.vb: Public Const ShowSelectables As String = "ShowSelectables"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowPlaceholders
+  commentId: F:Global.EventId.ShowPlaceholders
+  id: ShowPlaceholders
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowPlaceholders
+  nameWithType: EventId.ShowPlaceholders
+  fullName: EventId.ShowPlaceholders
+  type: Field
+  source:
+    id: ShowPlaceholders
+    path: ''
+    startLine: 17915
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowPlaceholders = "ShowPlaceholders"
+    return:
+      type: System.String
+    content.vb: Public Const ShowPlaceholders As String = "ShowPlaceholders"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowGuidanceSystems
+  commentId: F:Global.EventId.ShowGuidanceSystems
+  id: ShowGuidanceSystems
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowGuidanceSystems
+  nameWithType: EventId.ShowGuidanceSystems
+  fullName: EventId.ShowGuidanceSystems
+  type: Field
+  source:
+    id: ShowGuidanceSystems
+    path: ''
+    startLine: 17916
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowGuidanceSystems = "ShowGuidanceSystems"
+    return:
+      type: System.String
+    content.vb: Public Const ShowGuidanceSystems As String = "ShowGuidanceSystems"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowTerrain
+  commentId: F:Global.EventId.ShowTerrain
+  id: ShowTerrain
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowTerrain
+  nameWithType: EventId.ShowTerrain
+  fullName: EventId.ShowTerrain
+  type: Field
+  source:
+    id: ShowTerrain
+    path: ''
+    startLine: 17919
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowTerrain = "ShowTerrain"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTerrain As String = "ShowTerrain"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowTerrainRails
+  commentId: F:Global.EventId.ShowTerrainRails
+  id: ShowTerrainRails
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowTerrainRails
+  nameWithType: EventId.ShowTerrainRails
+  fullName: EventId.ShowTerrainRails
+  type: Field
+  source:
+    id: ShowTerrainRails
+    path: ''
+    startLine: 17920
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowTerrainRails = "ShowTerrainRails"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTerrainRails As String = "ShowTerrainRails"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowTerrainStreets
+  commentId: F:Global.EventId.ShowTerrainStreets
+  id: ShowTerrainStreets
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowTerrainStreets
+  nameWithType: EventId.ShowTerrainStreets
+  fullName: EventId.ShowTerrainStreets
+  type: Field
+  source:
+    id: ShowTerrainStreets
+    path: ''
+    startLine: 17921
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowTerrainStreets = "ShowTerrainStreets"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTerrainStreets As String = "ShowTerrainStreets"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowTerrainPlacePOI
+  commentId: F:Global.EventId.ShowTerrainPlacePOI
+  id: ShowTerrainPlacePOI
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowTerrainPlacePOI
+  nameWithType: EventId.ShowTerrainPlacePOI
+  fullName: EventId.ShowTerrainPlacePOI
+  type: Field
+  source:
+    id: ShowTerrainPlacePOI
+    path: ''
+    startLine: 17922
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowTerrainPlacePOI = "ShowTerrainPlacePOI"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTerrainPlacePOI As String = "ShowTerrainPlacePOI"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowTerrainPeakPOI
+  commentId: F:Global.EventId.ShowTerrainPeakPOI
+  id: ShowTerrainPeakPOI
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowTerrainPeakPOI
+  nameWithType: EventId.ShowTerrainPeakPOI
+  fullName: EventId.ShowTerrainPeakPOI
+  type: Field
+  source:
+    id: ShowTerrainPeakPOI
+    path: ''
+    startLine: 17923
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowTerrainPeakPOI = "ShowTerrainPeakPOI"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTerrainPeakPOI As String = "ShowTerrainPeakPOI"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ShowTerrainWaterPOI
+  commentId: F:Global.EventId.ShowTerrainWaterPOI
+  id: ShowTerrainWaterPOI
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ShowTerrainWaterPOI
+  nameWithType: EventId.ShowTerrainWaterPOI
+  fullName: EventId.ShowTerrainWaterPOI
+  type: Field
+  source:
+    id: ShowTerrainWaterPOI
+    path: ''
+    startLine: 17924
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ShowTerrainWaterPOI = "ShowTerrainWaterPOI"
+    return:
+      type: System.String
+    content.vb: Public Const ShowTerrainWaterPOI As String = "ShowTerrainWaterPOI"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.Settings
+  commentId: F:Global.EventId.Settings
+  id: Settings
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: Settings
+  nameWithType: EventId.Settings
+  fullName: EventId.Settings
+  type: Field
+  source:
+    id: Settings
+    path: ''
+    startLine: 17926
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] Settings
+    return:
+      type: System.String[]
+    content.vb: Public Shared Settings As String()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventId.GlobalScaleChanged
+  commentId: F:Global.EventId.GlobalScaleChanged
+  id: GlobalScaleChanged
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: GlobalScaleChanged
+  nameWithType: EventId.GlobalScaleChanged
+  fullName: EventId.GlobalScaleChanged
+  type: Field
+  source:
+    id: GlobalScaleChanged
+    path: ''
+    startLine: 17930
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string GlobalScaleChanged = "GlobalScaleChanged"
+    return:
+      type: System.String
+    content.vb: Public Const GlobalScaleChanged As String = "GlobalScaleChanged"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ARSessionStateChanged
+  commentId: F:Global.EventId.ARSessionStateChanged
+  id: ARSessionStateChanged
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ARSessionStateChanged
+  nameWithType: EventId.ARSessionStateChanged
+  fullName: EventId.ARSessionStateChanged
+  type: Field
+  source:
+    id: ARSessionStateChanged
+    path: ''
+    startLine: 17931
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ARSessionStateChanged = "OnARSessionStateChanged"
+    return:
+      type: System.String
+    content.vb: Public Const ARSessionStateChanged As String = "OnARSessionStateChanged"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.RequestRelativeResize
+  commentId: F:Global.EventId.RequestRelativeResize
+  id: RequestRelativeResize
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: RequestRelativeResize
+  nameWithType: EventId.RequestRelativeResize
+  fullName: EventId.RequestRelativeResize
+  type: Field
+  source:
+    id: RequestRelativeResize
+    path: ''
+    startLine: 17932
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string RequestRelativeResize = "RequestRelativeResize"
+    return:
+      type: System.String
+    content.vb: Public Const RequestRelativeResize As String = "RequestRelativeResize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.RequestRelativeUniformResize
+  commentId: F:Global.EventId.RequestRelativeUniformResize
+  id: RequestRelativeUniformResize
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: RequestRelativeUniformResize
+  nameWithType: EventId.RequestRelativeUniformResize
+  fullName: EventId.RequestRelativeUniformResize
+  type: Field
+  source:
+    id: RequestRelativeUniformResize
+    path: ''
+    startLine: 17933
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string RequestRelativeUniformResize = "RequestRelativeUniformResize"
+    return:
+      type: System.String
+    content.vb: Public Const RequestRelativeUniformResize As String = "RequestRelativeUniformResize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.ExecutePathCommands
+  commentId: F:Global.EventId.ExecutePathCommands
+  id: ExecutePathCommands
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: ExecutePathCommands
+  nameWithType: EventId.ExecutePathCommands
+  fullName: EventId.ExecutePathCommands
+  type: Field
+  source:
+    id: ExecutePathCommands
+    path: ''
+    startLine: 17936
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ExecutePathCommands = "ExecutePathCommands"
+    return:
+      type: System.String
+    content.vb: Public Const ExecutePathCommands As String = "ExecutePathCommands"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.Error
+  commentId: F:Global.EventId.Error
+  id: Error
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: EventId.Error
+  fullName: EventId.Error
+  type: Field
+  source:
+    id: Error
+    path: ''
+    startLine: 17939
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string Error = "Error"
+    return:
+      type: System.String
+    content.vb: Public Const Error As String = "Error"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.RequestActiveUIPanel
+  commentId: F:Global.EventId.RequestActiveUIPanel
+  id: RequestActiveUIPanel
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: RequestActiveUIPanel
+  nameWithType: EventId.RequestActiveUIPanel
+  fullName: EventId.RequestActiveUIPanel
+  type: Field
+  source:
+    id: RequestActiveUIPanel
+    path: ''
+    startLine: 17942
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string RequestActiveUIPanel = "RequestActiveUIPanel"
+    return:
+      type: System.String
+    content.vb: Public Const RequestActiveUIPanel As String = "RequestActiveUIPanel"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.RequestLessonLoadUI
+  commentId: F:Global.EventId.RequestLessonLoadUI
+  id: RequestLessonLoadUI
+  parent: Global.EventId
+  langs:
+  - csharp
+  - vb
+  name: RequestLessonLoadUI
+  nameWithType: EventId.RequestLessonLoadUI
+  fullName: EventId.RequestLessonLoadUI
+  type: Field
+  source:
+    id: RequestLessonLoadUI
+    path: ''
+    startLine: 17943
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string RequestLessonLoadUI = "RequestLessonLoadUI"
+    return:
+      type: System.String
+    content.vb: Public Const RequestLessonLoadUI As String = "RequestLessonLoadUI"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

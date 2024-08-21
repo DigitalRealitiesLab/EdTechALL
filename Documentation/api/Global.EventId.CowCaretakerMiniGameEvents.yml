@@ -1,0 +1,120 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventId.CowCaretakerMiniGameEvents
+  commentId: T:Global.EventId.CowCaretakerMiniGameEvents
+  id: EventId.CowCaretakerMiniGameEvents
+  parent: Global
+  children:
+  - Global.EventId.CowCaretakerMiniGameEvents.CowNeedSatisfied
+  - Global.EventId.CowCaretakerMiniGameEvents.TimelinePointCompleted
+  langs:
+  - csharp
+  - vb
+  name: EventId.CowCaretakerMiniGameEvents
+  nameWithType: EventId.CowCaretakerMiniGameEvents
+  fullName: EventId.CowCaretakerMiniGameEvents
+  type: Class
+  source:
+    id: CowCaretakerMiniGameEvents
+    path: ''
+    startLine: 15435
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class CowCaretakerMiniGameEvents
+    content.vb: Public Class CowCaretakerMiniGameEvents
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.EventId.CowCaretakerMiniGameEvents.CowNeedSatisfied
+  commentId: F:Global.EventId.CowCaretakerMiniGameEvents.CowNeedSatisfied
+  id: CowNeedSatisfied
+  parent: Global.EventId.CowCaretakerMiniGameEvents
+  langs:
+  - csharp
+  - vb
+  name: CowNeedSatisfied
+  nameWithType: EventId.CowCaretakerMiniGameEvents.CowNeedSatisfied
+  fullName: EventId.CowCaretakerMiniGameEvents.CowNeedSatisfied
+  type: Field
+  source:
+    id: CowNeedSatisfied
+    path: ''
+    startLine: 15437
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string CowNeedSatisfied = "CowNeedSatisfied"
+    return:
+      type: System.String
+    content.vb: Public Const CowNeedSatisfied As String = "CowNeedSatisfied"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.CowCaretakerMiniGameEvents.TimelinePointCompleted
+  commentId: F:Global.EventId.CowCaretakerMiniGameEvents.TimelinePointCompleted
+  id: TimelinePointCompleted
+  parent: Global.EventId.CowCaretakerMiniGameEvents
+  langs:
+  - csharp
+  - vb
+  name: TimelinePointCompleted
+  nameWithType: EventId.CowCaretakerMiniGameEvents.TimelinePointCompleted
+  fullName: EventId.CowCaretakerMiniGameEvents.TimelinePointCompleted
+  type: Field
+  source:
+    id: TimelinePointCompleted
+    path: ''
+    startLine: 15438
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string TimelinePointCompleted = "TimelinePointCompleted"
+    return:
+      type: System.String
+    content.vb: Public Const TimelinePointCompleted As String = "TimelinePointCompleted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,395 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.ProxyCardData
+  commentId: T:CardModule.ProxyCardData
+  id: ProxyCardData
+  parent: CardModule
+  children:
+  - CardModule.ProxyCardData.#ctor(System.String,CardModule.CardData.CardType,System.Int32,System.Int32)
+  - CardModule.ProxyCardData.contentIndex
+  - CardModule.ProxyCardData.Equals(System.Object)
+  - CardModule.ProxyCardData.GetHashCode
+  - CardModule.ProxyCardData.taskIndex
+  - CardModule.ProxyCardData.title
+  - CardModule.ProxyCardData.type
+  langs:
+  - csharp
+  - vb
+  name: ProxyCardData
+  nameWithType: ProxyCardData
+  fullName: CardModule.ProxyCardData
+  type: Struct
+  source:
+    id: ProxyCardData
+    path: ''
+    startLine: 19516
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct ProxyCardData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure ProxyCardData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: CardModule.ProxyCardData.title
+  commentId: F:CardModule.ProxyCardData.title
+  id: title
+  parent: CardModule.ProxyCardData
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: ProxyCardData.title
+  fullName: CardModule.ProxyCardData.title
+  type: Field
+  source:
+    id: title
+    path: ''
+    startLine: 19519
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string title
+    return:
+      type: System.String
+    content.vb: Public title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCardData.type
+  commentId: F:CardModule.ProxyCardData.type
+  id: type
+  parent: CardModule.ProxyCardData
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: ProxyCardData.type
+  fullName: CardModule.ProxyCardData.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 19520
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public CardData.CardType type
+    return:
+      type: CardModule.CardData.CardType
+    content.vb: Public type As CardData.CardType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCardData.taskIndex
+  commentId: F:CardModule.ProxyCardData.taskIndex
+  id: taskIndex
+  parent: CardModule.ProxyCardData
+  langs:
+  - csharp
+  - vb
+  name: taskIndex
+  nameWithType: ProxyCardData.taskIndex
+  fullName: CardModule.ProxyCardData.taskIndex
+  type: Field
+  source:
+    id: taskIndex
+    path: ''
+    startLine: 19521
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public int taskIndex
+    return:
+      type: System.Int32
+    content.vb: Public taskIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCardData.contentIndex
+  commentId: F:CardModule.ProxyCardData.contentIndex
+  id: contentIndex
+  parent: CardModule.ProxyCardData
+  langs:
+  - csharp
+  - vb
+  name: contentIndex
+  nameWithType: ProxyCardData.contentIndex
+  fullName: CardModule.ProxyCardData.contentIndex
+  type: Field
+  source:
+    id: contentIndex
+    path: ''
+    startLine: 19522
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public int contentIndex
+    return:
+      type: System.Int32
+    content.vb: Public contentIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCardData.#ctor(System.String,CardModule.CardData.CardType,System.Int32,System.Int32)
+  commentId: M:CardModule.ProxyCardData.#ctor(System.String,CardModule.CardData.CardType,System.Int32,System.Int32)
+  id: '#ctor(System.String,CardModule.CardData.CardType,System.Int32,System.Int32)'
+  parent: CardModule.ProxyCardData
+  langs:
+  - csharp
+  - vb
+  name: ProxyCardData(String, CardData.CardType, Int32, Int32)
+  nameWithType: ProxyCardData.ProxyCardData(String, CardData.CardType, Int32, Int32)
+  fullName: CardModule.ProxyCardData.ProxyCardData(System.String, CardModule.CardData.CardType, System.Int32, System.Int32)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 19524
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public ProxyCardData(string title, CardData.CardType type, int contentIndex, int taskIndex = -1)
+    parameters:
+    - id: title
+      type: System.String
+    - id: type
+      type: CardModule.CardData.CardType
+    - id: contentIndex
+      type: System.Int32
+    - id: taskIndex
+      type: System.Int32
+    content.vb: Public Sub New(title As String, type As CardData.CardType, contentIndex As Integer, taskIndex As Integer = -1)
+  overload: CardModule.ProxyCardData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCardData.Equals(System.Object)
+  commentId: M:CardModule.ProxyCardData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: CardModule.ProxyCardData
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ProxyCardData.Equals(Object)
+  fullName: CardModule.ProxyCardData.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 19532
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: CardModule.ProxyCardData.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: CardModule.ProxyCardData.GetHashCode
+  commentId: M:CardModule.ProxyCardData.GetHashCode
+  id: GetHashCode
+  parent: CardModule.ProxyCardData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ProxyCardData.GetHashCode()
+  fullName: CardModule.ProxyCardData.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 19545
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: CardModule.ProxyCardData.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardModule.CardData.CardType
+  commentId: T:CardModule.CardData.CardType
+  parent: CardModule
+  name: CardData.CardType
+  nameWithType: CardData.CardType
+  fullName: CardModule.CardData.CardType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardModule.ProxyCardData.#ctor*
+  commentId: Overload:CardModule.ProxyCardData.#ctor
+  name: ProxyCardData
+  nameWithType: ProxyCardData.ProxyCardData
+  fullName: CardModule.ProxyCardData.ProxyCardData
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardModule.ProxyCardData.Equals*
+  commentId: Overload:CardModule.ProxyCardData.Equals
+  name: Equals
+  nameWithType: ProxyCardData.Equals
+  fullName: CardModule.ProxyCardData.Equals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardModule.ProxyCardData.GetHashCode*
+  commentId: Overload:CardModule.ProxyCardData.GetHashCode
+  name: GetHashCode
+  nameWithType: ProxyCardData.GetHashCode
+  fullName: CardModule.ProxyCardData.GetHashCode

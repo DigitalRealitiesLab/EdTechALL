@@ -1,0 +1,107 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MapLayerLookup
+  commentId: T:Global.MapLayerLookup
+  id: MapLayerLookup
+  parent: Global
+  children:
+  - Global.MapLayerLookup.mapLayerData
+  langs:
+  - csharp
+  - vb
+  name: MapLayerLookup
+  nameWithType: MapLayerLookup
+  fullName: MapLayerLookup
+  type: Class
+  source:
+    id: MapLayerLookup
+    path: ''
+    startLine: 15445
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MapLayerLookup : ScriptableObject'
+    content.vb: >-
+      Public Class MapLayerLookup
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MapLayerLookup.mapLayerData
+  commentId: F:Global.MapLayerLookup.mapLayerData
+  id: mapLayerData
+  parent: Global.MapLayerLookup
+  langs:
+  - csharp
+  - vb
+  name: mapLayerData
+  nameWithType: MapLayerLookup.mapLayerData
+  fullName: MapLayerLookup.mapLayerData
+  type: Field
+  source:
+    id: mapLayerData
+    path: ''
+    startLine: 15448
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MapLayerData[] mapLayerData
+    return:
+      type: Global.MapLayerData[]
+    content.vb: Public mapLayerData As MapLayerData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MapLayerData[]
+  isExternal: true
+  name: MapLayerData[]
+  nameWithType: MapLayerData[]
+  fullName: MapLayerData[]
+  nameWithType.vb: MapLayerData()
+  fullName.vb: MapLayerData()
+  name.vb: MapLayerData()
+  spec.csharp:
+  - uid: Global.MapLayerData
+    name: MapLayerData
+    nameWithType: MapLayerData
+    fullName: MapLayerData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.MapLayerData
+    name: MapLayerData
+    nameWithType: MapLayerData
+    fullName: MapLayerData
+  - name: ()
+    nameWithType: ()
+    fullName: ()

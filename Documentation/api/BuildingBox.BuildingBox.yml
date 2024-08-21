@@ -1,0 +1,331 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingBox
+  commentId: T:BuildingBox.BuildingBox
+  id: BuildingBox
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingBox.activeBuildingArea
+  - BuildingBox.BuildingBox.defaultBuildingArea
+  - BuildingBox.BuildingBox.fullDefaultSize
+  - BuildingBox.BuildingBox.ScaleToAreaGrid(Transform,Vector2,System.Single,System.Boolean)
+  - BuildingBox.BuildingBox.SetActiveBuildingArea(BuildingBox.BuildingArea)
+  - BuildingBox.BuildingBox.SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  - BuildingBox.BuildingBox.SetBuildingBoxEnabled(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox.BuildingBox
+  type: Class
+  source:
+    id: BuildingBox
+    path: ''
+    startLine: 440
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class BuildingBox : MonoBehaviour'
+    content.vb: >-
+      Public Class BuildingBox
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingBox.defaultBuildingArea
+  commentId: F:BuildingBox.BuildingBox.defaultBuildingArea
+  id: defaultBuildingArea
+  parent: BuildingBox.BuildingBox
+  langs:
+  - csharp
+  - vb
+  name: defaultBuildingArea
+  nameWithType: BuildingBox.defaultBuildingArea
+  fullName: BuildingBox.BuildingBox.defaultBuildingArea
+  type: Field
+  source:
+    id: defaultBuildingArea
+    path: ''
+    startLine: 443
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingArea defaultBuildingArea
+    return:
+      type: BuildingBox.BuildingArea
+    content.vb: Public defaultBuildingArea As BuildingArea
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBox.activeBuildingArea
+  commentId: P:BuildingBox.BuildingBox.activeBuildingArea
+  id: activeBuildingArea
+  parent: BuildingBox.BuildingBox
+  langs:
+  - csharp
+  - vb
+  name: activeBuildingArea
+  nameWithType: BuildingBox.activeBuildingArea
+  fullName: BuildingBox.BuildingBox.activeBuildingArea
+  type: Property
+  source:
+    id: activeBuildingArea
+    path: ''
+    startLine: 444
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingArea activeBuildingArea { get; set; }
+    parameters: []
+    return:
+      type: BuildingBox.BuildingArea
+    content.vb: Public Property activeBuildingArea As BuildingArea
+  overload: BuildingBox.BuildingBox.activeBuildingArea*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBox.fullDefaultSize
+  commentId: P:BuildingBox.BuildingBox.fullDefaultSize
+  id: fullDefaultSize
+  parent: BuildingBox.BuildingBox
+  langs:
+  - csharp
+  - vb
+  name: fullDefaultSize
+  nameWithType: BuildingBox.fullDefaultSize
+  fullName: BuildingBox.BuildingBox.fullDefaultSize
+  type: Property
+  source:
+    id: fullDefaultSize
+    path: ''
+    startLine: 446
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Vector2 fullDefaultSize { get; }
+    parameters: []
+    return:
+      type: Global.Vector2
+    content.vb: Public ReadOnly Property fullDefaultSize As Vector2
+  overload: BuildingBox.BuildingBox.fullDefaultSize*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.BuildingBox.SetBuildingBoxEnabled(System.Boolean)
+  commentId: M:BuildingBox.BuildingBox.SetBuildingBoxEnabled(System.Boolean)
+  id: SetBuildingBoxEnabled(System.Boolean)
+  parent: BuildingBox.BuildingBox
+  langs:
+  - csharp
+  - vb
+  name: SetBuildingBoxEnabled(Boolean)
+  nameWithType: BuildingBox.SetBuildingBoxEnabled(Boolean)
+  fullName: BuildingBox.BuildingBox.SetBuildingBoxEnabled(System.Boolean)
+  type: Method
+  source:
+    id: SetBuildingBoxEnabled
+    path: ''
+    startLine: 462
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void SetBuildingBoxEnabled(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub SetBuildingBoxEnabled(enabled As Boolean)
+  overload: BuildingBox.BuildingBox.SetBuildingBoxEnabled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBox.SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  commentId: M:BuildingBox.BuildingBox.SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  id: SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  parent: BuildingBox.BuildingBox
+  langs:
+  - csharp
+  - vb
+  name: SetBuildingBoxDestroyModeEnabled(Boolean)
+  nameWithType: BuildingBox.SetBuildingBoxDestroyModeEnabled(Boolean)
+  fullName: BuildingBox.BuildingBox.SetBuildingBoxDestroyModeEnabled(System.Boolean)
+  type: Method
+  source:
+    id: SetBuildingBoxDestroyModeEnabled
+    path: ''
+    startLine: 468
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void SetBuildingBoxDestroyModeEnabled(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub SetBuildingBoxDestroyModeEnabled(enabled As Boolean)
+  overload: BuildingBox.BuildingBox.SetBuildingBoxDestroyModeEnabled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBox.ScaleToAreaGrid(Transform,Vector2,System.Single,System.Boolean)
+  commentId: M:BuildingBox.BuildingBox.ScaleToAreaGrid(Transform,Vector2,System.Single,System.Boolean)
+  id: ScaleToAreaGrid(Transform,Vector2,System.Single,System.Boolean)
+  parent: BuildingBox.BuildingBox
+  langs:
+  - csharp
+  - vb
+  name: ScaleToAreaGrid(Transform, Vector2, Single, Boolean)
+  nameWithType: BuildingBox.ScaleToAreaGrid(Transform, Vector2, Single, Boolean)
+  fullName: BuildingBox.BuildingBox.ScaleToAreaGrid(Transform, Vector2, System.Single, System.Boolean)
+  type: Method
+  source:
+    id: ScaleToAreaGrid
+    path: ''
+    startLine: 474
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void ScaleToAreaGrid(Transform target, Vector2 size, float localSize, bool useDefault)
+    parameters:
+    - id: target
+      type: Global.Transform
+    - id: size
+      type: Global.Vector2
+    - id: localSize
+      type: System.Single
+    - id: useDefault
+      type: System.Boolean
+    content.vb: Public Sub ScaleToAreaGrid(target As Transform, size As Vector2, localSize As Single, useDefault As Boolean)
+  overload: BuildingBox.BuildingBox.ScaleToAreaGrid*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBox.SetActiveBuildingArea(BuildingBox.BuildingArea)
+  commentId: M:BuildingBox.BuildingBox.SetActiveBuildingArea(BuildingBox.BuildingArea)
+  id: SetActiveBuildingArea(BuildingBox.BuildingArea)
+  parent: BuildingBox.BuildingBox
+  langs:
+  - csharp
+  - vb
+  name: SetActiveBuildingArea(BuildingArea)
+  nameWithType: BuildingBox.SetActiveBuildingArea(BuildingArea)
+  fullName: BuildingBox.BuildingBox.SetActiveBuildingArea(BuildingBox.BuildingArea)
+  type: Method
+  source:
+    id: SetActiveBuildingArea
+    path: ''
+    startLine: 482
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void SetActiveBuildingArea(BuildingArea replacementArea)
+    parameters:
+    - id: replacementArea
+      type: BuildingBox.BuildingArea
+    content.vb: Public Sub SetActiveBuildingArea(replacementArea As BuildingArea)
+  overload: BuildingBox.BuildingBox.SetActiveBuildingArea*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BuildingBox.BuildingArea
+  commentId: T:BuildingBox.BuildingArea
+  parent: BuildingBox
+  name: BuildingArea
+  nameWithType: BuildingArea
+  fullName: BuildingBox.BuildingArea
+- uid: BuildingBox.BuildingBox.activeBuildingArea*
+  commentId: Overload:BuildingBox.BuildingBox.activeBuildingArea
+  name: activeBuildingArea
+  nameWithType: BuildingBox.activeBuildingArea
+  fullName: BuildingBox.BuildingBox.activeBuildingArea
+- uid: BuildingBox.BuildingBox.fullDefaultSize*
+  commentId: Overload:BuildingBox.BuildingBox.fullDefaultSize
+  name: fullDefaultSize
+  nameWithType: BuildingBox.fullDefaultSize
+  fullName: BuildingBox.BuildingBox.fullDefaultSize
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: BuildingBox.BuildingBox.SetBuildingBoxEnabled*
+  commentId: Overload:BuildingBox.BuildingBox.SetBuildingBoxEnabled
+  name: SetBuildingBoxEnabled
+  nameWithType: BuildingBox.SetBuildingBoxEnabled
+  fullName: BuildingBox.BuildingBox.SetBuildingBoxEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: BuildingBox.BuildingBox.SetBuildingBoxDestroyModeEnabled*
+  commentId: Overload:BuildingBox.BuildingBox.SetBuildingBoxDestroyModeEnabled
+  name: SetBuildingBoxDestroyModeEnabled
+  nameWithType: BuildingBox.SetBuildingBoxDestroyModeEnabled
+  fullName: BuildingBox.BuildingBox.SetBuildingBoxDestroyModeEnabled
+- uid: BuildingBox.BuildingBox.ScaleToAreaGrid*
+  commentId: Overload:BuildingBox.BuildingBox.ScaleToAreaGrid
+  name: ScaleToAreaGrid
+  nameWithType: BuildingBox.ScaleToAreaGrid
+  fullName: BuildingBox.BuildingBox.ScaleToAreaGrid
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: BuildingBox.BuildingBox.SetActiveBuildingArea*
+  commentId: Overload:BuildingBox.BuildingBox.SetActiveBuildingArea
+  name: SetActiveBuildingArea
+  nameWithType: BuildingBox.SetActiveBuildingArea
+  fullName: BuildingBox.BuildingBox.SetActiveBuildingArea

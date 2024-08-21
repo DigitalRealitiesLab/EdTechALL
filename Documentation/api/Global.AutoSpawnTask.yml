@@ -1,0 +1,550 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AutoSpawnTask
+  commentId: T:Global.AutoSpawnTask
+  id: AutoSpawnTask
+  parent: Global
+  children:
+  - Global.AutoSpawnTask.ActivateTask
+  - Global.AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  - Global.AutoSpawnTask.DeactivateTask
+  - Global.AutoSpawnTask.instance
+  - Global.AutoSpawnTask.prefab
+  - Global.AutoSpawnTask.spawnAreaId
+  - Global.AutoSpawnTask.taskCallbacks
+  langs:
+  - csharp
+  - vb
+  name: AutoSpawnTask
+  nameWithType: AutoSpawnTask
+  fullName: AutoSpawnTask
+  type: Class
+  source:
+    id: AutoSpawnTask
+    path: ''
+    startLine: 18822
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class AutoSpawnTask : ATask'
+    content.vb: >-
+      Public Class AutoSpawnTask
+          Inherits ATask
+  inheritance:
+  - System.Object
+  - Global.ATask
+  derivedClasses:
+  - Global.ProxyCardAutoSpawnTask
+  inheritedMembers:
+  - Global.ATask.subTasks
+  - Global.ATask.OnTaskCompleted
+  - Global.ATask.taskCompletionEventId
+  - Global.ATask._taskData
+  - Global.ATask.taskData
+  - Global.ATask.completed
+  - Global.ATask.subtasksCompleted
+  - Global.ATask.Awake
+  - Global.ATask.Construct(TaskData)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.AutoSpawnTask.spawnAreaId
+  commentId: F:Global.AutoSpawnTask.spawnAreaId
+  id: spawnAreaId
+  parent: Global.AutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: spawnAreaId
+  nameWithType: AutoSpawnTask.spawnAreaId
+  fullName: AutoSpawnTask.spawnAreaId
+  type: Field
+  source:
+    id: spawnAreaId
+    path: ''
+    startLine: 18824
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string spawnAreaId
+    return:
+      type: System.String
+    content.vb: Public spawnAreaId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AutoSpawnTask.prefab
+  commentId: F:Global.AutoSpawnTask.prefab
+  id: prefab
+  parent: Global.AutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: prefab
+  nameWithType: AutoSpawnTask.prefab
+  fullName: AutoSpawnTask.prefab
+  type: Field
+  source:
+    id: prefab
+    path: ''
+    startLine: 18825
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject prefab
+    return:
+      type: Global.GameObject
+    content.vb: Public prefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.AutoSpawnTask.instance
+  commentId: F:Global.AutoSpawnTask.instance
+  id: instance
+  parent: Global.AutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: instance
+  nameWithType: AutoSpawnTask.instance
+  fullName: AutoSpawnTask.instance
+  type: Field
+  source:
+    id: instance
+    path: ''
+    startLine: 18826
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected GameObject instance
+    return:
+      type: Global.GameObject
+    content.vb: Protected instance As GameObject
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.AutoSpawnTask.taskCallbacks
+  commentId: P:Global.AutoSpawnTask.taskCallbacks
+  id: taskCallbacks
+  parent: Global.AutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: taskCallbacks
+  nameWithType: AutoSpawnTask.taskCallbacks
+  fullName: AutoSpawnTask.taskCallbacks
+  type: Property
+  source:
+    id: taskCallbacks
+    path: ''
+    startLine: 18828
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override TaskCallback[] taskCallbacks { get; }
+    parameters: []
+    return:
+      type: Global.TaskCallback[]
+    content.vb: Protected Overrides ReadOnly Property taskCallbacks As TaskCallback()
+  overridden: Global.ATask.taskCallbacks
+  overload: Global.AutoSpawnTask.taskCallbacks*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: Global.AutoSpawnTask.ActivateTask
+  commentId: M:Global.AutoSpawnTask.ActivateTask
+  id: ActivateTask
+  parent: Global.AutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: ActivateTask()
+  nameWithType: AutoSpawnTask.ActivateTask()
+  fullName: AutoSpawnTask.ActivateTask()
+  type: Method
+  source:
+    id: ActivateTask
+    path: ''
+    startLine: 18830
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void ActivateTask()
+    content.vb: Public Overrides Sub ActivateTask
+  overridden: Global.ATask.ActivateTask
+  overload: Global.AutoSpawnTask.ActivateTask*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.AutoSpawnTask.DeactivateTask
+  commentId: M:Global.AutoSpawnTask.DeactivateTask
+  id: DeactivateTask
+  parent: Global.AutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: DeactivateTask()
+  nameWithType: AutoSpawnTask.DeactivateTask()
+  fullName: AutoSpawnTask.DeactivateTask()
+  type: Method
+  source:
+    id: DeactivateTask
+    path: ''
+    startLine: 18837
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void DeactivateTask()
+    content.vb: Public Overrides Sub DeactivateTask
+  overridden: Global.ATask.DeactivateTask
+  overload: Global.AutoSpawnTask.DeactivateTask*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  commentId: M:Global.AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  id: CheckForIsComplete(TaskCallback)
+  parent: Global.AutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: CheckForIsComplete(TaskCallback)
+  nameWithType: AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  fullName: AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  type: Method
+  source:
+    id: CheckForIsComplete
+    path: ''
+    startLine: 18843
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void CheckForIsComplete(TaskCallback taskCallback)
+    parameters:
+    - id: taskCallback
+      type: Global.TaskCallback
+    content.vb: Public Overrides Sub CheckForIsComplete(taskCallback As TaskCallback)
+  overridden: Global.ATask.CheckForIsComplete(TaskCallback)
+  overload: Global.AutoSpawnTask.CheckForIsComplete*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ATask
+  commentId: T:Global.ATask
+  name: ATask
+  nameWithType: ATask
+  fullName: ATask
+- uid: Global.ATask.subTasks
+  commentId: F:Global.ATask.subTasks
+  parent: Global.ATask
+  name: subTasks
+  nameWithType: ATask.subTasks
+  fullName: ATask.subTasks
+- uid: Global.ATask.OnTaskCompleted
+  commentId: F:Global.ATask.OnTaskCompleted
+  parent: Global.ATask
+  name: OnTaskCompleted
+  nameWithType: ATask.OnTaskCompleted
+  fullName: ATask.OnTaskCompleted
+- uid: Global.ATask.taskCompletionEventId
+  commentId: F:Global.ATask.taskCompletionEventId
+  parent: Global.ATask
+  name: taskCompletionEventId
+  nameWithType: ATask.taskCompletionEventId
+  fullName: ATask.taskCompletionEventId
+- uid: Global.ATask._taskData
+  commentId: F:Global.ATask._taskData
+  parent: Global.ATask
+  name: _taskData
+  nameWithType: ATask._taskData
+  fullName: ATask._taskData
+- uid: Global.ATask.taskData
+  commentId: P:Global.ATask.taskData
+  parent: Global.ATask
+  name: taskData
+  nameWithType: ATask.taskData
+  fullName: ATask.taskData
+- uid: Global.ATask.completed
+  commentId: P:Global.ATask.completed
+  parent: Global.ATask
+  name: completed
+  nameWithType: ATask.completed
+  fullName: ATask.completed
+- uid: Global.ATask.subtasksCompleted
+  commentId: P:Global.ATask.subtasksCompleted
+  parent: Global.ATask
+  name: subtasksCompleted
+  nameWithType: ATask.subtasksCompleted
+  fullName: ATask.subtasksCompleted
+- uid: Global.ATask.Awake
+  commentId: M:Global.ATask.Awake
+  parent: Global.ATask
+  name: Awake()
+  nameWithType: ATask.Awake()
+  fullName: ATask.Awake()
+  spec.csharp:
+  - uid: Global.ATask.Awake
+    name: Awake
+    nameWithType: ATask.Awake
+    fullName: ATask.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.Awake
+    name: Awake
+    nameWithType: ATask.Awake
+    fullName: ATask.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ATask.Construct(TaskData)
+  commentId: M:Global.ATask.Construct(TaskData)
+  parent: Global.ATask
+  name: Construct(TaskData)
+  nameWithType: ATask.Construct(TaskData)
+  fullName: ATask.Construct(TaskData)
+  spec.csharp:
+  - uid: Global.ATask.Construct(TaskData)
+    name: Construct
+    nameWithType: ATask.Construct
+    fullName: ATask.Construct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskData
+    name: TaskData
+    nameWithType: TaskData
+    fullName: TaskData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.Construct(TaskData)
+    name: Construct
+    nameWithType: ATask.Construct
+    fullName: ATask.Construct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskData
+    name: TaskData
+    nameWithType: TaskData
+    fullName: TaskData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.ATask.taskCallbacks
+  commentId: P:Global.ATask.taskCallbacks
+  parent: Global.ATask
+  name: taskCallbacks
+  nameWithType: ATask.taskCallbacks
+  fullName: ATask.taskCallbacks
+- uid: Global.AutoSpawnTask.taskCallbacks*
+  commentId: Overload:Global.AutoSpawnTask.taskCallbacks
+  name: taskCallbacks
+  nameWithType: AutoSpawnTask.taskCallbacks
+  fullName: AutoSpawnTask.taskCallbacks
+- uid: Global.TaskCallback[]
+  isExternal: true
+  name: TaskCallback[]
+  nameWithType: TaskCallback[]
+  fullName: TaskCallback[]
+  nameWithType.vb: TaskCallback()
+  fullName.vb: TaskCallback()
+  name.vb: TaskCallback()
+  spec.csharp:
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.ATask.ActivateTask
+  commentId: M:Global.ATask.ActivateTask
+  parent: Global.ATask
+  name: ActivateTask()
+  nameWithType: ATask.ActivateTask()
+  fullName: ATask.ActivateTask()
+  spec.csharp:
+  - uid: Global.ATask.ActivateTask
+    name: ActivateTask
+    nameWithType: ATask.ActivateTask
+    fullName: ATask.ActivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.ActivateTask
+    name: ActivateTask
+    nameWithType: ATask.ActivateTask
+    fullName: ATask.ActivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AutoSpawnTask.ActivateTask*
+  commentId: Overload:Global.AutoSpawnTask.ActivateTask
+  name: ActivateTask
+  nameWithType: AutoSpawnTask.ActivateTask
+  fullName: AutoSpawnTask.ActivateTask
+- uid: Global.ATask.DeactivateTask
+  commentId: M:Global.ATask.DeactivateTask
+  parent: Global.ATask
+  name: DeactivateTask()
+  nameWithType: ATask.DeactivateTask()
+  fullName: ATask.DeactivateTask()
+  spec.csharp:
+  - uid: Global.ATask.DeactivateTask
+    name: DeactivateTask
+    nameWithType: ATask.DeactivateTask
+    fullName: ATask.DeactivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.DeactivateTask
+    name: DeactivateTask
+    nameWithType: ATask.DeactivateTask
+    fullName: ATask.DeactivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AutoSpawnTask.DeactivateTask*
+  commentId: Overload:Global.AutoSpawnTask.DeactivateTask
+  name: DeactivateTask
+  nameWithType: AutoSpawnTask.DeactivateTask
+  fullName: AutoSpawnTask.DeactivateTask
+- uid: Global.ATask.CheckForIsComplete(TaskCallback)
+  commentId: M:Global.ATask.CheckForIsComplete(TaskCallback)
+  parent: Global.ATask
+  name: CheckForIsComplete(TaskCallback)
+  nameWithType: ATask.CheckForIsComplete(TaskCallback)
+  fullName: ATask.CheckForIsComplete(TaskCallback)
+  spec.csharp:
+  - uid: Global.ATask.CheckForIsComplete(TaskCallback)
+    name: CheckForIsComplete
+    nameWithType: ATask.CheckForIsComplete
+    fullName: ATask.CheckForIsComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.CheckForIsComplete(TaskCallback)
+    name: CheckForIsComplete
+    nameWithType: ATask.CheckForIsComplete
+    fullName: ATask.CheckForIsComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AutoSpawnTask.CheckForIsComplete*
+  commentId: Overload:Global.AutoSpawnTask.CheckForIsComplete
+  name: CheckForIsComplete
+  nameWithType: AutoSpawnTask.CheckForIsComplete
+  fullName: AutoSpawnTask.CheckForIsComplete
+- uid: Global.TaskCallback
+  commentId: T:Global.TaskCallback
+  name: TaskCallback
+  nameWithType: TaskCallback
+  fullName: TaskCallback

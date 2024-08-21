@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: MiniGameImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4626517128640283994
+  m_GuidHigh: 5805551278267761822
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4892576718709626377
+      m_GuidHigh: 6219181715619465105
+    m_SerializedTextureGuid:
+      m_GuidLow: 2636441835753431219
+      m_GuidHigh: 8178357748107868104
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker01
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5009131254752739171
+      m_GuidHigh: 11454650031525107636
+    m_SerializedTextureGuid:
+      m_GuidLow: 11864778596353033106
+      m_GuidHigh: 5793364202734095401
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker02
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4765673743750353706
+      m_GuidHigh: 5314938695885474235
+    m_SerializedTextureGuid:
+      m_GuidLow: 10699462960094165538
+      m_GuidHigh: 13511097901931102040
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker03
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5287324768236460795
+      m_GuidHigh: 14301874627007171750
+    m_SerializedTextureGuid:
+      m_GuidLow: 17644860969843491514
+      m_GuidHigh: 13847048787050443627
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker04
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5474722062609074809
+      m_GuidHigh: 2061472960832570247
+    m_SerializedTextureGuid:
+      m_GuidLow: 11863546935128859479
+      m_GuidHigh: 16431037006835898393
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker05
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5159443448313849464
+      m_GuidHigh: 5014329953625782952
+    m_SerializedTextureGuid:
+      m_GuidLow: 2649189855594106897
+      m_GuidHigh: 7008713168577262282
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker06
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5401856308049482565
+      m_GuidHigh: 682396126370407552
+    m_SerializedTextureGuid:
+      m_GuidLow: 12980079615503211678
+      m_GuidHigh: 6328848202856686344
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker07
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5206171422532886413
+      m_GuidHigh: 1838158739500678580
+    m_SerializedTextureGuid:
+      m_GuidLow: 8393525250897489769
+      m_GuidHigh: 8280945430281197386
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker08
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4979843091898672051
+      m_GuidHigh: 13740839478470082953
+    m_SerializedTextureGuid:
+      m_GuidLow: 1461374378962888135
+      m_GuidHigh: 5891145625990327163
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker09
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5025089656578186142
+      m_GuidHigh: 6467942538640773526
+    m_SerializedTextureGuid:
+      m_GuidLow: 6083849648123587443
+      m_GuidHigh: 15443235000087110681
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: MiniGameMarker10
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4732589948780066794
+      m_GuidHigh: 8567163643889374895
+    m_SerializedTextureGuid:
+      m_GuidLow: 13040071851862368841
+      m_GuidHigh: 8024623753195622537
+    m_Size: {x: 0.1, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: TrashMarker
+    m_Texture: {fileID: 0}

@@ -1,0 +1,673 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GemeindeSucheMarkerReactionBehaviour
+  commentId: T:Global.GemeindeSucheMarkerReactionBehaviour
+  id: GemeindeSucheMarkerReactionBehaviour
+  parent: Global
+  children:
+  - Global.GemeindeSucheMarkerReactionBehaviour.exchangeSignature
+  - Global.GemeindeSucheMarkerReactionBehaviour.interactorPrefab
+  - Global.GemeindeSucheMarkerReactionBehaviour.lookup
+  - Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  - Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  - Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  - Global.GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd
+  - Global.GemeindeSucheMarkerReactionBehaviour.OnPrefabSpawned
+  - Global.GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg
+  langs:
+  - csharp
+  - vb
+  name: GemeindeSucheMarkerReactionBehaviour
+  nameWithType: GemeindeSucheMarkerReactionBehaviour
+  fullName: GemeindeSucheMarkerReactionBehaviour
+  type: Class
+  source:
+    id: GemeindeSucheMarkerReactionBehaviour
+    path: ''
+    startLine: 15645
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class GemeindeSucheMarkerReactionBehaviour : AImageMarkerReactionBehaviour'
+    content.vb: >-
+      Public Class GemeindeSucheMarkerReactionBehaviour
+          Inherits AImageMarkerReactionBehaviour
+  inheritance:
+  - System.Object
+  - Global.AImageMarkerReactionBehaviour
+  inheritedMembers:
+  - Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{{T}},System.String,{T}@)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnPrefabSpawned
+  commentId: F:Global.GemeindeSucheMarkerReactionBehaviour.OnPrefabSpawned
+  id: OnPrefabSpawned
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnPrefabSpawned
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnPrefabSpawned
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnPrefabSpawned
+  type: Field
+  source:
+    id: OnPrefabSpawned
+    path: ''
+    startLine: 15647
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObjectEvent OnPrefabSpawned
+    return:
+      type: Global.GameObjectEvent
+    content.vb: Public OnPrefabSpawned As GameObjectEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.lookup
+  commentId: F:Global.GemeindeSucheMarkerReactionBehaviour.lookup
+  id: lookup
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: lookup
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.lookup
+  fullName: GemeindeSucheMarkerReactionBehaviour.lookup
+  type: Field
+  source:
+    id: lookup
+    path: ''
+    startLine: 15648
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GemeindeSucheLookup lookup
+    return:
+      type: Global.GemeindeSucheLookup
+    content.vb: Public lookup As GemeindeSucheLookup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.interactorPrefab
+  commentId: F:Global.GemeindeSucheMarkerReactionBehaviour.interactorPrefab
+  id: interactorPrefab
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: interactorPrefab
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.interactorPrefab
+  fullName: GemeindeSucheMarkerReactionBehaviour.interactorPrefab
+  type: Field
+  source:
+    id: interactorPrefab
+    path: ''
+    startLine: 15649
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject interactorPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public interactorPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.exchangeSignature
+  commentId: F:Global.GemeindeSucheMarkerReactionBehaviour.exchangeSignature
+  id: exchangeSignature
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: exchangeSignature
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.exchangeSignature
+  fullName: GemeindeSucheMarkerReactionBehaviour.exchangeSignature
+  type: Field
+  source:
+    id: exchangeSignature
+    path: ''
+    startLine: 15658
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ReferenceLibrarySignature exchangeSignature
+    return:
+      type: Global.ReferenceLibrarySignature
+    content.vb: Public exchangeSignature As ReferenceLibrarySignature
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  commentId: M:Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  id: OnImageMarkerDetected(ARTrackedImage)
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnImageMarkerDetected(ARTrackedImage)
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  type: Method
+  source:
+    id: OnImageMarkerDetected
+    path: ''
+    startLine: 15669
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnImageMarkerDetected(ARTrackedImage image)
+    parameters:
+    - id: image
+      type: Global.ARTrackedImage
+    content.vb: Public Overrides Sub OnImageMarkerDetected(image As ARTrackedImage)
+  overridden: Global.AImageMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  overload: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg
+  commentId: M:Global.GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg
+  id: WaitForSalzburg
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: WaitForSalzburg()
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg()
+  fullName: GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg()
+  type: Method
+  source:
+    id: WaitForSalzburg
+    path: ''
+    startLine: 15720
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public IEnumerator WaitForSalzburg()
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function WaitForSalzburg As IEnumerator
+  overload: Global.GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd
+  commentId: M:Global.GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd
+  id: OnMiniGameEnd
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnMiniGameEnd()
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd()
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd()
+  type: Method
+  source:
+    id: OnMiniGameEnd
+    path: ''
+    startLine: 15727
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnMiniGameEnd()
+    content.vb: Public Sub OnMiniGameEnd
+  overload: Global.GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  commentId: M:Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  id: OnImageMarkerLost(ARTrackedImage)
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnImageMarkerLost(ARTrackedImage)
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  type: Method
+  source:
+    id: OnImageMarkerLost
+    path: ''
+    startLine: 15735
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnImageMarkerLost(ARTrackedImage image)
+    parameters:
+    - id: image
+      type: Global.ARTrackedImage
+    content.vb: Public Overrides Sub OnImageMarkerLost(image As ARTrackedImage)
+  overridden: Global.AImageMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  overload: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  commentId: M:Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  id: OnImageMarkerUpdate(ARTrackedImage)
+  parent: Global.GemeindeSucheMarkerReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnImageMarkerUpdate(ARTrackedImage)
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  type: Method
+  source:
+    id: OnImageMarkerUpdate
+    path: ''
+    startLine: 15736
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnImageMarkerUpdate(ARTrackedImage image)
+    parameters:
+    - id: image
+      type: Global.ARTrackedImage
+    content.vb: Public Overrides Sub OnImageMarkerUpdate(image As ARTrackedImage)
+  overridden: Global.AImageMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  overload: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AImageMarkerReactionBehaviour
+  commentId: T:Global.AImageMarkerReactionBehaviour
+  name: AImageMarkerReactionBehaviour
+  nameWithType: AImageMarkerReactionBehaviour
+  fullName: AImageMarkerReactionBehaviour
+- uid: Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{{T}},System.String,{T}@)
+  commentId: M:Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{``0},System.String,``0@)
+  parent: Global.AImageMarkerReactionBehaviour
+  definition: Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{``0},System.String,``0@)
+  name: TryGetImageMarkerData<T>(ImageMarkerLookup<T>, String, T)
+  nameWithType: AImageMarkerReactionBehaviour.TryGetImageMarkerData<T>(ImageMarkerLookup<T>, String, T)
+  fullName: AImageMarkerReactionBehaviour.TryGetImageMarkerData<T>(ImageMarkerLookup<T>, System.String, T)
+  nameWithType.vb: AImageMarkerReactionBehaviour.TryGetImageMarkerData(Of T)(ImageMarkerLookup(Of T), String, T)
+  fullName.vb: AImageMarkerReactionBehaviour.TryGetImageMarkerData(Of T)(ImageMarkerLookup(Of T), System.String, T)
+  name.vb: TryGetImageMarkerData(Of T)(ImageMarkerLookup(Of T), String, T)
+  spec.csharp:
+  - uid: Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{``0},System.String,``0@)
+    name: TryGetImageMarkerData<T>
+    nameWithType: AImageMarkerReactionBehaviour.TryGetImageMarkerData<T>
+    fullName: AImageMarkerReactionBehaviour.TryGetImageMarkerData<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{``0},System.String,``0@)
+    name: TryGetImageMarkerData(Of T)
+    nameWithType: AImageMarkerReactionBehaviour.TryGetImageMarkerData(Of T)
+    fullName: AImageMarkerReactionBehaviour.TryGetImageMarkerData(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{``0},System.String,``0@)
+  commentId: M:Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{``0},System.String,``0@)
+  isExternal: true
+  name: TryGetImageMarkerData<T>(ImageMarkerLookup<T>, String, T)
+  nameWithType: AImageMarkerReactionBehaviour.TryGetImageMarkerData<T>(ImageMarkerLookup<T>, String, T)
+  fullName: AImageMarkerReactionBehaviour.TryGetImageMarkerData<T>(ImageMarkerLookup<T>, System.String, T)
+  nameWithType.vb: AImageMarkerReactionBehaviour.TryGetImageMarkerData(Of T)(ImageMarkerLookup(Of T), String, T)
+  fullName.vb: AImageMarkerReactionBehaviour.TryGetImageMarkerData(Of T)(ImageMarkerLookup(Of T), System.String, T)
+  name.vb: TryGetImageMarkerData(Of T)(ImageMarkerLookup(Of T), String, T)
+  spec.csharp:
+  - uid: Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{``0},System.String,``0@)
+    name: TryGetImageMarkerData<T>
+    nameWithType: AImageMarkerReactionBehaviour.TryGetImageMarkerData<T>
+    fullName: AImageMarkerReactionBehaviour.TryGetImageMarkerData<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AImageMarkerReactionBehaviour.TryGetImageMarkerData``1(ImageMarkerLookup{``0},System.String,``0@)
+    name: TryGetImageMarkerData(Of T)
+    nameWithType: AImageMarkerReactionBehaviour.TryGetImageMarkerData(Of T)
+    fullName: AImageMarkerReactionBehaviour.TryGetImageMarkerData(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GameObjectEvent
+  commentId: T:Global.GameObjectEvent
+  name: GameObjectEvent
+  nameWithType: GameObjectEvent
+  fullName: GameObjectEvent
+- uid: Global.GemeindeSucheLookup
+  commentId: T:Global.GemeindeSucheLookup
+  name: GemeindeSucheLookup
+  nameWithType: GemeindeSucheLookup
+  fullName: GemeindeSucheLookup
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.ReferenceLibrarySignature
+  commentId: T:Global.ReferenceLibrarySignature
+  name: ReferenceLibrarySignature
+  nameWithType: ReferenceLibrarySignature
+  fullName: ReferenceLibrarySignature
+- uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  commentId: M:Global.AImageMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  parent: Global.AImageMarkerReactionBehaviour
+  isExternal: true
+  name: OnImageMarkerDetected(ARTrackedImage)
+  nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  fullName: AImageMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+  spec.csharp:
+  - uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+    name: OnImageMarkerDetected
+    nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerDetected
+    fullName: AImageMarkerReactionBehaviour.OnImageMarkerDetected
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ARTrackedImage
+    name: ARTrackedImage
+    nameWithType: ARTrackedImage
+    fullName: ARTrackedImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerDetected(ARTrackedImage)
+    name: OnImageMarkerDetected
+    nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerDetected
+    fullName: AImageMarkerReactionBehaviour.OnImageMarkerDetected
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ARTrackedImage
+    name: ARTrackedImage
+    nameWithType: ARTrackedImage
+    fullName: ARTrackedImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected*
+  commentId: Overload:Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected
+  name: OnImageMarkerDetected
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerDetected
+- uid: Global.ARTrackedImage
+  isExternal: true
+  name: ARTrackedImage
+  nameWithType: ARTrackedImage
+  fullName: ARTrackedImage
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg*
+  commentId: Overload:Global.GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg
+  name: WaitForSalzburg
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg
+  fullName: GemeindeSucheMarkerReactionBehaviour.WaitForSalzburg
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd*
+  commentId: Overload:Global.GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd
+  name: OnMiniGameEnd
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnMiniGameEnd
+- uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  commentId: M:Global.AImageMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  parent: Global.AImageMarkerReactionBehaviour
+  isExternal: true
+  name: OnImageMarkerLost(ARTrackedImage)
+  nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  fullName: AImageMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+  spec.csharp:
+  - uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+    name: OnImageMarkerLost
+    nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerLost
+    fullName: AImageMarkerReactionBehaviour.OnImageMarkerLost
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ARTrackedImage
+    name: ARTrackedImage
+    nameWithType: ARTrackedImage
+    fullName: ARTrackedImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerLost(ARTrackedImage)
+    name: OnImageMarkerLost
+    nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerLost
+    fullName: AImageMarkerReactionBehaviour.OnImageMarkerLost
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ARTrackedImage
+    name: ARTrackedImage
+    nameWithType: ARTrackedImage
+    fullName: ARTrackedImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost*
+  commentId: Overload:Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost
+  name: OnImageMarkerLost
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerLost
+- uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  commentId: M:Global.AImageMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  parent: Global.AImageMarkerReactionBehaviour
+  isExternal: true
+  name: OnImageMarkerUpdate(ARTrackedImage)
+  nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  fullName: AImageMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+  spec.csharp:
+  - uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+    name: OnImageMarkerUpdate
+    nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerUpdate
+    fullName: AImageMarkerReactionBehaviour.OnImageMarkerUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ARTrackedImage
+    name: ARTrackedImage
+    nameWithType: ARTrackedImage
+    fullName: ARTrackedImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AImageMarkerReactionBehaviour.OnImageMarkerUpdate(ARTrackedImage)
+    name: OnImageMarkerUpdate
+    nameWithType: AImageMarkerReactionBehaviour.OnImageMarkerUpdate
+    fullName: AImageMarkerReactionBehaviour.OnImageMarkerUpdate
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ARTrackedImage
+    name: ARTrackedImage
+    nameWithType: ARTrackedImage
+    fullName: ARTrackedImage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate*
+  commentId: Overload:Global.GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate
+  name: OnImageMarkerUpdate
+  nameWithType: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate
+  fullName: GemeindeSucheMarkerReactionBehaviour.OnImageMarkerUpdate

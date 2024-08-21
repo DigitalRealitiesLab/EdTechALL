@@ -1,0 +1,102 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.CardProxyOpenBehaviour
+  commentId: T:CardModule.CardProxyOpenBehaviour
+  id: CardProxyOpenBehaviour
+  parent: CardModule
+  children:
+  - CardModule.CardProxyOpenBehaviour.OnInteract
+  langs:
+  - csharp
+  - vb
+  name: CardProxyOpenBehaviour
+  nameWithType: CardProxyOpenBehaviour
+  fullName: CardModule.CardProxyOpenBehaviour
+  type: Class
+  source:
+    id: CardProxyOpenBehaviour
+    path: ''
+    startLine: 19716
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: 'public class CardProxyOpenBehaviour : ACardProxyBehaviour'
+    content.vb: >-
+      Public Class CardProxyOpenBehaviour
+          Inherits ACardProxyBehaviour
+  inheritance:
+  - System.Object
+  - CardModule.ACardProxyBehaviour
+  inheritedMembers:
+  - CardModule.ACardProxyBehaviour.proxyCardData
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.CardProxyOpenBehaviour.OnInteract
+  commentId: M:CardModule.CardProxyOpenBehaviour.OnInteract
+  id: OnInteract
+  parent: CardModule.CardProxyOpenBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnInteract()
+  nameWithType: CardProxyOpenBehaviour.OnInteract()
+  fullName: CardModule.CardProxyOpenBehaviour.OnInteract()
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 19718
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public override void OnInteract()
+    content.vb: Public Overrides Sub OnInteract
+  overload: CardModule.CardProxyOpenBehaviour.OnInteract*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CardModule.ACardProxyBehaviour
+  commentId: T:CardModule.ACardProxyBehaviour
+  parent: CardModule
+  name: ACardProxyBehaviour
+  nameWithType: ACardProxyBehaviour
+  fullName: CardModule.ACardProxyBehaviour
+- uid: CardModule.ACardProxyBehaviour.proxyCardData
+  commentId: P:CardModule.ACardProxyBehaviour.proxyCardData
+  parent: CardModule.ACardProxyBehaviour
+  name: proxyCardData
+  nameWithType: ACardProxyBehaviour.proxyCardData
+  fullName: CardModule.ACardProxyBehaviour.proxyCardData
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardModule.CardProxyOpenBehaviour.OnInteract*
+  commentId: Overload:CardModule.CardProxyOpenBehaviour.OnInteract
+  name: OnInteract
+  nameWithType: CardProxyOpenBehaviour.OnInteract
+  fullName: CardModule.CardProxyOpenBehaviour.OnInteract

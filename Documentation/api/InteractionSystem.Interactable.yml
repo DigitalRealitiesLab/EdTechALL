@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  id: InteractionSystem.Interactable
+  children:
+  - InteractionSystem.Interactable.AInteractionBehaviour
+  - InteractionSystem.Interactable.Interactable
+  - InteractionSystem.Interactable.InteractableEvent
+  - InteractionSystem.Interactable.InteractableEventExtension
+  - InteractionSystem.Interactable.InteractableForwarder
+  - InteractionSystem.Interactable.ToggleActiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: InteractionSystem.Interactable.InteractableForwarder
+  commentId: T:InteractionSystem.Interactable.InteractableForwarder
+  name: InteractableForwarder
+  nameWithType: InteractableForwarder
+  fullName: InteractionSystem.Interactable.InteractableForwarder
+- uid: InteractionSystem.Interactable.Interactable
+  commentId: T:InteractionSystem.Interactable.Interactable
+  parent: InteractionSystem.Interactable
+  name: Interactable
+  nameWithType: Interactable
+  fullName: InteractionSystem.Interactable.Interactable
+- uid: InteractionSystem.Interactable.InteractableEvent
+  commentId: T:InteractionSystem.Interactable.InteractableEvent
+  parent: InteractionSystem.Interactable
+  name: InteractableEvent
+  nameWithType: InteractableEvent
+  fullName: InteractionSystem.Interactable.InteractableEvent
+- uid: InteractionSystem.Interactable.ToggleActiveBehaviour
+  commentId: T:InteractionSystem.Interactable.ToggleActiveBehaviour
+  name: ToggleActiveBehaviour
+  nameWithType: ToggleActiveBehaviour
+  fullName: InteractionSystem.Interactable.ToggleActiveBehaviour
+- uid: InteractionSystem.Interactable.InteractableEventExtension
+  commentId: T:InteractionSystem.Interactable.InteractableEventExtension
+  name: InteractableEventExtension
+  nameWithType: InteractableEventExtension
+  fullName: InteractionSystem.Interactable.InteractableEventExtension
+- uid: InteractionSystem.Interactable.AInteractionBehaviour
+  commentId: T:InteractionSystem.Interactable.AInteractionBehaviour
+  parent: InteractionSystem.Interactable
+  name: AInteractionBehaviour
+  nameWithType: AInteractionBehaviour
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable

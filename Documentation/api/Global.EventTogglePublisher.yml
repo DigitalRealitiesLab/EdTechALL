@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventTogglePublisher
+  commentId: T:Global.EventTogglePublisher
+  id: EventTogglePublisher
+  parent: Global
+  children:
+  - Global.EventTogglePublisher.eventId
+  langs:
+  - csharp
+  - vb
+  name: EventTogglePublisher
+  nameWithType: EventTogglePublisher
+  fullName: EventTogglePublisher
+  type: Class
+  source:
+    id: EventTogglePublisher
+    path: ''
+    startLine: 16660
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class EventTogglePublisher : MonoBehaviour'
+    content.vb: >-
+      Public Class EventTogglePublisher
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.EventTogglePublisher.eventId
+  commentId: F:Global.EventTogglePublisher.eventId
+  id: eventId
+  parent: Global.EventTogglePublisher
+  langs:
+  - csharp
+  - vb
+  name: eventId
+  nameWithType: EventTogglePublisher.eventId
+  fullName: EventTogglePublisher.eventId
+  type: Field
+  source:
+    id: eventId
+    path: ''
+    startLine: 16663
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string eventId
+    return:
+      type: System.String
+    content.vb: Public eventId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

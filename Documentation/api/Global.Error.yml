@@ -1,0 +1,507 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Error
+  commentId: T:Global.Error
+  id: Error
+  parent: Global
+  children:
+  - Global.Error.#ctor(System.String,ErrorCategory,System.String)
+  - Global.Error.errorCategory
+  - Global.Error.errorMessage
+  - Global.Error.errorType
+  - Global.Error.Fatal(System.String,System.String)
+  - Global.Error.fullErrorMessage
+  - Global.Error.Info(System.String,System.String)
+  - Global.Error.SendError(Error)
+  - Global.Error.SendFatal(System.String,System.String)
+  - Global.Error.SendInfo(System.String,System.String)
+  - Global.Error.SendWarning(System.String,System.String)
+  - Global.Error.Warning(System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: Error
+  nameWithType: Error
+  fullName: Error
+  type: Class
+  source:
+    id: Error
+    path: ''
+    startLine: 20786
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class Error
+    content.vb: Public Class Error
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Error.Fatal(System.String,System.String)
+  commentId: M:Global.Error.Fatal(System.String,System.String)
+  id: Fatal(System.String,System.String)
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: Fatal(String, String)
+  nameWithType: Error.Fatal(String, String)
+  fullName: Error.Fatal(System.String, System.String)
+  type: Method
+  source:
+    id: Fatal
+    path: ''
+    startLine: 20788
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Error Fatal(string type, string message)
+    parameters:
+    - id: type
+      type: System.String
+    - id: message
+      type: System.String
+    return:
+      type: Global.Error
+    content.vb: 'Public Shared Function Fatal(type As String, message As String) As '
+  overload: Global.Error.Fatal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Error.Warning(System.String,System.String)
+  commentId: M:Global.Error.Warning(System.String,System.String)
+  id: Warning(System.String,System.String)
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: Warning(String, String)
+  nameWithType: Error.Warning(String, String)
+  fullName: Error.Warning(System.String, System.String)
+  type: Method
+  source:
+    id: Warning
+    path: ''
+    startLine: 20789
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Error Warning(string type, string message)
+    parameters:
+    - id: type
+      type: System.String
+    - id: message
+      type: System.String
+    return:
+      type: Global.Error
+    content.vb: 'Public Shared Function Warning(type As String, message As String) As '
+  overload: Global.Error.Warning*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Error.Info(System.String,System.String)
+  commentId: M:Global.Error.Info(System.String,System.String)
+  id: Info(System.String,System.String)
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: Info(String, String)
+  nameWithType: Error.Info(String, String)
+  fullName: Error.Info(System.String, System.String)
+  type: Method
+  source:
+    id: Info
+    path: ''
+    startLine: 20790
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Error Info(string type, string message)
+    parameters:
+    - id: type
+      type: System.String
+    - id: message
+      type: System.String
+    return:
+      type: Global.Error
+    content.vb: 'Public Shared Function Info(type As String, message As String) As '
+  overload: Global.Error.Info*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Error.SendFatal(System.String,System.String)
+  commentId: M:Global.Error.SendFatal(System.String,System.String)
+  id: SendFatal(System.String,System.String)
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: SendFatal(String, String)
+  nameWithType: Error.SendFatal(String, String)
+  fullName: Error.SendFatal(System.String, System.String)
+  type: Method
+  source:
+    id: SendFatal
+    path: ''
+    startLine: 20792
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SendFatal(string type, string message)
+    parameters:
+    - id: type
+      type: System.String
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub SendFatal(type As String, message As String)
+  overload: Global.Error.SendFatal*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Error.SendWarning(System.String,System.String)
+  commentId: M:Global.Error.SendWarning(System.String,System.String)
+  id: SendWarning(System.String,System.String)
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: SendWarning(String, String)
+  nameWithType: Error.SendWarning(String, String)
+  fullName: Error.SendWarning(System.String, System.String)
+  type: Method
+  source:
+    id: SendWarning
+    path: ''
+    startLine: 20793
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SendWarning(string type, string message)
+    parameters:
+    - id: type
+      type: System.String
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub SendWarning(type As String, message As String)
+  overload: Global.Error.SendWarning*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Error.SendInfo(System.String,System.String)
+  commentId: M:Global.Error.SendInfo(System.String,System.String)
+  id: SendInfo(System.String,System.String)
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: SendInfo(String, String)
+  nameWithType: Error.SendInfo(String, String)
+  fullName: Error.SendInfo(System.String, System.String)
+  type: Method
+  source:
+    id: SendInfo
+    path: ''
+    startLine: 20794
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SendInfo(string type, string message)
+    parameters:
+    - id: type
+      type: System.String
+    - id: message
+      type: System.String
+    content.vb: Public Shared Sub SendInfo(type As String, message As String)
+  overload: Global.Error.SendInfo*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Error.SendError(Error)
+  commentId: M:Global.Error.SendError(Error)
+  id: SendError(Error)
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: SendError(Error)
+  nameWithType: Error.SendError(Error)
+  fullName: Error.SendError(Error)
+  type: Method
+  source:
+    id: SendError
+    path: ''
+    startLine: 20796
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SendError(Error error)
+    parameters:
+    - id: error
+      type: Global.Error
+    content.vb: Public Shared Sub SendError(error As  Error)
+  overload: Global.Error.SendError*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Error.#ctor(System.String,ErrorCategory,System.String)
+  commentId: M:Global.Error.#ctor(System.String,ErrorCategory,System.String)
+  id: '#ctor(System.String,ErrorCategory,System.String)'
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: Error(String, ErrorCategory, String)
+  nameWithType: Error.Error(String, ErrorCategory, String)
+  fullName: Error.Error(System.String, ErrorCategory, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 20798
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Error(string type, ErrorCategory category, string message)
+    parameters:
+    - id: type
+      type: System.String
+    - id: category
+      type: Global.ErrorCategory
+    - id: message
+      type: System.String
+    content.vb: Public Sub New(type As String, category As ErrorCategory, message As String)
+  overload: Global.Error.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Error.errorType
+  commentId: F:Global.Error.errorType
+  id: errorType
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: errorType
+  nameWithType: Error.errorType
+  fullName: Error.errorType
+  type: Field
+  source:
+    id: errorType
+    path: ''
+    startLine: 20805
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string errorType
+    return:
+      type: System.String
+    content.vb: Public errorType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Error.errorCategory
+  commentId: F:Global.Error.errorCategory
+  id: errorCategory
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: errorCategory
+  nameWithType: Error.errorCategory
+  fullName: Error.errorCategory
+  type: Field
+  source:
+    id: errorCategory
+    path: ''
+    startLine: 20806
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ErrorCategory errorCategory
+    return:
+      type: Global.ErrorCategory
+    content.vb: Public errorCategory As ErrorCategory
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Error.errorMessage
+  commentId: F:Global.Error.errorMessage
+  id: errorMessage
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: errorMessage
+  nameWithType: Error.errorMessage
+  fullName: Error.errorMessage
+  type: Field
+  source:
+    id: errorMessage
+    path: ''
+    startLine: 20807
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string errorMessage
+    return:
+      type: System.String
+    content.vb: Public errorMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Error.fullErrorMessage
+  commentId: P:Global.Error.fullErrorMessage
+  id: fullErrorMessage
+  parent: Global.Error
+  langs:
+  - csharp
+  - vb
+  name: fullErrorMessage
+  nameWithType: Error.fullErrorMessage
+  fullName: Error.fullErrorMessage
+  type: Property
+  source:
+    id: fullErrorMessage
+    path: ''
+    startLine: 20809
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string fullErrorMessage { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property fullErrorMessage As String
+  overload: Global.Error.fullErrorMessage*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Error.Fatal*
+  commentId: Overload:Global.Error.Fatal
+  name: Fatal
+  nameWithType: Error.Fatal
+  fullName: Error.Fatal
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Error
+  commentId: T:Global.Error
+  name: Error
+  nameWithType: Error
+  fullName: Error
+- uid: Global.Error.Warning*
+  commentId: Overload:Global.Error.Warning
+  name: Warning
+  nameWithType: Error.Warning
+  fullName: Error.Warning
+- uid: Global.Error.Info*
+  commentId: Overload:Global.Error.Info
+  name: Info
+  nameWithType: Error.Info
+  fullName: Error.Info
+- uid: Global.Error.SendFatal*
+  commentId: Overload:Global.Error.SendFatal
+  name: SendFatal
+  nameWithType: Error.SendFatal
+  fullName: Error.SendFatal
+- uid: Global.Error.SendWarning*
+  commentId: Overload:Global.Error.SendWarning
+  name: SendWarning
+  nameWithType: Error.SendWarning
+  fullName: Error.SendWarning
+- uid: Global.Error.SendInfo*
+  commentId: Overload:Global.Error.SendInfo
+  name: SendInfo
+  nameWithType: Error.SendInfo
+  fullName: Error.SendInfo
+- uid: Global.Error.SendError*
+  commentId: Overload:Global.Error.SendError
+  name: SendError
+  nameWithType: Error.SendError
+  fullName: Error.SendError
+- uid: Global.Error.#ctor*
+  commentId: Overload:Global.Error.#ctor
+  name: Error
+  nameWithType: Error.Error
+  fullName: Error.Error
+- uid: Global.ErrorCategory
+  commentId: T:Global.ErrorCategory
+  name: ErrorCategory
+  nameWithType: ErrorCategory
+  fullName: ErrorCategory
+- uid: Global.Error.fullErrorMessage*
+  commentId: Overload:Global.Error.fullErrorMessage
+  name: fullErrorMessage
+  nameWithType: Error.fullErrorMessage
+  fullName: Error.fullErrorMessage

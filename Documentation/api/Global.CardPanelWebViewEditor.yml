@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CardPanelWebViewEditor
+  commentId: T:Global.CardPanelWebViewEditor
+  id: CardPanelWebViewEditor
+  parent: Global
+  children:
+  - Global.CardPanelWebViewEditor.filePath
+  - Global.CardPanelWebViewEditor.LoadPage(CardPanelWebView)
+  - Global.CardPanelWebViewEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: CardPanelWebViewEditor
+  nameWithType: CardPanelWebViewEditor
+  fullName: CardPanelWebViewEditor
+  type: Class
+  source:
+    id: CardPanelWebViewEditor
+    path: ''
+    startLine: 20398
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CardPanelWebViewEditor : Editor'
+    content.vb: >-
+      Public Class CardPanelWebViewEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CardPanelWebViewEditor.filePath
+  commentId: F:Global.CardPanelWebViewEditor.filePath
+  id: filePath
+  parent: Global.CardPanelWebViewEditor
+  langs:
+  - csharp
+  - vb
+  name: filePath
+  nameWithType: CardPanelWebViewEditor.filePath
+  fullName: CardPanelWebViewEditor.filePath
+  type: Field
+  source:
+    id: filePath
+    path: ''
+    startLine: 20401
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string filePath
+    return:
+      type: System.String
+    content.vb: Public filePath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CardPanelWebViewEditor.OnInspectorGUI
+  commentId: M:Global.CardPanelWebViewEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.CardPanelWebViewEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: CardPanelWebViewEditor.OnInspectorGUI()
+  fullName: CardPanelWebViewEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 20402
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.CardPanelWebViewEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.CardPanelWebViewEditor.LoadPage(CardPanelWebView)
+  commentId: M:Global.CardPanelWebViewEditor.LoadPage(CardPanelWebView)
+  id: LoadPage(CardPanelWebView)
+  parent: Global.CardPanelWebViewEditor
+  langs:
+  - csharp
+  - vb
+  name: LoadPage(CardPanelWebView)
+  nameWithType: CardPanelWebViewEditor.LoadPage(CardPanelWebView)
+  fullName: CardPanelWebViewEditor.LoadPage(CardPanelWebView)
+  type: Method
+  source:
+    id: LoadPage
+    path: ''
+    startLine: 20418
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public async void LoadPage(CardPanelWebView cardPanel)
+    parameters:
+    - id: cardPanel
+      type: Global.CardPanelWebView
+    content.vb: Public Sub LoadPage(cardPanel As CardPanelWebView)
+  overload: Global.CardPanelWebViewEditor.LoadPage*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.CardPanelWebViewEditor.OnInspectorGUI*
+  commentId: Overload:Global.CardPanelWebViewEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: CardPanelWebViewEditor.OnInspectorGUI
+  fullName: CardPanelWebViewEditor.OnInspectorGUI
+- uid: Global.CardPanelWebViewEditor.LoadPage*
+  commentId: Overload:Global.CardPanelWebViewEditor.LoadPage
+  name: LoadPage
+  nameWithType: CardPanelWebViewEditor.LoadPage
+  fullName: CardPanelWebViewEditor.LoadPage
+- uid: Global.CardPanelWebView
+  commentId: '!:Global.CardPanelWebView'
+  isExternal: true
+  name: CardPanelWebView
+  nameWithType: CardPanelWebView
+  fullName: CardPanelWebView

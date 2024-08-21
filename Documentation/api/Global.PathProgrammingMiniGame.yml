@@ -1,0 +1,619 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PathProgrammingMiniGame
+  commentId: T:Global.PathProgrammingMiniGame
+  id: PathProgrammingMiniGame
+  parent: Global
+  children:
+  - Global.PathProgrammingMiniGame.AbortMiniGame
+  - Global.PathProgrammingMiniGame.commandStepDelay
+  - Global.PathProgrammingMiniGame.ExitMiniGame
+  - Global.PathProgrammingMiniGame.grid
+  - Global.PathProgrammingMiniGame.milkTruck
+  - Global.PathProgrammingMiniGame.OnPathFinished
+  - Global.PathProgrammingMiniGame.OnPathProgrammingError
+  - Global.PathProgrammingMiniGame.OnPathProgrammingOrder(List{PathProgrammingCommand})
+  - Global.PathProgrammingMiniGame.StartMiniGame
+  langs:
+  - csharp
+  - vb
+  name: PathProgrammingMiniGame
+  nameWithType: PathProgrammingMiniGame
+  fullName: PathProgrammingMiniGame
+  type: Class
+  source:
+    id: PathProgrammingMiniGame
+    path: ''
+    startLine: 15871
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PathProgrammingMiniGame : AMiniGame'
+    content.vb: >-
+      Public Class PathProgrammingMiniGame
+          Inherits AMiniGame
+  inheritance:
+  - System.Object
+  - Global.AMiniGame
+  inheritedMembers:
+  - Global.AMiniGame.miniGameConfig
+  - Global.AMiniGame.score
+  - Global.AMiniGame.success
+  - Global.AMiniGame.windowText
+  - Global.AMiniGame.RequestScoreWindow
+  - Global.AMiniGame.RquestPromtWindow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PathProgrammingMiniGame.milkTruck
+  commentId: F:Global.PathProgrammingMiniGame.milkTruck
+  id: milkTruck
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: milkTruck
+  nameWithType: PathProgrammingMiniGame.milkTruck
+  fullName: PathProgrammingMiniGame.milkTruck
+  type: Field
+  source:
+    id: milkTruck
+    path: ''
+    startLine: 15873
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject milkTruck
+    return:
+      type: Global.GameObject
+    content.vb: Public milkTruck As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingMiniGame.grid
+  commentId: F:Global.PathProgrammingMiniGame.grid
+  id: grid
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: grid
+  nameWithType: PathProgrammingMiniGame.grid
+  fullName: PathProgrammingMiniGame.grid
+  type: Field
+  source:
+    id: grid
+    path: ''
+    startLine: 15874
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public PathProgrammingGrid grid
+    return:
+      type: Global.PathProgrammingGrid
+    content.vb: Public grid As PathProgrammingGrid
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingMiniGame.commandStepDelay
+  commentId: F:Global.PathProgrammingMiniGame.commandStepDelay
+  id: commandStepDelay
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: commandStepDelay
+  nameWithType: PathProgrammingMiniGame.commandStepDelay
+  fullName: PathProgrammingMiniGame.commandStepDelay
+  type: Field
+  source:
+    id: commandStepDelay
+    path: ''
+    startLine: 15875
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float commandStepDelay
+    return:
+      type: System.Single
+    content.vb: Public commandStepDelay As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingMiniGame.StartMiniGame
+  commentId: M:Global.PathProgrammingMiniGame.StartMiniGame
+  id: StartMiniGame
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: StartMiniGame()
+  nameWithType: PathProgrammingMiniGame.StartMiniGame()
+  fullName: PathProgrammingMiniGame.StartMiniGame()
+  type: Method
+  source:
+    id: StartMiniGame
+    path: ''
+    startLine: 15892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void StartMiniGame()
+    content.vb: Public Overrides Sub StartMiniGame
+  overridden: Global.AMiniGame.StartMiniGame
+  overload: Global.PathProgrammingMiniGame.StartMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.PathProgrammingMiniGame.ExitMiniGame
+  commentId: M:Global.PathProgrammingMiniGame.ExitMiniGame
+  id: ExitMiniGame
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: ExitMiniGame()
+  nameWithType: PathProgrammingMiniGame.ExitMiniGame()
+  fullName: PathProgrammingMiniGame.ExitMiniGame()
+  type: Method
+  source:
+    id: ExitMiniGame
+    path: ''
+    startLine: 15909
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void ExitMiniGame()
+    content.vb: Public Overrides Sub ExitMiniGame
+  overridden: Global.AMiniGame.ExitMiniGame
+  overload: Global.PathProgrammingMiniGame.ExitMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.PathProgrammingMiniGame.AbortMiniGame
+  commentId: M:Global.PathProgrammingMiniGame.AbortMiniGame
+  id: AbortMiniGame
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: AbortMiniGame()
+  nameWithType: PathProgrammingMiniGame.AbortMiniGame()
+  fullName: PathProgrammingMiniGame.AbortMiniGame()
+  type: Method
+  source:
+    id: AbortMiniGame
+    path: ''
+    startLine: 15914
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void AbortMiniGame()
+    content.vb: Public Overrides Sub AbortMiniGame
+  overridden: Global.AMiniGame.AbortMiniGame
+  overload: Global.PathProgrammingMiniGame.AbortMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.PathProgrammingMiniGame.OnPathProgrammingOrder(List{PathProgrammingCommand})
+  commentId: M:Global.PathProgrammingMiniGame.OnPathProgrammingOrder(List{PathProgrammingCommand})
+  id: OnPathProgrammingOrder(List{PathProgrammingCommand})
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: OnPathProgrammingOrder(List<PathProgrammingCommand>)
+  nameWithType: PathProgrammingMiniGame.OnPathProgrammingOrder(List<PathProgrammingCommand>)
+  fullName: PathProgrammingMiniGame.OnPathProgrammingOrder(List<PathProgrammingCommand>)
+  type: Method
+  source:
+    id: OnPathProgrammingOrder
+    path: ''
+    startLine: 15919
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPathProgrammingOrder(List<PathProgrammingCommand> commands)
+    parameters:
+    - id: commands
+      type: Global.List{PathProgrammingCommand}
+    content.vb: Public Sub OnPathProgrammingOrder(commands As List(Of PathProgrammingCommand))
+  overload: Global.PathProgrammingMiniGame.OnPathProgrammingOrder*
+  nameWithType.vb: PathProgrammingMiniGame.OnPathProgrammingOrder(List(Of PathProgrammingCommand))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: PathProgrammingMiniGame.OnPathProgrammingOrder(List(Of PathProgrammingCommand))
+  name.vb: OnPathProgrammingOrder(List(Of PathProgrammingCommand))
+- uid: Global.PathProgrammingMiniGame.OnPathProgrammingError
+  commentId: M:Global.PathProgrammingMiniGame.OnPathProgrammingError
+  id: OnPathProgrammingError
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: OnPathProgrammingError()
+  nameWithType: PathProgrammingMiniGame.OnPathProgrammingError()
+  fullName: PathProgrammingMiniGame.OnPathProgrammingError()
+  type: Method
+  source:
+    id: OnPathProgrammingError
+    path: ''
+    startLine: 16006
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPathProgrammingError()
+    content.vb: Public Sub OnPathProgrammingError
+  overload: Global.PathProgrammingMiniGame.OnPathProgrammingError*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingMiniGame.OnPathFinished
+  commentId: M:Global.PathProgrammingMiniGame.OnPathFinished
+  id: OnPathFinished
+  parent: Global.PathProgrammingMiniGame
+  langs:
+  - csharp
+  - vb
+  name: OnPathFinished()
+  nameWithType: PathProgrammingMiniGame.OnPathFinished()
+  fullName: PathProgrammingMiniGame.OnPathFinished()
+  type: Method
+  source:
+    id: OnPathFinished
+    path: ''
+    startLine: 16014
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnPathFinished()
+    content.vb: Public Sub OnPathFinished
+  overload: Global.PathProgrammingMiniGame.OnPathFinished*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AMiniGame
+  commentId: T:Global.AMiniGame
+  name: AMiniGame
+  nameWithType: AMiniGame
+  fullName: AMiniGame
+- uid: Global.AMiniGame.miniGameConfig
+  commentId: F:Global.AMiniGame.miniGameConfig
+  parent: Global.AMiniGame
+  name: miniGameConfig
+  nameWithType: AMiniGame.miniGameConfig
+  fullName: AMiniGame.miniGameConfig
+- uid: Global.AMiniGame.score
+  commentId: F:Global.AMiniGame.score
+  parent: Global.AMiniGame
+  name: score
+  nameWithType: AMiniGame.score
+  fullName: AMiniGame.score
+- uid: Global.AMiniGame.success
+  commentId: P:Global.AMiniGame.success
+  parent: Global.AMiniGame
+  name: success
+  nameWithType: AMiniGame.success
+  fullName: AMiniGame.success
+- uid: Global.AMiniGame.windowText
+  commentId: F:Global.AMiniGame.windowText
+  parent: Global.AMiniGame
+  name: windowText
+  nameWithType: AMiniGame.windowText
+  fullName: AMiniGame.windowText
+- uid: Global.AMiniGame.RequestScoreWindow
+  commentId: M:Global.AMiniGame.RequestScoreWindow
+  parent: Global.AMiniGame
+  name: RequestScoreWindow()
+  nameWithType: AMiniGame.RequestScoreWindow()
+  fullName: AMiniGame.RequestScoreWindow()
+  spec.csharp:
+  - uid: Global.AMiniGame.RequestScoreWindow
+    name: RequestScoreWindow
+    nameWithType: AMiniGame.RequestScoreWindow
+    fullName: AMiniGame.RequestScoreWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.RequestScoreWindow
+    name: RequestScoreWindow
+    nameWithType: AMiniGame.RequestScoreWindow
+    fullName: AMiniGame.RequestScoreWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AMiniGame.RquestPromtWindow
+  commentId: M:Global.AMiniGame.RquestPromtWindow
+  parent: Global.AMiniGame
+  name: RquestPromtWindow()
+  nameWithType: AMiniGame.RquestPromtWindow()
+  fullName: AMiniGame.RquestPromtWindow()
+  spec.csharp:
+  - uid: Global.AMiniGame.RquestPromtWindow
+    name: RquestPromtWindow
+    nameWithType: AMiniGame.RquestPromtWindow
+    fullName: AMiniGame.RquestPromtWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.RquestPromtWindow
+    name: RquestPromtWindow
+    nameWithType: AMiniGame.RquestPromtWindow
+    fullName: AMiniGame.RquestPromtWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.PathProgrammingGrid
+  commentId: T:Global.PathProgrammingGrid
+  name: PathProgrammingGrid
+  nameWithType: PathProgrammingGrid
+  fullName: PathProgrammingGrid
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.AMiniGame.StartMiniGame
+  commentId: M:Global.AMiniGame.StartMiniGame
+  parent: Global.AMiniGame
+  name: StartMiniGame()
+  nameWithType: AMiniGame.StartMiniGame()
+  fullName: AMiniGame.StartMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.StartMiniGame
+    name: StartMiniGame
+    nameWithType: AMiniGame.StartMiniGame
+    fullName: AMiniGame.StartMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.StartMiniGame
+    name: StartMiniGame
+    nameWithType: AMiniGame.StartMiniGame
+    fullName: AMiniGame.StartMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.PathProgrammingMiniGame.StartMiniGame*
+  commentId: Overload:Global.PathProgrammingMiniGame.StartMiniGame
+  name: StartMiniGame
+  nameWithType: PathProgrammingMiniGame.StartMiniGame
+  fullName: PathProgrammingMiniGame.StartMiniGame
+- uid: Global.AMiniGame.ExitMiniGame
+  commentId: M:Global.AMiniGame.ExitMiniGame
+  parent: Global.AMiniGame
+  name: ExitMiniGame()
+  nameWithType: AMiniGame.ExitMiniGame()
+  fullName: AMiniGame.ExitMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.ExitMiniGame
+    name: ExitMiniGame
+    nameWithType: AMiniGame.ExitMiniGame
+    fullName: AMiniGame.ExitMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.ExitMiniGame
+    name: ExitMiniGame
+    nameWithType: AMiniGame.ExitMiniGame
+    fullName: AMiniGame.ExitMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.PathProgrammingMiniGame.ExitMiniGame*
+  commentId: Overload:Global.PathProgrammingMiniGame.ExitMiniGame
+  name: ExitMiniGame
+  nameWithType: PathProgrammingMiniGame.ExitMiniGame
+  fullName: PathProgrammingMiniGame.ExitMiniGame
+- uid: Global.AMiniGame.AbortMiniGame
+  commentId: M:Global.AMiniGame.AbortMiniGame
+  parent: Global.AMiniGame
+  name: AbortMiniGame()
+  nameWithType: AMiniGame.AbortMiniGame()
+  fullName: AMiniGame.AbortMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.AbortMiniGame
+    name: AbortMiniGame
+    nameWithType: AMiniGame.AbortMiniGame
+    fullName: AMiniGame.AbortMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.AbortMiniGame
+    name: AbortMiniGame
+    nameWithType: AMiniGame.AbortMiniGame
+    fullName: AMiniGame.AbortMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.PathProgrammingMiniGame.AbortMiniGame*
+  commentId: Overload:Global.PathProgrammingMiniGame.AbortMiniGame
+  name: AbortMiniGame
+  nameWithType: PathProgrammingMiniGame.AbortMiniGame
+  fullName: PathProgrammingMiniGame.AbortMiniGame
+- uid: Global.PathProgrammingMiniGame.OnPathProgrammingOrder*
+  commentId: Overload:Global.PathProgrammingMiniGame.OnPathProgrammingOrder
+  name: OnPathProgrammingOrder
+  nameWithType: PathProgrammingMiniGame.OnPathProgrammingOrder
+  fullName: PathProgrammingMiniGame.OnPathProgrammingOrder
+- uid: Global.List{PathProgrammingCommand}
+  commentId: '!:Global.List{PathProgrammingCommand}'
+  definition: Global.List`1
+  name: List<PathProgrammingCommand>
+  nameWithType: List<PathProgrammingCommand>
+  fullName: List<PathProgrammingCommand>
+  nameWithType.vb: List(Of PathProgrammingCommand)
+  fullName.vb: List(Of PathProgrammingCommand)
+  name.vb: List(Of PathProgrammingCommand)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.PathProgrammingCommand
+    name: PathProgrammingCommand
+    nameWithType: PathProgrammingCommand
+    fullName: PathProgrammingCommand
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.PathProgrammingCommand
+    name: PathProgrammingCommand
+    nameWithType: PathProgrammingCommand
+    fullName: PathProgrammingCommand
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.PathProgrammingMiniGame.OnPathProgrammingError*
+  commentId: Overload:Global.PathProgrammingMiniGame.OnPathProgrammingError
+  name: OnPathProgrammingError
+  nameWithType: PathProgrammingMiniGame.OnPathProgrammingError
+  fullName: PathProgrammingMiniGame.OnPathProgrammingError
+- uid: Global.PathProgrammingMiniGame.OnPathFinished*
+  commentId: Overload:Global.PathProgrammingMiniGame.OnPathFinished
+  name: OnPathFinished
+  nameWithType: PathProgrammingMiniGame.OnPathFinished
+  fullName: PathProgrammingMiniGame.OnPathFinished

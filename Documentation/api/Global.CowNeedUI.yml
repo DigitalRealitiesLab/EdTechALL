@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CowNeedUI
+  commentId: T:Global.CowNeedUI
+  id: CowNeedUI
+  parent: Global
+  children:
+  - Global.CowNeedUI.image
+  - Global.CowNeedUI.LoadNeed(Cow.CowNeed)
+  - Global.CowNeedUI.lookup
+  langs:
+  - csharp
+  - vb
+  name: CowNeedUI
+  nameWithType: CowNeedUI
+  fullName: CowNeedUI
+  type: Class
+  source:
+    id: CowNeedUI
+    path: ''
+    startLine: 15238
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CowNeedUI : MonoBehaviour'
+    content.vb: >-
+      Public Class CowNeedUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CowNeedUI.lookup
+  commentId: F:Global.CowNeedUI.lookup
+  id: lookup
+  parent: Global.CowNeedUI
+  langs:
+  - csharp
+  - vb
+  name: lookup
+  nameWithType: CowNeedUI.lookup
+  fullName: CowNeedUI.lookup
+  type: Field
+  source:
+    id: lookup
+    path: ''
+    startLine: 15240
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CowNeedUI.CowNeedSpriteLookup lookup
+    return:
+      type: Global.CowNeedUI.CowNeedSpriteLookup
+    content.vb: Public lookup As CowNeedUI.CowNeedSpriteLookup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowNeedUI.image
+  commentId: F:Global.CowNeedUI.image
+  id: image
+  parent: Global.CowNeedUI
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: CowNeedUI.image
+  fullName: CowNeedUI.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15241
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image image
+    return:
+      type: Global.Image
+    content.vb: Public image As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowNeedUI.LoadNeed(Cow.CowNeed)
+  commentId: M:Global.CowNeedUI.LoadNeed(Cow.CowNeed)
+  id: LoadNeed(Cow.CowNeed)
+  parent: Global.CowNeedUI
+  langs:
+  - csharp
+  - vb
+  name: LoadNeed(Cow.CowNeed)
+  nameWithType: CowNeedUI.LoadNeed(Cow.CowNeed)
+  fullName: CowNeedUI.LoadNeed(Cow.CowNeed)
+  type: Method
+  source:
+    id: LoadNeed
+    path: ''
+    startLine: 15243
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LoadNeed(Cow.CowNeed need)
+    parameters:
+    - id: need
+      type: Global.Cow.CowNeed
+    content.vb: Public Sub LoadNeed(need As Cow.CowNeed)
+  overload: Global.CowNeedUI.LoadNeed*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CowNeedUI.CowNeedSpriteLookup
+  commentId: T:Global.CowNeedUI.CowNeedSpriteLookup
+  name: CowNeedUI.CowNeedSpriteLookup
+  nameWithType: CowNeedUI.CowNeedSpriteLookup
+  fullName: CowNeedUI.CowNeedSpriteLookup
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.CowNeedUI.LoadNeed*
+  commentId: Overload:Global.CowNeedUI.LoadNeed
+  name: LoadNeed
+  nameWithType: CowNeedUI.LoadNeed
+  fullName: CowNeedUI.LoadNeed
+- uid: Global.Cow.CowNeed
+  commentId: T:Global.Cow.CowNeed
+  name: Cow.CowNeed
+  nameWithType: Cow.CowNeed
+  fullName: Cow.CowNeed

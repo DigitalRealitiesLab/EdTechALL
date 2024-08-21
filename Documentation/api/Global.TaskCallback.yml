@@ -1,0 +1,405 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TaskCallback
+  commentId: T:Global.TaskCallback
+  id: TaskCallback
+  parent: Global
+  children:
+  - Global.TaskCallback.#ctor(System.String,Type[])
+  - Global.TaskCallback.callbackParams
+  - Global.TaskCallback.callbackType
+  - Global.TaskCallback.FillParamData(System.Object[])
+  - Global.TaskCallback.GetCallbackParamAt``1(System.Int32)
+  - Global.TaskCallback.GetTypeAt(System.Int32)
+  - Global.TaskCallback.Publish(System.Object[])
+  - Global.TaskCallback.types
+  langs:
+  - csharp
+  - vb
+  name: TaskCallback
+  nameWithType: TaskCallback
+  fullName: TaskCallback
+  type: Struct
+  source:
+    id: TaskCallback
+    path: ''
+    startLine: 18156
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct TaskCallback
+    content.vb: Public Structure TaskCallback
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.TaskCallback.callbackType
+  commentId: F:Global.TaskCallback.callbackType
+  id: callbackType
+  parent: Global.TaskCallback
+  langs:
+  - csharp
+  - vb
+  name: callbackType
+  nameWithType: TaskCallback.callbackType
+  fullName: TaskCallback.callbackType
+  type: Field
+  source:
+    id: callbackType
+    path: ''
+    startLine: 18158
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string callbackType
+    return:
+      type: System.String
+    content.vb: Public callbackType As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskCallback.callbackParams
+  commentId: F:Global.TaskCallback.callbackParams
+  id: callbackParams
+  parent: Global.TaskCallback
+  langs:
+  - csharp
+  - vb
+  name: callbackParams
+  nameWithType: TaskCallback.callbackParams
+  fullName: TaskCallback.callbackParams
+  type: Field
+  source:
+    id: callbackParams
+    path: ''
+    startLine: 18159
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public object[] callbackParams
+    return:
+      type: System.Object[]
+    content.vb: Public callbackParams As Object()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskCallback.types
+  commentId: F:Global.TaskCallback.types
+  id: types
+  parent: Global.TaskCallback
+  langs:
+  - csharp
+  - vb
+  name: types
+  nameWithType: TaskCallback.types
+  fullName: TaskCallback.types
+  type: Field
+  source:
+    id: types
+    path: ''
+    startLine: 18160
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Type[] types
+    return:
+      type: Global.Type[]
+    content.vb: Public types As Type()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskCallback.#ctor(System.String,Type[])
+  commentId: M:Global.TaskCallback.#ctor(System.String,Type[])
+  id: '#ctor(System.String,Type[])'
+  parent: Global.TaskCallback
+  langs:
+  - csharp
+  - vb
+  name: TaskCallback(String, Type[])
+  nameWithType: TaskCallback.TaskCallback(String, Type[])
+  fullName: TaskCallback.TaskCallback(System.String, Type[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 18162
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskCallback(string callbackType, Type[] types)
+    parameters:
+    - id: callbackType
+      type: System.String
+    - id: types
+      type: Global.Type[]
+    content.vb: Public Sub New(callbackType As String, types As Type())
+  overload: Global.TaskCallback.#ctor*
+  nameWithType.vb: TaskCallback.TaskCallback(String, Type())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskCallback.TaskCallback(System.String, Type())
+  name.vb: TaskCallback(String, Type())
+- uid: Global.TaskCallback.FillParamData(System.Object[])
+  commentId: M:Global.TaskCallback.FillParamData(System.Object[])
+  id: FillParamData(System.Object[])
+  parent: Global.TaskCallback
+  langs:
+  - csharp
+  - vb
+  name: FillParamData(Object[])
+  nameWithType: TaskCallback.FillParamData(Object[])
+  fullName: TaskCallback.FillParamData(System.Object[])
+  type: Method
+  source:
+    id: FillParamData
+    path: ''
+    startLine: 18169
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void FillParamData(params object[] callbackParams)
+    parameters:
+    - id: callbackParams
+      type: System.Object[]
+    content.vb: Public Sub FillParamData(ParamArray callbackParams As Object())
+  overload: Global.TaskCallback.FillParamData*
+  nameWithType.vb: TaskCallback.FillParamData(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskCallback.FillParamData(System.Object())
+  name.vb: FillParamData(Object())
+- uid: Global.TaskCallback.GetTypeAt(System.Int32)
+  commentId: M:Global.TaskCallback.GetTypeAt(System.Int32)
+  id: GetTypeAt(System.Int32)
+  parent: Global.TaskCallback
+  langs:
+  - csharp
+  - vb
+  name: GetTypeAt(Int32)
+  nameWithType: TaskCallback.GetTypeAt(Int32)
+  fullName: TaskCallback.GetTypeAt(System.Int32)
+  type: Method
+  source:
+    id: GetTypeAt
+    path: ''
+    startLine: 18175
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Type GetTypeAt(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Global.Type
+    content.vb: Public Function GetTypeAt(index As Integer) As Type
+  overload: Global.TaskCallback.GetTypeAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskCallback.GetCallbackParamAt``1(System.Int32)
+  commentId: M:Global.TaskCallback.GetCallbackParamAt``1(System.Int32)
+  id: GetCallbackParamAt``1(System.Int32)
+  parent: Global.TaskCallback
+  langs:
+  - csharp
+  - vb
+  name: GetCallbackParamAt<T>(Int32)
+  nameWithType: TaskCallback.GetCallbackParamAt<T>(Int32)
+  fullName: TaskCallback.GetCallbackParamAt<T>(System.Int32)
+  type: Method
+  source:
+    id: GetCallbackParamAt
+    path: ''
+    startLine: 18182
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public T GetCallbackParamAt<T>(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetCallbackParamAt(Of T)(index As Integer) As T
+  overload: Global.TaskCallback.GetCallbackParamAt*
+  nameWithType.vb: TaskCallback.GetCallbackParamAt(Of T)(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskCallback.GetCallbackParamAt(Of T)(System.Int32)
+  name.vb: GetCallbackParamAt(Of T)(Int32)
+- uid: Global.TaskCallback.Publish(System.Object[])
+  commentId: M:Global.TaskCallback.Publish(System.Object[])
+  id: Publish(System.Object[])
+  parent: Global.TaskCallback
+  langs:
+  - csharp
+  - vb
+  name: Publish(Object[])
+  nameWithType: TaskCallback.Publish(Object[])
+  fullName: TaskCallback.Publish(System.Object[])
+  type: Method
+  source:
+    id: Publish
+    path: ''
+    startLine: 18189
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Publish(params object[] callbackParams)
+    parameters:
+    - id: callbackParams
+      type: System.Object[]
+    content.vb: Public Sub Publish(ParamArray callbackParams As Object())
+  overload: Global.TaskCallback.Publish*
+  nameWithType.vb: TaskCallback.Publish(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: TaskCallback.Publish(System.Object())
+  name.vb: Publish(Object())
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Type[]
+  isExternal: true
+  name: Type[]
+  nameWithType: Type[]
+  fullName: Type[]
+  nameWithType.vb: Type()
+  fullName.vb: Type()
+  name.vb: Type()
+  spec.csharp:
+  - uid: Global.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Type
+    name: Type
+    nameWithType: Type
+    fullName: Type
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.TaskCallback.#ctor*
+  commentId: Overload:Global.TaskCallback.#ctor
+  name: TaskCallback
+  nameWithType: TaskCallback.TaskCallback
+  fullName: TaskCallback.TaskCallback
+- uid: Global.TaskCallback.FillParamData*
+  commentId: Overload:Global.TaskCallback.FillParamData
+  name: FillParamData
+  nameWithType: TaskCallback.FillParamData
+  fullName: TaskCallback.FillParamData
+- uid: Global.TaskCallback.GetTypeAt*
+  commentId: Overload:Global.TaskCallback.GetTypeAt
+  name: GetTypeAt
+  nameWithType: TaskCallback.GetTypeAt
+  fullName: TaskCallback.GetTypeAt
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Type
+  commentId: '!:Global.Type'
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: Type
+- uid: Global.TaskCallback.GetCallbackParamAt*
+  commentId: Overload:Global.TaskCallback.GetCallbackParamAt
+  name: GetCallbackParamAt
+  nameWithType: TaskCallback.GetCallbackParamAt
+  fullName: TaskCallback.GetCallbackParamAt
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.TaskCallback.Publish*
+  commentId: Overload:Global.TaskCallback.Publish
+  name: Publish
+  nameWithType: TaskCallback.Publish
+  fullName: TaskCallback.Publish

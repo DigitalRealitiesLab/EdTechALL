@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.IInteractable
+  commentId: T:InteractionSystem.IInteractable
+  id: IInteractable
+  parent: InteractionSystem
+  children:
+  - InteractionSystem.IInteractable.Interact
+  langs:
+  - csharp
+  - vb
+  name: IInteractable
+  nameWithType: IInteractable
+  fullName: InteractionSystem.IInteractable
+  type: Interface
+  source:
+    id: IInteractable
+    path: ''
+    startLine: 24493
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public interface IInteractable
+    content.vb: Public Interface IInteractable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: InteractionSystem.IInteractable.Interact
+  commentId: M:InteractionSystem.IInteractable.Interact
+  id: Interact
+  parent: InteractionSystem.IInteractable
+  langs:
+  - csharp
+  - vb
+  name: Interact()
+  nameWithType: IInteractable.Interact()
+  fullName: InteractionSystem.IInteractable.Interact()
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 24495
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: void Interact()
+    content.vb: Sub Interact
+  overload: InteractionSystem.IInteractable.Interact*
+references:
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: InteractionSystem.IInteractable.Interact*
+  commentId: Overload:InteractionSystem.IInteractable.Interact
+  name: Interact
+  nameWithType: IInteractable.Interact
+  fullName: InteractionSystem.IInteractable.Interact

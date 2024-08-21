@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniGameType
+  commentId: T:Global.MiniGameType
+  id: MiniGameType
+  parent: Global
+  children:
+  - Global.MiniGameType.CitySearch
+  - Global.MiniGameType.CowTamagochi
+  - Global.MiniGameType.DairyFactory
+  - Global.MiniGameType.DecisionTree
+  - Global.MiniGameType.FarmComparison
+  - Global.MiniGameType.FarmSimulation
+  - Global.MiniGameType.MapLayer
+  langs:
+  - csharp
+  - vb
+  name: MiniGameType
+  nameWithType: MiniGameType
+  fullName: MiniGameType
+  type: Enum
+  source:
+    id: MiniGameType
+    path: ''
+    startLine: 14742
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum MiniGameType
+    content.vb: Public Enum MiniGameType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.MiniGameType.CitySearch
+  commentId: F:Global.MiniGameType.CitySearch
+  id: CitySearch
+  parent: Global.MiniGameType
+  langs:
+  - csharp
+  - vb
+  name: CitySearch
+  nameWithType: MiniGameType.CitySearch
+  fullName: MiniGameType.CitySearch
+  type: Field
+  source:
+    id: CitySearch
+    path: ''
+    startLine: 14744
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: CitySearch = 0
+    return:
+      type: Global.MiniGameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MiniGameType.FarmComparison
+  commentId: F:Global.MiniGameType.FarmComparison
+  id: FarmComparison
+  parent: Global.MiniGameType
+  langs:
+  - csharp
+  - vb
+  name: FarmComparison
+  nameWithType: MiniGameType.FarmComparison
+  fullName: MiniGameType.FarmComparison
+  type: Field
+  source:
+    id: FarmComparison
+    path: ''
+    startLine: 14745
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: FarmComparison = 1
+    return:
+      type: Global.MiniGameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MiniGameType.CowTamagochi
+  commentId: F:Global.MiniGameType.CowTamagochi
+  id: CowTamagochi
+  parent: Global.MiniGameType
+  langs:
+  - csharp
+  - vb
+  name: CowTamagochi
+  nameWithType: MiniGameType.CowTamagochi
+  fullName: MiniGameType.CowTamagochi
+  type: Field
+  source:
+    id: CowTamagochi
+    path: ''
+    startLine: 14746
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: CowTamagochi = 2
+    return:
+      type: Global.MiniGameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MiniGameType.FarmSimulation
+  commentId: F:Global.MiniGameType.FarmSimulation
+  id: FarmSimulation
+  parent: Global.MiniGameType
+  langs:
+  - csharp
+  - vb
+  name: FarmSimulation
+  nameWithType: MiniGameType.FarmSimulation
+  fullName: MiniGameType.FarmSimulation
+  type: Field
+  source:
+    id: FarmSimulation
+    path: ''
+    startLine: 14747
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: FarmSimulation = 3
+    return:
+      type: Global.MiniGameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MiniGameType.DairyFactory
+  commentId: F:Global.MiniGameType.DairyFactory
+  id: DairyFactory
+  parent: Global.MiniGameType
+  langs:
+  - csharp
+  - vb
+  name: DairyFactory
+  nameWithType: MiniGameType.DairyFactory
+  fullName: MiniGameType.DairyFactory
+  type: Field
+  source:
+    id: DairyFactory
+    path: ''
+    startLine: 14748
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: DairyFactory = 4
+    return:
+      type: Global.MiniGameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MiniGameType.DecisionTree
+  commentId: F:Global.MiniGameType.DecisionTree
+  id: DecisionTree
+  parent: Global.MiniGameType
+  langs:
+  - csharp
+  - vb
+  name: DecisionTree
+  nameWithType: MiniGameType.DecisionTree
+  fullName: MiniGameType.DecisionTree
+  type: Field
+  source:
+    id: DecisionTree
+    path: ''
+    startLine: 14749
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: DecisionTree = 5
+    return:
+      type: Global.MiniGameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.MiniGameType.MapLayer
+  commentId: F:Global.MiniGameType.MapLayer
+  id: MapLayer
+  parent: Global.MiniGameType
+  langs:
+  - csharp
+  - vb
+  name: MapLayer
+  nameWithType: MiniGameType.MapLayer
+  fullName: MiniGameType.MapLayer
+  type: Field
+  source:
+    id: MapLayer
+    path: ''
+    startLine: 14750
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: MapLayer = 6
+    return:
+      type: Global.MiniGameType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.MiniGameType
+  commentId: T:Global.MiniGameType
+  name: MiniGameType
+  nameWithType: MiniGameType
+  fullName: MiniGameType

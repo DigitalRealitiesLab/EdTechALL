@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GuidanceSystemControllerEditor
+  commentId: T:Global.GuidanceSystemControllerEditor
+  id: GuidanceSystemControllerEditor
+  parent: Global
+  children:
+  - Global.GuidanceSystemControllerEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: GuidanceSystemControllerEditor
+  nameWithType: GuidanceSystemControllerEditor
+  fullName: GuidanceSystemControllerEditor
+  type: Class
+  source:
+    id: GuidanceSystemControllerEditor
+    path: ''
+    startLine: 19395
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class GuidanceSystemControllerEditor : Editor'
+    content.vb: >-
+      Public Class GuidanceSystemControllerEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.GuidanceSystemControllerEditor.OnInspectorGUI
+  commentId: M:Global.GuidanceSystemControllerEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.GuidanceSystemControllerEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: GuidanceSystemControllerEditor.OnInspectorGUI()
+  fullName: GuidanceSystemControllerEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 19400
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.GuidanceSystemControllerEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GuidanceSystemControllerEditor.OnInspectorGUI*
+  commentId: Overload:Global.GuidanceSystemControllerEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: GuidanceSystemControllerEditor.OnInspectorGUI
+  fullName: GuidanceSystemControllerEditor.OnInspectorGUI

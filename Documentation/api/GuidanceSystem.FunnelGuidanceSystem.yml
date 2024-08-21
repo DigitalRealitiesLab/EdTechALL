@@ -1,0 +1,1050 @@
+### YamlMime:ManagedReference
+items:
+- uid: GuidanceSystem.FunnelGuidanceSystem
+  commentId: T:GuidanceSystem.FunnelGuidanceSystem
+  id: FunnelGuidanceSystem
+  parent: GuidanceSystem
+  children:
+  - GuidanceSystem.FunnelGuidanceSystem.baseFunnelSegmentSize
+  - GuidanceSystem.FunnelGuidanceSystem.funnelSegmentPrefab
+  - GuidanceSystem.FunnelGuidanceSystem.funnelSegments
+  - GuidanceSystem.FunnelGuidanceSystem.LayoutFunnel
+  - GuidanceSystem.FunnelGuidanceSystem.minMaxBlendInAngle
+  - GuidanceSystem.FunnelGuidanceSystem.minMaxTangentStrength
+  - GuidanceSystem.FunnelGuidanceSystem.OnTargetStateChanged
+  - GuidanceSystem.FunnelGuidanceSystem.OnViewerStateChanged
+  - GuidanceSystem.FunnelGuidanceSystem.Reset
+  - GuidanceSystem.FunnelGuidanceSystem.segmentStepDistance
+  - GuidanceSystem.FunnelGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  - GuidanceSystem.FunnelGuidanceSystem.SetViewer(Camera)
+  - GuidanceSystem.FunnelGuidanceSystem.spline
+  - GuidanceSystem.FunnelGuidanceSystem.startEndColor
+  - GuidanceSystem.FunnelGuidanceSystem.viewerOffset
+  langs:
+  - csharp
+  - vb
+  name: FunnelGuidanceSystem
+  nameWithType: FunnelGuidanceSystem
+  fullName: GuidanceSystem.FunnelGuidanceSystem
+  type: Class
+  source:
+    id: FunnelGuidanceSystem
+    path: ''
+    startLine: 19249
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: 'public class FunnelGuidanceSystem : AGuidanceSystem'
+    content.vb: >-
+      Public Class FunnelGuidanceSystem
+          Inherits AGuidanceSystem
+  inheritance:
+  - System.Object
+  - GuidanceSystem.AGuidanceSystem
+  inheritedMembers:
+  - GuidanceSystem.AGuidanceSystem.guidanceSystemIndex
+  - GuidanceSystem.AGuidanceSystem.viewer
+  - GuidanceSystem.AGuidanceSystem.target
+  - GuidanceSystem.AGuidanceSystem.visualEnabled
+  - GuidanceSystem.AGuidanceSystem.radiusOffset
+  - GuidanceSystem.AGuidanceSystem.positionOffset
+  - GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+  - GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  - GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  - GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  - GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3,System.Single)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GuidanceSystem.FunnelGuidanceSystem.funnelSegmentPrefab
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.funnelSegmentPrefab
+  id: funnelSegmentPrefab
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: funnelSegmentPrefab
+  nameWithType: FunnelGuidanceSystem.funnelSegmentPrefab
+  fullName: GuidanceSystem.FunnelGuidanceSystem.funnelSegmentPrefab
+  type: Field
+  source:
+    id: funnelSegmentPrefab
+    path: ''
+    startLine: 19251
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public GameObject funnelSegmentPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public funnelSegmentPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.FunnelGuidanceSystem.funnelSegments
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.funnelSegments
+  id: funnelSegments
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: funnelSegments
+  nameWithType: FunnelGuidanceSystem.funnelSegments
+  fullName: GuidanceSystem.FunnelGuidanceSystem.funnelSegments
+  type: Field
+  source:
+    id: funnelSegments
+    path: ''
+    startLine: 19253
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected List<GameObject> funnelSegments
+    return:
+      type: Global.List{GameObject}
+    content.vb: Protected funnelSegments As List(Of GameObject)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: GuidanceSystem.FunnelGuidanceSystem.spline
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.spline
+  id: spline
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: spline
+  nameWithType: FunnelGuidanceSystem.spline
+  fullName: GuidanceSystem.FunnelGuidanceSystem.spline
+  type: Field
+  source:
+    id: spline
+    path: ''
+    startLine: 19254
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public CubicSpline spline
+    return:
+      type: Global.CubicSpline
+    content.vb: Public spline As CubicSpline
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.FunnelGuidanceSystem.segmentStepDistance
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.segmentStepDistance
+  id: segmentStepDistance
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: segmentStepDistance
+  nameWithType: FunnelGuidanceSystem.segmentStepDistance
+  fullName: GuidanceSystem.FunnelGuidanceSystem.segmentStepDistance
+  type: Field
+  source:
+    id: segmentStepDistance
+    path: ''
+    startLine: 19256
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public float segmentStepDistance
+    return:
+      type: System.Single
+    content.vb: Public segmentStepDistance As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.FunnelGuidanceSystem.baseFunnelSegmentSize
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.baseFunnelSegmentSize
+  id: baseFunnelSegmentSize
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: baseFunnelSegmentSize
+  nameWithType: FunnelGuidanceSystem.baseFunnelSegmentSize
+  fullName: GuidanceSystem.FunnelGuidanceSystem.baseFunnelSegmentSize
+  type: Field
+  source:
+    id: baseFunnelSegmentSize
+    path: ''
+    startLine: 19257
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public float baseFunnelSegmentSize
+    return:
+      type: System.Single
+    content.vb: Public baseFunnelSegmentSize As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.FunnelGuidanceSystem.minMaxTangentStrength
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.minMaxTangentStrength
+  id: minMaxTangentStrength
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: minMaxTangentStrength
+  nameWithType: FunnelGuidanceSystem.minMaxTangentStrength
+  fullName: GuidanceSystem.FunnelGuidanceSystem.minMaxTangentStrength
+  type: Field
+  source:
+    id: minMaxTangentStrength
+    path: ''
+    startLine: 19258
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public Vector2 minMaxTangentStrength
+    return:
+      type: Global.Vector2
+    content.vb: Public minMaxTangentStrength As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.FunnelGuidanceSystem.viewerOffset
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.viewerOffset
+  id: viewerOffset
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: viewerOffset
+  nameWithType: FunnelGuidanceSystem.viewerOffset
+  fullName: GuidanceSystem.FunnelGuidanceSystem.viewerOffset
+  type: Field
+  source:
+    id: viewerOffset
+    path: ''
+    startLine: 19259
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public float viewerOffset
+    return:
+      type: System.Single
+    content.vb: Public viewerOffset As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.FunnelGuidanceSystem.minMaxBlendInAngle
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.minMaxBlendInAngle
+  id: minMaxBlendInAngle
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: minMaxBlendInAngle
+  nameWithType: FunnelGuidanceSystem.minMaxBlendInAngle
+  fullName: GuidanceSystem.FunnelGuidanceSystem.minMaxBlendInAngle
+  type: Field
+  source:
+    id: minMaxBlendInAngle
+    path: ''
+    startLine: 19261
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public Vector2 minMaxBlendInAngle
+    return:
+      type: Global.Vector2
+    content.vb: Public minMaxBlendInAngle As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.FunnelGuidanceSystem.startEndColor
+  commentId: F:GuidanceSystem.FunnelGuidanceSystem.startEndColor
+  id: startEndColor
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: startEndColor
+  nameWithType: FunnelGuidanceSystem.startEndColor
+  fullName: GuidanceSystem.FunnelGuidanceSystem.startEndColor
+  type: Field
+  source:
+    id: startEndColor
+    path: ''
+    startLine: 19262
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public Color[] startEndColor
+    return:
+      type: Global.Color[]
+    content.vb: Public startEndColor As Color()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.FunnelGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  commentId: M:GuidanceSystem.FunnelGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  id: SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: SetTarget(AGuidanceSystemTarget)
+  nameWithType: FunnelGuidanceSystem.SetTarget(AGuidanceSystemTarget)
+  fullName: GuidanceSystem.FunnelGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  type: Method
+  source:
+    id: SetTarget
+    path: ''
+    startLine: 19273
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public override void SetTarget(AGuidanceSystemTarget target)
+    parameters:
+    - id: target
+      type: GuidanceSystem.AGuidanceSystemTarget
+    content.vb: Public Overrides Sub SetTarget(target As AGuidanceSystemTarget)
+  overridden: GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  overload: GuidanceSystem.FunnelGuidanceSystem.SetTarget*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GuidanceSystem.FunnelGuidanceSystem.SetViewer(Camera)
+  commentId: M:GuidanceSystem.FunnelGuidanceSystem.SetViewer(Camera)
+  id: SetViewer(Camera)
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: SetViewer(Camera)
+  nameWithType: FunnelGuidanceSystem.SetViewer(Camera)
+  fullName: GuidanceSystem.FunnelGuidanceSystem.SetViewer(Camera)
+  type: Method
+  source:
+    id: SetViewer
+    path: ''
+    startLine: 19286
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public override void SetViewer(Camera viewer)
+    parameters:
+    - id: viewer
+      type: Global.Camera
+    content.vb: Public Overrides Sub SetViewer(viewer As Camera)
+  overridden: GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+  overload: GuidanceSystem.FunnelGuidanceSystem.SetViewer*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GuidanceSystem.FunnelGuidanceSystem.OnTargetStateChanged
+  commentId: M:GuidanceSystem.FunnelGuidanceSystem.OnTargetStateChanged
+  id: OnTargetStateChanged
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: OnTargetStateChanged()
+  nameWithType: FunnelGuidanceSystem.OnTargetStateChanged()
+  fullName: GuidanceSystem.FunnelGuidanceSystem.OnTargetStateChanged()
+  type: Method
+  source:
+    id: OnTargetStateChanged
+    path: ''
+    startLine: 19293
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public override void OnTargetStateChanged()
+    content.vb: Public Overrides Sub OnTargetStateChanged
+  overridden: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  overload: GuidanceSystem.FunnelGuidanceSystem.OnTargetStateChanged*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GuidanceSystem.FunnelGuidanceSystem.OnViewerStateChanged
+  commentId: M:GuidanceSystem.FunnelGuidanceSystem.OnViewerStateChanged
+  id: OnViewerStateChanged
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: OnViewerStateChanged()
+  nameWithType: FunnelGuidanceSystem.OnViewerStateChanged()
+  fullName: GuidanceSystem.FunnelGuidanceSystem.OnViewerStateChanged()
+  type: Method
+  source:
+    id: OnViewerStateChanged
+    path: ''
+    startLine: 19304
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public override void OnViewerStateChanged()
+    content.vb: Public Overrides Sub OnViewerStateChanged
+  overridden: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  overload: GuidanceSystem.FunnelGuidanceSystem.OnViewerStateChanged*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GuidanceSystem.FunnelGuidanceSystem.Reset
+  commentId: M:GuidanceSystem.FunnelGuidanceSystem.Reset
+  id: Reset
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: FunnelGuidanceSystem.Reset()
+  fullName: GuidanceSystem.FunnelGuidanceSystem.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 19316
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public override void Reset()
+    content.vb: Public Overrides Sub Reset
+  overridden: GuidanceSystem.AGuidanceSystem.Reset
+  overload: GuidanceSystem.FunnelGuidanceSystem.Reset*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: GuidanceSystem.FunnelGuidanceSystem.LayoutFunnel
+  commentId: M:GuidanceSystem.FunnelGuidanceSystem.LayoutFunnel
+  id: LayoutFunnel
+  parent: GuidanceSystem.FunnelGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: LayoutFunnel()
+  nameWithType: FunnelGuidanceSystem.LayoutFunnel()
+  fullName: GuidanceSystem.FunnelGuidanceSystem.LayoutFunnel()
+  type: Method
+  source:
+    id: LayoutFunnel
+    path: ''
+    startLine: 19323
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected void LayoutFunnel()
+    content.vb: Protected Sub LayoutFunnel
+  overload: GuidanceSystem.FunnelGuidanceSystem.LayoutFunnel*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: GuidanceSystem
+  commentId: N:GuidanceSystem
+  name: GuidanceSystem
+  nameWithType: GuidanceSystem
+  fullName: GuidanceSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: GuidanceSystem.AGuidanceSystem
+  commentId: T:GuidanceSystem.AGuidanceSystem
+  parent: GuidanceSystem
+  name: AGuidanceSystem
+  nameWithType: AGuidanceSystem
+  fullName: GuidanceSystem.AGuidanceSystem
+- uid: GuidanceSystem.AGuidanceSystem.guidanceSystemIndex
+  commentId: F:GuidanceSystem.AGuidanceSystem.guidanceSystemIndex
+  parent: GuidanceSystem.AGuidanceSystem
+  name: guidanceSystemIndex
+  nameWithType: AGuidanceSystem.guidanceSystemIndex
+  fullName: GuidanceSystem.AGuidanceSystem.guidanceSystemIndex
+- uid: GuidanceSystem.AGuidanceSystem.viewer
+  commentId: F:GuidanceSystem.AGuidanceSystem.viewer
+  parent: GuidanceSystem.AGuidanceSystem
+  name: viewer
+  nameWithType: AGuidanceSystem.viewer
+  fullName: GuidanceSystem.AGuidanceSystem.viewer
+- uid: GuidanceSystem.AGuidanceSystem.target
+  commentId: F:GuidanceSystem.AGuidanceSystem.target
+  parent: GuidanceSystem.AGuidanceSystem
+  name: target
+  nameWithType: AGuidanceSystem.target
+  fullName: GuidanceSystem.AGuidanceSystem.target
+- uid: GuidanceSystem.AGuidanceSystem.visualEnabled
+  commentId: F:GuidanceSystem.AGuidanceSystem.visualEnabled
+  parent: GuidanceSystem.AGuidanceSystem
+  name: visualEnabled
+  nameWithType: AGuidanceSystem.visualEnabled
+  fullName: GuidanceSystem.AGuidanceSystem.visualEnabled
+- uid: GuidanceSystem.AGuidanceSystem.radiusOffset
+  commentId: F:GuidanceSystem.AGuidanceSystem.radiusOffset
+  parent: GuidanceSystem.AGuidanceSystem
+  name: radiusOffset
+  nameWithType: AGuidanceSystem.radiusOffset
+  fullName: GuidanceSystem.AGuidanceSystem.radiusOffset
+- uid: GuidanceSystem.AGuidanceSystem.positionOffset
+  commentId: F:GuidanceSystem.AGuidanceSystem.positionOffset
+  parent: GuidanceSystem.AGuidanceSystem
+  name: positionOffset
+  nameWithType: AGuidanceSystem.positionOffset
+  fullName: GuidanceSystem.AGuidanceSystem.positionOffset
+- uid: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+  commentId: M:GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+  parent: GuidanceSystem.AGuidanceSystem
+  isExternal: true
+  name: SetVisualizationEnabled(Boolean)
+  nameWithType: AGuidanceSystem.SetVisualizationEnabled(Boolean)
+  fullName: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+    name: SetVisualizationEnabled
+    nameWithType: AGuidanceSystem.SetVisualizationEnabled
+    fullName: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+    name: SetVisualizationEnabled
+    nameWithType: AGuidanceSystem.SetVisualizationEnabled
+    fullName: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  commentId: M:GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  parent: GuidanceSystem.AGuidanceSystem
+  name: RegisterGuidanceSystem()
+  nameWithType: AGuidanceSystem.RegisterGuidanceSystem()
+  fullName: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem()
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+    name: RegisterGuidanceSystem
+    nameWithType: AGuidanceSystem.RegisterGuidanceSystem
+    fullName: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+    name: RegisterGuidanceSystem
+    nameWithType: AGuidanceSystem.RegisterGuidanceSystem
+    fullName: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  commentId: M:GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  parent: GuidanceSystem.AGuidanceSystem
+  name: GetRandomOffset()
+  nameWithType: AGuidanceSystem.GetRandomOffset()
+  fullName: GuidanceSystem.AGuidanceSystem.GetRandomOffset()
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.GetRandomOffset
+    name: GetRandomOffset
+    nameWithType: AGuidanceSystem.GetRandomOffset
+    fullName: GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.GetRandomOffset
+    name: GetRandomOffset
+    nameWithType: AGuidanceSystem.GetRandomOffset
+    fullName: GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  commentId: M:GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  parent: GuidanceSystem.AGuidanceSystem
+  name: ResetRandomOffset()
+  nameWithType: AGuidanceSystem.ResetRandomOffset()
+  fullName: GuidanceSystem.AGuidanceSystem.ResetRandomOffset()
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+    name: ResetRandomOffset
+    nameWithType: AGuidanceSystem.ResetRandomOffset
+    fullName: GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+    name: ResetRandomOffset
+    nameWithType: AGuidanceSystem.ResetRandomOffset
+    fullName: GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3,System.Single)
+  commentId: M:GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3,System.Single)
+  parent: GuidanceSystem.AGuidanceSystem
+  isExternal: true
+  name: RequestHighlightAt(Vector3, Single)
+  nameWithType: AGuidanceSystem.RequestHighlightAt(Vector3, Single)
+  fullName: GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3, System.Single)
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3,System.Single)
+    name: RequestHighlightAt
+    nameWithType: AGuidanceSystem.RequestHighlightAt
+    fullName: GuidanceSystem.AGuidanceSystem.RequestHighlightAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3,System.Single)
+    name: RequestHighlightAt
+    nameWithType: AGuidanceSystem.RequestHighlightAt
+    fullName: GuidanceSystem.AGuidanceSystem.RequestHighlightAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.List{GameObject}
+  commentId: '!:Global.List{GameObject}'
+  definition: Global.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.CubicSpline
+  commentId: T:Global.CubicSpline
+  name: CubicSpline
+  nameWithType: CubicSpline
+  fullName: CubicSpline
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.Color[]
+  isExternal: true
+  name: Color[]
+  nameWithType: Color[]
+  fullName: Color[]
+  nameWithType.vb: Color()
+  fullName.vb: Color()
+  name.vb: Color()
+  spec.csharp:
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  commentId: M:GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  parent: GuidanceSystem.AGuidanceSystem
+  name: SetTarget(AGuidanceSystemTarget)
+  nameWithType: AGuidanceSystem.SetTarget(AGuidanceSystemTarget)
+  fullName: GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+    name: SetTarget
+    nameWithType: AGuidanceSystem.SetTarget
+    fullName: GuidanceSystem.AGuidanceSystem.SetTarget
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: GuidanceSystem.AGuidanceSystemTarget
+    name: AGuidanceSystemTarget
+    nameWithType: AGuidanceSystemTarget
+    fullName: GuidanceSystem.AGuidanceSystemTarget
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+    name: SetTarget
+    nameWithType: AGuidanceSystem.SetTarget
+    fullName: GuidanceSystem.AGuidanceSystem.SetTarget
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: GuidanceSystem.AGuidanceSystemTarget
+    name: AGuidanceSystemTarget
+    nameWithType: AGuidanceSystemTarget
+    fullName: GuidanceSystem.AGuidanceSystemTarget
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.FunnelGuidanceSystem.SetTarget*
+  commentId: Overload:GuidanceSystem.FunnelGuidanceSystem.SetTarget
+  name: SetTarget
+  nameWithType: FunnelGuidanceSystem.SetTarget
+  fullName: GuidanceSystem.FunnelGuidanceSystem.SetTarget
+- uid: GuidanceSystem.AGuidanceSystemTarget
+  commentId: T:GuidanceSystem.AGuidanceSystemTarget
+  parent: GuidanceSystem
+  name: AGuidanceSystemTarget
+  nameWithType: AGuidanceSystemTarget
+  fullName: GuidanceSystem.AGuidanceSystemTarget
+- uid: GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+  commentId: M:GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+  parent: GuidanceSystem.AGuidanceSystem
+  isExternal: true
+  name: SetViewer(Camera)
+  nameWithType: AGuidanceSystem.SetViewer(Camera)
+  fullName: GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+    name: SetViewer
+    nameWithType: AGuidanceSystem.SetViewer
+    fullName: GuidanceSystem.AGuidanceSystem.SetViewer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Camera
+    name: Camera
+    nameWithType: Camera
+    fullName: Camera
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+    name: SetViewer
+    nameWithType: AGuidanceSystem.SetViewer
+    fullName: GuidanceSystem.AGuidanceSystem.SetViewer
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Camera
+    name: Camera
+    nameWithType: Camera
+    fullName: Camera
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.FunnelGuidanceSystem.SetViewer*
+  commentId: Overload:GuidanceSystem.FunnelGuidanceSystem.SetViewer
+  name: SetViewer
+  nameWithType: FunnelGuidanceSystem.SetViewer
+  fullName: GuidanceSystem.FunnelGuidanceSystem.SetViewer
+- uid: Global.Camera
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  commentId: M:GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  parent: GuidanceSystem.AGuidanceSystem
+  name: OnTargetStateChanged()
+  nameWithType: AGuidanceSystem.OnTargetStateChanged()
+  fullName: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged()
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+    name: OnTargetStateChanged
+    nameWithType: AGuidanceSystem.OnTargetStateChanged
+    fullName: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+    name: OnTargetStateChanged
+    nameWithType: AGuidanceSystem.OnTargetStateChanged
+    fullName: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.FunnelGuidanceSystem.OnTargetStateChanged*
+  commentId: Overload:GuidanceSystem.FunnelGuidanceSystem.OnTargetStateChanged
+  name: OnTargetStateChanged
+  nameWithType: FunnelGuidanceSystem.OnTargetStateChanged
+  fullName: GuidanceSystem.FunnelGuidanceSystem.OnTargetStateChanged
+- uid: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  commentId: M:GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  parent: GuidanceSystem.AGuidanceSystem
+  name: OnViewerStateChanged()
+  nameWithType: AGuidanceSystem.OnViewerStateChanged()
+  fullName: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged()
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+    name: OnViewerStateChanged
+    nameWithType: AGuidanceSystem.OnViewerStateChanged
+    fullName: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+    name: OnViewerStateChanged
+    nameWithType: AGuidanceSystem.OnViewerStateChanged
+    fullName: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.FunnelGuidanceSystem.OnViewerStateChanged*
+  commentId: Overload:GuidanceSystem.FunnelGuidanceSystem.OnViewerStateChanged
+  name: OnViewerStateChanged
+  nameWithType: FunnelGuidanceSystem.OnViewerStateChanged
+  fullName: GuidanceSystem.FunnelGuidanceSystem.OnViewerStateChanged
+- uid: GuidanceSystem.AGuidanceSystem.Reset
+  commentId: M:GuidanceSystem.AGuidanceSystem.Reset
+  parent: GuidanceSystem.AGuidanceSystem
+  name: Reset()
+  nameWithType: AGuidanceSystem.Reset()
+  fullName: GuidanceSystem.AGuidanceSystem.Reset()
+  spec.csharp:
+  - uid: GuidanceSystem.AGuidanceSystem.Reset
+    name: Reset
+    nameWithType: AGuidanceSystem.Reset
+    fullName: GuidanceSystem.AGuidanceSystem.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: GuidanceSystem.AGuidanceSystem.Reset
+    name: Reset
+    nameWithType: AGuidanceSystem.Reset
+    fullName: GuidanceSystem.AGuidanceSystem.Reset
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GuidanceSystem.FunnelGuidanceSystem.Reset*
+  commentId: Overload:GuidanceSystem.FunnelGuidanceSystem.Reset
+  name: Reset
+  nameWithType: FunnelGuidanceSystem.Reset
+  fullName: GuidanceSystem.FunnelGuidanceSystem.Reset
+- uid: GuidanceSystem.FunnelGuidanceSystem.LayoutFunnel*
+  commentId: Overload:GuidanceSystem.FunnelGuidanceSystem.LayoutFunnel
+  name: LayoutFunnel
+  nameWithType: FunnelGuidanceSystem.LayoutFunnel
+  fullName: GuidanceSystem.FunnelGuidanceSystem.LayoutFunnel

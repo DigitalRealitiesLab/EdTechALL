@@ -1,0 +1,128 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GemeindeSucheActiveImageMarkerUI
+  commentId: T:Global.GemeindeSucheActiveImageMarkerUI
+  id: GemeindeSucheActiveImageMarkerUI
+  parent: Global
+  children:
+  - Global.GemeindeSucheActiveImageMarkerUI.image
+  - Global.GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected(ARTrackedImage)
+  langs:
+  - csharp
+  - vb
+  name: GemeindeSucheActiveImageMarkerUI
+  nameWithType: GemeindeSucheActiveImageMarkerUI
+  fullName: GemeindeSucheActiveImageMarkerUI
+  type: Class
+  source:
+    id: GemeindeSucheActiveImageMarkerUI
+    path: ''
+    startLine: 15792
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class GemeindeSucheActiveImageMarkerUI : MonoBehaviour'
+    content.vb: >-
+      Public Class GemeindeSucheActiveImageMarkerUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.GemeindeSucheActiveImageMarkerUI.image
+  commentId: F:Global.GemeindeSucheActiveImageMarkerUI.image
+  id: image
+  parent: Global.GemeindeSucheActiveImageMarkerUI
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: GemeindeSucheActiveImageMarkerUI.image
+  fullName: GemeindeSucheActiveImageMarkerUI.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 15794
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Image image
+    return:
+      type: Global.Image
+    content.vb: Public image As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected(ARTrackedImage)
+  commentId: M:Global.GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected(ARTrackedImage)
+  id: OnReferenceImageMarkerDetected(ARTrackedImage)
+  parent: Global.GemeindeSucheActiveImageMarkerUI
+  langs:
+  - csharp
+  - vb
+  name: OnReferenceImageMarkerDetected(ARTrackedImage)
+  nameWithType: GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected(ARTrackedImage)
+  fullName: GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected(ARTrackedImage)
+  type: Method
+  source:
+    id: OnReferenceImageMarkerDetected
+    path: ''
+    startLine: 15807
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnReferenceImageMarkerDetected(ARTrackedImage trackedImage)
+    parameters:
+    - id: trackedImage
+      type: Global.ARTrackedImage
+    content.vb: Public Sub OnReferenceImageMarkerDetected(trackedImage As ARTrackedImage)
+  overload: Global.GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: Global.GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected*
+  commentId: Overload:Global.GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected
+  name: OnReferenceImageMarkerDetected
+  nameWithType: GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected
+  fullName: GemeindeSucheActiveImageMarkerUI.OnReferenceImageMarkerDetected
+- uid: Global.ARTrackedImage
+  isExternal: true
+  name: ARTrackedImage
+  nameWithType: ARTrackedImage
+  fullName: ARTrackedImage

@@ -1,0 +1,214 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TextSynthesisData
+  commentId: T:Global.TextSynthesisData
+  id: TextSynthesisData
+  parent: Global
+  children:
+  - Global.TextSynthesisData.definitiveArticles
+  - Global.TextSynthesisData.indefinitiveArticles
+  langs:
+  - csharp
+  - vb
+  name: TextSynthesisData
+  nameWithType: TextSynthesisData
+  fullName: TextSynthesisData
+  type: Class
+  source:
+    id: TextSynthesisData
+    path: ''
+    startLine: 16251
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TextSynthesisData : ScriptableObject'
+    content.vb: >-
+      Public Class TextSynthesisData
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TextSynthesisData.indefinitiveArticles
+  commentId: F:Global.TextSynthesisData.indefinitiveArticles
+  id: indefinitiveArticles
+  parent: Global.TextSynthesisData
+  langs:
+  - csharp
+  - vb
+  name: indefinitiveArticles
+  nameWithType: TextSynthesisData.indefinitiveArticles
+  fullName: TextSynthesisData.indefinitiveArticles
+  type: Field
+  source:
+    id: indefinitiveArticles
+    path: ''
+    startLine: 16254
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public EnumerableLookup<ArticleDescriptor, string> indefinitiveArticles
+    return:
+      type: Global.EnumerableLookup{ArticleDescriptor,System.String}
+    content.vb: Public indefinitiveArticles As EnumerableLookup(Of ArticleDescriptor, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextSynthesisData.definitiveArticles
+  commentId: F:Global.TextSynthesisData.definitiveArticles
+  id: definitiveArticles
+  parent: Global.TextSynthesisData
+  langs:
+  - csharp
+  - vb
+  name: definitiveArticles
+  nameWithType: TextSynthesisData.definitiveArticles
+  fullName: TextSynthesisData.definitiveArticles
+  type: Field
+  source:
+    id: definitiveArticles
+    path: ''
+    startLine: 16255
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public EnumerableLookup<ArticleDescriptor, string> definitiveArticles
+    return:
+      type: Global.EnumerableLookup{ArticleDescriptor,System.String}
+    content.vb: Public definitiveArticles As EnumerableLookup(Of ArticleDescriptor, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.EnumerableLookup{ArticleDescriptor,System.String}
+  commentId: T:Global.EnumerableLookup{ArticleDescriptor,System.String}
+  definition: Global.EnumerableLookup`2
+  name: EnumerableLookup<ArticleDescriptor, String>
+  nameWithType: EnumerableLookup<ArticleDescriptor, String>
+  fullName: EnumerableLookup<ArticleDescriptor, System.String>
+  nameWithType.vb: EnumerableLookup(Of ArticleDescriptor, String)
+  fullName.vb: EnumerableLookup(Of ArticleDescriptor, System.String)
+  name.vb: EnumerableLookup(Of ArticleDescriptor, String)
+  spec.csharp:
+  - uid: Global.EnumerableLookup`2
+    name: EnumerableLookup
+    nameWithType: EnumerableLookup
+    fullName: EnumerableLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.ArticleDescriptor
+    name: ArticleDescriptor
+    nameWithType: ArticleDescriptor
+    fullName: ArticleDescriptor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.EnumerableLookup`2
+    name: EnumerableLookup
+    nameWithType: EnumerableLookup
+    fullName: EnumerableLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.ArticleDescriptor
+    name: ArticleDescriptor
+    nameWithType: ArticleDescriptor
+    fullName: ArticleDescriptor
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.EnumerableLookup`2
+  commentId: T:Global.EnumerableLookup`2
+  name: EnumerableLookup<E, V>
+  nameWithType: EnumerableLookup<E, V>
+  fullName: EnumerableLookup<E, V>
+  nameWithType.vb: EnumerableLookup(Of E, V)
+  fullName.vb: EnumerableLookup(Of E, V)
+  name.vb: EnumerableLookup(Of E, V)
+  spec.csharp:
+  - uid: Global.EnumerableLookup`2
+    name: EnumerableLookup
+    nameWithType: EnumerableLookup
+    fullName: EnumerableLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.EnumerableLookup`2
+    name: EnumerableLookup
+    nameWithType: EnumerableLookup
+    fullName: EnumerableLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )

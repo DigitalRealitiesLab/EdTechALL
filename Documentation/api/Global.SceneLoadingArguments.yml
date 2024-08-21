@@ -1,0 +1,218 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SceneLoadingArguments
+  commentId: T:Global.SceneLoadingArguments
+  id: SceneLoadingArguments
+  parent: Global
+  children:
+  - Global.SceneLoadingArguments.#ctor(System.Object[])
+  - Global.SceneLoadingArguments.GetSceneLoadArgument``1(System.Int32)
+  - Global.SceneLoadingArguments.TryGetSceneLoadArgument``1(System.Int32,``0@)
+  langs:
+  - csharp
+  - vb
+  name: SceneLoadingArguments
+  nameWithType: SceneLoadingArguments
+  fullName: SceneLoadingArguments
+  type: Struct
+  source:
+    id: SceneLoadingArguments
+    path: ''
+    startLine: 17215
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct SceneLoadingArguments
+    content.vb: Public Structure SceneLoadingArguments
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.SceneLoadingArguments.#ctor(System.Object[])
+  commentId: M:Global.SceneLoadingArguments.#ctor(System.Object[])
+  id: '#ctor(System.Object[])'
+  parent: Global.SceneLoadingArguments
+  langs:
+  - csharp
+  - vb
+  name: SceneLoadingArguments(Object[])
+  nameWithType: SceneLoadingArguments.SceneLoadingArguments(Object[])
+  fullName: SceneLoadingArguments.SceneLoadingArguments(System.Object[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17220
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SceneLoadingArguments(params object[] args)
+    parameters:
+    - id: args
+      type: System.Object[]
+    content.vb: Public Sub New(ParamArray args As Object())
+  overload: Global.SceneLoadingArguments.#ctor*
+  nameWithType.vb: SceneLoadingArguments.SceneLoadingArguments(Object())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SceneLoadingArguments.SceneLoadingArguments(System.Object())
+  name.vb: SceneLoadingArguments(Object())
+- uid: Global.SceneLoadingArguments.GetSceneLoadArgument``1(System.Int32)
+  commentId: M:Global.SceneLoadingArguments.GetSceneLoadArgument``1(System.Int32)
+  id: GetSceneLoadArgument``1(System.Int32)
+  parent: Global.SceneLoadingArguments
+  langs:
+  - csharp
+  - vb
+  name: GetSceneLoadArgument<T>(Int32)
+  nameWithType: SceneLoadingArguments.GetSceneLoadArgument<T>(Int32)
+  fullName: SceneLoadingArguments.GetSceneLoadArgument<T>(System.Int32)
+  type: Method
+  source:
+    id: GetSceneLoadArgument
+    path: ''
+    startLine: 17228
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public T GetSceneLoadArgument<T>(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function GetSceneLoadArgument(Of T)(index As Integer) As T
+  overload: Global.SceneLoadingArguments.GetSceneLoadArgument*
+  nameWithType.vb: SceneLoadingArguments.GetSceneLoadArgument(Of T)(Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SceneLoadingArguments.GetSceneLoadArgument(Of T)(System.Int32)
+  name.vb: GetSceneLoadArgument(Of T)(Int32)
+- uid: Global.SceneLoadingArguments.TryGetSceneLoadArgument``1(System.Int32,``0@)
+  commentId: M:Global.SceneLoadingArguments.TryGetSceneLoadArgument``1(System.Int32,``0@)
+  id: TryGetSceneLoadArgument``1(System.Int32,``0@)
+  parent: Global.SceneLoadingArguments
+  langs:
+  - csharp
+  - vb
+  name: TryGetSceneLoadArgument<T>(Int32, out T)
+  nameWithType: SceneLoadingArguments.TryGetSceneLoadArgument<T>(Int32, out T)
+  fullName: SceneLoadingArguments.TryGetSceneLoadArgument<T>(System.Int32, out T)
+  type: Method
+  source:
+    id: TryGetSceneLoadArgument
+    path: ''
+    startLine: 17233
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool TryGetSceneLoadArgument<T>(int index, out T argument)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: argument
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function TryGetSceneLoadArgument(Of T)(index As Integer, ByRef argument As T) As Boolean
+  overload: Global.SceneLoadingArguments.TryGetSceneLoadArgument*
+  nameWithType.vb: SceneLoadingArguments.TryGetSceneLoadArgument(Of T)(Int32, ByRef T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SceneLoadingArguments.TryGetSceneLoadArgument(Of T)(System.Int32, ByRef T)
+  name.vb: TryGetSceneLoadArgument(Of T)(Int32, ByRef T)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.SceneLoadingArguments.#ctor*
+  commentId: Overload:Global.SceneLoadingArguments.#ctor
+  name: SceneLoadingArguments
+  nameWithType: SceneLoadingArguments.SceneLoadingArguments
+  fullName: SceneLoadingArguments.SceneLoadingArguments
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.SceneLoadingArguments.GetSceneLoadArgument*
+  commentId: Overload:Global.SceneLoadingArguments.GetSceneLoadArgument
+  name: GetSceneLoadArgument
+  nameWithType: SceneLoadingArguments.GetSceneLoadArgument
+  fullName: SceneLoadingArguments.GetSceneLoadArgument
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.SceneLoadingArguments.TryGetSceneLoadArgument*
+  commentId: Overload:Global.SceneLoadingArguments.TryGetSceneLoadArgument
+  name: TryGetSceneLoadArgument
+  nameWithType: SceneLoadingArguments.TryGetSceneLoadArgument
+  fullName: SceneLoadingArguments.TryGetSceneLoadArgument
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

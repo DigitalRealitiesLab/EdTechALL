@@ -1,0 +1,156 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ApplicationStatsPanel
+  commentId: T:Global.ApplicationStatsPanel
+  id: ApplicationStatsPanel
+  parent: Global
+  children:
+  - Global.ApplicationStatsPanel.fps
+  - Global.ApplicationStatsPanel.OnARSessionStatusChanged(ARSessionState)
+  - Global.ApplicationStatsPanel.sessionStatus
+  langs:
+  - csharp
+  - vb
+  name: ApplicationStatsPanel
+  nameWithType: ApplicationStatsPanel
+  fullName: ApplicationStatsPanel
+  type: Class
+  source:
+    id: ApplicationStatsPanel
+    path: ''
+    startLine: 20590
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ApplicationStatsPanel : MonoBehaviour'
+    content.vb: >-
+      Public Class ApplicationStatsPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ApplicationStatsPanel.fps
+  commentId: F:Global.ApplicationStatsPanel.fps
+  id: fps
+  parent: Global.ApplicationStatsPanel
+  langs:
+  - csharp
+  - vb
+  name: fps
+  nameWithType: ApplicationStatsPanel.fps
+  fullName: ApplicationStatsPanel.fps
+  type: Field
+  source:
+    id: fps
+    path: ''
+    startLine: 20592
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI fps
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public fps As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ApplicationStatsPanel.sessionStatus
+  commentId: F:Global.ApplicationStatsPanel.sessionStatus
+  id: sessionStatus
+  parent: Global.ApplicationStatsPanel
+  langs:
+  - csharp
+  - vb
+  name: sessionStatus
+  nameWithType: ApplicationStatsPanel.sessionStatus
+  fullName: ApplicationStatsPanel.sessionStatus
+  type: Field
+  source:
+    id: sessionStatus
+    path: ''
+    startLine: 20593
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI sessionStatus
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public sessionStatus As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ApplicationStatsPanel.OnARSessionStatusChanged(ARSessionState)
+  commentId: M:Global.ApplicationStatsPanel.OnARSessionStatusChanged(ARSessionState)
+  id: OnARSessionStatusChanged(ARSessionState)
+  parent: Global.ApplicationStatsPanel
+  langs:
+  - csharp
+  - vb
+  name: OnARSessionStatusChanged(ARSessionState)
+  nameWithType: ApplicationStatsPanel.OnARSessionStatusChanged(ARSessionState)
+  fullName: ApplicationStatsPanel.OnARSessionStatusChanged(ARSessionState)
+  type: Method
+  source:
+    id: OnARSessionStatusChanged
+    path: ''
+    startLine: 20609
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnARSessionStatusChanged(ARSessionState state)
+    parameters:
+    - id: state
+      type: Global.ARSessionState
+    content.vb: Public Sub OnARSessionStatusChanged(state As ARSessionState)
+  overload: Global.ApplicationStatsPanel.OnARSessionStatusChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.ApplicationStatsPanel.OnARSessionStatusChanged*
+  commentId: Overload:Global.ApplicationStatsPanel.OnARSessionStatusChanged
+  name: OnARSessionStatusChanged
+  nameWithType: ApplicationStatsPanel.OnARSessionStatusChanged
+  fullName: ApplicationStatsPanel.OnARSessionStatusChanged
+- uid: Global.ARSessionState
+  isExternal: true
+  name: ARSessionState
+  nameWithType: ARSessionState
+  fullName: ARSessionState

@@ -1,0 +1,297 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingBoxElement
+  commentId: T:BuildingBox.BuildingBoxElement
+  id: BuildingBoxElement
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingBoxElement.Awake
+  - BuildingBox.BuildingBoxElement.boundsSource
+  - BuildingBox.BuildingBoxElement.elementSize
+  - BuildingBox.BuildingBoxElement.elementSizeVisualization
+  - BuildingBox.BuildingBoxElement.OnDeselect
+  - BuildingBox.BuildingBoxElement.OnSelect
+  - BuildingBox.BuildingBoxElement.SetSwitchBehaviourEnabled(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxElement
+  nameWithType: BuildingBoxElement
+  fullName: BuildingBox.BuildingBoxElement
+  type: Class
+  source:
+    id: BuildingBoxElement
+    path: ''
+    startLine: 286
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class BuildingBoxElement : ASelectionBehaviour'
+    content.vb: >-
+      Public Class BuildingBoxElement
+          Inherits ASelectionBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingBoxElement.elementSize
+  commentId: F:BuildingBox.BuildingBoxElement.elementSize
+  id: elementSize
+  parent: BuildingBox.BuildingBoxElement
+  langs:
+  - csharp
+  - vb
+  name: elementSize
+  nameWithType: BuildingBoxElement.elementSize
+  fullName: BuildingBox.BuildingBoxElement.elementSize
+  type: Field
+  source:
+    id: elementSize
+    path: ''
+    startLine: 288
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Vector2 elementSize
+    return:
+      type: Global.Vector2
+    content.vb: Public elementSize As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElement.elementSizeVisualization
+  commentId: F:BuildingBox.BuildingBoxElement.elementSizeVisualization
+  id: elementSizeVisualization
+  parent: BuildingBox.BuildingBoxElement
+  langs:
+  - csharp
+  - vb
+  name: elementSizeVisualization
+  nameWithType: BuildingBoxElement.elementSizeVisualization
+  fullName: BuildingBox.BuildingBoxElement.elementSizeVisualization
+  type: Field
+  source:
+    id: elementSizeVisualization
+    path: ''
+    startLine: 289
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Renderer elementSizeVisualization
+    return:
+      type: Global.Renderer
+    content.vb: Public elementSizeVisualization As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElement.boundsSource
+  commentId: F:BuildingBox.BuildingBoxElement.boundsSource
+  id: boundsSource
+  parent: BuildingBox.BuildingBoxElement
+  langs:
+  - csharp
+  - vb
+  name: boundsSource
+  nameWithType: BuildingBoxElement.boundsSource
+  fullName: BuildingBox.BuildingBoxElement.boundsSource
+  type: Field
+  source:
+    id: boundsSource
+    path: ''
+    startLine: 290
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public MeshFilter boundsSource
+    return:
+      type: Global.MeshFilter
+    content.vb: Public boundsSource As MeshFilter
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElement.Awake
+  commentId: M:BuildingBox.BuildingBoxElement.Awake
+  id: Awake
+  parent: BuildingBox.BuildingBoxElement
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: BuildingBoxElement.Awake()
+  fullName: BuildingBox.BuildingBoxElement.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 292
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overload: BuildingBox.BuildingBoxElement.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: BuildingBox.BuildingBoxElement.OnSelect
+  commentId: M:BuildingBox.BuildingBoxElement.OnSelect
+  id: OnSelect
+  parent: BuildingBox.BuildingBoxElement
+  langs:
+  - csharp
+  - vb
+  name: OnSelect()
+  nameWithType: BuildingBoxElement.OnSelect()
+  fullName: BuildingBox.BuildingBoxElement.OnSelect()
+  type: Method
+  source:
+    id: OnSelect
+    path: ''
+    startLine: 307
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public override void OnSelect()
+    content.vb: Public Overrides Sub OnSelect
+  overload: BuildingBox.BuildingBoxElement.OnSelect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BuildingBox.BuildingBoxElement.OnDeselect
+  commentId: M:BuildingBox.BuildingBoxElement.OnDeselect
+  id: OnDeselect
+  parent: BuildingBox.BuildingBoxElement
+  langs:
+  - csharp
+  - vb
+  name: OnDeselect()
+  nameWithType: BuildingBoxElement.OnDeselect()
+  fullName: BuildingBox.BuildingBoxElement.OnDeselect()
+  type: Method
+  source:
+    id: OnDeselect
+    path: ''
+    startLine: 312
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public override void OnDeselect()
+    content.vb: Public Overrides Sub OnDeselect
+  overload: BuildingBox.BuildingBoxElement.OnDeselect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BuildingBox.BuildingBoxElement.SetSwitchBehaviourEnabled(System.Boolean)
+  commentId: M:BuildingBox.BuildingBoxElement.SetSwitchBehaviourEnabled(System.Boolean)
+  id: SetSwitchBehaviourEnabled(System.Boolean)
+  parent: BuildingBox.BuildingBoxElement
+  langs:
+  - csharp
+  - vb
+  name: SetSwitchBehaviourEnabled(Boolean)
+  nameWithType: BuildingBoxElement.SetSwitchBehaviourEnabled(Boolean)
+  fullName: BuildingBox.BuildingBoxElement.SetSwitchBehaviourEnabled(System.Boolean)
+  type: Method
+  source:
+    id: SetSwitchBehaviourEnabled
+    path: ''
+    startLine: 317
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void SetSwitchBehaviourEnabled(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub SetSwitchBehaviourEnabled(enabled As Boolean)
+  overload: BuildingBox.BuildingBoxElement.SetSwitchBehaviourEnabled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Renderer
+- uid: Global.MeshFilter
+  commentId: '!:Global.MeshFilter'
+  isExternal: true
+  name: MeshFilter
+  nameWithType: MeshFilter
+  fullName: MeshFilter
+- uid: BuildingBox.BuildingBoxElement.Awake*
+  commentId: Overload:BuildingBox.BuildingBoxElement.Awake
+  name: Awake
+  nameWithType: BuildingBoxElement.Awake
+  fullName: BuildingBox.BuildingBoxElement.Awake
+- uid: BuildingBox.BuildingBoxElement.OnSelect*
+  commentId: Overload:BuildingBox.BuildingBoxElement.OnSelect
+  name: OnSelect
+  nameWithType: BuildingBoxElement.OnSelect
+  fullName: BuildingBox.BuildingBoxElement.OnSelect
+- uid: BuildingBox.BuildingBoxElement.OnDeselect*
+  commentId: Overload:BuildingBox.BuildingBoxElement.OnDeselect
+  name: OnDeselect
+  nameWithType: BuildingBoxElement.OnDeselect
+  fullName: BuildingBox.BuildingBoxElement.OnDeselect
+- uid: BuildingBox.BuildingBoxElement.SetSwitchBehaviourEnabled*
+  commentId: Overload:BuildingBox.BuildingBoxElement.SetSwitchBehaviourEnabled
+  name: SetSwitchBehaviourEnabled
+  nameWithType: BuildingBoxElement.SetSwitchBehaviourEnabled
+  fullName: BuildingBox.BuildingBoxElement.SetSwitchBehaviourEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

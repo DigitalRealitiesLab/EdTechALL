@@ -1,0 +1,426 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.ProxyTaskCardUI
+  commentId: T:CardModule.UI.ProxyTaskCardUI
+  id: ProxyTaskCardUI
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.ProxyTaskCardUI.Awake
+  - CardModule.UI.ProxyTaskCardUI.index
+  - CardModule.UI.ProxyTaskCardUI.LoadFromData
+  - CardModule.UI.ProxyTaskCardUI.taskData
+  langs:
+  - csharp
+  - vb
+  name: ProxyTaskCardUI
+  nameWithType: ProxyTaskCardUI
+  fullName: CardModule.UI.ProxyTaskCardUI
+  type: Class
+  source:
+    id: ProxyTaskCardUI
+    path: ''
+    startLine: 20329
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: 'public class ProxyTaskCardUI : ProxyCardUI'
+    content.vb: >-
+      Public Class ProxyTaskCardUI
+          Inherits ProxyCardUI
+  inheritance:
+  - System.Object
+  - CardModule.UI.ProxyCardUI
+  inheritedMembers:
+  - CardModule.UI.ProxyCardUI.button
+  - CardModule.UI.ProxyCardUI.toggle
+  - CardModule.UI.ProxyCardUI.proxyCardData
+  - CardModule.UI.ProxyCardUI.cardNumber
+  - CardModule.UI.ProxyCardUI.title
+  - CardModule.UI.ProxyCardUI._isActive
+  - CardModule.UI.ProxyCardUI.isActive
+  - CardModule.UI.ProxyCardUI.OnKlick
+  - CardModule.UI.ProxyCardUI.AsSubType``1({T}@)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.UI.ProxyTaskCardUI.taskData
+  commentId: F:CardModule.UI.ProxyTaskCardUI.taskData
+  id: taskData
+  parent: CardModule.UI.ProxyTaskCardUI
+  langs:
+  - csharp
+  - vb
+  name: taskData
+  nameWithType: ProxyTaskCardUI.taskData
+  fullName: CardModule.UI.ProxyTaskCardUI.taskData
+  type: Field
+  source:
+    id: taskData
+    path: ''
+    startLine: 20332
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TaskData taskData
+    return:
+      type: Global.TaskData
+    content.vb: Public taskData As TaskData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.ProxyTaskCardUI.index
+  commentId: P:CardModule.UI.ProxyTaskCardUI.index
+  id: index
+  parent: CardModule.UI.ProxyTaskCardUI
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: ProxyTaskCardUI.index
+  fullName: CardModule.UI.ProxyTaskCardUI.index
+  type: Property
+  source:
+    id: index
+    path: ''
+    startLine: 20334
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public override int index { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overrides WriteOnly Property index As Integer
+  overridden: CardModule.UI.ProxyCardUI.index
+  overload: CardModule.UI.ProxyTaskCardUI.index*
+  modifiers.csharp:
+  - public
+  - override
+  - set
+  modifiers.vb:
+  - Public
+  - Overrides
+  - WriteOnly
+- uid: CardModule.UI.ProxyTaskCardUI.Awake
+  commentId: M:CardModule.UI.ProxyTaskCardUI.Awake
+  id: Awake
+  parent: CardModule.UI.ProxyTaskCardUI
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ProxyTaskCardUI.Awake()
+  fullName: CardModule.UI.ProxyTaskCardUI.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 20336
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: CardModule.UI.ProxyCardUI.Awake
+  overload: CardModule.UI.ProxyTaskCardUI.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: CardModule.UI.ProxyTaskCardUI.LoadFromData
+  commentId: M:CardModule.UI.ProxyTaskCardUI.LoadFromData
+  id: LoadFromData
+  parent: CardModule.UI.ProxyTaskCardUI
+  langs:
+  - csharp
+  - vb
+  name: LoadFromData()
+  nameWithType: ProxyTaskCardUI.LoadFromData()
+  fullName: CardModule.UI.ProxyTaskCardUI.LoadFromData()
+  type: Method
+  source:
+    id: LoadFromData
+    path: ''
+    startLine: 20342
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public override void LoadFromData()
+    content.vb: Public Overrides Sub LoadFromData
+  overridden: CardModule.UI.ProxyCardUI.LoadFromData
+  overload: CardModule.UI.ProxyTaskCardUI.LoadFromData*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: CardModule.UI.ProxyCardUI
+  commentId: T:CardModule.UI.ProxyCardUI
+  parent: CardModule.UI
+  name: ProxyCardUI
+  nameWithType: ProxyCardUI
+  fullName: CardModule.UI.ProxyCardUI
+- uid: CardModule.UI.ProxyCardUI.button
+  commentId: F:CardModule.UI.ProxyCardUI.button
+  parent: CardModule.UI.ProxyCardUI
+  name: button
+  nameWithType: ProxyCardUI.button
+  fullName: CardModule.UI.ProxyCardUI.button
+- uid: CardModule.UI.ProxyCardUI.toggle
+  commentId: F:CardModule.UI.ProxyCardUI.toggle
+  parent: CardModule.UI.ProxyCardUI
+  name: toggle
+  nameWithType: ProxyCardUI.toggle
+  fullName: CardModule.UI.ProxyCardUI.toggle
+- uid: CardModule.UI.ProxyCardUI.proxyCardData
+  commentId: F:CardModule.UI.ProxyCardUI.proxyCardData
+  parent: CardModule.UI.ProxyCardUI
+  name: proxyCardData
+  nameWithType: ProxyCardUI.proxyCardData
+  fullName: CardModule.UI.ProxyCardUI.proxyCardData
+- uid: CardModule.UI.ProxyCardUI.cardNumber
+  commentId: F:CardModule.UI.ProxyCardUI.cardNumber
+  parent: CardModule.UI.ProxyCardUI
+  name: cardNumber
+  nameWithType: ProxyCardUI.cardNumber
+  fullName: CardModule.UI.ProxyCardUI.cardNumber
+- uid: CardModule.UI.ProxyCardUI.title
+  commentId: F:CardModule.UI.ProxyCardUI.title
+  parent: CardModule.UI.ProxyCardUI
+  name: title
+  nameWithType: ProxyCardUI.title
+  fullName: CardModule.UI.ProxyCardUI.title
+- uid: CardModule.UI.ProxyCardUI._isActive
+  commentId: F:CardModule.UI.ProxyCardUI._isActive
+  parent: CardModule.UI.ProxyCardUI
+  name: _isActive
+  nameWithType: ProxyCardUI._isActive
+  fullName: CardModule.UI.ProxyCardUI._isActive
+- uid: CardModule.UI.ProxyCardUI.isActive
+  commentId: P:CardModule.UI.ProxyCardUI.isActive
+  parent: CardModule.UI.ProxyCardUI
+  name: isActive
+  nameWithType: ProxyCardUI.isActive
+  fullName: CardModule.UI.ProxyCardUI.isActive
+- uid: CardModule.UI.ProxyCardUI.OnKlick
+  commentId: M:CardModule.UI.ProxyCardUI.OnKlick
+  parent: CardModule.UI.ProxyCardUI
+  name: OnKlick()
+  nameWithType: ProxyCardUI.OnKlick()
+  fullName: CardModule.UI.ProxyCardUI.OnKlick()
+  spec.csharp:
+  - uid: CardModule.UI.ProxyCardUI.OnKlick
+    name: OnKlick
+    nameWithType: ProxyCardUI.OnKlick
+    fullName: CardModule.UI.ProxyCardUI.OnKlick
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardModule.UI.ProxyCardUI.OnKlick
+    name: OnKlick
+    nameWithType: ProxyCardUI.OnKlick
+    fullName: CardModule.UI.ProxyCardUI.OnKlick
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardModule.UI.ProxyCardUI.AsSubType``1({T}@)
+  commentId: M:CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+  parent: CardModule.UI.ProxyCardUI
+  definition: CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+  name: AsSubType<T>(T)
+  nameWithType: ProxyCardUI.AsSubType<T>(T)
+  fullName: CardModule.UI.ProxyCardUI.AsSubType<T>(T)
+  nameWithType.vb: ProxyCardUI.AsSubType(Of T)(T)
+  fullName.vb: CardModule.UI.ProxyCardUI.AsSubType(Of T)(T)
+  name.vb: AsSubType(Of T)(T)
+  spec.csharp:
+  - uid: CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+    name: AsSubType<T>
+    nameWithType: ProxyCardUI.AsSubType<T>
+    fullName: CardModule.UI.ProxyCardUI.AsSubType<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+    name: AsSubType(Of T)
+    nameWithType: ProxyCardUI.AsSubType(Of T)
+    fullName: CardModule.UI.ProxyCardUI.AsSubType(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+  commentId: M:CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+  name: AsSubType<T>(T)
+  nameWithType: ProxyCardUI.AsSubType<T>(T)
+  fullName: CardModule.UI.ProxyCardUI.AsSubType<T>(T)
+  nameWithType.vb: ProxyCardUI.AsSubType(Of T)(T)
+  fullName.vb: CardModule.UI.ProxyCardUI.AsSubType(Of T)(T)
+  name.vb: AsSubType(Of T)(T)
+  spec.csharp:
+  - uid: CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+    name: AsSubType<T>
+    nameWithType: ProxyCardUI.AsSubType<T>
+    fullName: CardModule.UI.ProxyCardUI.AsSubType<T>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+    name: AsSubType(Of T)
+    nameWithType: ProxyCardUI.AsSubType(Of T)
+    fullName: CardModule.UI.ProxyCardUI.AsSubType(Of T)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+- uid: CardModule.UI.ProxyCardUI.index
+  commentId: P:CardModule.UI.ProxyCardUI.index
+  parent: CardModule.UI.ProxyCardUI
+  name: index
+  nameWithType: ProxyCardUI.index
+  fullName: CardModule.UI.ProxyCardUI.index
+- uid: CardModule.UI.ProxyTaskCardUI.index*
+  commentId: Overload:CardModule.UI.ProxyTaskCardUI.index
+  name: index
+  nameWithType: ProxyTaskCardUI.index
+  fullName: CardModule.UI.ProxyTaskCardUI.index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardModule.UI.ProxyCardUI.Awake
+  commentId: M:CardModule.UI.ProxyCardUI.Awake
+  parent: CardModule.UI.ProxyCardUI
+  name: Awake()
+  nameWithType: ProxyCardUI.Awake()
+  fullName: CardModule.UI.ProxyCardUI.Awake()
+  spec.csharp:
+  - uid: CardModule.UI.ProxyCardUI.Awake
+    name: Awake
+    nameWithType: ProxyCardUI.Awake
+    fullName: CardModule.UI.ProxyCardUI.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardModule.UI.ProxyCardUI.Awake
+    name: Awake
+    nameWithType: ProxyCardUI.Awake
+    fullName: CardModule.UI.ProxyCardUI.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardModule.UI.ProxyTaskCardUI.Awake*
+  commentId: Overload:CardModule.UI.ProxyTaskCardUI.Awake
+  name: Awake
+  nameWithType: ProxyTaskCardUI.Awake
+  fullName: CardModule.UI.ProxyTaskCardUI.Awake
+- uid: CardModule.UI.ProxyCardUI.LoadFromData
+  commentId: M:CardModule.UI.ProxyCardUI.LoadFromData
+  parent: CardModule.UI.ProxyCardUI
+  name: LoadFromData()
+  nameWithType: ProxyCardUI.LoadFromData()
+  fullName: CardModule.UI.ProxyCardUI.LoadFromData()
+  spec.csharp:
+  - uid: CardModule.UI.ProxyCardUI.LoadFromData
+    name: LoadFromData
+    nameWithType: ProxyCardUI.LoadFromData
+    fullName: CardModule.UI.ProxyCardUI.LoadFromData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: CardModule.UI.ProxyCardUI.LoadFromData
+    name: LoadFromData
+    nameWithType: ProxyCardUI.LoadFromData
+    fullName: CardModule.UI.ProxyCardUI.LoadFromData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: CardModule.UI.ProxyTaskCardUI.LoadFromData*
+  commentId: Overload:CardModule.UI.ProxyTaskCardUI.LoadFromData
+  name: LoadFromData
+  nameWithType: ProxyTaskCardUI.LoadFromData
+  fullName: CardModule.UI.ProxyTaskCardUI.LoadFromData

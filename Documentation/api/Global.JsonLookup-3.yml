@@ -1,0 +1,504 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.JsonLookup`3
+  commentId: T:Global.JsonLookup`3
+  id: JsonLookup`3
+  parent: Global
+  children:
+  - Global.JsonLookup`3.Awake
+  - Global.JsonLookup`3.GetAt(`0)
+  - Global.JsonLookup`3.keyName
+  - Global.JsonLookup`3.lookup
+  - Global.JsonLookup`3.sourceData
+  langs:
+  - csharp
+  - vb
+  name: JsonLookup<K, V, S>
+  nameWithType: JsonLookup<K, V, S>
+  fullName: JsonLookup<K, V, S>
+  type: Class
+  source:
+    id: JsonLookup
+    path: ''
+    startLine: 16297
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class JsonLookup<K, V, S> : Singleton<JsonLookup<K, V, S>> where S : IEnumerable<V>'
+    typeParameters:
+    - id: K
+    - id: V
+    - id: S
+    content.vb: >-
+      Public Class JsonLookup(Of K, V, S As IEnumerable(Of V))
+          Inherits Singleton(Of JsonLookup(Of K, V, S))
+  inheritance:
+  - System.Object
+  - Global.Singleton{JsonLookup`3}
+  derivedClasses:
+  - Global.DistrictLookup
+  - Global.MunicipalityLookup
+  - Global.RegionLookup
+  inheritedMembers:
+  - Global.Singleton{JsonLookup`3}.Instance
+  nameWithType.vb: JsonLookup(Of K, V, S)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: JsonLookup(Of K, V, S)
+  name.vb: JsonLookup(Of K, V, S)
+- uid: Global.JsonLookup`3.sourceData
+  commentId: F:Global.JsonLookup`3.sourceData
+  id: sourceData
+  parent: Global.JsonLookup`3
+  langs:
+  - csharp
+  - vb
+  name: sourceData
+  nameWithType: JsonLookup<K, V, S>.sourceData
+  fullName: JsonLookup<K, V, S>.sourceData
+  type: Field
+  source:
+    id: sourceData
+    path: ''
+    startLine: 16300
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextAsset sourceData
+    return:
+      type: Global.TextAsset
+    content.vb: Public sourceData As TextAsset
+  nameWithType.vb: JsonLookup(Of K, V, S).sourceData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: JsonLookup(Of K, V, S).sourceData
+- uid: Global.JsonLookup`3.keyName
+  commentId: F:Global.JsonLookup`3.keyName
+  id: keyName
+  parent: Global.JsonLookup`3
+  langs:
+  - csharp
+  - vb
+  name: keyName
+  nameWithType: JsonLookup<K, V, S>.keyName
+  fullName: JsonLookup<K, V, S>.keyName
+  type: Field
+  source:
+    id: keyName
+    path: ''
+    startLine: 16301
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected string keyName
+    return:
+      type: System.String
+    content.vb: Protected keyName As String
+  nameWithType.vb: JsonLookup(Of K, V, S).keyName
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: JsonLookup(Of K, V, S).keyName
+- uid: Global.JsonLookup`3.lookup
+  commentId: F:Global.JsonLookup`3.lookup
+  id: lookup
+  parent: Global.JsonLookup`3
+  langs:
+  - csharp
+  - vb
+  name: lookup
+  nameWithType: JsonLookup<K, V, S>.lookup
+  fullName: JsonLookup<K, V, S>.lookup
+  type: Field
+  source:
+    id: lookup
+    path: ''
+    startLine: 16302
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected Dictionary<K, V> lookup
+    return:
+      type: Global.Dictionary{{K},{V}}
+    content.vb: Protected lookup As Dictionary(Of K, V)
+  nameWithType.vb: JsonLookup(Of K, V, S).lookup
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: JsonLookup(Of K, V, S).lookup
+- uid: Global.JsonLookup`3.Awake
+  commentId: M:Global.JsonLookup`3.Awake
+  id: Awake
+  parent: Global.JsonLookup`3
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: JsonLookup<K, V, S>.Awake()
+  fullName: JsonLookup<K, V, S>.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 16304
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: Global.JsonLookup`3.Awake*
+  nameWithType.vb: JsonLookup(Of K, V, S).Awake()
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+  fullName.vb: JsonLookup(Of K, V, S).Awake()
+- uid: Global.JsonLookup`3.GetAt(`0)
+  commentId: M:Global.JsonLookup`3.GetAt(`0)
+  id: GetAt(`0)
+  parent: Global.JsonLookup`3
+  langs:
+  - csharp
+  - vb
+  name: GetAt(K)
+  nameWithType: JsonLookup<K, V, S>.GetAt(K)
+  fullName: JsonLookup<K, V, S>.GetAt(K)
+  type: Method
+  source:
+    id: GetAt
+    path: ''
+    startLine: 16311
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public V GetAt(K key)
+    parameters:
+    - id: key
+      type: '{K}'
+    return:
+      type: '{V}'
+    content.vb: Public Function GetAt(key As K) As V
+  overload: Global.JsonLookup`3.GetAt*
+  nameWithType.vb: JsonLookup(Of K, V, S).GetAt(K)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: JsonLookup(Of K, V, S).GetAt(K)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.Singleton{JsonLookup`3}
+  commentId: T:Global.Singleton{JsonLookup`3}
+  definition: Global.Singleton`1
+  name: Singleton<JsonLookup<K, V, S>>
+  nameWithType: Singleton<JsonLookup<K, V, S>>
+  fullName: Singleton<JsonLookup<K, V, S>>
+  nameWithType.vb: Singleton(Of JsonLookup(Of K, V, S))
+  fullName.vb: Singleton(Of JsonLookup(Of K, V, S))
+  name.vb: Singleton(Of JsonLookup(Of K, V, S))
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton{JsonLookup`3}.Instance
+  commentId: P:Global.Singleton{JsonLookup`3}.Instance
+  parent: Global.Singleton{JsonLookup`3}
+  definition: Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<JsonLookup<K, V, S>>.Instance
+  fullName: Singleton<JsonLookup<K, V, S>>.Instance
+  nameWithType.vb: Singleton(Of JsonLookup(Of K, V, S)).Instance
+  fullName.vb: Singleton(Of JsonLookup(Of K, V, S)).Instance
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Singleton`1
+  commentId: T:Global.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1.Instance
+  commentId: P:Global.Singleton`1.Instance
+  name: Instance
+  nameWithType: Singleton<T>.Instance
+  fullName: Singleton<T>.Instance
+  nameWithType.vb: Singleton(Of T).Instance
+  fullName.vb: Singleton(Of T).Instance
+- uid: Global.TextAsset
+  isExternal: true
+  name: TextAsset
+  nameWithType: TextAsset
+  fullName: TextAsset
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Dictionary{{K},{V}}
+  commentId: '!:Global.Dictionary{`0,`1}'
+  definition: Global.Dictionary`2
+  name: Dictionary<K, V>
+  nameWithType: Dictionary<K, V>
+  fullName: Dictionary<K, V>
+  nameWithType.vb: Dictionary(Of K, V)
+  fullName.vb: Dictionary(Of K, V)
+  name.vb: Dictionary(Of K, V)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.JsonLookup`3.Awake*
+  commentId: Overload:Global.JsonLookup`3.Awake
+  name: Awake
+  nameWithType: JsonLookup<K, V, S>.Awake
+  fullName: JsonLookup<K, V, S>.Awake
+  nameWithType.vb: JsonLookup(Of K, V, S).Awake
+  fullName.vb: JsonLookup(Of K, V, S).Awake
+- uid: Global.JsonLookup`3.GetAt*
+  commentId: Overload:Global.JsonLookup`3.GetAt
+  name: GetAt
+  nameWithType: JsonLookup<K, V, S>.GetAt
+  fullName: JsonLookup<K, V, S>.GetAt
+  nameWithType.vb: JsonLookup(Of K, V, S).GetAt
+  fullName.vb: JsonLookup(Of K, V, S).GetAt
+- uid: '{K}'
+  commentId: '!:K'
+  definition: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: '{V}'
+  commentId: '!:V'
+  definition: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: V
+  name: V
+  nameWithType: V
+  fullName: V

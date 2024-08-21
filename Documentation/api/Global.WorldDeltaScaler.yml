@@ -1,0 +1,97 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.WorldDeltaScaler
+  commentId: T:Global.WorldDeltaScaler
+  id: WorldDeltaScaler
+  parent: Global
+  children:
+  - Global.WorldDeltaScaler.OnGlobalScaleChanged(System.Single)
+  langs:
+  - csharp
+  - vb
+  name: WorldDeltaScaler
+  nameWithType: WorldDeltaScaler
+  fullName: WorldDeltaScaler
+  type: Class
+  source:
+    id: WorldDeltaScaler
+    path: ''
+    startLine: 16404
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class WorldDeltaScaler : MonoBehaviour'
+    content.vb: >-
+      Public Class WorldDeltaScaler
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.WorldDeltaScaler.OnGlobalScaleChanged(System.Single)
+  commentId: M:Global.WorldDeltaScaler.OnGlobalScaleChanged(System.Single)
+  id: OnGlobalScaleChanged(System.Single)
+  parent: Global.WorldDeltaScaler
+  langs:
+  - csharp
+  - vb
+  name: OnGlobalScaleChanged(Single)
+  nameWithType: WorldDeltaScaler.OnGlobalScaleChanged(Single)
+  fullName: WorldDeltaScaler.OnGlobalScaleChanged(System.Single)
+  type: Method
+  source:
+    id: OnGlobalScaleChanged
+    path: ''
+    startLine: 16416
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnGlobalScaleChanged(float multiplier)
+    parameters:
+    - id: multiplier
+      type: System.Single
+    content.vb: Public Sub OnGlobalScaleChanged(multiplier As Single)
+  overload: Global.WorldDeltaScaler.OnGlobalScaleChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.WorldDeltaScaler.OnGlobalScaleChanged*
+  commentId: Overload:Global.WorldDeltaScaler.OnGlobalScaleChanged
+  name: OnGlobalScaleChanged
+  nameWithType: WorldDeltaScaler.OnGlobalScaleChanged
+  fullName: WorldDeltaScaler.OnGlobalScaleChanged
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

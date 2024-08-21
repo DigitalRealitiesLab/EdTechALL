@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.POIType
+  commentId: T:Global.POIType
+  id: POIType
+  parent: Global
+  children:
+  - Global.POIType.Default
+  - Global.POIType.Peak
+  - Global.POIType.Place
+  - Global.POIType.Water
+  langs:
+  - csharp
+  - vb
+  name: POIType
+  nameWithType: POIType
+  fullName: POIType
+  type: Enum
+  source:
+    id: POIType
+    path: ''
+    startLine: 23475
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum POIType
+    content.vb: Public Enum POIType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.POIType.Default
+  commentId: F:Global.POIType.Default
+  id: Default
+  parent: Global.POIType
+  langs:
+  - csharp
+  - vb
+  name: Default
+  nameWithType: POIType.Default
+  fullName: POIType.Default
+  type: Field
+  source:
+    id: Default
+    path: ''
+    startLine: 23477
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Default = 0
+    return:
+      type: Global.POIType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.POIType.Place
+  commentId: F:Global.POIType.Place
+  id: Place
+  parent: Global.POIType
+  langs:
+  - csharp
+  - vb
+  name: Place
+  nameWithType: POIType.Place
+  fullName: POIType.Place
+  type: Field
+  source:
+    id: Place
+    path: ''
+    startLine: 23478
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Place = 1
+    return:
+      type: Global.POIType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.POIType.Peak
+  commentId: F:Global.POIType.Peak
+  id: Peak
+  parent: Global.POIType
+  langs:
+  - csharp
+  - vb
+  name: Peak
+  nameWithType: POIType.Peak
+  fullName: POIType.Peak
+  type: Field
+  source:
+    id: Peak
+    path: ''
+    startLine: 23479
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Peak = 2
+    return:
+      type: Global.POIType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.POIType.Water
+  commentId: F:Global.POIType.Water
+  id: Water
+  parent: Global.POIType
+  langs:
+  - csharp
+  - vb
+  name: Water
+  nameWithType: POIType.Water
+  fullName: POIType.Water
+  type: Field
+  source:
+    id: Water
+    path: ''
+    startLine: 23480
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Water = 3
+    return:
+      type: Global.POIType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.POIType
+  commentId: T:Global.POIType
+  name: POIType
+  nameWithType: POIType
+  fullName: POIType

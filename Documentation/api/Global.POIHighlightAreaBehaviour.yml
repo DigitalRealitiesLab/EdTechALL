@@ -1,0 +1,378 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.POIHighlightAreaBehaviour
+  commentId: T:Global.POIHighlightAreaBehaviour
+  id: POIHighlightAreaBehaviour
+  parent: Global
+  children:
+  - Global.POIHighlightAreaBehaviour.behaviourType
+  - Global.POIHighlightAreaBehaviour.InitBehaviour
+  - Global.POIHighlightAreaBehaviour.label
+  - Global.POIHighlightAreaBehaviour.minMaxSize
+  - Global.POIHighlightAreaBehaviour.OnTargetHighlightRequest(AGuidanceSystemTarget,Vector3,System.Single)
+  - Global.POIHighlightAreaBehaviour.UpdateBehaviour
+  langs:
+  - csharp
+  - vb
+  name: POIHighlightAreaBehaviour
+  nameWithType: POIHighlightAreaBehaviour
+  fullName: POIHighlightAreaBehaviour
+  type: Class
+  source:
+    id: POIHighlightAreaBehaviour
+    path: ''
+    startLine: 23384
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class POIHighlightAreaBehaviour : APOIBehaviour'
+    content.vb: >-
+      Public Class POIHighlightAreaBehaviour
+          Inherits APOIBehaviour
+  inheritance:
+  - System.Object
+  - Global.APOIBehaviour
+  inheritedMembers:
+  - Global.APOIBehaviour.viewer
+  - Global.APOIBehaviour.poi
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.POIHighlightAreaBehaviour.label
+  commentId: F:Global.POIHighlightAreaBehaviour.label
+  id: label
+  parent: Global.POIHighlightAreaBehaviour
+  langs:
+  - csharp
+  - vb
+  name: label
+  nameWithType: POIHighlightAreaBehaviour.label
+  fullName: POIHighlightAreaBehaviour.label
+  type: Field
+  source:
+    id: label
+    path: ''
+    startLine: 23386
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Renderer label
+    return:
+      type: Global.Renderer
+    content.vb: Public label As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIHighlightAreaBehaviour.behaviourType
+  commentId: P:Global.POIHighlightAreaBehaviour.behaviourType
+  id: behaviourType
+  parent: Global.POIHighlightAreaBehaviour
+  langs:
+  - csharp
+  - vb
+  name: behaviourType
+  nameWithType: POIHighlightAreaBehaviour.behaviourType
+  fullName: POIHighlightAreaBehaviour.behaviourType
+  type: Property
+  source:
+    id: behaviourType
+    path: ''
+    startLine: 23387
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override string behaviourType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property behaviourType As String
+  overridden: Global.APOIBehaviour.behaviourType
+  overload: Global.POIHighlightAreaBehaviour.behaviourType*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Global.POIHighlightAreaBehaviour.minMaxSize
+  commentId: F:Global.POIHighlightAreaBehaviour.minMaxSize
+  id: minMaxSize
+  parent: Global.POIHighlightAreaBehaviour
+  langs:
+  - csharp
+  - vb
+  name: minMaxSize
+  nameWithType: POIHighlightAreaBehaviour.minMaxSize
+  fullName: POIHighlightAreaBehaviour.minMaxSize
+  type: Field
+  source:
+    id: minMaxSize
+    path: ''
+    startLine: 23388
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector2 minMaxSize
+    return:
+      type: Global.Vector2
+    content.vb: Public minMaxSize As Vector2
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIHighlightAreaBehaviour.InitBehaviour
+  commentId: M:Global.POIHighlightAreaBehaviour.InitBehaviour
+  id: InitBehaviour
+  parent: Global.POIHighlightAreaBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InitBehaviour()
+  nameWithType: POIHighlightAreaBehaviour.InitBehaviour()
+  fullName: POIHighlightAreaBehaviour.InitBehaviour()
+  type: Method
+  source:
+    id: InitBehaviour
+    path: ''
+    startLine: 23390
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void InitBehaviour()
+    content.vb: Public Overrides Sub InitBehaviour
+  overridden: Global.APOIBehaviour.InitBehaviour
+  overload: Global.POIHighlightAreaBehaviour.InitBehaviour*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.POIHighlightAreaBehaviour.UpdateBehaviour
+  commentId: M:Global.POIHighlightAreaBehaviour.UpdateBehaviour
+  id: UpdateBehaviour
+  parent: Global.POIHighlightAreaBehaviour
+  langs:
+  - csharp
+  - vb
+  name: UpdateBehaviour()
+  nameWithType: POIHighlightAreaBehaviour.UpdateBehaviour()
+  fullName: POIHighlightAreaBehaviour.UpdateBehaviour()
+  type: Method
+  source:
+    id: UpdateBehaviour
+    path: ''
+    startLine: 23395
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void UpdateBehaviour()
+    content.vb: Public Overrides Sub UpdateBehaviour
+  overridden: Global.APOIBehaviour.UpdateBehaviour
+  overload: Global.POIHighlightAreaBehaviour.UpdateBehaviour*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.POIHighlightAreaBehaviour.OnTargetHighlightRequest(AGuidanceSystemTarget,Vector3,System.Single)
+  commentId: M:Global.POIHighlightAreaBehaviour.OnTargetHighlightRequest(AGuidanceSystemTarget,Vector3,System.Single)
+  id: OnTargetHighlightRequest(AGuidanceSystemTarget,Vector3,System.Single)
+  parent: Global.POIHighlightAreaBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnTargetHighlightRequest(AGuidanceSystemTarget, Vector3, Single)
+  nameWithType: POIHighlightAreaBehaviour.OnTargetHighlightRequest(AGuidanceSystemTarget, Vector3, Single)
+  fullName: POIHighlightAreaBehaviour.OnTargetHighlightRequest(AGuidanceSystemTarget, Vector3, System.Single)
+  type: Method
+  source:
+    id: OnTargetHighlightRequest
+    path: ''
+    startLine: 23405
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnTargetHighlightRequest(AGuidanceSystemTarget target, Vector3 position, float radius)
+    parameters:
+    - id: target
+      type: Global.AGuidanceSystemTarget
+    - id: position
+      type: Global.Vector3
+    - id: radius
+      type: System.Single
+    content.vb: Public Sub OnTargetHighlightRequest(target As AGuidanceSystemTarget, position As Vector3, radius As Single)
+  overload: Global.POIHighlightAreaBehaviour.OnTargetHighlightRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.APOIBehaviour
+  commentId: T:Global.APOIBehaviour
+  name: APOIBehaviour
+  nameWithType: APOIBehaviour
+  fullName: APOIBehaviour
+- uid: Global.APOIBehaviour.viewer
+  commentId: F:Global.APOIBehaviour.viewer
+  parent: Global.APOIBehaviour
+  name: viewer
+  nameWithType: APOIBehaviour.viewer
+  fullName: APOIBehaviour.viewer
+- uid: Global.APOIBehaviour.poi
+  commentId: F:Global.APOIBehaviour.poi
+  parent: Global.APOIBehaviour
+  name: poi
+  nameWithType: APOIBehaviour.poi
+  fullName: APOIBehaviour.poi
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Renderer
+- uid: Global.APOIBehaviour.behaviourType
+  commentId: P:Global.APOIBehaviour.behaviourType
+  parent: Global.APOIBehaviour
+  name: behaviourType
+  nameWithType: APOIBehaviour.behaviourType
+  fullName: APOIBehaviour.behaviourType
+- uid: Global.POIHighlightAreaBehaviour.behaviourType*
+  commentId: Overload:Global.POIHighlightAreaBehaviour.behaviourType
+  name: behaviourType
+  nameWithType: POIHighlightAreaBehaviour.behaviourType
+  fullName: POIHighlightAreaBehaviour.behaviourType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.APOIBehaviour.InitBehaviour
+  commentId: M:Global.APOIBehaviour.InitBehaviour
+  parent: Global.APOIBehaviour
+  name: InitBehaviour()
+  nameWithType: APOIBehaviour.InitBehaviour()
+  fullName: APOIBehaviour.InitBehaviour()
+  spec.csharp:
+  - uid: Global.APOIBehaviour.InitBehaviour
+    name: InitBehaviour
+    nameWithType: APOIBehaviour.InitBehaviour
+    fullName: APOIBehaviour.InitBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.APOIBehaviour.InitBehaviour
+    name: InitBehaviour
+    nameWithType: APOIBehaviour.InitBehaviour
+    fullName: APOIBehaviour.InitBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.POIHighlightAreaBehaviour.InitBehaviour*
+  commentId: Overload:Global.POIHighlightAreaBehaviour.InitBehaviour
+  name: InitBehaviour
+  nameWithType: POIHighlightAreaBehaviour.InitBehaviour
+  fullName: POIHighlightAreaBehaviour.InitBehaviour
+- uid: Global.APOIBehaviour.UpdateBehaviour
+  commentId: M:Global.APOIBehaviour.UpdateBehaviour
+  parent: Global.APOIBehaviour
+  name: UpdateBehaviour()
+  nameWithType: APOIBehaviour.UpdateBehaviour()
+  fullName: APOIBehaviour.UpdateBehaviour()
+  spec.csharp:
+  - uid: Global.APOIBehaviour.UpdateBehaviour
+    name: UpdateBehaviour
+    nameWithType: APOIBehaviour.UpdateBehaviour
+    fullName: APOIBehaviour.UpdateBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.APOIBehaviour.UpdateBehaviour
+    name: UpdateBehaviour
+    nameWithType: APOIBehaviour.UpdateBehaviour
+    fullName: APOIBehaviour.UpdateBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.POIHighlightAreaBehaviour.UpdateBehaviour*
+  commentId: Overload:Global.POIHighlightAreaBehaviour.UpdateBehaviour
+  name: UpdateBehaviour
+  nameWithType: POIHighlightAreaBehaviour.UpdateBehaviour
+  fullName: POIHighlightAreaBehaviour.UpdateBehaviour
+- uid: Global.POIHighlightAreaBehaviour.OnTargetHighlightRequest*
+  commentId: Overload:Global.POIHighlightAreaBehaviour.OnTargetHighlightRequest
+  name: OnTargetHighlightRequest
+  nameWithType: POIHighlightAreaBehaviour.OnTargetHighlightRequest
+  fullName: POIHighlightAreaBehaviour.OnTargetHighlightRequest
+- uid: Global.AGuidanceSystemTarget
+  commentId: '!:Global.AGuidanceSystemTarget'
+  isExternal: true
+  name: AGuidanceSystemTarget
+  nameWithType: AGuidanceSystemTarget
+  fullName: AGuidanceSystemTarget
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

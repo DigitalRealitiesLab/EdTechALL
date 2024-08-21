@@ -1,0 +1,714 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TextureToPrefabMapper
+  commentId: T:Global.TextureToPrefabMapper
+  id: TextureToPrefabMapper
+  parent: Global
+  children:
+  - Global.TextureToPrefabMapper.GetPresetAtImageName(System.String)
+  - Global.TextureToPrefabMapper.ImageDestroy(ARTrackedImage)
+  - Global.TextureToPrefabMapper.ImageResize(System.String,System.Single)
+  - Global.TextureToPrefabMapper.ImageSpawn(ARTrackedImage,Transform)
+  - Global.TextureToPrefabMapper.ImageUpdate(ARTrackedImage)
+  - Global.TextureToPrefabMapper.Initialize
+  - Global.TextureToPrefabMapper.initialized
+  - Global.TextureToPrefabMapper.InstanceExists(ARTrackedImage)
+  - Global.TextureToPrefabMapper.instantiatedLookup
+  - Global.TextureToPrefabMapper.prefabLookup
+  - Global.TextureToPrefabMapper.presets
+  langs:
+  - csharp
+  - vb
+  name: TextureToPrefabMapper
+  nameWithType: TextureToPrefabMapper
+  fullName: TextureToPrefabMapper
+  type: Class
+  source:
+    id: TextureToPrefabMapper
+    path: ''
+    startLine: 25530
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TextureToPrefabMapper : ScriptableObject'
+    content.vb: >-
+      Public Class TextureToPrefabMapper
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TextureToPrefabMapper.presets
+  commentId: F:Global.TextureToPrefabMapper.presets
+  id: presets
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: presets
+  nameWithType: TextureToPrefabMapper.presets
+  fullName: TextureToPrefabMapper.presets
+  type: Field
+  source:
+    id: presets
+    path: ''
+    startLine: 25533
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<TextureToPrefabPreset> presets
+    return:
+      type: Global.List{TextureToPrefabPreset}
+    content.vb: Public presets As List(Of TextureToPrefabPreset)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabMapper.prefabLookup
+  commentId: F:Global.TextureToPrefabMapper.prefabLookup
+  id: prefabLookup
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: prefabLookup
+  nameWithType: TextureToPrefabMapper.prefabLookup
+  fullName: TextureToPrefabMapper.prefabLookup
+  type: Field
+  source:
+    id: prefabLookup
+    path: ''
+    startLine: 25535
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected Dictionary<string, TextureToPrefabPreset> prefabLookup
+    return:
+      type: Global.Dictionary{System.String,TextureToPrefabPreset}
+    content.vb: Protected prefabLookup As Dictionary(Of String, TextureToPrefabPreset)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.TextureToPrefabMapper.instantiatedLookup
+  commentId: F:Global.TextureToPrefabMapper.instantiatedLookup
+  id: instantiatedLookup
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: instantiatedLookup
+  nameWithType: TextureToPrefabMapper.instantiatedLookup
+  fullName: TextureToPrefabMapper.instantiatedLookup
+  type: Field
+  source:
+    id: instantiatedLookup
+    path: ''
+    startLine: 25536
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected Dictionary<string, GameObject> instantiatedLookup
+    return:
+      type: Global.Dictionary{System.String,GameObject}
+    content.vb: Protected instantiatedLookup As Dictionary(Of String, GameObject)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.TextureToPrefabMapper.GetPresetAtImageName(System.String)
+  commentId: M:Global.TextureToPrefabMapper.GetPresetAtImageName(System.String)
+  id: GetPresetAtImageName(System.String)
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: GetPresetAtImageName(String)
+  nameWithType: TextureToPrefabMapper.GetPresetAtImageName(String)
+  fullName: TextureToPrefabMapper.GetPresetAtImageName(System.String)
+  type: Method
+  source:
+    id: GetPresetAtImageName
+    path: ''
+    startLine: 25538
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextureToPrefabPreset GetPresetAtImageName(string imageName)
+    parameters:
+    - id: imageName
+      type: System.String
+    return:
+      type: Global.TextureToPrefabPreset
+    content.vb: Public Function GetPresetAtImageName(imageName As String) As TextureToPrefabPreset
+  overload: Global.TextureToPrefabMapper.GetPresetAtImageName*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabMapper.initialized
+  commentId: P:Global.TextureToPrefabMapper.initialized
+  id: initialized
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: initialized
+  nameWithType: TextureToPrefabMapper.initialized
+  fullName: TextureToPrefabMapper.initialized
+  type: Property
+  source:
+    id: initialized
+    path: ''
+    startLine: 25545
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool initialized { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property initialized As Boolean
+  overload: Global.TextureToPrefabMapper.initialized*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.TextureToPrefabMapper.Initialize
+  commentId: M:Global.TextureToPrefabMapper.Initialize
+  id: Initialize
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: TextureToPrefabMapper.Initialize()
+  fullName: TextureToPrefabMapper.Initialize()
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 25547
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize
+  overload: Global.TextureToPrefabMapper.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabMapper.ImageSpawn(ARTrackedImage,Transform)
+  commentId: M:Global.TextureToPrefabMapper.ImageSpawn(ARTrackedImage,Transform)
+  id: ImageSpawn(ARTrackedImage,Transform)
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: ImageSpawn(ARTrackedImage, Transform)
+  nameWithType: TextureToPrefabMapper.ImageSpawn(ARTrackedImage, Transform)
+  fullName: TextureToPrefabMapper.ImageSpawn(ARTrackedImage, Transform)
+  type: Method
+  source:
+    id: ImageSpawn
+    path: ''
+    startLine: 25555
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject ImageSpawn(ARTrackedImage image, Transform parent)
+    parameters:
+    - id: image
+      type: Global.ARTrackedImage
+    - id: parent
+      type: Global.Transform
+    return:
+      type: Global.GameObject
+    content.vb: Public Function ImageSpawn(image As ARTrackedImage, parent As Transform) As GameObject
+  overload: Global.TextureToPrefabMapper.ImageSpawn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabMapper.ImageUpdate(ARTrackedImage)
+  commentId: M:Global.TextureToPrefabMapper.ImageUpdate(ARTrackedImage)
+  id: ImageUpdate(ARTrackedImage)
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: ImageUpdate(ARTrackedImage)
+  nameWithType: TextureToPrefabMapper.ImageUpdate(ARTrackedImage)
+  fullName: TextureToPrefabMapper.ImageUpdate(ARTrackedImage)
+  type: Method
+  source:
+    id: ImageUpdate
+    path: ''
+    startLine: 25576
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ImageUpdate(ARTrackedImage image)
+    parameters:
+    - id: image
+      type: Global.ARTrackedImage
+    content.vb: Public Sub ImageUpdate(image As ARTrackedImage)
+  overload: Global.TextureToPrefabMapper.ImageUpdate*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabMapper.ImageDestroy(ARTrackedImage)
+  commentId: M:Global.TextureToPrefabMapper.ImageDestroy(ARTrackedImage)
+  id: ImageDestroy(ARTrackedImage)
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: ImageDestroy(ARTrackedImage)
+  nameWithType: TextureToPrefabMapper.ImageDestroy(ARTrackedImage)
+  fullName: TextureToPrefabMapper.ImageDestroy(ARTrackedImage)
+  type: Method
+  source:
+    id: ImageDestroy
+    path: ''
+    startLine: 25585
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ImageDestroy(ARTrackedImage image)
+    parameters:
+    - id: image
+      type: Global.ARTrackedImage
+    content.vb: Public Sub ImageDestroy(image As ARTrackedImage)
+  overload: Global.TextureToPrefabMapper.ImageDestroy*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabMapper.InstanceExists(ARTrackedImage)
+  commentId: M:Global.TextureToPrefabMapper.InstanceExists(ARTrackedImage)
+  id: InstanceExists(ARTrackedImage)
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: InstanceExists(ARTrackedImage)
+  nameWithType: TextureToPrefabMapper.InstanceExists(ARTrackedImage)
+  fullName: TextureToPrefabMapper.InstanceExists(ARTrackedImage)
+  type: Method
+  source:
+    id: InstanceExists
+    path: ''
+    startLine: 25593
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool InstanceExists(ARTrackedImage image)
+    parameters:
+    - id: image
+      type: Global.ARTrackedImage
+    return:
+      type: System.Boolean
+    content.vb: Public Function InstanceExists(image As ARTrackedImage) As Boolean
+  overload: Global.TextureToPrefabMapper.InstanceExists*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabMapper.ImageResize(System.String,System.Single)
+  commentId: M:Global.TextureToPrefabMapper.ImageResize(System.String,System.Single)
+  id: ImageResize(System.String,System.Single)
+  parent: Global.TextureToPrefabMapper
+  langs:
+  - csharp
+  - vb
+  name: ImageResize(String, Single)
+  nameWithType: TextureToPrefabMapper.ImageResize(String, Single)
+  fullName: TextureToPrefabMapper.ImageResize(System.String, System.Single)
+  type: Method
+  source:
+    id: ImageResize
+    path: ''
+    startLine: 25598
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ImageResize(string name, float width)
+    parameters:
+    - id: name
+      type: System.String
+    - id: width
+      type: System.Single
+    content.vb: Public Sub ImageResize(name As String, width As Single)
+  overload: Global.TextureToPrefabMapper.ImageResize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{TextureToPrefabPreset}
+  commentId: '!:Global.List{TextureToPrefabPreset}'
+  definition: Global.List`1
+  name: List<TextureToPrefabPreset>
+  nameWithType: List<TextureToPrefabPreset>
+  fullName: List<TextureToPrefabPreset>
+  nameWithType.vb: List(Of TextureToPrefabPreset)
+  fullName.vb: List(Of TextureToPrefabPreset)
+  name.vb: List(Of TextureToPrefabPreset)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.TextureToPrefabPreset
+    name: TextureToPrefabPreset
+    nameWithType: TextureToPrefabPreset
+    fullName: TextureToPrefabPreset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.TextureToPrefabPreset
+    name: TextureToPrefabPreset
+    nameWithType: TextureToPrefabPreset
+    fullName: TextureToPrefabPreset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary{System.String,TextureToPrefabPreset}
+  commentId: '!:Global.Dictionary{System.String,TextureToPrefabPreset}'
+  definition: Global.Dictionary`2
+  name: Dictionary<String, TextureToPrefabPreset>
+  nameWithType: Dictionary<String, TextureToPrefabPreset>
+  fullName: Dictionary<System.String, TextureToPrefabPreset>
+  nameWithType.vb: Dictionary(Of String, TextureToPrefabPreset)
+  fullName.vb: Dictionary(Of System.String, TextureToPrefabPreset)
+  name.vb: Dictionary(Of String, TextureToPrefabPreset)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.TextureToPrefabPreset
+    name: TextureToPrefabPreset
+    nameWithType: TextureToPrefabPreset
+    fullName: TextureToPrefabPreset
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.TextureToPrefabPreset
+    name: TextureToPrefabPreset
+    nameWithType: TextureToPrefabPreset
+    fullName: TextureToPrefabPreset
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary{System.String,GameObject}
+  commentId: '!:Global.Dictionary{System.String,GameObject}'
+  definition: Global.Dictionary`2
+  name: Dictionary<String, GameObject>
+  nameWithType: Dictionary<String, GameObject>
+  fullName: Dictionary<System.String, GameObject>
+  nameWithType.vb: Dictionary(Of String, GameObject)
+  fullName.vb: Dictionary(Of System.String, GameObject)
+  name.vb: Dictionary(Of String, GameObject)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.TextureToPrefabMapper.GetPresetAtImageName*
+  commentId: Overload:Global.TextureToPrefabMapper.GetPresetAtImageName
+  name: GetPresetAtImageName
+  nameWithType: TextureToPrefabMapper.GetPresetAtImageName
+  fullName: TextureToPrefabMapper.GetPresetAtImageName
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.TextureToPrefabPreset
+  commentId: T:Global.TextureToPrefabPreset
+  name: TextureToPrefabPreset
+  nameWithType: TextureToPrefabPreset
+  fullName: TextureToPrefabPreset
+- uid: Global.TextureToPrefabMapper.initialized*
+  commentId: Overload:Global.TextureToPrefabMapper.initialized
+  name: initialized
+  nameWithType: TextureToPrefabMapper.initialized
+  fullName: TextureToPrefabMapper.initialized
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.TextureToPrefabMapper.Initialize*
+  commentId: Overload:Global.TextureToPrefabMapper.Initialize
+  name: Initialize
+  nameWithType: TextureToPrefabMapper.Initialize
+  fullName: TextureToPrefabMapper.Initialize
+- uid: Global.TextureToPrefabMapper.ImageSpawn*
+  commentId: Overload:Global.TextureToPrefabMapper.ImageSpawn
+  name: ImageSpawn
+  nameWithType: TextureToPrefabMapper.ImageSpawn
+  fullName: TextureToPrefabMapper.ImageSpawn
+- uid: Global.ARTrackedImage
+  isExternal: true
+  name: ARTrackedImage
+  nameWithType: ARTrackedImage
+  fullName: ARTrackedImage
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.TextureToPrefabMapper.ImageUpdate*
+  commentId: Overload:Global.TextureToPrefabMapper.ImageUpdate
+  name: ImageUpdate
+  nameWithType: TextureToPrefabMapper.ImageUpdate
+  fullName: TextureToPrefabMapper.ImageUpdate
+- uid: Global.TextureToPrefabMapper.ImageDestroy*
+  commentId: Overload:Global.TextureToPrefabMapper.ImageDestroy
+  name: ImageDestroy
+  nameWithType: TextureToPrefabMapper.ImageDestroy
+  fullName: TextureToPrefabMapper.ImageDestroy
+- uid: Global.TextureToPrefabMapper.InstanceExists*
+  commentId: Overload:Global.TextureToPrefabMapper.InstanceExists
+  name: InstanceExists
+  nameWithType: TextureToPrefabMapper.InstanceExists
+  fullName: TextureToPrefabMapper.InstanceExists
+- uid: Global.TextureToPrefabMapper.ImageResize*
+  commentId: Overload:Global.TextureToPrefabMapper.ImageResize
+  name: ImageResize
+  nameWithType: TextureToPrefabMapper.ImageResize
+  fullName: TextureToPrefabMapper.ImageResize
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

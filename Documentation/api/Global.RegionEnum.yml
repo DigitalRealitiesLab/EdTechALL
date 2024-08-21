@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RegionEnum
+  commentId: T:Global.RegionEnum
+  id: RegionEnum
+  parent: Global
+  children:
+  - Global.RegionEnum.#ctor(Region[])
+  - Global.RegionEnum._Regions
+  - Global.RegionEnum.Current
+  - Global.RegionEnum.Dispose
+  - Global.RegionEnum.MoveNext
+  - Global.RegionEnum.Reset
+  langs:
+  - csharp
+  - vb
+  name: RegionEnum
+  nameWithType: RegionEnum
+  fullName: RegionEnum
+  type: Class
+  source:
+    id: RegionEnum
+    path: ''
+    startLine: 23226
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class RegionEnum : IEnumerator<Region>'
+    content.vb: >-
+      Public Class RegionEnum
+          Inherits IEnumerator(Of Region)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.RegionEnum._Regions
+  commentId: F:Global.RegionEnum._Regions
+  id: _Regions
+  parent: Global.RegionEnum
+  langs:
+  - csharp
+  - vb
+  name: _Regions
+  nameWithType: RegionEnum._Regions
+  fullName: RegionEnum._Regions
+  type: Field
+  source:
+    id: _Regions
+    path: ''
+    startLine: 23228
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Region[] _Regions
+    return:
+      type: Global.Region[]
+    content.vb: Public _Regions As Region()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.RegionEnum.#ctor(Region[])
+  commentId: M:Global.RegionEnum.#ctor(Region[])
+  id: '#ctor(Region[])'
+  parent: Global.RegionEnum
+  langs:
+  - csharp
+  - vb
+  name: RegionEnum(Region[])
+  nameWithType: RegionEnum.RegionEnum(Region[])
+  fullName: RegionEnum.RegionEnum(Region[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23231
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RegionEnum(Region[] list)
+    parameters:
+    - id: list
+      type: Global.Region[]
+    content.vb: Public Sub New(list As Region())
+  overload: Global.RegionEnum.#ctor*
+  nameWithType.vb: RegionEnum.RegionEnum(Region())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: RegionEnum.RegionEnum(Region())
+  name.vb: RegionEnum(Region())
+- uid: Global.RegionEnum.MoveNext
+  commentId: M:Global.RegionEnum.MoveNext
+  id: MoveNext
+  parent: Global.RegionEnum
+  langs:
+  - csharp
+  - vb
+  name: MoveNext()
+  nameWithType: RegionEnum.MoveNext()
+  fullName: RegionEnum.MoveNext()
+  type: Method
+  source:
+    id: MoveNext
+    path: ''
+    startLine: 23236
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool MoveNext()
+    return:
+      type: System.Boolean
+    content.vb: Public Function MoveNext As Boolean
+  overload: Global.RegionEnum.MoveNext*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.RegionEnum.Reset
+  commentId: M:Global.RegionEnum.Reset
+  id: Reset
+  parent: Global.RegionEnum
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: RegionEnum.Reset()
+  fullName: RegionEnum.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 23242
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: Global.RegionEnum.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.RegionEnum.Dispose
+  commentId: M:Global.RegionEnum.Dispose
+  id: Dispose
+  parent: Global.RegionEnum
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: RegionEnum.Dispose()
+  fullName: RegionEnum.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 23247
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Global.RegionEnum.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.RegionEnum.Current
+  commentId: P:Global.RegionEnum.Current
+  id: Current
+  parent: Global.RegionEnum
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: RegionEnum.Current
+  fullName: RegionEnum.Current
+  type: Property
+  source:
+    id: Current
+    path: ''
+    startLine: 23260
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Region Current { get; }
+    parameters: []
+    return:
+      type: Global.Region
+    content.vb: Public ReadOnly Property Current As Region
+  overload: Global.RegionEnum.Current*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Region[]
+  isExternal: true
+  name: Region[]
+  nameWithType: Region[]
+  fullName: Region[]
+  nameWithType.vb: Region()
+  fullName.vb: Region()
+  name.vb: Region()
+  spec.csharp:
+  - uid: Global.Region
+    name: Region
+    nameWithType: Region
+    fullName: Region
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Region
+    name: Region
+    nameWithType: Region
+    fullName: Region
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.RegionEnum.#ctor*
+  commentId: Overload:Global.RegionEnum.#ctor
+  name: RegionEnum
+  nameWithType: RegionEnum.RegionEnum
+  fullName: RegionEnum.RegionEnum
+- uid: Global.RegionEnum.MoveNext*
+  commentId: Overload:Global.RegionEnum.MoveNext
+  name: MoveNext
+  nameWithType: RegionEnum.MoveNext
+  fullName: RegionEnum.MoveNext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.RegionEnum.Reset*
+  commentId: Overload:Global.RegionEnum.Reset
+  name: Reset
+  nameWithType: RegionEnum.Reset
+  fullName: RegionEnum.Reset
+- uid: Global.RegionEnum.Dispose*
+  commentId: Overload:Global.RegionEnum.Dispose
+  name: Dispose
+  nameWithType: RegionEnum.Dispose
+  fullName: RegionEnum.Dispose
+- uid: Global.RegionEnum.Current*
+  commentId: Overload:Global.RegionEnum.Current
+  name: Current
+  nameWithType: RegionEnum.Current
+  fullName: RegionEnum.Current
+- uid: Global.Region
+  commentId: T:Global.Region
+  name: Region
+  nameWithType: Region
+  fullName: Region

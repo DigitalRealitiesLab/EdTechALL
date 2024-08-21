@@ -1,0 +1,143 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.h5pMessageMetaData
+  commentId: T:CardModule.UI.h5pMessageMetaData
+  id: h5pMessageMetaData
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.h5pMessageMetaData.attempt
+  - CardModule.UI.h5pMessageMetaData.interaction
+  - CardModule.UI.h5pMessageMetaData.progressed
+  langs:
+  - csharp
+  - vb
+  name: h5pMessageMetaData
+  nameWithType: h5pMessageMetaData
+  fullName: CardModule.UI.h5pMessageMetaData
+  type: Struct
+  source:
+    id: h5pMessageMetaData
+    path: ''
+    startLine: 19895
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct h5pMessageMetaData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure h5pMessageMetaData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: CardModule.UI.h5pMessageMetaData.attempt
+  commentId: F:CardModule.UI.h5pMessageMetaData.attempt
+  id: attempt
+  parent: CardModule.UI.h5pMessageMetaData
+  langs:
+  - csharp
+  - vb
+  name: attempt
+  nameWithType: h5pMessageMetaData.attempt
+  fullName: CardModule.UI.h5pMessageMetaData.attempt
+  type: Field
+  source:
+    id: attempt
+    path: ''
+    startLine: 19898
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public int attempt
+    return:
+      type: System.Int32
+    content.vb: Public attempt As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pMessageMetaData.interaction
+  commentId: F:CardModule.UI.h5pMessageMetaData.interaction
+  id: interaction
+  parent: CardModule.UI.h5pMessageMetaData
+  langs:
+  - csharp
+  - vb
+  name: interaction
+  nameWithType: h5pMessageMetaData.interaction
+  fullName: CardModule.UI.h5pMessageMetaData.interaction
+  type: Field
+  source:
+    id: interaction
+    path: ''
+    startLine: 19899
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public int interaction
+    return:
+      type: System.Int32
+    content.vb: Public interaction As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pMessageMetaData.progressed
+  commentId: F:CardModule.UI.h5pMessageMetaData.progressed
+  id: progressed
+  parent: CardModule.UI.h5pMessageMetaData
+  langs:
+  - csharp
+  - vb
+  name: progressed
+  nameWithType: h5pMessageMetaData.progressed
+  fullName: CardModule.UI.h5pMessageMetaData.progressed
+  type: Field
+  source:
+    id: progressed
+    path: ''
+    startLine: 19900
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public int progressed
+    return:
+      type: System.Int32
+    content.vb: Public progressed As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

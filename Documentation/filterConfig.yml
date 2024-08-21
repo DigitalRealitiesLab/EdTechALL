@@ -1,0 +1,28 @@
+apiRules:
+- include:
+    uidRegex: ^DocFxForUnity
+    type: Namespace
+- include:
+    uidRegex: ^Global
+    type: Namespace
+- include:
+    uidRegex: ^CardModule
+    type: Namespace
+- include:
+    uidRegex: ^InteractionSystem
+    type: Namespace
+- include:
+    uidRegex: ^BuildingBox
+    type: Namespace
+- include:
+    uidRegex: ^GuidanceSystem
+    type: Namespace
+- include:
+    uidRegex: ^MiniGame
+    type: Namespace
+- include:
+    uidRegex: ^TaskSystem
+    type: Namespace
+- exclude:
+    uidRegex: .*
+    type: Namespace

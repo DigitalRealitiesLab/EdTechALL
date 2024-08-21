@@ -1,0 +1,209 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniGamePromptUI
+  commentId: T:Global.MiniGamePromptUI
+  id: MiniGamePromptUI
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: MiniGamePromptUI
+  nameWithType: MiniGamePromptUI
+  fullName: MiniGamePromptUI
+  type: Class
+  source:
+    id: MiniGamePromptUI
+    path: ''
+    startLine: 14927
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MiniGamePromptUI : AMiniGameWindow'
+    content.vb: >-
+      Public Class MiniGamePromptUI
+          Inherits AMiniGameWindow
+  inheritance:
+  - System.Object
+  - Global.AMiniGameWindow
+  inheritedMembers:
+  - Global.AMiniGameWindow.miniGameUIController
+  - Global.AMiniGameWindow.miniGameTitleText
+  - Global.AMiniGameWindow.miniGameDescriptionText
+  - Global.AMiniGameWindow.mainButtonText
+  - Global.AMiniGameWindow.exitButton
+  - Global.AMiniGameWindow.mainButton
+  - Global.AMiniGameWindow.mainButtonTextContent
+  - Global.AMiniGameWindow.Awake
+  - Global.AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  - Global.AMiniGameWindow.UnloadMiniGameConfig
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AMiniGameWindow
+  commentId: T:Global.AMiniGameWindow
+  name: AMiniGameWindow
+  nameWithType: AMiniGameWindow
+  fullName: AMiniGameWindow
+- uid: Global.AMiniGameWindow.miniGameUIController
+  commentId: F:Global.AMiniGameWindow.miniGameUIController
+  parent: Global.AMiniGameWindow
+  name: miniGameUIController
+  nameWithType: AMiniGameWindow.miniGameUIController
+  fullName: AMiniGameWindow.miniGameUIController
+- uid: Global.AMiniGameWindow.miniGameTitleText
+  commentId: F:Global.AMiniGameWindow.miniGameTitleText
+  parent: Global.AMiniGameWindow
+  name: miniGameTitleText
+  nameWithType: AMiniGameWindow.miniGameTitleText
+  fullName: AMiniGameWindow.miniGameTitleText
+- uid: Global.AMiniGameWindow.miniGameDescriptionText
+  commentId: F:Global.AMiniGameWindow.miniGameDescriptionText
+  parent: Global.AMiniGameWindow
+  name: miniGameDescriptionText
+  nameWithType: AMiniGameWindow.miniGameDescriptionText
+  fullName: AMiniGameWindow.miniGameDescriptionText
+- uid: Global.AMiniGameWindow.mainButtonText
+  commentId: F:Global.AMiniGameWindow.mainButtonText
+  parent: Global.AMiniGameWindow
+  name: mainButtonText
+  nameWithType: AMiniGameWindow.mainButtonText
+  fullName: AMiniGameWindow.mainButtonText
+- uid: Global.AMiniGameWindow.exitButton
+  commentId: F:Global.AMiniGameWindow.exitButton
+  parent: Global.AMiniGameWindow
+  name: exitButton
+  nameWithType: AMiniGameWindow.exitButton
+  fullName: AMiniGameWindow.exitButton
+- uid: Global.AMiniGameWindow.mainButton
+  commentId: F:Global.AMiniGameWindow.mainButton
+  parent: Global.AMiniGameWindow
+  name: mainButton
+  nameWithType: AMiniGameWindow.mainButton
+  fullName: AMiniGameWindow.mainButton
+- uid: Global.AMiniGameWindow.mainButtonTextContent
+  commentId: F:Global.AMiniGameWindow.mainButtonTextContent
+  parent: Global.AMiniGameWindow
+  name: mainButtonTextContent
+  nameWithType: AMiniGameWindow.mainButtonTextContent
+  fullName: AMiniGameWindow.mainButtonTextContent
+- uid: Global.AMiniGameWindow.Awake
+  commentId: M:Global.AMiniGameWindow.Awake
+  parent: Global.AMiniGameWindow
+  name: Awake()
+  nameWithType: AMiniGameWindow.Awake()
+  fullName: AMiniGameWindow.Awake()
+  spec.csharp:
+  - uid: Global.AMiniGameWindow.Awake
+    name: Awake
+    nameWithType: AMiniGameWindow.Awake
+    fullName: AMiniGameWindow.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGameWindow.Awake
+    name: Awake
+    nameWithType: AMiniGameWindow.Awake
+    fullName: AMiniGameWindow.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  commentId: M:Global.AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  parent: Global.AMiniGameWindow
+  isExternal: true
+  name: LoadMiniGameConfig(MiniGameConfig)
+  nameWithType: AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  fullName: AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+  spec.csharp:
+  - uid: Global.AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+    name: LoadMiniGameConfig
+    nameWithType: AMiniGameWindow.LoadMiniGameConfig
+    fullName: AMiniGameWindow.LoadMiniGameConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.MiniGameConfig
+    name: MiniGameConfig
+    nameWithType: MiniGameConfig
+    fullName: MiniGameConfig
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGameWindow.LoadMiniGameConfig(MiniGameConfig)
+    name: LoadMiniGameConfig
+    nameWithType: AMiniGameWindow.LoadMiniGameConfig
+    fullName: AMiniGameWindow.LoadMiniGameConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.MiniGameConfig
+    name: MiniGameConfig
+    nameWithType: MiniGameConfig
+    fullName: MiniGameConfig
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AMiniGameWindow.UnloadMiniGameConfig
+  commentId: M:Global.AMiniGameWindow.UnloadMiniGameConfig
+  parent: Global.AMiniGameWindow
+  name: UnloadMiniGameConfig()
+  nameWithType: AMiniGameWindow.UnloadMiniGameConfig()
+  fullName: AMiniGameWindow.UnloadMiniGameConfig()
+  spec.csharp:
+  - uid: Global.AMiniGameWindow.UnloadMiniGameConfig
+    name: UnloadMiniGameConfig
+    nameWithType: AMiniGameWindow.UnloadMiniGameConfig
+    fullName: AMiniGameWindow.UnloadMiniGameConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGameWindow.UnloadMiniGameConfig
+    name: UnloadMiniGameConfig
+    nameWithType: AMiniGameWindow.UnloadMiniGameConfig
+    fullName: AMiniGameWindow.UnloadMiniGameConfig
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

@@ -1,0 +1,221 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour
+  commentId: T:BuildingBox.BuildingBoxElementHoverBehaviour
+  id: BuildingBoxElementHoverBehaviour
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingBoxElementHoverBehaviour.Awake
+  - BuildingBox.BuildingBoxElementHoverBehaviour.hoverColor
+  - BuildingBox.BuildingBoxElementHoverBehaviour.hoverVisualization
+  - BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverEnter
+  - BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverExit
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxElementHoverBehaviour
+  nameWithType: BuildingBoxElementHoverBehaviour
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour
+  type: Class
+  source:
+    id: BuildingBoxElementHoverBehaviour
+    path: ''
+    startLine: 755
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class BuildingBoxElementHoverBehaviour : AHoverBehaviour'
+    content.vb: >-
+      Public Class BuildingBoxElementHoverBehaviour
+          Inherits AHoverBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour.hoverVisualization
+  commentId: F:BuildingBox.BuildingBoxElementHoverBehaviour.hoverVisualization
+  id: hoverVisualization
+  parent: BuildingBox.BuildingBoxElementHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: hoverVisualization
+  nameWithType: BuildingBoxElementHoverBehaviour.hoverVisualization
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour.hoverVisualization
+  type: Field
+  source:
+    id: hoverVisualization
+    path: ''
+    startLine: 757
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Renderer hoverVisualization
+    return:
+      type: Global.Renderer
+    content.vb: Public hoverVisualization As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour.hoverColor
+  commentId: F:BuildingBox.BuildingBoxElementHoverBehaviour.hoverColor
+  id: hoverColor
+  parent: BuildingBox.BuildingBoxElementHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: hoverColor
+  nameWithType: BuildingBoxElementHoverBehaviour.hoverColor
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour.hoverColor
+  type: Field
+  source:
+    id: hoverColor
+    path: ''
+    startLine: 758
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Color hoverColor
+    return:
+      type: Global.Color
+    content.vb: Public hoverColor As Color
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour.Awake
+  commentId: M:BuildingBox.BuildingBoxElementHoverBehaviour.Awake
+  id: Awake
+  parent: BuildingBox.BuildingBoxElementHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: BuildingBoxElementHoverBehaviour.Awake()
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 761
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overload: BuildingBox.BuildingBoxElementHoverBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverEnter
+  commentId: M:BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverEnter
+  id: OnHoverEnter
+  parent: BuildingBox.BuildingBoxElementHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnHoverEnter()
+  nameWithType: BuildingBoxElementHoverBehaviour.OnHoverEnter()
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverEnter()
+  type: Method
+  source:
+    id: OnHoverEnter
+    path: ''
+    startLine: 768
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public override void OnHoverEnter()
+    content.vb: Public Overrides Sub OnHoverEnter
+  overload: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverEnter*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverExit
+  commentId: M:BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverExit
+  id: OnHoverExit
+  parent: BuildingBox.BuildingBoxElementHoverBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnHoverExit()
+  nameWithType: BuildingBoxElementHoverBehaviour.OnHoverExit()
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverExit()
+  type: Method
+  source:
+    id: OnHoverExit
+    path: ''
+    startLine: 775
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public override void OnHoverExit()
+    content.vb: Public Overrides Sub OnHoverExit
+  overload: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverExit*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Renderer
+- uid: Global.Color
+  isExternal: true
+  name: Color
+  nameWithType: Color
+  fullName: Color
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour.Awake*
+  commentId: Overload:BuildingBox.BuildingBoxElementHoverBehaviour.Awake
+  name: Awake
+  nameWithType: BuildingBoxElementHoverBehaviour.Awake
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour.Awake
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverEnter*
+  commentId: Overload:BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverEnter
+  name: OnHoverEnter
+  nameWithType: BuildingBoxElementHoverBehaviour.OnHoverEnter
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverEnter
+- uid: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverExit*
+  commentId: Overload:BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverExit
+  name: OnHoverExit
+  nameWithType: BuildingBoxElementHoverBehaviour.OnHoverExit
+  fullName: BuildingBox.BuildingBoxElementHoverBehaviour.OnHoverExit

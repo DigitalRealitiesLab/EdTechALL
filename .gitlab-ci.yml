@@ -1,0 +1,10 @@
+pages:
+  image: erothejoker/docker-docfx:latest
+  script:
+    - docfx Documentation/docfx.json
+    - mv _site public
+  artifacts:
+    paths:
+      - public
+  only:
+    - documentation

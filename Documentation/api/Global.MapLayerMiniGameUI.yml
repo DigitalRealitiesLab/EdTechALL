@@ -1,0 +1,154 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MapLayerMiniGameUI
+  commentId: T:Global.MapLayerMiniGameUI
+  id: MapLayerMiniGameUI
+  parent: Global
+  children:
+  - Global.MapLayerMiniGameUI.layerTogglePrefab
+  - Global.MapLayerMiniGameUI.mapLayerLookup
+  - Global.MapLayerMiniGameUI.toggleParent
+  langs:
+  - csharp
+  - vb
+  name: MapLayerMiniGameUI
+  nameWithType: MapLayerMiniGameUI
+  fullName: MapLayerMiniGameUI
+  type: Class
+  source:
+    id: MapLayerMiniGameUI
+    path: ''
+    startLine: 15531
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MapLayerMiniGameUI : MonoBehaviour'
+    content.vb: >-
+      Public Class MapLayerMiniGameUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MapLayerMiniGameUI.mapLayerLookup
+  commentId: F:Global.MapLayerMiniGameUI.mapLayerLookup
+  id: mapLayerLookup
+  parent: Global.MapLayerMiniGameUI
+  langs:
+  - csharp
+  - vb
+  name: mapLayerLookup
+  nameWithType: MapLayerMiniGameUI.mapLayerLookup
+  fullName: MapLayerMiniGameUI.mapLayerLookup
+  type: Field
+  source:
+    id: mapLayerLookup
+    path: ''
+    startLine: 15533
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MapLayerLookup mapLayerLookup
+    return:
+      type: Global.MapLayerLookup
+    content.vb: Public mapLayerLookup As MapLayerLookup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapLayerMiniGameUI.toggleParent
+  commentId: F:Global.MapLayerMiniGameUI.toggleParent
+  id: toggleParent
+  parent: Global.MapLayerMiniGameUI
+  langs:
+  - csharp
+  - vb
+  name: toggleParent
+  nameWithType: MapLayerMiniGameUI.toggleParent
+  fullName: MapLayerMiniGameUI.toggleParent
+  type: Field
+  source:
+    id: toggleParent
+    path: ''
+    startLine: 15534
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform toggleParent
+    return:
+      type: Global.Transform
+    content.vb: Public toggleParent As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapLayerMiniGameUI.layerTogglePrefab
+  commentId: F:Global.MapLayerMiniGameUI.layerTogglePrefab
+  id: layerTogglePrefab
+  parent: Global.MapLayerMiniGameUI
+  langs:
+  - csharp
+  - vb
+  name: layerTogglePrefab
+  nameWithType: MapLayerMiniGameUI.layerTogglePrefab
+  fullName: MapLayerMiniGameUI.layerTogglePrefab
+  type: Field
+  source:
+    id: layerTogglePrefab
+    path: ''
+    startLine: 15535
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject layerTogglePrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public layerTogglePrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MapLayerLookup
+  commentId: T:Global.MapLayerLookup
+  name: MapLayerLookup
+  nameWithType: MapLayerLookup
+  fullName: MapLayerLookup
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

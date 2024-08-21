@@ -1,0 +1,756 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AState`1
+  commentId: T:Global.AState`1
+  id: AState`1
+  parent: Global
+  children:
+  - Global.AState`1.#ctor(`0,System.String)
+  - Global.AState`1.owner
+  langs:
+  - csharp
+  - vb
+  name: AState<T>
+  nameWithType: AState<T>
+  fullName: AState<T>
+  type: Class
+  source:
+    id: AState
+    path: ''
+    startLine: 17413
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class AState<T> : AState'
+    typeParameters:
+    - id: T
+    content.vb: >-
+      Public MustInherit Class AState(Of T)
+          Inherits AState
+  inheritance:
+  - System.Object
+  - Global.DictionaryManager{System.String,StateTransition}
+  - Global.AState
+  inheritedMembers:
+  - Global.AState.stateName
+  - Global.AState.MakeTransitionTo(AState)
+  - Global.AState.EnterState
+  - Global.AState.ExitState
+  - Global.AState.UpdateState
+  - Global.DictionaryManager{System.String,StateTransition}.managedReferences
+  - Global.DictionaryManager{System.String,StateTransition}.Add(System.String,StateTransition)
+  - Global.DictionaryManager{System.String,StateTransition}.RemoveAt(System.String)
+  - Global.DictionaryManager{System.String,StateTransition}.GetAt(System.String)
+  - Global.DictionaryManager{System.String,StateTransition}.GetAt``1(System.String)
+  nameWithType.vb: AState(Of T)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: AState(Of T)
+  name.vb: AState(Of T)
+- uid: Global.AState`1.owner
+  commentId: P:Global.AState`1.owner
+  id: owner
+  parent: Global.AState`1
+  langs:
+  - csharp
+  - vb
+  name: owner
+  nameWithType: AState<T>.owner
+  fullName: AState<T>.owner
+  type: Property
+  source:
+    id: owner
+    path: ''
+    startLine: 17415
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public T owner { get; }
+    parameters: []
+    return:
+      type: '{T}'
+    content.vb: Public ReadOnly Property owner As T
+  overload: Global.AState`1.owner*
+  nameWithType.vb: AState(Of T).owner
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+  fullName.vb: AState(Of T).owner
+- uid: Global.AState`1.#ctor(`0,System.String)
+  commentId: M:Global.AState`1.#ctor(`0,System.String)
+  id: '#ctor(`0,System.String)'
+  parent: Global.AState`1
+  langs:
+  - csharp
+  - vb
+  name: AState(T, String)
+  nameWithType: AState<T>.AState(T, String)
+  fullName: AState<T>.AState(T, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17416
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AState(T owner, string stateName)
+    parameters:
+    - id: owner
+      type: '{T}'
+    - id: stateName
+      type: System.String
+    content.vb: Public Sub New(owner As T, stateName As String)
+  overload: Global.AState`1.#ctor*
+  nameWithType.vb: AState(Of T).AState(T, String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: AState(Of T).AState(T, System.String)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.DictionaryManager{System.String,StateTransition}
+  commentId: T:Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2
+  name: DictionaryManager<String, StateTransition>
+  nameWithType: DictionaryManager<String, StateTransition>
+  fullName: DictionaryManager<System.String, StateTransition>
+  nameWithType.vb: DictionaryManager(Of String, StateTransition)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition)
+  name.vb: DictionaryManager(Of String, StateTransition)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.StateTransition
+    name: StateTransition
+    nameWithType: StateTransition
+    fullName: StateTransition
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.StateTransition
+    name: StateTransition
+    nameWithType: StateTransition
+    fullName: StateTransition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AState
+  commentId: T:Global.AState
+  name: AState
+  nameWithType: AState
+  fullName: AState
+- uid: Global.AState.stateName
+  commentId: F:Global.AState.stateName
+  parent: Global.AState
+  name: stateName
+  nameWithType: AState.stateName
+  fullName: AState.stateName
+- uid: Global.AState.MakeTransitionTo(AState)
+  commentId: M:Global.AState.MakeTransitionTo(AState)
+  parent: Global.AState
+  name: MakeTransitionTo(AState)
+  nameWithType: AState.MakeTransitionTo(AState)
+  fullName: AState.MakeTransitionTo(AState)
+  spec.csharp:
+  - uid: Global.AState.MakeTransitionTo(AState)
+    name: MakeTransitionTo
+    nameWithType: AState.MakeTransitionTo
+    fullName: AState.MakeTransitionTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.AState
+    name: AState
+    nameWithType: AState
+    fullName: AState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AState.MakeTransitionTo(AState)
+    name: MakeTransitionTo
+    nameWithType: AState.MakeTransitionTo
+    fullName: AState.MakeTransitionTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.AState
+    name: AState
+    nameWithType: AState
+    fullName: AState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AState.EnterState
+  commentId: M:Global.AState.EnterState
+  parent: Global.AState
+  name: EnterState()
+  nameWithType: AState.EnterState()
+  fullName: AState.EnterState()
+  spec.csharp:
+  - uid: Global.AState.EnterState
+    name: EnterState
+    nameWithType: AState.EnterState
+    fullName: AState.EnterState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AState.EnterState
+    name: EnterState
+    nameWithType: AState.EnterState
+    fullName: AState.EnterState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AState.ExitState
+  commentId: M:Global.AState.ExitState
+  parent: Global.AState
+  name: ExitState()
+  nameWithType: AState.ExitState()
+  fullName: AState.ExitState()
+  spec.csharp:
+  - uid: Global.AState.ExitState
+    name: ExitState
+    nameWithType: AState.ExitState
+    fullName: AState.ExitState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AState.ExitState
+    name: ExitState
+    nameWithType: AState.ExitState
+    fullName: AState.ExitState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AState.UpdateState
+  commentId: M:Global.AState.UpdateState
+  parent: Global.AState
+  name: UpdateState()
+  nameWithType: AState.UpdateState()
+  fullName: AState.UpdateState()
+  spec.csharp:
+  - uid: Global.AState.UpdateState
+    name: UpdateState
+    nameWithType: AState.UpdateState
+    fullName: AState.UpdateState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AState.UpdateState
+    name: UpdateState
+    nameWithType: AState.UpdateState
+    fullName: AState.UpdateState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{System.String,StateTransition}.managedReferences
+  commentId: F:Global.DictionaryManager{System.String,StateTransition}.managedReferences
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.managedReferences
+  name: managedReferences
+  nameWithType: DictionaryManager<String, StateTransition>.managedReferences
+  fullName: DictionaryManager<System.String, StateTransition>.managedReferences
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).managedReferences
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).managedReferences
+- uid: Global.DictionaryManager{System.String,StateTransition}.Add(System.String,StateTransition)
+  commentId: M:Global.DictionaryManager{System.String,StateTransition}.Add(System.String,StateTransition)
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.Add(`0,`1)
+  name: Add(String, StateTransition)
+  nameWithType: DictionaryManager<String, StateTransition>.Add(String, StateTransition)
+  fullName: DictionaryManager<System.String, StateTransition>.Add(System.String, StateTransition)
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).Add(String, StateTransition)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).Add(System.String, StateTransition)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager<String, StateTransition>.Add
+    fullName: DictionaryManager<System.String, StateTransition>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.StateTransition
+    name: StateTransition
+    nameWithType: StateTransition
+    fullName: StateTransition
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager(Of String, StateTransition).Add
+    fullName: DictionaryManager(Of System.String, StateTransition).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.StateTransition
+    name: StateTransition
+    nameWithType: StateTransition
+    fullName: StateTransition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{System.String,StateTransition}.RemoveAt(System.String)
+  commentId: M:Global.DictionaryManager{System.String,StateTransition}.RemoveAt(System.String)
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.RemoveAt(`0)
+  name: RemoveAt(String)
+  nameWithType: DictionaryManager<String, StateTransition>.RemoveAt(String)
+  fullName: DictionaryManager<System.String, StateTransition>.RemoveAt(System.String)
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).RemoveAt(String)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).RemoveAt(System.String)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager<String, StateTransition>.RemoveAt
+    fullName: DictionaryManager<System.String, StateTransition>.RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager(Of String, StateTransition).RemoveAt
+    fullName: DictionaryManager(Of System.String, StateTransition).RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{System.String,StateTransition}.GetAt(System.String)
+  commentId: M:Global.DictionaryManager{System.String,StateTransition}.GetAt(System.String)
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.GetAt(`0)
+  name: GetAt(String)
+  nameWithType: DictionaryManager<String, StateTransition>.GetAt(String)
+  fullName: DictionaryManager<System.String, StateTransition>.GetAt(System.String)
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).GetAt(String)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).GetAt(System.String)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager<String, StateTransition>.GetAt
+    fullName: DictionaryManager<System.String, StateTransition>.GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager(Of String, StateTransition).GetAt
+    fullName: DictionaryManager(Of System.String, StateTransition).GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{System.String,StateTransition}.GetAt``1(System.String)
+  commentId: M:Global.DictionaryManager{System.String,StateTransition}.GetAt``1(System.String)
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.GetAt``1(`0)
+  name: GetAt<X>(String)
+  nameWithType: DictionaryManager<String, StateTransition>.GetAt<X>(String)
+  fullName: DictionaryManager<System.String, StateTransition>.GetAt<X>(System.String)
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).GetAt(Of X)(String)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).GetAt(Of X)(System.String)
+  name.vb: GetAt(Of X)(String)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt<X>
+    nameWithType: DictionaryManager<String, StateTransition>.GetAt<X>
+    fullName: DictionaryManager<System.String, StateTransition>.GetAt<X>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt(Of X)
+    nameWithType: DictionaryManager(Of String, StateTransition).GetAt(Of X)
+    fullName: DictionaryManager(Of System.String, StateTransition).GetAt(Of X)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DictionaryManager`2
+  commentId: T:Global.DictionaryManager`2
+  name: DictionaryManager<K, V>
+  nameWithType: DictionaryManager<K, V>
+  fullName: DictionaryManager<K, V>
+  nameWithType.vb: DictionaryManager(Of K, V)
+  fullName.vb: DictionaryManager(Of K, V)
+  name.vb: DictionaryManager(Of K, V)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.managedReferences
+  commentId: F:Global.DictionaryManager`2.managedReferences
+  name: managedReferences
+  nameWithType: DictionaryManager<K, V>.managedReferences
+  fullName: DictionaryManager<K, V>.managedReferences
+  nameWithType.vb: DictionaryManager(Of K, V).managedReferences
+  fullName.vb: DictionaryManager(Of K, V).managedReferences
+- uid: Global.DictionaryManager`2.Add(`0,`1)
+  commentId: M:Global.DictionaryManager`2.Add(`0,`1)
+  name: Add(K, V)
+  nameWithType: DictionaryManager<K, V>.Add(K, V)
+  fullName: DictionaryManager<K, V>.Add(K, V)
+  nameWithType.vb: DictionaryManager(Of K, V).Add(K, V)
+  fullName.vb: DictionaryManager(Of K, V).Add(K, V)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager<K, V>.Add
+    fullName: DictionaryManager<K, V>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager(Of K, V).Add
+    fullName: DictionaryManager(Of K, V).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.RemoveAt(`0)
+  commentId: M:Global.DictionaryManager`2.RemoveAt(`0)
+  name: RemoveAt(K)
+  nameWithType: DictionaryManager<K, V>.RemoveAt(K)
+  fullName: DictionaryManager<K, V>.RemoveAt(K)
+  nameWithType.vb: DictionaryManager(Of K, V).RemoveAt(K)
+  fullName.vb: DictionaryManager(Of K, V).RemoveAt(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager<K, V>.RemoveAt
+    fullName: DictionaryManager<K, V>.RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager(Of K, V).RemoveAt
+    fullName: DictionaryManager(Of K, V).RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.GetAt(`0)
+  commentId: M:Global.DictionaryManager`2.GetAt(`0)
+  name: GetAt(K)
+  nameWithType: DictionaryManager<K, V>.GetAt(K)
+  fullName: DictionaryManager<K, V>.GetAt(K)
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt(K)
+  fullName.vb: DictionaryManager(Of K, V).GetAt(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager<K, V>.GetAt
+    fullName: DictionaryManager<K, V>.GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager(Of K, V).GetAt
+    fullName: DictionaryManager(Of K, V).GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.GetAt``1(`0)
+  commentId: M:Global.DictionaryManager`2.GetAt``1(`0)
+  name: GetAt<X>(K)
+  nameWithType: DictionaryManager<K, V>.GetAt<X>(K)
+  fullName: DictionaryManager<K, V>.GetAt<X>(K)
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt(Of X)(K)
+  fullName.vb: DictionaryManager(Of K, V).GetAt(Of X)(K)
+  name.vb: GetAt(Of X)(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt<X>
+    nameWithType: DictionaryManager<K, V>.GetAt<X>
+    fullName: DictionaryManager<K, V>.GetAt<X>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt(Of X)
+    nameWithType: DictionaryManager(Of K, V).GetAt(Of X)
+    fullName: DictionaryManager(Of K, V).GetAt(Of X)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AState`1.owner*
+  commentId: Overload:Global.AState`1.owner
+  name: owner
+  nameWithType: AState<T>.owner
+  fullName: AState<T>.owner
+  nameWithType.vb: AState(Of T).owner
+  fullName.vb: AState(Of T).owner
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.AState`1.#ctor*
+  commentId: Overload:Global.AState`1.#ctor
+  name: AState
+  nameWithType: AState<T>.AState
+  fullName: AState<T>.AState
+  nameWithType.vb: AState(Of T).AState
+  fullName.vb: AState(Of T).AState
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

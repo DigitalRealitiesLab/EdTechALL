@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.AreaInteractorEvent
+  commentId: T:BuildingBox.AreaInteractorEvent
+  id: AreaInteractorEvent
+  parent: BuildingBox
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: AreaInteractorEvent
+  nameWithType: AreaInteractorEvent
+  fullName: BuildingBox.AreaInteractorEvent
+  type: Class
+  source:
+    id: AreaInteractorEvent
+    path: ''
+    startLine: 963
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class AreaInteractorEvent : UnityEvent<AreaInteractor>'
+    content.vb: >-
+      Public Class AreaInteractorEvent
+          Inherits UnityEvent(Of AreaInteractor)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

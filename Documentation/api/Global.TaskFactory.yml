@@ -1,0 +1,246 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TaskFactory
+  commentId: T:Global.TaskFactory
+  id: TaskFactory
+  parent: Global
+  children:
+  - Global.TaskFactory.Awake
+  - Global.TaskFactory.cardDataLoader
+  - Global.TaskFactory.ConstructDefaultTask(TaskType,System.Int32)
+  - Global.TaskFactory.ConstructTaskCardTaskByIndex(System.Int32)
+  - Global.TaskFactory.taskFactoryLookup
+  langs:
+  - csharp
+  - vb
+  name: TaskFactory
+  nameWithType: TaskFactory
+  fullName: TaskFactory
+  type: Class
+  source:
+    id: TaskFactory
+    path: ''
+    startLine: 18233
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TaskFactory : MonoBehaviour'
+    content.vb: >-
+      Public Class TaskFactory
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TaskFactory.cardDataLoader
+  commentId: F:Global.TaskFactory.cardDataLoader
+  id: cardDataLoader
+  parent: Global.TaskFactory
+  langs:
+  - csharp
+  - vb
+  name: cardDataLoader
+  nameWithType: TaskFactory.cardDataLoader
+  fullName: TaskFactory.cardDataLoader
+  type: Field
+  source:
+    id: cardDataLoader
+    path: ''
+    startLine: 18236
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CardDataLoader cardDataLoader
+    return:
+      type: Global.CardDataLoader
+    content.vb: Public cardDataLoader As CardDataLoader
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskFactory.taskFactoryLookup
+  commentId: F:Global.TaskFactory.taskFactoryLookup
+  id: taskFactoryLookup
+  parent: Global.TaskFactory
+  langs:
+  - csharp
+  - vb
+  name: taskFactoryLookup
+  nameWithType: TaskFactory.taskFactoryLookup
+  fullName: TaskFactory.taskFactoryLookup
+  type: Field
+  source:
+    id: taskFactoryLookup
+    path: ''
+    startLine: 18237
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskFactoryLookup taskFactoryLookup
+    return:
+      type: Global.TaskFactoryLookup
+    content.vb: Public taskFactoryLookup As TaskFactoryLookup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskFactory.Awake
+  commentId: M:Global.TaskFactory.Awake
+  id: Awake
+  parent: Global.TaskFactory
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: TaskFactory.Awake()
+  fullName: TaskFactory.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 18240
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: Global.TaskFactory.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskFactory.ConstructTaskCardTaskByIndex(System.Int32)
+  commentId: M:Global.TaskFactory.ConstructTaskCardTaskByIndex(System.Int32)
+  id: ConstructTaskCardTaskByIndex(System.Int32)
+  parent: Global.TaskFactory
+  langs:
+  - csharp
+  - vb
+  name: ConstructTaskCardTaskByIndex(Int32)
+  nameWithType: TaskFactory.ConstructTaskCardTaskByIndex(Int32)
+  fullName: TaskFactory.ConstructTaskCardTaskByIndex(System.Int32)
+  type: Method
+  source:
+    id: ConstructTaskCardTaskByIndex
+    path: ''
+    startLine: 18261
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ATask ConstructTaskCardTaskByIndex(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Global.ATask
+    content.vb: Public Function ConstructTaskCardTaskByIndex(index As Integer) As ATask
+  overload: Global.TaskFactory.ConstructTaskCardTaskByIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskFactory.ConstructDefaultTask(TaskType,System.Int32)
+  commentId: M:Global.TaskFactory.ConstructDefaultTask(TaskType,System.Int32)
+  id: ConstructDefaultTask(TaskType,System.Int32)
+  parent: Global.TaskFactory
+  langs:
+  - csharp
+  - vb
+  name: ConstructDefaultTask(TaskType, Int32)
+  nameWithType: TaskFactory.ConstructDefaultTask(TaskType, Int32)
+  fullName: TaskFactory.ConstructDefaultTask(TaskType, System.Int32)
+  type: Method
+  source:
+    id: ConstructDefaultTask
+    path: ''
+    startLine: 18273
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ATask ConstructDefaultTask(TaskType taskType, int contentIndex)
+    parameters:
+    - id: taskType
+      type: Global.TaskType
+    - id: contentIndex
+      type: System.Int32
+    return:
+      type: Global.ATask
+    content.vb: Public Function ConstructDefaultTask(taskType As TaskType, contentIndex As Integer) As ATask
+  overload: Global.TaskFactory.ConstructDefaultTask*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CardDataLoader
+  isExternal: true
+  name: CardDataLoader
+  nameWithType: CardDataLoader
+  fullName: CardDataLoader
+- uid: Global.TaskFactoryLookup
+  commentId: T:Global.TaskFactoryLookup
+  name: TaskFactoryLookup
+  nameWithType: TaskFactoryLookup
+  fullName: TaskFactoryLookup
+- uid: Global.TaskFactory.Awake*
+  commentId: Overload:Global.TaskFactory.Awake
+  name: Awake
+  nameWithType: TaskFactory.Awake
+  fullName: TaskFactory.Awake
+- uid: Global.TaskFactory.ConstructTaskCardTaskByIndex*
+  commentId: Overload:Global.TaskFactory.ConstructTaskCardTaskByIndex
+  name: ConstructTaskCardTaskByIndex
+  nameWithType: TaskFactory.ConstructTaskCardTaskByIndex
+  fullName: TaskFactory.ConstructTaskCardTaskByIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.ATask
+  commentId: T:Global.ATask
+  name: ATask
+  nameWithType: ATask
+  fullName: ATask
+- uid: Global.TaskFactory.ConstructDefaultTask*
+  commentId: Overload:Global.TaskFactory.ConstructDefaultTask
+  name: ConstructDefaultTask
+  nameWithType: TaskFactory.ConstructDefaultTask
+  fullName: TaskFactory.ConstructDefaultTask
+- uid: Global.TaskType
+  commentId: T:Global.TaskType
+  name: TaskType
+  nameWithType: TaskType
+  fullName: TaskType

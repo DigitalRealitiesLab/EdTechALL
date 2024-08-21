@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Cow
+  commentId: T:Global.Cow
+  id: Cow
+  parent: Global
+  children:
+  - Global.Cow.cowNeedDispaly
+  - Global.Cow.OnCowNeedSatisfied(Cow.CowNeed)
+  - Global.Cow.timeline
+  langs:
+  - csharp
+  - vb
+  name: Cow
+  nameWithType: Cow
+  fullName: Cow
+  type: Class
+  source:
+    id: Cow
+    path: ''
+    startLine: 15146
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Cow : MonoBehaviour'
+    content.vb: >-
+      Public Class Cow
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Cow.timeline
+  commentId: F:Global.Cow.timeline
+  id: timeline
+  parent: Global.Cow
+  langs:
+  - csharp
+  - vb
+  name: timeline
+  nameWithType: Cow.timeline
+  fullName: Cow.timeline
+  type: Field
+  source:
+    id: timeline
+    path: ''
+    startLine: 15148
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CowCaretakerTimeline timeline
+    return:
+      type: Global.CowCaretakerTimeline
+    content.vb: Public timeline As CowCaretakerTimeline
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Cow.cowNeedDispaly
+  commentId: F:Global.Cow.cowNeedDispaly
+  id: cowNeedDispaly
+  parent: Global.Cow
+  langs:
+  - csharp
+  - vb
+  name: cowNeedDispaly
+  nameWithType: Cow.cowNeedDispaly
+  fullName: Cow.cowNeedDispaly
+  type: Field
+  source:
+    id: cowNeedDispaly
+    path: ''
+    startLine: 15149
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CowNeedUI cowNeedDispaly
+    return:
+      type: Global.CowNeedUI
+    content.vb: Public cowNeedDispaly As CowNeedUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Cow.OnCowNeedSatisfied(Cow.CowNeed)
+  commentId: M:Global.Cow.OnCowNeedSatisfied(Cow.CowNeed)
+  id: OnCowNeedSatisfied(Cow.CowNeed)
+  parent: Global.Cow
+  langs:
+  - csharp
+  - vb
+  name: OnCowNeedSatisfied(Cow.CowNeed)
+  nameWithType: Cow.OnCowNeedSatisfied(Cow.CowNeed)
+  fullName: Cow.OnCowNeedSatisfied(Cow.CowNeed)
+  type: Method
+  source:
+    id: OnCowNeedSatisfied
+    path: ''
+    startLine: 15173
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnCowNeedSatisfied(Cow.CowNeed need)
+    parameters:
+    - id: need
+      type: Global.Cow.CowNeed
+    content.vb: Public Sub OnCowNeedSatisfied(need As Cow.CowNeed)
+  overload: Global.Cow.OnCowNeedSatisfied*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CowCaretakerTimeline
+  commentId: T:Global.CowCaretakerTimeline
+  name: CowCaretakerTimeline
+  nameWithType: CowCaretakerTimeline
+  fullName: CowCaretakerTimeline
+- uid: Global.CowNeedUI
+  commentId: T:Global.CowNeedUI
+  name: CowNeedUI
+  nameWithType: CowNeedUI
+  fullName: CowNeedUI
+- uid: Global.Cow.OnCowNeedSatisfied*
+  commentId: Overload:Global.Cow.OnCowNeedSatisfied
+  name: OnCowNeedSatisfied
+  nameWithType: Cow.OnCowNeedSatisfied
+  fullName: Cow.OnCowNeedSatisfied
+- uid: Global.Cow.CowNeed
+  commentId: T:Global.Cow.CowNeed
+  name: Cow.CowNeed
+  nameWithType: Cow.CowNeed
+  fullName: Cow.CowNeed

@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Interactable.InteractableEvent
+  commentId: T:InteractionSystem.Interactable.InteractableEvent
+  id: InteractableEvent
+  parent: InteractionSystem.Interactable
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: InteractableEvent
+  nameWithType: InteractableEvent
+  fullName: InteractionSystem.Interactable.InteractableEvent
+  type: Class
+  source:
+    id: InteractableEvent
+    path: ''
+    startLine: 24397
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class InteractableEvent : Events.UnityEvent<Interactable>
+    content.vb: >-
+      <Serializable>
+
+      Public Class InteractableEvent
+          Inherits Events.UnityEvent(Of Interactable)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

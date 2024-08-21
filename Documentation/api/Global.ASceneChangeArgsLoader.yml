@@ -1,0 +1,125 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ASceneChangeArgsLoader
+  commentId: T:Global.ASceneChangeArgsLoader
+  id: ASceneChangeArgsLoader
+  parent: Global
+  children:
+  - Global.ASceneChangeArgsLoader.Awake
+  - Global.ASceneChangeArgsLoader.LoadSceneChangeArguments
+  langs:
+  - csharp
+  - vb
+  name: ASceneChangeArgsLoader
+  nameWithType: ASceneChangeArgsLoader
+  fullName: ASceneChangeArgsLoader
+  type: Class
+  source:
+    id: ASceneChangeArgsLoader
+    path: ''
+    startLine: 17256
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class ASceneChangeArgsLoader : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class ASceneChangeArgsLoader
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Global.ASceneChangeArgsLoader.Awake
+  commentId: M:Global.ASceneChangeArgsLoader.Awake
+  id: Awake
+  parent: Global.ASceneChangeArgsLoader
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ASceneChangeArgsLoader.Awake()
+  fullName: ASceneChangeArgsLoader.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 17259
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: Global.ASceneChangeArgsLoader.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Global.ASceneChangeArgsLoader.LoadSceneChangeArguments
+  commentId: M:Global.ASceneChangeArgsLoader.LoadSceneChangeArguments
+  id: LoadSceneChangeArguments
+  parent: Global.ASceneChangeArgsLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadSceneChangeArguments()
+  nameWithType: ASceneChangeArgsLoader.LoadSceneChangeArguments()
+  fullName: ASceneChangeArgsLoader.LoadSceneChangeArguments()
+  type: Method
+  source:
+    id: LoadSceneChangeArguments
+    path: ''
+    startLine: 17264
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract void LoadSceneChangeArguments()
+    content.vb: Public MustOverride Sub LoadSceneChangeArguments
+  overload: Global.ASceneChangeArgsLoader.LoadSceneChangeArguments*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ASceneChangeArgsLoader.Awake*
+  commentId: Overload:Global.ASceneChangeArgsLoader.Awake
+  name: Awake
+  nameWithType: ASceneChangeArgsLoader.Awake
+  fullName: ASceneChangeArgsLoader.Awake
+- uid: Global.ASceneChangeArgsLoader.LoadSceneChangeArguments*
+  commentId: Overload:Global.ASceneChangeArgsLoader.LoadSceneChangeArguments
+  name: LoadSceneChangeArguments
+  nameWithType: ASceneChangeArgsLoader.LoadSceneChangeArguments
+  fullName: ASceneChangeArgsLoader.LoadSceneChangeArguments

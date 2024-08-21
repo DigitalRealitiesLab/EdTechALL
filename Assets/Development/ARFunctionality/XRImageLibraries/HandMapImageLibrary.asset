@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: HandMapImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5618515983969763840
+  m_GuidHigh: 11315697646247876529
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5620321569941451620
+      m_GuidHigh: 9238618583772880044
+    m_SerializedTextureGuid:
+      m_GuidLow: 12991156393793260264
+      m_GuidHigh: 1284266180547316138
+    m_Size: {x: 0.145, y: 0.1447168}
+    m_SpecifySize: 1
+    m_Name: HandMapMarker1
+    m_Texture: {fileID: 2800000, guid: f9978ae8dbe8b449aa09927049a1d211, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4920141023400372379
+      m_GuidHigh: 66088505613086609
+    m_SerializedTextureGuid:
+      m_GuidLow: 13001642263513904458
+      m_GuidHigh: 91682268168500074
+    m_Size: {x: 0.145, y: 0.1447168}
+    m_SpecifySize: 1
+    m_Name: HandMapMarker2
+    m_Texture: {fileID: 2800000, guid: c573b54a1cc0b46f6ab3628289b84501, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5219366988446179703
+      m_GuidHigh: 12459905732740051894
+    m_SerializedTextureGuid:
+      m_GuidLow: 14123537647254658052
+      m_GuidHigh: 7484080650545294539
+    m_Size: {x: 0.145, y: 0.1447168}
+    m_SpecifySize: 1
+    m_Name: HandMapMarker3
+    m_Texture: {fileID: 2800000, guid: 14785c04e2a9c400cb6c2006b3cbdc67, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5113890163255691455
+      m_GuidHigh: 16413840288783208081
+    m_SerializedTextureGuid:
+      m_GuidLow: 317752344337317357
+      m_GuidHigh: 6651504661956273323
+    m_Size: {x: 0.145, y: 0.14464599}
+    m_SpecifySize: 1
+    m_Name: HandMapMarker4
+    m_Texture: {fileID: 2800000, guid: dac5fdede2120468ab24c2b53fe44e5c, type: 3}

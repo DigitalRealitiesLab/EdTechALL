@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.UI
+  commentId: N:BuildingBox.UI
+  id: BuildingBox.UI
+  children:
+  - BuildingBox.UI.BaseBuildingBoxUIElement
+  - BuildingBox.UI.BuildingBoxButtonUIElement
+  - BuildingBox.UI.BuildingBoxToggleUIElement
+  - BuildingBox.UI.BuildingBoxUI
+  langs:
+  - csharp
+  - vb
+  name: BuildingBox.UI
+  nameWithType: BuildingBox.UI
+  fullName: BuildingBox.UI
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: BuildingBox.UI.BuildingBoxToggleUIElement
+  commentId: T:BuildingBox.UI.BuildingBoxToggleUIElement
+  name: BuildingBoxToggleUIElement
+  nameWithType: BuildingBoxToggleUIElement
+  fullName: BuildingBox.UI.BuildingBoxToggleUIElement
+- uid: BuildingBox.UI.BuildingBoxUI
+  commentId: T:BuildingBox.UI.BuildingBoxUI
+  name: BuildingBoxUI
+  nameWithType: BuildingBoxUI
+  fullName: BuildingBox.UI.BuildingBoxUI
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement
+  commentId: T:BuildingBox.UI.BaseBuildingBoxUIElement
+  parent: BuildingBox.UI
+  name: BaseBuildingBoxUIElement
+  nameWithType: BaseBuildingBoxUIElement
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement
+- uid: BuildingBox.UI.BuildingBoxButtonUIElement
+  commentId: T:BuildingBox.UI.BuildingBoxButtonUIElement
+  name: BuildingBoxButtonUIElement
+  nameWithType: BuildingBoxButtonUIElement
+  fullName: BuildingBox.UI.BuildingBoxButtonUIElement
+- uid: BuildingBox.UI
+  commentId: N:BuildingBox.UI
+  name: BuildingBox.UI
+  nameWithType: BuildingBox.UI
+  fullName: BuildingBox.UI

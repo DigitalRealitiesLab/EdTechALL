@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Municipality
+  commentId: T:Global.Municipality
+  id: Municipality
+  parent: Global
+  children:
+  - Global.Municipality.Bevölkerung
+  - Global.Municipality.Gemeindekennziffer
+  - Global.Municipality.Gemeindename
+  - Global.Municipality.Status
+  langs:
+  - csharp
+  - vb
+  name: Municipality
+  nameWithType: Municipality
+  fullName: Municipality
+  type: Class
+  source:
+    id: Municipality
+    path: ''
+    startLine: 22887
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Municipality
+    content.vb: >-
+      <Serializable>
+
+      Public Class Municipality
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Municipality.Gemeindekennziffer
+  commentId: F:Global.Municipality.Gemeindekennziffer
+  id: Gemeindekennziffer
+  parent: Global.Municipality
+  langs:
+  - csharp
+  - vb
+  name: Gemeindekennziffer
+  nameWithType: Municipality.Gemeindekennziffer
+  fullName: Municipality.Gemeindekennziffer
+  type: Field
+  source:
+    id: Gemeindekennziffer
+    path: ''
+    startLine: 22890
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Gemeindekennziffer
+    return:
+      type: System.Int32
+    content.vb: Public Gemeindekennziffer As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Municipality.Gemeindename
+  commentId: F:Global.Municipality.Gemeindename
+  id: Gemeindename
+  parent: Global.Municipality
+  langs:
+  - csharp
+  - vb
+  name: Gemeindename
+  nameWithType: Municipality.Gemeindename
+  fullName: Municipality.Gemeindename
+  type: Field
+  source:
+    id: Gemeindename
+    path: ''
+    startLine: 22891
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Gemeindename
+    return:
+      type: System.String
+    content.vb: Public Gemeindename As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Municipality.Status
+  commentId: F:Global.Municipality.Status
+  id: Status
+  parent: Global.Municipality
+  langs:
+  - csharp
+  - vb
+  name: Status
+  nameWithType: Municipality.Status
+  fullName: Municipality.Status
+  type: Field
+  source:
+    id: Status
+    path: ''
+    startLine: 22892
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Status
+    return:
+      type: System.String
+    content.vb: Public Status As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Municipality.Bevölkerung
+  commentId: F:Global.Municipality.Bevölkerung
+  id: Bevölkerung
+  parent: Global.Municipality
+  langs:
+  - csharp
+  - vb
+  name: Bevölkerung
+  nameWithType: Municipality.Bevölkerung
+  fullName: Municipality.Bevölkerung
+  type: Field
+  source:
+    id: Bevölkerung
+    path: ''
+    startLine: 22893
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Bevölkerung
+    return:
+      type: System.Int32
+    content.vb: Public Bevölkerung As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SettingsPanel
+  commentId: T:Global.SettingsPanel
+  id: SettingsPanel
+  parent: Global
+  children:
+  - Global.SettingsPanel.ToggleActive
+  langs:
+  - csharp
+  - vb
+  name: SettingsPanel
+  nameWithType: SettingsPanel
+  fullName: SettingsPanel
+  type: Class
+  source:
+    id: SettingsPanel
+    path: ''
+    startLine: 20938
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SettingsPanel : MonoBehaviour'
+    content.vb: >-
+      Public Class SettingsPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SettingsPanel.ToggleActive
+  commentId: M:Global.SettingsPanel.ToggleActive
+  id: ToggleActive
+  parent: Global.SettingsPanel
+  langs:
+  - csharp
+  - vb
+  name: ToggleActive()
+  nameWithType: SettingsPanel.ToggleActive()
+  fullName: SettingsPanel.ToggleActive()
+  type: Method
+  source:
+    id: ToggleActive
+    path: ''
+    startLine: 20945
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ToggleActive()
+    content.vb: Public Sub ToggleActive
+  overload: Global.SettingsPanel.ToggleActive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SettingsPanel.ToggleActive*
+  commentId: Overload:Global.SettingsPanel.ToggleActive
+  name: ToggleActive
+  nameWithType: SettingsPanel.ToggleActive
+  fullName: SettingsPanel.ToggleActive

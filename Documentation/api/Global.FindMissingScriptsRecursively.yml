@@ -1,0 +1,121 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FindMissingScriptsRecursively
+  commentId: T:Global.FindMissingScriptsRecursively
+  id: FindMissingScriptsRecursively
+  parent: Global
+  children:
+  - Global.FindMissingScriptsRecursively.OnGUI
+  - Global.FindMissingScriptsRecursively.ShowWindow
+  langs:
+  - csharp
+  - vb
+  name: FindMissingScriptsRecursively
+  nameWithType: FindMissingScriptsRecursively
+  fullName: FindMissingScriptsRecursively
+  type: Class
+  source:
+    id: FindMissingScriptsRecursively
+    path: ''
+    startLine: 18095
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class FindMissingScriptsRecursively : EditorWindow'
+    content.vb: >-
+      Public Class FindMissingScriptsRecursively
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FindMissingScriptsRecursively.ShowWindow
+  commentId: M:Global.FindMissingScriptsRecursively.ShowWindow
+  id: ShowWindow
+  parent: Global.FindMissingScriptsRecursively
+  langs:
+  - csharp
+  - vb
+  name: ShowWindow()
+  nameWithType: FindMissingScriptsRecursively.ShowWindow()
+  fullName: FindMissingScriptsRecursively.ShowWindow()
+  type: Method
+  source:
+    id: ShowWindow
+    path: ''
+    startLine: 18099
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void ShowWindow()
+    content.vb: Public Shared Sub ShowWindow
+  overload: Global.FindMissingScriptsRecursively.ShowWindow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.FindMissingScriptsRecursively.OnGUI
+  commentId: M:Global.FindMissingScriptsRecursively.OnGUI
+  id: OnGUI
+  parent: Global.FindMissingScriptsRecursively
+  langs:
+  - csharp
+  - vb
+  name: OnGUI()
+  nameWithType: FindMissingScriptsRecursively.OnGUI()
+  fullName: FindMissingScriptsRecursively.OnGUI()
+  type: Method
+  source:
+    id: OnGUI
+    path: ''
+    startLine: 18105
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnGUI()
+    content.vb: Public Sub OnGUI
+  overload: Global.FindMissingScriptsRecursively.OnGUI*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.FindMissingScriptsRecursively.ShowWindow*
+  commentId: Overload:Global.FindMissingScriptsRecursively.ShowWindow
+  name: ShowWindow
+  nameWithType: FindMissingScriptsRecursively.ShowWindow
+  fullName: FindMissingScriptsRecursively.ShowWindow
+- uid: Global.FindMissingScriptsRecursively.OnGUI*
+  commentId: Overload:Global.FindMissingScriptsRecursively.OnGUI
+  name: OnGUI
+  nameWithType: FindMissingScriptsRecursively.OnGUI
+  fullName: FindMissingScriptsRecursively.OnGUI

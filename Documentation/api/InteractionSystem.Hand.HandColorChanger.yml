@@ -1,0 +1,354 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Hand.HandColorChanger
+  commentId: T:InteractionSystem.Hand.HandColorChanger
+  id: HandColorChanger
+  parent: InteractionSystem.Hand
+  children:
+  - InteractionSystem.Hand.HandColorChanger.colors
+  - InteractionSystem.Hand.HandColorChanger.handColliderAlpha
+  - InteractionSystem.Hand.HandColorChanger.saturnHandColliderRenderer
+  - InteractionSystem.Hand.HandColorChanger.saturnRingRenderer
+  - InteractionSystem.Hand.HandColorChanger.SetDefaultState
+  - InteractionSystem.Hand.HandColorChanger.SetHoverState
+  - InteractionSystem.Hand.HandColorChanger.SetSelectedState
+  langs:
+  - csharp
+  - vb
+  name: HandColorChanger
+  nameWithType: HandColorChanger
+  fullName: InteractionSystem.Hand.HandColorChanger
+  type: Class
+  source:
+    id: HandColorChanger
+    path: ''
+    startLine: 24235
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: 'public class HandColorChanger : MonoBehaviour'
+    content.vb: >-
+      Public Class HandColorChanger
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Hand.HandColorChanger.saturnRingRenderer
+  commentId: F:InteractionSystem.Hand.HandColorChanger.saturnRingRenderer
+  id: saturnRingRenderer
+  parent: InteractionSystem.Hand.HandColorChanger
+  langs:
+  - csharp
+  - vb
+  name: saturnRingRenderer
+  nameWithType: HandColorChanger.saturnRingRenderer
+  fullName: InteractionSystem.Hand.HandColorChanger.saturnRingRenderer
+  type: Field
+  source:
+    id: saturnRingRenderer
+    path: ''
+    startLine: 24237
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public Renderer saturnRingRenderer
+    return:
+      type: Global.Renderer
+    content.vb: Public saturnRingRenderer As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandColorChanger.saturnHandColliderRenderer
+  commentId: F:InteractionSystem.Hand.HandColorChanger.saturnHandColliderRenderer
+  id: saturnHandColliderRenderer
+  parent: InteractionSystem.Hand.HandColorChanger
+  langs:
+  - csharp
+  - vb
+  name: saturnHandColliderRenderer
+  nameWithType: HandColorChanger.saturnHandColliderRenderer
+  fullName: InteractionSystem.Hand.HandColorChanger.saturnHandColliderRenderer
+  type: Field
+  source:
+    id: saturnHandColliderRenderer
+    path: ''
+    startLine: 24238
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public Renderer saturnHandColliderRenderer
+    return:
+      type: Global.Renderer
+    content.vb: Public saturnHandColliderRenderer As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandColorChanger.handColliderAlpha
+  commentId: F:InteractionSystem.Hand.HandColorChanger.handColliderAlpha
+  id: handColliderAlpha
+  parent: InteractionSystem.Hand.HandColorChanger
+  langs:
+  - csharp
+  - vb
+  name: handColliderAlpha
+  nameWithType: HandColorChanger.handColliderAlpha
+  fullName: InteractionSystem.Hand.HandColorChanger.handColliderAlpha
+  type: Field
+  source:
+    id: handColliderAlpha
+    path: ''
+    startLine: 24239
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public float handColliderAlpha
+    return:
+      type: System.Single
+    content.vb: Public handColliderAlpha As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandColorChanger.colors
+  commentId: F:InteractionSystem.Hand.HandColorChanger.colors
+  id: colors
+  parent: InteractionSystem.Hand.HandColorChanger
+  langs:
+  - csharp
+  - vb
+  name: colors
+  nameWithType: HandColorChanger.colors
+  fullName: InteractionSystem.Hand.HandColorChanger.colors
+  type: Field
+  source:
+    id: colors
+    path: ''
+    startLine: 24240
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public List<Color> colors
+    return:
+      type: Global.List{Color}
+    content.vb: Public colors As List(Of Color)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandColorChanger.SetHoverState
+  commentId: M:InteractionSystem.Hand.HandColorChanger.SetHoverState
+  id: SetHoverState
+  parent: InteractionSystem.Hand.HandColorChanger
+  langs:
+  - csharp
+  - vb
+  name: SetHoverState()
+  nameWithType: HandColorChanger.SetHoverState()
+  fullName: InteractionSystem.Hand.HandColorChanger.SetHoverState()
+  type: Method
+  source:
+    id: SetHoverState
+    path: ''
+    startLine: 24250
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public void SetHoverState()
+    content.vb: Public Sub SetHoverState
+  overload: InteractionSystem.Hand.HandColorChanger.SetHoverState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandColorChanger.SetSelectedState
+  commentId: M:InteractionSystem.Hand.HandColorChanger.SetSelectedState
+  id: SetSelectedState
+  parent: InteractionSystem.Hand.HandColorChanger
+  langs:
+  - csharp
+  - vb
+  name: SetSelectedState()
+  nameWithType: HandColorChanger.SetSelectedState()
+  fullName: InteractionSystem.Hand.HandColorChanger.SetSelectedState()
+  type: Method
+  source:
+    id: SetSelectedState
+    path: ''
+    startLine: 24256
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public void SetSelectedState()
+    content.vb: Public Sub SetSelectedState
+  overload: InteractionSystem.Hand.HandColorChanger.SetSelectedState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandColorChanger.SetDefaultState
+  commentId: M:InteractionSystem.Hand.HandColorChanger.SetDefaultState
+  id: SetDefaultState
+  parent: InteractionSystem.Hand.HandColorChanger
+  langs:
+  - csharp
+  - vb
+  name: SetDefaultState()
+  nameWithType: HandColorChanger.SetDefaultState()
+  fullName: InteractionSystem.Hand.HandColorChanger.SetDefaultState()
+  type: Method
+  source:
+    id: SetDefaultState
+    path: ''
+    startLine: 24262
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public void SetDefaultState()
+    content.vb: Public Sub SetDefaultState
+  overload: InteractionSystem.Hand.HandColorChanger.SetDefaultState*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Hand
+  commentId: N:InteractionSystem.Hand
+  name: InteractionSystem.Hand
+  nameWithType: InteractionSystem.Hand
+  fullName: InteractionSystem.Hand
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Renderer
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.List{Color}
+  commentId: '!:Global.List{Color}'
+  definition: Global.List`1
+  name: List<Color>
+  nameWithType: List<Color>
+  fullName: List<Color>
+  nameWithType.vb: List(Of Color)
+  fullName.vb: List(Of Color)
+  name.vb: List(Of Color)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Hand.HandColorChanger.SetHoverState*
+  commentId: Overload:InteractionSystem.Hand.HandColorChanger.SetHoverState
+  name: SetHoverState
+  nameWithType: HandColorChanger.SetHoverState
+  fullName: InteractionSystem.Hand.HandColorChanger.SetHoverState
+- uid: InteractionSystem.Hand.HandColorChanger.SetSelectedState*
+  commentId: Overload:InteractionSystem.Hand.HandColorChanger.SetSelectedState
+  name: SetSelectedState
+  nameWithType: HandColorChanger.SetSelectedState
+  fullName: InteractionSystem.Hand.HandColorChanger.SetSelectedState
+- uid: InteractionSystem.Hand.HandColorChanger.SetDefaultState*
+  commentId: Overload:InteractionSystem.Hand.HandColorChanger.SetDefaultState
+  name: SetDefaultState
+  nameWithType: HandColorChanger.SetDefaultState
+  fullName: InteractionSystem.Hand.HandColorChanger.SetDefaultState

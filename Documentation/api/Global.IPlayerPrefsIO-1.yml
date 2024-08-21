@@ -1,0 +1,140 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.IPlayerPrefsIO`1
+  commentId: T:Global.IPlayerPrefsIO`1
+  id: IPlayerPrefsIO`1
+  parent: Global
+  children:
+  - Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  - Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  langs:
+  - csharp
+  - vb
+  name: IPlayerPrefsIO<T>
+  nameWithType: IPlayerPrefsIO<T>
+  fullName: IPlayerPrefsIO<T>
+  type: Interface
+  source:
+    id: IPlayerPrefsIO
+    path: ''
+    startLine: 17444
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public interface IPlayerPrefsIO<T>
+    typeParameters:
+    - id: T
+    content.vb: Public Interface IPlayerPrefsIO(Of T)
+  nameWithType.vb: IPlayerPrefsIO(Of T)
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+  fullName.vb: IPlayerPrefsIO(Of T)
+  name.vb: IPlayerPrefsIO(Of T)
+- uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  commentId: M:Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  id: SaveToPlayerPrefs(System.String,`0)
+  parent: Global.IPlayerPrefsIO`1
+  langs:
+  - csharp
+  - vb
+  name: SaveToPlayerPrefs(String, T)
+  nameWithType: IPlayerPrefsIO<T>.SaveToPlayerPrefs(String, T)
+  fullName: IPlayerPrefsIO<T>.SaveToPlayerPrefs(System.String, T)
+  type: Method
+  source:
+    id: SaveToPlayerPrefs
+    path: ''
+    startLine: 17446
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: void SaveToPlayerPrefs(string key, T value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: '{T}'
+    content.vb: Sub SaveToPlayerPrefs(key As String, value As T)
+  overload: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs*
+  nameWithType.vb: IPlayerPrefsIO(Of T).SaveToPlayerPrefs(String, T)
+  fullName.vb: IPlayerPrefsIO(Of T).SaveToPlayerPrefs(System.String, T)
+- uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  commentId: M:Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  id: LoadFromPlayerPrefs(System.String)
+  parent: Global.IPlayerPrefsIO`1
+  langs:
+  - csharp
+  - vb
+  name: LoadFromPlayerPrefs(String)
+  nameWithType: IPlayerPrefsIO<T>.LoadFromPlayerPrefs(String)
+  fullName: IPlayerPrefsIO<T>.LoadFromPlayerPrefs(System.String)
+  type: Method
+  source:
+    id: LoadFromPlayerPrefs
+    path: ''
+    startLine: 17447
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: T LoadFromPlayerPrefs(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: '{T}'
+    content.vb: Function LoadFromPlayerPrefs(key As String) As T
+  overload: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs*
+  nameWithType.vb: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs(String)
+  fullName.vb: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs(System.String)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs*
+  commentId: Overload:Global.IPlayerPrefsIO`1.SaveToPlayerPrefs
+  name: SaveToPlayerPrefs
+  nameWithType: IPlayerPrefsIO<T>.SaveToPlayerPrefs
+  fullName: IPlayerPrefsIO<T>.SaveToPlayerPrefs
+  nameWithType.vb: IPlayerPrefsIO(Of T).SaveToPlayerPrefs
+  fullName.vb: IPlayerPrefsIO(Of T).SaveToPlayerPrefs
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs*
+  commentId: Overload:Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs
+  name: LoadFromPlayerPrefs
+  nameWithType: IPlayerPrefsIO<T>.LoadFromPlayerPrefs
+  fullName: IPlayerPrefsIO<T>.LoadFromPlayerPrefs
+  nameWithType.vb: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs
+  fullName.vb: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs

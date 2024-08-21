@@ -1,0 +1,351 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Hand.HandSensor
+  commentId: T:InteractionSystem.Hand.HandSensor
+  id: HandSensor
+  parent: InteractionSystem.Hand
+  children:
+  - InteractionSystem.Hand.HandSensor.closest
+  - InteractionSystem.Hand.HandSensor.closestSensableChanged
+  - InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType``1
+  - InteractionSystem.Hand.HandSensor.handCollider
+  - InteractionSystem.Hand.HandSensor.previous
+  - InteractionSystem.Hand.HandSensor.sensablesInRangeChanged
+  langs:
+  - csharp
+  - vb
+  name: HandSensor
+  nameWithType: HandSensor
+  fullName: InteractionSystem.Hand.HandSensor
+  type: Class
+  source:
+    id: HandSensor
+    path: ''
+    startLine: 23944
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: 'public class HandSensor : MonoBehaviour'
+    content.vb: >-
+      Public Class HandSensor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Hand.HandSensor.handCollider
+  commentId: F:InteractionSystem.Hand.HandSensor.handCollider
+  id: handCollider
+  parent: InteractionSystem.Hand.HandSensor
+  langs:
+  - csharp
+  - vb
+  name: handCollider
+  nameWithType: HandSensor.handCollider
+  fullName: InteractionSystem.Hand.HandSensor.handCollider
+  type: Field
+  source:
+    id: handCollider
+    path: ''
+    startLine: 23946
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public SphereCollider handCollider
+    return:
+      type: Global.SphereCollider
+    content.vb: Public handCollider As SphereCollider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandSensor.closestSensableChanged
+  commentId: F:InteractionSystem.Hand.HandSensor.closestSensableChanged
+  id: closestSensableChanged
+  parent: InteractionSystem.Hand.HandSensor
+  langs:
+  - csharp
+  - vb
+  name: closestSensableChanged
+  nameWithType: HandSensor.closestSensableChanged
+  fullName: InteractionSystem.Hand.HandSensor.closestSensableChanged
+  type: Field
+  source:
+    id: closestSensableChanged
+    path: ''
+    startLine: 23947
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public UnityEvent closestSensableChanged
+    return:
+      type: Global.UnityEvent
+    content.vb: Public closestSensableChanged As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandSensor.sensablesInRangeChanged
+  commentId: F:InteractionSystem.Hand.HandSensor.sensablesInRangeChanged
+  id: sensablesInRangeChanged
+  parent: InteractionSystem.Hand.HandSensor
+  langs:
+  - csharp
+  - vb
+  name: sensablesInRangeChanged
+  nameWithType: HandSensor.sensablesInRangeChanged
+  fullName: InteractionSystem.Hand.HandSensor.sensablesInRangeChanged
+  type: Field
+  source:
+    id: sensablesInRangeChanged
+    path: ''
+    startLine: 23948
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public UnityEvent sensablesInRangeChanged
+    return:
+      type: Global.UnityEvent
+    content.vb: Public sensablesInRangeChanged As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandSensor.closest
+  commentId: P:InteractionSystem.Hand.HandSensor.closest
+  id: closest
+  parent: InteractionSystem.Hand.HandSensor
+  langs:
+  - csharp
+  - vb
+  name: closest
+  nameWithType: HandSensor.closest
+  fullName: InteractionSystem.Hand.HandSensor.closest
+  type: Property
+  source:
+    id: closest
+    path: ''
+    startLine: 23954
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public Sensable closest { get; protected set; }
+    parameters: []
+    return:
+      type: InteractionSystem.Sensable
+    content.vb: Public Property closest As Sensable
+  overload: InteractionSystem.Hand.HandSensor.closest*
+  modifiers.csharp:
+  - public
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Get
+  - Protected Set
+- uid: InteractionSystem.Hand.HandSensor.previous
+  commentId: P:InteractionSystem.Hand.HandSensor.previous
+  id: previous
+  parent: InteractionSystem.Hand.HandSensor
+  langs:
+  - csharp
+  - vb
+  name: previous
+  nameWithType: HandSensor.previous
+  fullName: InteractionSystem.Hand.HandSensor.previous
+  type: Property
+  source:
+    id: previous
+    path: ''
+    startLine: 23967
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public Sensable previous { get; }
+    parameters: []
+    return:
+      type: InteractionSystem.Sensable
+    content.vb: Public ReadOnly Property previous As Sensable
+  overload: InteractionSystem.Hand.HandSensor.previous*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType``1
+  commentId: M:InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType``1
+  id: GetSensablesInRangeOfType``1
+  parent: InteractionSystem.Hand.HandSensor
+  langs:
+  - csharp
+  - vb
+  name: GetSensablesInRangeOfType<T>()
+  nameWithType: HandSensor.GetSensablesInRangeOfType<T>()
+  fullName: InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType<T>()
+  type: Method
+  source:
+    id: GetSensablesInRangeOfType
+    path: ''
+    startLine: 24015
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public List<T> GetSensablesInRangeOfType<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: Global.List{{T}}
+    content.vb: Public Function GetSensablesInRangeOfType(Of T) As List(Of T)
+  overload: InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType*
+  nameWithType.vb: HandSensor.GetSensablesInRangeOfType(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType(Of T)()
+  name.vb: GetSensablesInRangeOfType(Of T)()
+references:
+- uid: InteractionSystem.Hand
+  commentId: N:InteractionSystem.Hand
+  name: InteractionSystem.Hand
+  nameWithType: InteractionSystem.Hand
+  fullName: InteractionSystem.Hand
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SphereCollider
+  commentId: '!:Global.SphereCollider'
+  isExternal: true
+  name: SphereCollider
+  nameWithType: SphereCollider
+  fullName: SphereCollider
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: InteractionSystem.Hand.HandSensor.closest*
+  commentId: Overload:InteractionSystem.Hand.HandSensor.closest
+  name: closest
+  nameWithType: HandSensor.closest
+  fullName: InteractionSystem.Hand.HandSensor.closest
+- uid: InteractionSystem.Sensable
+  commentId: T:InteractionSystem.Sensable
+  parent: InteractionSystem
+  name: Sensable
+  nameWithType: Sensable
+  fullName: InteractionSystem.Sensable
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: InteractionSystem.Hand.HandSensor.previous*
+  commentId: Overload:InteractionSystem.Hand.HandSensor.previous
+  name: previous
+  nameWithType: HandSensor.previous
+  fullName: InteractionSystem.Hand.HandSensor.previous
+- uid: InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType*
+  commentId: Overload:InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType
+  name: GetSensablesInRangeOfType
+  nameWithType: HandSensor.GetSensablesInRangeOfType
+  fullName: InteractionSystem.Hand.HandSensor.GetSensablesInRangeOfType
+- uid: Global.List{{T}}
+  commentId: '!:Global.List{``0}'
+  definition: Global.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

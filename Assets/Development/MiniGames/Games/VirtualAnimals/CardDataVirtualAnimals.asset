@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 445c7d0ce24444a65aa4a28df9ed241c, type: 3}
+  m_Name: CardDataVirtualAnimals
+  m_EditorClassIdentifier: 
+  miniGameData:
+    type: 7
+    title: Milchgebende Tiere
+    steps:
+    - "Tippe auf die Tiere, um mehr \xFCber sie zu erfahren."
+    - "Tippe auf die Tiere, um mehr \xFCber sie zu erfahren."
+    abortText: 
+    scoreText: 
+    description: 
+    sprite: {fileID: 21300000, guid: 3d2c50d15a359463c889f56a23187107, type: 3}
+    videoClip: {fileID: 0}
+    audioClip: {fileID: 8300000, guid: c45a7174dd2a64c9ba419b7138a519e4, type: 3}
+    abortSprite: {fileID: 0}
+    abortVideoClip: {fileID: 0}
+    abortAudioClip: {fileID: 0}
+    scoreSprite: {fileID: 21300000, guid: 157e33356e330496b8d0acaf7cdc4c2c, type: 3}
+    scoreVideoClip: {fileID: 0}
+    scoreAudioClip: {fileID: 8300000, guid: 23102a37b144841c295e83d19f298a0f, type: 3}

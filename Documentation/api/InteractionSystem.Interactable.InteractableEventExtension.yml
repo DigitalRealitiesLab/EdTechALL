@@ -1,0 +1,227 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Interactable.InteractableEventExtension
+  commentId: T:InteractionSystem.Interactable.InteractableEventExtension
+  id: InteractableEventExtension
+  parent: InteractionSystem.Interactable
+  children:
+  - InteractionSystem.Interactable.InteractableEventExtension.OnInteract
+  - InteractionSystem.Interactable.InteractableEventExtension.OnInteractEvent
+  - InteractionSystem.Interactable.InteractableEventExtension.OnInteractEventParam
+  langs:
+  - csharp
+  - vb
+  name: InteractableEventExtension
+  nameWithType: InteractableEventExtension
+  fullName: InteractionSystem.Interactable.InteractableEventExtension
+  type: Class
+  source:
+    id: InteractableEventExtension
+    path: ''
+    startLine: 24667
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: 'public class InteractableEventExtension : AInteractionBehaviour'
+    content.vb: >-
+      Public Class InteractableEventExtension
+          Inherits AInteractionBehaviour
+  inheritance:
+  - System.Object
+  - InteractionSystem.Interactable.AInteractionBehaviour
+  inheritedMembers:
+  - InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  - InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Interactable.InteractableEventExtension.OnInteractEvent
+  commentId: F:InteractionSystem.Interactable.InteractableEventExtension.OnInteractEvent
+  id: OnInteractEvent
+  parent: InteractionSystem.Interactable.InteractableEventExtension
+  langs:
+  - csharp
+  - vb
+  name: OnInteractEvent
+  nameWithType: InteractableEventExtension.OnInteractEvent
+  fullName: InteractionSystem.Interactable.InteractableEventExtension.OnInteractEvent
+  type: Field
+  source:
+    id: OnInteractEvent
+    path: ''
+    startLine: 24669
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: public Events.UnityEvent OnInteractEvent
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public OnInteractEvent As Events.UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Interactable.InteractableEventExtension.OnInteractEventParam
+  commentId: F:InteractionSystem.Interactable.InteractableEventExtension.OnInteractEventParam
+  id: OnInteractEventParam
+  parent: InteractionSystem.Interactable.InteractableEventExtension
+  langs:
+  - csharp
+  - vb
+  name: OnInteractEventParam
+  nameWithType: InteractableEventExtension.OnInteractEventParam
+  fullName: InteractionSystem.Interactable.InteractableEventExtension.OnInteractEventParam
+  type: Field
+  source:
+    id: OnInteractEventParam
+    path: ''
+    startLine: 24670
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: public InteractableEvent OnInteractEventParam
+    return:
+      type: InteractionSystem.Interactable.InteractableEvent
+    content.vb: Public OnInteractEventParam As InteractableEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Interactable.InteractableEventExtension.OnInteract
+  commentId: M:InteractionSystem.Interactable.InteractableEventExtension.OnInteract
+  id: OnInteract
+  parent: InteractionSystem.Interactable.InteractableEventExtension
+  langs:
+  - csharp
+  - vb
+  name: OnInteract()
+  nameWithType: InteractableEventExtension.OnInteract()
+  fullName: InteractionSystem.Interactable.InteractableEventExtension.OnInteract()
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 24672
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: public override void OnInteract()
+    content.vb: Public Overrides Sub OnInteract
+  overridden: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  overload: InteractionSystem.Interactable.InteractableEventExtension.OnInteract*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: InteractionSystem.Interactable.AInteractionBehaviour
+  commentId: T:InteractionSystem.Interactable.AInteractionBehaviour
+  parent: InteractionSystem.Interactable
+  name: AInteractionBehaviour
+  nameWithType: AInteractionBehaviour
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  commentId: F:InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  name: interactable
+  nameWithType: AInteractionBehaviour.interactable
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.interactable
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  commentId: M:InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  name: Awake()
+  nameWithType: AInteractionBehaviour.Awake()
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.Awake()
+  spec.csharp:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+    name: Awake
+    nameWithType: AInteractionBehaviour.Awake
+    fullName: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+    name: Awake
+    nameWithType: AInteractionBehaviour.Awake
+    fullName: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.Events.UnityEvent
+  isExternal: true
+  name: Events.UnityEvent
+  nameWithType: Events.UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: InteractionSystem.Interactable.InteractableEvent
+  commentId: T:InteractionSystem.Interactable.InteractableEvent
+  parent: InteractionSystem.Interactable
+  name: InteractableEvent
+  nameWithType: InteractableEvent
+  fullName: InteractionSystem.Interactable.InteractableEvent
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  commentId: M:InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  name: OnInteract()
+  nameWithType: AInteractionBehaviour.OnInteract()
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract()
+  spec.csharp:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+    name: OnInteract
+    nameWithType: AInteractionBehaviour.OnInteract
+    fullName: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+    name: OnInteract
+    nameWithType: AInteractionBehaviour.OnInteract
+    fullName: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Interactable.InteractableEventExtension.OnInteract*
+  commentId: Overload:InteractionSystem.Interactable.InteractableEventExtension.OnInteract
+  name: OnInteract
+  nameWithType: InteractableEventExtension.OnInteract
+  fullName: InteractionSystem.Interactable.InteractableEventExtension.OnInteract

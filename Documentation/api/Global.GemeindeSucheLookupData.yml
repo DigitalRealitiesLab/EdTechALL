@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GemeindeSucheLookupData
+  commentId: T:Global.GemeindeSucheLookupData
+  id: GemeindeSucheLookupData
+  parent: Global
+  children:
+  - Global.GemeindeSucheLookupData.gemeindeKennziffer
+  - Global.GemeindeSucheLookupData.gemeindeName
+  - Global.GemeindeSucheLookupData.prefab
+  langs:
+  - csharp
+  - vb
+  name: GemeindeSucheLookupData
+  nameWithType: GemeindeSucheLookupData
+  fullName: GemeindeSucheLookupData
+  type: Class
+  source:
+    id: GemeindeSucheLookupData
+    path: ''
+    startLine: 15744
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class GemeindeSucheLookupData : AImageMarkerLookupData
+    content.vb: >-
+      <Serializable>
+
+      Public Class GemeindeSucheLookupData
+          Inherits AImageMarkerLookupData
+  inheritance:
+  - System.Object
+  - Global.AImageMarkerLookupData
+  inheritedMembers:
+  - Global.AImageMarkerLookupData.lookupKey
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.GemeindeSucheLookupData.gemeindeKennziffer
+  commentId: F:Global.GemeindeSucheLookupData.gemeindeKennziffer
+  id: gemeindeKennziffer
+  parent: Global.GemeindeSucheLookupData
+  langs:
+  - csharp
+  - vb
+  name: gemeindeKennziffer
+  nameWithType: GemeindeSucheLookupData.gemeindeKennziffer
+  fullName: GemeindeSucheLookupData.gemeindeKennziffer
+  type: Field
+  source:
+    id: gemeindeKennziffer
+    path: ''
+    startLine: 15747
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string gemeindeKennziffer
+    return:
+      type: System.String
+    content.vb: Public gemeindeKennziffer As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheLookupData.gemeindeName
+  commentId: F:Global.GemeindeSucheLookupData.gemeindeName
+  id: gemeindeName
+  parent: Global.GemeindeSucheLookupData
+  langs:
+  - csharp
+  - vb
+  name: gemeindeName
+  nameWithType: GemeindeSucheLookupData.gemeindeName
+  fullName: GemeindeSucheLookupData.gemeindeName
+  type: Field
+  source:
+    id: gemeindeName
+    path: ''
+    startLine: 15748
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string gemeindeName
+    return:
+      type: System.String
+    content.vb: Public gemeindeName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheLookupData.prefab
+  commentId: F:Global.GemeindeSucheLookupData.prefab
+  id: prefab
+  parent: Global.GemeindeSucheLookupData
+  langs:
+  - csharp
+  - vb
+  name: prefab
+  nameWithType: GemeindeSucheLookupData.prefab
+  fullName: GemeindeSucheLookupData.prefab
+  type: Field
+  source:
+    id: prefab
+    path: ''
+    startLine: 15749
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject prefab
+    return:
+      type: Global.GameObject
+    content.vb: Public prefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AImageMarkerLookupData
+  commentId: T:Global.AImageMarkerLookupData
+  name: AImageMarkerLookupData
+  nameWithType: AImageMarkerLookupData
+  fullName: AImageMarkerLookupData
+- uid: Global.AImageMarkerLookupData.lookupKey
+  commentId: F:Global.AImageMarkerLookupData.lookupKey
+  parent: Global.AImageMarkerLookupData
+  name: lookupKey
+  nameWithType: AImageMarkerLookupData.lookupKey
+  fullName: AImageMarkerLookupData.lookupKey
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

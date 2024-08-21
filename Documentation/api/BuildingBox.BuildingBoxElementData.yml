@@ -1,0 +1,383 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingBoxElementData
+  commentId: T:BuildingBox.BuildingBoxElementData
+  id: BuildingBoxElementData
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingBoxElementData.name
+  - BuildingBox.BuildingBoxElementData.OnElementDestroy
+  - BuildingBox.BuildingBoxElementData.OnElementSpawn
+  - BuildingBox.BuildingBoxElementData.RequestDestroyAll
+  - BuildingBox.BuildingBoxElementData.RequestDestroyInstance(GameObject)
+  - BuildingBox.BuildingBoxElementData.RequestDestroySingle
+  - BuildingBox.BuildingBoxElementData.RequestSpawn
+  - BuildingBox.BuildingBoxElementData.UIData
+  - BuildingBox.BuildingBoxElementData.worldData
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxElementData
+  nameWithType: BuildingBoxElementData
+  fullName: BuildingBox.BuildingBoxElementData
+  type: Class
+  source:
+    id: BuildingBoxElementData
+    path: ''
+    startLine: 808
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class BuildingBoxElementData
+    content.vb: >-
+      <Serializable>
+
+      Public Class BuildingBoxElementData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingBoxElementData.name
+  commentId: F:BuildingBox.BuildingBoxElementData.name
+  id: name
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: BuildingBoxElementData.name
+  fullName: BuildingBox.BuildingBoxElementData.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 811
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementData.worldData
+  commentId: F:BuildingBox.BuildingBoxElementData.worldData
+  id: worldData
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: worldData
+  nameWithType: BuildingBoxElementData.worldData
+  fullName: BuildingBox.BuildingBoxElementData.worldData
+  type: Field
+  source:
+    id: worldData
+    path: ''
+    startLine: 812
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingBoxWorldElementData worldData
+    return:
+      type: BuildingBox.BuildingBoxWorldElementData
+    content.vb: Public worldData As BuildingBoxWorldElementData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementData.UIData
+  commentId: F:BuildingBox.BuildingBoxElementData.UIData
+  id: UIData
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: UIData
+  nameWithType: BuildingBoxElementData.UIData
+  fullName: BuildingBox.BuildingBoxElementData.UIData
+  type: Field
+  source:
+    id: UIData
+    path: ''
+    startLine: 813
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingBoxUIElementData UIData
+    return:
+      type: BuildingBox.BuildingBoxUIElementData
+    content.vb: Public UIData As BuildingBoxUIElementData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementData.OnElementSpawn
+  commentId: F:BuildingBox.BuildingBoxElementData.OnElementSpawn
+  id: OnElementSpawn
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: OnElementSpawn
+  nameWithType: BuildingBoxElementData.OnElementSpawn
+  fullName: BuildingBox.BuildingBoxElementData.OnElementSpawn
+  type: Field
+  source:
+    id: OnElementSpawn
+    path: ''
+    startLine: 816
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public GameObjectEvent OnElementSpawn
+    return:
+      type: Global.GameObjectEvent
+    content.vb: >-
+      <NonSerialized>
+
+      Public OnElementSpawn As GameObjectEvent
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementData.OnElementDestroy
+  commentId: F:BuildingBox.BuildingBoxElementData.OnElementDestroy
+  id: OnElementDestroy
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: OnElementDestroy
+  nameWithType: BuildingBoxElementData.OnElementDestroy
+  fullName: BuildingBox.BuildingBoxElementData.OnElementDestroy
+  type: Field
+  source:
+    id: OnElementDestroy
+    path: ''
+    startLine: 818
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public GameObjectEvent OnElementDestroy
+    return:
+      type: Global.GameObjectEvent
+    content.vb: >-
+      <NonSerialized>
+
+      Public OnElementDestroy As GameObjectEvent
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementData.RequestSpawn
+  commentId: M:BuildingBox.BuildingBoxElementData.RequestSpawn
+  id: RequestSpawn
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: RequestSpawn()
+  nameWithType: BuildingBoxElementData.RequestSpawn()
+  fullName: BuildingBox.BuildingBoxElementData.RequestSpawn()
+  type: Method
+  source:
+    id: RequestSpawn
+    path: ''
+    startLine: 820
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public GameObject RequestSpawn()
+    return:
+      type: Global.GameObject
+    content.vb: Public Function RequestSpawn As GameObject
+  overload: BuildingBox.BuildingBoxElementData.RequestSpawn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementData.RequestDestroyAll
+  commentId: M:BuildingBox.BuildingBoxElementData.RequestDestroyAll
+  id: RequestDestroyAll
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: RequestDestroyAll()
+  nameWithType: BuildingBoxElementData.RequestDestroyAll()
+  fullName: BuildingBox.BuildingBoxElementData.RequestDestroyAll()
+  type: Method
+  source:
+    id: RequestDestroyAll
+    path: ''
+    startLine: 833
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void RequestDestroyAll()
+    content.vb: Public Sub RequestDestroyAll
+  overload: BuildingBox.BuildingBoxElementData.RequestDestroyAll*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementData.RequestDestroySingle
+  commentId: M:BuildingBox.BuildingBoxElementData.RequestDestroySingle
+  id: RequestDestroySingle
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: RequestDestroySingle()
+  nameWithType: BuildingBoxElementData.RequestDestroySingle()
+  fullName: BuildingBox.BuildingBoxElementData.RequestDestroySingle()
+  type: Method
+  source:
+    id: RequestDestroySingle
+    path: ''
+    startLine: 839
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void RequestDestroySingle()
+    content.vb: Public Sub RequestDestroySingle
+  overload: BuildingBox.BuildingBoxElementData.RequestDestroySingle*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxElementData.RequestDestroyInstance(GameObject)
+  commentId: M:BuildingBox.BuildingBoxElementData.RequestDestroyInstance(GameObject)
+  id: RequestDestroyInstance(GameObject)
+  parent: BuildingBox.BuildingBoxElementData
+  langs:
+  - csharp
+  - vb
+  name: RequestDestroyInstance(GameObject)
+  nameWithType: BuildingBoxElementData.RequestDestroyInstance(GameObject)
+  fullName: BuildingBox.BuildingBoxElementData.RequestDestroyInstance(GameObject)
+  type: Method
+  source:
+    id: RequestDestroyInstance
+    path: ''
+    startLine: 848
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void RequestDestroyInstance(GameObject instance)
+    parameters:
+    - id: instance
+      type: Global.GameObject
+    content.vb: Public Sub RequestDestroyInstance(instance As GameObject)
+  overload: BuildingBox.BuildingBoxElementData.RequestDestroyInstance*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BuildingBox.BuildingBoxWorldElementData
+  commentId: T:BuildingBox.BuildingBoxWorldElementData
+  parent: BuildingBox
+  name: BuildingBoxWorldElementData
+  nameWithType: BuildingBoxWorldElementData
+  fullName: BuildingBox.BuildingBoxWorldElementData
+- uid: BuildingBox.BuildingBoxUIElementData
+  commentId: T:BuildingBox.BuildingBoxUIElementData
+  parent: BuildingBox
+  name: BuildingBoxUIElementData
+  nameWithType: BuildingBoxUIElementData
+  fullName: BuildingBox.BuildingBoxUIElementData
+- uid: Global.GameObjectEvent
+  commentId: T:Global.GameObjectEvent
+  name: GameObjectEvent
+  nameWithType: GameObjectEvent
+  fullName: GameObjectEvent
+- uid: BuildingBox.BuildingBoxElementData.RequestSpawn*
+  commentId: Overload:BuildingBox.BuildingBoxElementData.RequestSpawn
+  name: RequestSpawn
+  nameWithType: BuildingBoxElementData.RequestSpawn
+  fullName: BuildingBox.BuildingBoxElementData.RequestSpawn
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: BuildingBox.BuildingBoxElementData.RequestDestroyAll*
+  commentId: Overload:BuildingBox.BuildingBoxElementData.RequestDestroyAll
+  name: RequestDestroyAll
+  nameWithType: BuildingBoxElementData.RequestDestroyAll
+  fullName: BuildingBox.BuildingBoxElementData.RequestDestroyAll
+- uid: BuildingBox.BuildingBoxElementData.RequestDestroySingle*
+  commentId: Overload:BuildingBox.BuildingBoxElementData.RequestDestroySingle
+  name: RequestDestroySingle
+  nameWithType: BuildingBoxElementData.RequestDestroySingle
+  fullName: BuildingBox.BuildingBoxElementData.RequestDestroySingle
+- uid: BuildingBox.BuildingBoxElementData.RequestDestroyInstance*
+  commentId: Overload:BuildingBox.BuildingBoxElementData.RequestDestroyInstance
+  name: RequestDestroyInstance
+  nameWithType: BuildingBoxElementData.RequestDestroyInstance
+  fullName: BuildingBox.BuildingBoxElementData.RequestDestroyInstance

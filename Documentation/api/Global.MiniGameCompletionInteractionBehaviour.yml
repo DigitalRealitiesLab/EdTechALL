@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniGameCompletionInteractionBehaviour
+  commentId: T:Global.MiniGameCompletionInteractionBehaviour
+  id: MiniGameCompletionInteractionBehaviour
+  parent: Global
+  children:
+  - Global.MiniGameCompletionInteractionBehaviour.OnInteract
+  langs:
+  - csharp
+  - vb
+  name: MiniGameCompletionInteractionBehaviour
+  nameWithType: MiniGameCompletionInteractionBehaviour
+  fullName: MiniGameCompletionInteractionBehaviour
+  type: Class
+  source:
+    id: MiniGameCompletionInteractionBehaviour
+    path: ''
+    startLine: 14754
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MiniGameCompletionInteractionBehaviour : AInteractionBehaviour'
+    content.vb: >-
+      Public Class MiniGameCompletionInteractionBehaviour
+          Inherits AInteractionBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MiniGameCompletionInteractionBehaviour.OnInteract
+  commentId: M:Global.MiniGameCompletionInteractionBehaviour.OnInteract
+  id: OnInteract
+  parent: Global.MiniGameCompletionInteractionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnInteract()
+  nameWithType: MiniGameCompletionInteractionBehaviour.OnInteract()
+  fullName: MiniGameCompletionInteractionBehaviour.OnInteract()
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 14756
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInteract()
+    content.vb: Public Overrides Sub OnInteract
+  overload: Global.MiniGameCompletionInteractionBehaviour.OnInteract*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MiniGameCompletionInteractionBehaviour.OnInteract*
+  commentId: Overload:Global.MiniGameCompletionInteractionBehaviour.OnInteract
+  name: OnInteract
+  nameWithType: MiniGameCompletionInteractionBehaviour.OnInteract
+  fullName: MiniGameCompletionInteractionBehaviour.OnInteract

@@ -1,0 +1,163 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ARSupportCheck
+  commentId: T:Global.ARSupportCheck
+  id: ARSupportCheck
+  parent: Global
+  children:
+  - Global.ARSupportCheck.OnARSessionStateChanged(ARSessionStateChangedEventArgs)
+  - Global.ARSupportCheck.session
+  - Global.ARSupportCheck.trackedImageManager
+  langs:
+  - csharp
+  - vb
+  name: ARSupportCheck
+  nameWithType: ARSupportCheck
+  fullName: ARSupportCheck
+  type: Class
+  source:
+    id: ARSupportCheck
+    path: ''
+    startLine: 25275
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ARSupportCheck : MonoBehaviour'
+    content.vb: >-
+      Public Class ARSupportCheck
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ARSupportCheck.session
+  commentId: F:Global.ARSupportCheck.session
+  id: session
+  parent: Global.ARSupportCheck
+  langs:
+  - csharp
+  - vb
+  name: session
+  nameWithType: ARSupportCheck.session
+  fullName: ARSupportCheck.session
+  type: Field
+  source:
+    id: session
+    path: ''
+    startLine: 25277
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ARSession session
+    return:
+      type: Global.ARSession
+    content.vb: Public session As ARSession
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ARSupportCheck.trackedImageManager
+  commentId: F:Global.ARSupportCheck.trackedImageManager
+  id: trackedImageManager
+  parent: Global.ARSupportCheck
+  langs:
+  - csharp
+  - vb
+  name: trackedImageManager
+  nameWithType: ARSupportCheck.trackedImageManager
+  fullName: ARSupportCheck.trackedImageManager
+  type: Field
+  source:
+    id: trackedImageManager
+    path: ''
+    startLine: 25278
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ARTrackedImageManager trackedImageManager
+    return:
+      type: Global.ARTrackedImageManager
+    content.vb: Public trackedImageManager As ARTrackedImageManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ARSupportCheck.OnARSessionStateChanged(ARSessionStateChangedEventArgs)
+  commentId: M:Global.ARSupportCheck.OnARSessionStateChanged(ARSessionStateChangedEventArgs)
+  id: OnARSessionStateChanged(ARSessionStateChangedEventArgs)
+  parent: Global.ARSupportCheck
+  langs:
+  - csharp
+  - vb
+  name: OnARSessionStateChanged(ARSessionStateChangedEventArgs)
+  nameWithType: ARSupportCheck.OnARSessionStateChanged(ARSessionStateChangedEventArgs)
+  fullName: ARSupportCheck.OnARSessionStateChanged(ARSessionStateChangedEventArgs)
+  type: Method
+  source:
+    id: OnARSessionStateChanged
+    path: ''
+    startLine: 25318
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void OnARSessionStateChanged(ARSessionStateChangedEventArgs stateChangedArgs)
+    parameters:
+    - id: stateChangedArgs
+      type: Global.ARSessionStateChangedEventArgs
+    content.vb: Protected Sub OnARSessionStateChanged(stateChangedArgs As ARSessionStateChangedEventArgs)
+  overload: Global.ARSupportCheck.OnARSessionStateChanged*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ARSession
+  commentId: '!:Global.ARSession'
+  isExternal: true
+  name: ARSession
+  nameWithType: ARSession
+  fullName: ARSession
+- uid: Global.ARTrackedImageManager
+  isExternal: true
+  name: ARTrackedImageManager
+  nameWithType: ARTrackedImageManager
+  fullName: ARTrackedImageManager
+- uid: Global.ARSupportCheck.OnARSessionStateChanged*
+  commentId: Overload:Global.ARSupportCheck.OnARSessionStateChanged
+  name: OnARSessionStateChanged
+  nameWithType: ARSupportCheck.OnARSessionStateChanged
+  fullName: ARSupportCheck.OnARSessionStateChanged
+- uid: Global.ARSessionStateChangedEventArgs
+  commentId: '!:Global.ARSessionStateChangedEventArgs'
+  isExternal: true
+  name: ARSessionStateChangedEventArgs
+  nameWithType: ARSessionStateChangedEventArgs
+  fullName: ARSessionStateChangedEventArgs

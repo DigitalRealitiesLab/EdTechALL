@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.EventId.SpawnEvent
+  commentId: T:BuildingBox.EventId.SpawnEvent
+  id: EventId.SpawnEvent
+  parent: BuildingBox
+  children:
+  - BuildingBox.EventId.SpawnEvent.RequestRandomReparent
+  - BuildingBox.EventId.SpawnEvent.RequestRandomSpawn
+  - BuildingBox.EventId.SpawnEvent.RequestReparent
+  - BuildingBox.EventId.SpawnEvent.RequestSpawn
+  langs:
+  - csharp
+  - vb
+  name: EventId.SpawnEvent
+  nameWithType: EventId.SpawnEvent
+  fullName: BuildingBox.EventId.SpawnEvent
+  type: Class
+  source:
+    id: SpawnEvent
+    path: ''
+    startLine: 641
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static class SpawnEvent
+    content.vb: Public Module SpawnEvent
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BuildingBox.EventId.SpawnEvent.RequestRandomSpawn
+  commentId: F:BuildingBox.EventId.SpawnEvent.RequestRandomSpawn
+  id: RequestRandomSpawn
+  parent: BuildingBox.EventId.SpawnEvent
+  langs:
+  - csharp
+  - vb
+  name: RequestRandomSpawn
+  nameWithType: EventId.SpawnEvent.RequestRandomSpawn
+  fullName: BuildingBox.EventId.SpawnEvent.RequestRandomSpawn
+  type: Field
+  source:
+    id: RequestRandomSpawn
+    path: ''
+    startLine: 643
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public const string RequestRandomSpawn = "RequestRandomSpawn"
+    return:
+      type: System.String
+    content.vb: Public Const RequestRandomSpawn As String = "RequestRandomSpawn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BuildingBox.EventId.SpawnEvent.RequestRandomReparent
+  commentId: F:BuildingBox.EventId.SpawnEvent.RequestRandomReparent
+  id: RequestRandomReparent
+  parent: BuildingBox.EventId.SpawnEvent
+  langs:
+  - csharp
+  - vb
+  name: RequestRandomReparent
+  nameWithType: EventId.SpawnEvent.RequestRandomReparent
+  fullName: BuildingBox.EventId.SpawnEvent.RequestRandomReparent
+  type: Field
+  source:
+    id: RequestRandomReparent
+    path: ''
+    startLine: 644
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public const string RequestRandomReparent = "RequestRandomReparent"
+    return:
+      type: System.String
+    content.vb: Public Const RequestRandomReparent As String = "RequestRandomReparent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BuildingBox.EventId.SpawnEvent.RequestReparent
+  commentId: F:BuildingBox.EventId.SpawnEvent.RequestReparent
+  id: RequestReparent
+  parent: BuildingBox.EventId.SpawnEvent
+  langs:
+  - csharp
+  - vb
+  name: RequestReparent
+  nameWithType: EventId.SpawnEvent.RequestReparent
+  fullName: BuildingBox.EventId.SpawnEvent.RequestReparent
+  type: Field
+  source:
+    id: RequestReparent
+    path: ''
+    startLine: 645
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public const string RequestReparent = "RequestReparent"
+    return:
+      type: System.String
+    content.vb: Public Const RequestReparent As String = "RequestReparent"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BuildingBox.EventId.SpawnEvent.RequestSpawn
+  commentId: F:BuildingBox.EventId.SpawnEvent.RequestSpawn
+  id: RequestSpawn
+  parent: BuildingBox.EventId.SpawnEvent
+  langs:
+  - csharp
+  - vb
+  name: RequestSpawn
+  nameWithType: EventId.SpawnEvent.RequestSpawn
+  fullName: BuildingBox.EventId.SpawnEvent.RequestSpawn
+  type: Field
+  source:
+    id: RequestSpawn
+    path: ''
+    startLine: 646
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public const string RequestSpawn = "RequestSpawn"
+    return:
+      type: System.String
+    content.vb: Public Const RequestSpawn As String = "RequestSpawn"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

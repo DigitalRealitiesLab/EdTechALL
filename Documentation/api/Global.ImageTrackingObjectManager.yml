@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ImageTrackingObjectManager
+  commentId: T:Global.ImageTrackingObjectManager
+  id: ImageTrackingObjectManager
+  parent: Global
+  children:
+  - Global.ImageTrackingObjectManager.imageManager
+  langs:
+  - csharp
+  - vb
+  name: ImageTrackingObjectManager
+  nameWithType: ImageTrackingObjectManager
+  fullName: ImageTrackingObjectManager
+  type: Class
+  source:
+    id: ImageTrackingObjectManager
+    path: ''
+    startLine: 25619
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ImageTrackingObjectManager : MonoBehaviour'
+    content.vb: >-
+      Public Class ImageTrackingObjectManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ImageTrackingObjectManager.imageManager
+  commentId: F:Global.ImageTrackingObjectManager.imageManager
+  id: imageManager
+  parent: Global.ImageTrackingObjectManager
+  langs:
+  - csharp
+  - vb
+  name: imageManager
+  nameWithType: ImageTrackingObjectManager.imageManager
+  fullName: ImageTrackingObjectManager.imageManager
+  type: Field
+  source:
+    id: imageManager
+    path: ''
+    startLine: 25623
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ARTrackedImageManager imageManager
+    return:
+      type: Global.ARTrackedImageManager
+    content.vb: Public imageManager As ARTrackedImageManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ARTrackedImageManager
+  isExternal: true
+  name: ARTrackedImageManager
+  nameWithType: ARTrackedImageManager
+  fullName: ARTrackedImageManager

@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.AReactionBehaviour
+  commentId: T:BuildingBox.AReactionBehaviour
+  id: AReactionBehaviour
+  parent: BuildingBox
+  children:
+  - BuildingBox.AReactionBehaviour.Awake
+  - BuildingBox.AReactionBehaviour.interactionArea
+  - BuildingBox.AReactionBehaviour.OnDisable
+  - BuildingBox.AReactionBehaviour.OnEnable
+  - BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+  - BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+  langs:
+  - csharp
+  - vb
+  name: AReactionBehaviour
+  nameWithType: AReactionBehaviour
+  fullName: BuildingBox.AReactionBehaviour
+  type: Class
+  source:
+    id: AReactionBehaviour
+    path: ''
+    startLine: 969
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public abstract class AReactionBehaviour : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AReactionBehaviour
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - BuildingBox.LayDownAreaBuildingBoxCommunicator
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: BuildingBox.AReactionBehaviour.interactionArea
+  commentId: F:BuildingBox.AReactionBehaviour.interactionArea
+  id: interactionArea
+  parent: BuildingBox.AReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: interactionArea
+  nameWithType: AReactionBehaviour.interactionArea
+  fullName: BuildingBox.AReactionBehaviour.interactionArea
+  type: Field
+  source:
+    id: interactionArea
+    path: ''
+    startLine: 972
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public InteractionArea interactionArea
+    return:
+      type: BuildingBox.InteractionArea
+    content.vb: Public interactionArea As InteractionArea
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.AReactionBehaviour.Awake
+  commentId: M:BuildingBox.AReactionBehaviour.Awake
+  id: Awake
+  parent: BuildingBox.AReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: AReactionBehaviour.Awake()
+  fullName: BuildingBox.AReactionBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 974
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: BuildingBox.AReactionBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: BuildingBox.AReactionBehaviour.OnEnable
+  commentId: M:BuildingBox.AReactionBehaviour.OnEnable
+  id: OnEnable
+  parent: BuildingBox.AReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnEnable()
+  nameWithType: AReactionBehaviour.OnEnable()
+  fullName: BuildingBox.AReactionBehaviour.OnEnable()
+  type: Method
+  source:
+    id: OnEnable
+    path: ''
+    startLine: 980
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: protected virtual void OnEnable()
+    content.vb: Protected Overridable Sub OnEnable
+  overload: BuildingBox.AReactionBehaviour.OnEnable*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: BuildingBox.AReactionBehaviour.OnDisable
+  commentId: M:BuildingBox.AReactionBehaviour.OnDisable
+  id: OnDisable
+  parent: BuildingBox.AReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: AReactionBehaviour.OnDisable()
+  fullName: BuildingBox.AReactionBehaviour.OnDisable()
+  type: Method
+  source:
+    id: OnDisable
+    path: ''
+    startLine: 986
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: protected virtual void OnDisable()
+    content.vb: Protected Overridable Sub OnDisable
+  overload: BuildingBox.AReactionBehaviour.OnDisable*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+  commentId: M:BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+  id: OnInteractorEnter(BuildingBox.AreaInteractor)
+  parent: BuildingBox.AReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnInteractorEnter(AreaInteractor)
+  nameWithType: AReactionBehaviour.OnInteractorEnter(AreaInteractor)
+  fullName: BuildingBox.AReactionBehaviour.OnInteractorEnter(BuildingBox.AreaInteractor)
+  type: Method
+  source:
+    id: OnInteractorEnter
+    path: ''
+    startLine: 992
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public abstract void OnInteractorEnter(AreaInteractor interactor)
+    parameters:
+    - id: interactor
+      type: BuildingBox.AreaInteractor
+    content.vb: Public MustOverride Sub OnInteractorEnter(interactor As AreaInteractor)
+  overload: BuildingBox.AReactionBehaviour.OnInteractorEnter*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+  commentId: M:BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+  id: OnInteractorExit(BuildingBox.AreaInteractor)
+  parent: BuildingBox.AReactionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnInteractorExit(AreaInteractor)
+  nameWithType: AReactionBehaviour.OnInteractorExit(AreaInteractor)
+  fullName: BuildingBox.AReactionBehaviour.OnInteractorExit(BuildingBox.AreaInteractor)
+  type: Method
+  source:
+    id: OnInteractorExit
+    path: ''
+    startLine: 993
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public abstract void OnInteractorExit(AreaInteractor interactor)
+    parameters:
+    - id: interactor
+      type: BuildingBox.AreaInteractor
+    content.vb: Public MustOverride Sub OnInteractorExit(interactor As AreaInteractor)
+  overload: BuildingBox.AReactionBehaviour.OnInteractorExit*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BuildingBox.InteractionArea
+  commentId: T:BuildingBox.InteractionArea
+  parent: BuildingBox
+  name: InteractionArea
+  nameWithType: InteractionArea
+  fullName: BuildingBox.InteractionArea
+- uid: BuildingBox.AReactionBehaviour.Awake*
+  commentId: Overload:BuildingBox.AReactionBehaviour.Awake
+  name: Awake
+  nameWithType: AReactionBehaviour.Awake
+  fullName: BuildingBox.AReactionBehaviour.Awake
+- uid: BuildingBox.AReactionBehaviour.OnEnable*
+  commentId: Overload:BuildingBox.AReactionBehaviour.OnEnable
+  name: OnEnable
+  nameWithType: AReactionBehaviour.OnEnable
+  fullName: BuildingBox.AReactionBehaviour.OnEnable
+- uid: BuildingBox.AReactionBehaviour.OnDisable*
+  commentId: Overload:BuildingBox.AReactionBehaviour.OnDisable
+  name: OnDisable
+  nameWithType: AReactionBehaviour.OnDisable
+  fullName: BuildingBox.AReactionBehaviour.OnDisable
+- uid: BuildingBox.AReactionBehaviour.OnInteractorEnter*
+  commentId: Overload:BuildingBox.AReactionBehaviour.OnInteractorEnter
+  name: OnInteractorEnter
+  nameWithType: AReactionBehaviour.OnInteractorEnter
+  fullName: BuildingBox.AReactionBehaviour.OnInteractorEnter
+- uid: BuildingBox.AreaInteractor
+  commentId: T:BuildingBox.AreaInteractor
+  parent: BuildingBox
+  name: AreaInteractor
+  nameWithType: AreaInteractor
+  fullName: BuildingBox.AreaInteractor
+- uid: BuildingBox.AReactionBehaviour.OnInteractorExit*
+  commentId: Overload:BuildingBox.AReactionBehaviour.OnInteractorExit
+  name: OnInteractorExit
+  nameWithType: AReactionBehaviour.OnInteractorExit
+  fullName: BuildingBox.AReactionBehaviour.OnInteractorExit

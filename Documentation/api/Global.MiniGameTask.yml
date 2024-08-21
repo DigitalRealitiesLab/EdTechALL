@@ -1,0 +1,521 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniGameTask
+  commentId: T:Global.MiniGameTask
+  id: MiniGameTask
+  parent: Global
+  children:
+  - Global.MiniGameTask.CheckForIsComplete(TaskCallback)
+  - Global.MiniGameTask.Construct(TaskData)
+  - Global.MiniGameTask.taskCallbacks
+  langs:
+  - csharp
+  - vb
+  name: MiniGameTask
+  nameWithType: MiniGameTask
+  fullName: MiniGameTask
+  type: Class
+  source:
+    id: MiniGameTask
+    path: ''
+    startLine: 18530
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MiniGameTask : CardTask'
+    content.vb: >-
+      Public Class MiniGameTask
+          Inherits CardTask
+  inheritance:
+  - System.Object
+  - Global.ATask
+  - Global.CardTask
+  inheritedMembers:
+  - Global.CardTask.spawnAreaId
+  - Global.CardTask.proxyCardPrefab
+  - Global.CardTask.proxyCardInstance
+  - Global.CardTask.proxyCardData
+  - Global.CardTask.frontSprites
+  - Global.CardTask.backSprites
+  - Global.CardTask.iconSprites
+  - Global.CardTask.ActivateTask
+  - Global.CardTask.DeactivateTask
+  - Global.CardTask.LayoutCard(ProxyCard)
+  - Global.ATask.subTasks
+  - Global.ATask.OnTaskCompleted
+  - Global.ATask.taskCompletionEventId
+  - Global.ATask._taskData
+  - Global.ATask.taskData
+  - Global.ATask.completed
+  - Global.ATask.subtasksCompleted
+  - Global.ATask.Awake
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MiniGameTask.taskCallbacks
+  commentId: P:Global.MiniGameTask.taskCallbacks
+  id: taskCallbacks
+  parent: Global.MiniGameTask
+  langs:
+  - csharp
+  - vb
+  name: taskCallbacks
+  nameWithType: MiniGameTask.taskCallbacks
+  fullName: MiniGameTask.taskCallbacks
+  type: Property
+  source:
+    id: taskCallbacks
+    path: ''
+    startLine: 18532
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override TaskCallback[] taskCallbacks { get; }
+    parameters: []
+    return:
+      type: Global.TaskCallback[]
+    content.vb: Protected Overrides ReadOnly Property taskCallbacks As TaskCallback()
+  overridden: Global.ATask.taskCallbacks
+  overload: Global.MiniGameTask.taskCallbacks*
+  modifiers.csharp:
+  - protected
+  - override
+  - get
+  modifiers.vb:
+  - Protected
+  - Overrides
+  - ReadOnly
+- uid: Global.MiniGameTask.Construct(TaskData)
+  commentId: M:Global.MiniGameTask.Construct(TaskData)
+  id: Construct(TaskData)
+  parent: Global.MiniGameTask
+  langs:
+  - csharp
+  - vb
+  name: Construct(TaskData)
+  nameWithType: MiniGameTask.Construct(TaskData)
+  fullName: MiniGameTask.Construct(TaskData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 18534
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void Construct(TaskData taskData)
+    parameters:
+    - id: taskData
+      type: Global.TaskData
+    content.vb: Public Overrides Sub Construct(taskData As TaskData)
+  overridden: Global.CardTask.Construct(TaskData)
+  overload: Global.MiniGameTask.Construct*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.MiniGameTask.CheckForIsComplete(TaskCallback)
+  commentId: M:Global.MiniGameTask.CheckForIsComplete(TaskCallback)
+  id: CheckForIsComplete(TaskCallback)
+  parent: Global.MiniGameTask
+  langs:
+  - csharp
+  - vb
+  name: CheckForIsComplete(TaskCallback)
+  nameWithType: MiniGameTask.CheckForIsComplete(TaskCallback)
+  fullName: MiniGameTask.CheckForIsComplete(TaskCallback)
+  type: Method
+  source:
+    id: CheckForIsComplete
+    path: ''
+    startLine: 18540
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void CheckForIsComplete(TaskCallback taskCallback)
+    parameters:
+    - id: taskCallback
+      type: Global.TaskCallback
+    content.vb: Public Overrides Sub CheckForIsComplete(taskCallback As TaskCallback)
+  overridden: Global.ATask.CheckForIsComplete(TaskCallback)
+  overload: Global.MiniGameTask.CheckForIsComplete*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ATask
+  commentId: T:Global.ATask
+  name: ATask
+  nameWithType: ATask
+  fullName: ATask
+- uid: Global.CardTask
+  commentId: T:Global.CardTask
+  name: CardTask
+  nameWithType: CardTask
+  fullName: CardTask
+- uid: Global.CardTask.spawnAreaId
+  commentId: F:Global.CardTask.spawnAreaId
+  parent: Global.CardTask
+  name: spawnAreaId
+  nameWithType: CardTask.spawnAreaId
+  fullName: CardTask.spawnAreaId
+- uid: Global.CardTask.proxyCardPrefab
+  commentId: F:Global.CardTask.proxyCardPrefab
+  parent: Global.CardTask
+  name: proxyCardPrefab
+  nameWithType: CardTask.proxyCardPrefab
+  fullName: CardTask.proxyCardPrefab
+- uid: Global.CardTask.proxyCardInstance
+  commentId: F:Global.CardTask.proxyCardInstance
+  parent: Global.CardTask
+  name: proxyCardInstance
+  nameWithType: CardTask.proxyCardInstance
+  fullName: CardTask.proxyCardInstance
+- uid: Global.CardTask.proxyCardData
+  commentId: F:Global.CardTask.proxyCardData
+  parent: Global.CardTask
+  name: proxyCardData
+  nameWithType: CardTask.proxyCardData
+  fullName: CardTask.proxyCardData
+- uid: Global.CardTask.frontSprites
+  commentId: F:Global.CardTask.frontSprites
+  parent: Global.CardTask
+  name: frontSprites
+  nameWithType: CardTask.frontSprites
+  fullName: CardTask.frontSprites
+- uid: Global.CardTask.backSprites
+  commentId: F:Global.CardTask.backSprites
+  parent: Global.CardTask
+  name: backSprites
+  nameWithType: CardTask.backSprites
+  fullName: CardTask.backSprites
+- uid: Global.CardTask.iconSprites
+  commentId: F:Global.CardTask.iconSprites
+  parent: Global.CardTask
+  name: iconSprites
+  nameWithType: CardTask.iconSprites
+  fullName: CardTask.iconSprites
+- uid: Global.CardTask.ActivateTask
+  commentId: M:Global.CardTask.ActivateTask
+  parent: Global.CardTask
+  name: ActivateTask()
+  nameWithType: CardTask.ActivateTask()
+  fullName: CardTask.ActivateTask()
+  spec.csharp:
+  - uid: Global.CardTask.ActivateTask
+    name: ActivateTask
+    nameWithType: CardTask.ActivateTask
+    fullName: CardTask.ActivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.CardTask.ActivateTask
+    name: ActivateTask
+    nameWithType: CardTask.ActivateTask
+    fullName: CardTask.ActivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.CardTask.DeactivateTask
+  commentId: M:Global.CardTask.DeactivateTask
+  parent: Global.CardTask
+  name: DeactivateTask()
+  nameWithType: CardTask.DeactivateTask()
+  fullName: CardTask.DeactivateTask()
+  spec.csharp:
+  - uid: Global.CardTask.DeactivateTask
+    name: DeactivateTask
+    nameWithType: CardTask.DeactivateTask
+    fullName: CardTask.DeactivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.CardTask.DeactivateTask
+    name: DeactivateTask
+    nameWithType: CardTask.DeactivateTask
+    fullName: CardTask.DeactivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.CardTask.LayoutCard(ProxyCard)
+  commentId: M:Global.CardTask.LayoutCard(ProxyCard)
+  parent: Global.CardTask
+  isExternal: true
+  name: LayoutCard(ProxyCard)
+  nameWithType: CardTask.LayoutCard(ProxyCard)
+  fullName: CardTask.LayoutCard(ProxyCard)
+  spec.csharp:
+  - uid: Global.CardTask.LayoutCard(ProxyCard)
+    name: LayoutCard
+    nameWithType: CardTask.LayoutCard
+    fullName: CardTask.LayoutCard
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ProxyCard
+    name: ProxyCard
+    nameWithType: ProxyCard
+    fullName: ProxyCard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.CardTask.LayoutCard(ProxyCard)
+    name: LayoutCard
+    nameWithType: CardTask.LayoutCard
+    fullName: CardTask.LayoutCard
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.ProxyCard
+    name: ProxyCard
+    nameWithType: ProxyCard
+    fullName: ProxyCard
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ATask.subTasks
+  commentId: F:Global.ATask.subTasks
+  parent: Global.ATask
+  name: subTasks
+  nameWithType: ATask.subTasks
+  fullName: ATask.subTasks
+- uid: Global.ATask.OnTaskCompleted
+  commentId: F:Global.ATask.OnTaskCompleted
+  parent: Global.ATask
+  name: OnTaskCompleted
+  nameWithType: ATask.OnTaskCompleted
+  fullName: ATask.OnTaskCompleted
+- uid: Global.ATask.taskCompletionEventId
+  commentId: F:Global.ATask.taskCompletionEventId
+  parent: Global.ATask
+  name: taskCompletionEventId
+  nameWithType: ATask.taskCompletionEventId
+  fullName: ATask.taskCompletionEventId
+- uid: Global.ATask._taskData
+  commentId: F:Global.ATask._taskData
+  parent: Global.ATask
+  name: _taskData
+  nameWithType: ATask._taskData
+  fullName: ATask._taskData
+- uid: Global.ATask.taskData
+  commentId: P:Global.ATask.taskData
+  parent: Global.ATask
+  name: taskData
+  nameWithType: ATask.taskData
+  fullName: ATask.taskData
+- uid: Global.ATask.completed
+  commentId: P:Global.ATask.completed
+  parent: Global.ATask
+  name: completed
+  nameWithType: ATask.completed
+  fullName: ATask.completed
+- uid: Global.ATask.subtasksCompleted
+  commentId: P:Global.ATask.subtasksCompleted
+  parent: Global.ATask
+  name: subtasksCompleted
+  nameWithType: ATask.subtasksCompleted
+  fullName: ATask.subtasksCompleted
+- uid: Global.ATask.Awake
+  commentId: M:Global.ATask.Awake
+  parent: Global.ATask
+  name: Awake()
+  nameWithType: ATask.Awake()
+  fullName: ATask.Awake()
+  spec.csharp:
+  - uid: Global.ATask.Awake
+    name: Awake
+    nameWithType: ATask.Awake
+    fullName: ATask.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.Awake
+    name: Awake
+    nameWithType: ATask.Awake
+    fullName: ATask.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ATask.taskCallbacks
+  commentId: P:Global.ATask.taskCallbacks
+  parent: Global.ATask
+  name: taskCallbacks
+  nameWithType: ATask.taskCallbacks
+  fullName: ATask.taskCallbacks
+- uid: Global.MiniGameTask.taskCallbacks*
+  commentId: Overload:Global.MiniGameTask.taskCallbacks
+  name: taskCallbacks
+  nameWithType: MiniGameTask.taskCallbacks
+  fullName: MiniGameTask.taskCallbacks
+- uid: Global.TaskCallback[]
+  isExternal: true
+  name: TaskCallback[]
+  nameWithType: TaskCallback[]
+  fullName: TaskCallback[]
+  nameWithType.vb: TaskCallback()
+  fullName.vb: TaskCallback()
+  name.vb: TaskCallback()
+  spec.csharp:
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.CardTask.Construct(TaskData)
+  commentId: M:Global.CardTask.Construct(TaskData)
+  parent: Global.CardTask
+  name: Construct(TaskData)
+  nameWithType: CardTask.Construct(TaskData)
+  fullName: CardTask.Construct(TaskData)
+  spec.csharp:
+  - uid: Global.CardTask.Construct(TaskData)
+    name: Construct
+    nameWithType: CardTask.Construct
+    fullName: CardTask.Construct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskData
+    name: TaskData
+    nameWithType: TaskData
+    fullName: TaskData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.CardTask.Construct(TaskData)
+    name: Construct
+    nameWithType: CardTask.Construct
+    fullName: CardTask.Construct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskData
+    name: TaskData
+    nameWithType: TaskData
+    fullName: TaskData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.MiniGameTask.Construct*
+  commentId: Overload:Global.MiniGameTask.Construct
+  name: Construct
+  nameWithType: MiniGameTask.Construct
+  fullName: MiniGameTask.Construct
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+- uid: Global.ATask.CheckForIsComplete(TaskCallback)
+  commentId: M:Global.ATask.CheckForIsComplete(TaskCallback)
+  parent: Global.ATask
+  name: CheckForIsComplete(TaskCallback)
+  nameWithType: ATask.CheckForIsComplete(TaskCallback)
+  fullName: ATask.CheckForIsComplete(TaskCallback)
+  spec.csharp:
+  - uid: Global.ATask.CheckForIsComplete(TaskCallback)
+    name: CheckForIsComplete
+    nameWithType: ATask.CheckForIsComplete
+    fullName: ATask.CheckForIsComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.CheckForIsComplete(TaskCallback)
+    name: CheckForIsComplete
+    nameWithType: ATask.CheckForIsComplete
+    fullName: ATask.CheckForIsComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.MiniGameTask.CheckForIsComplete*
+  commentId: Overload:Global.MiniGameTask.CheckForIsComplete
+  name: CheckForIsComplete
+  nameWithType: MiniGameTask.CheckForIsComplete
+  fullName: MiniGameTask.CheckForIsComplete
+- uid: Global.TaskCallback
+  commentId: T:Global.TaskCallback
+  name: TaskCallback
+  nameWithType: TaskCallback
+  fullName: TaskCallback

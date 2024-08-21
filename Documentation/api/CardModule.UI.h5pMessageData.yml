@@ -1,0 +1,80 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.h5pMessageData
+  commentId: T:CardModule.UI.h5pMessageData
+  id: h5pMessageData
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.h5pMessageData.result
+  langs:
+  - csharp
+  - vb
+  name: h5pMessageData
+  nameWithType: h5pMessageData
+  fullName: CardModule.UI.h5pMessageData
+  type: Struct
+  source:
+    id: h5pMessageData
+    path: ''
+    startLine: 19903
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct h5pMessageData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure h5pMessageData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: CardModule.UI.h5pMessageData.result
+  commentId: F:CardModule.UI.h5pMessageData.result
+  id: result
+  parent: CardModule.UI.h5pMessageData
+  langs:
+  - csharp
+  - vb
+  name: result
+  nameWithType: h5pMessageData.result
+  fullName: CardModule.UI.h5pMessageData.result
+  type: Field
+  source:
+    id: result
+    path: ''
+    startLine: 19906
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public h5pResultData result
+    return:
+      type: CardModule.UI.h5pResultData
+    content.vb: Public result As h5pResultData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: CardModule.UI.h5pResultData
+  commentId: T:CardModule.UI.h5pResultData
+  parent: CardModule.UI
+  name: h5pResultData
+  nameWithType: h5pResultData
+  fullName: CardModule.UI.h5pResultData

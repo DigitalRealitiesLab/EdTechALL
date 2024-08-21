@@ -1,0 +1,553 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CowCaretakerTimeline
+  commentId: T:Global.CowCaretakerTimeline
+  id: CowCaretakerTimeline
+  parent: Global
+  children:
+  - Global.CowCaretakerTimeline.activeNeed
+  - Global.CowCaretakerTimeline.activeTimelinePoint
+  - Global.CowCaretakerTimeline.completed
+  - Global.CowCaretakerTimeline.cow
+  - Global.CowCaretakerTimeline.GetTimelinePoint(System.Int32)
+  - Global.CowCaretakerTimeline.hasTimelinePoint(System.Int32)
+  - Global.CowCaretakerTimeline.OnTimelineStep
+  - Global.CowCaretakerTimeline.OnTimelineSubStep
+  - Global.CowCaretakerTimeline.Reset
+  - Global.CowCaretakerTimeline.subCompleted
+  - Global.CowCaretakerTimeline.timelineIndex
+  - Global.CowCaretakerTimeline.timelinePoints
+  - Global.CowCaretakerTimeline.timelineSubIndex
+  langs:
+  - csharp
+  - vb
+  name: CowCaretakerTimeline
+  nameWithType: CowCaretakerTimeline
+  fullName: CowCaretakerTimeline
+  type: Class
+  source:
+    id: CowCaretakerTimeline
+    path: ''
+    startLine: 15277
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CowCaretakerTimeline : ScriptableObject'
+    content.vb: >-
+      Public Class CowCaretakerTimeline
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CowCaretakerTimeline.OnTimelineStep
+  commentId: F:Global.CowCaretakerTimeline.OnTimelineStep
+  id: OnTimelineStep
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: OnTimelineStep
+  nameWithType: CowCaretakerTimeline.OnTimelineStep
+  fullName: CowCaretakerTimeline.OnTimelineStep
+  type: Field
+  source:
+    id: OnTimelineStep
+    path: ''
+    startLine: 15281
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent OnTimelineStep
+    return:
+      type: Global.UnityEvent
+    content.vb: Public OnTimelineStep As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.OnTimelineSubStep
+  commentId: F:Global.CowCaretakerTimeline.OnTimelineSubStep
+  id: OnTimelineSubStep
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: OnTimelineSubStep
+  nameWithType: CowCaretakerTimeline.OnTimelineSubStep
+  fullName: CowCaretakerTimeline.OnTimelineSubStep
+  type: Field
+  source:
+    id: OnTimelineSubStep
+    path: ''
+    startLine: 15283
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnityEvent OnTimelineSubStep
+    return:
+      type: Global.UnityEvent
+    content.vb: Public OnTimelineSubStep As UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.cow
+  commentId: F:Global.CowCaretakerTimeline.cow
+  id: cow
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: cow
+  nameWithType: CowCaretakerTimeline.cow
+  fullName: CowCaretakerTimeline.cow
+  type: Field
+  source:
+    id: cow
+    path: ''
+    startLine: 15285
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Cow cow
+    return:
+      type: Global.Cow
+    content.vb: Public cow As Cow
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.timelinePoints
+  commentId: F:Global.CowCaretakerTimeline.timelinePoints
+  id: timelinePoints
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: timelinePoints
+  nameWithType: CowCaretakerTimeline.timelinePoints
+  fullName: CowCaretakerTimeline.timelinePoints
+  type: Field
+  source:
+    id: timelinePoints
+    path: ''
+    startLine: 15287
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CowCaretakerTimeline.CowCaretakerTimelinePoint[] timelinePoints
+    return:
+      type: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint[]
+    content.vb: Public timelinePoints As CowCaretakerTimeline.CowCaretakerTimelinePoint()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.timelineIndex
+  commentId: P:Global.CowCaretakerTimeline.timelineIndex
+  id: timelineIndex
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: timelineIndex
+  nameWithType: CowCaretakerTimeline.timelineIndex
+  fullName: CowCaretakerTimeline.timelineIndex
+  type: Property
+  source:
+    id: timelineIndex
+    path: ''
+    startLine: 15290
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int timelineIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property timelineIndex As Integer
+  overload: Global.CowCaretakerTimeline.timelineIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.timelineSubIndex
+  commentId: P:Global.CowCaretakerTimeline.timelineSubIndex
+  id: timelineSubIndex
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: timelineSubIndex
+  nameWithType: CowCaretakerTimeline.timelineSubIndex
+  fullName: CowCaretakerTimeline.timelineSubIndex
+  type: Property
+  source:
+    id: timelineSubIndex
+    path: ''
+    startLine: 15301
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int timelineSubIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property timelineSubIndex As Integer
+  overload: Global.CowCaretakerTimeline.timelineSubIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.activeTimelinePoint
+  commentId: P:Global.CowCaretakerTimeline.activeTimelinePoint
+  id: activeTimelinePoint
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: activeTimelinePoint
+  nameWithType: CowCaretakerTimeline.activeTimelinePoint
+  fullName: CowCaretakerTimeline.activeTimelinePoint
+  type: Property
+  source:
+    id: activeTimelinePoint
+    path: ''
+    startLine: 15311
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CowCaretakerTimeline.CowCaretakerTimelinePoint activeTimelinePoint { get; }
+    parameters: []
+    return:
+      type: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+    content.vb: Public ReadOnly Property activeTimelinePoint As CowCaretakerTimeline.CowCaretakerTimelinePoint
+  overload: Global.CowCaretakerTimeline.activeTimelinePoint*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.CowCaretakerTimeline.activeNeed
+  commentId: P:Global.CowCaretakerTimeline.activeNeed
+  id: activeNeed
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: activeNeed
+  nameWithType: CowCaretakerTimeline.activeNeed
+  fullName: CowCaretakerTimeline.activeNeed
+  type: Property
+  source:
+    id: activeNeed
+    path: ''
+    startLine: 15312
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Cow.CowNeed activeNeed { get; }
+    parameters: []
+    return:
+      type: Global.Cow.CowNeed
+    content.vb: Public ReadOnly Property activeNeed As Cow.CowNeed
+  overload: Global.CowCaretakerTimeline.activeNeed*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.CowCaretakerTimeline.completed
+  commentId: P:Global.CowCaretakerTimeline.completed
+  id: completed
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: completed
+  nameWithType: CowCaretakerTimeline.completed
+  fullName: CowCaretakerTimeline.completed
+  type: Property
+  source:
+    id: completed
+    path: ''
+    startLine: 15313
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool completed { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property completed As Boolean
+  overload: Global.CowCaretakerTimeline.completed*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.CowCaretakerTimeline.subCompleted
+  commentId: P:Global.CowCaretakerTimeline.subCompleted
+  id: subCompleted
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: subCompleted
+  nameWithType: CowCaretakerTimeline.subCompleted
+  fullName: CowCaretakerTimeline.subCompleted
+  type: Property
+  source:
+    id: subCompleted
+    path: ''
+    startLine: 15314
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool subCompleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property subCompleted As Boolean
+  overload: Global.CowCaretakerTimeline.subCompleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.CowCaretakerTimeline.hasTimelinePoint(System.Int32)
+  commentId: M:Global.CowCaretakerTimeline.hasTimelinePoint(System.Int32)
+  id: hasTimelinePoint(System.Int32)
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: hasTimelinePoint(Int32)
+  nameWithType: CowCaretakerTimeline.hasTimelinePoint(Int32)
+  fullName: CowCaretakerTimeline.hasTimelinePoint(System.Int32)
+  type: Method
+  source:
+    id: hasTimelinePoint
+    path: ''
+    startLine: 15315
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool hasTimelinePoint(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: System.Boolean
+    content.vb: Public Function hasTimelinePoint(index As Integer) As Boolean
+  overload: Global.CowCaretakerTimeline.hasTimelinePoint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.GetTimelinePoint(System.Int32)
+  commentId: M:Global.CowCaretakerTimeline.GetTimelinePoint(System.Int32)
+  id: GetTimelinePoint(System.Int32)
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: GetTimelinePoint(Int32)
+  nameWithType: CowCaretakerTimeline.GetTimelinePoint(Int32)
+  fullName: CowCaretakerTimeline.GetTimelinePoint(System.Int32)
+  type: Method
+  source:
+    id: GetTimelinePoint
+    path: ''
+    startLine: 15317
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CowCaretakerTimeline.CowCaretakerTimelinePoint GetTimelinePoint(int index)
+    parameters:
+    - id: index
+      type: System.Int32
+    return:
+      type: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+    content.vb: Public Function GetTimelinePoint(index As Integer) As CowCaretakerTimeline.CowCaretakerTimelinePoint
+  overload: Global.CowCaretakerTimeline.GetTimelinePoint*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.Reset
+  commentId: M:Global.CowCaretakerTimeline.Reset
+  id: Reset
+  parent: Global.CowCaretakerTimeline
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: CowCaretakerTimeline.Reset()
+  fullName: CowCaretakerTimeline.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 15322
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: Global.CowCaretakerTimeline.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Global.Cow
+  commentId: T:Global.Cow
+  name: Cow
+  nameWithType: Cow
+  fullName: Cow
+- uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint[]
+  isExternal: true
+  name: CowCaretakerTimeline.CowCaretakerTimelinePoint[]
+  nameWithType: CowCaretakerTimeline.CowCaretakerTimelinePoint[]
+  fullName: CowCaretakerTimeline.CowCaretakerTimelinePoint[]
+  nameWithType.vb: CowCaretakerTimeline.CowCaretakerTimelinePoint()
+  fullName.vb: CowCaretakerTimeline.CowCaretakerTimelinePoint()
+  name.vb: CowCaretakerTimeline.CowCaretakerTimelinePoint()
+  spec.csharp:
+  - uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+    name: CowCaretakerTimeline.CowCaretakerTimelinePoint
+    nameWithType: CowCaretakerTimeline.CowCaretakerTimelinePoint
+    fullName: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+    name: CowCaretakerTimeline.CowCaretakerTimelinePoint
+    nameWithType: CowCaretakerTimeline.CowCaretakerTimelinePoint
+    fullName: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.CowCaretakerTimeline.timelineIndex*
+  commentId: Overload:Global.CowCaretakerTimeline.timelineIndex
+  name: timelineIndex
+  nameWithType: CowCaretakerTimeline.timelineIndex
+  fullName: CowCaretakerTimeline.timelineIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.CowCaretakerTimeline.timelineSubIndex*
+  commentId: Overload:Global.CowCaretakerTimeline.timelineSubIndex
+  name: timelineSubIndex
+  nameWithType: CowCaretakerTimeline.timelineSubIndex
+  fullName: CowCaretakerTimeline.timelineSubIndex
+- uid: Global.CowCaretakerTimeline.activeTimelinePoint*
+  commentId: Overload:Global.CowCaretakerTimeline.activeTimelinePoint
+  name: activeTimelinePoint
+  nameWithType: CowCaretakerTimeline.activeTimelinePoint
+  fullName: CowCaretakerTimeline.activeTimelinePoint
+- uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  commentId: T:Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  name: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  nameWithType: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  fullName: CowCaretakerTimeline.CowCaretakerTimelinePoint
+- uid: Global.CowCaretakerTimeline.activeNeed*
+  commentId: Overload:Global.CowCaretakerTimeline.activeNeed
+  name: activeNeed
+  nameWithType: CowCaretakerTimeline.activeNeed
+  fullName: CowCaretakerTimeline.activeNeed
+- uid: Global.Cow.CowNeed
+  commentId: T:Global.Cow.CowNeed
+  name: Cow.CowNeed
+  nameWithType: Cow.CowNeed
+  fullName: Cow.CowNeed
+- uid: Global.CowCaretakerTimeline.completed*
+  commentId: Overload:Global.CowCaretakerTimeline.completed
+  name: completed
+  nameWithType: CowCaretakerTimeline.completed
+  fullName: CowCaretakerTimeline.completed
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.CowCaretakerTimeline.subCompleted*
+  commentId: Overload:Global.CowCaretakerTimeline.subCompleted
+  name: subCompleted
+  nameWithType: CowCaretakerTimeline.subCompleted
+  fullName: CowCaretakerTimeline.subCompleted
+- uid: Global.CowCaretakerTimeline.hasTimelinePoint*
+  commentId: Overload:Global.CowCaretakerTimeline.hasTimelinePoint
+  name: hasTimelinePoint
+  nameWithType: CowCaretakerTimeline.hasTimelinePoint
+  fullName: CowCaretakerTimeline.hasTimelinePoint
+- uid: Global.CowCaretakerTimeline.GetTimelinePoint*
+  commentId: Overload:Global.CowCaretakerTimeline.GetTimelinePoint
+  name: GetTimelinePoint
+  nameWithType: CowCaretakerTimeline.GetTimelinePoint
+  fullName: CowCaretakerTimeline.GetTimelinePoint
+- uid: Global.CowCaretakerTimeline.Reset*
+  commentId: Overload:Global.CowCaretakerTimeline.Reset
+  name: Reset
+  nameWithType: CowCaretakerTimeline.Reset
+  fullName: CowCaretakerTimeline.Reset

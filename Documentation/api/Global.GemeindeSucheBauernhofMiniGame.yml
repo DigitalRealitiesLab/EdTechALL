@@ -1,0 +1,358 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GemeindeSucheBauernhofMiniGame
+  commentId: T:Global.GemeindeSucheBauernhofMiniGame
+  id: GemeindeSucheBauernhofMiniGame
+  parent: Global
+  children:
+  - Global.GemeindeSucheBauernhofMiniGame.exitInteractable
+  - Global.GemeindeSucheBauernhofMiniGame.OnPrefabSpawned(GameObject)
+  langs:
+  - csharp
+  - vb
+  name: GemeindeSucheBauernhofMiniGame
+  nameWithType: GemeindeSucheBauernhofMiniGame
+  fullName: GemeindeSucheBauernhofMiniGame
+  type: Class
+  source:
+    id: GemeindeSucheBauernhofMiniGame
+    path: ''
+    startLine: 15600
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class GemeindeSucheBauernhofMiniGame : GemeindeSucheMiniGame'
+    content.vb: >-
+      Public Class GemeindeSucheBauernhofMiniGame
+          Inherits GemeindeSucheMiniGame
+  inheritance:
+  - System.Object
+  - Global.AMiniGame
+  - Global.GemeindeSucheMiniGame
+  inheritedMembers:
+  - Global.GemeindeSucheMiniGame.reactionBehaviour
+  - Global.GemeindeSucheMiniGame.AbortMiniGame
+  - Global.GemeindeSucheMiniGame.ExitMiniGame
+  - Global.GemeindeSucheMiniGame.StartMiniGame
+  - Global.AMiniGame.miniGameConfig
+  - Global.AMiniGame.score
+  - Global.AMiniGame.success
+  - Global.AMiniGame.windowText
+  - Global.AMiniGame.RequestScoreWindow
+  - Global.AMiniGame.RquestPromtWindow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.GemeindeSucheBauernhofMiniGame.exitInteractable
+  commentId: F:Global.GemeindeSucheBauernhofMiniGame.exitInteractable
+  id: exitInteractable
+  parent: Global.GemeindeSucheBauernhofMiniGame
+  langs:
+  - csharp
+  - vb
+  name: exitInteractable
+  nameWithType: GemeindeSucheBauernhofMiniGame.exitInteractable
+  fullName: GemeindeSucheBauernhofMiniGame.exitInteractable
+  type: Field
+  source:
+    id: exitInteractable
+    path: ''
+    startLine: 15602
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject exitInteractable
+    return:
+      type: Global.GameObject
+    content.vb: Public exitInteractable As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.GemeindeSucheBauernhofMiniGame.OnPrefabSpawned(GameObject)
+  commentId: M:Global.GemeindeSucheBauernhofMiniGame.OnPrefabSpawned(GameObject)
+  id: OnPrefabSpawned(GameObject)
+  parent: Global.GemeindeSucheBauernhofMiniGame
+  langs:
+  - csharp
+  - vb
+  name: OnPrefabSpawned(GameObject)
+  nameWithType: GemeindeSucheBauernhofMiniGame.OnPrefabSpawned(GameObject)
+  fullName: GemeindeSucheBauernhofMiniGame.OnPrefabSpawned(GameObject)
+  type: Method
+  source:
+    id: OnPrefabSpawned
+    path: ''
+    startLine: 15605
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void OnPrefabSpawned(GameObject instance)
+    parameters:
+    - id: instance
+      type: Global.GameObject
+    content.vb: Protected Overrides Sub OnPrefabSpawned(instance As GameObject)
+  overridden: Global.GemeindeSucheMiniGame.OnPrefabSpawned(GameObject)
+  overload: Global.GemeindeSucheBauernhofMiniGame.OnPrefabSpawned*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AMiniGame
+  commentId: T:Global.AMiniGame
+  name: AMiniGame
+  nameWithType: AMiniGame
+  fullName: AMiniGame
+- uid: Global.GemeindeSucheMiniGame
+  commentId: T:Global.GemeindeSucheMiniGame
+  name: GemeindeSucheMiniGame
+  nameWithType: GemeindeSucheMiniGame
+  fullName: GemeindeSucheMiniGame
+- uid: Global.GemeindeSucheMiniGame.reactionBehaviour
+  commentId: F:Global.GemeindeSucheMiniGame.reactionBehaviour
+  parent: Global.GemeindeSucheMiniGame
+  name: reactionBehaviour
+  nameWithType: GemeindeSucheMiniGame.reactionBehaviour
+  fullName: GemeindeSucheMiniGame.reactionBehaviour
+- uid: Global.GemeindeSucheMiniGame.AbortMiniGame
+  commentId: M:Global.GemeindeSucheMiniGame.AbortMiniGame
+  parent: Global.GemeindeSucheMiniGame
+  name: AbortMiniGame()
+  nameWithType: GemeindeSucheMiniGame.AbortMiniGame()
+  fullName: GemeindeSucheMiniGame.AbortMiniGame()
+  spec.csharp:
+  - uid: Global.GemeindeSucheMiniGame.AbortMiniGame
+    name: AbortMiniGame
+    nameWithType: GemeindeSucheMiniGame.AbortMiniGame
+    fullName: GemeindeSucheMiniGame.AbortMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.GemeindeSucheMiniGame.AbortMiniGame
+    name: AbortMiniGame
+    nameWithType: GemeindeSucheMiniGame.AbortMiniGame
+    fullName: GemeindeSucheMiniGame.AbortMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GemeindeSucheMiniGame.ExitMiniGame
+  commentId: M:Global.GemeindeSucheMiniGame.ExitMiniGame
+  parent: Global.GemeindeSucheMiniGame
+  name: ExitMiniGame()
+  nameWithType: GemeindeSucheMiniGame.ExitMiniGame()
+  fullName: GemeindeSucheMiniGame.ExitMiniGame()
+  spec.csharp:
+  - uid: Global.GemeindeSucheMiniGame.ExitMiniGame
+    name: ExitMiniGame
+    nameWithType: GemeindeSucheMiniGame.ExitMiniGame
+    fullName: GemeindeSucheMiniGame.ExitMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.GemeindeSucheMiniGame.ExitMiniGame
+    name: ExitMiniGame
+    nameWithType: GemeindeSucheMiniGame.ExitMiniGame
+    fullName: GemeindeSucheMiniGame.ExitMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GemeindeSucheMiniGame.StartMiniGame
+  commentId: M:Global.GemeindeSucheMiniGame.StartMiniGame
+  parent: Global.GemeindeSucheMiniGame
+  name: StartMiniGame()
+  nameWithType: GemeindeSucheMiniGame.StartMiniGame()
+  fullName: GemeindeSucheMiniGame.StartMiniGame()
+  spec.csharp:
+  - uid: Global.GemeindeSucheMiniGame.StartMiniGame
+    name: StartMiniGame
+    nameWithType: GemeindeSucheMiniGame.StartMiniGame
+    fullName: GemeindeSucheMiniGame.StartMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.GemeindeSucheMiniGame.StartMiniGame
+    name: StartMiniGame
+    nameWithType: GemeindeSucheMiniGame.StartMiniGame
+    fullName: GemeindeSucheMiniGame.StartMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AMiniGame.miniGameConfig
+  commentId: F:Global.AMiniGame.miniGameConfig
+  parent: Global.AMiniGame
+  name: miniGameConfig
+  nameWithType: AMiniGame.miniGameConfig
+  fullName: AMiniGame.miniGameConfig
+- uid: Global.AMiniGame.score
+  commentId: F:Global.AMiniGame.score
+  parent: Global.AMiniGame
+  name: score
+  nameWithType: AMiniGame.score
+  fullName: AMiniGame.score
+- uid: Global.AMiniGame.success
+  commentId: P:Global.AMiniGame.success
+  parent: Global.AMiniGame
+  name: success
+  nameWithType: AMiniGame.success
+  fullName: AMiniGame.success
+- uid: Global.AMiniGame.windowText
+  commentId: F:Global.AMiniGame.windowText
+  parent: Global.AMiniGame
+  name: windowText
+  nameWithType: AMiniGame.windowText
+  fullName: AMiniGame.windowText
+- uid: Global.AMiniGame.RequestScoreWindow
+  commentId: M:Global.AMiniGame.RequestScoreWindow
+  parent: Global.AMiniGame
+  name: RequestScoreWindow()
+  nameWithType: AMiniGame.RequestScoreWindow()
+  fullName: AMiniGame.RequestScoreWindow()
+  spec.csharp:
+  - uid: Global.AMiniGame.RequestScoreWindow
+    name: RequestScoreWindow
+    nameWithType: AMiniGame.RequestScoreWindow
+    fullName: AMiniGame.RequestScoreWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.RequestScoreWindow
+    name: RequestScoreWindow
+    nameWithType: AMiniGame.RequestScoreWindow
+    fullName: AMiniGame.RequestScoreWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AMiniGame.RquestPromtWindow
+  commentId: M:Global.AMiniGame.RquestPromtWindow
+  parent: Global.AMiniGame
+  name: RquestPromtWindow()
+  nameWithType: AMiniGame.RquestPromtWindow()
+  fullName: AMiniGame.RquestPromtWindow()
+  spec.csharp:
+  - uid: Global.AMiniGame.RquestPromtWindow
+    name: RquestPromtWindow
+    nameWithType: AMiniGame.RquestPromtWindow
+    fullName: AMiniGame.RquestPromtWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.RquestPromtWindow
+    name: RquestPromtWindow
+    nameWithType: AMiniGame.RquestPromtWindow
+    fullName: AMiniGame.RquestPromtWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.GemeindeSucheMiniGame.OnPrefabSpawned(GameObject)
+  commentId: M:Global.GemeindeSucheMiniGame.OnPrefabSpawned(GameObject)
+  parent: Global.GemeindeSucheMiniGame
+  isExternal: true
+  name: OnPrefabSpawned(GameObject)
+  nameWithType: GemeindeSucheMiniGame.OnPrefabSpawned(GameObject)
+  fullName: GemeindeSucheMiniGame.OnPrefabSpawned(GameObject)
+  spec.csharp:
+  - uid: Global.GemeindeSucheMiniGame.OnPrefabSpawned(GameObject)
+    name: OnPrefabSpawned
+    nameWithType: GemeindeSucheMiniGame.OnPrefabSpawned
+    fullName: GemeindeSucheMiniGame.OnPrefabSpawned
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.GemeindeSucheMiniGame.OnPrefabSpawned(GameObject)
+    name: OnPrefabSpawned
+    nameWithType: GemeindeSucheMiniGame.OnPrefabSpawned
+    fullName: GemeindeSucheMiniGame.OnPrefabSpawned
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.GemeindeSucheBauernhofMiniGame.OnPrefabSpawned*
+  commentId: Overload:Global.GemeindeSucheBauernhofMiniGame.OnPrefabSpawned
+  name: OnPrefabSpawned
+  nameWithType: GemeindeSucheBauernhofMiniGame.OnPrefabSpawned
+  fullName: GemeindeSucheBauernhofMiniGame.OnPrefabSpawned

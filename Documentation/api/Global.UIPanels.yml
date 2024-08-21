@@ -1,0 +1,368 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UIPanels
+  commentId: T:Global.UIPanels
+  id: UIPanels
+  parent: Global
+  children:
+  - Global.UIPanels.ActivateUIPanel(System.Int32)
+  - Global.UIPanels.CardPanel
+  - Global.UIPanels.CardStackPanel
+  - Global.UIPanels.DefaultPanel
+  - Global.UIPanels.InstructionPanel
+  - Global.UIPanels.MapSelectionPanel
+  - Global.UIPanels.MiniGamePanel
+  - Global.UIPanels.None
+  - Global.UIPanels.SettingsPanel
+  - Global.UIPanels.SnapshotCapturePanel
+  langs:
+  - csharp
+  - vb
+  name: UIPanels
+  nameWithType: UIPanels
+  fullName: UIPanels
+  type: Class
+  source:
+    id: UIPanels
+    path: ''
+    startLine: 20658
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class UIPanels
+    content.vb: Public Module UIPanels
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.UIPanels.None
+  commentId: F:Global.UIPanels.None
+  id: None
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: UIPanels.None
+  fullName: UIPanels.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 20660
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int None
+    return:
+      type: System.Int32
+    content.vb: Public Shared None As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.DefaultPanel
+  commentId: F:Global.UIPanels.DefaultPanel
+  id: DefaultPanel
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: DefaultPanel
+  nameWithType: UIPanels.DefaultPanel
+  fullName: UIPanels.DefaultPanel
+  type: Field
+  source:
+    id: DefaultPanel
+    path: ''
+    startLine: 20661
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int DefaultPanel
+    return:
+      type: System.Int32
+    content.vb: Public Shared DefaultPanel As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.SettingsPanel
+  commentId: F:Global.UIPanels.SettingsPanel
+  id: SettingsPanel
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: SettingsPanel
+  nameWithType: UIPanels.SettingsPanel
+  fullName: UIPanels.SettingsPanel
+  type: Field
+  source:
+    id: SettingsPanel
+    path: ''
+    startLine: 20662
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int SettingsPanel
+    return:
+      type: System.Int32
+    content.vb: Public Shared SettingsPanel As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.MiniGamePanel
+  commentId: F:Global.UIPanels.MiniGamePanel
+  id: MiniGamePanel
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: MiniGamePanel
+  nameWithType: UIPanels.MiniGamePanel
+  fullName: UIPanels.MiniGamePanel
+  type: Field
+  source:
+    id: MiniGamePanel
+    path: ''
+    startLine: 20663
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int MiniGamePanel
+    return:
+      type: System.Int32
+    content.vb: Public Shared MiniGamePanel As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.SnapshotCapturePanel
+  commentId: F:Global.UIPanels.SnapshotCapturePanel
+  id: SnapshotCapturePanel
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: SnapshotCapturePanel
+  nameWithType: UIPanels.SnapshotCapturePanel
+  fullName: UIPanels.SnapshotCapturePanel
+  type: Field
+  source:
+    id: SnapshotCapturePanel
+    path: ''
+    startLine: 20664
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int SnapshotCapturePanel
+    return:
+      type: System.Int32
+    content.vb: Public Shared SnapshotCapturePanel As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.InstructionPanel
+  commentId: F:Global.UIPanels.InstructionPanel
+  id: InstructionPanel
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: InstructionPanel
+  nameWithType: UIPanels.InstructionPanel
+  fullName: UIPanels.InstructionPanel
+  type: Field
+  source:
+    id: InstructionPanel
+    path: ''
+    startLine: 20665
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int InstructionPanel
+    return:
+      type: System.Int32
+    content.vb: Public Shared InstructionPanel As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.CardPanel
+  commentId: F:Global.UIPanels.CardPanel
+  id: CardPanel
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: CardPanel
+  nameWithType: UIPanels.CardPanel
+  fullName: UIPanels.CardPanel
+  type: Field
+  source:
+    id: CardPanel
+    path: ''
+    startLine: 20666
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int CardPanel
+    return:
+      type: System.Int32
+    content.vb: Public Shared CardPanel As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.CardStackPanel
+  commentId: F:Global.UIPanels.CardStackPanel
+  id: CardStackPanel
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: CardStackPanel
+  nameWithType: UIPanels.CardStackPanel
+  fullName: UIPanels.CardStackPanel
+  type: Field
+  source:
+    id: CardStackPanel
+    path: ''
+    startLine: 20667
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int CardStackPanel
+    return:
+      type: System.Int32
+    content.vb: Public Shared CardStackPanel As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.MapSelectionPanel
+  commentId: F:Global.UIPanels.MapSelectionPanel
+  id: MapSelectionPanel
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: MapSelectionPanel
+  nameWithType: UIPanels.MapSelectionPanel
+  fullName: UIPanels.MapSelectionPanel
+  type: Field
+  source:
+    id: MapSelectionPanel
+    path: ''
+    startLine: 20668
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static int MapSelectionPanel
+    return:
+      type: System.Int32
+    content.vb: Public Shared MapSelectionPanel As Integer
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.UIPanels.ActivateUIPanel(System.Int32)
+  commentId: M:Global.UIPanels.ActivateUIPanel(System.Int32)
+  id: ActivateUIPanel(System.Int32)
+  parent: Global.UIPanels
+  langs:
+  - csharp
+  - vb
+  name: ActivateUIPanel(Int32)
+  nameWithType: UIPanels.ActivateUIPanel(Int32)
+  fullName: UIPanels.ActivateUIPanel(System.Int32)
+  type: Method
+  source:
+    id: ActivateUIPanel
+    path: ''
+    startLine: 20670
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void ActivateUIPanel(int panelIndex)
+    parameters:
+    - id: panelIndex
+      type: System.Int32
+    content.vb: Public Shared Sub ActivateUIPanel(panelIndex As Integer)
+  overload: Global.UIPanels.ActivateUIPanel*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.UIPanels.ActivateUIPanel*
+  commentId: Overload:Global.UIPanels.ActivateUIPanel
+  name: ActivateUIPanel
+  nameWithType: UIPanels.ActivateUIPanel
+  fullName: UIPanels.ActivateUIPanel

@@ -1,0 +1,267 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CubicSpline
+  commentId: T:Global.CubicSpline
+  id: CubicSpline
+  parent: Global
+  children:
+  - Global.CubicSpline.GetPointAt(System.Single)
+  - Global.CubicSpline.points
+  - Global.CubicSpline.SetPointAtIndex(System.Int32,Vector3)
+  - Global.CubicSpline.SetTangentAtIndex(System.Int32,Vector3)
+  - Global.CubicSpline.tangents
+  langs:
+  - csharp
+  - vb
+  name: CubicSpline
+  nameWithType: CubicSpline
+  fullName: CubicSpline
+  type: Class
+  source:
+    id: CubicSpline
+    path: ''
+    startLine: 16321
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CubicSpline : MonoBehaviour'
+    content.vb: >-
+      Public Class CubicSpline
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CubicSpline.points
+  commentId: F:Global.CubicSpline.points
+  id: points
+  parent: Global.CubicSpline
+  langs:
+  - csharp
+  - vb
+  name: points
+  nameWithType: CubicSpline.points
+  fullName: CubicSpline.points
+  type: Field
+  source:
+    id: points
+    path: ''
+    startLine: 16323
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector3[] points
+    return:
+      type: Global.Vector3[]
+    content.vb: Public points As Vector3()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CubicSpline.tangents
+  commentId: F:Global.CubicSpline.tangents
+  id: tangents
+  parent: Global.CubicSpline
+  langs:
+  - csharp
+  - vb
+  name: tangents
+  nameWithType: CubicSpline.tangents
+  fullName: CubicSpline.tangents
+  type: Field
+  source:
+    id: tangents
+    path: ''
+    startLine: 16324
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector3[] tangents
+    return:
+      type: Global.Vector3[]
+    content.vb: Public tangents As Vector3()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CubicSpline.SetTangentAtIndex(System.Int32,Vector3)
+  commentId: M:Global.CubicSpline.SetTangentAtIndex(System.Int32,Vector3)
+  id: SetTangentAtIndex(System.Int32,Vector3)
+  parent: Global.CubicSpline
+  langs:
+  - csharp
+  - vb
+  name: SetTangentAtIndex(Int32, Vector3)
+  nameWithType: CubicSpline.SetTangentAtIndex(Int32, Vector3)
+  fullName: CubicSpline.SetTangentAtIndex(System.Int32, Vector3)
+  type: Method
+  source:
+    id: SetTangentAtIndex
+    path: ''
+    startLine: 16326
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetTangentAtIndex(int index, Vector3 tangent)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: tangent
+      type: Global.Vector3
+    content.vb: Public Sub SetTangentAtIndex(index As Integer, tangent As Vector3)
+  overload: Global.CubicSpline.SetTangentAtIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CubicSpline.SetPointAtIndex(System.Int32,Vector3)
+  commentId: M:Global.CubicSpline.SetPointAtIndex(System.Int32,Vector3)
+  id: SetPointAtIndex(System.Int32,Vector3)
+  parent: Global.CubicSpline
+  langs:
+  - csharp
+  - vb
+  name: SetPointAtIndex(Int32, Vector3)
+  nameWithType: CubicSpline.SetPointAtIndex(Int32, Vector3)
+  fullName: CubicSpline.SetPointAtIndex(System.Int32, Vector3)
+  type: Method
+  source:
+    id: SetPointAtIndex
+    path: ''
+    startLine: 16331
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetPointAtIndex(int index, Vector3 point)
+    parameters:
+    - id: index
+      type: System.Int32
+    - id: point
+      type: Global.Vector3
+    content.vb: Public Sub SetPointAtIndex(index As Integer, point As Vector3)
+  overload: Global.CubicSpline.SetPointAtIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CubicSpline.GetPointAt(System.Single)
+  commentId: M:Global.CubicSpline.GetPointAt(System.Single)
+  id: GetPointAt(System.Single)
+  parent: Global.CubicSpline
+  langs:
+  - csharp
+  - vb
+  name: GetPointAt(Single)
+  nameWithType: CubicSpline.GetPointAt(Single)
+  fullName: CubicSpline.GetPointAt(System.Single)
+  type: Method
+  source:
+    id: GetPointAt
+    path: ''
+    startLine: 16336
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector3 GetPointAt(float t)
+    parameters:
+    - id: t
+      type: System.Single
+    return:
+      type: Global.Vector3
+    content.vb: Public Function GetPointAt(t As Single) As Vector3
+  overload: Global.CubicSpline.GetPointAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector3[]
+  isExternal: true
+  name: Vector3[]
+  nameWithType: Vector3[]
+  fullName: Vector3[]
+  nameWithType.vb: Vector3()
+  fullName.vb: Vector3()
+  name.vb: Vector3()
+  spec.csharp:
+  - uid: Global.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.CubicSpline.SetTangentAtIndex*
+  commentId: Overload:Global.CubicSpline.SetTangentAtIndex
+  name: SetTangentAtIndex
+  nameWithType: CubicSpline.SetTangentAtIndex
+  fullName: CubicSpline.SetTangentAtIndex
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.CubicSpline.SetPointAtIndex*
+  commentId: Overload:Global.CubicSpline.SetPointAtIndex
+  name: SetPointAtIndex
+  nameWithType: CubicSpline.SetPointAtIndex
+  fullName: CubicSpline.SetPointAtIndex
+- uid: Global.CubicSpline.GetPointAt*
+  commentId: Overload:Global.CubicSpline.GetPointAt
+  name: GetPointAt
+  nameWithType: CubicSpline.GetPointAt
+  fullName: CubicSpline.GetPointAt
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

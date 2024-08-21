@@ -1,0 +1,124 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SelectableEditor
+  commentId: T:Global.SelectableEditor
+  id: SelectableEditor
+  parent: Global
+  children:
+  - Global.SelectableEditor.assetPath
+  - Global.SelectableEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: SelectableEditor
+  nameWithType: SelectableEditor
+  fullName: SelectableEditor
+  type: Class
+  source:
+    id: SelectableEditor
+    path: ''
+    startLine: 24947
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SelectableEditor : Editor'
+    content.vb: >-
+      Public Class SelectableEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SelectableEditor.assetPath
+  commentId: F:Global.SelectableEditor.assetPath
+  id: assetPath
+  parent: Global.SelectableEditor
+  langs:
+  - csharp
+  - vb
+  name: assetPath
+  nameWithType: SelectableEditor.assetPath
+  fullName: SelectableEditor.assetPath
+  type: Field
+  source:
+    id: assetPath
+    path: ''
+    startLine: 24951
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string assetPath
+    return:
+      type: System.String
+    content.vb: Public assetPath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SelectableEditor.OnInspectorGUI
+  commentId: M:Global.SelectableEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.SelectableEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: SelectableEditor.OnInspectorGUI()
+  fullName: SelectableEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 24955
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.SelectableEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SelectableEditor.OnInspectorGUI*
+  commentId: Overload:Global.SelectableEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: SelectableEditor.OnInspectorGUI
+  fullName: SelectableEditor.OnInspectorGUI

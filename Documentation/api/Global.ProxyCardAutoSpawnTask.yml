@@ -1,0 +1,572 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ProxyCardAutoSpawnTask
+  commentId: T:Global.ProxyCardAutoSpawnTask
+  id: ProxyCardAutoSpawnTask
+  parent: Global
+  children:
+  - Global.ProxyCardAutoSpawnTask.ActivateTask
+  - Global.ProxyCardAutoSpawnTask.Awake
+  - Global.ProxyCardAutoSpawnTask.backSprites
+  - Global.ProxyCardAutoSpawnTask.Construct(TaskData)
+  - Global.ProxyCardAutoSpawnTask.frontSprites
+  - Global.ProxyCardAutoSpawnTask.iconSprites
+  - Global.ProxyCardAutoSpawnTask.LayoutCard(ProxyCard)
+  langs:
+  - csharp
+  - vb
+  name: ProxyCardAutoSpawnTask
+  nameWithType: ProxyCardAutoSpawnTask
+  fullName: ProxyCardAutoSpawnTask
+  type: Class
+  source:
+    id: ProxyCardAutoSpawnTask
+    path: ''
+    startLine: 18750
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ProxyCardAutoSpawnTask : AutoSpawnTask'
+    content.vb: >-
+      Public Class ProxyCardAutoSpawnTask
+          Inherits AutoSpawnTask
+  inheritance:
+  - System.Object
+  - Global.ATask
+  - Global.AutoSpawnTask
+  inheritedMembers:
+  - Global.AutoSpawnTask.spawnAreaId
+  - Global.AutoSpawnTask.prefab
+  - Global.AutoSpawnTask.instance
+  - Global.AutoSpawnTask.taskCallbacks
+  - Global.AutoSpawnTask.DeactivateTask
+  - Global.AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  - Global.ATask.subTasks
+  - Global.ATask.OnTaskCompleted
+  - Global.ATask.taskCompletionEventId
+  - Global.ATask._taskData
+  - Global.ATask.taskData
+  - Global.ATask.completed
+  - Global.ATask.subtasksCompleted
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ProxyCardAutoSpawnTask.frontSprites
+  commentId: F:Global.ProxyCardAutoSpawnTask.frontSprites
+  id: frontSprites
+  parent: Global.ProxyCardAutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: frontSprites
+  nameWithType: ProxyCardAutoSpawnTask.frontSprites
+  fullName: ProxyCardAutoSpawnTask.frontSprites
+  type: Field
+  source:
+    id: frontSprites
+    path: ''
+    startLine: 18755
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nOrder Info, Quiz, Task, MiniGame\n"
+  example: []
+  syntax:
+    content: public Sprite[] frontSprites
+    return:
+      type: Global.Sprite[]
+    content.vb: Public frontSprites As Sprite()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ProxyCardAutoSpawnTask.backSprites
+  commentId: F:Global.ProxyCardAutoSpawnTask.backSprites
+  id: backSprites
+  parent: Global.ProxyCardAutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: backSprites
+  nameWithType: ProxyCardAutoSpawnTask.backSprites
+  fullName: ProxyCardAutoSpawnTask.backSprites
+  type: Field
+  source:
+    id: backSprites
+    path: ''
+    startLine: 18755
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nOrder Info, Quiz, Task, MiniGame\n"
+  example: []
+  syntax:
+    content: public Sprite[] backSprites
+    return:
+      type: Global.Sprite[]
+    content.vb: Public backSprites As Sprite()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ProxyCardAutoSpawnTask.iconSprites
+  commentId: F:Global.ProxyCardAutoSpawnTask.iconSprites
+  id: iconSprites
+  parent: Global.ProxyCardAutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: iconSprites
+  nameWithType: ProxyCardAutoSpawnTask.iconSprites
+  fullName: ProxyCardAutoSpawnTask.iconSprites
+  type: Field
+  source:
+    id: iconSprites
+    path: ''
+    startLine: 18755
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nOrder Info, Quiz, Task, MiniGame\n"
+  example: []
+  syntax:
+    content: public Sprite[] iconSprites
+    return:
+      type: Global.Sprite[]
+    content.vb: Public iconSprites As Sprite()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ProxyCardAutoSpawnTask.Awake
+  commentId: M:Global.ProxyCardAutoSpawnTask.Awake
+  id: Awake
+  parent: Global.ProxyCardAutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ProxyCardAutoSpawnTask.Awake()
+  fullName: ProxyCardAutoSpawnTask.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 18758
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: Global.ATask.Awake
+  overload: Global.ProxyCardAutoSpawnTask.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Global.ProxyCardAutoSpawnTask.Construct(TaskData)
+  commentId: M:Global.ProxyCardAutoSpawnTask.Construct(TaskData)
+  id: Construct(TaskData)
+  parent: Global.ProxyCardAutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: Construct(TaskData)
+  nameWithType: ProxyCardAutoSpawnTask.Construct(TaskData)
+  fullName: ProxyCardAutoSpawnTask.Construct(TaskData)
+  type: Method
+  source:
+    id: Construct
+    path: ''
+    startLine: 18765
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void Construct(TaskData taskData)
+    parameters:
+    - id: taskData
+      type: Global.TaskData
+    content.vb: Public Overrides Sub Construct(taskData As TaskData)
+  overridden: Global.ATask.Construct(TaskData)
+  overload: Global.ProxyCardAutoSpawnTask.Construct*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.ProxyCardAutoSpawnTask.ActivateTask
+  commentId: M:Global.ProxyCardAutoSpawnTask.ActivateTask
+  id: ActivateTask
+  parent: Global.ProxyCardAutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: ActivateTask()
+  nameWithType: ProxyCardAutoSpawnTask.ActivateTask()
+  fullName: ProxyCardAutoSpawnTask.ActivateTask()
+  type: Method
+  source:
+    id: ActivateTask
+    path: ''
+    startLine: 18792
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void ActivateTask()
+    content.vb: Public Overrides Sub ActivateTask
+  overridden: Global.AutoSpawnTask.ActivateTask
+  overload: Global.ProxyCardAutoSpawnTask.ActivateTask*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.ProxyCardAutoSpawnTask.LayoutCard(ProxyCard)
+  commentId: M:Global.ProxyCardAutoSpawnTask.LayoutCard(ProxyCard)
+  id: LayoutCard(ProxyCard)
+  parent: Global.ProxyCardAutoSpawnTask
+  langs:
+  - csharp
+  - vb
+  name: LayoutCard(ProxyCard)
+  nameWithType: ProxyCardAutoSpawnTask.LayoutCard(ProxyCard)
+  fullName: ProxyCardAutoSpawnTask.LayoutCard(ProxyCard)
+  type: Method
+  source:
+    id: LayoutCard
+    path: ''
+    startLine: 18809
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LayoutCard(ProxyCard proxyCard)
+    parameters:
+    - id: proxyCard
+      type: Global.ProxyCard
+    content.vb: Public Sub LayoutCard(proxyCard As ProxyCard)
+  overload: Global.ProxyCardAutoSpawnTask.LayoutCard*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ATask
+  commentId: T:Global.ATask
+  name: ATask
+  nameWithType: ATask
+  fullName: ATask
+- uid: Global.AutoSpawnTask
+  commentId: T:Global.AutoSpawnTask
+  name: AutoSpawnTask
+  nameWithType: AutoSpawnTask
+  fullName: AutoSpawnTask
+- uid: Global.AutoSpawnTask.spawnAreaId
+  commentId: F:Global.AutoSpawnTask.spawnAreaId
+  parent: Global.AutoSpawnTask
+  name: spawnAreaId
+  nameWithType: AutoSpawnTask.spawnAreaId
+  fullName: AutoSpawnTask.spawnAreaId
+- uid: Global.AutoSpawnTask.prefab
+  commentId: F:Global.AutoSpawnTask.prefab
+  parent: Global.AutoSpawnTask
+  name: prefab
+  nameWithType: AutoSpawnTask.prefab
+  fullName: AutoSpawnTask.prefab
+- uid: Global.AutoSpawnTask.instance
+  commentId: F:Global.AutoSpawnTask.instance
+  parent: Global.AutoSpawnTask
+  name: instance
+  nameWithType: AutoSpawnTask.instance
+  fullName: AutoSpawnTask.instance
+- uid: Global.AutoSpawnTask.taskCallbacks
+  commentId: P:Global.AutoSpawnTask.taskCallbacks
+  parent: Global.AutoSpawnTask
+  name: taskCallbacks
+  nameWithType: AutoSpawnTask.taskCallbacks
+  fullName: AutoSpawnTask.taskCallbacks
+- uid: Global.AutoSpawnTask.DeactivateTask
+  commentId: M:Global.AutoSpawnTask.DeactivateTask
+  parent: Global.AutoSpawnTask
+  name: DeactivateTask()
+  nameWithType: AutoSpawnTask.DeactivateTask()
+  fullName: AutoSpawnTask.DeactivateTask()
+  spec.csharp:
+  - uid: Global.AutoSpawnTask.DeactivateTask
+    name: DeactivateTask
+    nameWithType: AutoSpawnTask.DeactivateTask
+    fullName: AutoSpawnTask.DeactivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AutoSpawnTask.DeactivateTask
+    name: DeactivateTask
+    nameWithType: AutoSpawnTask.DeactivateTask
+    fullName: AutoSpawnTask.DeactivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  commentId: M:Global.AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  parent: Global.AutoSpawnTask
+  name: CheckForIsComplete(TaskCallback)
+  nameWithType: AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  fullName: AutoSpawnTask.CheckForIsComplete(TaskCallback)
+  spec.csharp:
+  - uid: Global.AutoSpawnTask.CheckForIsComplete(TaskCallback)
+    name: CheckForIsComplete
+    nameWithType: AutoSpawnTask.CheckForIsComplete
+    fullName: AutoSpawnTask.CheckForIsComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AutoSpawnTask.CheckForIsComplete(TaskCallback)
+    name: CheckForIsComplete
+    nameWithType: AutoSpawnTask.CheckForIsComplete
+    fullName: AutoSpawnTask.CheckForIsComplete
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskCallback
+    name: TaskCallback
+    nameWithType: TaskCallback
+    fullName: TaskCallback
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ATask.subTasks
+  commentId: F:Global.ATask.subTasks
+  parent: Global.ATask
+  name: subTasks
+  nameWithType: ATask.subTasks
+  fullName: ATask.subTasks
+- uid: Global.ATask.OnTaskCompleted
+  commentId: F:Global.ATask.OnTaskCompleted
+  parent: Global.ATask
+  name: OnTaskCompleted
+  nameWithType: ATask.OnTaskCompleted
+  fullName: ATask.OnTaskCompleted
+- uid: Global.ATask.taskCompletionEventId
+  commentId: F:Global.ATask.taskCompletionEventId
+  parent: Global.ATask
+  name: taskCompletionEventId
+  nameWithType: ATask.taskCompletionEventId
+  fullName: ATask.taskCompletionEventId
+- uid: Global.ATask._taskData
+  commentId: F:Global.ATask._taskData
+  parent: Global.ATask
+  name: _taskData
+  nameWithType: ATask._taskData
+  fullName: ATask._taskData
+- uid: Global.ATask.taskData
+  commentId: P:Global.ATask.taskData
+  parent: Global.ATask
+  name: taskData
+  nameWithType: ATask.taskData
+  fullName: ATask.taskData
+- uid: Global.ATask.completed
+  commentId: P:Global.ATask.completed
+  parent: Global.ATask
+  name: completed
+  nameWithType: ATask.completed
+  fullName: ATask.completed
+- uid: Global.ATask.subtasksCompleted
+  commentId: P:Global.ATask.subtasksCompleted
+  parent: Global.ATask
+  name: subtasksCompleted
+  nameWithType: ATask.subtasksCompleted
+  fullName: ATask.subtasksCompleted
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Sprite[]
+  isExternal: true
+  name: Sprite[]
+  nameWithType: Sprite[]
+  fullName: Sprite[]
+  nameWithType.vb: Sprite()
+  fullName.vb: Sprite()
+  name.vb: Sprite()
+  spec.csharp:
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Sprite
+    name: Sprite
+    nameWithType: Sprite
+    fullName: Sprite
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.ATask.Awake
+  commentId: M:Global.ATask.Awake
+  parent: Global.ATask
+  name: Awake()
+  nameWithType: ATask.Awake()
+  fullName: ATask.Awake()
+  spec.csharp:
+  - uid: Global.ATask.Awake
+    name: Awake
+    nameWithType: ATask.Awake
+    fullName: ATask.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.Awake
+    name: Awake
+    nameWithType: ATask.Awake
+    fullName: ATask.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ProxyCardAutoSpawnTask.Awake*
+  commentId: Overload:Global.ProxyCardAutoSpawnTask.Awake
+  name: Awake
+  nameWithType: ProxyCardAutoSpawnTask.Awake
+  fullName: ProxyCardAutoSpawnTask.Awake
+- uid: Global.ATask.Construct(TaskData)
+  commentId: M:Global.ATask.Construct(TaskData)
+  parent: Global.ATask
+  name: Construct(TaskData)
+  nameWithType: ATask.Construct(TaskData)
+  fullName: ATask.Construct(TaskData)
+  spec.csharp:
+  - uid: Global.ATask.Construct(TaskData)
+    name: Construct
+    nameWithType: ATask.Construct
+    fullName: ATask.Construct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskData
+    name: TaskData
+    nameWithType: TaskData
+    fullName: TaskData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ATask.Construct(TaskData)
+    name: Construct
+    nameWithType: ATask.Construct
+    fullName: ATask.Construct
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.TaskData
+    name: TaskData
+    nameWithType: TaskData
+    fullName: TaskData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ProxyCardAutoSpawnTask.Construct*
+  commentId: Overload:Global.ProxyCardAutoSpawnTask.Construct
+  name: Construct
+  nameWithType: ProxyCardAutoSpawnTask.Construct
+  fullName: ProxyCardAutoSpawnTask.Construct
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+- uid: Global.AutoSpawnTask.ActivateTask
+  commentId: M:Global.AutoSpawnTask.ActivateTask
+  parent: Global.AutoSpawnTask
+  name: ActivateTask()
+  nameWithType: AutoSpawnTask.ActivateTask()
+  fullName: AutoSpawnTask.ActivateTask()
+  spec.csharp:
+  - uid: Global.AutoSpawnTask.ActivateTask
+    name: ActivateTask
+    nameWithType: AutoSpawnTask.ActivateTask
+    fullName: AutoSpawnTask.ActivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AutoSpawnTask.ActivateTask
+    name: ActivateTask
+    nameWithType: AutoSpawnTask.ActivateTask
+    fullName: AutoSpawnTask.ActivateTask
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ProxyCardAutoSpawnTask.ActivateTask*
+  commentId: Overload:Global.ProxyCardAutoSpawnTask.ActivateTask
+  name: ActivateTask
+  nameWithType: ProxyCardAutoSpawnTask.ActivateTask
+  fullName: ProxyCardAutoSpawnTask.ActivateTask
+- uid: Global.ProxyCardAutoSpawnTask.LayoutCard*
+  commentId: Overload:Global.ProxyCardAutoSpawnTask.LayoutCard
+  name: LayoutCard
+  nameWithType: ProxyCardAutoSpawnTask.LayoutCard
+  fullName: ProxyCardAutoSpawnTask.LayoutCard
+- uid: Global.ProxyCard
+  isExternal: true
+  name: ProxyCard
+  nameWithType: ProxyCard
+  fullName: ProxyCard

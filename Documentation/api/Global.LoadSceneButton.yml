@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LoadSceneButton
+  commentId: T:Global.LoadSceneButton
+  id: LoadSceneButton
+  parent: Global
+  children:
+  - Global.LoadSceneButton.button
+  - Global.LoadSceneButton.sceneIndex
+  - Global.LoadSceneButton.sceneName
+  langs:
+  - csharp
+  - vb
+  name: LoadSceneButton
+  nameWithType: LoadSceneButton
+  fullName: LoadSceneButton
+  type: Class
+  source:
+    id: LoadSceneButton
+    path: ''
+    startLine: 17294
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class LoadSceneButton : MonoBehaviour'
+    content.vb: >-
+      Public Class LoadSceneButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.LoadSceneButton.sceneName
+  commentId: F:Global.LoadSceneButton.sceneName
+  id: sceneName
+  parent: Global.LoadSceneButton
+  langs:
+  - csharp
+  - vb
+  name: sceneName
+  nameWithType: LoadSceneButton.sceneName
+  fullName: LoadSceneButton.sceneName
+  type: Field
+  source:
+    id: sceneName
+    path: ''
+    startLine: 17297
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string sceneName
+    return:
+      type: System.String
+    content.vb: Public sceneName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LoadSceneButton.sceneIndex
+  commentId: F:Global.LoadSceneButton.sceneIndex
+  id: sceneIndex
+  parent: Global.LoadSceneButton
+  langs:
+  - csharp
+  - vb
+  name: sceneIndex
+  nameWithType: LoadSceneButton.sceneIndex
+  fullName: LoadSceneButton.sceneIndex
+  type: Field
+  source:
+    id: sceneIndex
+    path: ''
+    startLine: 17299
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int sceneIndex
+    return:
+      type: System.Int32
+    content.vb: Public sceneIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LoadSceneButton.button
+  commentId: F:Global.LoadSceneButton.button
+  id: button
+  parent: Global.LoadSceneButton
+  langs:
+  - csharp
+  - vb
+  name: button
+  nameWithType: LoadSceneButton.button
+  fullName: LoadSceneButton.button
+  type: Field
+  source:
+    id: button
+    path: ''
+    startLine: 17301
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button button
+    return:
+      type: Global.Button
+    content.vb: Public button As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button

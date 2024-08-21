@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DictionaryManager`2
+  commentId: T:Global.DictionaryManager`2
+  id: DictionaryManager`2
+  parent: Global
+  children:
+  - Global.DictionaryManager`2.Add(`0,`1)
+  - Global.DictionaryManager`2.GetAt(`0)
+  - Global.DictionaryManager`2.GetAt``1(`0)
+  - Global.DictionaryManager`2.managedReferences
+  - Global.DictionaryManager`2.RemoveAt(`0)
+  langs:
+  - csharp
+  - vb
+  name: DictionaryManager<K, V>
+  nameWithType: DictionaryManager<K, V>
+  fullName: DictionaryManager<K, V>
+  type: Class
+  source:
+    id: DictionaryManager
+    path: ''
+    startLine: 17346
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      public class DictionaryManager<K, V>
+          where K : IComparable
+    typeParameters:
+    - id: K
+    - id: V
+    content.vb: Public Class DictionaryManager(Of K As IComparable, V)
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.AState
+  - Global.DictionaryListManager`2
+  nameWithType.vb: DictionaryManager(Of K, V)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: DictionaryManager(Of K, V)
+  name.vb: DictionaryManager(Of K, V)
+- uid: Global.DictionaryManager`2.managedReferences
+  commentId: F:Global.DictionaryManager`2.managedReferences
+  id: managedReferences
+  parent: Global.DictionaryManager`2
+  langs:
+  - csharp
+  - vb
+  name: managedReferences
+  nameWithType: DictionaryManager<K, V>.managedReferences
+  fullName: DictionaryManager<K, V>.managedReferences
+  type: Field
+  source:
+    id: managedReferences
+    path: ''
+    startLine: 17348
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected Dictionary<K, V> managedReferences
+    return:
+      type: Global.Dictionary{{K},{V}}
+    content.vb: Protected managedReferences As Dictionary(Of K, V)
+  nameWithType.vb: DictionaryManager(Of K, V).managedReferences
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: DictionaryManager(Of K, V).managedReferences
+- uid: Global.DictionaryManager`2.Add(`0,`1)
+  commentId: M:Global.DictionaryManager`2.Add(`0,`1)
+  id: Add(`0,`1)
+  parent: Global.DictionaryManager`2
+  langs:
+  - csharp
+  - vb
+  name: Add(K, V)
+  nameWithType: DictionaryManager<K, V>.Add(K, V)
+  fullName: DictionaryManager<K, V>.Add(K, V)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 17350
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void Add(K key, V value)
+    parameters:
+    - id: key
+      type: '{K}'
+    - id: value
+      type: '{V}'
+    content.vb: Public Overridable Sub Add(key As K, value As V)
+  overload: Global.DictionaryManager`2.Add*
+  nameWithType.vb: DictionaryManager(Of K, V).Add(K, V)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: DictionaryManager(Of K, V).Add(K, V)
+- uid: Global.DictionaryManager`2.RemoveAt(`0)
+  commentId: M:Global.DictionaryManager`2.RemoveAt(`0)
+  id: RemoveAt(`0)
+  parent: Global.DictionaryManager`2
+  langs:
+  - csharp
+  - vb
+  name: RemoveAt(K)
+  nameWithType: DictionaryManager<K, V>.RemoveAt(K)
+  fullName: DictionaryManager<K, V>.RemoveAt(K)
+  type: Method
+  source:
+    id: RemoveAt
+    path: ''
+    startLine: 17355
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void RemoveAt(K key)
+    parameters:
+    - id: key
+      type: '{K}'
+    content.vb: Public Overridable Sub RemoveAt(key As K)
+  overload: Global.DictionaryManager`2.RemoveAt*
+  nameWithType.vb: DictionaryManager(Of K, V).RemoveAt(K)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: DictionaryManager(Of K, V).RemoveAt(K)
+- uid: Global.DictionaryManager`2.GetAt(`0)
+  commentId: M:Global.DictionaryManager`2.GetAt(`0)
+  id: GetAt(`0)
+  parent: Global.DictionaryManager`2
+  langs:
+  - csharp
+  - vb
+  name: GetAt(K)
+  nameWithType: DictionaryManager<K, V>.GetAt(K)
+  fullName: DictionaryManager<K, V>.GetAt(K)
+  type: Method
+  source:
+    id: GetAt
+    path: ''
+    startLine: 17361
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public V GetAt(K key)
+    parameters:
+    - id: key
+      type: '{K}'
+    return:
+      type: '{V}'
+    content.vb: Public Function GetAt(key As K) As V
+  overload: Global.DictionaryManager`2.GetAt*
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt(K)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DictionaryManager(Of K, V).GetAt(K)
+- uid: Global.DictionaryManager`2.GetAt``1(`0)
+  commentId: M:Global.DictionaryManager`2.GetAt``1(`0)
+  id: GetAt``1(`0)
+  parent: Global.DictionaryManager`2
+  langs:
+  - csharp
+  - vb
+  name: GetAt<X>(K)
+  nameWithType: DictionaryManager<K, V>.GetAt<X>(K)
+  fullName: DictionaryManager<K, V>.GetAt<X>(K)
+  type: Method
+  source:
+    id: GetAt
+    path: ''
+    startLine: 17369
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      public X GetAt<X>(K key)
+          where X : V
+    parameters:
+    - id: key
+      type: '{K}'
+    typeParameters:
+    - id: X
+    return:
+      type: '{X}'
+    content.vb: Public Function GetAt(Of X As V)(key As K) As X
+  overload: Global.DictionaryManager`2.GetAt*
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt(Of X)(K)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DictionaryManager(Of K, V).GetAt(Of X)(K)
+  name.vb: GetAt(Of X)(K)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Dictionary{{K},{V}}
+  commentId: '!:Global.Dictionary{`0,`1}'
+  definition: Global.Dictionary`2
+  name: Dictionary<K, V>
+  nameWithType: Dictionary<K, V>
+  fullName: Dictionary<K, V>
+  nameWithType.vb: Dictionary(Of K, V)
+  fullName.vb: Dictionary(Of K, V)
+  name.vb: Dictionary(Of K, V)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.Add*
+  commentId: Overload:Global.DictionaryManager`2.Add
+  name: Add
+  nameWithType: DictionaryManager<K, V>.Add
+  fullName: DictionaryManager<K, V>.Add
+  nameWithType.vb: DictionaryManager(Of K, V).Add
+  fullName.vb: DictionaryManager(Of K, V).Add
+- uid: '{K}'
+  commentId: '!:K'
+  definition: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: '{V}'
+  commentId: '!:V'
+  definition: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: Global.DictionaryManager`2.RemoveAt*
+  commentId: Overload:Global.DictionaryManager`2.RemoveAt
+  name: RemoveAt
+  nameWithType: DictionaryManager<K, V>.RemoveAt
+  fullName: DictionaryManager<K, V>.RemoveAt
+  nameWithType.vb: DictionaryManager(Of K, V).RemoveAt
+  fullName.vb: DictionaryManager(Of K, V).RemoveAt
+- uid: Global.DictionaryManager`2.GetAt*
+  commentId: Overload:Global.DictionaryManager`2.GetAt
+  name: GetAt
+  nameWithType: DictionaryManager<K, V>.GetAt
+  fullName: DictionaryManager<K, V>.GetAt
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt
+  fullName.vb: DictionaryManager(Of K, V).GetAt
+- uid: '{X}'
+  commentId: '!:X'
+  definition: X
+  name: X
+  nameWithType: X
+  fullName: X
+- uid: X
+  commentId: '!:X'
+  name: X
+  nameWithType: X
+  fullName: X

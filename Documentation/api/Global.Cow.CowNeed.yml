@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Cow.CowNeed
+  commentId: T:Global.Cow.CowNeed
+  id: Cow.CowNeed
+  parent: Global
+  children:
+  - Global.Cow.CowNeed.Calf
+  - Global.Cow.CowNeed.Cleaning
+  - Global.Cow.CowNeed.Exercise
+  - Global.Cow.CowNeed.Food
+  - Global.Cow.CowNeed.Milk
+  - Global.Cow.CowNeed.Milking
+  - Global.Cow.CowNeed.None
+  - Global.Cow.CowNeed.Vet
+  - Global.Cow.CowNeed.Water
+  langs:
+  - csharp
+  - vb
+  name: Cow.CowNeed
+  nameWithType: Cow.CowNeed
+  fullName: Cow.CowNeed
+  type: Enum
+  source:
+    id: CowNeed
+    path: ''
+    startLine: 15200
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum CowNeed
+    content.vb: Public Enum CowNeed
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Cow.CowNeed.None
+  commentId: F:Global.Cow.CowNeed.None
+  id: None
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: None
+  nameWithType: Cow.CowNeed.None
+  fullName: Cow.CowNeed.None
+  type: Field
+  source:
+    id: None
+    path: ''
+    startLine: 15202
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: None = 0
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Cow.CowNeed.Food
+  commentId: F:Global.Cow.CowNeed.Food
+  id: Food
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: Food
+  nameWithType: Cow.CowNeed.Food
+  fullName: Cow.CowNeed.Food
+  type: Field
+  source:
+    id: Food
+    path: ''
+    startLine: 15203
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Food = 1
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Cow.CowNeed.Water
+  commentId: F:Global.Cow.CowNeed.Water
+  id: Water
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: Water
+  nameWithType: Cow.CowNeed.Water
+  fullName: Cow.CowNeed.Water
+  type: Field
+  source:
+    id: Water
+    path: ''
+    startLine: 15204
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Water = 2
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Cow.CowNeed.Cleaning
+  commentId: F:Global.Cow.CowNeed.Cleaning
+  id: Cleaning
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: Cleaning
+  nameWithType: Cow.CowNeed.Cleaning
+  fullName: Cow.CowNeed.Cleaning
+  type: Field
+  source:
+    id: Cleaning
+    path: ''
+    startLine: 15205
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Cleaning = 3
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Cow.CowNeed.Exercise
+  commentId: F:Global.Cow.CowNeed.Exercise
+  id: Exercise
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: Exercise
+  nameWithType: Cow.CowNeed.Exercise
+  fullName: Cow.CowNeed.Exercise
+  type: Field
+  source:
+    id: Exercise
+    path: ''
+    startLine: 15206
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Exercise = 4
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Cow.CowNeed.Calf
+  commentId: F:Global.Cow.CowNeed.Calf
+  id: Calf
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: Calf
+  nameWithType: Cow.CowNeed.Calf
+  fullName: Cow.CowNeed.Calf
+  type: Field
+  source:
+    id: Calf
+    path: ''
+    startLine: 15207
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Calf = 5
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Cow.CowNeed.Milking
+  commentId: F:Global.Cow.CowNeed.Milking
+  id: Milking
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: Milking
+  nameWithType: Cow.CowNeed.Milking
+  fullName: Cow.CowNeed.Milking
+  type: Field
+  source:
+    id: Milking
+    path: ''
+    startLine: 15208
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Milking = 6
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Cow.CowNeed.Milk
+  commentId: F:Global.Cow.CowNeed.Milk
+  id: Milk
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: Milk
+  nameWithType: Cow.CowNeed.Milk
+  fullName: Cow.CowNeed.Milk
+  type: Field
+  source:
+    id: Milk
+    path: ''
+    startLine: 15209
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Milk = 7
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Cow.CowNeed.Vet
+  commentId: F:Global.Cow.CowNeed.Vet
+  id: Vet
+  parent: Global.Cow.CowNeed
+  langs:
+  - csharp
+  - vb
+  name: Vet
+  nameWithType: Cow.CowNeed.Vet
+  fullName: Cow.CowNeed.Vet
+  type: Field
+  source:
+    id: Vet
+    path: ''
+    startLine: 15210
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Vet = 8
+    return:
+      type: Global.Cow.CowNeed
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Cow.CowNeed
+  commentId: T:Global.Cow.CowNeed
+  name: Cow.CowNeed
+  nameWithType: Cow.CowNeed
+  fullName: Cow.CowNeed

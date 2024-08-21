@@ -1,0 +1,492 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.FederalUnit
+  commentId: T:Global.FederalUnit
+  id: FederalUnit
+  parent: Global
+  children:
+  - Global.FederalUnit._subUnits
+  - Global.FederalUnit.bounds
+  - Global.FederalUnit.GenerateFederalStructure
+  - Global.FederalUnit.GetSubUnitByID(System.String)
+  - Global.FederalUnit.HighlightTarget(System.Boolean)
+  - Global.FederalUnit.requireHighlightAreaText
+  - Global.FederalUnit.subUnits
+  - Global.FederalUnit.superUnit
+  langs:
+  - csharp
+  - vb
+  name: FederalUnit
+  nameWithType: FederalUnit
+  fullName: FederalUnit
+  type: Class
+  source:
+    id: FederalUnit
+    path: ''
+    startLine: 23135
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class FederalUnit : AGuidanceSystemTarget'
+    content.vb: >-
+      Public Class FederalUnit
+          Inherits AGuidanceSystemTarget
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.KastralGemeinde
+  - Global.Salzburg
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.FederalUnit._subUnits
+  commentId: F:Global.FederalUnit._subUnits
+  id: _subUnits
+  parent: Global.FederalUnit
+  langs:
+  - csharp
+  - vb
+  name: _subUnits
+  nameWithType: FederalUnit._subUnits
+  fullName: FederalUnit._subUnits
+  type: Field
+  source:
+    id: _subUnits
+    path: ''
+    startLine: 23137
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected Dictionary<string, FederalUnit> _subUnits
+    return:
+      type: Global.Dictionary{System.String,FederalUnit}
+    content.vb: Protected _subUnits As Dictionary(Of String, FederalUnit)
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.FederalUnit.superUnit
+  commentId: F:Global.FederalUnit.superUnit
+  id: superUnit
+  parent: Global.FederalUnit
+  langs:
+  - csharp
+  - vb
+  name: superUnit
+  nameWithType: FederalUnit.superUnit
+  fullName: FederalUnit.superUnit
+  type: Field
+  source:
+    id: superUnit
+    path: ''
+    startLine: 23138
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FederalUnit superUnit
+    return:
+      type: Global.FederalUnit
+    content.vb: Public superUnit As FederalUnit
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.FederalUnit.requireHighlightAreaText
+  commentId: P:Global.FederalUnit.requireHighlightAreaText
+  id: requireHighlightAreaText
+  parent: Global.FederalUnit
+  langs:
+  - csharp
+  - vb
+  name: requireHighlightAreaText
+  nameWithType: FederalUnit.requireHighlightAreaText
+  fullName: FederalUnit.requireHighlightAreaText
+  type: Property
+  source:
+    id: requireHighlightAreaText
+    path: ''
+    startLine: 23140
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override bool requireHighlightAreaText { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides ReadOnly Property requireHighlightAreaText As Boolean
+  overload: Global.FederalUnit.requireHighlightAreaText*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Global.FederalUnit.subUnits
+  commentId: P:Global.FederalUnit.subUnits
+  id: subUnits
+  parent: Global.FederalUnit
+  langs:
+  - csharp
+  - vb
+  name: subUnits
+  nameWithType: FederalUnit.subUnits
+  fullName: FederalUnit.subUnits
+  type: Property
+  source:
+    id: subUnits
+    path: ''
+    startLine: 23141
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FederalUnit[] subUnits { get; }
+    parameters: []
+    return:
+      type: Global.FederalUnit[]
+    content.vb: Public ReadOnly Property subUnits As FederalUnit()
+  overload: Global.FederalUnit.subUnits*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.FederalUnit.bounds
+  commentId: P:Global.FederalUnit.bounds
+  id: bounds
+  parent: Global.FederalUnit
+  langs:
+  - csharp
+  - vb
+  name: bounds
+  nameWithType: FederalUnit.bounds
+  fullName: FederalUnit.bounds
+  type: Property
+  source:
+    id: bounds
+    path: ''
+    startLine: 23143
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override Bounds bounds { get; }
+    parameters: []
+    return:
+      type: Global.Bounds
+    content.vb: Public Overrides ReadOnly Property bounds As Bounds
+  overload: Global.FederalUnit.bounds*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Global.FederalUnit.HighlightTarget(System.Boolean)
+  commentId: M:Global.FederalUnit.HighlightTarget(System.Boolean)
+  id: HighlightTarget(System.Boolean)
+  parent: Global.FederalUnit
+  langs:
+  - csharp
+  - vb
+  name: HighlightTarget(Boolean)
+  nameWithType: FederalUnit.HighlightTarget(Boolean)
+  fullName: FederalUnit.HighlightTarget(System.Boolean)
+  type: Method
+  source:
+    id: HighlightTarget
+    path: ''
+    startLine: 23157
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void HighlightTarget(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Overrides Sub HighlightTarget(enabled As Boolean)
+  overload: Global.FederalUnit.HighlightTarget*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.FederalUnit.GenerateFederalStructure
+  commentId: M:Global.FederalUnit.GenerateFederalStructure
+  id: GenerateFederalStructure
+  parent: Global.FederalUnit
+  langs:
+  - csharp
+  - vb
+  name: GenerateFederalStructure()
+  nameWithType: FederalUnit.GenerateFederalStructure()
+  fullName: FederalUnit.GenerateFederalStructure()
+  type: Method
+  source:
+    id: GenerateFederalStructure
+    path: ''
+    startLine: 23163
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected virtual void GenerateFederalStructure()
+    content.vb: Protected Overridable Sub GenerateFederalStructure
+  overload: Global.FederalUnit.GenerateFederalStructure*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: Global.FederalUnit.GetSubUnitByID(System.String)
+  commentId: M:Global.FederalUnit.GetSubUnitByID(System.String)
+  id: GetSubUnitByID(System.String)
+  parent: Global.FederalUnit
+  langs:
+  - csharp
+  - vb
+  name: GetSubUnitByID(String)
+  nameWithType: FederalUnit.GetSubUnitByID(String)
+  fullName: FederalUnit.GetSubUnitByID(System.String)
+  type: Method
+  source:
+    id: GetSubUnitByID
+    path: ''
+    startLine: 23177
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FederalUnit GetSubUnitByID(string id)
+    parameters:
+    - id: id
+      type: System.String
+    return:
+      type: Global.FederalUnit
+    content.vb: Public Function GetSubUnitByID(id As String) As FederalUnit
+  overload: Global.FederalUnit.GetSubUnitByID*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Dictionary{System.String,FederalUnit}
+  commentId: '!:Global.Dictionary{System.String,FederalUnit}'
+  definition: Global.Dictionary`2
+  name: Dictionary<String, FederalUnit>
+  nameWithType: Dictionary<String, FederalUnit>
+  fullName: Dictionary<System.String, FederalUnit>
+  nameWithType.vb: Dictionary(Of String, FederalUnit)
+  fullName.vb: Dictionary(Of System.String, FederalUnit)
+  name.vb: Dictionary(Of String, FederalUnit)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.FederalUnit
+    name: FederalUnit
+    nameWithType: FederalUnit
+    fullName: FederalUnit
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.FederalUnit
+    name: FederalUnit
+    nameWithType: FederalUnit
+    fullName: FederalUnit
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.FederalUnit
+  commentId: T:Global.FederalUnit
+  name: FederalUnit
+  nameWithType: FederalUnit
+  fullName: FederalUnit
+- uid: Global.FederalUnit.requireHighlightAreaText*
+  commentId: Overload:Global.FederalUnit.requireHighlightAreaText
+  name: requireHighlightAreaText
+  nameWithType: FederalUnit.requireHighlightAreaText
+  fullName: FederalUnit.requireHighlightAreaText
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.FederalUnit.subUnits*
+  commentId: Overload:Global.FederalUnit.subUnits
+  name: subUnits
+  nameWithType: FederalUnit.subUnits
+  fullName: FederalUnit.subUnits
+- uid: Global.FederalUnit[]
+  isExternal: true
+  name: FederalUnit[]
+  nameWithType: FederalUnit[]
+  fullName: FederalUnit[]
+  nameWithType.vb: FederalUnit()
+  fullName.vb: FederalUnit()
+  name.vb: FederalUnit()
+  spec.csharp:
+  - uid: Global.FederalUnit
+    name: FederalUnit
+    nameWithType: FederalUnit
+    fullName: FederalUnit
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.FederalUnit
+    name: FederalUnit
+    nameWithType: FederalUnit
+    fullName: FederalUnit
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.FederalUnit.bounds*
+  commentId: Overload:Global.FederalUnit.bounds
+  name: bounds
+  nameWithType: FederalUnit.bounds
+  fullName: FederalUnit.bounds
+- uid: Global.Bounds
+  isExternal: true
+  name: Bounds
+  nameWithType: Bounds
+  fullName: Bounds
+- uid: Global.FederalUnit.HighlightTarget*
+  commentId: Overload:Global.FederalUnit.HighlightTarget
+  name: HighlightTarget
+  nameWithType: FederalUnit.HighlightTarget
+  fullName: FederalUnit.HighlightTarget
+- uid: Global.FederalUnit.GenerateFederalStructure*
+  commentId: Overload:Global.FederalUnit.GenerateFederalStructure
+  name: GenerateFederalStructure
+  nameWithType: FederalUnit.GenerateFederalStructure
+  fullName: FederalUnit.GenerateFederalStructure
+- uid: Global.FederalUnit.GetSubUnitByID*
+  commentId: Overload:Global.FederalUnit.GetSubUnitByID
+  name: GetSubUnitByID
+  nameWithType: FederalUnit.GetSubUnitByID
+  fullName: FederalUnit.GetSubUnitByID
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

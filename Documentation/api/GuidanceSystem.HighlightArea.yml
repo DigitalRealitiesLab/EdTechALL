@@ -1,0 +1,244 @@
+### YamlMime:ManagedReference
+items:
+- uid: GuidanceSystem.HighlightArea
+  commentId: T:GuidanceSystem.HighlightArea
+  id: HighlightArea
+  parent: GuidanceSystem
+  children:
+  - GuidanceSystem.HighlightArea.cameraTransform
+  - GuidanceSystem.HighlightArea.highlightPOI
+  - GuidanceSystem.HighlightArea.highlightRenderer
+  - GuidanceSystem.HighlightArea.OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  - GuidanceSystem.HighlightArea.OnTargetHighlightRequest(GuidanceSystem.AGuidanceSystemTarget,Vector3,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: HighlightArea
+  nameWithType: HighlightArea
+  fullName: GuidanceSystem.HighlightArea
+  type: Class
+  source:
+    id: HighlightArea
+    path: ''
+    startLine: 22971
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: 'public class HighlightArea : MonoBehaviour'
+    content.vb: >-
+      Public Class HighlightArea
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GuidanceSystem.HighlightArea.highlightRenderer
+  commentId: F:GuidanceSystem.HighlightArea.highlightRenderer
+  id: highlightRenderer
+  parent: GuidanceSystem.HighlightArea
+  langs:
+  - csharp
+  - vb
+  name: highlightRenderer
+  nameWithType: HighlightArea.highlightRenderer
+  fullName: GuidanceSystem.HighlightArea.highlightRenderer
+  type: Field
+  source:
+    id: highlightRenderer
+    path: ''
+    startLine: 22973
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public Renderer highlightRenderer
+    return:
+      type: Global.Renderer
+    content.vb: Public highlightRenderer As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.HighlightArea.highlightPOI
+  commentId: F:GuidanceSystem.HighlightArea.highlightPOI
+  id: highlightPOI
+  parent: GuidanceSystem.HighlightArea
+  langs:
+  - csharp
+  - vb
+  name: highlightPOI
+  nameWithType: HighlightArea.highlightPOI
+  fullName: GuidanceSystem.HighlightArea.highlightPOI
+  type: Field
+  source:
+    id: highlightPOI
+    path: ''
+    startLine: 22974
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public POI highlightPOI
+    return:
+      type: Global.POI
+    content.vb: Public highlightPOI As POI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.HighlightArea.cameraTransform
+  commentId: F:GuidanceSystem.HighlightArea.cameraTransform
+  id: cameraTransform
+  parent: GuidanceSystem.HighlightArea
+  langs:
+  - csharp
+  - vb
+  name: cameraTransform
+  nameWithType: HighlightArea.cameraTransform
+  fullName: GuidanceSystem.HighlightArea.cameraTransform
+  type: Field
+  source:
+    id: cameraTransform
+    path: ''
+    startLine: 22975
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public Transform cameraTransform
+    return:
+      type: Global.Transform
+    content.vb: Public cameraTransform As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.HighlightArea.OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  commentId: M:GuidanceSystem.HighlightArea.OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  id: OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  parent: GuidanceSystem.HighlightArea
+  langs:
+  - csharp
+  - vb
+  name: OnTargetChanged(AGuidanceSystemTarget)
+  nameWithType: HighlightArea.OnTargetChanged(AGuidanceSystemTarget)
+  fullName: GuidanceSystem.HighlightArea.OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  type: Method
+  source:
+    id: OnTargetChanged
+    path: ''
+    startLine: 22993
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public void OnTargetChanged(AGuidanceSystemTarget target)
+    parameters:
+    - id: target
+      type: GuidanceSystem.AGuidanceSystemTarget
+    content.vb: Public Sub OnTargetChanged(target As AGuidanceSystemTarget)
+  overload: GuidanceSystem.HighlightArea.OnTargetChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.HighlightArea.OnTargetHighlightRequest(GuidanceSystem.AGuidanceSystemTarget,Vector3,System.Single)
+  commentId: M:GuidanceSystem.HighlightArea.OnTargetHighlightRequest(GuidanceSystem.AGuidanceSystemTarget,Vector3,System.Single)
+  id: OnTargetHighlightRequest(GuidanceSystem.AGuidanceSystemTarget,Vector3,System.Single)
+  parent: GuidanceSystem.HighlightArea
+  langs:
+  - csharp
+  - vb
+  name: OnTargetHighlightRequest(AGuidanceSystemTarget, Vector3, Single)
+  nameWithType: HighlightArea.OnTargetHighlightRequest(AGuidanceSystemTarget, Vector3, Single)
+  fullName: GuidanceSystem.HighlightArea.OnTargetHighlightRequest(GuidanceSystem.AGuidanceSystemTarget, Vector3, System.Single)
+  type: Method
+  source:
+    id: OnTargetHighlightRequest
+    path: ''
+    startLine: 22998
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public void OnTargetHighlightRequest(AGuidanceSystemTarget target, Vector3 position, float radius)
+    parameters:
+    - id: target
+      type: GuidanceSystem.AGuidanceSystemTarget
+    - id: position
+      type: Global.Vector3
+    - id: radius
+      type: System.Single
+    content.vb: Public Sub OnTargetHighlightRequest(target As AGuidanceSystemTarget, position As Vector3, radius As Single)
+  overload: GuidanceSystem.HighlightArea.OnTargetHighlightRequest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GuidanceSystem
+  commentId: N:GuidanceSystem
+  name: GuidanceSystem
+  nameWithType: GuidanceSystem
+  fullName: GuidanceSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Renderer
+- uid: Global.POI
+  commentId: T:Global.POI
+  name: POI
+  nameWithType: POI
+  fullName: POI
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: GuidanceSystem.HighlightArea.OnTargetChanged*
+  commentId: Overload:GuidanceSystem.HighlightArea.OnTargetChanged
+  name: OnTargetChanged
+  nameWithType: HighlightArea.OnTargetChanged
+  fullName: GuidanceSystem.HighlightArea.OnTargetChanged
+- uid: GuidanceSystem.AGuidanceSystemTarget
+  commentId: T:GuidanceSystem.AGuidanceSystemTarget
+  parent: GuidanceSystem
+  name: AGuidanceSystemTarget
+  nameWithType: AGuidanceSystemTarget
+  fullName: GuidanceSystem.AGuidanceSystemTarget
+- uid: GuidanceSystem.HighlightArea.OnTargetHighlightRequest*
+  commentId: Overload:GuidanceSystem.HighlightArea.OnTargetHighlightRequest
+  name: OnTargetHighlightRequest
+  nameWithType: HighlightArea.OnTargetHighlightRequest
+  fullName: GuidanceSystem.HighlightArea.OnTargetHighlightRequest
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

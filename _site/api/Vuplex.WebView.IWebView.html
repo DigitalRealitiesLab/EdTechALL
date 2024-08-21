@@ -1,0 +1,1878 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IWebView
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IWebView
+   ">
+    <meta name="generator" content="docfx 2.59.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Vuplex.WebView.IWebView">
+  
+  
+  <h1 id="Vuplex_WebView_IWebView" data-uid="Vuplex.WebView.IWebView" class="text-break">Interface IWebView
+  </h1>
+  <div class="markdown level0 summary"><p>IWebView is the primary interface for loading and interacting with web content.
+It contains methods and properties for common browser-related functionality,
+like LoadUrl(), GoBack(), Reload(), and ExecuteJavaScript().</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Vuplex.WebView.html">Vuplex.WebView</a></h6>
+  <h6><strong>Assembly</strong>: Assembly-CSharp.dll</h6>
+  <h5 id="Vuplex_WebView_IWebView_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IWebView</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_remarks"><strong>Remarks</strong></h5>
+  <div class="markdown level0 remarks"><p><p>
+To create an IWebView, instantiate a WebViewPrefab or CanvasWebViewPrefab. After
+the prefab is initialized, you can access its IWebView via the WebViewPrefab.WebView property.
+If your use case requires a high degree of customization, you can instead create
+an IWebView outside of a prefab (to connect to your own custom GameObject) by
+using Web.CreateWebView().
+</p>
+<p>
+For additional functionality, you can cast an IWebView to an interface for a specific
+feature, like IWithDownloads or IWithPopups. For a list of additional feature interfaces and
+information about how to use them, see this page: <a href="https://developer.vuplex.com/webview/additional-interfaces">https://developer.vuplex.com/webview/additional-interfaces</a>
+</p>
+See also:
+<ul><li></li><li></li><li></li></ul></p>
+</div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="Vuplex_WebView_IWebView_IsDisposed_" data-uid="Vuplex.WebView.IWebView.IsDisposed*"></a>
+  <h4 id="Vuplex_WebView_IWebView_IsDisposed" data-uid="Vuplex.WebView.IWebView.IsDisposed">IsDisposed</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the instance has been disposed via Dispose().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsDisposed { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_IsInitialized_" data-uid="Vuplex.WebView.IWebView.IsInitialized*"></a>
+  <h4 id="Vuplex_WebView_IWebView_IsInitialized" data-uid="Vuplex.WebView.IWebView.IsInitialized">IsInitialized</h4>
+  <div class="markdown level1 summary"><p>Gets a value indicating whether the instance has been initialized via Init().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsInitialized { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_PageLoadScripts_" data-uid="Vuplex.WebView.IWebView.PageLoadScripts*"></a>
+  <h4 id="Vuplex_WebView_IWebView_PageLoadScripts" data-uid="Vuplex.WebView.IWebView.PageLoadScripts">PageLoadScripts</h4>
+  <div class="markdown level1 summary"><p>Gets a list of JavaScript scripts that are automatically executed in every new page that is loaded.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;string&gt; PageLoadScripts { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.List</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_PageLoadScripts_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This list is empty by default, but the application can add scripts. When used in conjunction
+with 3D WebView&apos;s <a href="https://support.vuplex.com/articles/how-to-send-messages-from-javascript-to-c-sharp">message passing API</a>,
+it&apos;s possible to modify the browser&apos;s behavior in significant ways, similar to creating browser extensions.</p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_PageLoadScripts_examples">Examples</h5>
+  <pre><code>// Add a script that automatically hides all scrollbars.
+await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.PageLoadScripts.Add(@&quot;
+    var styleElement = document.createElement(&apos;style&apos;);
+    styleElement.innerText = &apos;body::-webkit-scrollbar { display: none; }&apos;;
+    document.head.appendChild(styleElement);
+&quot;);</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_PageLoadScripts_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_ExecuteJavaScript_System_String_">ExecuteJavaScript(String)</a></div>
+      <div><span><a href="https://support.vuplex.com/articles/how-to-send-messages-from-javascript-to-c-sharp">JS-to-C# message passing</a></span></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_PluginType_" data-uid="Vuplex.WebView.IWebView.PluginType*"></a>
+  <h4 id="Vuplex_WebView_IWebView_PluginType" data-uid="Vuplex.WebView.IWebView.PluginType">PluginType</h4>
+  <div class="markdown level1 summary"><p>Gets the instance&apos;s plugin type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">WebPluginType PluginType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Vuplex.WebView.WebPluginType.html">WebPluginType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_PluginType_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+Debug.Log(&quot;Plugin type: &quot; + webViewPrefab.WebView.PluginType);</code></pre>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_Resolution_" data-uid="Vuplex.WebView.IWebView.Resolution*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Resolution" data-uid="Vuplex.WebView.IWebView.Resolution">Resolution</h4>
+  <div class="markdown level1 summary"><p>Gets the webview&apos;s resolution in pixels per Unity unit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float Resolution { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Resolution_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+Debug.Log(&quot;Resolution: &quot; + webViewPrefab.WebView.Resolution);</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_Resolution_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_SetResolution_System_Single_">SetResolution(Single)</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Size">Size</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Size_" data-uid="Vuplex.WebView.IWebView.Size*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Size" data-uid="Vuplex.WebView.IWebView.Size">Size</h4>
+  <div class="markdown level1 summary"><p>Gets the webview&apos;s current size in Unity units.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector2 Size { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Size_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+Debug.Log(&quot;Size: &quot; + webViewPrefab.WebView.Size);</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_Size_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_SizeInPixels">SizeInPixels</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Resize_System_Single_System_Single_">Resize(Single, Single)</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Resolution">Resolution</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_SizeInPixels_" data-uid="Vuplex.WebView.IWebView.SizeInPixels*"></a>
+  <h4 id="Vuplex_WebView_IWebView_SizeInPixels" data-uid="Vuplex.WebView.IWebView.SizeInPixels">SizeInPixels</h4>
+  <div class="markdown level1 summary"><p>Gets the webview&apos;s current size in pixels.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Vector2 SizeInPixels { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_SizeInPixels_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+Debug.Log(&quot;Size in pixels: &quot; + webViewPrefab.WebView.SizeInPixels);</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_SizeInPixels_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Size">Size</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Resize_System_Single_System_Single_">Resize(Single, Single)</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Resolution">Resolution</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Texture_" data-uid="Vuplex.WebView.IWebView.Texture*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Texture" data-uid="Vuplex.WebView.IWebView.Texture">Texture</h4>
+  <div class="markdown level1 summary"><p>Gets the texture for the webview&apos;s web content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Texture2D Texture { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Texture_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+This texture is an &quot;external texture&quot; created with
+Texture2D.CreateExternalTexture(). An undocumented characteristic
+of external textures in Unity is that not all Texture2D methods work for them.
+For example, Texture2D.GetRawTextureData() and ImageConversion.EncodeToPNG()
+fail for external textures. To compensate, the IWebView interface includes
+its own GetRawTextureData() and CaptureScreenshot() methods to replace them.
+</p>
+<p>
+Another quirk of this texture is that Unity always reports its size as
+1300px × 1300px in the editor. In reality, 3D WebView resizes the
+texture in native code to match the dimensions of the webview, but
+Unity doesn&apos;t provide an API to notify the engine that an external texture&apos;s size
+has changed. So, Unity always reports its size as the initial size that was
+passed to Texture2D.CreateExternalTexture(), which in 3D WebView&apos;s case is
+1300px × 1300px.
+</p>
+<p>
+This property is unused when running in <a href="https://support.vuplex.com/articles/native-2d-mode">Native 2D Mode</a>.
+</p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_Texture_examples">Examples</h5>
+  <pre><code>// Apply the webview&apos;s texture to another material.
+await webViewPrefab.WaitUntilInitialized();
+// On Android, the material must be created with Web.CreateMaterial().
+// On other platforms, you could potentially use other materials.
+var anotherMaterial = await Web.CreateMaterial();
+anotherMaterial.mainTexture = webViewPrefab.WebView.Texture;</code></pre>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_Title_" data-uid="Vuplex.WebView.IWebView.Title*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Title" data-uid="Vuplex.WebView.IWebView.Title">Title</h4>
+  <div class="markdown level1 summary"><p>Gets the current web page title.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Title { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Title_examples">Examples</h5>
+  <pre><code>// Get the page&apos;s title after it finishes loading.
+await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.LoadProgressChanged += (sender, eventArgs) => {
+    if (eventArgs.Type == ProgressChangeType.Finished) {
+        Debug.Log(&quot;Page title: &quot; + webViewPrefab.WebView.Title);
+    }
+};</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_Title_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_TitleChanged">TitleChanged</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Url_" data-uid="Vuplex.WebView.IWebView.Url*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Url" data-uid="Vuplex.WebView.IWebView.Url">Url</h4>
+  <div class="markdown level1 summary"><p>Gets the current URL.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Url { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Url_examples">Examples</h5>
+  <pre><code>// Get the page&apos;s URL after it finishes loading.
+await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.LoadProgressChanged += (sender, eventArgs) => {
+    if (eventArgs.Type == ProgressChangeType.Finished) {
+        Debug.Log(&quot;Page URL: &quot; + webViewPrefab.WebView.Url);
+    }
+};</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_Url_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_UrlChanged">UrlChanged</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_VideoTexture_" data-uid="Vuplex.WebView.IWebView.VideoTexture*"></a>
+  <h4 id="Vuplex_WebView_IWebView_VideoTexture" data-uid="Vuplex.WebView.IWebView.VideoTexture">VideoTexture</h4>
+  <div class="markdown level1 summary"><p>Gets the video texture used for <a href="https://support.vuplex.com/articles/fallback-video">iOS&apos;s fallback video implementation</a>.
+On other platforms, this property is null.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">Texture2D VideoTexture { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_VideoTexture_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This property is unused when running in <a href="https://support.vuplex.com/articles/native-2d-mode">Native 2D Mode</a>.</p>
+</div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Blur_" data-uid="Vuplex.WebView.IWebView.Blur*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Blur" data-uid="Vuplex.WebView.IWebView.Blur">Blur()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Blur() is now deprecated. Please use SetFocused(false) instead.&quot;)]
+void Blur()</code></pre>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_CanGoBack_" data-uid="Vuplex.WebView.IWebView.CanGoBack*"></a>
+  <h4 id="Vuplex_WebView_IWebView_CanGoBack_System_Action_System_Boolean__" data-uid="Vuplex.WebView.IWebView.CanGoBack(System.Action{System.Boolean})">CanGoBack(Action&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The callback-based CanGoBack(Action) version of this method is now deprecated. Please switch to the Task-based CanGoBack() version instead. If you prefer using a callback instead of awaiting the Task, you can still use a callback like this: CanGoBack().ContinueWith(result =&gt; {...})&quot;)]
+void CanGoBack(Action&lt;bool&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_CanGoForward_" data-uid="Vuplex.WebView.IWebView.CanGoForward*"></a>
+  <h4 id="Vuplex_WebView_IWebView_CanGoForward_System_Action_System_Boolean__" data-uid="Vuplex.WebView.IWebView.CanGoForward(System.Action{System.Boolean})">CanGoForward(Action&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The callback-based CanGoForward(Action) version of this method is now deprecated. Please switch to the Task-based CanGoForward() version instead. If you prefer using a callback instead of awaiting the Task, you can still use a callback like this: CanGoForward().ContinueWith(result =&gt; {...})&quot;)]
+void CanGoForward(Action&lt;bool&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_CaptureScreenshot_" data-uid="Vuplex.WebView.IWebView.CaptureScreenshot*"></a>
+  <h4 id="Vuplex_WebView_IWebView_CaptureScreenshot_System_Action_System_Byte____" data-uid="Vuplex.WebView.IWebView.CaptureScreenshot(System.Action{System.Byte[]})">CaptureScreenshot(Action&lt;Byte[]&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The callback-based CaptureScreenshot(Action) version of this method is now deprecated. Please switch to the Task-based CaptureScreenshot() version instead. If you prefer using a callback instead of awaiting the Task, you can still use a callback like this: CaptureScreenshot().ContinueWith(result =&gt; {...})&quot;)]
+void CaptureScreenshot(Action&lt;byte[]&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Click_" data-uid="Vuplex.WebView.IWebView.Click*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Click_UnityEngine_Vector2_" data-uid="Vuplex.WebView.IWebView.Click(UnityEngine.Vector2)">Click(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Clicks at the given point in the webpage, dispatching both a mouse
+down and a mouse up event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Click(Vector2 point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">point</span></td>
+        <td><p>The x and y components of the point are values in the range of [0, 1] that
+are normalized to the webview&apos;s width and height. For example,
+<code>point.x = xInPixels / webView.SizeInPixels.x</code>. Like in the browser,
+the origin is in the upper-left corner, the positive direction of the y-axis
+is down, and the positive direction of the x-axis is right.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Click_UnityEngine_Vector2__examples">Examples</h5>
+  <pre><code>// Click the point at (250px, 100px) in the web page.
+var normalizedPoint = new Vector2(250, 100) / webViewPrefab.WebView.SizeInPixels;
+webViewPrefab.WebView.Click(normalizedPoint);</code></pre>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_Click_" data-uid="Vuplex.WebView.IWebView.Click*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Click_UnityEngine_Vector2_System_Boolean_" data-uid="Vuplex.WebView.IWebView.Click(UnityEngine.Vector2,System.Boolean)">Click(Vector2, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Like Click(Vector2 point) but with an additional option to prevent stealing focus.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Click(Vector2 point, bool preventStealingFocus)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">preventStealingFocus</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Copy_" data-uid="Vuplex.WebView.IWebView.Copy*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Copy" data-uid="Vuplex.WebView.IWebView.Copy">Copy()</h4>
+  <div class="markdown level1 summary"><p>Copies the selected text to the clipboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Copy()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_Copy_examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.Copy();</code></p>
+
+  <h5 id="Vuplex_WebView_IWebView_Copy_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Cut">Cut()</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Paste">Paste()</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_SelectAll">SelectAll()</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Cut_" data-uid="Vuplex.WebView.IWebView.Cut*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Cut" data-uid="Vuplex.WebView.IWebView.Cut">Cut()</h4>
+  <div class="markdown level1 summary"><p>Copies the selected text to the clipboard and removes it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Cut()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_Cut_examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.Cut();</code></p>
+
+  <h5 id="Vuplex_WebView_IWebView_Cut_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Copy">Copy()</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Paste">Paste()</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_SelectAll">SelectAll()</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_DisableViewUpdates_" data-uid="Vuplex.WebView.IWebView.DisableViewUpdates*"></a>
+  <h4 id="Vuplex_WebView_IWebView_DisableViewUpdates" data-uid="Vuplex.WebView.IWebView.DisableViewUpdates">DisableViewUpdates()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;DisableViewUpdates() is now deprecated. Please use SetRenderingEnabled(false) instead.&quot;)]
+void DisableViewUpdates()</code></pre>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Dispose_" data-uid="Vuplex.WebView.IWebView.Dispose*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Dispose" data-uid="Vuplex.WebView.IWebView.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Destroys the webview, releasing all of its resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Dispose()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_Dispose_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>If you&apos;re using a WebViewPrefab or CanvasWebViewPrefab, please call Destroy() on the prefab instead
+of calling IWebView.Dispose(). Calling IWebView.Dispose() while the prefab is still using the webview
+can cause issues.</p>
+</div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_EnableViewUpdates_" data-uid="Vuplex.WebView.IWebView.EnableViewUpdates*"></a>
+  <h4 id="Vuplex_WebView_IWebView_EnableViewUpdates" data-uid="Vuplex.WebView.IWebView.EnableViewUpdates">EnableViewUpdates()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;EnableViewUpdates() is now deprecated. Please use SetRenderingEnabled(true) instead.&quot;)]
+void EnableViewUpdates()</code></pre>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_ExecuteJavaScript_" data-uid="Vuplex.WebView.IWebView.ExecuteJavaScript*"></a>
+  <h4 id="Vuplex_WebView_IWebView_ExecuteJavaScript_System_String_" data-uid="Vuplex.WebView.IWebView.ExecuteJavaScript(System.String)">ExecuteJavaScript(String)</h4>
+  <div class="markdown level1 summary"><p>Executes the given script in the context of the webpage&apos;s main frame.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ExecuteJavaScript(string javaScript)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">javaScript</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_ExecuteJavaScript_" data-uid="Vuplex.WebView.IWebView.ExecuteJavaScript*"></a>
+  <h4 id="Vuplex_WebView_IWebView_ExecuteJavaScript_System_String_System_Action_System_String__" data-uid="Vuplex.WebView.IWebView.ExecuteJavaScript(System.String,System.Action{System.String})">ExecuteJavaScript(String, Action&lt;String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Like the other version of ExecuteJavaScript(), except it uses a callback instead
+of a Task to return the result. If you don&apos;t need the result from executing the JavaScript, you can
+improve the method&apos;s efficiency by passing <code>null</code> as the callback argument.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ExecuteJavaScript(string javaScript, Action&lt;string&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">javaScript</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Focus_" data-uid="Vuplex.WebView.IWebView.Focus*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Focus" data-uid="Vuplex.WebView.IWebView.Focus">Focus()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Focus() is now deprecated. Please use SetFocused(true) instead.&quot;)]
+void Focus()</code></pre>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_GetRawTextureData_" data-uid="Vuplex.WebView.IWebView.GetRawTextureData*"></a>
+  <h4 id="Vuplex_WebView_IWebView_GetRawTextureData_System_Action_System_Byte____" data-uid="Vuplex.WebView.IWebView.GetRawTextureData(System.Action{System.Byte[]})">GetRawTextureData(Action&lt;Byte[]&gt;)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;The callback-based GetRawTextureData(Action) version of this method is now deprecated. Please switch to the Task-based GetRawTextureData() version instead. If you prefer using a callback instead of awaiting the Task, you can still use a callback like this: GetRawTextureData().ContinueWith(result =&gt; {...})&quot;)]
+void GetRawTextureData(Action&lt;byte[]&gt; callback)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">System.Byte</span>[]&gt;</td>
+        <td><span class="parametername">callback</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_GoBack_" data-uid="Vuplex.WebView.IWebView.GoBack*"></a>
+  <h4 id="Vuplex_WebView_IWebView_GoBack" data-uid="Vuplex.WebView.IWebView.GoBack">GoBack()</h4>
+  <div class="markdown level1 summary"><p>Navigates back to the previous page in the webview&apos;s history.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GoBack()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_GoBack_examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.GoBack();</code></p>
+
+  <h5 id="Vuplex_WebView_IWebView_GoBack_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_CanGoBack_System_Action_System_Boolean__">CanGoBack(Action&lt;Boolean&gt;)</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_GoForward_" data-uid="Vuplex.WebView.IWebView.GoForward*"></a>
+  <h4 id="Vuplex_WebView_IWebView_GoForward" data-uid="Vuplex.WebView.IWebView.GoForward">GoForward()</h4>
+  <div class="markdown level1 summary"><p>Navigates forward to the next page in the webview&apos;s history.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void GoForward()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_GoForward_examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.GoForward();</code></p>
+
+  <h5 id="Vuplex_WebView_IWebView_GoForward_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_CanGoForward_System_Action_System_Boolean__">CanGoForward(Action&lt;Boolean&gt;)</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_HandleKeyboardInput_" data-uid="Vuplex.WebView.IWebView.HandleKeyboardInput*"></a>
+  <h4 id="Vuplex_WebView_IWebView_HandleKeyboardInput_System_String_" data-uid="Vuplex.WebView.IWebView.HandleKeyboardInput(System.String)">HandleKeyboardInput(String)</h4>
+  <div class="markdown level1 summary"><p>Dispatches keyboard input to the webview.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void HandleKeyboardInput(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>A key can either be a single character representing
+a unicode character (e.g. &quot;A&quot;, &quot;b&quot;, &quot;?&quot;) or a <a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values">JavaScript key value</a>
+(e.g. &quot;ArrowUp&quot;, &quot;Enter&quot;, &quot;Backspace&quot;, &quot;Delete&quot;).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_HandleKeyboardInput_System_String__examples">Examples</h5>
+  <pre><code>// Type &quot;Hi!&quot; and then submit the Enter key.
+webViewPrefab.WebView.HandleKeyboardInput(&quot;H&quot;);
+webViewPrefab.WebView.HandleKeyboardInput(&quot;i&quot;);
+webViewPrefab.WebView.HandleKeyboardInput(&quot;!&quot;);
+webViewPrefab.WebView.HandleKeyboardInput(&quot;Enter&quot;);</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_HandleKeyboardInput_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWithKeyDownAndUp.html">IWithKeyDownAndUp</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Init_" data-uid="Vuplex.WebView.IWebView.Init*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Init_UnityEngine_Texture2D_System_Single_System_Single_" data-uid="Vuplex.WebView.IWebView.Init(UnityEngine.Texture2D,System.Single,System.Single)">Init(Texture2D, Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Like the other Init() method, but with fallback video support disabled for iOS.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Init(Texture2D texture, float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td><span class="parametername">texture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Init_" data-uid="Vuplex.WebView.IWebView.Init*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Init_UnityEngine_Texture2D_System_Single_System_Single_UnityEngine_Texture2D_" data-uid="Vuplex.WebView.IWebView.Init(UnityEngine.Texture2D,System.Single,System.Single,UnityEngine.Texture2D)">Init(Texture2D, Single, Single, Texture2D)</h4>
+  <div class="markdown level1 summary"><p>Initializes a newly created webview with the given textures created with
+Web.CreateMaterial() and the dimensions in Unity units.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Init(Texture2D texture, float width, float height, Texture2D videoTexture)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td><span class="parametername">texture</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Texture2D</span></td>
+        <td><span class="parametername">videoTexture</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Init_UnityEngine_Texture2D_System_Single_System_Single_UnityEngine_Texture2D__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Important notes:
+<ul><li></li><li></li><li></li></ul></p>
+</div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_LoadHtml_" data-uid="Vuplex.WebView.IWebView.LoadHtml*"></a>
+  <h4 id="Vuplex_WebView_IWebView_LoadHtml_System_String_" data-uid="Vuplex.WebView.IWebView.LoadHtml(System.String)">LoadHtml(String)</h4>
+  <div class="markdown level1 summary"><p>Loads the webpage contained in the given HTML string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadHtml(string html)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">html</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_LoadHtml_System_String__examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.LoadHtml(@&quot;
+    &lt;!DOCTYPE html>
+    &lt;html>
+        &lt;head>
+            &lt;title>Test Page&lt;/title>
+            &lt;style>
+                h1 {
+                    font-family: Helvetica, Arial, Sans-Serif;
+                }
+            &lt;/style>
+        &lt;/head>
+        &lt;body>
+            &lt;h1>LoadHtml Example&lt;/h1>
+            &lt;script>
+                console.log(&apos;This page was loaded!&apos;);
+            &lt;/script>
+        &lt;/body>
+    &lt;/html>&quot;
+);</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_LoadHtml_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_LoadUrl_System_String_">LoadUrl(String)</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_LoadUrl_" data-uid="Vuplex.WebView.IWebView.LoadUrl*"></a>
+  <h4 id="Vuplex_WebView_IWebView_LoadUrl_System_String_" data-uid="Vuplex.WebView.IWebView.LoadUrl(System.String)">LoadUrl(String)</h4>
+  <div class="markdown level1 summary"><p>Loads the given URL. Supported URL schemes:</p>
+<ul>
+<li><code>http://</code>, <code>https://</code> - loads a remote page over HTTP</li>
+<li><code>streaming-assets://</code> - loads a local page from StreamingAssets
+(equivalent to <code>&amp;quot;file://&amp;quot; + Application.streamingAssetsPath + path</code>)</li>
+<li><code>file://</code> - some platforms support loading arbitrary file URLs</li>
+</ul>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadUrl(string url)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">url</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_LoadUrl_System_String__examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.LoadUrl(&quot;https://vuplex.com&quot;);</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_LoadUrl_System_String__seealso">See Also</h5>
+  <div class="seealso">
+      <div><span><a href="https://support.vuplex.com/articles/how-to-load-local-files">How to load local files</a></span></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_LoadHtml_System_String_">LoadHtml(String)</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_LoadUrl_" data-uid="Vuplex.WebView.IWebView.LoadUrl*"></a>
+  <h4 id="Vuplex_WebView_IWebView_LoadUrl_System_String_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="Vuplex.WebView.IWebView.LoadUrl(System.String,System.Collections.Generic.Dictionary{System.String,System.String})">LoadUrl(String, Dictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Like LoadUrl(string url), but also sends the given additional HTTP request headers
+when loading the URL. The headers are sent for the initial page load request but are not sent
+for requests for subsequent resources, like linked JavaScript or CSS files.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void LoadUrl(string url, Dictionary&lt;string, string&gt; additionalHttpHeaders)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">url</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">additionalHttpHeaders</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_LoadUrl_System_String_System_Collections_Generic_Dictionary_System_String_System_String___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>On Windows and macOS, this method cannot be used to set the Accept-Language header.
+For more info, please see <a href="https://support.vuplex.com/articles/how-to-change-accept-language-header">this article</a>.</p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_LoadUrl_System_String_System_Collections_Generic_Dictionary_System_String_System_String___examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.LoadUrl(&quot;https://vuplex.com&quot;, new Dictionary&lt;string, string> {
+    [&quot;Authorization&quot;] = &quot;Basic YWxhZGRpbjpvcGVuc2VzYW1l&quot;,
+    [&quot;Cookie&quot;] = &quot;foo=bar&quot;
+});</code></pre>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_Paste_" data-uid="Vuplex.WebView.IWebView.Paste*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Paste" data-uid="Vuplex.WebView.IWebView.Paste">Paste()</h4>
+  <div class="markdown level1 summary"><p>Pastes text from the clipboard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Paste()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_Paste_examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.Paste();</code></p>
+
+  <h5 id="Vuplex_WebView_IWebView_Paste_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Copy">Copy()</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Cut">Cut()</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_PostMessage_" data-uid="Vuplex.WebView.IWebView.PostMessage*"></a>
+  <h4 id="Vuplex_WebView_IWebView_PostMessage_System_String_" data-uid="Vuplex.WebView.IWebView.PostMessage(System.String)">PostMessage(String)</h4>
+  <div class="markdown level1 summary"><p>Posts a message that JavaScript within the webview can listen for
+using <code>window.vuplex.addEventListener(&amp;apos;message&amp;apos;, function(message) {})</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void PostMessage(string data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>String that is passed as the data property of the message object.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_PostMessage_System_String__examples">Examples</h5>
+  <pre><code>await webViewPrefab.WebView.WaitUntilInitialized();
+// Add some JavaScript to the page to receive the message.
+webViewPrefab.WebView.PageLoadScripts(@&quot;
+    window.vuplex.addEventListener(&apos;message&apos;, function(event) {
+        console.log(&apos;Message received from C#: &apos; + event.data);
+    });
+&quot;);
+// When the page finishes loading, send a message from C# to JavaScript.
+webViewPrefab.WebView.LoadProgressChanged += (sender, eventArgs) => {
+    if (eventArgs.Type == ProgressChangeType.Finished) {
+        webViewPrefab.WebView.PostMessage(&quot;Hello from C#&quot;);
+    }
+};</code></pre>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_Reload_" data-uid="Vuplex.WebView.IWebView.Reload*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Reload" data-uid="Vuplex.WebView.IWebView.Reload">Reload()</h4>
+  <div class="markdown level1 summary"><p>Reloads the current page.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Reload()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_Reload_examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.Reload();</code></p>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_Resize_" data-uid="Vuplex.WebView.IWebView.Resize*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Resize_System_Single_System_Single_" data-uid="Vuplex.WebView.IWebView.Resize(System.Single,System.Single)">Resize(Single, Single)</h4>
+  <div class="markdown level1 summary"><p>Resizes the webview to the dimensions given in Unity units.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Resize(float width, float height)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">width</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">height</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Resize_System_Single_System_Single__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Important notes:
+<ul><li></li><li></li></ul></p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_Resize_System_Single_System_Single__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Size">Size</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_SetResolution_System_Single_">SetResolution(Single)</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_Scroll_" data-uid="Vuplex.WebView.IWebView.Scroll*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Scroll_UnityEngine_Vector2_" data-uid="Vuplex.WebView.IWebView.Scroll(UnityEngine.Vector2)">Scroll(Vector2)</h4>
+  <div class="markdown level1 summary"><p>Scrolls the top-level document by the given scroll delta.
+This method works by calling window.scrollBy(), which doesn&apos;t
+work for all web pages. An alternative is to instead use Scroll(scrollDelta, position)
+to scroll at a specific location in the page. For example, you can scroll
+at the middle of the page by calling <code>Scroll(scrollDelta, new Vector2(0.5f, 0.5f))</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Scroll(Vector2 scrollDelta)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">scrollDelta</span></td>
+        <td><p>The scroll delta in Unity units. Because the browser&apos;s origin
+is in the upper-left corner, the y-axis&apos; positive direction
+is down and the x-axis&apos; positive direction is right.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_Scroll_UnityEngine_Vector2__examples">Examples</h5>
+  <pre><code>// Scroll down
+webViewPrefab.WebView.Scroll(new Vector2(0.25f, 0));</code></pre>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_Scroll_" data-uid="Vuplex.WebView.IWebView.Scroll*"></a>
+  <h4 id="Vuplex_WebView_IWebView_Scroll_UnityEngine_Vector2_UnityEngine_Vector2_" data-uid="Vuplex.WebView.IWebView.Scroll(UnityEngine.Vector2,UnityEngine.Vector2)">Scroll(Vector2, Vector2)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Scroll(Vector2 scrollDelta, Vector2 point)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">scrollDelta</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector2</span></td>
+        <td><span class="parametername">point</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="Vuplex_WebView_IWebView_SelectAll_" data-uid="Vuplex.WebView.IWebView.SelectAll*"></a>
+  <h4 id="Vuplex_WebView_IWebView_SelectAll" data-uid="Vuplex.WebView.IWebView.SelectAll">SelectAll()</h4>
+  <div class="markdown level1 summary"><p>Selects all text, depending on the page&apos;s focused element.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SelectAll()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_SelectAll_examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.SelectAll();</code></p>
+
+  <h5 id="Vuplex_WebView_IWebView_SelectAll_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Copy">Copy()</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_SetFocused_" data-uid="Vuplex.WebView.IWebView.SetFocused*"></a>
+  <h4 id="Vuplex_WebView_IWebView_SetFocused_System_Boolean_" data-uid="Vuplex.WebView.IWebView.SetFocused(System.Boolean)">SetFocused(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Makes the webview take or relinquish focus.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetFocused(bool focused)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">focused</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_SetFocused_System_Boolean__examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.SetFocused(true);</code></p>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_SetRenderingEnabled_" data-uid="Vuplex.WebView.IWebView.SetRenderingEnabled*"></a>
+  <h4 id="Vuplex_WebView_IWebView_SetRenderingEnabled_System_Boolean_" data-uid="Vuplex.WebView.IWebView.SetRenderingEnabled(System.Boolean)">SetRenderingEnabled(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Enables or disables the webview&apos;s ability to render to its texture.
+By default, a webview renders web content to its texture, but you can
+use this method to disable or re-enable rendering.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetRenderingEnabled(bool enabled)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_SetRenderingEnabled_System_Boolean__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This method is ignored when running in <a href="https://support.vuplex.com/articles/native-2d-mode">Native 2D Mode</a>.</p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_SetRenderingEnabled_System_Boolean__examples">Examples</h5>
+  <p><code>webViewPrefab.WebView.SetRenderingEnabled(false);</code></p>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_SetResolution_" data-uid="Vuplex.WebView.IWebView.SetResolution*"></a>
+  <h4 id="Vuplex_WebView_IWebView_SetResolution_System_Single_" data-uid="Vuplex.WebView.IWebView.SetResolution(System.Single)">SetResolution(Single)</h4>
+  <div class="markdown level1 summary"><p>Sets the webview&apos;s resolution in pixels per Unity unit.
+You can change the resolution to make web content appear larger or smaller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetResolution(float pixelsPerUnityUnit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">pixelsPerUnityUnit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_SetResolution_System_Single__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>
+Unlike the other IWebView methods, this method can be called before the webview
+is initialized with Init(). The default resolution is 1300 pixels per Unity unit.
+Setting a lower resolution decreases the pixel density, but has the effect
+of making web content appear larger. Setting a higher resolution increases
+the pixel density, but has the effect of making content appear smaller.
+For more information on scaling web content, see
+<a href="https://support.vuplex.com/articles/how-to-scale-web-content">this support article</a>.
+</p>
+<p>
+This method is ignored when running in <a href="https://support.vuplex.com/articles/native-2d-mode">Native 2D Mode</a>.
+</p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_SetResolution_System_Single__examples">Examples</h5>
+  <pre><code>// Set the resolution to 1800px per Unity unit.
+await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.SetResolution(1800);</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_SetResolution_System_Single__seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Resolution">Resolution</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Resize_System_Single_System_Single_">Resize(Single, Single)</a></div>
+  </div>
+  
+  
+  <a id="Vuplex_WebView_IWebView_ZoomIn_" data-uid="Vuplex.WebView.IWebView.ZoomIn*"></a>
+  <h4 id="Vuplex_WebView_IWebView_ZoomIn" data-uid="Vuplex.WebView.IWebView.ZoomIn">ZoomIn()</h4>
+  <div class="markdown level1 summary"><p>Zooms into the currently loaded web content.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ZoomIn()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_ZoomIn_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Note that the zoom level gets reset when a new page is loaded.</p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_ZoomIn_examples">Examples</h5>
+  <pre><code>// Zoom in after the page finishes loading.
+await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.LoadProgressChanged += (sender, eventArgs) => {
+    if (eventArgs.Type == ProgressChangeType.Finished) {
+        webViewPrefab.WebView.ZoomIn();
+    }
+};</code></pre>
+
+  
+  
+  <a id="Vuplex_WebView_IWebView_ZoomOut_" data-uid="Vuplex.WebView.IWebView.ZoomOut*"></a>
+  <h4 id="Vuplex_WebView_IWebView_ZoomOut" data-uid="Vuplex.WebView.IWebView.ZoomOut">ZoomOut()</h4>
+  <div class="markdown level1 summary"><p>Zooms back out after a previous call to ZoomIn().</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void ZoomOut()</code></pre>
+  </div>
+  <h5 id="Vuplex_WebView_IWebView_ZoomOut_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>Note that the zoom level gets reset when a new page is loaded.</p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_ZoomOut_examples">Examples</h5>
+  <pre><code>// Zoom out after the page finishes loading.
+await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.LoadProgressChanged += (sender, eventArgs) => {
+    if (eventArgs.Type == ProgressChangeType.Finished) {
+        webViewPrefab.WebView.ZoomOut();
+    }
+};</code></pre>
+
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_CloseRequested" data-uid="Vuplex.WebView.IWebView.CloseRequested">CloseRequested</h4>
+  <div class="markdown level1 summary"><p>Indicates that the page has requested to close (i.e. via window.close()).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler CloseRequested</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_CloseRequested_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.CloseRequested += (sender, eventArgs) => {
+    Debug.Log(&quot;Close requested&quot;);
+};</code></pre>
+
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_ConsoleMessageLogged" data-uid="Vuplex.WebView.IWebView.ConsoleMessageLogged">ConsoleMessageLogged</h4>
+  <div class="markdown level1 summary"><p>Indicates that a message was logged to the JavaScript console.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ConsoleMessageEventArgs&gt; ConsoleMessageLogged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.ConsoleMessageEventArgs.html">ConsoleMessageEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_ConsoleMessageLogged_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The 3D WebView packages for Android with Gecko, iOS, and UWP have the following limitations:
+<ul><li></li><li></li></ul></p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_ConsoleMessageLogged_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.ConsoleMessageLogged += (sender, eventArgs) => {
+    Debug.Log($&quot;Console message logged: [{eventArgs.Level}] {eventArgs.Message}&quot;);
+};</code></pre>
+
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_FocusedInputFieldChanged" data-uid="Vuplex.WebView.IWebView.FocusedInputFieldChanged">FocusedInputFieldChanged</h4>
+  <div class="markdown level1 summary"><p>Indicates when an input field has been focused or unfocused. This can be used,
+for example, to determine when to show or hide an on-screen keyboard.
+Note that this event is currently only fired for input fields focused in the main frame
+and is not fired for input fields in iframes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;FocusedInputFieldChangedEventArgs&gt; FocusedInputFieldChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.FocusedInputFieldChangedEventArgs.html">FocusedInputFieldChangedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_FocusedInputFieldChanged_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.FocusedInputFieldChanged += (sender, eventArgs) => {
+    Debug.Log(&quot;Focused input field changed. Text input is focused: &quot; + eventArgs.Type == FocusedInputFieldType.Text);
+};</code></pre>
+
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_LoadProgressChanged" data-uid="Vuplex.WebView.IWebView.LoadProgressChanged">LoadProgressChanged</h4>
+  <div class="markdown level1 summary"><p>Indicates that the page load progress changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;ProgressChangedEventArgs&gt; LoadProgressChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.ProgressChangedEventArgs.html">ProgressChangedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_LoadProgressChanged_remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>On Windows and macOS, this event isn&apos;t raised for intermediate load progress (ProgressChangeType.Updated)
+because Chromium doesn&apos;t provide an API for estimated load progress.</p>
+</div>
+  <h5 id="Vuplex_WebView_IWebView_LoadProgressChanged_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.LoadProgressChanged += (sender, eventArgs) => {
+    Debug.Log($&quot;Load progress changed: {eventArgs.Type}, {eventArgs.Progress}&quot;);
+    if (eventArgs.Type == ProgressChangeType.Finished) {
+        Debug.Log(&quot;The page finished loading&quot;);
+    }
+};</code></pre>
+
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_MessageEmitted" data-uid="Vuplex.WebView.IWebView.MessageEmitted">MessageEmitted</h4>
+  <div class="markdown level1 summary"><p>Indicates that JavaScript running in the page used the <code>window.vuplex.postMessage</code>
+JavaScript API to emit a message to the Unity application. For more details, please see
+<a href="https://support.vuplex.com/articles/how-to-send-messages-from-javascript-to-c-sharp">this support article</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&lt;string&gt;&gt; MessageEmitted</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.EventArgs-1.html">EventArgs</a>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_MessageEmitted_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+// Add JavaScript to the page that sends a message.
+webViewPrefab.WebView.PageLoadScripts.Add(@&quot;
+    window.vuplex.postMessage(&apos;Hello from JavaScript!&apos;);
+&quot;);
+webViewPrefab.WebView.MessageEmitted += (sender, eventArgs) => {
+    Debug.Log(&quot;Message received from JavaScript: &quot; + eventArgs.Value);
+};</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_MessageEmitted_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_ExecuteJavaScript_System_String_">ExecuteJavaScript(String)</a></div>
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_PageLoadScripts">PageLoadScripts</a></div>
+  </div>
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_PageLoadFailed" data-uid="Vuplex.WebView.IWebView.PageLoadFailed">PageLoadFailed</h4>
+  <div class="markdown level1 summary"><p>Indicates that the page failed to load. This can happen, for instance,
+if DNS is unable to resolve the hostname.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler PageLoadFailed</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_PageLoadFailed_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.PageLoadFailed += (sender, eventArgs) => {
+    Debug.Log(&quot;Page load failed&quot;);
+};</code></pre>
+
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_TitleChanged" data-uid="Vuplex.WebView.IWebView.TitleChanged">TitleChanged</h4>
+  <div class="markdown level1 summary"><p>Indicates that the page&apos;s title changed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&lt;string&gt;&gt; TitleChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.EventArgs-1.html">EventArgs</a>&lt;<span class="xref">System.String</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_TitleChanged_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.TitleChanged += (sender, eventArgs) => {
+    Debug.Log(&quot;Page title changed: &quot; + eventArgs.Value);
+};</code></pre>
+
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_UrlChanged" data-uid="Vuplex.WebView.IWebView.UrlChanged">UrlChanged</h4>
+  <div class="markdown level1 summary"><p>Indicates that the URL of the webview changed, either
+due to user interaction or JavaScript.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;UrlChangedEventArgs&gt; UrlChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.UrlChangedEventArgs.html">UrlChangedEventArgs</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="Vuplex_WebView_IWebView_UrlChanged_examples">Examples</h5>
+  <pre><code>await webViewPrefab.WaitUntilInitialized();
+webViewPrefab.WebView.UrlChanged += (sender, eventArgs) => {
+    Debug.Log(&quot;URL changed: &quot; + eventArgs.Url);
+};</code></pre>
+
+  <h5 id="Vuplex_WebView_IWebView_UrlChanged_seealso">See Also</h5>
+  <div class="seealso">
+      <div><a class="xref" href="Vuplex.WebView.IWebView.html#Vuplex_WebView_IWebView_Url">Url</a></div>
+  </div>
+  
+  
+  <h4 id="Vuplex_WebView_IWebView_VideoRectChanged" data-uid="Vuplex.WebView.IWebView.VideoRectChanged">VideoRectChanged</h4>
+  <div class="markdown level1 summary"><p>Indicates that the rect of the playing video changed.
+This event is only used for iOS&apos;s <a href="https://support.vuplex.com/articles/fallback-video">fallback video implementation</a>,
+and WebViewPrefab and CanvasWebViewPrefab automatically handles this event for you.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">event EventHandler&lt;EventArgs&lt;Rect&gt;&gt; VideoRectChanged</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.EventHandler</span>&lt;<a class="xref" href="Vuplex.WebView.EventArgs-1.html">EventArgs</a>&lt;<span class="xref">UnityEngine.Rect</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

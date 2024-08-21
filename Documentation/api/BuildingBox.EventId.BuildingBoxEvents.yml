@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.EventId.BuildingBoxEvents
+  commentId: T:BuildingBox.EventId.BuildingBoxEvents
+  id: EventId.BuildingBoxEvents
+  parent: BuildingBox
+  children:
+  - BuildingBox.EventId.BuildingBoxEvents.RequestElementResize
+  - BuildingBox.EventId.BuildingBoxEvents.SetActiveBuildingArea
+  - BuildingBox.EventId.BuildingBoxEvents.SetBuildingBoxDestroyModeEnabled
+  - BuildingBox.EventId.BuildingBoxEvents.SetBuildingBoxEnabled
+  langs:
+  - csharp
+  - vb
+  name: EventId.BuildingBoxEvents
+  nameWithType: EventId.BuildingBoxEvents
+  fullName: BuildingBox.EventId.BuildingBoxEvents
+  type: Class
+  source:
+    id: BuildingBoxEvents
+    path: ''
+    startLine: 501
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static class BuildingBoxEvents
+    content.vb: Public Module BuildingBoxEvents
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: BuildingBox.EventId.BuildingBoxEvents.SetBuildingBoxDestroyModeEnabled
+  commentId: F:BuildingBox.EventId.BuildingBoxEvents.SetBuildingBoxDestroyModeEnabled
+  id: SetBuildingBoxDestroyModeEnabled
+  parent: BuildingBox.EventId.BuildingBoxEvents
+  langs:
+  - csharp
+  - vb
+  name: SetBuildingBoxDestroyModeEnabled
+  nameWithType: EventId.BuildingBoxEvents.SetBuildingBoxDestroyModeEnabled
+  fullName: BuildingBox.EventId.BuildingBoxEvents.SetBuildingBoxDestroyModeEnabled
+  type: Field
+  source:
+    id: SetBuildingBoxDestroyModeEnabled
+    path: ''
+    startLine: 503
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public const string SetBuildingBoxDestroyModeEnabled = "SetBuildingBoxDestroyModeEnabled"
+    return:
+      type: System.String
+    content.vb: Public Const SetBuildingBoxDestroyModeEnabled As String = "SetBuildingBoxDestroyModeEnabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BuildingBox.EventId.BuildingBoxEvents.SetBuildingBoxEnabled
+  commentId: F:BuildingBox.EventId.BuildingBoxEvents.SetBuildingBoxEnabled
+  id: SetBuildingBoxEnabled
+  parent: BuildingBox.EventId.BuildingBoxEvents
+  langs:
+  - csharp
+  - vb
+  name: SetBuildingBoxEnabled
+  nameWithType: EventId.BuildingBoxEvents.SetBuildingBoxEnabled
+  fullName: BuildingBox.EventId.BuildingBoxEvents.SetBuildingBoxEnabled
+  type: Field
+  source:
+    id: SetBuildingBoxEnabled
+    path: ''
+    startLine: 504
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public const string SetBuildingBoxEnabled = "SetBuildingBoxEnabled"
+    return:
+      type: System.String
+    content.vb: Public Const SetBuildingBoxEnabled As String = "SetBuildingBoxEnabled"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BuildingBox.EventId.BuildingBoxEvents.RequestElementResize
+  commentId: F:BuildingBox.EventId.BuildingBoxEvents.RequestElementResize
+  id: RequestElementResize
+  parent: BuildingBox.EventId.BuildingBoxEvents
+  langs:
+  - csharp
+  - vb
+  name: RequestElementResize
+  nameWithType: EventId.BuildingBoxEvents.RequestElementResize
+  fullName: BuildingBox.EventId.BuildingBoxEvents.RequestElementResize
+  type: Field
+  source:
+    id: RequestElementResize
+    path: ''
+    startLine: 505
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public const string RequestElementResize = "RequestElementResize"
+    return:
+      type: System.String
+    content.vb: Public Const RequestElementResize As String = "RequestElementResize"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: BuildingBox.EventId.BuildingBoxEvents.SetActiveBuildingArea
+  commentId: F:BuildingBox.EventId.BuildingBoxEvents.SetActiveBuildingArea
+  id: SetActiveBuildingArea
+  parent: BuildingBox.EventId.BuildingBoxEvents
+  langs:
+  - csharp
+  - vb
+  name: SetActiveBuildingArea
+  nameWithType: EventId.BuildingBoxEvents.SetActiveBuildingArea
+  fullName: BuildingBox.EventId.BuildingBoxEvents.SetActiveBuildingArea
+  type: Field
+  source:
+    id: SetActiveBuildingArea
+    path: ''
+    startLine: 506
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public const string SetActiveBuildingArea = "SetActiveBuildingArea"
+    return:
+      type: System.String
+    content.vb: Public Const SetActiveBuildingArea As String = "SetActiveBuildingArea"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

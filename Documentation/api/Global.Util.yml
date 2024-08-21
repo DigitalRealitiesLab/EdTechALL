@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Util
+  commentId: T:Global.Util
+  id: Util
+  parent: Global
+  children:
+  - Global.Util.randomFloatSign
+  - Global.Util.randomSign
+  - Global.Util.randomUnitVector
+  langs:
+  - csharp
+  - vb
+  name: Util
+  nameWithType: Util
+  fullName: Util
+  type: Class
+  source:
+    id: Util
+    path: ''
+    startLine: 16234
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Util
+    content.vb: Public Module Util
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Util.randomFloatSign
+  commentId: P:Global.Util.randomFloatSign
+  id: randomFloatSign
+  parent: Global.Util
+  langs:
+  - csharp
+  - vb
+  name: randomFloatSign
+  nameWithType: Util.randomFloatSign
+  fullName: Util.randomFloatSign
+  type: Property
+  source:
+    id: randomFloatSign
+    path: ''
+    startLine: 16236
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static float randomFloatSign { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property randomFloatSign As Single
+  overload: Global.Util.randomFloatSign*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Util.randomSign
+  commentId: P:Global.Util.randomSign
+  id: randomSign
+  parent: Global.Util
+  langs:
+  - csharp
+  - vb
+  name: randomSign
+  nameWithType: Util.randomSign
+  fullName: Util.randomSign
+  type: Property
+  source:
+    id: randomSign
+    path: ''
+    startLine: 16237
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static float randomSign { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Shared ReadOnly Property randomSign As Single
+  overload: Global.Util.randomSign*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.Util.randomUnitVector
+  commentId: P:Global.Util.randomUnitVector
+  id: randomUnitVector
+  parent: Global.Util
+  langs:
+  - csharp
+  - vb
+  name: randomUnitVector
+  nameWithType: Util.randomUnitVector
+  fullName: Util.randomUnitVector
+  type: Property
+  source:
+    id: randomUnitVector
+    path: ''
+    startLine: 16238
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Vector3 randomUnitVector { get; }
+    parameters: []
+    return:
+      type: Global.Vector3
+    content.vb: Public Shared ReadOnly Property randomUnitVector As Vector3
+  overload: Global.Util.randomUnitVector*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Util.randomFloatSign*
+  commentId: Overload:Global.Util.randomFloatSign
+  name: randomFloatSign
+  nameWithType: Util.randomFloatSign
+  fullName: Util.randomFloatSign
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Util.randomSign*
+  commentId: Overload:Global.Util.randomSign
+  name: randomSign
+  nameWithType: Util.randomSign
+  fullName: Util.randomSign
+- uid: Global.Util.randomUnitVector*
+  commentId: Overload:Global.Util.randomUnitVector
+  name: randomUnitVector
+  nameWithType: Util.randomUnitVector
+  fullName: Util.randomUnitVector
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3

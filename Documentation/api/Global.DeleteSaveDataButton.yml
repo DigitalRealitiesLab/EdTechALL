@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DeleteSaveDataButton
+  commentId: T:Global.DeleteSaveDataButton
+  id: DeleteSaveDataButton
+  parent: Global
+  children:
+  - Global.DeleteSaveDataButton.DeleteSaveData
+  - Global.DeleteSaveDataButton.saveDataname
+  langs:
+  - csharp
+  - vb
+  name: DeleteSaveDataButton
+  nameWithType: DeleteSaveDataButton
+  fullName: DeleteSaveDataButton
+  type: Class
+  source:
+    id: DeleteSaveDataButton
+    path: ''
+    startLine: 16699
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class DeleteSaveDataButton : MonoBehaviour'
+    content.vb: >-
+      Public Class DeleteSaveDataButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DeleteSaveDataButton.saveDataname
+  commentId: F:Global.DeleteSaveDataButton.saveDataname
+  id: saveDataname
+  parent: Global.DeleteSaveDataButton
+  langs:
+  - csharp
+  - vb
+  name: saveDataname
+  nameWithType: DeleteSaveDataButton.saveDataname
+  fullName: DeleteSaveDataButton.saveDataname
+  type: Field
+  source:
+    id: saveDataname
+    path: ''
+    startLine: 16703
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string saveDataname
+    return:
+      type: System.String
+    content.vb: Public saveDataname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DeleteSaveDataButton.DeleteSaveData
+  commentId: M:Global.DeleteSaveDataButton.DeleteSaveData
+  id: DeleteSaveData
+  parent: Global.DeleteSaveDataButton
+  langs:
+  - csharp
+  - vb
+  name: DeleteSaveData()
+  nameWithType: DeleteSaveDataButton.DeleteSaveData()
+  fullName: DeleteSaveDataButton.DeleteSaveData()
+  type: Method
+  source:
+    id: DeleteSaveData
+    path: ''
+    startLine: 16711
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DeleteSaveData()
+    content.vb: Public Sub DeleteSaveData
+  overload: Global.DeleteSaveDataButton.DeleteSaveData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.DeleteSaveDataButton.DeleteSaveData*
+  commentId: Overload:Global.DeleteSaveDataButton.DeleteSaveData
+  name: DeleteSaveData
+  nameWithType: DeleteSaveDataButton.DeleteSaveData
+  fullName: DeleteSaveDataButton.DeleteSaveData

@@ -1,0 +1,149 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Tasks
+  commentId: T:Global.Tasks
+  id: Tasks
+  parent: Global
+  children:
+  - Global.Tasks.InfoCardTask
+  - Global.Tasks.MiniGameTask
+  - Global.Tasks.QuizCardTask
+  langs:
+  - csharp
+  - vb
+  name: Tasks
+  nameWithType: Tasks
+  fullName: Tasks
+  type: Class
+  source:
+    id: Tasks
+    path: ''
+    startLine: 18223
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class Tasks
+    content.vb: Public Module Tasks
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.Tasks.MiniGameTask
+  commentId: F:Global.Tasks.MiniGameTask
+  id: MiniGameTask
+  parent: Global.Tasks
+  langs:
+  - csharp
+  - vb
+  name: MiniGameTask
+  nameWithType: Tasks.MiniGameTask
+  fullName: Tasks.MiniGameTask
+  type: Field
+  source:
+    id: MiniGameTask
+    path: ''
+    startLine: 18225
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static TaskCallback MiniGameTask
+    return:
+      type: Global.TaskCallback
+    content.vb: Public Shared MiniGameTask As TaskCallback
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Tasks.InfoCardTask
+  commentId: F:Global.Tasks.InfoCardTask
+  id: InfoCardTask
+  parent: Global.Tasks
+  langs:
+  - csharp
+  - vb
+  name: InfoCardTask
+  nameWithType: Tasks.InfoCardTask
+  fullName: Tasks.InfoCardTask
+  type: Field
+  source:
+    id: InfoCardTask
+    path: ''
+    startLine: 18226
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static TaskCallback InfoCardTask
+    return:
+      type: Global.TaskCallback
+    content.vb: Public Shared InfoCardTask As TaskCallback
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Tasks.QuizCardTask
+  commentId: F:Global.Tasks.QuizCardTask
+  id: QuizCardTask
+  parent: Global.Tasks
+  langs:
+  - csharp
+  - vb
+  name: QuizCardTask
+  nameWithType: Tasks.QuizCardTask
+  fullName: Tasks.QuizCardTask
+  type: Field
+  source:
+    id: QuizCardTask
+    path: ''
+    startLine: 18227
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static TaskCallback QuizCardTask
+    return:
+      type: Global.TaskCallback
+    content.vb: Public Shared QuizCardTask As TaskCallback
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TaskCallback
+  commentId: T:Global.TaskCallback
+  name: TaskCallback
+  nameWithType: TaskCallback
+  fullName: TaskCallback

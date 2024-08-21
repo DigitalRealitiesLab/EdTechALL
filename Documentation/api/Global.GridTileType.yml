@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GridTileType
+  commentId: T:Global.GridTileType
+  id: GridTileType
+  parent: Global
+  children:
+  - Global.GridTileType.end
+  - Global.GridTileType.free
+  - Global.GridTileType.occupied
+  - Global.GridTileType.start
+  langs:
+  - csharp
+  - vb
+  name: GridTileType
+  nameWithType: GridTileType
+  fullName: GridTileType
+  type: Enum
+  source:
+    id: GridTileType
+    path: ''
+    startLine: 15859
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum GridTileType
+    content.vb: Public Enum GridTileType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.GridTileType.free
+  commentId: F:Global.GridTileType.free
+  id: free
+  parent: Global.GridTileType
+  langs:
+  - csharp
+  - vb
+  name: free
+  nameWithType: GridTileType.free
+  fullName: GridTileType.free
+  type: Field
+  source:
+    id: free
+    path: ''
+    startLine: 15861
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: free = 0
+    return:
+      type: Global.GridTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.GridTileType.occupied
+  commentId: F:Global.GridTileType.occupied
+  id: occupied
+  parent: Global.GridTileType
+  langs:
+  - csharp
+  - vb
+  name: occupied
+  nameWithType: GridTileType.occupied
+  fullName: GridTileType.occupied
+  type: Field
+  source:
+    id: occupied
+    path: ''
+    startLine: 15862
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: occupied = 1
+    return:
+      type: Global.GridTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.GridTileType.start
+  commentId: F:Global.GridTileType.start
+  id: start
+  parent: Global.GridTileType
+  langs:
+  - csharp
+  - vb
+  name: start
+  nameWithType: GridTileType.start
+  fullName: GridTileType.start
+  type: Field
+  source:
+    id: start
+    path: ''
+    startLine: 15863
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: start = 2
+    return:
+      type: Global.GridTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.GridTileType.end
+  commentId: F:Global.GridTileType.end
+  id: end
+  parent: Global.GridTileType
+  langs:
+  - csharp
+  - vb
+  name: end
+  nameWithType: GridTileType.end
+  fullName: GridTileType.end
+  type: Field
+  source:
+    id: end
+    path: ''
+    startLine: 15864
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: end = 3
+    return:
+      type: Global.GridTileType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.GridTileType
+  commentId: T:Global.GridTileType
+  name: GridTileType
+  nameWithType: GridTileType
+  fullName: GridTileType

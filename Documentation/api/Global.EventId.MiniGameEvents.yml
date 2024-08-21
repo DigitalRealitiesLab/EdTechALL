@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventId.MiniGameEvents
+  commentId: T:Global.EventId.MiniGameEvents
+  id: EventId.MiniGameEvents
+  parent: Global
+  children:
+  - Global.EventId.MiniGameEvents.MiniGameAborted
+  - Global.EventId.MiniGameEvents.MiniGameEnded
+  - Global.EventId.MiniGameEvents.RequestPromptWindow
+  - Global.EventId.MiniGameEvents.RequestScoreWindow
+  langs:
+  - csharp
+  - vb
+  name: EventId.MiniGameEvents
+  nameWithType: EventId.MiniGameEvents
+  fullName: EventId.MiniGameEvents
+  type: Class
+  source:
+    id: MiniGameEvents
+    path: ''
+    startLine: 14832
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class MiniGameEvents
+    content.vb: Public Module MiniGameEvents
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.EventId.MiniGameEvents.MiniGameEnded
+  commentId: F:Global.EventId.MiniGameEvents.MiniGameEnded
+  id: MiniGameEnded
+  parent: Global.EventId.MiniGameEvents
+  langs:
+  - csharp
+  - vb
+  name: MiniGameEnded
+  nameWithType: EventId.MiniGameEvents.MiniGameEnded
+  fullName: EventId.MiniGameEvents.MiniGameEnded
+  type: Field
+  source:
+    id: MiniGameEnded
+    path: ''
+    startLine: 14837
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\npublished by MiniGameManager for task completion\n"
+  example: []
+  syntax:
+    content: public const string MiniGameEnded = "MiniGameEnded"
+    return:
+      type: System.String
+    content.vb: Public Const MiniGameEnded As String = "MiniGameEnded"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.MiniGameEvents.RequestScoreWindow
+  commentId: F:Global.EventId.MiniGameEvents.RequestScoreWindow
+  id: RequestScoreWindow
+  parent: Global.EventId.MiniGameEvents
+  langs:
+  - csharp
+  - vb
+  name: RequestScoreWindow
+  nameWithType: EventId.MiniGameEvents.RequestScoreWindow
+  fullName: EventId.MiniGameEvents.RequestScoreWindow
+  type: Field
+  source:
+    id: RequestScoreWindow
+    path: ''
+    startLine: 14841
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\npublished by the mini game itself when the game ends \n"
+  example: []
+  syntax:
+    content: public const string RequestScoreWindow = "RequestScoreWindow"
+    return:
+      type: System.String
+    content.vb: Public Const RequestScoreWindow As String = "RequestScoreWindow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.MiniGameEvents.MiniGameAborted
+  commentId: F:Global.EventId.MiniGameEvents.MiniGameAborted
+  id: MiniGameAborted
+  parent: Global.EventId.MiniGameEvents
+  langs:
+  - csharp
+  - vb
+  name: MiniGameAborted
+  nameWithType: EventId.MiniGameEvents.MiniGameAborted
+  fullName: EventId.MiniGameEvents.MiniGameAborted
+  type: Field
+  source:
+    id: MiniGameAborted
+    path: ''
+    startLine: 14845
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\npublished by MiniGameManager when the game was aborted \n"
+  example: []
+  syntax:
+    content: public const string MiniGameAborted = "MiniGameAborted"
+    return:
+      type: System.String
+    content.vb: Public Const MiniGameAborted As String = "MiniGameAborted"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.MiniGameEvents.RequestPromptWindow
+  commentId: F:Global.EventId.MiniGameEvents.RequestPromptWindow
+  id: RequestPromptWindow
+  parent: Global.EventId.MiniGameEvents
+  langs:
+  - csharp
+  - vb
+  name: RequestPromptWindow
+  nameWithType: EventId.MiniGameEvents.RequestPromptWindow
+  fullName: EventId.MiniGameEvents.RequestPromptWindow
+  type: Field
+  source:
+    id: RequestPromptWindow
+    path: ''
+    startLine: 14849
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\npublished by the mini game itself on various occasions\n"
+  example: []
+  syntax:
+    content: public const string RequestPromptWindow = "RequestPromptWindow"
+    return:
+      type: System.String
+    content.vb: Public Const RequestPromptWindow As String = "RequestPromptWindow"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

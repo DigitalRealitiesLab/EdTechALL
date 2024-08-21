@@ -1,0 +1,362 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  commentId: T:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  id: SelectionRotateToCameraBehaviour
+  parent: InteractionSystem.Selectable
+  children:
+  - InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.Awake
+  - InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnDeselect
+  - InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnSelect
+  - InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.RotationCoroutine
+  - InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.target
+  - InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.viewer
+  langs:
+  - csharp
+  - vb
+  name: SelectionRotateToCameraBehaviour
+  nameWithType: SelectionRotateToCameraBehaviour
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  type: Class
+  source:
+    id: SelectionRotateToCameraBehaviour
+    path: ''
+    startLine: 24681
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: 'public class SelectionRotateToCameraBehaviour : ASelectionBehaviour'
+    content.vb: >-
+      Public Class SelectionRotateToCameraBehaviour
+          Inherits ASelectionBehaviour
+  inheritance:
+  - System.Object
+  - InteractionSystem.Selectable.ASelectionBehaviour
+  inheritedMembers:
+  - InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.target
+  commentId: F:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.target
+  id: target
+  parent: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: SelectionRotateToCameraBehaviour.target
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 24683
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public Transform target
+    return:
+      type: Global.Transform
+    content.vb: Public target As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.viewer
+  commentId: F:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.viewer
+  id: viewer
+  parent: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  langs:
+  - csharp
+  - vb
+  name: viewer
+  nameWithType: SelectionRotateToCameraBehaviour.viewer
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.viewer
+  type: Field
+  source:
+    id: viewer
+    path: ''
+    startLine: 24684
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public Camera viewer
+    return:
+      type: Global.Camera
+    content.vb: Public viewer As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.Awake
+  commentId: M:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.Awake
+  id: Awake
+  parent: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: SelectionRotateToCameraBehaviour.Awake()
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24687
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  overload: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnSelect
+  id: OnSelect
+  parent: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnSelect()
+  nameWithType: SelectionRotateToCameraBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnSelect()
+  type: Method
+  source:
+    id: OnSelect
+    path: ''
+    startLine: 24704
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public override void OnSelect()
+    content.vb: Public Overrides Sub OnSelect
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  overload: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnSelect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnDeselect
+  id: OnDeselect
+  parent: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDeselect()
+  nameWithType: SelectionRotateToCameraBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnDeselect()
+  type: Method
+  source:
+    id: OnDeselect
+    path: ''
+    startLine: 24710
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public override void OnDeselect()
+    content.vb: Public Overrides Sub OnDeselect
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  overload: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnDeselect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.RotationCoroutine
+  commentId: M:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.RotationCoroutine
+  id: RotationCoroutine
+  parent: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  langs:
+  - csharp
+  - vb
+  name: RotationCoroutine()
+  nameWithType: SelectionRotateToCameraBehaviour.RotationCoroutine()
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.RotationCoroutine()
+  type: Method
+  source:
+    id: RotationCoroutine
+    path: ''
+    startLine: 24715
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public IEnumerator RotationCoroutine()
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function RotationCoroutine As IEnumerator
+  overload: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.RotationCoroutine*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: InteractionSystem.Selectable.ASelectionBehaviour
+  commentId: T:InteractionSystem.Selectable.ASelectionBehaviour
+  parent: InteractionSystem.Selectable
+  name: ASelectionBehaviour
+  nameWithType: ASelectionBehaviour
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  commentId: F:InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: selectable
+  nameWithType: ASelectionBehaviour.selectable
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.Camera
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: Awake()
+  nameWithType: ASelectionBehaviour.Awake()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+    name: Awake
+    nameWithType: ASelectionBehaviour.Awake
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+    name: Awake
+    nameWithType: ASelectionBehaviour.Awake
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.Awake*
+  commentId: Overload:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.Awake
+  name: Awake
+  nameWithType: SelectionRotateToCameraBehaviour.Awake
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.Awake
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: OnSelect()
+  nameWithType: ASelectionBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+    name: OnSelect
+    nameWithType: ASelectionBehaviour.OnSelect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+    name: OnSelect
+    nameWithType: ASelectionBehaviour.OnSelect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnSelect*
+  commentId: Overload:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnSelect
+  name: OnSelect
+  nameWithType: SelectionRotateToCameraBehaviour.OnSelect
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnSelect
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: OnDeselect()
+  nameWithType: ASelectionBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+    name: OnDeselect
+    nameWithType: ASelectionBehaviour.OnDeselect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+    name: OnDeselect
+    nameWithType: ASelectionBehaviour.OnDeselect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnDeselect*
+  commentId: Overload:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnDeselect
+  name: OnDeselect
+  nameWithType: SelectionRotateToCameraBehaviour.OnDeselect
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.OnDeselect
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.RotationCoroutine*
+  commentId: Overload:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.RotationCoroutine
+  name: RotationCoroutine
+  nameWithType: SelectionRotateToCameraBehaviour.RotationCoroutine
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour.RotationCoroutine
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator

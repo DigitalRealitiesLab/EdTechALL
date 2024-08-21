@@ -1,0 +1,174 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ManualSceneLoadWindow
+  commentId: T:Global.ManualSceneLoadWindow
+  id: ManualSceneLoadWindow
+  parent: Global
+  children:
+  - Global.ManualSceneLoadWindow.buttons
+  - Global.ManualSceneLoadWindow.lessonSceneLookup
+  - Global.ManualSceneLoadWindow.ToggleActive
+  langs:
+  - csharp
+  - vb
+  name: ManualSceneLoadWindow
+  nameWithType: ManualSceneLoadWindow
+  fullName: ManualSceneLoadWindow
+  type: Class
+  source:
+    id: ManualSceneLoadWindow
+    path: ''
+    startLine: 25192
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ManualSceneLoadWindow : MonoBehaviour'
+    content.vb: >-
+      Public Class ManualSceneLoadWindow
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ManualSceneLoadWindow.lessonSceneLookup
+  commentId: F:Global.ManualSceneLoadWindow.lessonSceneLookup
+  id: lessonSceneLookup
+  parent: Global.ManualSceneLoadWindow
+  langs:
+  - csharp
+  - vb
+  name: lessonSceneLookup
+  nameWithType: ManualSceneLoadWindow.lessonSceneLookup
+  fullName: ManualSceneLoadWindow.lessonSceneLookup
+  type: Field
+  source:
+    id: lessonSceneLookup
+    path: ''
+    startLine: 25194
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public LessonSceneLookup lessonSceneLookup
+    return:
+      type: Global.LessonSceneLookup
+    content.vb: Public lessonSceneLookup As LessonSceneLookup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ManualSceneLoadWindow.buttons
+  commentId: F:Global.ManualSceneLoadWindow.buttons
+  id: buttons
+  parent: Global.ManualSceneLoadWindow
+  langs:
+  - csharp
+  - vb
+  name: buttons
+  nameWithType: ManualSceneLoadWindow.buttons
+  fullName: ManualSceneLoadWindow.buttons
+  type: Field
+  source:
+    id: buttons
+    path: ''
+    startLine: 25195
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button[] buttons
+    return:
+      type: Global.Button[]
+    content.vb: Public buttons As Button()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ManualSceneLoadWindow.ToggleActive
+  commentId: M:Global.ManualSceneLoadWindow.ToggleActive
+  id: ToggleActive
+  parent: Global.ManualSceneLoadWindow
+  langs:
+  - csharp
+  - vb
+  name: ToggleActive()
+  nameWithType: ManualSceneLoadWindow.ToggleActive()
+  fullName: ManualSceneLoadWindow.ToggleActive()
+  type: Method
+  source:
+    id: ToggleActive
+    path: ''
+    startLine: 25218
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ToggleActive()
+    content.vb: Public Sub ToggleActive
+  overload: Global.ManualSceneLoadWindow.ToggleActive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.LessonSceneLookup
+  commentId: T:Global.LessonSceneLookup
+  name: LessonSceneLookup
+  nameWithType: LessonSceneLookup
+  fullName: LessonSceneLookup
+- uid: Global.Button[]
+  isExternal: true
+  name: Button[]
+  nameWithType: Button[]
+  fullName: Button[]
+  nameWithType.vb: Button()
+  fullName.vb: Button()
+  name.vb: Button()
+  spec.csharp:
+  - uid: Global.Button
+    name: Button
+    nameWithType: Button
+    fullName: Button
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Button
+    name: Button
+    nameWithType: Button
+    fullName: Button
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.ManualSceneLoadWindow.ToggleActive*
+  commentId: Overload:Global.ManualSceneLoadWindow.ToggleActive
+  name: ToggleActive
+  nameWithType: ManualSceneLoadWindow.ToggleActive
+  fullName: ManualSceneLoadWindow.ToggleActive

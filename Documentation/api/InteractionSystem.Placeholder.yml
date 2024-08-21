@@ -1,0 +1,60 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Placeholder
+  commentId: N:InteractionSystem.Placeholder
+  id: InteractionSystem.Placeholder
+  children:
+  - InteractionSystem.Placeholder.APlaceholderBehaviour
+  - InteractionSystem.Placeholder.Placeholder
+  - InteractionSystem.Placeholder.PlaceholderAudio
+  - InteractionSystem.Placeholder.PlaceholderEvent
+  - InteractionSystem.Placeholder.PlaceholderRendererSwitch
+  - InteractionSystem.Placeholder.PlaceholderText
+  langs:
+  - csharp
+  - vb
+  name: InteractionSystem.Placeholder
+  nameWithType: InteractionSystem.Placeholder
+  fullName: InteractionSystem.Placeholder
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: InteractionSystem.Placeholder.PlaceholderAudio
+  commentId: T:InteractionSystem.Placeholder.PlaceholderAudio
+  name: PlaceholderAudio
+  nameWithType: PlaceholderAudio
+  fullName: InteractionSystem.Placeholder.PlaceholderAudio
+- uid: InteractionSystem.Placeholder.Placeholder
+  commentId: T:InteractionSystem.Placeholder.Placeholder
+  parent: InteractionSystem.Placeholder
+  name: Placeholder
+  nameWithType: Placeholder
+  fullName: InteractionSystem.Placeholder.Placeholder
+- uid: InteractionSystem.Placeholder.PlaceholderEvent
+  commentId: T:InteractionSystem.Placeholder.PlaceholderEvent
+  parent: InteractionSystem.Placeholder
+  name: PlaceholderEvent
+  nameWithType: PlaceholderEvent
+  fullName: InteractionSystem.Placeholder.PlaceholderEvent
+- uid: InteractionSystem.Placeholder.PlaceholderText
+  commentId: T:InteractionSystem.Placeholder.PlaceholderText
+  name: PlaceholderText
+  nameWithType: PlaceholderText
+  fullName: InteractionSystem.Placeholder.PlaceholderText
+- uid: InteractionSystem.Placeholder.APlaceholderBehaviour
+  commentId: T:InteractionSystem.Placeholder.APlaceholderBehaviour
+  parent: InteractionSystem.Placeholder
+  name: APlaceholderBehaviour
+  nameWithType: APlaceholderBehaviour
+  fullName: InteractionSystem.Placeholder.APlaceholderBehaviour
+- uid: InteractionSystem.Placeholder.PlaceholderRendererSwitch
+  commentId: T:InteractionSystem.Placeholder.PlaceholderRendererSwitch
+  name: PlaceholderRendererSwitch
+  nameWithType: PlaceholderRendererSwitch
+  fullName: InteractionSystem.Placeholder.PlaceholderRendererSwitch
+- uid: InteractionSystem.Placeholder
+  commentId: N:InteractionSystem.Placeholder
+  name: InteractionSystem.Placeholder
+  nameWithType: InteractionSystem.Placeholder
+  fullName: InteractionSystem.Placeholder

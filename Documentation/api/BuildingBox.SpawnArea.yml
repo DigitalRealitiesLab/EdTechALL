@@ -1,0 +1,516 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.SpawnArea
+  commentId: T:BuildingBox.SpawnArea
+  id: SpawnArea
+  parent: BuildingBox
+  children:
+  - BuildingBox.SpawnArea.lastSpawnedInstance
+  - BuildingBox.SpawnArea.OnDisable
+  - BuildingBox.SpawnArea.OnRequestRandomReparent(System.String,GameObject)
+  - BuildingBox.SpawnArea.OnRequestRandomSpawn(System.String,GameObject)
+  - BuildingBox.SpawnArea.OnRequestReparent(System.String,GameObject)
+  - BuildingBox.SpawnArea.OnRequestSpawn(System.String,GameObject)
+  - BuildingBox.SpawnArea.randomSpawnOffsetInBounds
+  - BuildingBox.SpawnArea.RequestRandomReparent(System.String,GameObject)
+  - BuildingBox.SpawnArea.RequestRandomSpawn(System.String,GameObject)
+  - BuildingBox.SpawnArea.RequestReparent(System.String,GameObject)
+  - BuildingBox.SpawnArea.RequestSpawn(System.String,GameObject)
+  - BuildingBox.SpawnArea.spawnArea
+  langs:
+  - csharp
+  - vb
+  name: SpawnArea
+  nameWithType: SpawnArea
+  fullName: BuildingBox.SpawnArea
+  type: Class
+  source:
+    id: SpawnArea
+    path: ''
+    startLine: 533
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class SpawnArea : MonoBehaviour'
+    content.vb: >-
+      Public Class SpawnArea
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.SpawnArea.spawnArea
+  commentId: F:BuildingBox.SpawnArea.spawnArea
+  id: spawnArea
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: spawnArea
+  nameWithType: SpawnArea.spawnArea
+  fullName: BuildingBox.SpawnArea.spawnArea
+  type: Field
+  source:
+    id: spawnArea
+    path: ''
+    startLine: 540
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Collider spawnArea
+    return:
+      type: Global.Collider
+    content.vb: Public spawnArea As Collider
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnArea.lastSpawnedInstance
+  commentId: P:BuildingBox.SpawnArea.lastSpawnedInstance
+  id: lastSpawnedInstance
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: lastSpawnedInstance
+  nameWithType: SpawnArea.lastSpawnedInstance
+  fullName: BuildingBox.SpawnArea.lastSpawnedInstance
+  type: Property
+  source:
+    id: lastSpawnedInstance
+    path: ''
+    startLine: 543
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static GameObject lastSpawnedInstance { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public Shared ReadOnly Property lastSpawnedInstance As GameObject
+  overload: BuildingBox.SpawnArea.lastSpawnedInstance*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: BuildingBox.SpawnArea.randomSpawnOffsetInBounds
+  commentId: P:BuildingBox.SpawnArea.randomSpawnOffsetInBounds
+  id: randomSpawnOffsetInBounds
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: randomSpawnOffsetInBounds
+  nameWithType: SpawnArea.randomSpawnOffsetInBounds
+  fullName: BuildingBox.SpawnArea.randomSpawnOffsetInBounds
+  type: Property
+  source:
+    id: randomSpawnOffsetInBounds
+    path: ''
+    startLine: 549
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Vector3 randomSpawnOffsetInBounds { get; }
+    parameters: []
+    return:
+      type: Global.Vector3
+    content.vb: Public ReadOnly Property randomSpawnOffsetInBounds As Vector3
+  overload: BuildingBox.SpawnArea.randomSpawnOffsetInBounds*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.SpawnArea.OnRequestRandomSpawn(System.String,GameObject)
+  commentId: M:BuildingBox.SpawnArea.OnRequestRandomSpawn(System.String,GameObject)
+  id: OnRequestRandomSpawn(System.String,GameObject)
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: OnRequestRandomSpawn(String, GameObject)
+  nameWithType: SpawnArea.OnRequestRandomSpawn(String, GameObject)
+  fullName: BuildingBox.SpawnArea.OnRequestRandomSpawn(System.String, GameObject)
+  type: Method
+  source:
+    id: OnRequestRandomSpawn
+    path: ''
+    startLine: 575
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void OnRequestRandomSpawn(string spawnAreaId, GameObject prefab)
+    parameters:
+    - id: spawnAreaId
+      type: System.String
+    - id: prefab
+      type: Global.GameObject
+    content.vb: Public Sub OnRequestRandomSpawn(spawnAreaId As String, prefab As GameObject)
+  overload: BuildingBox.SpawnArea.OnRequestRandomSpawn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnArea.OnRequestRandomReparent(System.String,GameObject)
+  commentId: M:BuildingBox.SpawnArea.OnRequestRandomReparent(System.String,GameObject)
+  id: OnRequestRandomReparent(System.String,GameObject)
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: OnRequestRandomReparent(String, GameObject)
+  nameWithType: SpawnArea.OnRequestRandomReparent(String, GameObject)
+  fullName: BuildingBox.SpawnArea.OnRequestRandomReparent(System.String, GameObject)
+  type: Method
+  source:
+    id: OnRequestRandomReparent
+    path: ''
+    startLine: 584
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void OnRequestRandomReparent(string spawnAreaId, GameObject instance)
+    parameters:
+    - id: spawnAreaId
+      type: System.String
+    - id: instance
+      type: Global.GameObject
+    content.vb: Public Sub OnRequestRandomReparent(spawnAreaId As String, instance As GameObject)
+  overload: BuildingBox.SpawnArea.OnRequestRandomReparent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnArea.OnRequestReparent(System.String,GameObject)
+  commentId: M:BuildingBox.SpawnArea.OnRequestReparent(System.String,GameObject)
+  id: OnRequestReparent(System.String,GameObject)
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: OnRequestReparent(String, GameObject)
+  nameWithType: SpawnArea.OnRequestReparent(String, GameObject)
+  fullName: BuildingBox.SpawnArea.OnRequestReparent(System.String, GameObject)
+  type: Method
+  source:
+    id: OnRequestReparent
+    path: ''
+    startLine: 592
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void OnRequestReparent(string spawnAreaId, GameObject instance)
+    parameters:
+    - id: spawnAreaId
+      type: System.String
+    - id: instance
+      type: Global.GameObject
+    content.vb: Public Sub OnRequestReparent(spawnAreaId As String, instance As GameObject)
+  overload: BuildingBox.SpawnArea.OnRequestReparent*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnArea.OnRequestSpawn(System.String,GameObject)
+  commentId: M:BuildingBox.SpawnArea.OnRequestSpawn(System.String,GameObject)
+  id: OnRequestSpawn(System.String,GameObject)
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: OnRequestSpawn(String, GameObject)
+  nameWithType: SpawnArea.OnRequestSpawn(String, GameObject)
+  fullName: BuildingBox.SpawnArea.OnRequestSpawn(System.String, GameObject)
+  type: Method
+  source:
+    id: OnRequestSpawn
+    path: ''
+    startLine: 600
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void OnRequestSpawn(string spawnAreaId, GameObject prefab)
+    parameters:
+    - id: spawnAreaId
+      type: System.String
+    - id: prefab
+      type: Global.GameObject
+    content.vb: Public Sub OnRequestSpawn(spawnAreaId As String, prefab As GameObject)
+  overload: BuildingBox.SpawnArea.OnRequestSpawn*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnArea.OnDisable
+  commentId: M:BuildingBox.SpawnArea.OnDisable
+  id: OnDisable
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: OnDisable()
+  nameWithType: SpawnArea.OnDisable()
+  fullName: BuildingBox.SpawnArea.OnDisable()
+  type: Method
+  source:
+    id: OnDisable
+    path: ''
+    startLine: 610
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void OnDisable()
+    content.vb: Public Sub OnDisable
+  overload: BuildingBox.SpawnArea.OnDisable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnArea.RequestRandomSpawn(System.String,GameObject)
+  commentId: M:BuildingBox.SpawnArea.RequestRandomSpawn(System.String,GameObject)
+  id: RequestRandomSpawn(System.String,GameObject)
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: RequestRandomSpawn(String, GameObject)
+  nameWithType: SpawnArea.RequestRandomSpawn(String, GameObject)
+  fullName: BuildingBox.SpawnArea.RequestRandomSpawn(System.String, GameObject)
+  type: Method
+  source:
+    id: RequestRandomSpawn
+    path: ''
+    startLine: 618
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static void RequestRandomSpawn(string spawnAreaId, GameObject prefab)
+    parameters:
+    - id: spawnAreaId
+      type: System.String
+    - id: prefab
+      type: Global.GameObject
+    content.vb: Public Shared Sub RequestRandomSpawn(spawnAreaId As String, prefab As GameObject)
+  overload: BuildingBox.SpawnArea.RequestRandomSpawn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BuildingBox.SpawnArea.RequestRandomReparent(System.String,GameObject)
+  commentId: M:BuildingBox.SpawnArea.RequestRandomReparent(System.String,GameObject)
+  id: RequestRandomReparent(System.String,GameObject)
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: RequestRandomReparent(String, GameObject)
+  nameWithType: SpawnArea.RequestRandomReparent(String, GameObject)
+  fullName: BuildingBox.SpawnArea.RequestRandomReparent(System.String, GameObject)
+  type: Method
+  source:
+    id: RequestRandomReparent
+    path: ''
+    startLine: 623
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static void RequestRandomReparent(string spawnAreaId, GameObject instance)
+    parameters:
+    - id: spawnAreaId
+      type: System.String
+    - id: instance
+      type: Global.GameObject
+    content.vb: Public Shared Sub RequestRandomReparent(spawnAreaId As String, instance As GameObject)
+  overload: BuildingBox.SpawnArea.RequestRandomReparent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BuildingBox.SpawnArea.RequestReparent(System.String,GameObject)
+  commentId: M:BuildingBox.SpawnArea.RequestReparent(System.String,GameObject)
+  id: RequestReparent(System.String,GameObject)
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: RequestReparent(String, GameObject)
+  nameWithType: SpawnArea.RequestReparent(String, GameObject)
+  fullName: BuildingBox.SpawnArea.RequestReparent(System.String, GameObject)
+  type: Method
+  source:
+    id: RequestReparent
+    path: ''
+    startLine: 628
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static void RequestReparent(string spawnAreaId, GameObject instance)
+    parameters:
+    - id: spawnAreaId
+      type: System.String
+    - id: instance
+      type: Global.GameObject
+    content.vb: Public Shared Sub RequestReparent(spawnAreaId As String, instance As GameObject)
+  overload: BuildingBox.SpawnArea.RequestReparent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: BuildingBox.SpawnArea.RequestSpawn(System.String,GameObject)
+  commentId: M:BuildingBox.SpawnArea.RequestSpawn(System.String,GameObject)
+  id: RequestSpawn(System.String,GameObject)
+  parent: BuildingBox.SpawnArea
+  langs:
+  - csharp
+  - vb
+  name: RequestSpawn(String, GameObject)
+  nameWithType: SpawnArea.RequestSpawn(String, GameObject)
+  fullName: BuildingBox.SpawnArea.RequestSpawn(System.String, GameObject)
+  type: Method
+  source:
+    id: RequestSpawn
+    path: ''
+    startLine: 633
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public static void RequestSpawn(string spawnAreaId, GameObject prefab)
+    parameters:
+    - id: spawnAreaId
+      type: System.String
+    - id: prefab
+      type: Global.GameObject
+    content.vb: Public Shared Sub RequestSpawn(spawnAreaId As String, prefab As GameObject)
+  overload: BuildingBox.SpawnArea.RequestSpawn*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Collider
+  commentId: '!:Global.Collider'
+  isExternal: true
+  name: Collider
+  nameWithType: Collider
+  fullName: Collider
+- uid: BuildingBox.SpawnArea.lastSpawnedInstance*
+  commentId: Overload:BuildingBox.SpawnArea.lastSpawnedInstance
+  name: lastSpawnedInstance
+  nameWithType: SpawnArea.lastSpawnedInstance
+  fullName: BuildingBox.SpawnArea.lastSpawnedInstance
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: BuildingBox.SpawnArea.randomSpawnOffsetInBounds*
+  commentId: Overload:BuildingBox.SpawnArea.randomSpawnOffsetInBounds
+  name: randomSpawnOffsetInBounds
+  nameWithType: SpawnArea.randomSpawnOffsetInBounds
+  fullName: BuildingBox.SpawnArea.randomSpawnOffsetInBounds
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: BuildingBox.SpawnArea.OnRequestRandomSpawn*
+  commentId: Overload:BuildingBox.SpawnArea.OnRequestRandomSpawn
+  name: OnRequestRandomSpawn
+  nameWithType: SpawnArea.OnRequestRandomSpawn
+  fullName: BuildingBox.SpawnArea.OnRequestRandomSpawn
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BuildingBox.SpawnArea.OnRequestRandomReparent*
+  commentId: Overload:BuildingBox.SpawnArea.OnRequestRandomReparent
+  name: OnRequestRandomReparent
+  nameWithType: SpawnArea.OnRequestRandomReparent
+  fullName: BuildingBox.SpawnArea.OnRequestRandomReparent
+- uid: BuildingBox.SpawnArea.OnRequestReparent*
+  commentId: Overload:BuildingBox.SpawnArea.OnRequestReparent
+  name: OnRequestReparent
+  nameWithType: SpawnArea.OnRequestReparent
+  fullName: BuildingBox.SpawnArea.OnRequestReparent
+- uid: BuildingBox.SpawnArea.OnRequestSpawn*
+  commentId: Overload:BuildingBox.SpawnArea.OnRequestSpawn
+  name: OnRequestSpawn
+  nameWithType: SpawnArea.OnRequestSpawn
+  fullName: BuildingBox.SpawnArea.OnRequestSpawn
+- uid: BuildingBox.SpawnArea.OnDisable*
+  commentId: Overload:BuildingBox.SpawnArea.OnDisable
+  name: OnDisable
+  nameWithType: SpawnArea.OnDisable
+  fullName: BuildingBox.SpawnArea.OnDisable
+- uid: BuildingBox.SpawnArea.RequestRandomSpawn*
+  commentId: Overload:BuildingBox.SpawnArea.RequestRandomSpawn
+  name: RequestRandomSpawn
+  nameWithType: SpawnArea.RequestRandomSpawn
+  fullName: BuildingBox.SpawnArea.RequestRandomSpawn
+- uid: BuildingBox.SpawnArea.RequestRandomReparent*
+  commentId: Overload:BuildingBox.SpawnArea.RequestRandomReparent
+  name: RequestRandomReparent
+  nameWithType: SpawnArea.RequestRandomReparent
+  fullName: BuildingBox.SpawnArea.RequestRandomReparent
+- uid: BuildingBox.SpawnArea.RequestReparent*
+  commentId: Overload:BuildingBox.SpawnArea.RequestReparent
+  name: RequestReparent
+  nameWithType: SpawnArea.RequestReparent
+  fullName: BuildingBox.SpawnArea.RequestReparent
+- uid: BuildingBox.SpawnArea.RequestSpawn*
+  commentId: Overload:BuildingBox.SpawnArea.RequestSpawn
+  name: RequestSpawn
+  nameWithType: SpawnArea.RequestSpawn
+  fullName: BuildingBox.SpawnArea.RequestSpawn

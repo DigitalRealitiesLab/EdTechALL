@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RelativeUniformResize
+  commentId: T:Global.RelativeUniformResize
+  id: RelativeUniformResize
+  parent: Global
+  children:
+  - Global.RelativeUniformResize.RequestUniformResize
+  - Global.RelativeUniformResize.sizeFraction
+  langs:
+  - csharp
+  - vb
+  name: RelativeUniformResize
+  nameWithType: RelativeUniformResize
+  fullName: RelativeUniformResize
+  type: Class
+  source:
+    id: RelativeUniformResize
+    path: ''
+    startLine: 20434
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class RelativeUniformResize : MonoBehaviour'
+    content.vb: >-
+      Public Class RelativeUniformResize
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.RelativeUniformResize.sizeFraction
+  commentId: F:Global.RelativeUniformResize.sizeFraction
+  id: sizeFraction
+  parent: Global.RelativeUniformResize
+  langs:
+  - csharp
+  - vb
+  name: sizeFraction
+  nameWithType: RelativeUniformResize.sizeFraction
+  fullName: RelativeUniformResize.sizeFraction
+  type: Field
+  source:
+    id: sizeFraction
+    path: ''
+    startLine: 20436
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float sizeFraction
+    return:
+      type: System.Single
+    content.vb: Public sizeFraction As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.RelativeUniformResize.RequestUniformResize
+  commentId: M:Global.RelativeUniformResize.RequestUniformResize
+  id: RequestUniformResize
+  parent: Global.RelativeUniformResize
+  langs:
+  - csharp
+  - vb
+  name: RequestUniformResize()
+  nameWithType: RelativeUniformResize.RequestUniformResize()
+  fullName: RelativeUniformResize.RequestUniformResize()
+  type: Method
+  source:
+    id: RequestUniformResize
+    path: ''
+    startLine: 20449
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void RequestUniformResize()
+    content.vb: Public Sub RequestUniformResize
+  overload: Global.RelativeUniformResize.RequestUniformResize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.RelativeUniformResize.RequestUniformResize*
+  commentId: Overload:Global.RelativeUniformResize.RequestUniformResize
+  name: RequestUniformResize
+  nameWithType: RelativeUniformResize.RequestUniformResize
+  fullName: RelativeUniformResize.RequestUniformResize

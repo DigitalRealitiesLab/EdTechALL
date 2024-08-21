@@ -1,0 +1,159 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Gender
+  commentId: T:Global.Gender
+  id: Gender
+  parent: Global
+  children:
+  - Global.Gender.Any
+  - Global.Gender.Female
+  - Global.Gender.Male
+  - Global.Gender.Neutrum
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: Gender
+  fullName: Gender
+  type: Enum
+  source:
+    id: Gender
+    path: ''
+    startLine: 16279
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum Gender
+    content.vb: Public Enum Gender
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Gender.Male
+  commentId: F:Global.Gender.Male
+  id: Male
+  parent: Global.Gender
+  langs:
+  - csharp
+  - vb
+  name: Male
+  nameWithType: Gender.Male
+  fullName: Gender.Male
+  type: Field
+  source:
+    id: Male
+    path: ''
+    startLine: 16281
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Male = 0
+    return:
+      type: Global.Gender
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Gender.Female
+  commentId: F:Global.Gender.Female
+  id: Female
+  parent: Global.Gender
+  langs:
+  - csharp
+  - vb
+  name: Female
+  nameWithType: Gender.Female
+  fullName: Gender.Female
+  type: Field
+  source:
+    id: Female
+    path: ''
+    startLine: 16282
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Female = 1
+    return:
+      type: Global.Gender
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Gender.Neutrum
+  commentId: F:Global.Gender.Neutrum
+  id: Neutrum
+  parent: Global.Gender
+  langs:
+  - csharp
+  - vb
+  name: Neutrum
+  nameWithType: Gender.Neutrum
+  fullName: Gender.Neutrum
+  type: Field
+  source:
+    id: Neutrum
+    path: ''
+    startLine: 16283
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Neutrum = 2
+    return:
+      type: Global.Gender
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Gender.Any
+  commentId: F:Global.Gender.Any
+  id: Any
+  parent: Global.Gender
+  langs:
+  - csharp
+  - vb
+  name: Any
+  nameWithType: Gender.Any
+  fullName: Gender.Any
+  type: Field
+  source:
+    id: Any
+    path: ''
+    startLine: 16284
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Any = 3
+    return:
+      type: Global.Gender
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Gender
+  commentId: T:Global.Gender
+  name: Gender
+  nameWithType: Gender
+  fullName: Gender

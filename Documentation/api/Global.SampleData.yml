@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SampleData
+  commentId: T:Global.SampleData
+  id: SampleData
+  parent: Global
+  children:
+  - Global.SampleData.id
+  - Global.SampleData.potato
+  langs:
+  - csharp
+  - vb
+  name: SampleData
+  nameWithType: SampleData
+  fullName: SampleData
+  type: Class
+  source:
+    id: SampleData
+    path: ''
+    startLine: 16736
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SampleData
+    content.vb: >-
+      <Serializable>
+
+      Public Class SampleData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SampleData.id
+  commentId: F:Global.SampleData.id
+  id: id
+  parent: Global.SampleData
+  langs:
+  - csharp
+  - vb
+  name: id
+  nameWithType: SampleData.id
+  fullName: SampleData.id
+  type: Field
+  source:
+    id: id
+    path: ''
+    startLine: 16739
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int id
+    return:
+      type: System.Int32
+    content.vb: Public id As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SampleData.potato
+  commentId: F:Global.SampleData.potato
+  id: potato
+  parent: Global.SampleData
+  langs:
+  - csharp
+  - vb
+  name: potato
+  nameWithType: SampleData.potato
+  fullName: SampleData.potato
+  type: Field
+  source:
+    id: potato
+    path: ''
+    startLine: 16740
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string potato
+    return:
+      type: System.String
+    content.vb: Public potato As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

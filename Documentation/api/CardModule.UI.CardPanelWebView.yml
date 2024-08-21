@@ -1,0 +1,322 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.CardPanelWebView
+  commentId: T:CardModule.UI.CardPanelWebView
+  id: CardPanelWebView
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.CardPanelWebView.InjectJS(System.String)
+  - CardModule.UI.CardPanelWebView.InjectJSFile(TextAsset)
+  - CardModule.UI.CardPanelWebView.javaScriptFile
+  - CardModule.UI.CardPanelWebView.LoadH5PFileFromPersistant(CardModule.H5PCardData)
+  - CardModule.UI.CardPanelWebView.LoadH5PFileFromStreamingAssets(CardModule.H5PCardData)
+  - CardModule.UI.CardPanelWebView.onClose
+  - CardModule.UI.CardPanelWebView.webViewPrefab
+  langs:
+  - csharp
+  - vb
+  name: CardPanelWebView
+  nameWithType: CardPanelWebView
+  fullName: CardModule.UI.CardPanelWebView
+  type: Class
+  source:
+    id: CardPanelWebView
+    path: ''
+    startLine: 19788
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: 'public class CardPanelWebView : MonoBehaviour'
+    content.vb: >-
+      Public Class CardPanelWebView
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.UI.CardPanelWebView.webViewPrefab
+  commentId: F:CardModule.UI.CardPanelWebView.webViewPrefab
+  id: webViewPrefab
+  parent: CardModule.UI.CardPanelWebView
+  langs:
+  - csharp
+  - vb
+  name: webViewPrefab
+  nameWithType: CardPanelWebView.webViewPrefab
+  fullName: CardModule.UI.CardPanelWebView.webViewPrefab
+  type: Field
+  source:
+    id: webViewPrefab
+    path: ''
+    startLine: 19790
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public BaseWebViewPrefab webViewPrefab
+    return:
+      type: Global.BaseWebViewPrefab
+    content.vb: Public webViewPrefab As BaseWebViewPrefab
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanelWebView.javaScriptFile
+  commentId: F:CardModule.UI.CardPanelWebView.javaScriptFile
+  id: javaScriptFile
+  parent: CardModule.UI.CardPanelWebView
+  langs:
+  - csharp
+  - vb
+  name: javaScriptFile
+  nameWithType: CardPanelWebView.javaScriptFile
+  fullName: CardModule.UI.CardPanelWebView.javaScriptFile
+  type: Field
+  source:
+    id: javaScriptFile
+    path: ''
+    startLine: 19792
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TextAsset javaScriptFile
+    return:
+      type: Global.TextAsset
+    content.vb: Public javaScriptFile As TextAsset
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanelWebView.onClose
+  commentId: F:CardModule.UI.CardPanelWebView.onClose
+  id: onClose
+  parent: CardModule.UI.CardPanelWebView
+  langs:
+  - csharp
+  - vb
+  name: onClose
+  nameWithType: CardPanelWebView.onClose
+  fullName: CardModule.UI.CardPanelWebView.onClose
+  type: Field
+  source:
+    id: onClose
+    path: ''
+    startLine: 19795
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public Events.UnityEvent onClose
+    return:
+      type: UnityEngine.Events.UnityEvent
+    content.vb: Public onClose As Events.UnityEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanelWebView.LoadH5PFileFromStreamingAssets(CardModule.H5PCardData)
+  commentId: M:CardModule.UI.CardPanelWebView.LoadH5PFileFromStreamingAssets(CardModule.H5PCardData)
+  id: LoadH5PFileFromStreamingAssets(CardModule.H5PCardData)
+  parent: CardModule.UI.CardPanelWebView
+  langs:
+  - csharp
+  - vb
+  name: LoadH5PFileFromStreamingAssets(H5PCardData)
+  nameWithType: CardPanelWebView.LoadH5PFileFromStreamingAssets(H5PCardData)
+  fullName: CardModule.UI.CardPanelWebView.LoadH5PFileFromStreamingAssets(CardModule.H5PCardData)
+  type: Method
+  source:
+    id: LoadH5PFileFromStreamingAssets
+    path: ''
+    startLine: 19844
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public async Task LoadH5PFileFromStreamingAssets(H5PCardData cardData)
+    parameters:
+    - id: cardData
+      type: CardModule.H5PCardData
+    return:
+      type: Global.Task
+    content.vb: Public Function LoadH5PFileFromStreamingAssets(cardData As H5PCardData) As Task
+  overload: CardModule.UI.CardPanelWebView.LoadH5PFileFromStreamingAssets*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanelWebView.LoadH5PFileFromPersistant(CardModule.H5PCardData)
+  commentId: M:CardModule.UI.CardPanelWebView.LoadH5PFileFromPersistant(CardModule.H5PCardData)
+  id: LoadH5PFileFromPersistant(CardModule.H5PCardData)
+  parent: CardModule.UI.CardPanelWebView
+  langs:
+  - csharp
+  - vb
+  name: LoadH5PFileFromPersistant(H5PCardData)
+  nameWithType: CardPanelWebView.LoadH5PFileFromPersistant(H5PCardData)
+  fullName: CardModule.UI.CardPanelWebView.LoadH5PFileFromPersistant(CardModule.H5PCardData)
+  type: Method
+  source:
+    id: LoadH5PFileFromPersistant
+    path: ''
+    startLine: 19858
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public async Task LoadH5PFileFromPersistant(H5PCardData cardData)
+    parameters:
+    - id: cardData
+      type: CardModule.H5PCardData
+    return:
+      type: Global.Task
+    content.vb: Public Function LoadH5PFileFromPersistant(cardData As H5PCardData) As Task
+  overload: CardModule.UI.CardPanelWebView.LoadH5PFileFromPersistant*
+  modifiers.csharp:
+  - public
+  - async
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanelWebView.InjectJSFile(TextAsset)
+  commentId: M:CardModule.UI.CardPanelWebView.InjectJSFile(TextAsset)
+  id: InjectJSFile(TextAsset)
+  parent: CardModule.UI.CardPanelWebView
+  langs:
+  - csharp
+  - vb
+  name: InjectJSFile(TextAsset)
+  nameWithType: CardPanelWebView.InjectJSFile(TextAsset)
+  fullName: CardModule.UI.CardPanelWebView.InjectJSFile(TextAsset)
+  type: Method
+  source:
+    id: InjectJSFile
+    path: ''
+    startLine: 19872
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public void InjectJSFile(TextAsset jsFile)
+    parameters:
+    - id: jsFile
+      type: Global.TextAsset
+    content.vb: Public Sub InjectJSFile(jsFile As TextAsset)
+  overload: CardModule.UI.CardPanelWebView.InjectJSFile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanelWebView.InjectJS(System.String)
+  commentId: M:CardModule.UI.CardPanelWebView.InjectJS(System.String)
+  id: InjectJS(System.String)
+  parent: CardModule.UI.CardPanelWebView
+  langs:
+  - csharp
+  - vb
+  name: InjectJS(String)
+  nameWithType: CardPanelWebView.InjectJS(String)
+  fullName: CardModule.UI.CardPanelWebView.InjectJS(System.String)
+  type: Method
+  source:
+    id: InjectJS
+    path: ''
+    startLine: 19878
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public void InjectJS(string js)
+    parameters:
+    - id: js
+      type: System.String
+    content.vb: Public Sub InjectJS(js As String)
+  overload: CardModule.UI.CardPanelWebView.InjectJS*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.BaseWebViewPrefab
+  commentId: '!:Global.BaseWebViewPrefab'
+  isExternal: true
+  name: BaseWebViewPrefab
+  nameWithType: BaseWebViewPrefab
+  fullName: BaseWebViewPrefab
+- uid: Global.TextAsset
+  isExternal: true
+  name: TextAsset
+  nameWithType: TextAsset
+  fullName: TextAsset
+- uid: UnityEngine.Events.UnityEvent
+  isExternal: true
+  name: Events.UnityEvent
+  nameWithType: Events.UnityEvent
+  fullName: UnityEngine.Events.UnityEvent
+- uid: CardModule.UI.CardPanelWebView.LoadH5PFileFromStreamingAssets*
+  commentId: Overload:CardModule.UI.CardPanelWebView.LoadH5PFileFromStreamingAssets
+  name: LoadH5PFileFromStreamingAssets
+  nameWithType: CardPanelWebView.LoadH5PFileFromStreamingAssets
+  fullName: CardModule.UI.CardPanelWebView.LoadH5PFileFromStreamingAssets
+- uid: CardModule.H5PCardData
+  commentId: T:CardModule.H5PCardData
+  parent: CardModule
+  name: H5PCardData
+  nameWithType: H5PCardData
+  fullName: CardModule.H5PCardData
+- uid: Global.Task
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: Task
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: CardModule.UI.CardPanelWebView.LoadH5PFileFromPersistant*
+  commentId: Overload:CardModule.UI.CardPanelWebView.LoadH5PFileFromPersistant
+  name: LoadH5PFileFromPersistant
+  nameWithType: CardPanelWebView.LoadH5PFileFromPersistant
+  fullName: CardModule.UI.CardPanelWebView.LoadH5PFileFromPersistant
+- uid: CardModule.UI.CardPanelWebView.InjectJSFile*
+  commentId: Overload:CardModule.UI.CardPanelWebView.InjectJSFile
+  name: InjectJSFile
+  nameWithType: CardPanelWebView.InjectJSFile
+  fullName: CardModule.UI.CardPanelWebView.InjectJSFile
+- uid: CardModule.UI.CardPanelWebView.InjectJS*
+  commentId: Overload:CardModule.UI.CardPanelWebView.InjectJS
+  name: InjectJS
+  nameWithType: CardPanelWebView.InjectJS
+  fullName: CardModule.UI.CardPanelWebView.InjectJS
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Numerus
+  commentId: T:Global.Numerus
+  id: Numerus
+  parent: Global
+  children:
+  - Global.Numerus.Plural
+  - Global.Numerus.Singular
+  langs:
+  - csharp
+  - vb
+  name: Numerus
+  nameWithType: Numerus
+  fullName: Numerus
+  type: Enum
+  source:
+    id: Numerus
+    path: ''
+    startLine: 16273
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum Numerus
+    content.vb: Public Enum Numerus
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.Numerus.Singular
+  commentId: F:Global.Numerus.Singular
+  id: Singular
+  parent: Global.Numerus
+  langs:
+  - csharp
+  - vb
+  name: Singular
+  nameWithType: Numerus.Singular
+  fullName: Numerus.Singular
+  type: Field
+  source:
+    id: Singular
+    path: ''
+    startLine: 16275
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Singular = 0
+    return:
+      type: Global.Numerus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.Numerus.Plural
+  commentId: F:Global.Numerus.Plural
+  id: Plural
+  parent: Global.Numerus
+  langs:
+  - csharp
+  - vb
+  name: Plural
+  nameWithType: Numerus.Plural
+  fullName: Numerus.Plural
+  type: Field
+  source:
+    id: Plural
+    path: ''
+    startLine: 16276
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: Plural = 1
+    return:
+      type: Global.Numerus
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Numerus
+  commentId: T:Global.Numerus
+  name: Numerus
+  nameWithType: Numerus
+  fullName: Numerus

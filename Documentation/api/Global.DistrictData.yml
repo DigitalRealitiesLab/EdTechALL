@@ -1,0 +1,189 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DistrictData
+  commentId: T:Global.DistrictData
+  id: DistrictData
+  parent: Global
+  children:
+  - Global.DistrictData.Bezirkskennziffer
+  - Global.DistrictData.Bezirksname
+  - Global.DistrictData.Einwohner
+  - Global.DistrictData.Regionsname
+  langs:
+  - csharp
+  - vb
+  name: DistrictData
+  nameWithType: DistrictData
+  fullName: DistrictData
+  type: Class
+  source:
+    id: DistrictData
+    path: ''
+    startLine: 23050
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class DistrictData
+    content.vb: >-
+      <Serializable>
+
+      Public Class DistrictData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DistrictData.Bezirkskennziffer
+  commentId: F:Global.DistrictData.Bezirkskennziffer
+  id: Bezirkskennziffer
+  parent: Global.DistrictData
+  langs:
+  - csharp
+  - vb
+  name: Bezirkskennziffer
+  nameWithType: DistrictData.Bezirkskennziffer
+  fullName: DistrictData.Bezirkskennziffer
+  type: Field
+  source:
+    id: Bezirkskennziffer
+    path: ''
+    startLine: 23053
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Bezirkskennziffer
+    return:
+      type: System.String
+    content.vb: Public Bezirkskennziffer As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DistrictData.Bezirksname
+  commentId: F:Global.DistrictData.Bezirksname
+  id: Bezirksname
+  parent: Global.DistrictData
+  langs:
+  - csharp
+  - vb
+  name: Bezirksname
+  nameWithType: DistrictData.Bezirksname
+  fullName: DistrictData.Bezirksname
+  type: Field
+  source:
+    id: Bezirksname
+    path: ''
+    startLine: 23054
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Bezirksname
+    return:
+      type: System.String
+    content.vb: Public Bezirksname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DistrictData.Einwohner
+  commentId: F:Global.DistrictData.Einwohner
+  id: Einwohner
+  parent: Global.DistrictData
+  langs:
+  - csharp
+  - vb
+  name: Einwohner
+  nameWithType: DistrictData.Einwohner
+  fullName: DistrictData.Einwohner
+  type: Field
+  source:
+    id: Einwohner
+    path: ''
+    startLine: 23055
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int Einwohner
+    return:
+      type: System.Int32
+    content.vb: Public Einwohner As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DistrictData.Regionsname
+  commentId: F:Global.DistrictData.Regionsname
+  id: Regionsname
+  parent: Global.DistrictData
+  langs:
+  - csharp
+  - vb
+  name: Regionsname
+  nameWithType: DistrictData.Regionsname
+  fullName: DistrictData.Regionsname
+  type: Field
+  source:
+    id: Regionsname
+    path: ''
+    startLine: 23056
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Regionsname
+    return:
+      type: System.String
+    content.vb: Public Regionsname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

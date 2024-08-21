@@ -1,0 +1,200 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.POI
+  commentId: T:Global.POI
+  id: POI
+  parent: Global
+  children:
+  - Global.POI.poiText
+  - Global.POI.poiTextMesh
+  - Global.POI.SetPOIType(System.String)
+  - Global.POI.type
+  langs:
+  - csharp
+  - vb
+  name: POI
+  nameWithType: POI
+  fullName: POI
+  type: Class
+  source:
+    id: POI
+    path: ''
+    startLine: 23418
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class POI : MonoBehaviour'
+    content.vb: >-
+      Public Class POI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.POI.poiTextMesh
+  commentId: F:Global.POI.poiTextMesh
+  id: poiTextMesh
+  parent: Global.POI
+  langs:
+  - csharp
+  - vb
+  name: poiTextMesh
+  nameWithType: POI.poiTextMesh
+  fullName: POI.poiTextMesh
+  type: Field
+  source:
+    id: poiTextMesh
+    path: ''
+    startLine: 23422
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMPro.TextMeshPro poiTextMesh
+    return:
+      type: Global.TMPro.TextMeshPro
+    content.vb: Public poiTextMesh As TMPro.TextMeshPro
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POI.type
+  commentId: F:Global.POI.type
+  id: type
+  parent: Global.POI
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: POI.type
+  fullName: POI.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 23424
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public POIType type
+    return:
+      type: Global.POIType
+    content.vb: Public type As POIType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POI.poiText
+  commentId: P:Global.POI.poiText
+  id: poiText
+  parent: Global.POI
+  langs:
+  - csharp
+  - vb
+  name: poiText
+  nameWithType: POI.poiText
+  fullName: POI.poiText
+  type: Property
+  source:
+    id: poiText
+    path: ''
+    startLine: 23427
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string poiText { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property poiText As String
+  overload: Global.POI.poiText*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.POI.SetPOIType(System.String)
+  commentId: M:Global.POI.SetPOIType(System.String)
+  id: SetPOIType(System.String)
+  parent: Global.POI
+  langs:
+  - csharp
+  - vb
+  name: SetPOIType(String)
+  nameWithType: POI.SetPOIType(String)
+  fullName: POI.SetPOIType(System.String)
+  type: Method
+  source:
+    id: SetPOIType
+    path: ''
+    startLine: 23459
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetPOIType(string type)
+    parameters:
+    - id: type
+      type: System.String
+    content.vb: Public Sub SetPOIType(type As String)
+  overload: Global.POI.SetPOIType*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TMPro.TextMeshPro
+  isExternal: true
+  name: TMPro.TextMeshPro
+  nameWithType: TMPro.TextMeshPro
+  fullName: TMPro.TextMeshPro
+- uid: Global.POIType
+  commentId: T:Global.POIType
+  name: POIType
+  nameWithType: POIType
+  fullName: POIType
+- uid: Global.POI.poiText*
+  commentId: Overload:Global.POI.poiText
+  name: poiText
+  nameWithType: POI.poiText
+  fullName: POI.poiText
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.POI.SetPOIType*
+  commentId: Overload:Global.POI.SetPOIType
+  name: SetPOIType
+  nameWithType: POI.SetPOIType
+  fullName: POI.SetPOIType

@@ -1,0 +1,169 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  commentId: T:Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  id: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  parent: Global
+  children:
+  - Global.CowCaretakerTimeline.CowCaretakerTimelinePoint.cowNeeds
+  - Global.CowCaretakerTimeline.CowCaretakerTimelinePoint.proxyCards
+  langs:
+  - csharp
+  - vb
+  name: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  nameWithType: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  fullName: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  type: Class
+  source:
+    id: CowCaretakerTimelinePoint
+    path: ''
+    startLine: 15328
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class CowCaretakerTimelinePoint
+    content.vb: >-
+      <Serializable>
+
+      Public Class CowCaretakerTimelinePoint
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint.cowNeeds
+  commentId: F:Global.CowCaretakerTimeline.CowCaretakerTimelinePoint.cowNeeds
+  id: cowNeeds
+  parent: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  langs:
+  - csharp
+  - vb
+  name: cowNeeds
+  nameWithType: CowCaretakerTimeline.CowCaretakerTimelinePoint.cowNeeds
+  fullName: CowCaretakerTimeline.CowCaretakerTimelinePoint.cowNeeds
+  type: Field
+  source:
+    id: cowNeeds
+    path: ''
+    startLine: 15331
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Cow.CowNeed[] cowNeeds
+    return:
+      type: Global.Cow.CowNeed[]
+    content.vb: Public cowNeeds As Cow.CowNeed()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint.proxyCards
+  commentId: F:Global.CowCaretakerTimeline.CowCaretakerTimelinePoint.proxyCards
+  id: proxyCards
+  parent: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  langs:
+  - csharp
+  - vb
+  name: proxyCards
+  nameWithType: CowCaretakerTimeline.CowCaretakerTimelinePoint.proxyCards
+  fullName: CowCaretakerTimeline.CowCaretakerTimelinePoint.proxyCards
+  type: Field
+  source:
+    id: proxyCards
+    path: ''
+    startLine: 15332
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ProxyCardData[] proxyCards
+    return:
+      type: Global.ProxyCardData[]
+    content.vb: Public proxyCards As ProxyCardData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Cow.CowNeed[]
+  isExternal: true
+  name: Cow.CowNeed[]
+  nameWithType: Cow.CowNeed[]
+  fullName: Cow.CowNeed[]
+  nameWithType.vb: Cow.CowNeed()
+  fullName.vb: Cow.CowNeed()
+  name.vb: Cow.CowNeed()
+  spec.csharp:
+  - uid: Global.Cow.CowNeed
+    name: Cow.CowNeed
+    nameWithType: Cow.CowNeed
+    fullName: Cow.CowNeed
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Cow.CowNeed
+    name: Cow.CowNeed
+    nameWithType: Cow.CowNeed
+    fullName: Cow.CowNeed
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.ProxyCardData[]
+  isExternal: true
+  name: ProxyCardData[]
+  nameWithType: ProxyCardData[]
+  fullName: ProxyCardData[]
+  nameWithType.vb: ProxyCardData()
+  fullName.vb: ProxyCardData()
+  name.vb: ProxyCardData()
+  spec.csharp:
+  - uid: Global.ProxyCardData
+    name: ProxyCardData
+    nameWithType: ProxyCardData
+    fullName: ProxyCardData
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.ProxyCardData
+    name: ProxyCardData
+    nameWithType: ProxyCardData
+    fullName: ProxyCardData
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

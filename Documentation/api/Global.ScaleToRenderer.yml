@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ScaleToRenderer
+  commentId: T:Global.ScaleToRenderer
+  id: ScaleToRenderer
+  parent: Global
+  children:
+  - Global.ScaleToRenderer.referenceRenderer
+  - Global.ScaleToRenderer.ScaleAbsolute(System.Single)
+  - Global.ScaleToRenderer.ScaleRelative(System.Single)
+  - Global.ScaleToRenderer.scalingRenderer
+  langs:
+  - csharp
+  - vb
+  name: ScaleToRenderer
+  nameWithType: ScaleToRenderer
+  fullName: ScaleToRenderer
+  type: Class
+  source:
+    id: ScaleToRenderer
+    path: ''
+    startLine: 22700
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ScaleToRenderer : MonoBehaviour'
+    content.vb: >-
+      Public Class ScaleToRenderer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ScaleToRenderer.referenceRenderer
+  commentId: F:Global.ScaleToRenderer.referenceRenderer
+  id: referenceRenderer
+  parent: Global.ScaleToRenderer
+  langs:
+  - csharp
+  - vb
+  name: referenceRenderer
+  nameWithType: ScaleToRenderer.referenceRenderer
+  fullName: ScaleToRenderer.referenceRenderer
+  type: Field
+  source:
+    id: referenceRenderer
+    path: ''
+    startLine: 22703
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Renderer referenceRenderer
+    return:
+      type: Global.Renderer
+    content.vb: Public referenceRenderer As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScaleToRenderer.scalingRenderer
+  commentId: F:Global.ScaleToRenderer.scalingRenderer
+  id: scalingRenderer
+  parent: Global.ScaleToRenderer
+  langs:
+  - csharp
+  - vb
+  name: scalingRenderer
+  nameWithType: ScaleToRenderer.scalingRenderer
+  fullName: ScaleToRenderer.scalingRenderer
+  type: Field
+  source:
+    id: scalingRenderer
+    path: ''
+    startLine: 22704
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Renderer scalingRenderer
+    return:
+      type: Global.Renderer
+    content.vb: Public scalingRenderer As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScaleToRenderer.ScaleAbsolute(System.Single)
+  commentId: M:Global.ScaleToRenderer.ScaleAbsolute(System.Single)
+  id: ScaleAbsolute(System.Single)
+  parent: Global.ScaleToRenderer
+  langs:
+  - csharp
+  - vb
+  name: ScaleAbsolute(Single)
+  nameWithType: ScaleToRenderer.ScaleAbsolute(Single)
+  fullName: ScaleToRenderer.ScaleAbsolute(System.Single)
+  type: Method
+  source:
+    id: ScaleAbsolute
+    path: ''
+    startLine: 22711
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ScaleAbsolute(float absoluteWidth)
+    parameters:
+    - id: absoluteWidth
+      type: System.Single
+    content.vb: Public Sub ScaleAbsolute(absoluteWidth As Single)
+  overload: Global.ScaleToRenderer.ScaleAbsolute*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ScaleToRenderer.ScaleRelative(System.Single)
+  commentId: M:Global.ScaleToRenderer.ScaleRelative(System.Single)
+  id: ScaleRelative(System.Single)
+  parent: Global.ScaleToRenderer
+  langs:
+  - csharp
+  - vb
+  name: ScaleRelative(Single)
+  nameWithType: ScaleToRenderer.ScaleRelative(Single)
+  fullName: ScaleToRenderer.ScaleRelative(System.Single)
+  type: Method
+  source:
+    id: ScaleRelative
+    path: ''
+    startLine: 22716
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ScaleRelative(float relativeSize)
+    parameters:
+    - id: relativeSize
+      type: System.Single
+    content.vb: Public Sub ScaleRelative(relativeSize As Single)
+  overload: Global.ScaleToRenderer.ScaleRelative*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Renderer
+- uid: Global.ScaleToRenderer.ScaleAbsolute*
+  commentId: Overload:Global.ScaleToRenderer.ScaleAbsolute
+  name: ScaleAbsolute
+  nameWithType: ScaleToRenderer.ScaleAbsolute
+  fullName: ScaleToRenderer.ScaleAbsolute
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.ScaleToRenderer.ScaleRelative*
+  commentId: Overload:Global.ScaleToRenderer.ScaleRelative
+  name: ScaleRelative
+  nameWithType: ScaleToRenderer.ScaleRelative
+  fullName: ScaleToRenderer.ScaleRelative

@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CubicSplineEditor
+  commentId: T:Global.CubicSplineEditor
+  id: CubicSplineEditor
+  parent: Global
+  children:
+  - Global.CubicSplineEditor.DebugDrawSpline(CubicSpline,System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CubicSplineEditor
+  nameWithType: CubicSplineEditor
+  fullName: CubicSplineEditor
+  type: Class
+  source:
+    id: CubicSplineEditor
+    path: ''
+    startLine: 18067
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CubicSplineEditor : Editor'
+    content.vb: >-
+      Public Class CubicSplineEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CubicSplineEditor.DebugDrawSpline(CubicSpline,System.Int32)
+  commentId: M:Global.CubicSplineEditor.DebugDrawSpline(CubicSpline,System.Int32)
+  id: DebugDrawSpline(CubicSpline,System.Int32)
+  parent: Global.CubicSplineEditor
+  langs:
+  - csharp
+  - vb
+  name: DebugDrawSpline(CubicSpline, Int32)
+  nameWithType: CubicSplineEditor.DebugDrawSpline(CubicSpline, Int32)
+  fullName: CubicSplineEditor.DebugDrawSpline(CubicSpline, System.Int32)
+  type: Method
+  source:
+    id: DebugDrawSpline
+    path: ''
+    startLine: 18077
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DebugDrawSpline(CubicSpline spline, int stepsPerSegment)
+    parameters:
+    - id: spline
+      type: Global.CubicSpline
+    - id: stepsPerSegment
+      type: System.Int32
+    content.vb: Public Sub DebugDrawSpline(spline As CubicSpline, stepsPerSegment As Integer)
+  overload: Global.CubicSplineEditor.DebugDrawSpline*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CubicSplineEditor.DebugDrawSpline*
+  commentId: Overload:Global.CubicSplineEditor.DebugDrawSpline
+  name: DebugDrawSpline
+  nameWithType: CubicSplineEditor.DebugDrawSpline
+  fullName: CubicSplineEditor.DebugDrawSpline
+- uid: Global.CubicSpline
+  commentId: T:Global.CubicSpline
+  name: CubicSpline
+  nameWithType: CubicSpline
+  fullName: CubicSpline
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

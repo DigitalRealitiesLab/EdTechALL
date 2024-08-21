@@ -1,0 +1,390 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Salzburg
+  commentId: T:Global.Salzburg
+  id: Salzburg
+  parent: Global
+  children:
+  - Global.Salzburg.Awake
+  - Global.Salzburg.GenerateFederalStructure
+  - Global.Salzburg.GetBezirkByGKZ(System.String)
+  - Global.Salzburg.GetGemeindeByGKZ(System.String)
+  - Global.Salzburg.SalzburgInstantiated
+  langs:
+  - csharp
+  - vb
+  name: Salzburg
+  nameWithType: Salzburg
+  fullName: Salzburg
+  type: Class
+  source:
+    id: Salzburg
+    path: ''
+    startLine: 22784
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class Salzburg : FederalUnit'
+    content.vb: >-
+      Public Class Salzburg
+          Inherits FederalUnit
+  inheritance:
+  - System.Object
+  - Global.FederalUnit
+  inheritedMembers:
+  - Global.FederalUnit._subUnits
+  - Global.FederalUnit.superUnit
+  - Global.FederalUnit.requireHighlightAreaText
+  - Global.FederalUnit.subUnits
+  - Global.FederalUnit.bounds
+  - Global.FederalUnit.HighlightTarget(System.Boolean)
+  - Global.FederalUnit.GetSubUnitByID(System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Salzburg.SalzburgInstantiated
+  commentId: F:Global.Salzburg.SalzburgInstantiated
+  id: SalzburgInstantiated
+  parent: Global.Salzburg
+  langs:
+  - csharp
+  - vb
+  name: SalzburgInstantiated
+  nameWithType: Salzburg.SalzburgInstantiated
+  fullName: Salzburg.SalzburgInstantiated
+  type: Field
+  source:
+    id: SalzburgInstantiated
+    path: ''
+    startLine: 22786
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool SalzburgInstantiated
+    return:
+      type: System.Boolean
+    content.vb: Public Shared SalzburgInstantiated As Boolean
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Salzburg.Awake
+  commentId: M:Global.Salzburg.Awake
+  id: Awake
+  parent: Global.Salzburg
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: Salzburg.Awake()
+  fullName: Salzburg.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 22787
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected void Awake()
+    content.vb: Protected Sub Awake
+  overload: Global.Salzburg.Awake*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: Global.Salzburg.GenerateFederalStructure
+  commentId: M:Global.Salzburg.GenerateFederalStructure
+  id: GenerateFederalStructure
+  parent: Global.Salzburg
+  langs:
+  - csharp
+  - vb
+  name: GenerateFederalStructure()
+  nameWithType: Salzburg.GenerateFederalStructure()
+  fullName: Salzburg.GenerateFederalStructure()
+  type: Method
+  source:
+    id: GenerateFederalStructure
+    path: ''
+    startLine: 22793
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected override void GenerateFederalStructure()
+    content.vb: Protected Overrides Sub GenerateFederalStructure
+  overridden: Global.FederalUnit.GenerateFederalStructure
+  overload: Global.Salzburg.GenerateFederalStructure*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: Global.Salzburg.GetBezirkByGKZ(System.String)
+  commentId: M:Global.Salzburg.GetBezirkByGKZ(System.String)
+  id: GetBezirkByGKZ(System.String)
+  parent: Global.Salzburg
+  langs:
+  - csharp
+  - vb
+  name: GetBezirkByGKZ(String)
+  nameWithType: Salzburg.GetBezirkByGKZ(String)
+  fullName: Salzburg.GetBezirkByGKZ(System.String)
+  type: Method
+  source:
+    id: GetBezirkByGKZ
+    path: ''
+    startLine: 22829
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FederalUnit GetBezirkByGKZ(string gkz)
+    parameters:
+    - id: gkz
+      type: System.String
+    return:
+      type: Global.FederalUnit
+    content.vb: Public Function GetBezirkByGKZ(gkz As String) As FederalUnit
+  overload: Global.Salzburg.GetBezirkByGKZ*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Salzburg.GetGemeindeByGKZ(System.String)
+  commentId: M:Global.Salzburg.GetGemeindeByGKZ(System.String)
+  id: GetGemeindeByGKZ(System.String)
+  parent: Global.Salzburg
+  langs:
+  - csharp
+  - vb
+  name: GetGemeindeByGKZ(String)
+  nameWithType: Salzburg.GetGemeindeByGKZ(String)
+  fullName: Salzburg.GetGemeindeByGKZ(System.String)
+  type: Method
+  source:
+    id: GetGemeindeByGKZ
+    path: ''
+    startLine: 22837
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public FederalUnit GetGemeindeByGKZ(string gkz)
+    parameters:
+    - id: gkz
+      type: System.String
+    return:
+      type: Global.FederalUnit
+    content.vb: Public Function GetGemeindeByGKZ(gkz As String) As FederalUnit
+  overload: Global.Salzburg.GetGemeindeByGKZ*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.FederalUnit
+  commentId: T:Global.FederalUnit
+  name: FederalUnit
+  nameWithType: FederalUnit
+  fullName: FederalUnit
+- uid: Global.FederalUnit._subUnits
+  commentId: F:Global.FederalUnit._subUnits
+  parent: Global.FederalUnit
+  name: _subUnits
+  nameWithType: FederalUnit._subUnits
+  fullName: FederalUnit._subUnits
+- uid: Global.FederalUnit.superUnit
+  commentId: F:Global.FederalUnit.superUnit
+  parent: Global.FederalUnit
+  name: superUnit
+  nameWithType: FederalUnit.superUnit
+  fullName: FederalUnit.superUnit
+- uid: Global.FederalUnit.requireHighlightAreaText
+  commentId: P:Global.FederalUnit.requireHighlightAreaText
+  parent: Global.FederalUnit
+  name: requireHighlightAreaText
+  nameWithType: FederalUnit.requireHighlightAreaText
+  fullName: FederalUnit.requireHighlightAreaText
+- uid: Global.FederalUnit.subUnits
+  commentId: P:Global.FederalUnit.subUnits
+  parent: Global.FederalUnit
+  name: subUnits
+  nameWithType: FederalUnit.subUnits
+  fullName: FederalUnit.subUnits
+- uid: Global.FederalUnit.bounds
+  commentId: P:Global.FederalUnit.bounds
+  parent: Global.FederalUnit
+  name: bounds
+  nameWithType: FederalUnit.bounds
+  fullName: FederalUnit.bounds
+- uid: Global.FederalUnit.HighlightTarget(System.Boolean)
+  commentId: M:Global.FederalUnit.HighlightTarget(System.Boolean)
+  parent: Global.FederalUnit
+  isExternal: true
+  name: HighlightTarget(Boolean)
+  nameWithType: FederalUnit.HighlightTarget(Boolean)
+  fullName: FederalUnit.HighlightTarget(System.Boolean)
+  spec.csharp:
+  - uid: Global.FederalUnit.HighlightTarget(System.Boolean)
+    name: HighlightTarget
+    nameWithType: FederalUnit.HighlightTarget
+    fullName: FederalUnit.HighlightTarget
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.FederalUnit.HighlightTarget(System.Boolean)
+    name: HighlightTarget
+    nameWithType: FederalUnit.HighlightTarget
+    fullName: FederalUnit.HighlightTarget
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.FederalUnit.GetSubUnitByID(System.String)
+  commentId: M:Global.FederalUnit.GetSubUnitByID(System.String)
+  parent: Global.FederalUnit
+  isExternal: true
+  name: GetSubUnitByID(String)
+  nameWithType: FederalUnit.GetSubUnitByID(String)
+  fullName: FederalUnit.GetSubUnitByID(System.String)
+  spec.csharp:
+  - uid: Global.FederalUnit.GetSubUnitByID(System.String)
+    name: GetSubUnitByID
+    nameWithType: FederalUnit.GetSubUnitByID
+    fullName: FederalUnit.GetSubUnitByID
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.FederalUnit.GetSubUnitByID(System.String)
+    name: GetSubUnitByID
+    nameWithType: FederalUnit.GetSubUnitByID
+    fullName: FederalUnit.GetSubUnitByID
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.Salzburg.Awake*
+  commentId: Overload:Global.Salzburg.Awake
+  name: Awake
+  nameWithType: Salzburg.Awake
+  fullName: Salzburg.Awake
+- uid: Global.FederalUnit.GenerateFederalStructure
+  commentId: M:Global.FederalUnit.GenerateFederalStructure
+  parent: Global.FederalUnit
+  name: GenerateFederalStructure()
+  nameWithType: FederalUnit.GenerateFederalStructure()
+  fullName: FederalUnit.GenerateFederalStructure()
+  spec.csharp:
+  - uid: Global.FederalUnit.GenerateFederalStructure
+    name: GenerateFederalStructure
+    nameWithType: FederalUnit.GenerateFederalStructure
+    fullName: FederalUnit.GenerateFederalStructure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.FederalUnit.GenerateFederalStructure
+    name: GenerateFederalStructure
+    nameWithType: FederalUnit.GenerateFederalStructure
+    fullName: FederalUnit.GenerateFederalStructure
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Salzburg.GenerateFederalStructure*
+  commentId: Overload:Global.Salzburg.GenerateFederalStructure
+  name: GenerateFederalStructure
+  nameWithType: Salzburg.GenerateFederalStructure
+  fullName: Salzburg.GenerateFederalStructure
+- uid: Global.Salzburg.GetBezirkByGKZ*
+  commentId: Overload:Global.Salzburg.GetBezirkByGKZ
+  name: GetBezirkByGKZ
+  nameWithType: Salzburg.GetBezirkByGKZ
+  fullName: Salzburg.GetBezirkByGKZ
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Salzburg.GetGemeindeByGKZ*
+  commentId: Overload:Global.Salzburg.GetGemeindeByGKZ
+  name: GetGemeindeByGKZ
+  nameWithType: Salzburg.GetGemeindeByGKZ
+  fullName: Salzburg.GetGemeindeByGKZ

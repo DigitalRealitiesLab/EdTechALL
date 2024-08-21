@@ -1,0 +1,179 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingArea
+  commentId: T:BuildingBox.BuildingArea
+  id: BuildingArea
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingArea.buildingAreaScaler
+  - BuildingBox.BuildingArea.buildingBoxData
+  - BuildingBox.BuildingArea.SetChildBehavioursEnabled``1(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: BuildingArea
+  nameWithType: BuildingArea
+  fullName: BuildingBox.BuildingArea
+  type: Class
+  source:
+    id: BuildingArea
+    path: ''
+    startLine: 336
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class BuildingArea : MonoBehaviour'
+    content.vb: >-
+      Public Class BuildingArea
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingArea.buildingBoxData
+  commentId: F:BuildingBox.BuildingArea.buildingBoxData
+  id: buildingBoxData
+  parent: BuildingBox.BuildingArea
+  langs:
+  - csharp
+  - vb
+  name: buildingBoxData
+  nameWithType: BuildingArea.buildingBoxData
+  fullName: BuildingBox.BuildingArea.buildingBoxData
+  type: Field
+  source:
+    id: buildingBoxData
+    path: ''
+    startLine: 339
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingBoxData buildingBoxData
+    return:
+      type: BuildingBox.BuildingBoxData
+    content.vb: Public buildingBoxData As BuildingBoxData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingArea.buildingAreaScaler
+  commentId: P:BuildingBox.BuildingArea.buildingAreaScaler
+  id: buildingAreaScaler
+  parent: BuildingBox.BuildingArea
+  langs:
+  - csharp
+  - vb
+  name: buildingAreaScaler
+  nameWithType: BuildingArea.buildingAreaScaler
+  fullName: BuildingBox.BuildingArea.buildingAreaScaler
+  type: Property
+  source:
+    id: buildingAreaScaler
+    path: ''
+    startLine: 341
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingAreaScaler buildingAreaScaler { get; }
+    parameters: []
+    return:
+      type: BuildingBox.BuildingAreaScaler
+    content.vb: Public ReadOnly Property buildingAreaScaler As BuildingAreaScaler
+  overload: BuildingBox.BuildingArea.buildingAreaScaler*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.BuildingArea.SetChildBehavioursEnabled``1(System.Boolean)
+  commentId: M:BuildingBox.BuildingArea.SetChildBehavioursEnabled``1(System.Boolean)
+  id: SetChildBehavioursEnabled``1(System.Boolean)
+  parent: BuildingBox.BuildingArea
+  langs:
+  - csharp
+  - vb
+  name: SetChildBehavioursEnabled<T>(Boolean)
+  nameWithType: BuildingArea.SetChildBehavioursEnabled<T>(Boolean)
+  fullName: BuildingBox.BuildingArea.SetChildBehavioursEnabled<T>(System.Boolean)
+  type: Method
+  source:
+    id: SetChildBehavioursEnabled
+    path: ''
+    startLine: 373
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: >-
+      public void SetChildBehavioursEnabled<T>(bool enabled)
+          where T : MonoBehaviour
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    content.vb: Public Sub SetChildBehavioursEnabled(Of T As MonoBehaviour)(enabled As Boolean)
+  overload: BuildingBox.BuildingArea.SetChildBehavioursEnabled*
+  nameWithType.vb: BuildingArea.SetChildBehavioursEnabled(Of T)(Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: BuildingBox.BuildingArea.SetChildBehavioursEnabled(Of T)(System.Boolean)
+  name.vb: SetChildBehavioursEnabled(Of T)(Boolean)
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BuildingBox.BuildingBoxData
+  commentId: T:BuildingBox.BuildingBoxData
+  parent: BuildingBox
+  name: BuildingBoxData
+  nameWithType: BuildingBoxData
+  fullName: BuildingBox.BuildingBoxData
+- uid: BuildingBox.BuildingArea.buildingAreaScaler*
+  commentId: Overload:BuildingBox.BuildingArea.buildingAreaScaler
+  name: buildingAreaScaler
+  nameWithType: BuildingArea.buildingAreaScaler
+  fullName: BuildingBox.BuildingArea.buildingAreaScaler
+- uid: BuildingBox.BuildingAreaScaler
+  commentId: T:BuildingBox.BuildingAreaScaler
+  parent: BuildingBox
+  name: BuildingAreaScaler
+  nameWithType: BuildingAreaScaler
+  fullName: BuildingBox.BuildingAreaScaler
+- uid: BuildingBox.BuildingArea.SetChildBehavioursEnabled*
+  commentId: Overload:BuildingBox.BuildingArea.SetChildBehavioursEnabled
+  name: SetChildBehavioursEnabled
+  nameWithType: BuildingArea.SetChildBehavioursEnabled
+  fullName: BuildingBox.BuildingArea.SetChildBehavioursEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

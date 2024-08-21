@@ -1,0 +1,646 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DictionaryListManager`2
+  commentId: T:Global.DictionaryListManager`2
+  id: DictionaryListManager`2
+  parent: Global
+  children:
+  - Global.DictionaryListManager`2.Add(`0,`1)
+  - Global.DictionaryListManager`2.Remove(`0,`1)
+  langs:
+  - csharp
+  - vb
+  name: DictionaryListManager<K, V>
+  nameWithType: DictionaryListManager<K, V>
+  fullName: DictionaryListManager<K, V>
+  type: Class
+  source:
+    id: DictionaryListManager
+    path: ''
+    startLine: 17378
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class DictionaryListManager<K, V> : DictionaryManager<K, List<V>> where K : IComparable'
+    typeParameters:
+    - id: K
+    - id: V
+    content.vb: >-
+      Public Class DictionaryListManager(Of K As IComparable, V)
+          Inherits DictionaryManager(Of K, List(Of V))
+  inheritance:
+  - System.Object
+  - Global.DictionaryManager{{K},List{{V}}}
+  inheritedMembers:
+  - Global.DictionaryManager{{K},List{{V}}}.managedReferences
+  - Global.DictionaryManager{{K},List{{V}}}.Add({K},List{{V}})
+  - Global.DictionaryManager{{K},List{{V}}}.RemoveAt({K})
+  - Global.DictionaryManager{{K},List{{V}}}.GetAt({K})
+  - Global.DictionaryManager{{K},List{{V}}}.GetAt``1({K})
+  nameWithType.vb: DictionaryListManager(Of K, V)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: DictionaryListManager(Of K, V)
+  name.vb: DictionaryListManager(Of K, V)
+- uid: Global.DictionaryListManager`2.Add(`0,`1)
+  commentId: M:Global.DictionaryListManager`2.Add(`0,`1)
+  id: Add(`0,`1)
+  parent: Global.DictionaryListManager`2
+  langs:
+  - csharp
+  - vb
+  name: Add(K, V)
+  nameWithType: DictionaryListManager<K, V>.Add(K, V)
+  fullName: DictionaryListManager<K, V>.Add(K, V)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 17380
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void Add(K key, V value)
+    parameters:
+    - id: key
+      type: '{K}'
+    - id: value
+      type: '{V}'
+    content.vb: Public Overridable Sub Add(key As K, value As V)
+  overload: Global.DictionaryListManager`2.Add*
+  nameWithType.vb: DictionaryListManager(Of K, V).Add(K, V)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: DictionaryListManager(Of K, V).Add(K, V)
+- uid: Global.DictionaryListManager`2.Remove(`0,`1)
+  commentId: M:Global.DictionaryListManager`2.Remove(`0,`1)
+  id: Remove(`0,`1)
+  parent: Global.DictionaryListManager`2
+  langs:
+  - csharp
+  - vb
+  name: Remove(K, V)
+  nameWithType: DictionaryListManager<K, V>.Remove(K, V)
+  fullName: DictionaryListManager<K, V>.Remove(K, V)
+  type: Method
+  source:
+    id: Remove
+    path: ''
+    startLine: 17387
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void Remove(K key, V value)
+    parameters:
+    - id: key
+      type: '{K}'
+    - id: value
+      type: '{V}'
+    content.vb: Public Overridable Sub Remove(key As K, value As V)
+  overload: Global.DictionaryListManager`2.Remove*
+  nameWithType.vb: DictionaryListManager(Of K, V).Remove(K, V)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: DictionaryListManager(Of K, V).Remove(K, V)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.DictionaryManager{{K},List{{V}}}
+  commentId: T:Global.DictionaryManager{`0,List{`1}}
+  definition: Global.DictionaryManager`2
+  name: DictionaryManager<K, List<V>>
+  nameWithType: DictionaryManager<K, List<V>>
+  fullName: DictionaryManager<K, List<V>>
+  nameWithType.vb: DictionaryManager(Of K, List(Of V))
+  fullName.vb: DictionaryManager(Of K, List(Of V))
+  name.vb: DictionaryManager(Of K, List(Of V))
+  spec.csharp:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{{K},List{{V}}}.managedReferences
+  commentId: F:Global.DictionaryManager{`0,List{`1}}.managedReferences
+  parent: Global.DictionaryManager{{K},List{{V}}}
+  definition: Global.DictionaryManager`2.managedReferences
+  name: managedReferences
+  nameWithType: DictionaryManager<K, List<V>>.managedReferences
+  fullName: DictionaryManager<K, List<V>>.managedReferences
+  nameWithType.vb: DictionaryManager(Of K, List(Of V)).managedReferences
+  fullName.vb: DictionaryManager(Of K, List(Of V)).managedReferences
+- uid: Global.DictionaryManager{{K},List{{V}}}.Add({K},List{{V}})
+  commentId: M:Global.DictionaryManager{`0,List{`1}}.Add(`0,List{`1})
+  parent: Global.DictionaryManager{{K},List{{V}}}
+  definition: Global.DictionaryManager`2.Add(`0,`1)
+  name: Add(K, List<V>)
+  nameWithType: DictionaryManager<K, List<V>>.Add(K, List<V>)
+  fullName: DictionaryManager<K, List<V>>.Add(K, List<V>)
+  nameWithType.vb: DictionaryManager(Of K, List(Of V)).Add(K, List(Of V))
+  fullName.vb: DictionaryManager(Of K, List(Of V)).Add(K, List(Of V))
+  name.vb: Add(K, List(Of V))
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager<K, List<V>>.Add
+    fullName: DictionaryManager<K, List<V>>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager(Of K, List(Of V)).Add
+    fullName: DictionaryManager(Of K, List(Of V)).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{{K},List{{V}}}.RemoveAt({K})
+  commentId: M:Global.DictionaryManager{`0,List{`1}}.RemoveAt(`0)
+  parent: Global.DictionaryManager{{K},List{{V}}}
+  definition: Global.DictionaryManager`2.RemoveAt(`0)
+  name: RemoveAt(K)
+  nameWithType: DictionaryManager<K, List<V>>.RemoveAt(K)
+  fullName: DictionaryManager<K, List<V>>.RemoveAt(K)
+  nameWithType.vb: DictionaryManager(Of K, List(Of V)).RemoveAt(K)
+  fullName.vb: DictionaryManager(Of K, List(Of V)).RemoveAt(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager<K, List<V>>.RemoveAt
+    fullName: DictionaryManager<K, List<V>>.RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager(Of K, List(Of V)).RemoveAt
+    fullName: DictionaryManager(Of K, List(Of V)).RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{{K},List{{V}}}.GetAt({K})
+  commentId: M:Global.DictionaryManager{`0,List{`1}}.GetAt(`0)
+  parent: Global.DictionaryManager{{K},List{{V}}}
+  definition: Global.DictionaryManager`2.GetAt(`0)
+  name: GetAt(K)
+  nameWithType: DictionaryManager<K, List<V>>.GetAt(K)
+  fullName: DictionaryManager<K, List<V>>.GetAt(K)
+  nameWithType.vb: DictionaryManager(Of K, List(Of V)).GetAt(K)
+  fullName.vb: DictionaryManager(Of K, List(Of V)).GetAt(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager<K, List<V>>.GetAt
+    fullName: DictionaryManager<K, List<V>>.GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager(Of K, List(Of V)).GetAt
+    fullName: DictionaryManager(Of K, List(Of V)).GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{{K},List{{V}}}.GetAt``1({K})
+  commentId: M:Global.DictionaryManager{`0,List{`1}}.GetAt``1(`0)
+  parent: Global.DictionaryManager{{K},List{{V}}}
+  definition: Global.DictionaryManager`2.GetAt``1(`0)
+  name: GetAt<X>(K)
+  nameWithType: DictionaryManager<K, List<V>>.GetAt<X>(K)
+  fullName: DictionaryManager<K, List<V>>.GetAt<X>(K)
+  nameWithType.vb: DictionaryManager(Of K, List(Of V)).GetAt(Of X)(K)
+  fullName.vb: DictionaryManager(Of K, List(Of V)).GetAt(Of X)(K)
+  name.vb: GetAt(Of X)(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt<X>
+    nameWithType: DictionaryManager<K, List<V>>.GetAt<X>
+    fullName: DictionaryManager<K, List<V>>.GetAt<X>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt(Of X)
+    nameWithType: DictionaryManager(Of K, List(Of V)).GetAt(Of X)
+    fullName: DictionaryManager(Of K, List(Of V)).GetAt(Of X)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DictionaryManager`2
+  commentId: T:Global.DictionaryManager`2
+  name: DictionaryManager<K, V>
+  nameWithType: DictionaryManager<K, V>
+  fullName: DictionaryManager<K, V>
+  nameWithType.vb: DictionaryManager(Of K, V)
+  fullName.vb: DictionaryManager(Of K, V)
+  name.vb: DictionaryManager(Of K, V)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.managedReferences
+  commentId: F:Global.DictionaryManager`2.managedReferences
+  name: managedReferences
+  nameWithType: DictionaryManager<K, V>.managedReferences
+  fullName: DictionaryManager<K, V>.managedReferences
+  nameWithType.vb: DictionaryManager(Of K, V).managedReferences
+  fullName.vb: DictionaryManager(Of K, V).managedReferences
+- uid: Global.DictionaryManager`2.Add(`0,`1)
+  commentId: M:Global.DictionaryManager`2.Add(`0,`1)
+  name: Add(K, V)
+  nameWithType: DictionaryManager<K, V>.Add(K, V)
+  fullName: DictionaryManager<K, V>.Add(K, V)
+  nameWithType.vb: DictionaryManager(Of K, V).Add(K, V)
+  fullName.vb: DictionaryManager(Of K, V).Add(K, V)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager<K, V>.Add
+    fullName: DictionaryManager<K, V>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager(Of K, V).Add
+    fullName: DictionaryManager(Of K, V).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.RemoveAt(`0)
+  commentId: M:Global.DictionaryManager`2.RemoveAt(`0)
+  name: RemoveAt(K)
+  nameWithType: DictionaryManager<K, V>.RemoveAt(K)
+  fullName: DictionaryManager<K, V>.RemoveAt(K)
+  nameWithType.vb: DictionaryManager(Of K, V).RemoveAt(K)
+  fullName.vb: DictionaryManager(Of K, V).RemoveAt(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager<K, V>.RemoveAt
+    fullName: DictionaryManager<K, V>.RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager(Of K, V).RemoveAt
+    fullName: DictionaryManager(Of K, V).RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.GetAt(`0)
+  commentId: M:Global.DictionaryManager`2.GetAt(`0)
+  name: GetAt(K)
+  nameWithType: DictionaryManager<K, V>.GetAt(K)
+  fullName: DictionaryManager<K, V>.GetAt(K)
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt(K)
+  fullName.vb: DictionaryManager(Of K, V).GetAt(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager<K, V>.GetAt
+    fullName: DictionaryManager<K, V>.GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager(Of K, V).GetAt
+    fullName: DictionaryManager(Of K, V).GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.GetAt``1(`0)
+  commentId: M:Global.DictionaryManager`2.GetAt``1(`0)
+  name: GetAt<X>(K)
+  nameWithType: DictionaryManager<K, V>.GetAt<X>(K)
+  fullName: DictionaryManager<K, V>.GetAt<X>(K)
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt(Of X)(K)
+  fullName.vb: DictionaryManager(Of K, V).GetAt(Of X)(K)
+  name.vb: GetAt(Of X)(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt<X>
+    nameWithType: DictionaryManager<K, V>.GetAt<X>
+    fullName: DictionaryManager<K, V>.GetAt<X>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt(Of X)
+    nameWithType: DictionaryManager(Of K, V).GetAt(Of X)
+    fullName: DictionaryManager(Of K, V).GetAt(Of X)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryListManager`2.Add*
+  commentId: Overload:Global.DictionaryListManager`2.Add
+  name: Add
+  nameWithType: DictionaryListManager<K, V>.Add
+  fullName: DictionaryListManager<K, V>.Add
+  nameWithType.vb: DictionaryListManager(Of K, V).Add
+  fullName.vb: DictionaryListManager(Of K, V).Add
+- uid: '{K}'
+  commentId: '!:K'
+  definition: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: '{V}'
+  commentId: '!:V'
+  definition: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: Global.DictionaryListManager`2.Remove*
+  commentId: Overload:Global.DictionaryListManager`2.Remove
+  name: Remove
+  nameWithType: DictionaryListManager<K, V>.Remove
+  fullName: DictionaryListManager<K, V>.Remove
+  nameWithType.vb: DictionaryListManager(Of K, V).Remove
+  fullName.vb: DictionaryListManager(Of K, V).Remove

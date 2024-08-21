@@ -1,0 +1,243 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.APOIBehaviour
+  commentId: T:Global.APOIBehaviour
+  id: APOIBehaviour
+  parent: Global
+  children:
+  - Global.APOIBehaviour.behaviourType
+  - Global.APOIBehaviour.InitBehaviour
+  - Global.APOIBehaviour.poi
+  - Global.APOIBehaviour.UpdateBehaviour
+  - Global.APOIBehaviour.viewer
+  langs:
+  - csharp
+  - vb
+  name: APOIBehaviour
+  nameWithType: APOIBehaviour
+  fullName: APOIBehaviour
+  type: Class
+  source:
+    id: APOIBehaviour
+    path: ''
+    startLine: 23369
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class APOIBehaviour : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class APOIBehaviour
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.POIColorBehaviour
+  - Global.POIHighlightAreaBehaviour
+  - Global.POIPlacementBehaviour
+  - Global.POIRotateBehaviour
+  - Global.POIScaleBehaviour
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Global.APOIBehaviour.viewer
+  commentId: F:Global.APOIBehaviour.viewer
+  id: viewer
+  parent: Global.APOIBehaviour
+  langs:
+  - csharp
+  - vb
+  name: viewer
+  nameWithType: APOIBehaviour.viewer
+  fullName: APOIBehaviour.viewer
+  type: Field
+  source:
+    id: viewer
+    path: ''
+    startLine: 23372
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Camera viewer
+    return:
+      type: Global.Camera
+    content.vb: Public viewer As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.APOIBehaviour.poi
+  commentId: F:Global.APOIBehaviour.poi
+  id: poi
+  parent: Global.APOIBehaviour
+  langs:
+  - csharp
+  - vb
+  name: poi
+  nameWithType: APOIBehaviour.poi
+  fullName: APOIBehaviour.poi
+  type: Field
+  source:
+    id: poi
+    path: ''
+    startLine: 23374
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public POI poi
+    return:
+      type: Global.POI
+    content.vb: Public poi As POI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.APOIBehaviour.behaviourType
+  commentId: P:Global.APOIBehaviour.behaviourType
+  id: behaviourType
+  parent: Global.APOIBehaviour
+  langs:
+  - csharp
+  - vb
+  name: behaviourType
+  nameWithType: APOIBehaviour.behaviourType
+  fullName: APOIBehaviour.behaviourType
+  type: Property
+  source:
+    id: behaviourType
+    path: ''
+    startLine: 23375
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract string behaviourType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public MustOverride ReadOnly Property behaviourType As String
+  overload: Global.APOIBehaviour.behaviourType*
+  modifiers.csharp:
+  - public
+  - abstract
+  - get
+  modifiers.vb:
+  - Public
+  - MustOverride
+  - ReadOnly
+- uid: Global.APOIBehaviour.InitBehaviour
+  commentId: M:Global.APOIBehaviour.InitBehaviour
+  id: InitBehaviour
+  parent: Global.APOIBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InitBehaviour()
+  nameWithType: APOIBehaviour.InitBehaviour()
+  fullName: APOIBehaviour.InitBehaviour()
+  type: Method
+  source:
+    id: InitBehaviour
+    path: ''
+    startLine: 23377
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract void InitBehaviour()
+    content.vb: Public MustOverride Sub InitBehaviour
+  overload: Global.APOIBehaviour.InitBehaviour*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: Global.APOIBehaviour.UpdateBehaviour
+  commentId: M:Global.APOIBehaviour.UpdateBehaviour
+  id: UpdateBehaviour
+  parent: Global.APOIBehaviour
+  langs:
+  - csharp
+  - vb
+  name: UpdateBehaviour()
+  nameWithType: APOIBehaviour.UpdateBehaviour()
+  fullName: APOIBehaviour.UpdateBehaviour()
+  type: Method
+  source:
+    id: UpdateBehaviour
+    path: ''
+    startLine: 23378
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract void UpdateBehaviour()
+    content.vb: Public MustOverride Sub UpdateBehaviour
+  overload: Global.APOIBehaviour.UpdateBehaviour*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Camera
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: Global.POI
+  commentId: T:Global.POI
+  name: POI
+  nameWithType: POI
+  fullName: POI
+- uid: Global.APOIBehaviour.behaviourType*
+  commentId: Overload:Global.APOIBehaviour.behaviourType
+  name: behaviourType
+  nameWithType: APOIBehaviour.behaviourType
+  fullName: APOIBehaviour.behaviourType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.APOIBehaviour.InitBehaviour*
+  commentId: Overload:Global.APOIBehaviour.InitBehaviour
+  name: InitBehaviour
+  nameWithType: APOIBehaviour.InitBehaviour
+  fullName: APOIBehaviour.InitBehaviour
+- uid: Global.APOIBehaviour.UpdateBehaviour*
+  commentId: Overload:Global.APOIBehaviour.UpdateBehaviour
+  name: UpdateBehaviour
+  nameWithType: APOIBehaviour.UpdateBehaviour
+  fullName: APOIBehaviour.UpdateBehaviour

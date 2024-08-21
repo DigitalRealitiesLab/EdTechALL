@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.CardStackUIButton
+  commentId: T:CardModule.UI.CardStackUIButton
+  id: CardStackUIButton
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.CardStackUIButton.button
+  - CardModule.UI.CardStackUIButton.cardCountText
+  - CardModule.UI.CardStackUIButton.OnClick
+  - CardModule.UI.CardStackUIButton.SetActiveCardCount(System.Int32)
+  langs:
+  - csharp
+  - vb
+  name: CardStackUIButton
+  nameWithType: CardStackUIButton
+  fullName: CardModule.UI.CardStackUIButton
+  type: Class
+  source:
+    id: CardStackUIButton
+    path: ''
+    startLine: 20049
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: 'public class CardStackUIButton : MonoBehaviour'
+    content.vb: >-
+      Public Class CardStackUIButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.UI.CardStackUIButton.button
+  commentId: F:CardModule.UI.CardStackUIButton.button
+  id: button
+  parent: CardModule.UI.CardStackUIButton
+  langs:
+  - csharp
+  - vb
+  name: button
+  nameWithType: CardStackUIButton.button
+  fullName: CardModule.UI.CardStackUIButton.button
+  type: Field
+  source:
+    id: button
+    path: ''
+    startLine: 20051
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public Button button
+    return:
+      type: Global.Button
+    content.vb: Public button As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackUIButton.cardCountText
+  commentId: F:CardModule.UI.CardStackUIButton.cardCountText
+  id: cardCountText
+  parent: CardModule.UI.CardStackUIButton
+  langs:
+  - csharp
+  - vb
+  name: cardCountText
+  nameWithType: CardStackUIButton.cardCountText
+  fullName: CardModule.UI.CardStackUIButton.cardCountText
+  type: Field
+  source:
+    id: cardCountText
+    path: ''
+    startLine: 20052
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TMPro.TextMeshProUGUI cardCountText
+    return:
+      type: Global.TMPro.TextMeshProUGUI
+    content.vb: Public cardCountText As TMPro.TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackUIButton.OnClick
+  commentId: M:CardModule.UI.CardStackUIButton.OnClick
+  id: OnClick
+  parent: CardModule.UI.CardStackUIButton
+  langs:
+  - csharp
+  - vb
+  name: OnClick()
+  nameWithType: CardStackUIButton.OnClick()
+  fullName: CardModule.UI.CardStackUIButton.OnClick()
+  type: Method
+  source:
+    id: OnClick
+    path: ''
+    startLine: 20068
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public void OnClick()
+    content.vb: Public Sub OnClick
+  overload: CardModule.UI.CardStackUIButton.OnClick*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackUIButton.SetActiveCardCount(System.Int32)
+  commentId: M:CardModule.UI.CardStackUIButton.SetActiveCardCount(System.Int32)
+  id: SetActiveCardCount(System.Int32)
+  parent: CardModule.UI.CardStackUIButton
+  langs:
+  - csharp
+  - vb
+  name: SetActiveCardCount(Int32)
+  nameWithType: CardStackUIButton.SetActiveCardCount(Int32)
+  fullName: CardModule.UI.CardStackUIButton.SetActiveCardCount(System.Int32)
+  type: Method
+  source:
+    id: SetActiveCardCount
+    path: ''
+    startLine: 20073
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public void SetActiveCardCount(int count)
+    parameters:
+    - id: count
+      type: System.Int32
+    content.vb: Public Sub SetActiveCardCount(count As Integer)
+  overload: CardModule.UI.CardStackUIButton.SetActiveCardCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.TMPro.TextMeshProUGUI
+  isExternal: true
+  name: TMPro.TextMeshProUGUI
+  nameWithType: TMPro.TextMeshProUGUI
+  fullName: TMPro.TextMeshProUGUI
+- uid: CardModule.UI.CardStackUIButton.OnClick*
+  commentId: Overload:CardModule.UI.CardStackUIButton.OnClick
+  name: OnClick
+  nameWithType: CardStackUIButton.OnClick
+  fullName: CardModule.UI.CardStackUIButton.OnClick
+- uid: CardModule.UI.CardStackUIButton.SetActiveCardCount*
+  commentId: Overload:CardModule.UI.CardStackUIButton.SetActiveCardCount
+  name: SetActiveCardCount
+  nameWithType: CardStackUIButton.SetActiveCardCount
+  fullName: CardModule.UI.CardStackUIButton.SetActiveCardCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

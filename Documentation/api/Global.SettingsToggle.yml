@@ -1,0 +1,508 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SettingsToggle
+  commentId: T:Global.SettingsToggle
+  id: SettingsToggle
+  parent: Global
+  children:
+  - Global.SettingsToggle.chooseWithDropdown
+  - Global.SettingsToggle.index
+  - Global.SettingsToggle.LoadFromPlayerPrefs(System.String)
+  - Global.SettingsToggle.playerPrefsKey
+  - Global.SettingsToggle.SaveToPlayerPrefs(System.String,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SettingsToggle
+  nameWithType: SettingsToggle
+  fullName: SettingsToggle
+  type: Class
+  source:
+    id: SettingsToggle
+    path: ''
+    startLine: 20962
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SettingsToggle : MonoBehaviour, IPlayerPrefsIO<bool>'
+    content.vb: >-
+      Public Class SettingsToggle
+          Inherits MonoBehaviour
+          Implements IPlayerPrefsIO(Of Boolean)
+  inheritance:
+  - System.Object
+  implements:
+  - Global.IPlayerPrefsIO{System.Boolean}
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SettingsToggle.chooseWithDropdown
+  commentId: F:Global.SettingsToggle.chooseWithDropdown
+  id: chooseWithDropdown
+  parent: Global.SettingsToggle
+  langs:
+  - csharp
+  - vb
+  name: chooseWithDropdown
+  nameWithType: SettingsToggle.chooseWithDropdown
+  fullName: SettingsToggle.chooseWithDropdown
+  type: Field
+  source:
+    id: chooseWithDropdown
+    path: ''
+    startLine: 20966
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool chooseWithDropdown
+    return:
+      type: System.Boolean
+    content.vb: Public chooseWithDropdown As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SettingsToggle.playerPrefsKey
+  commentId: F:Global.SettingsToggle.playerPrefsKey
+  id: playerPrefsKey
+  parent: Global.SettingsToggle
+  langs:
+  - csharp
+  - vb
+  name: playerPrefsKey
+  nameWithType: SettingsToggle.playerPrefsKey
+  fullName: SettingsToggle.playerPrefsKey
+  type: Field
+  source:
+    id: playerPrefsKey
+    path: ''
+    startLine: 20968
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string playerPrefsKey
+    return:
+      type: System.String
+    content.vb: Public playerPrefsKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SettingsToggle.index
+  commentId: F:Global.SettingsToggle.index
+  id: index
+  parent: Global.SettingsToggle
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: SettingsToggle.index
+  fullName: SettingsToggle.index
+  type: Field
+  source:
+    id: index
+    path: ''
+    startLine: 20970
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int index
+    return:
+      type: System.Int32
+    content.vb: Public index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SettingsToggle.SaveToPlayerPrefs(System.String,System.Boolean)
+  commentId: M:Global.SettingsToggle.SaveToPlayerPrefs(System.String,System.Boolean)
+  id: SaveToPlayerPrefs(System.String,System.Boolean)
+  parent: Global.SettingsToggle
+  langs:
+  - csharp
+  - vb
+  name: SaveToPlayerPrefs(String, Boolean)
+  nameWithType: SettingsToggle.SaveToPlayerPrefs(String, Boolean)
+  fullName: SettingsToggle.SaveToPlayerPrefs(System.String, System.Boolean)
+  type: Method
+  source:
+    id: SaveToPlayerPrefs
+    path: ''
+    startLine: 20989
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SaveToPlayerPrefs(string key, bool value)
+    parameters:
+    - id: key
+      type: System.String
+    - id: value
+      type: System.Boolean
+    content.vb: Public Sub SaveToPlayerPrefs(key As String, value As Boolean)
+  overload: Global.SettingsToggle.SaveToPlayerPrefs*
+  implements:
+  - Global.IPlayerPrefsIO{System.Boolean}.SaveToPlayerPrefs(System.String,System.Boolean)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SettingsToggle.LoadFromPlayerPrefs(System.String)
+  commentId: M:Global.SettingsToggle.LoadFromPlayerPrefs(System.String)
+  id: LoadFromPlayerPrefs(System.String)
+  parent: Global.SettingsToggle
+  langs:
+  - csharp
+  - vb
+  name: LoadFromPlayerPrefs(String)
+  nameWithType: SettingsToggle.LoadFromPlayerPrefs(String)
+  fullName: SettingsToggle.LoadFromPlayerPrefs(System.String)
+  type: Method
+  source:
+    id: LoadFromPlayerPrefs
+    path: ''
+    startLine: 20996
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool LoadFromPlayerPrefs(string key)
+    parameters:
+    - id: key
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Function LoadFromPlayerPrefs(key As String) As Boolean
+  overload: Global.SettingsToggle.LoadFromPlayerPrefs*
+  implements:
+  - Global.IPlayerPrefsIO{System.Boolean}.LoadFromPlayerPrefs(System.String)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.IPlayerPrefsIO{System.Boolean}
+  commentId: T:Global.IPlayerPrefsIO{System.Boolean}
+  definition: Global.IPlayerPrefsIO`1
+  name: IPlayerPrefsIO<Boolean>
+  nameWithType: IPlayerPrefsIO<Boolean>
+  fullName: IPlayerPrefsIO<System.Boolean>
+  nameWithType.vb: IPlayerPrefsIO(Of Boolean)
+  fullName.vb: IPlayerPrefsIO(Of System.Boolean)
+  name.vb: IPlayerPrefsIO(Of Boolean)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.IPlayerPrefsIO`1
+  commentId: T:Global.IPlayerPrefsIO`1
+  name: IPlayerPrefsIO<T>
+  nameWithType: IPlayerPrefsIO<T>
+  fullName: IPlayerPrefsIO<T>
+  nameWithType.vb: IPlayerPrefsIO(Of T)
+  fullName.vb: IPlayerPrefsIO(Of T)
+  name.vb: IPlayerPrefsIO(Of T)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.SettingsToggle.SaveToPlayerPrefs*
+  commentId: Overload:Global.SettingsToggle.SaveToPlayerPrefs
+  name: SaveToPlayerPrefs
+  nameWithType: SettingsToggle.SaveToPlayerPrefs
+  fullName: SettingsToggle.SaveToPlayerPrefs
+- uid: Global.IPlayerPrefsIO{System.Boolean}.SaveToPlayerPrefs(System.String,System.Boolean)
+  commentId: M:Global.IPlayerPrefsIO{System.Boolean}.SaveToPlayerPrefs(System.String,System.Boolean)
+  parent: Global.IPlayerPrefsIO{System.Boolean}
+  definition: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  name: SaveToPlayerPrefs(String, Boolean)
+  nameWithType: IPlayerPrefsIO<Boolean>.SaveToPlayerPrefs(String, Boolean)
+  fullName: IPlayerPrefsIO<System.Boolean>.SaveToPlayerPrefs(System.String, System.Boolean)
+  nameWithType.vb: IPlayerPrefsIO(Of Boolean).SaveToPlayerPrefs(String, Boolean)
+  fullName.vb: IPlayerPrefsIO(Of System.Boolean).SaveToPlayerPrefs(System.String, System.Boolean)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+    name: SaveToPlayerPrefs
+    nameWithType: IPlayerPrefsIO<Boolean>.SaveToPlayerPrefs
+    fullName: IPlayerPrefsIO<System.Boolean>.SaveToPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+    name: SaveToPlayerPrefs
+    nameWithType: IPlayerPrefsIO(Of Boolean).SaveToPlayerPrefs
+    fullName: IPlayerPrefsIO(Of System.Boolean).SaveToPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  commentId: M:Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+  isExternal: true
+  name: SaveToPlayerPrefs(String, T)
+  nameWithType: IPlayerPrefsIO<T>.SaveToPlayerPrefs(String, T)
+  fullName: IPlayerPrefsIO<T>.SaveToPlayerPrefs(System.String, T)
+  nameWithType.vb: IPlayerPrefsIO(Of T).SaveToPlayerPrefs(String, T)
+  fullName.vb: IPlayerPrefsIO(Of T).SaveToPlayerPrefs(System.String, T)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+    name: SaveToPlayerPrefs
+    nameWithType: IPlayerPrefsIO<T>.SaveToPlayerPrefs
+    fullName: IPlayerPrefsIO<T>.SaveToPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1.SaveToPlayerPrefs(System.String,`0)
+    name: SaveToPlayerPrefs
+    nameWithType: IPlayerPrefsIO(Of T).SaveToPlayerPrefs
+    fullName: IPlayerPrefsIO(Of T).SaveToPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.SettingsToggle.LoadFromPlayerPrefs*
+  commentId: Overload:Global.SettingsToggle.LoadFromPlayerPrefs
+  name: LoadFromPlayerPrefs
+  nameWithType: SettingsToggle.LoadFromPlayerPrefs
+  fullName: SettingsToggle.LoadFromPlayerPrefs
+- uid: Global.IPlayerPrefsIO{System.Boolean}.LoadFromPlayerPrefs(System.String)
+  commentId: M:Global.IPlayerPrefsIO{System.Boolean}.LoadFromPlayerPrefs(System.String)
+  parent: Global.IPlayerPrefsIO{System.Boolean}
+  definition: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  name: LoadFromPlayerPrefs(String)
+  nameWithType: IPlayerPrefsIO<Boolean>.LoadFromPlayerPrefs(String)
+  fullName: IPlayerPrefsIO<System.Boolean>.LoadFromPlayerPrefs(System.String)
+  nameWithType.vb: IPlayerPrefsIO(Of Boolean).LoadFromPlayerPrefs(String)
+  fullName.vb: IPlayerPrefsIO(Of System.Boolean).LoadFromPlayerPrefs(System.String)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+    name: LoadFromPlayerPrefs
+    nameWithType: IPlayerPrefsIO<Boolean>.LoadFromPlayerPrefs
+    fullName: IPlayerPrefsIO<System.Boolean>.LoadFromPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+    name: LoadFromPlayerPrefs
+    nameWithType: IPlayerPrefsIO(Of Boolean).LoadFromPlayerPrefs
+    fullName: IPlayerPrefsIO(Of System.Boolean).LoadFromPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  commentId: M:Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+  isExternal: true
+  name: LoadFromPlayerPrefs(String)
+  nameWithType: IPlayerPrefsIO<T>.LoadFromPlayerPrefs(String)
+  fullName: IPlayerPrefsIO<T>.LoadFromPlayerPrefs(System.String)
+  nameWithType.vb: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs(String)
+  fullName.vb: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs(System.String)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+    name: LoadFromPlayerPrefs
+    nameWithType: IPlayerPrefsIO<T>.LoadFromPlayerPrefs
+    fullName: IPlayerPrefsIO<T>.LoadFromPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1.LoadFromPlayerPrefs(System.String)
+    name: LoadFromPlayerPrefs
+    nameWithType: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs
+    fullName: IPlayerPrefsIO(Of T).LoadFromPlayerPrefs
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

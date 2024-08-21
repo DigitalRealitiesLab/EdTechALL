@@ -1,0 +1,719 @@
+{
+    "SalzburgMunicipalities":
+    [
+        {
+            "MunicipalCode": "50101",
+            "MunicipalityName": "Salzburg",
+            "Status": "SS",
+            "Population": "150 938"
+        },
+        {
+            "MunicipalCode": "50201",
+            "MunicipalityName": "Abtenau",
+            "Status": "M",
+            "Population": "5 805"
+        },
+        {
+            "MunicipalCode": "50202",
+            "MunicipalityName": "Adnet",
+            "Status": "",
+            "Population": "3 553"
+        },
+        {
+            "MunicipalCode": "50203",
+            "MunicipalityName": "Annaberg-Lungötz",
+            "Status": "",
+            "Population": "2 209"
+        },
+        {
+            "MunicipalCode": "50204",
+            "MunicipalityName": "Golling an der Salzach",
+            "Status": "M",
+            "Population": "4 224"
+        },
+        {
+            "MunicipalCode": "50205",
+            "MunicipalityName": "Hallein",
+            "Status": "ST",
+            "Population": "21 043"
+        },
+        {
+            "MunicipalCode": "50206",
+            "MunicipalityName": "Krispl",
+            "Status": "",
+            "Population": " 893"
+        },
+        {
+            "MunicipalCode": "50207",
+            "MunicipalityName": "Kuchl",
+            "Status": "M",
+            "Population": "7 188"
+        },
+        {
+            "MunicipalCode": "50208",
+            "MunicipalityName": "Oberalm",
+            "Status": "M",
+            "Population": "4 266"
+        },
+        {
+            "MunicipalCode": "50209",
+            "MunicipalityName": "Puch bei Hallein",
+            "Status": "",
+            "Population": "4 703"
+        },
+        {
+            "MunicipalCode": "50210",
+            "MunicipalityName": "Rußbach am Paß Gschütt",
+            "Status": "",
+            "Population": " 785"
+        },
+        {
+            "MunicipalCode": "50211",
+            "MunicipalityName": "St. Koloman",
+            "Status": "",
+            "Population": "1 715"
+        },
+        {
+            "MunicipalCode": "50212",
+            "MunicipalityName": "Scheffau am Tennengebirge",
+            "Status": "",
+            "Population": "1 375"
+        },
+        {
+            "MunicipalCode": "50213",
+            "MunicipalityName": "Bad Vigaun",
+            "Status": "",
+            "Population": "2 060"
+        },
+        {
+            "MunicipalCode": "50301",
+            "MunicipalityName": "Anif",
+            "Status": "",
+            "Population": "4 160"
+        },
+        {
+            "MunicipalCode": "50302",
+            "MunicipalityName": "Anthering",
+            "Status": "",
+            "Population": "3 721"
+        },
+        {
+            "MunicipalCode": "50303",
+            "MunicipalityName": "Bergheim",
+            "Status": "",
+            "Population": "5 297"
+        },
+        {
+            "MunicipalCode": "50304",
+            "MunicipalityName": "Berndorf bei Salzburg",
+            "Status": "",
+            "Population": "1 678"
+        },
+        {
+            "MunicipalCode": "50305",
+            "MunicipalityName": "Bürmoos",
+            "Status": "",
+            "Population": "4 869"
+        },
+        {
+            "MunicipalCode": "50306",
+            "MunicipalityName": "Dorfbeuern",
+            "Status": "",
+            "Population": "1 525"
+        },
+        {
+            "MunicipalCode": "50307",
+            "MunicipalityName": "Ebenau",
+            "Status": "",
+            "Population": "1 446"
+        },
+        {
+            "MunicipalCode": "50308",
+            "MunicipalityName": "Elixhausen",
+            "Status": "",
+            "Population": "2 926"
+        },
+        {
+            "MunicipalCode": "50309",
+            "MunicipalityName": "Elsbethen",
+            "Status": "",
+            "Population": "5 357"
+        },
+        {
+            "MunicipalCode": "50310",
+            "MunicipalityName": "Eugendorf",
+            "Status": "M",
+            "Population": "6 919"
+        },
+        {
+            "MunicipalCode": "50311",
+            "MunicipalityName": "Faistenau",
+            "Status": "",
+            "Population": "3 066"
+        },
+        {
+            "MunicipalCode": "50312",
+            "MunicipalityName": "Fuschl am See",
+            "Status": "",
+            "Population": "1 496"
+        },
+        {
+            "MunicipalCode": "50313",
+            "MunicipalityName": "Göming",
+            "Status": "",
+            "Population": " 773"
+        },
+        {
+            "MunicipalCode": "50314",
+            "MunicipalityName": "Grödig",
+            "Status": "M",
+            "Population": "7 214"
+        },
+        {
+            "MunicipalCode": "50315",
+            "MunicipalityName": "Großgmain",
+            "Status": "",
+            "Population": "2 577"
+        },
+        {
+            "MunicipalCode": "50316",
+            "MunicipalityName": "Hallwang",
+            "Status": "",
+            "Population": "4 080"
+        },
+        {
+            "MunicipalCode": "50317",
+            "MunicipalityName": "Henndorf am Wallersee",
+            "Status": "",
+            "Population": "4 906"
+        },
+        {
+            "MunicipalCode": "50318",
+            "MunicipalityName": "Hintersee",
+            "Status": "",
+            "Population": " 454"
+        },
+        {
+            "MunicipalCode": "50319",
+            "MunicipalityName": "Hof bei Salzburg",
+            "Status": "",
+            "Population": "3 471"
+        },
+        {
+            "MunicipalCode": "50320",
+            "MunicipalityName": "Köstendorf",
+            "Status": "",
+            "Population": "2 590"
+        },
+        {
+            "MunicipalCode": "50321",
+            "MunicipalityName": "Koppl",
+            "Status": "",
+            "Population": "3 413"
+        },
+        {
+            "MunicipalCode": "50322",
+            "MunicipalityName": "Lamprechtshausen",
+            "Status": "",
+            "Population": "3 991"
+        },
+        {
+            "MunicipalCode": "50323",
+            "MunicipalityName": "Mattsee",
+            "Status": "M",
+            "Population": "3 233"
+        },
+        {
+            "MunicipalCode": "50324",
+            "MunicipalityName": "Neumarkt am Wallersee",
+            "Status": "ST",
+            "Population": "6 318"
+        },
+        {
+            "MunicipalCode": "50325",
+            "MunicipalityName": "Nußdorf am Haunsberg",
+            "Status": "",
+            "Population": "2 405"
+        },
+        {
+            "MunicipalCode": "50326",
+            "MunicipalityName": "Oberndorf bei Salzburg",
+            "Status": "ST",
+            "Population": "5 578"
+        },
+        {
+            "MunicipalCode": "50327",
+            "MunicipalityName": "Obertrum am See",
+            "Status": "M",
+            "Population": "4 760"
+        },
+        {
+            "MunicipalCode": "50328",
+            "MunicipalityName": "Plainfeld",
+            "Status": "",
+            "Population": "1 238"
+        },
+        {
+            "MunicipalCode": "50329",
+            "MunicipalityName": "St. Georgen bei Salzburg",
+            "Status": "",
+            "Population": "2 908"
+        },
+        {
+            "MunicipalCode": "50330",
+            "MunicipalityName": "St. Gilgen",
+            "Status": "",
+            "Population": "3 915"
+        },
+        {
+            "MunicipalCode": "50331",
+            "MunicipalityName": "Schleedorf",
+            "Status": "",
+            "Population": "1 088"
+        },
+        {
+            "MunicipalCode": "50332",
+            "MunicipalityName": "Seeham",
+            "Status": "",
+            "Population": "1 916"
+        },
+        {
+            "MunicipalCode": "50335",
+            "MunicipalityName": "Straßwalchen",
+            "Status": "M",
+            "Population": "7 340"
+        },
+        {
+            "MunicipalCode": "50336",
+            "MunicipalityName": "Strobl am Wolfgangsee",
+            "Status": "",
+            "Population": "3 630"
+        },
+        {
+            "MunicipalCode": "50337",
+            "MunicipalityName": "Thalgau",
+            "Status": "M",
+            "Population": "5 912"
+        },
+        {
+            "MunicipalCode": "50338",
+            "MunicipalityName": "Wals-Siezenheim",
+            "Status": "",
+            "Population": "13 101"
+        },
+        {
+            "MunicipalCode": "50339",
+            "MunicipalityName": "Seekirchen am Wallersee",
+            "Status": "ST",
+            "Population": "10 585"
+        },
+        {
+            "MunicipalCode": "50401",
+            "MunicipalityName": "Altenmarkt im Pongau",
+            "Status": "M",
+            "Population": "4 071"
+        },
+        {
+            "MunicipalCode": "50402",
+            "MunicipalityName": "Bad Hofgastein",
+            "Status": "M",
+            "Population": "6 909"
+        },
+        {
+            "MunicipalCode": "50403",
+            "MunicipalityName": "Bad Gastein",
+            "Status": "",
+            "Population": "4 068"
+        },
+        {
+            "MunicipalCode": "50404",
+            "MunicipalityName": "Bischofshofen",
+            "Status": "ST",
+            "Population": "10 483"
+        },
+        {
+            "MunicipalCode": "50405",
+            "MunicipalityName": "Dorfgastein",
+            "Status": "",
+            "Population": "1 627"
+        },
+        {
+            "MunicipalCode": "50406",
+            "MunicipalityName": "Eben im Pongau",
+            "Status": "",
+            "Population": "2 409"
+        },
+        {
+            "MunicipalCode": "50407",
+            "MunicipalityName": "Filzmoos",
+            "Status": "",
+            "Population": "1 461"
+        },
+        {
+            "MunicipalCode": "50408",
+            "MunicipalityName": "Flachau",
+            "Status": "",
+            "Population": "2 782"
+        },
+        {
+            "MunicipalCode": "50409",
+            "MunicipalityName": "Forstau",
+            "Status": "",
+            "Population": " 526"
+        },
+        {
+            "MunicipalCode": "50410",
+            "MunicipalityName": "Goldegg",
+            "Status": "",
+            "Population": "2 555"
+        },
+        {
+            "MunicipalCode": "50411",
+            "MunicipalityName": "Großarl",
+            "Status": "M",
+            "Population": "3 811"
+        },
+        {
+            "MunicipalCode": "50412",
+            "MunicipalityName": "Hüttau",
+            "Status": "",
+            "Population": "1 542"
+        },
+        {
+            "MunicipalCode": "50413",
+            "MunicipalityName": "Hüttschlag",
+            "Status": "",
+            "Population": " 914"
+        },
+        {
+            "MunicipalCode": "50414",
+            "MunicipalityName": "Kleinarl",
+            "Status": "",
+            "Population": " 774"
+        },
+        {
+            "MunicipalCode": "50415",
+            "MunicipalityName": "Mühlbach am Hochkönig",
+            "Status": "",
+            "Population": "1 474"
+        },
+        {
+            "MunicipalCode": "50416",
+            "MunicipalityName": "Pfarrwerfen",
+            "Status": "",
+            "Population": "2 232"
+        },
+        {
+            "MunicipalCode": "50417",
+            "MunicipalityName": "Radstadt",
+            "Status": "ST",
+            "Population": "4 880"
+        },
+        {
+            "MunicipalCode": "50418",
+            "MunicipalityName": "St. Johann im Pongau",
+            "Status": "ST",
+            "Population": "10 929"
+        },
+        {
+            "MunicipalCode": "50419",
+            "MunicipalityName": "St. Martin am Tennengebirge",
+            "Status": "",
+            "Population": "1 642"
+        },
+        {
+            "MunicipalCode": "50420",
+            "MunicipalityName": "St. Veit im Pongau",
+            "Status": "M",
+            "Population": "3 736"
+        },
+        {
+            "MunicipalCode": "50421",
+            "MunicipalityName": "Schwarzach im Pongau",
+            "Status": "M",
+            "Population": "3 547"
+        },
+        {
+            "MunicipalCode": "50422",
+            "MunicipalityName": "Untertauern",
+            "Status": "",
+            "Population": " 460"
+        },
+        {
+            "MunicipalCode": "50423",
+            "MunicipalityName": "Wagrain",
+            "Status": "M",
+            "Population": "3 081"
+        },
+        {
+            "MunicipalCode": "50424",
+            "MunicipalityName": "Werfen",
+            "Status": "M",
+            "Population": "2 970"
+        },
+        {
+            "MunicipalCode": "50425",
+            "MunicipalityName": "Werfenweng",
+            "Status": "",
+            "Population": " 989"
+        },
+        {
+            "MunicipalCode": "50501",
+            "MunicipalityName": "Göriach",
+            "Status": "",
+            "Population": " 350"
+        },
+        {
+            "MunicipalCode": "50502",
+            "MunicipalityName": "Lessach",
+            "Status": "",
+            "Population": " 557"
+        },
+        {
+            "MunicipalCode": "50503",
+            "MunicipalityName": "Mariapfarr",
+            "Status": "",
+            "Population": "2 358"
+        },
+        {
+            "MunicipalCode": "50504",
+            "MunicipalityName": "Mauterndorf",
+            "Status": "M",
+            "Population": "1 659"
+        },
+        {
+            "MunicipalCode": "50505",
+            "MunicipalityName": "Muhr",
+            "Status": "",
+            "Population": " 513"
+        },
+        {
+            "MunicipalCode": "50506",
+            "MunicipalityName": "Ramingstein",
+            "Status": "",
+            "Population": "1 086"
+        },
+        {
+            "MunicipalCode": "50507",
+            "MunicipalityName": "St. Andrä im Lungau",
+            "Status": "",
+            "Population": " 764"
+        },
+        {
+            "MunicipalCode": "50508",
+            "MunicipalityName": "St. Margarethen im Lungau",
+            "Status": "",
+            "Population": " 751"
+        },
+        {
+            "MunicipalCode": "50509",
+            "MunicipalityName": "St. Michael im Lungau",
+            "Status": "M",
+            "Population": "3 577"
+        },
+        {
+            "MunicipalCode": "50510",
+            "MunicipalityName": "Tamsweg",
+            "Status": "M",
+            "Population": "5 663"
+        },
+        {
+            "MunicipalCode": "50511",
+            "MunicipalityName": "Thomatal",
+            "Status": "",
+            "Population": " 326"
+        },
+        {
+            "MunicipalCode": "50512",
+            "MunicipalityName": "Tweng",
+            "Status": "",
+            "Population": " 284"
+        },
+        {
+            "MunicipalCode": "50513",
+            "MunicipalityName": "Unternberg",
+            "Status": "",
+            "Population": "1 026"
+        },
+        {
+            "MunicipalCode": "50514",
+            "MunicipalityName": "Weißpriach",
+            "Status": "",
+            "Population": " 310"
+        },
+        {
+            "MunicipalCode": "50515",
+            "MunicipalityName": "Zederhaus",
+            "Status": "",
+            "Population": "1 202"
+        },
+        {
+            "MunicipalCode": "50601",
+            "MunicipalityName": "Bramberg am Wildkogel",
+            "Status": "",
+            "Population": "3 963"
+        },
+        {
+            "MunicipalCode": "50602",
+            "MunicipalityName": "Bruck an der Großglocknerstraße",
+            "Status": "",
+            "Population": "4 644"
+        },
+        {
+            "MunicipalCode": "50603",
+            "MunicipalityName": "Dienten am Hochkönig",
+            "Status": "",
+            "Population": " 763"
+        },
+        {
+            "MunicipalCode": "50604",
+            "MunicipalityName": "Fusch an der Großglocknerstraße",
+            "Status": "",
+            "Population": " 698"
+        },
+        {
+            "MunicipalCode": "50605",
+            "MunicipalityName": "Hollersbach im Pinzgau",
+            "Status": "",
+            "Population": "1 201"
+        },
+        {
+            "MunicipalCode": "50606",
+            "MunicipalityName": "Kaprun",
+            "Status": "",
+            "Population": "3 160"
+        },
+        {
+            "MunicipalCode": "50607",
+            "MunicipalityName": "Krimml",
+            "Status": "",
+            "Population": " 827"
+        },
+        {
+            "MunicipalCode": "50608",
+            "MunicipalityName": "Lend",
+            "Status": "",
+            "Population": "1 370"
+        },
+        {
+            "MunicipalCode": "50609",
+            "MunicipalityName": "Leogang",
+            "Status": "",
+            "Population": "3 265"
+        },
+        {
+            "MunicipalCode": "50610",
+            "MunicipalityName": "Lofer",
+            "Status": "M",
+            "Population": "2 062"
+        },
+        {
+            "MunicipalCode": "50611",
+            "MunicipalityName": "Maishofen",
+            "Status": "",
+            "Population": "3 557"
+        },
+        {
+            "MunicipalCode": "50612",
+            "MunicipalityName": "Maria Alm am Steinernen Meer",
+            "Status": "",
+            "Population": "2 219"
+        },
+        {
+            "MunicipalCode": "50613",
+            "MunicipalityName": "Mittersill",
+            "Status": "ST",
+            "Population": "5 368"
+        },
+        {
+            "MunicipalCode": "50614",
+            "MunicipalityName": "Neukirchen am Großvenediger",
+            "Status": "M",
+            "Population": "2 523"
+        },
+        {
+            "MunicipalCode": "50615",
+            "MunicipalityName": "Niedernsill",
+            "Status": "",
+            "Population": "2 649"
+        },
+        {
+            "MunicipalCode": "50616",
+            "MunicipalityName": "Piesendorf",
+            "Status": "",
+            "Population": "3 778"
+        },
+        {
+            "MunicipalCode": "50617",
+            "MunicipalityName": "Rauris",
+            "Status": "M",
+            "Population": "3 059"
+        },
+        {
+            "MunicipalCode": "50618",
+            "MunicipalityName": "Saalbach-Hinterglemm",
+            "Status": "",
+            "Population": "2 896"
+        },
+        {
+            "MunicipalCode": "50619",
+            "MunicipalityName": "Saalfelden am Steinernen Meer",
+            "Status": "ST",
+            "Population": "16 567"
+        },
+        {
+            "MunicipalCode": "50620",
+            "MunicipalityName": "St. Martin bei Lofer",
+            "Status": "",
+            "Population": "1 145"
+        },
+        {
+            "MunicipalCode": "50621",
+            "MunicipalityName": "Stuhlfelden",
+            "Status": "",
+            "Population": "1 607"
+        },
+        {
+            "MunicipalCode": "50622",
+            "MunicipalityName": "Taxenbach",
+            "Status": "M",
+            "Population": "2 755"
+        },
+        {
+            "MunicipalCode": "50623",
+            "MunicipalityName": "Unken",
+            "Status": "",
+            "Population": "1 949"
+        },
+        {
+            "MunicipalCode": "50624",
+            "MunicipalityName": "Uttendorf",
+            "Status": "",
+            "Population": "2 931"
+        },
+        {
+            "MunicipalCode": "50625",
+            "MunicipalityName": "Viehhofen",
+            "Status": "",
+            "Population": " 615"
+        },
+        {
+            "MunicipalCode": "50626",
+            "MunicipalityName": "Wald im Pinzgau",
+            "Status": "",
+            "Population": "1 153"
+        },
+        {
+            "MunicipalCode": "50627",
+            "MunicipalityName": "Weißbach bei Lofer",
+            "Status": "",
+            "Population": " 440"
+        },
+        {
+            "MunicipalCode": "50628",
+            "MunicipalityName": "Zell am See",
+            "Status": "ST",
+            "Population": "9 759"
+        }
+    ]
+}

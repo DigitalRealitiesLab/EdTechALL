@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ImageMarkerDetector
+  commentId: T:Global.ImageMarkerDetector
+  id: ImageMarkerDetector
+  parent: Global
+  children:
+  - Global.ImageMarkerDetector.imageManager
+  langs:
+  - csharp
+  - vb
+  name: ImageMarkerDetector
+  nameWithType: ImageMarkerDetector
+  fullName: ImageMarkerDetector
+  type: Class
+  source:
+    id: ImageMarkerDetector
+    path: ''
+    startLine: 25049
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ImageMarkerDetector : MonoBehaviour'
+    content.vb: >-
+      Public Class ImageMarkerDetector
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ImageMarkerDetector.imageManager
+  commentId: F:Global.ImageMarkerDetector.imageManager
+  id: imageManager
+  parent: Global.ImageMarkerDetector
+  langs:
+  - csharp
+  - vb
+  name: imageManager
+  nameWithType: ImageMarkerDetector.imageManager
+  fullName: ImageMarkerDetector.imageManager
+  type: Field
+  source:
+    id: imageManager
+    path: ''
+    startLine: 25051
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public ARTrackedImageManager imageManager
+    return:
+      type: Global.ARTrackedImageManager
+    content.vb: Public imageManager As ARTrackedImageManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ARTrackedImageManager
+  isExternal: true
+  name: ARTrackedImageManager
+  nameWithType: ARTrackedImageManager
+  fullName: ARTrackedImageManager

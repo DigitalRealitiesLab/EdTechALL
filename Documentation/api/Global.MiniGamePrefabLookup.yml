@@ -1,0 +1,374 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniGamePrefabLookup
+  commentId: T:Global.MiniGamePrefabLookup
+  id: MiniGamePrefabLookup
+  parent: Global
+  children:
+  - Global.MiniGamePrefabLookup.GetDataAt(MiniGameType)
+  - Global.MiniGamePrefabLookup.Initialize
+  - Global.MiniGamePrefabLookup.lookup
+  - Global.MiniGamePrefabLookup.miniGamePrefabs
+  langs:
+  - csharp
+  - vb
+  name: MiniGamePrefabLookup
+  nameWithType: MiniGamePrefabLookup
+  fullName: MiniGamePrefabLookup
+  type: Class
+  source:
+    id: MiniGamePrefabLookup
+    path: ''
+    startLine: 14856
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MiniGamePrefabLookup : ScriptableObject'
+    content.vb: >-
+      Public Class MiniGamePrefabLookup
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MiniGamePrefabLookup.lookup
+  commentId: F:Global.MiniGamePrefabLookup.lookup
+  id: lookup
+  parent: Global.MiniGamePrefabLookup
+  langs:
+  - csharp
+  - vb
+  name: lookup
+  nameWithType: MiniGamePrefabLookup.lookup
+  fullName: MiniGamePrefabLookup.lookup
+  type: Field
+  source:
+    id: lookup
+    path: ''
+    startLine: 14859
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Dictionary<MiniGameType, MiniGamePrefabLookup.MiniGamePrefabData> lookup
+    return:
+      type: Global.Dictionary{MiniGameType,MiniGamePrefabLookup.MiniGamePrefabData}
+    content.vb: Public lookup As Dictionary(Of MiniGameType, MiniGamePrefabLookup.MiniGamePrefabData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGamePrefabLookup.miniGamePrefabs
+  commentId: F:Global.MiniGamePrefabLookup.miniGamePrefabs
+  id: miniGamePrefabs
+  parent: Global.MiniGamePrefabLookup
+  langs:
+  - csharp
+  - vb
+  name: miniGamePrefabs
+  nameWithType: MiniGamePrefabLookup.miniGamePrefabs
+  fullName: MiniGamePrefabLookup.miniGamePrefabs
+  type: Field
+  source:
+    id: miniGamePrefabs
+    path: ''
+    startLine: 14860
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<MiniGamePrefabLookup.MiniGamePrefabData> miniGamePrefabs
+    return:
+      type: Global.List{MiniGamePrefabLookup.MiniGamePrefabData}
+    content.vb: Public miniGamePrefabs As List(Of MiniGamePrefabLookup.MiniGamePrefabData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGamePrefabLookup.Initialize
+  commentId: M:Global.MiniGamePrefabLookup.Initialize
+  id: Initialize
+  parent: Global.MiniGamePrefabLookup
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: MiniGamePrefabLookup.Initialize()
+  fullName: MiniGamePrefabLookup.Initialize()
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 14862
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize
+  overload: Global.MiniGamePrefabLookup.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGamePrefabLookup.GetDataAt(MiniGameType)
+  commentId: M:Global.MiniGamePrefabLookup.GetDataAt(MiniGameType)
+  id: GetDataAt(MiniGameType)
+  parent: Global.MiniGamePrefabLookup
+  langs:
+  - csharp
+  - vb
+  name: GetDataAt(MiniGameType)
+  nameWithType: MiniGamePrefabLookup.GetDataAt(MiniGameType)
+  fullName: MiniGamePrefabLookup.GetDataAt(MiniGameType)
+  type: Method
+  source:
+    id: GetDataAt
+    path: ''
+    startLine: 14869
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGamePrefabLookup.MiniGamePrefabData GetDataAt(MiniGameType type)
+    parameters:
+    - id: type
+      type: Global.MiniGameType
+    return:
+      type: Global.MiniGamePrefabLookup.MiniGamePrefabData
+    content.vb: Public Function GetDataAt(type As MiniGameType) As MiniGamePrefabLookup.MiniGamePrefabData
+  overload: Global.MiniGamePrefabLookup.GetDataAt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Dictionary{MiniGameType,MiniGamePrefabLookup.MiniGamePrefabData}
+  commentId: '!:Global.Dictionary{MiniGameType,MiniGamePrefabLookup.MiniGamePrefabData}'
+  definition: Global.Dictionary`2
+  name: Dictionary<MiniGameType, MiniGamePrefabLookup.MiniGamePrefabData>
+  nameWithType: Dictionary<MiniGameType, MiniGamePrefabLookup.MiniGamePrefabData>
+  fullName: Dictionary<MiniGameType, MiniGamePrefabLookup.MiniGamePrefabData>
+  nameWithType.vb: Dictionary(Of MiniGameType, MiniGamePrefabLookup.MiniGamePrefabData)
+  fullName.vb: Dictionary(Of MiniGameType, MiniGamePrefabLookup.MiniGamePrefabData)
+  name.vb: Dictionary(Of MiniGameType, MiniGamePrefabLookup.MiniGamePrefabData)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.MiniGameType
+    name: MiniGameType
+    nameWithType: MiniGameType
+    fullName: MiniGameType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.MiniGamePrefabLookup.MiniGamePrefabData
+    name: MiniGamePrefabLookup.MiniGamePrefabData
+    nameWithType: MiniGamePrefabLookup.MiniGamePrefabData
+    fullName: MiniGamePrefabLookup.MiniGamePrefabData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.MiniGameType
+    name: MiniGameType
+    nameWithType: MiniGameType
+    fullName: MiniGameType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.MiniGamePrefabLookup.MiniGamePrefabData
+    name: MiniGamePrefabLookup.MiniGamePrefabData
+    nameWithType: MiniGamePrefabLookup.MiniGamePrefabData
+    fullName: MiniGamePrefabLookup.MiniGamePrefabData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List{MiniGamePrefabLookup.MiniGamePrefabData}
+  commentId: '!:Global.List{MiniGamePrefabLookup.MiniGamePrefabData}'
+  definition: Global.List`1
+  name: List<MiniGamePrefabLookup.MiniGamePrefabData>
+  nameWithType: List<MiniGamePrefabLookup.MiniGamePrefabData>
+  fullName: List<MiniGamePrefabLookup.MiniGamePrefabData>
+  nameWithType.vb: List(Of MiniGamePrefabLookup.MiniGamePrefabData)
+  fullName.vb: List(Of MiniGamePrefabLookup.MiniGamePrefabData)
+  name.vb: List(Of MiniGamePrefabLookup.MiniGamePrefabData)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.MiniGamePrefabLookup.MiniGamePrefabData
+    name: MiniGamePrefabLookup.MiniGamePrefabData
+    nameWithType: MiniGamePrefabLookup.MiniGamePrefabData
+    fullName: MiniGamePrefabLookup.MiniGamePrefabData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.MiniGamePrefabLookup.MiniGamePrefabData
+    name: MiniGamePrefabLookup.MiniGamePrefabData
+    nameWithType: MiniGamePrefabLookup.MiniGamePrefabData
+    fullName: MiniGamePrefabLookup.MiniGamePrefabData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.MiniGamePrefabLookup.Initialize*
+  commentId: Overload:Global.MiniGamePrefabLookup.Initialize
+  name: Initialize
+  nameWithType: MiniGamePrefabLookup.Initialize
+  fullName: MiniGamePrefabLookup.Initialize
+- uid: Global.MiniGamePrefabLookup.GetDataAt*
+  commentId: Overload:Global.MiniGamePrefabLookup.GetDataAt
+  name: GetDataAt
+  nameWithType: MiniGamePrefabLookup.GetDataAt
+  fullName: MiniGamePrefabLookup.GetDataAt
+- uid: Global.MiniGameType
+  commentId: T:Global.MiniGameType
+  name: MiniGameType
+  nameWithType: MiniGameType
+  fullName: MiniGameType
+- uid: Global.MiniGamePrefabLookup.MiniGamePrefabData
+  commentId: T:Global.MiniGamePrefabLookup.MiniGamePrefabData
+  name: MiniGamePrefabLookup.MiniGamePrefabData
+  nameWithType: MiniGamePrefabLookup.MiniGamePrefabData
+  fullName: MiniGamePrefabLookup.MiniGamePrefabData

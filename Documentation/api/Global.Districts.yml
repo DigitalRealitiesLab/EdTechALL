@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Districts
+  commentId: T:Global.Districts
+  id: Districts
+  parent: Global
+  children:
+  - Global.Districts.Bezirke
+  - Global.Districts.GetEnumerator
+  langs:
+  - csharp
+  - vb
+  name: Districts
+  nameWithType: Districts
+  fullName: Districts
+  type: Class
+  source:
+    id: Districts
+    path: ''
+    startLine: 23059
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Districts : IEnumerable<DistrictData>
+    content.vb: >-
+      <Serializable>
+
+      Public Class Districts
+          Inherits IEnumerable(Of DistrictData)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Districts.Bezirke
+  commentId: F:Global.Districts.Bezirke
+  id: Bezirke
+  parent: Global.Districts
+  langs:
+  - csharp
+  - vb
+  name: Bezirke
+  nameWithType: Districts.Bezirke
+  fullName: Districts.Bezirke
+  type: Field
+  source:
+    id: Bezirke
+    path: ''
+    startLine: 23062
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public DistrictData[] Bezirke
+    return:
+      type: Global.DistrictData[]
+    content.vb: Public Bezirke As DistrictData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Districts.GetEnumerator
+  commentId: M:Global.Districts.GetEnumerator
+  id: GetEnumerator
+  parent: Global.Districts
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: Districts.GetEnumerator()
+  fullName: Districts.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: ''
+    startLine: 23074
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public DistrictEnum GetEnumerator()
+    return:
+      type: Global.DistrictEnum
+    content.vb: Public Function GetEnumerator As DistrictEnum
+  overload: Global.Districts.GetEnumerator*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DistrictData[]
+  isExternal: true
+  name: DistrictData[]
+  nameWithType: DistrictData[]
+  fullName: DistrictData[]
+  nameWithType.vb: DistrictData()
+  fullName.vb: DistrictData()
+  name.vb: DistrictData()
+  spec.csharp:
+  - uid: Global.DistrictData
+    name: DistrictData
+    nameWithType: DistrictData
+    fullName: DistrictData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.DistrictData
+    name: DistrictData
+    nameWithType: DistrictData
+    fullName: DistrictData
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Districts.GetEnumerator*
+  commentId: Overload:Global.Districts.GetEnumerator
+  name: GetEnumerator
+  nameWithType: Districts.GetEnumerator
+  fullName: Districts.GetEnumerator
+- uid: Global.DistrictEnum
+  commentId: T:Global.DistrictEnum
+  name: DistrictEnum
+  nameWithType: DistrictEnum
+  fullName: DistrictEnum

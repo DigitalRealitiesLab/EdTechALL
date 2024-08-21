@@ -1,0 +1,100 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.UnlockableGroup
+  commentId: T:Global.UnlockableGroup
+  id: UnlockableGroup
+  parent: Global
+  children:
+  - Global.UnlockableGroup.unlockables
+  langs:
+  - csharp
+  - vb
+  name: UnlockableGroup
+  nameWithType: UnlockableGroup
+  fullName: UnlockableGroup
+  type: Struct
+  source:
+    id: UnlockableGroup
+    path: ''
+    startLine: 18394
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct UnlockableGroup
+    content.vb: >-
+      <Serializable>
+
+      Public Structure UnlockableGroup
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.UnlockableGroup.unlockables
+  commentId: F:Global.UnlockableGroup.unlockables
+  id: unlockables
+  parent: Global.UnlockableGroup
+  langs:
+  - csharp
+  - vb
+  name: unlockables
+  nameWithType: UnlockableGroup.unlockables
+  fullName: UnlockableGroup.unlockables
+  type: Field
+  source:
+    id: unlockables
+    path: ''
+    startLine: 18397
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Unlockable[] unlockables
+    return:
+      type: Global.Unlockable[]
+    content.vb: Public unlockables As Unlockable()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Unlockable[]
+  isExternal: true
+  name: Unlockable[]
+  nameWithType: Unlockable[]
+  fullName: Unlockable[]
+  nameWithType.vb: Unlockable()
+  fullName.vb: Unlockable()
+  name.vb: Unlockable()
+  spec.csharp:
+  - uid: Global.Unlockable
+    name: Unlockable
+    nameWithType: Unlockable
+    fullName: Unlockable
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Unlockable
+    name: Unlockable
+    nameWithType: Unlockable
+    fullName: Unlockable
+  - name: ()
+    nameWithType: ()
+    fullName: ()

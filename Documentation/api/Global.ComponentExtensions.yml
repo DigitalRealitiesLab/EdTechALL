@@ -1,0 +1,196 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ComponentExtensions
+  commentId: T:Global.ComponentExtensions
+  id: ComponentExtensions
+  parent: Global
+  children:
+  - Global.ComponentExtensions.GetComponentsInFirstGenerationChildren``1(Component,System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: ComponentExtensions
+  nameWithType: ComponentExtensions
+  fullName: ComponentExtensions
+  type: Class
+  source:
+    id: ComponentExtensions
+    path: ''
+    startLine: 17004
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class ComponentExtensions
+    content.vb: Public Module ComponentExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.ComponentExtensions.GetComponentsInFirstGenerationChildren``1(Component,System.Boolean)
+  commentId: M:Global.ComponentExtensions.GetComponentsInFirstGenerationChildren``1(Component,System.Boolean)
+  id: GetComponentsInFirstGenerationChildren``1(Component,System.Boolean)
+  isExtensionMethod: true
+  parent: Global.ComponentExtensions
+  langs:
+  - csharp
+  - vb
+  name: GetComponentsInFirstGenerationChildren<T>(Component, Boolean)
+  nameWithType: ComponentExtensions.GetComponentsInFirstGenerationChildren<T>(Component, Boolean)
+  fullName: ComponentExtensions.GetComponentsInFirstGenerationChildren<T>(Component, System.Boolean)
+  type: Method
+  source:
+    id: GetComponentsInFirstGenerationChildren
+    path: ''
+    startLine: 17006
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      public static List<T> GetComponentsInFirstGenerationChildren<T>(this Component component, bool includeInactive = false)
+          where T : Component
+    parameters:
+    - id: component
+      type: Global.Component
+    - id: includeInactive
+      type: System.Boolean
+    typeParameters:
+    - id: T
+    return:
+      type: Global.List{{T}}
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function GetComponentsInFirstGenerationChildren(Of T As Component)(component As Component, includeInactive As Boolean = False) As List(Of T)
+  overload: Global.ComponentExtensions.GetComponentsInFirstGenerationChildren*
+  nameWithType.vb: ComponentExtensions.GetComponentsInFirstGenerationChildren(Of T)(Component, Boolean)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: ComponentExtensions.GetComponentsInFirstGenerationChildren(Of T)(Component, System.Boolean)
+  name.vb: GetComponentsInFirstGenerationChildren(Of T)(Component, Boolean)
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ComponentExtensions.GetComponentsInFirstGenerationChildren*
+  commentId: Overload:Global.ComponentExtensions.GetComponentsInFirstGenerationChildren
+  name: GetComponentsInFirstGenerationChildren
+  nameWithType: ComponentExtensions.GetComponentsInFirstGenerationChildren
+  fullName: ComponentExtensions.GetComponentsInFirstGenerationChildren
+- uid: Global.Component
+  commentId: '!:Global.Component'
+  isExternal: true
+  name: Component
+  nameWithType: Component
+  fullName: Component
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.List{{T}}
+  commentId: '!:Global.List{``0}'
+  definition: Global.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )

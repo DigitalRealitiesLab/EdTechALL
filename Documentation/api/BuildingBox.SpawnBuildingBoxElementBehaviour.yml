@@ -1,0 +1,301 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour
+  commentId: T:BuildingBox.SpawnBuildingBoxElementBehaviour
+  id: SpawnBuildingBoxElementBehaviour
+  parent: BuildingBox
+  children:
+  - BuildingBox.SpawnBuildingBoxElementBehaviour.Awake
+  - BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxData
+  - BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxElement
+  - BuildingBox.SpawnBuildingBoxElementBehaviour.elementSpawnIndex
+  - BuildingBox.SpawnBuildingBoxElementBehaviour.OnInteract
+  - BuildingBox.SpawnBuildingBoxElementBehaviour.parent
+  - BuildingBox.SpawnBuildingBoxElementBehaviour.spawnDelaySeconds
+  langs:
+  - csharp
+  - vb
+  name: SpawnBuildingBoxElementBehaviour
+  nameWithType: SpawnBuildingBoxElementBehaviour
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour
+  type: Class
+  source:
+    id: SpawnBuildingBoxElementBehaviour
+    path: ''
+    startLine: 397
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class SpawnBuildingBoxElementBehaviour : AInteractionBehaviour'
+    content.vb: >-
+      Public Class SpawnBuildingBoxElementBehaviour
+          Inherits AInteractionBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxData
+  commentId: F:BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxData
+  id: buildingBoxData
+  parent: BuildingBox.SpawnBuildingBoxElementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: buildingBoxData
+  nameWithType: SpawnBuildingBoxElementBehaviour.buildingBoxData
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxData
+  type: Field
+  source:
+    id: buildingBoxData
+    path: ''
+    startLine: 399
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingBoxData buildingBoxData
+    return:
+      type: BuildingBox.BuildingBoxData
+    content.vb: Public buildingBoxData As BuildingBoxData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.elementSpawnIndex
+  commentId: F:BuildingBox.SpawnBuildingBoxElementBehaviour.elementSpawnIndex
+  id: elementSpawnIndex
+  parent: BuildingBox.SpawnBuildingBoxElementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: elementSpawnIndex
+  nameWithType: SpawnBuildingBoxElementBehaviour.elementSpawnIndex
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.elementSpawnIndex
+  type: Field
+  source:
+    id: elementSpawnIndex
+    path: ''
+    startLine: 400
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int elementSpawnIndex
+    return:
+      type: System.Int32
+    content.vb: Public elementSpawnIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.parent
+  commentId: F:BuildingBox.SpawnBuildingBoxElementBehaviour.parent
+  id: parent
+  parent: BuildingBox.SpawnBuildingBoxElementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: parent
+  nameWithType: SpawnBuildingBoxElementBehaviour.parent
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.parent
+  type: Field
+  source:
+    id: parent
+    path: ''
+    startLine: 401
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public Transform parent
+    return:
+      type: Global.Transform
+    content.vb: Public parent As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.spawnDelaySeconds
+  commentId: F:BuildingBox.SpawnBuildingBoxElementBehaviour.spawnDelaySeconds
+  id: spawnDelaySeconds
+  parent: BuildingBox.SpawnBuildingBoxElementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: spawnDelaySeconds
+  nameWithType: SpawnBuildingBoxElementBehaviour.spawnDelaySeconds
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.spawnDelaySeconds
+  type: Field
+  source:
+    id: spawnDelaySeconds
+    path: ''
+    startLine: 402
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public float spawnDelaySeconds
+    return:
+      type: System.Single
+    content.vb: Public spawnDelaySeconds As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxElement
+  commentId: P:BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxElement
+  id: buildingBoxElement
+  parent: BuildingBox.SpawnBuildingBoxElementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: buildingBoxElement
+  nameWithType: SpawnBuildingBoxElementBehaviour.buildingBoxElement
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxElement
+  type: Property
+  source:
+    id: buildingBoxElement
+    path: ''
+    startLine: 404
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public BuildingBoxElementData buildingBoxElement { get; }
+    parameters: []
+    return:
+      type: BuildingBox.BuildingBoxElementData
+    content.vb: Public ReadOnly Property buildingBoxElement As BuildingBoxElementData
+  overload: BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxElement*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.Awake
+  commentId: M:BuildingBox.SpawnBuildingBoxElementBehaviour.Awake
+  id: Awake
+  parent: BuildingBox.SpawnBuildingBoxElementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: SpawnBuildingBoxElementBehaviour.Awake()
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 414
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overload: BuildingBox.SpawnBuildingBoxElementBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.OnInteract
+  commentId: M:BuildingBox.SpawnBuildingBoxElementBehaviour.OnInteract
+  id: OnInteract
+  parent: BuildingBox.SpawnBuildingBoxElementBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnInteract()
+  nameWithType: SpawnBuildingBoxElementBehaviour.OnInteract()
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.OnInteract()
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 421
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public override void OnInteract()
+    content.vb: Public Overrides Sub OnInteract
+  overload: BuildingBox.SpawnBuildingBoxElementBehaviour.OnInteract*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: BuildingBox.BuildingBoxData
+  commentId: T:BuildingBox.BuildingBoxData
+  parent: BuildingBox
+  name: BuildingBoxData
+  nameWithType: BuildingBoxData
+  fullName: BuildingBox.BuildingBoxData
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxElement*
+  commentId: Overload:BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxElement
+  name: buildingBoxElement
+  nameWithType: SpawnBuildingBoxElementBehaviour.buildingBoxElement
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.buildingBoxElement
+- uid: BuildingBox.BuildingBoxElementData
+  commentId: T:BuildingBox.BuildingBoxElementData
+  parent: BuildingBox
+  name: BuildingBoxElementData
+  nameWithType: BuildingBoxElementData
+  fullName: BuildingBox.BuildingBoxElementData
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.Awake*
+  commentId: Overload:BuildingBox.SpawnBuildingBoxElementBehaviour.Awake
+  name: Awake
+  nameWithType: SpawnBuildingBoxElementBehaviour.Awake
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.Awake
+- uid: BuildingBox.SpawnBuildingBoxElementBehaviour.OnInteract*
+  commentId: Overload:BuildingBox.SpawnBuildingBoxElementBehaviour.OnInteract
+  name: OnInteract
+  nameWithType: SpawnBuildingBoxElementBehaviour.OnInteract
+  fullName: BuildingBox.SpawnBuildingBoxElementBehaviour.OnInteract

@@ -1,0 +1,122 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.RelativeResize
+  commentId: T:Global.RelativeResize
+  id: RelativeResize
+  parent: Global
+  children:
+  - Global.RelativeResize.RequestResize
+  - Global.RelativeResize.sizeFraction
+  langs:
+  - csharp
+  - vb
+  name: RelativeResize
+  nameWithType: RelativeResize
+  fullName: RelativeResize
+  type: Class
+  source:
+    id: RelativeResize
+    path: ''
+    startLine: 20457
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class RelativeResize : MonoBehaviour'
+    content.vb: >-
+      Public Class RelativeResize
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.RelativeResize.sizeFraction
+  commentId: F:Global.RelativeResize.sizeFraction
+  id: sizeFraction
+  parent: Global.RelativeResize
+  langs:
+  - csharp
+  - vb
+  name: sizeFraction
+  nameWithType: RelativeResize.sizeFraction
+  fullName: RelativeResize.sizeFraction
+  type: Field
+  source:
+    id: sizeFraction
+    path: ''
+    startLine: 20459
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector3 sizeFraction
+    return:
+      type: Global.Vector3
+    content.vb: Public sizeFraction As Vector3
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.RelativeResize.RequestResize
+  commentId: M:Global.RelativeResize.RequestResize
+  id: RequestResize
+  parent: Global.RelativeResize
+  langs:
+  - csharp
+  - vb
+  name: RequestResize()
+  nameWithType: RelativeResize.RequestResize()
+  fullName: RelativeResize.RequestResize()
+  type: Method
+  source:
+    id: RequestResize
+    path: ''
+    startLine: 20475
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nPublishes a resize request via EventBus\n"
+  example: []
+  syntax:
+    content: public void RequestResize()
+    content.vb: Public Sub RequestResize
+  overload: Global.RelativeResize.RequestResize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: Global.RelativeResize.RequestResize*
+  commentId: Overload:Global.RelativeResize.RequestResize
+  name: RequestResize
+  nameWithType: RelativeResize.RequestResize
+  fullName: RelativeResize.RequestResize

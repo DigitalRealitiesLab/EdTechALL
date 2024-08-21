@@ -1,0 +1,132 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MapLayerData
+  commentId: T:Global.MapLayerData
+  id: MapLayerData
+  parent: Global
+  children:
+  - Global.MapLayerData.name
+  - Global.MapLayerData.texture
+  langs:
+  - csharp
+  - vb
+  name: MapLayerData
+  nameWithType: MapLayerData
+  fullName: MapLayerData
+  type: Class
+  source:
+    id: MapLayerData
+    path: ''
+    startLine: 15451
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class MapLayerData
+    content.vb: >-
+      <Serializable>
+
+      Public Class MapLayerData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MapLayerData.name
+  commentId: F:Global.MapLayerData.name
+  id: name
+  parent: Global.MapLayerData
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: MapLayerData.name
+  fullName: MapLayerData.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 15454
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapLayerData.texture
+  commentId: F:Global.MapLayerData.texture
+  id: texture
+  parent: Global.MapLayerData
+  langs:
+  - csharp
+  - vb
+  name: texture
+  nameWithType: MapLayerData.texture
+  fullName: MapLayerData.texture
+  type: Field
+  source:
+    id: texture
+    path: ''
+    startLine: 15455
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture texture
+    return:
+      type: Global.Texture
+    content.vb: Public texture As Texture
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Texture
+  commentId: '!:Global.Texture'
+  isExternal: true
+  name: Texture
+  nameWithType: Texture
+  fullName: Texture

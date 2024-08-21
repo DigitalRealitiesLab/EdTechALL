@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Selectable.SelectableEvent
+  commentId: T:InteractionSystem.Selectable.SelectableEvent
+  id: SelectableEvent
+  parent: InteractionSystem.Selectable
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: SelectableEvent
+  nameWithType: SelectableEvent
+  fullName: InteractionSystem.Selectable.SelectableEvent
+  type: Class
+  source:
+    id: SelectableEvent
+    path: ''
+    startLine: 24461
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class SelectableEvent : Events.UnityEvent<Selectable>
+    content.vb: >-
+      <Serializable>
+
+      Public Class SelectableEvent
+          Inherits Events.UnityEvent(Of Selectable)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

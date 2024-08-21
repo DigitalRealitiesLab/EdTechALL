@@ -1,0 +1,400 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Selectable.SnappingBehaviour
+  commentId: T:InteractionSystem.Selectable.SnappingBehaviour
+  id: SnappingBehaviour
+  parent: InteractionSystem.Selectable
+  children:
+  - InteractionSystem.Selectable.SnappingBehaviour.Awake
+  - InteractionSystem.Selectable.SnappingBehaviour.handFollowBehaviour
+  - InteractionSystem.Selectable.SnappingBehaviour.lastTriggeredPlaceholder
+  - InteractionSystem.Selectable.SnappingBehaviour.OnAvailablePlaceholderChanged(InteractionSystem.Placeholder.Placeholder)
+  - InteractionSystem.Selectable.SnappingBehaviour.OnDeselect
+  - InteractionSystem.Selectable.SnappingBehaviour.OnSelect
+  - InteractionSystem.Selectable.SnappingBehaviour.placeholderTag
+  langs:
+  - csharp
+  - vb
+  name: SnappingBehaviour
+  nameWithType: SnappingBehaviour
+  fullName: InteractionSystem.Selectable.SnappingBehaviour
+  type: Class
+  source:
+    id: SnappingBehaviour
+    path: ''
+    startLine: 24893
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: 'public class SnappingBehaviour : ASelectionBehaviour'
+    content.vb: >-
+      Public Class SnappingBehaviour
+          Inherits ASelectionBehaviour
+  inheritance:
+  - System.Object
+  - InteractionSystem.Selectable.ASelectionBehaviour
+  inheritedMembers:
+  - InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Selectable.SnappingBehaviour.placeholderTag
+  commentId: F:InteractionSystem.Selectable.SnappingBehaviour.placeholderTag
+  id: placeholderTag
+  parent: InteractionSystem.Selectable.SnappingBehaviour
+  langs:
+  - csharp
+  - vb
+  name: placeholderTag
+  nameWithType: SnappingBehaviour.placeholderTag
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.placeholderTag
+  type: Field
+  source:
+    id: placeholderTag
+    path: ''
+    startLine: 24897
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public string placeholderTag
+    return:
+      type: System.String
+    content.vb: Public placeholderTag As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.SnappingBehaviour.handFollowBehaviour
+  commentId: F:InteractionSystem.Selectable.SnappingBehaviour.handFollowBehaviour
+  id: handFollowBehaviour
+  parent: InteractionSystem.Selectable.SnappingBehaviour
+  langs:
+  - csharp
+  - vb
+  name: handFollowBehaviour
+  nameWithType: SnappingBehaviour.handFollowBehaviour
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.handFollowBehaviour
+  type: Field
+  source:
+    id: handFollowBehaviour
+    path: ''
+    startLine: 24898
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public HandFollowBehaviour handFollowBehaviour
+    return:
+      type: InteractionSystem.Selectable.HandFollowBehaviour
+    content.vb: Public handFollowBehaviour As HandFollowBehaviour
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.SnappingBehaviour.lastTriggeredPlaceholder
+  commentId: F:InteractionSystem.Selectable.SnappingBehaviour.lastTriggeredPlaceholder
+  id: lastTriggeredPlaceholder
+  parent: InteractionSystem.Selectable.SnappingBehaviour
+  langs:
+  - csharp
+  - vb
+  name: lastTriggeredPlaceholder
+  nameWithType: SnappingBehaviour.lastTriggeredPlaceholder
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.lastTriggeredPlaceholder
+  type: Field
+  source:
+    id: lastTriggeredPlaceholder
+    path: ''
+    startLine: 24900
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public Placeholder lastTriggeredPlaceholder
+    return:
+      type: InteractionSystem.Placeholder.Placeholder
+    content.vb: Public lastTriggeredPlaceholder As Placeholder
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.SnappingBehaviour.Awake
+  commentId: M:InteractionSystem.Selectable.SnappingBehaviour.Awake
+  id: Awake
+  parent: InteractionSystem.Selectable.SnappingBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: SnappingBehaviour.Awake()
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24902
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  overload: InteractionSystem.Selectable.SnappingBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: InteractionSystem.Selectable.SnappingBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.SnappingBehaviour.OnSelect
+  id: OnSelect
+  parent: InteractionSystem.Selectable.SnappingBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnSelect()
+  nameWithType: SnappingBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.OnSelect()
+  type: Method
+  source:
+    id: OnSelect
+    path: ''
+    startLine: 24909
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public override void OnSelect()
+    content.vb: Public Overrides Sub OnSelect
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  overload: InteractionSystem.Selectable.SnappingBehaviour.OnSelect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Selectable.SnappingBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.SnappingBehaviour.OnDeselect
+  id: OnDeselect
+  parent: InteractionSystem.Selectable.SnappingBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDeselect()
+  nameWithType: SnappingBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.OnDeselect()
+  type: Method
+  source:
+    id: OnDeselect
+    path: ''
+    startLine: 24914
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public override void OnDeselect()
+    content.vb: Public Overrides Sub OnDeselect
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  overload: InteractionSystem.Selectable.SnappingBehaviour.OnDeselect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Selectable.SnappingBehaviour.OnAvailablePlaceholderChanged(InteractionSystem.Placeholder.Placeholder)
+  commentId: M:InteractionSystem.Selectable.SnappingBehaviour.OnAvailablePlaceholderChanged(InteractionSystem.Placeholder.Placeholder)
+  id: OnAvailablePlaceholderChanged(InteractionSystem.Placeholder.Placeholder)
+  parent: InteractionSystem.Selectable.SnappingBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnAvailablePlaceholderChanged(Placeholder)
+  nameWithType: SnappingBehaviour.OnAvailablePlaceholderChanged(Placeholder)
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.OnAvailablePlaceholderChanged(InteractionSystem.Placeholder.Placeholder)
+  type: Method
+  source:
+    id: OnAvailablePlaceholderChanged
+    path: ''
+    startLine: 24921
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public void OnAvailablePlaceholderChanged(Placeholder placeholder)
+    parameters:
+    - id: placeholder
+      type: InteractionSystem.Placeholder.Placeholder
+    content.vb: Public Sub OnAvailablePlaceholderChanged(placeholder As Placeholder)
+  overload: InteractionSystem.Selectable.SnappingBehaviour.OnAvailablePlaceholderChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: InteractionSystem.Selectable.ASelectionBehaviour
+  commentId: T:InteractionSystem.Selectable.ASelectionBehaviour
+  parent: InteractionSystem.Selectable
+  name: ASelectionBehaviour
+  nameWithType: ASelectionBehaviour
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  commentId: F:InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: selectable
+  nameWithType: ASelectionBehaviour.selectable
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: InteractionSystem.Selectable.HandFollowBehaviour
+  commentId: T:InteractionSystem.Selectable.HandFollowBehaviour
+  parent: InteractionSystem.Selectable
+  name: HandFollowBehaviour
+  nameWithType: HandFollowBehaviour
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour
+- uid: InteractionSystem.Placeholder.Placeholder
+  commentId: T:InteractionSystem.Placeholder.Placeholder
+  parent: InteractionSystem.Placeholder
+  name: Placeholder
+  nameWithType: Placeholder
+  fullName: InteractionSystem.Placeholder.Placeholder
+- uid: InteractionSystem.Placeholder
+  commentId: N:InteractionSystem.Placeholder
+  name: InteractionSystem.Placeholder
+  nameWithType: InteractionSystem.Placeholder
+  fullName: InteractionSystem.Placeholder
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: Awake()
+  nameWithType: ASelectionBehaviour.Awake()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+    name: Awake
+    nameWithType: ASelectionBehaviour.Awake
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+    name: Awake
+    nameWithType: ASelectionBehaviour.Awake
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.SnappingBehaviour.Awake*
+  commentId: Overload:InteractionSystem.Selectable.SnappingBehaviour.Awake
+  name: Awake
+  nameWithType: SnappingBehaviour.Awake
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.Awake
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: OnSelect()
+  nameWithType: ASelectionBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+    name: OnSelect
+    nameWithType: ASelectionBehaviour.OnSelect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+    name: OnSelect
+    nameWithType: ASelectionBehaviour.OnSelect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.SnappingBehaviour.OnSelect*
+  commentId: Overload:InteractionSystem.Selectable.SnappingBehaviour.OnSelect
+  name: OnSelect
+  nameWithType: SnappingBehaviour.OnSelect
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.OnSelect
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: OnDeselect()
+  nameWithType: ASelectionBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+    name: OnDeselect
+    nameWithType: ASelectionBehaviour.OnDeselect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+    name: OnDeselect
+    nameWithType: ASelectionBehaviour.OnDeselect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.SnappingBehaviour.OnDeselect*
+  commentId: Overload:InteractionSystem.Selectable.SnappingBehaviour.OnDeselect
+  name: OnDeselect
+  nameWithType: SnappingBehaviour.OnDeselect
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.OnDeselect
+- uid: InteractionSystem.Selectable.SnappingBehaviour.OnAvailablePlaceholderChanged*
+  commentId: Overload:InteractionSystem.Selectable.SnappingBehaviour.OnAvailablePlaceholderChanged
+  name: OnAvailablePlaceholderChanged
+  nameWithType: SnappingBehaviour.OnAvailablePlaceholderChanged
+  fullName: InteractionSystem.Selectable.SnappingBehaviour.OnAvailablePlaceholderChanged

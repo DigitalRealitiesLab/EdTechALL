@@ -1,0 +1,325 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Interactable.InteractableForwarder
+  commentId: T:InteractionSystem.Interactable.InteractableForwarder
+  id: InteractableForwarder
+  parent: InteractionSystem.Interactable
+  children:
+  - InteractionSystem.Interactable.InteractableForwarder.Interact
+  langs:
+  - csharp
+  - vb
+  name: InteractableForwarder
+  nameWithType: InteractableForwarder
+  fullName: InteractionSystem.Interactable.InteractableForwarder
+  type: Class
+  source:
+    id: InteractableForwarder
+    path: ''
+    startLine: 24352
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: 'public class InteractableForwarder : Interactable, IInteractable, IHoverable'
+    content.vb: >-
+      Public Class InteractableForwarder
+          Inherits Interactable
+          Implements IInteractable, IHoverable
+  inheritance:
+  - System.Object
+  - InteractionSystem.Sensable
+  - InteractionSystem.Interactable.Interactable
+  implements:
+  - InteractionSystem.IInteractable
+  - InteractionSystem.IHoverable
+  inheritedMembers:
+  - InteractionSystem.Interactable.Interactable.rootAsInteractable
+  - InteractionSystem.Interactable.Interactable.HoverEnter
+  - InteractionSystem.Interactable.Interactable.HoverExit
+  - InteractionSystem.Interactable.Interactable.OnDisable
+  - InteractionSystem.Sensable.root
+  - InteractionSystem.Sensable._root
+  - InteractionSystem.Sensable.hasForwardingRole
+  - InteractionSystem.Sensable.Awake
+  - InteractionSystem.Sensable.FindRoot
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Interactable.InteractableForwarder.Interact
+  commentId: M:InteractionSystem.Interactable.InteractableForwarder.Interact
+  id: Interact
+  parent: InteractionSystem.Interactable.InteractableForwarder
+  langs:
+  - csharp
+  - vb
+  name: Interact()
+  nameWithType: InteractableForwarder.Interact()
+  fullName: InteractionSystem.Interactable.InteractableForwarder.Interact()
+  type: Method
+  source:
+    id: Interact
+    path: ''
+    startLine: 24354
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: public override void Interact()
+    content.vb: Public Overrides Sub Interact
+  overridden: InteractionSystem.Interactable.Interactable.Interact
+  overload: InteractionSystem.Interactable.InteractableForwarder.Interact*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: InteractionSystem.Sensable
+  commentId: T:InteractionSystem.Sensable
+  parent: InteractionSystem
+  name: Sensable
+  nameWithType: Sensable
+  fullName: InteractionSystem.Sensable
+- uid: InteractionSystem.Interactable.Interactable
+  commentId: T:InteractionSystem.Interactable.Interactable
+  parent: InteractionSystem.Interactable
+  name: Interactable
+  nameWithType: Interactable
+  fullName: InteractionSystem.Interactable.Interactable
+- uid: InteractionSystem.IInteractable
+  commentId: T:InteractionSystem.IInteractable
+  parent: InteractionSystem
+  name: IInteractable
+  nameWithType: IInteractable
+  fullName: InteractionSystem.IInteractable
+- uid: InteractionSystem.IHoverable
+  commentId: T:InteractionSystem.IHoverable
+  parent: InteractionSystem
+  name: IHoverable
+  nameWithType: IHoverable
+  fullName: InteractionSystem.IHoverable
+- uid: InteractionSystem.Interactable.Interactable.rootAsInteractable
+  commentId: P:InteractionSystem.Interactable.Interactable.rootAsInteractable
+  parent: InteractionSystem.Interactable.Interactable
+  name: rootAsInteractable
+  nameWithType: Interactable.rootAsInteractable
+  fullName: InteractionSystem.Interactable.Interactable.rootAsInteractable
+- uid: InteractionSystem.Interactable.Interactable.HoverEnter
+  commentId: M:InteractionSystem.Interactable.Interactable.HoverEnter
+  parent: InteractionSystem.Interactable.Interactable
+  name: HoverEnter()
+  nameWithType: Interactable.HoverEnter()
+  fullName: InteractionSystem.Interactable.Interactable.HoverEnter()
+  spec.csharp:
+  - uid: InteractionSystem.Interactable.Interactable.HoverEnter
+    name: HoverEnter
+    nameWithType: Interactable.HoverEnter
+    fullName: InteractionSystem.Interactable.Interactable.HoverEnter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Interactable.Interactable.HoverEnter
+    name: HoverEnter
+    nameWithType: Interactable.HoverEnter
+    fullName: InteractionSystem.Interactable.Interactable.HoverEnter
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Interactable.Interactable.HoverExit
+  commentId: M:InteractionSystem.Interactable.Interactable.HoverExit
+  parent: InteractionSystem.Interactable.Interactable
+  name: HoverExit()
+  nameWithType: Interactable.HoverExit()
+  fullName: InteractionSystem.Interactable.Interactable.HoverExit()
+  spec.csharp:
+  - uid: InteractionSystem.Interactable.Interactable.HoverExit
+    name: HoverExit
+    nameWithType: Interactable.HoverExit
+    fullName: InteractionSystem.Interactable.Interactable.HoverExit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Interactable.Interactable.HoverExit
+    name: HoverExit
+    nameWithType: Interactable.HoverExit
+    fullName: InteractionSystem.Interactable.Interactable.HoverExit
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Interactable.Interactable.OnDisable
+  commentId: M:InteractionSystem.Interactable.Interactable.OnDisable
+  parent: InteractionSystem.Interactable.Interactable
+  name: OnDisable()
+  nameWithType: Interactable.OnDisable()
+  fullName: InteractionSystem.Interactable.Interactable.OnDisable()
+  spec.csharp:
+  - uid: InteractionSystem.Interactable.Interactable.OnDisable
+    name: OnDisable
+    nameWithType: Interactable.OnDisable
+    fullName: InteractionSystem.Interactable.Interactable.OnDisable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Interactable.Interactable.OnDisable
+    name: OnDisable
+    nameWithType: Interactable.OnDisable
+    fullName: InteractionSystem.Interactable.Interactable.OnDisable
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Sensable.root
+  commentId: P:InteractionSystem.Sensable.root
+  parent: InteractionSystem.Sensable
+  name: root
+  nameWithType: Sensable.root
+  fullName: InteractionSystem.Sensable.root
+- uid: InteractionSystem.Sensable._root
+  commentId: F:InteractionSystem.Sensable._root
+  parent: InteractionSystem.Sensable
+  name: _root
+  nameWithType: Sensable._root
+  fullName: InteractionSystem.Sensable._root
+- uid: InteractionSystem.Sensable.hasForwardingRole
+  commentId: P:InteractionSystem.Sensable.hasForwardingRole
+  parent: InteractionSystem.Sensable
+  name: hasForwardingRole
+  nameWithType: Sensable.hasForwardingRole
+  fullName: InteractionSystem.Sensable.hasForwardingRole
+- uid: InteractionSystem.Sensable.Awake
+  commentId: M:InteractionSystem.Sensable.Awake
+  parent: InteractionSystem.Sensable
+  name: Awake()
+  nameWithType: Sensable.Awake()
+  fullName: InteractionSystem.Sensable.Awake()
+  spec.csharp:
+  - uid: InteractionSystem.Sensable.Awake
+    name: Awake
+    nameWithType: Sensable.Awake
+    fullName: InteractionSystem.Sensable.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Sensable.Awake
+    name: Awake
+    nameWithType: Sensable.Awake
+    fullName: InteractionSystem.Sensable.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Sensable.FindRoot
+  commentId: M:InteractionSystem.Sensable.FindRoot
+  parent: InteractionSystem.Sensable
+  name: FindRoot()
+  nameWithType: Sensable.FindRoot()
+  fullName: InteractionSystem.Sensable.FindRoot()
+  spec.csharp:
+  - uid: InteractionSystem.Sensable.FindRoot
+    name: FindRoot
+    nameWithType: Sensable.FindRoot
+    fullName: InteractionSystem.Sensable.FindRoot
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Sensable.FindRoot
+    name: FindRoot
+    nameWithType: Sensable.FindRoot
+    fullName: InteractionSystem.Sensable.FindRoot
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: InteractionSystem.Interactable.Interactable.Interact
+  commentId: M:InteractionSystem.Interactable.Interactable.Interact
+  parent: InteractionSystem.Interactable.Interactable
+  name: Interact()
+  nameWithType: Interactable.Interact()
+  fullName: InteractionSystem.Interactable.Interactable.Interact()
+  spec.csharp:
+  - uid: InteractionSystem.Interactable.Interactable.Interact
+    name: Interact
+    nameWithType: Interactable.Interact
+    fullName: InteractionSystem.Interactable.Interactable.Interact
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Interactable.Interactable.Interact
+    name: Interact
+    nameWithType: Interactable.Interact
+    fullName: InteractionSystem.Interactable.Interactable.Interact
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Interactable.InteractableForwarder.Interact*
+  commentId: Overload:InteractionSystem.Interactable.InteractableForwarder.Interact
+  name: Interact
+  nameWithType: InteractableForwarder.Interact
+  fullName: InteractionSystem.Interactable.InteractableForwarder.Interact

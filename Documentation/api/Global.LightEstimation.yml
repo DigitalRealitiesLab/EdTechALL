@@ -1,0 +1,590 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LightEstimation
+  commentId: T:Global.LightEstimation
+  id: LightEstimation
+  parent: Global
+  children:
+  - Global.LightEstimation.brightness
+  - Global.LightEstimation.cameraManager
+  - Global.LightEstimation.colorCorrection
+  - Global.LightEstimation.colorTemperature
+  - Global.LightEstimation.mainLightColor
+  - Global.LightEstimation.mainLightDirection
+  - Global.LightEstimation.mainLightIntensityLumens
+  - Global.LightEstimation.sphericalHarmonics
+  langs:
+  - csharp
+  - vb
+  name: LightEstimation
+  nameWithType: LightEstimation
+  fullName: LightEstimation
+  type: Class
+  source:
+    id: LightEstimation
+    path: ''
+    startLine: 16450
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nA component that can be used to access the most\nrecently received light estimation information\nfor the physical environment as observed by an\nAR device.\n"
+  example: []
+  syntax:
+    content: 'public class LightEstimation : MonoBehaviour'
+    content.vb: >-
+      Public Class LightEstimation
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.LightEstimation.cameraManager
+  commentId: P:Global.LightEstimation.cameraManager
+  id: cameraManager
+  parent: Global.LightEstimation
+  langs:
+  - csharp
+  - vb
+  name: cameraManager
+  nameWithType: LightEstimation.cameraManager
+  fullName: LightEstimation.cameraManager
+  type: Property
+  source:
+    id: cameraManager
+    path: ''
+    startLine: 16460
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nGet or set the <code>ARCameraManager</code>.\n"
+  example: []
+  syntax:
+    content: public ARCameraManager cameraManager { get; set; }
+    parameters: []
+    return:
+      type: Global.ARCameraManager
+    content.vb: Public Property cameraManager As ARCameraManager
+  overload: Global.LightEstimation.cameraManager*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.LightEstimation.brightness
+  commentId: P:Global.LightEstimation.brightness
+  id: brightness
+  parent: Global.LightEstimation
+  langs:
+  - csharp
+  - vb
+  name: brightness
+  nameWithType: LightEstimation.brightness
+  fullName: LightEstimation.brightness
+  type: Property
+  source:
+    id: brightness
+    path: ''
+    startLine: 16481
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe estimated brightness of the physical environment, if available.\n"
+  example: []
+  syntax:
+    content: public float? brightness { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Single}
+    content.vb: Public ReadOnly Property brightness As Single?
+  overload: Global.LightEstimation.brightness*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.LightEstimation.colorTemperature
+  commentId: P:Global.LightEstimation.colorTemperature
+  id: colorTemperature
+  parent: Global.LightEstimation
+  langs:
+  - csharp
+  - vb
+  name: colorTemperature
+  nameWithType: LightEstimation.colorTemperature
+  fullName: LightEstimation.colorTemperature
+  type: Property
+  source:
+    id: colorTemperature
+    path: ''
+    startLine: 16486
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe estimated color temperature of the physical environment, if available.\n"
+  example: []
+  syntax:
+    content: public float? colorTemperature { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Single}
+    content.vb: Public ReadOnly Property colorTemperature As Single?
+  overload: Global.LightEstimation.colorTemperature*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.LightEstimation.colorCorrection
+  commentId: P:Global.LightEstimation.colorCorrection
+  id: colorCorrection
+  parent: Global.LightEstimation
+  langs:
+  - csharp
+  - vb
+  name: colorCorrection
+  nameWithType: LightEstimation.colorCorrection
+  fullName: LightEstimation.colorCorrection
+  type: Property
+  source:
+    id: colorCorrection
+    path: ''
+    startLine: 16491
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe estimated color correction value of the physical environment, if available.\n"
+  example: []
+  syntax:
+    content: public Color? colorCorrection { get; }
+    parameters: []
+    return:
+      type: System.Nullable{Color}
+    content.vb: Public ReadOnly Property colorCorrection As Color?
+  overload: Global.LightEstimation.colorCorrection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.LightEstimation.mainLightDirection
+  commentId: P:Global.LightEstimation.mainLightDirection
+  id: mainLightDirection
+  parent: Global.LightEstimation
+  langs:
+  - csharp
+  - vb
+  name: mainLightDirection
+  nameWithType: LightEstimation.mainLightDirection
+  fullName: LightEstimation.mainLightDirection
+  type: Property
+  source:
+    id: mainLightDirection
+    path: ''
+    startLine: 16496
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe estimated direction of the main light of the physical environment, if available.\n"
+  example: []
+  syntax:
+    content: public Vector3? mainLightDirection { get; }
+    parameters: []
+    return:
+      type: System.Nullable{Vector3}
+    content.vb: Public ReadOnly Property mainLightDirection As Vector3?
+  overload: Global.LightEstimation.mainLightDirection*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.LightEstimation.mainLightColor
+  commentId: P:Global.LightEstimation.mainLightColor
+  id: mainLightColor
+  parent: Global.LightEstimation
+  langs:
+  - csharp
+  - vb
+  name: mainLightColor
+  nameWithType: LightEstimation.mainLightColor
+  fullName: LightEstimation.mainLightColor
+  type: Property
+  source:
+    id: mainLightColor
+    path: ''
+    startLine: 16501
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe estimated color of the main light of the physical environment, if available.\n"
+  example: []
+  syntax:
+    content: public Color? mainLightColor { get; }
+    parameters: []
+    return:
+      type: System.Nullable{Color}
+    content.vb: Public ReadOnly Property mainLightColor As Color?
+  overload: Global.LightEstimation.mainLightColor*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.LightEstimation.mainLightIntensityLumens
+  commentId: P:Global.LightEstimation.mainLightIntensityLumens
+  id: mainLightIntensityLumens
+  parent: Global.LightEstimation
+  langs:
+  - csharp
+  - vb
+  name: mainLightIntensityLumens
+  nameWithType: LightEstimation.mainLightIntensityLumens
+  fullName: LightEstimation.mainLightIntensityLumens
+  type: Property
+  source:
+    id: mainLightIntensityLumens
+    path: ''
+    startLine: 16506
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe estimated intensity in lumens of main light of the physical environment, if available.\n"
+  example: []
+  syntax:
+    content: public float? mainLightIntensityLumens { get; }
+    parameters: []
+    return:
+      type: System.Nullable{System.Single}
+    content.vb: Public ReadOnly Property mainLightIntensityLumens As Single?
+  overload: Global.LightEstimation.mainLightIntensityLumens*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.LightEstimation.sphericalHarmonics
+  commentId: P:Global.LightEstimation.sphericalHarmonics
+  id: sphericalHarmonics
+  parent: Global.LightEstimation
+  langs:
+  - csharp
+  - vb
+  name: sphericalHarmonics
+  nameWithType: LightEstimation.sphericalHarmonics
+  fullName: LightEstimation.sphericalHarmonics
+  type: Property
+  source:
+    id: sphericalHarmonics
+    path: ''
+    startLine: 16511
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nThe estimated spherical harmonics coefficients of the physical environment, if available.\n"
+  example: []
+  syntax:
+    content: public SphericalHarmonicsL2? sphericalHarmonics { get; }
+    parameters: []
+    return:
+      type: System.Nullable{SphericalHarmonicsL2}
+    content.vb: Public ReadOnly Property sphericalHarmonics As SphericalHarmonicsL2?
+  overload: Global.LightEstimation.sphericalHarmonics*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.LightEstimation.cameraManager*
+  commentId: Overload:Global.LightEstimation.cameraManager
+  name: cameraManager
+  nameWithType: LightEstimation.cameraManager
+  fullName: LightEstimation.cameraManager
+- uid: Global.ARCameraManager
+  commentId: '!:Global.ARCameraManager'
+  isExternal: true
+  name: ARCameraManager
+  nameWithType: ARCameraManager
+  fullName: ARCameraManager
+- uid: Global.LightEstimation.brightness*
+  commentId: Overload:Global.LightEstimation.brightness
+  name: brightness
+  nameWithType: LightEstimation.brightness
+  fullName: LightEstimation.brightness
+- uid: System.Nullable{System.Single}
+  commentId: T:System.Nullable{System.Single}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Single>
+  nameWithType: Nullable<Single>
+  fullName: System.Nullable<System.Single>
+  nameWithType.vb: Nullable(Of Single)
+  fullName.vb: System.Nullable(Of System.Single)
+  name.vb: Nullable(Of Single)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Single
+    name: Single
+    nameWithType: Single
+    fullName: System.Single
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Nullable`1
+  commentId: T:System.Nullable`1
+  isExternal: true
+  name: Nullable<T>
+  nameWithType: Nullable<T>
+  fullName: System.Nullable<T>
+  nameWithType.vb: Nullable(Of T)
+  fullName.vb: System.Nullable(Of T)
+  name.vb: Nullable(Of T)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.LightEstimation.colorTemperature*
+  commentId: Overload:Global.LightEstimation.colorTemperature
+  name: colorTemperature
+  nameWithType: LightEstimation.colorTemperature
+  fullName: LightEstimation.colorTemperature
+- uid: Global.LightEstimation.colorCorrection*
+  commentId: Overload:Global.LightEstimation.colorCorrection
+  name: colorCorrection
+  nameWithType: LightEstimation.colorCorrection
+  fullName: LightEstimation.colorCorrection
+- uid: System.Nullable{Color}
+  commentId: T:System.Nullable{Color}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Color>
+  nameWithType: Nullable<Color>
+  fullName: System.Nullable<Color>
+  nameWithType.vb: Nullable(Of Color)
+  fullName.vb: System.Nullable(Of Color)
+  name.vb: Nullable(Of Color)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Color
+    name: Color
+    nameWithType: Color
+    fullName: Color
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.LightEstimation.mainLightDirection*
+  commentId: Overload:Global.LightEstimation.mainLightDirection
+  name: mainLightDirection
+  nameWithType: LightEstimation.mainLightDirection
+  fullName: LightEstimation.mainLightDirection
+- uid: System.Nullable{Vector3}
+  commentId: T:System.Nullable{Vector3}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<Vector3>
+  nameWithType: Nullable<Vector3>
+  fullName: System.Nullable<Vector3>
+  nameWithType.vb: Nullable(Of Vector3)
+  fullName.vb: System.Nullable(Of Vector3)
+  name.vb: Nullable(Of Vector3)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Vector3
+    name: Vector3
+    nameWithType: Vector3
+    fullName: Vector3
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.LightEstimation.mainLightColor*
+  commentId: Overload:Global.LightEstimation.mainLightColor
+  name: mainLightColor
+  nameWithType: LightEstimation.mainLightColor
+  fullName: LightEstimation.mainLightColor
+- uid: Global.LightEstimation.mainLightIntensityLumens*
+  commentId: Overload:Global.LightEstimation.mainLightIntensityLumens
+  name: mainLightIntensityLumens
+  nameWithType: LightEstimation.mainLightIntensityLumens
+  fullName: LightEstimation.mainLightIntensityLumens
+- uid: Global.LightEstimation.sphericalHarmonics*
+  commentId: Overload:Global.LightEstimation.sphericalHarmonics
+  name: sphericalHarmonics
+  nameWithType: LightEstimation.sphericalHarmonics
+  fullName: LightEstimation.sphericalHarmonics
+- uid: System.Nullable{SphericalHarmonicsL2}
+  commentId: T:System.Nullable{SphericalHarmonicsL2}
+  parent: System
+  definition: System.Nullable`1
+  name: Nullable<SphericalHarmonicsL2>
+  nameWithType: Nullable<SphericalHarmonicsL2>
+  fullName: System.Nullable<SphericalHarmonicsL2>
+  nameWithType.vb: Nullable(Of SphericalHarmonicsL2)
+  fullName.vb: System.Nullable(Of SphericalHarmonicsL2)
+  name.vb: Nullable(Of SphericalHarmonicsL2)
+  spec.csharp:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.SphericalHarmonicsL2
+    name: SphericalHarmonicsL2
+    nameWithType: SphericalHarmonicsL2
+    fullName: SphericalHarmonicsL2
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Nullable`1
+    name: Nullable
+    nameWithType: Nullable
+    fullName: System.Nullable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.SphericalHarmonicsL2
+    name: SphericalHarmonicsL2
+    nameWithType: SphericalHarmonicsL2
+    fullName: SphericalHarmonicsL2
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )

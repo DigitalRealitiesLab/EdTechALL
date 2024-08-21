@@ -1,0 +1,92 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.IHoverable
+  commentId: T:InteractionSystem.IHoverable
+  id: IHoverable
+  parent: InteractionSystem
+  children:
+  - InteractionSystem.IHoverable.HoverEnter
+  - InteractionSystem.IHoverable.HoverExit
+  langs:
+  - csharp
+  - vb
+  name: IHoverable
+  nameWithType: IHoverable
+  fullName: InteractionSystem.IHoverable
+  type: Interface
+  source:
+    id: IHoverable
+    path: ''
+    startLine: 24498
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public interface IHoverable
+    content.vb: Public Interface IHoverable
+  modifiers.csharp:
+  - public
+  - interface
+  modifiers.vb:
+  - Public
+  - Interface
+- uid: InteractionSystem.IHoverable.HoverEnter
+  commentId: M:InteractionSystem.IHoverable.HoverEnter
+  id: HoverEnter
+  parent: InteractionSystem.IHoverable
+  langs:
+  - csharp
+  - vb
+  name: HoverEnter()
+  nameWithType: IHoverable.HoverEnter()
+  fullName: InteractionSystem.IHoverable.HoverEnter()
+  type: Method
+  source:
+    id: HoverEnter
+    path: ''
+    startLine: 24500
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: void HoverEnter()
+    content.vb: Sub HoverEnter
+  overload: InteractionSystem.IHoverable.HoverEnter*
+- uid: InteractionSystem.IHoverable.HoverExit
+  commentId: M:InteractionSystem.IHoverable.HoverExit
+  id: HoverExit
+  parent: InteractionSystem.IHoverable
+  langs:
+  - csharp
+  - vb
+  name: HoverExit()
+  nameWithType: IHoverable.HoverExit()
+  fullName: InteractionSystem.IHoverable.HoverExit()
+  type: Method
+  source:
+    id: HoverExit
+    path: ''
+    startLine: 24501
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: void HoverExit()
+    content.vb: Sub HoverExit
+  overload: InteractionSystem.IHoverable.HoverExit*
+references:
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: InteractionSystem.IHoverable.HoverEnter*
+  commentId: Overload:InteractionSystem.IHoverable.HoverEnter
+  name: HoverEnter
+  nameWithType: IHoverable.HoverEnter
+  fullName: InteractionSystem.IHoverable.HoverEnter
+- uid: InteractionSystem.IHoverable.HoverExit*
+  commentId: Overload:InteractionSystem.IHoverable.HoverExit
+  name: HoverExit
+  nameWithType: IHoverable.HoverExit
+  fullName: InteractionSystem.IHoverable.HoverExit

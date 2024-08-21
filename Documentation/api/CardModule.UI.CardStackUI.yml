@@ -1,0 +1,314 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.CardStackUI
+  commentId: T:CardModule.UI.CardStackUI
+  id: CardStackUI
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.CardStackUI.activeCardCount
+  - CardModule.UI.CardStackUI.AddCard(CardModule.ProxyCardData)
+  - CardModule.UI.CardStackUI.cardDataLoader
+  - CardModule.UI.CardStackUI.cardUIPrefab
+  - CardModule.UI.CardStackUI.contentParent
+  - CardModule.UI.CardStackUI.Count
+  - CardModule.UI.CardStackUI.type
+  langs:
+  - csharp
+  - vb
+  name: CardStackUI
+  nameWithType: CardStackUI
+  fullName: CardModule.UI.CardStackUI
+  type: Class
+  source:
+    id: CardStackUI
+    path: ''
+    startLine: 20159
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: 'public class CardStackUI : MonoBehaviour'
+    content.vb: >-
+      Public Class CardStackUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.UI.CardStackUI.type
+  commentId: F:CardModule.UI.CardStackUI.type
+  id: type
+  parent: CardModule.UI.CardStackUI
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: CardStackUI.type
+  fullName: CardModule.UI.CardStackUI.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 20161
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public CardData.CardType type
+    return:
+      type: CardModule.CardData.CardType
+    content.vb: Public type As CardData.CardType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackUI.cardDataLoader
+  commentId: F:CardModule.UI.CardStackUI.cardDataLoader
+  id: cardDataLoader
+  parent: CardModule.UI.CardStackUI
+  langs:
+  - csharp
+  - vb
+  name: cardDataLoader
+  nameWithType: CardStackUI.cardDataLoader
+  fullName: CardModule.UI.CardStackUI.cardDataLoader
+  type: Field
+  source:
+    id: cardDataLoader
+    path: ''
+    startLine: 20162
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public CardDataLoader cardDataLoader
+    return:
+      type: CardModule.CardDataLoader
+    content.vb: Public cardDataLoader As CardDataLoader
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackUI.contentParent
+  commentId: F:CardModule.UI.CardStackUI.contentParent
+  id: contentParent
+  parent: CardModule.UI.CardStackUI
+  langs:
+  - csharp
+  - vb
+  name: contentParent
+  nameWithType: CardStackUI.contentParent
+  fullName: CardModule.UI.CardStackUI.contentParent
+  type: Field
+  source:
+    id: contentParent
+    path: ''
+    startLine: 20163
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public Transform contentParent
+    return:
+      type: Global.Transform
+    content.vb: Public contentParent As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackUI.cardUIPrefab
+  commentId: F:CardModule.UI.CardStackUI.cardUIPrefab
+  id: cardUIPrefab
+  parent: CardModule.UI.CardStackUI
+  langs:
+  - csharp
+  - vb
+  name: cardUIPrefab
+  nameWithType: CardStackUI.cardUIPrefab
+  fullName: CardModule.UI.CardStackUI.cardUIPrefab
+  type: Field
+  source:
+    id: cardUIPrefab
+    path: ''
+    startLine: 20164
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public GameObject cardUIPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public cardUIPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackUI.activeCardCount
+  commentId: P:CardModule.UI.CardStackUI.activeCardCount
+  id: activeCardCount
+  parent: CardModule.UI.CardStackUI
+  langs:
+  - csharp
+  - vb
+  name: activeCardCount
+  nameWithType: CardStackUI.activeCardCount
+  fullName: CardModule.UI.CardStackUI.activeCardCount
+  type: Property
+  source:
+    id: activeCardCount
+    path: ''
+    startLine: 20169
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public int activeCardCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property activeCardCount As Integer
+  overload: CardModule.UI.CardStackUI.activeCardCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardModule.UI.CardStackUI.Count
+  commentId: P:CardModule.UI.CardStackUI.Count
+  id: Count
+  parent: CardModule.UI.CardStackUI
+  langs:
+  - csharp
+  - vb
+  name: Count
+  nameWithType: CardStackUI.Count
+  fullName: CardModule.UI.CardStackUI.Count
+  type: Property
+  source:
+    id: Count
+    path: ''
+    startLine: 20180
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public int Count { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property Count As Integer
+  overload: CardModule.UI.CardStackUI.Count*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardModule.UI.CardStackUI.AddCard(CardModule.ProxyCardData)
+  commentId: M:CardModule.UI.CardStackUI.AddCard(CardModule.ProxyCardData)
+  id: AddCard(CardModule.ProxyCardData)
+  parent: CardModule.UI.CardStackUI
+  langs:
+  - csharp
+  - vb
+  name: AddCard(ProxyCardData)
+  nameWithType: CardStackUI.AddCard(ProxyCardData)
+  fullName: CardModule.UI.CardStackUI.AddCard(CardModule.ProxyCardData)
+  type: Method
+  source:
+    id: AddCard
+    path: ''
+    startLine: 20197
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public void AddCard(ProxyCardData proxyCardData)
+    parameters:
+    - id: proxyCardData
+      type: CardModule.ProxyCardData
+    content.vb: Public Sub AddCard(proxyCardData As ProxyCardData)
+  overload: CardModule.UI.CardStackUI.AddCard*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardModule.CardData.CardType
+  commentId: T:CardModule.CardData.CardType
+  parent: CardModule
+  name: CardData.CardType
+  nameWithType: CardData.CardType
+  fullName: CardModule.CardData.CardType
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: CardModule.CardDataLoader
+  commentId: T:CardModule.CardDataLoader
+  parent: CardModule
+  name: CardDataLoader
+  nameWithType: CardDataLoader
+  fullName: CardModule.CardDataLoader
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: CardModule.UI.CardStackUI.activeCardCount*
+  commentId: Overload:CardModule.UI.CardStackUI.activeCardCount
+  name: activeCardCount
+  nameWithType: CardStackUI.activeCardCount
+  fullName: CardModule.UI.CardStackUI.activeCardCount
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: CardModule.UI.CardStackUI.Count*
+  commentId: Overload:CardModule.UI.CardStackUI.Count
+  name: Count
+  nameWithType: CardStackUI.Count
+  fullName: CardModule.UI.CardStackUI.Count
+- uid: CardModule.UI.CardStackUI.AddCard*
+  commentId: Overload:CardModule.UI.CardStackUI.AddCard
+  name: AddCard
+  nameWithType: CardStackUI.AddCard
+  fullName: CardModule.UI.CardStackUI.AddCard
+- uid: CardModule.ProxyCardData
+  commentId: T:CardModule.ProxyCardData
+  parent: CardModule
+  name: ProxyCardData
+  nameWithType: ProxyCardData
+  fullName: CardModule.ProxyCardData

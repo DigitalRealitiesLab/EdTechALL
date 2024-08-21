@@ -1,0 +1,62 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingBoxEvent
+  commentId: T:BuildingBox.BuildingBoxEvent
+  id: BuildingBoxEvent
+  parent: BuildingBox
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxEvent
+  nameWithType: BuildingBoxEvent
+  fullName: BuildingBox.BuildingBoxEvent
+  type: Class
+  source:
+    id: BuildingBoxEvent
+    path: ''
+    startLine: 805
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class BuildingBoxEvent : UnityEvent<BuildingBoxElementData>
+    content.vb: >-
+      <Serializable>
+
+      Public Class BuildingBoxEvent
+          Inherits UnityEvent(Of BuildingBoxElementData)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

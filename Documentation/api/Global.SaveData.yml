@@ -1,0 +1,336 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SaveData
+  commentId: T:Global.SaveData
+  id: SaveData
+  parent: Global
+  children:
+  - Global.SaveData.#ctor(System.String,System.String)
+  - Global.SaveData.#ctor(System.Type,System.Object)
+  - Global.SaveData.dataSource
+  - Global.SaveData.FromJSON``1
+  - Global.SaveData.FromJSONOverride(System.Object)
+  - Global.SaveData.json
+  - Global.SaveData.ToJSON
+  - Global.SaveData.type
+  langs:
+  - csharp
+  - vb
+  name: SaveData
+  nameWithType: SaveData
+  fullName: SaveData
+  type: Struct
+  source:
+    id: SaveData
+    path: ''
+    startLine: 16891
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public struct SaveData
+    content.vb: Public Structure SaveData
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.SaveData.type
+  commentId: F:Global.SaveData.type
+  id: type
+  parent: Global.SaveData
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: SaveData.type
+  fullName: SaveData.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 16893
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Type type
+    return:
+      type: System.Type
+    content.vb: Public type As Type
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveData.dataSource
+  commentId: F:Global.SaveData.dataSource
+  id: dataSource
+  parent: Global.SaveData
+  langs:
+  - csharp
+  - vb
+  name: dataSource
+  nameWithType: SaveData.dataSource
+  fullName: SaveData.dataSource
+  type: Field
+  source:
+    id: dataSource
+    path: ''
+    startLine: 16894
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public object dataSource
+    return:
+      type: System.Object
+    content.vb: Public dataSource As Object
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveData.json
+  commentId: F:Global.SaveData.json
+  id: json
+  parent: Global.SaveData
+  langs:
+  - csharp
+  - vb
+  name: json
+  nameWithType: SaveData.json
+  fullName: SaveData.json
+  type: Field
+  source:
+    id: json
+    path: ''
+    startLine: 16896
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string json
+    return:
+      type: System.String
+    content.vb: Public json As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveData.#ctor(System.Type,System.Object)
+  commentId: M:Global.SaveData.#ctor(System.Type,System.Object)
+  id: '#ctor(System.Type,System.Object)'
+  parent: Global.SaveData
+  langs:
+  - csharp
+  - vb
+  name: SaveData(Type, Object)
+  nameWithType: SaveData.SaveData(Type, Object)
+  fullName: SaveData.SaveData(System.Type, System.Object)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16898
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SaveData(Type type, object dataSource)
+    parameters:
+    - id: type
+      type: System.Type
+    - id: dataSource
+      type: System.Object
+    content.vb: Public Sub New(type As Type, dataSource As Object)
+  overload: Global.SaveData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveData.#ctor(System.String,System.String)
+  commentId: M:Global.SaveData.#ctor(System.String,System.String)
+  id: '#ctor(System.String,System.String)'
+  parent: Global.SaveData
+  langs:
+  - csharp
+  - vb
+  name: SaveData(String, String)
+  nameWithType: SaveData.SaveData(String, String)
+  fullName: SaveData.SaveData(System.String, System.String)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 16905
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SaveData(string id, string json)
+    parameters:
+    - id: id
+      type: System.String
+    - id: json
+      type: System.String
+    content.vb: Public Sub New(id As String, json As String)
+  overload: Global.SaveData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveData.ToJSON
+  commentId: M:Global.SaveData.ToJSON
+  id: ToJSON
+  parent: Global.SaveData
+  langs:
+  - csharp
+  - vb
+  name: ToJSON()
+  nameWithType: SaveData.ToJSON()
+  fullName: SaveData.ToJSON()
+  type: Method
+  source:
+    id: ToJSON
+    path: ''
+    startLine: 16912
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string ToJSON()
+    return:
+      type: System.String
+    content.vb: Public Function ToJSON As String
+  overload: Global.SaveData.ToJSON*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SaveData.FromJSON``1
+  commentId: M:Global.SaveData.FromJSON``1
+  id: FromJSON``1
+  parent: Global.SaveData
+  langs:
+  - csharp
+  - vb
+  name: FromJSON<T>()
+  nameWithType: SaveData.FromJSON<T>()
+  fullName: SaveData.FromJSON<T>()
+  type: Method
+  source:
+    id: FromJSON
+    path: ''
+    startLine: 16917
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public T FromJSON<T>()
+    typeParameters:
+    - id: T
+    return:
+      type: '{T}'
+    content.vb: Public Function FromJSON(Of T) As T
+  overload: Global.SaveData.FromJSON*
+  nameWithType.vb: SaveData.FromJSON(Of T)()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: SaveData.FromJSON(Of T)()
+  name.vb: FromJSON(Of T)()
+- uid: Global.SaveData.FromJSONOverride(System.Object)
+  commentId: M:Global.SaveData.FromJSONOverride(System.Object)
+  id: FromJSONOverride(System.Object)
+  parent: Global.SaveData
+  langs:
+  - csharp
+  - vb
+  name: FromJSONOverride(Object)
+  nameWithType: SaveData.FromJSONOverride(Object)
+  fullName: SaveData.FromJSONOverride(System.Object)
+  type: Method
+  source:
+    id: FromJSONOverride
+    path: ''
+    startLine: 16922
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void FromJSONOverride(object overrideable)
+    parameters:
+    - id: overrideable
+      type: System.Object
+    content.vb: Public Sub FromJSONOverride(overrideable As Object)
+  overload: Global.SaveData.FromJSONOverride*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Type
+  commentId: T:System.Type
+  parent: System
+  isExternal: true
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SaveData.#ctor*
+  commentId: Overload:Global.SaveData.#ctor
+  name: SaveData
+  nameWithType: SaveData.SaveData
+  fullName: SaveData.SaveData
+- uid: Global.SaveData.ToJSON*
+  commentId: Overload:Global.SaveData.ToJSON
+  name: ToJSON
+  nameWithType: SaveData.ToJSON
+  fullName: SaveData.ToJSON
+- uid: Global.SaveData.FromJSON*
+  commentId: Overload:Global.SaveData.FromJSON
+  name: FromJSON
+  nameWithType: SaveData.FromJSON
+  fullName: SaveData.FromJSON
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: Global.SaveData.FromJSONOverride*
+  commentId: Overload:Global.SaveData.FromJSONOverride
+  name: FromJSONOverride
+  nameWithType: SaveData.FromJSONOverride
+  fullName: SaveData.FromJSONOverride

@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.CardData.CardType
+  commentId: T:CardModule.CardData.CardType
+  id: CardData.CardType
+  parent: CardModule
+  children:
+  - CardModule.CardData.CardType.Info
+  - CardModule.CardData.CardType.MiniGame
+  - CardModule.CardData.CardType.Quiz
+  - CardModule.CardData.CardType.Task
+  langs:
+  - csharp
+  - vb
+  name: CardData.CardType
+  nameWithType: CardData.CardType
+  fullName: CardModule.CardData.CardType
+  type: Enum
+  source:
+    id: CardType
+    path: ''
+    startLine: 19467
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public enum CardType
+    content.vb: Public Enum CardType
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: CardModule.CardData.CardType.Info
+  commentId: F:CardModule.CardData.CardType.Info
+  id: Info
+  parent: CardModule.CardData.CardType
+  langs:
+  - csharp
+  - vb
+  name: Info
+  nameWithType: CardData.CardType.Info
+  fullName: CardModule.CardData.CardType.Info
+  type: Field
+  source:
+    id: Info
+    path: ''
+    startLine: 19469
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: Info = 0
+    return:
+      type: CardModule.CardData.CardType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.CardData.CardType.Quiz
+  commentId: F:CardModule.CardData.CardType.Quiz
+  id: Quiz
+  parent: CardModule.CardData.CardType
+  langs:
+  - csharp
+  - vb
+  name: Quiz
+  nameWithType: CardData.CardType.Quiz
+  fullName: CardModule.CardData.CardType.Quiz
+  type: Field
+  source:
+    id: Quiz
+    path: ''
+    startLine: 19470
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: Quiz = 1
+    return:
+      type: CardModule.CardData.CardType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.CardData.CardType.Task
+  commentId: F:CardModule.CardData.CardType.Task
+  id: Task
+  parent: CardModule.CardData.CardType
+  langs:
+  - csharp
+  - vb
+  name: Task
+  nameWithType: CardData.CardType.Task
+  fullName: CardModule.CardData.CardType.Task
+  type: Field
+  source:
+    id: Task
+    path: ''
+    startLine: 19471
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: Task = 2
+    return:
+      type: CardModule.CardData.CardType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.CardData.CardType.MiniGame
+  commentId: F:CardModule.CardData.CardType.MiniGame
+  id: MiniGame
+  parent: CardModule.CardData.CardType
+  langs:
+  - csharp
+  - vb
+  name: MiniGame
+  nameWithType: CardData.CardType.MiniGame
+  fullName: CardModule.CardData.CardType.MiniGame
+  type: Field
+  source:
+    id: MiniGame
+    path: ''
+    startLine: 19472
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: MiniGame = 3
+    return:
+      type: CardModule.CardData.CardType
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: CardModule.CardData.CardType
+  commentId: T:CardModule.CardData.CardType
+  parent: CardModule
+  name: CardData.CardType
+  nameWithType: CardData.CardType
+  fullName: CardModule.CardData.CardType

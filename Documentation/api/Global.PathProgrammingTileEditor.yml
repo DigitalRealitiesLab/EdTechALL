@@ -1,0 +1,256 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PathProgrammingTileEditor
+  commentId: T:Global.PathProgrammingTileEditor
+  id: PathProgrammingTileEditor
+  parent: Global
+  children:
+  - Global.PathProgrammingTileEditor.endTileMat
+  - Global.PathProgrammingTileEditor.freeTileMat
+  - Global.PathProgrammingTileEditor.occupiedTileMat
+  - Global.PathProgrammingTileEditor.OnInspectorGUI
+  - Global.PathProgrammingTileEditor.SetTileMat(PathProgrammingTile)
+  - Global.PathProgrammingTileEditor.startTileMat
+  langs:
+  - csharp
+  - vb
+  name: PathProgrammingTileEditor
+  nameWithType: PathProgrammingTileEditor
+  fullName: PathProgrammingTileEditor
+  type: Class
+  source:
+    id: PathProgrammingTileEditor
+    path: ''
+    startLine: 16094
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PathProgrammingTileEditor : Editor'
+    content.vb: >-
+      Public Class PathProgrammingTileEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PathProgrammingTileEditor.freeTileMat
+  commentId: F:Global.PathProgrammingTileEditor.freeTileMat
+  id: freeTileMat
+  parent: Global.PathProgrammingTileEditor
+  langs:
+  - csharp
+  - vb
+  name: freeTileMat
+  nameWithType: PathProgrammingTileEditor.freeTileMat
+  fullName: PathProgrammingTileEditor.freeTileMat
+  type: Field
+  source:
+    id: freeTileMat
+    path: ''
+    startLine: 16097
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Material freeTileMat
+    return:
+      type: Global.Material
+    content.vb: Public Shared freeTileMat As Material
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PathProgrammingTileEditor.occupiedTileMat
+  commentId: F:Global.PathProgrammingTileEditor.occupiedTileMat
+  id: occupiedTileMat
+  parent: Global.PathProgrammingTileEditor
+  langs:
+  - csharp
+  - vb
+  name: occupiedTileMat
+  nameWithType: PathProgrammingTileEditor.occupiedTileMat
+  fullName: PathProgrammingTileEditor.occupiedTileMat
+  type: Field
+  source:
+    id: occupiedTileMat
+    path: ''
+    startLine: 16098
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Material occupiedTileMat
+    return:
+      type: Global.Material
+    content.vb: Public Shared occupiedTileMat As Material
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PathProgrammingTileEditor.startTileMat
+  commentId: F:Global.PathProgrammingTileEditor.startTileMat
+  id: startTileMat
+  parent: Global.PathProgrammingTileEditor
+  langs:
+  - csharp
+  - vb
+  name: startTileMat
+  nameWithType: PathProgrammingTileEditor.startTileMat
+  fullName: PathProgrammingTileEditor.startTileMat
+  type: Field
+  source:
+    id: startTileMat
+    path: ''
+    startLine: 16099
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Material startTileMat
+    return:
+      type: Global.Material
+    content.vb: Public Shared startTileMat As Material
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PathProgrammingTileEditor.endTileMat
+  commentId: F:Global.PathProgrammingTileEditor.endTileMat
+  id: endTileMat
+  parent: Global.PathProgrammingTileEditor
+  langs:
+  - csharp
+  - vb
+  name: endTileMat
+  nameWithType: PathProgrammingTileEditor.endTileMat
+  fullName: PathProgrammingTileEditor.endTileMat
+  type: Field
+  source:
+    id: endTileMat
+    path: ''
+    startLine: 16100
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Material endTileMat
+    return:
+      type: Global.Material
+    content.vb: Public Shared endTileMat As Material
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PathProgrammingTileEditor.OnInspectorGUI
+  commentId: M:Global.PathProgrammingTileEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.PathProgrammingTileEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: PathProgrammingTileEditor.OnInspectorGUI()
+  fullName: PathProgrammingTileEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 16102
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.PathProgrammingTileEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.PathProgrammingTileEditor.SetTileMat(PathProgrammingTile)
+  commentId: M:Global.PathProgrammingTileEditor.SetTileMat(PathProgrammingTile)
+  id: SetTileMat(PathProgrammingTile)
+  parent: Global.PathProgrammingTileEditor
+  langs:
+  - csharp
+  - vb
+  name: SetTileMat(PathProgrammingTile)
+  nameWithType: PathProgrammingTileEditor.SetTileMat(PathProgrammingTile)
+  fullName: PathProgrammingTileEditor.SetTileMat(PathProgrammingTile)
+  type: Method
+  source:
+    id: SetTileMat
+    path: ''
+    startLine: 16120
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SetTileMat(PathProgrammingTile tile)
+    parameters:
+    - id: tile
+      type: Global.PathProgrammingTile
+    content.vb: Public Shared Sub SetTileMat(tile As PathProgrammingTile)
+  overload: Global.PathProgrammingTileEditor.SetTileMat*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Material
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: Material
+- uid: Global.PathProgrammingTileEditor.OnInspectorGUI*
+  commentId: Overload:Global.PathProgrammingTileEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: PathProgrammingTileEditor.OnInspectorGUI
+  fullName: PathProgrammingTileEditor.OnInspectorGUI
+- uid: Global.PathProgrammingTileEditor.SetTileMat*
+  commentId: Overload:Global.PathProgrammingTileEditor.SetTileMat
+  name: SetTileMat
+  nameWithType: PathProgrammingTileEditor.SetTileMat
+  fullName: PathProgrammingTileEditor.SetTileMat
+- uid: Global.PathProgrammingTile
+  commentId: T:Global.PathProgrammingTile
+  name: PathProgrammingTile
+  nameWithType: PathProgrammingTile
+  fullName: PathProgrammingTile

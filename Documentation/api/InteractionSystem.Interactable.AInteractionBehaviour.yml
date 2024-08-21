@@ -1,0 +1,160 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Interactable.AInteractionBehaviour
+  commentId: T:InteractionSystem.Interactable.AInteractionBehaviour
+  id: AInteractionBehaviour
+  parent: InteractionSystem.Interactable
+  children:
+  - InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  - InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  - InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  langs:
+  - csharp
+  - vb
+  name: AInteractionBehaviour
+  nameWithType: AInteractionBehaviour
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour
+  type: Class
+  source:
+    id: AInteractionBehaviour
+    path: ''
+    startLine: 24835
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: 'public abstract class AInteractionBehaviour : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AInteractionBehaviour
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - InteractionSystem.Interactable.InteractableEventExtension
+  - InteractionSystem.Interactable.ToggleActiveBehaviour
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  commentId: F:InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  id: interactable
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: interactable
+  nameWithType: AInteractionBehaviour.interactable
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  type: Field
+  source:
+    id: interactable
+    path: ''
+    startLine: 24838
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: protected Interactable interactable
+    return:
+      type: InteractionSystem.Interactable.Interactable
+    content.vb: Protected interactable As Interactable
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  commentId: M:InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  id: Awake
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: AInteractionBehaviour.Awake()
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24840
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: InteractionSystem.Interactable.AInteractionBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  commentId: M:InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  id: OnInteract
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnInteract()
+  nameWithType: AInteractionBehaviour.OnInteract()
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract()
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 24845
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: public abstract void OnInteract()
+    content.vb: Public MustOverride Sub OnInteract
+  overload: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Interactable.Interactable
+  commentId: T:InteractionSystem.Interactable.Interactable
+  parent: InteractionSystem.Interactable
+  name: Interactable
+  nameWithType: Interactable
+  fullName: InteractionSystem.Interactable.Interactable
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.Awake*
+  commentId: Overload:InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  name: Awake
+  nameWithType: AInteractionBehaviour.Awake
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract*
+  commentId: Overload:InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  name: OnInteract
+  nameWithType: AInteractionBehaviour.OnInteract
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract

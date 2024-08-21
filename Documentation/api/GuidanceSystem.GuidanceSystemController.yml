@@ -1,0 +1,350 @@
+### YamlMime:ManagedReference
+items:
+- uid: GuidanceSystem.GuidanceSystemController
+  commentId: T:GuidanceSystem.GuidanceSystemController
+  id: GuidanceSystemController
+  parent: GuidanceSystem
+  children:
+  - GuidanceSystem.GuidanceSystemController.activeGuidanceSystem
+  - GuidanceSystem.GuidanceSystemController.OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  - GuidanceSystem.GuidanceSystemController.RegisterGuidanceSystemAtIndex(GuidanceSystem.AGuidanceSystem,System.Int32)
+  - GuidanceSystem.GuidanceSystemController.SetGuidanceSystemActive(System.Int32)
+  - GuidanceSystem.GuidanceSystemController.SetRandomGuidanceTarget
+  - GuidanceSystem.GuidanceSystemController.SetTargetEmpty
+  - GuidanceSystem.GuidanceSystemController.target
+  - GuidanceSystem.GuidanceSystemController.viewer
+  langs:
+  - csharp
+  - vb
+  name: GuidanceSystemController
+  nameWithType: GuidanceSystemController
+  fullName: GuidanceSystem.GuidanceSystemController
+  type: Class
+  source:
+    id: GuidanceSystemController
+    path: ''
+    startLine: 18962
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: 'public class GuidanceSystemController : MonoBehaviour'
+    content.vb: >-
+      Public Class GuidanceSystemController
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GuidanceSystem.GuidanceSystemController.viewer
+  commentId: F:GuidanceSystem.GuidanceSystemController.viewer
+  id: viewer
+  parent: GuidanceSystem.GuidanceSystemController
+  langs:
+  - csharp
+  - vb
+  name: viewer
+  nameWithType: GuidanceSystemController.viewer
+  fullName: GuidanceSystem.GuidanceSystemController.viewer
+  type: Field
+  source:
+    id: viewer
+    path: ''
+    startLine: 18968
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public Camera viewer
+    return:
+      type: Global.Camera
+    content.vb: Public viewer As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.GuidanceSystemController.activeGuidanceSystem
+  commentId: P:GuidanceSystem.GuidanceSystemController.activeGuidanceSystem
+  id: activeGuidanceSystem
+  parent: GuidanceSystem.GuidanceSystemController
+  langs:
+  - csharp
+  - vb
+  name: activeGuidanceSystem
+  nameWithType: GuidanceSystemController.activeGuidanceSystem
+  fullName: GuidanceSystem.GuidanceSystemController.activeGuidanceSystem
+  type: Property
+  source:
+    id: activeGuidanceSystem
+    path: ''
+    startLine: 18975
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected AGuidanceSystem activeGuidanceSystem { get; set; }
+    parameters: []
+    return:
+      type: GuidanceSystem.AGuidanceSystem
+    content.vb: Protected Property activeGuidanceSystem As AGuidanceSystem
+  overload: GuidanceSystem.GuidanceSystemController.activeGuidanceSystem*
+  modifiers.csharp:
+  - protected
+  - get
+  - set
+  modifiers.vb:
+  - Protected
+- uid: GuidanceSystem.GuidanceSystemController.target
+  commentId: P:GuidanceSystem.GuidanceSystemController.target
+  id: target
+  parent: GuidanceSystem.GuidanceSystemController
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: GuidanceSystemController.target
+  fullName: GuidanceSystem.GuidanceSystemController.target
+  type: Property
+  source:
+    id: target
+    path: ''
+    startLine: 18998
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public AGuidanceSystemTarget target { get; set; }
+    parameters: []
+    return:
+      type: GuidanceSystem.AGuidanceSystemTarget
+    content.vb: Public Property target As AGuidanceSystemTarget
+  overload: GuidanceSystem.GuidanceSystemController.target*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.GuidanceSystemController.SetGuidanceSystemActive(System.Int32)
+  commentId: M:GuidanceSystem.GuidanceSystemController.SetGuidanceSystemActive(System.Int32)
+  id: SetGuidanceSystemActive(System.Int32)
+  parent: GuidanceSystem.GuidanceSystemController
+  langs:
+  - csharp
+  - vb
+  name: SetGuidanceSystemActive(Int32)
+  nameWithType: GuidanceSystemController.SetGuidanceSystemActive(Int32)
+  fullName: GuidanceSystem.GuidanceSystemController.SetGuidanceSystemActive(System.Int32)
+  type: Method
+  source:
+    id: SetGuidanceSystemActive
+    path: ''
+    startLine: 19035
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public void SetGuidanceSystemActive(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    content.vb: Public Sub SetGuidanceSystemActive(id As Integer)
+  overload: GuidanceSystem.GuidanceSystemController.SetGuidanceSystemActive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.GuidanceSystemController.OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  commentId: M:GuidanceSystem.GuidanceSystemController.OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  id: OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  parent: GuidanceSystem.GuidanceSystemController
+  langs:
+  - csharp
+  - vb
+  name: OnTargetChanged(AGuidanceSystemTarget)
+  nameWithType: GuidanceSystemController.OnTargetChanged(AGuidanceSystemTarget)
+  fullName: GuidanceSystem.GuidanceSystemController.OnTargetChanged(GuidanceSystem.AGuidanceSystemTarget)
+  type: Method
+  source:
+    id: OnTargetChanged
+    path: ''
+    startLine: 19044
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public void OnTargetChanged(AGuidanceSystemTarget target)
+    parameters:
+    - id: target
+      type: GuidanceSystem.AGuidanceSystemTarget
+    content.vb: Public Sub OnTargetChanged(target As AGuidanceSystemTarget)
+  overload: GuidanceSystem.GuidanceSystemController.OnTargetChanged*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.GuidanceSystemController.RegisterGuidanceSystemAtIndex(GuidanceSystem.AGuidanceSystem,System.Int32)
+  commentId: M:GuidanceSystem.GuidanceSystemController.RegisterGuidanceSystemAtIndex(GuidanceSystem.AGuidanceSystem,System.Int32)
+  id: RegisterGuidanceSystemAtIndex(GuidanceSystem.AGuidanceSystem,System.Int32)
+  parent: GuidanceSystem.GuidanceSystemController
+  langs:
+  - csharp
+  - vb
+  name: RegisterGuidanceSystemAtIndex(AGuidanceSystem, Int32)
+  nameWithType: GuidanceSystemController.RegisterGuidanceSystemAtIndex(AGuidanceSystem, Int32)
+  fullName: GuidanceSystem.GuidanceSystemController.RegisterGuidanceSystemAtIndex(GuidanceSystem.AGuidanceSystem, System.Int32)
+  type: Method
+  source:
+    id: RegisterGuidanceSystemAtIndex
+    path: ''
+    startLine: 19051
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public void RegisterGuidanceSystemAtIndex(AGuidanceSystem guidanceSystem, int index)
+    parameters:
+    - id: guidanceSystem
+      type: GuidanceSystem.AGuidanceSystem
+    - id: index
+      type: System.Int32
+    content.vb: Public Sub RegisterGuidanceSystemAtIndex(guidanceSystem As AGuidanceSystem, index As Integer)
+  overload: GuidanceSystem.GuidanceSystemController.RegisterGuidanceSystemAtIndex*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.GuidanceSystemController.SetRandomGuidanceTarget
+  commentId: M:GuidanceSystem.GuidanceSystemController.SetRandomGuidanceTarget
+  id: SetRandomGuidanceTarget
+  parent: GuidanceSystem.GuidanceSystemController
+  langs:
+  - csharp
+  - vb
+  name: SetRandomGuidanceTarget()
+  nameWithType: GuidanceSystemController.SetRandomGuidanceTarget()
+  fullName: GuidanceSystem.GuidanceSystemController.SetRandomGuidanceTarget()
+  type: Method
+  source:
+    id: SetRandomGuidanceTarget
+    path: ''
+    startLine: 19061
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public void SetRandomGuidanceTarget()
+    content.vb: Public Sub SetRandomGuidanceTarget
+  overload: GuidanceSystem.GuidanceSystemController.SetRandomGuidanceTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.GuidanceSystemController.SetTargetEmpty
+  commentId: M:GuidanceSystem.GuidanceSystemController.SetTargetEmpty
+  id: SetTargetEmpty
+  parent: GuidanceSystem.GuidanceSystemController
+  langs:
+  - csharp
+  - vb
+  name: SetTargetEmpty()
+  nameWithType: GuidanceSystemController.SetTargetEmpty()
+  fullName: GuidanceSystem.GuidanceSystemController.SetTargetEmpty()
+  type: Method
+  source:
+    id: SetTargetEmpty
+    path: ''
+    startLine: 19070
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public void SetTargetEmpty()
+    content.vb: Public Sub SetTargetEmpty
+  overload: GuidanceSystem.GuidanceSystemController.SetTargetEmpty*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GuidanceSystem
+  commentId: N:GuidanceSystem
+  name: GuidanceSystem
+  nameWithType: GuidanceSystem
+  fullName: GuidanceSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Camera
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: GuidanceSystem.GuidanceSystemController.activeGuidanceSystem*
+  commentId: Overload:GuidanceSystem.GuidanceSystemController.activeGuidanceSystem
+  name: activeGuidanceSystem
+  nameWithType: GuidanceSystemController.activeGuidanceSystem
+  fullName: GuidanceSystem.GuidanceSystemController.activeGuidanceSystem
+- uid: GuidanceSystem.AGuidanceSystem
+  commentId: T:GuidanceSystem.AGuidanceSystem
+  parent: GuidanceSystem
+  name: AGuidanceSystem
+  nameWithType: AGuidanceSystem
+  fullName: GuidanceSystem.AGuidanceSystem
+- uid: GuidanceSystem.GuidanceSystemController.target*
+  commentId: Overload:GuidanceSystem.GuidanceSystemController.target
+  name: target
+  nameWithType: GuidanceSystemController.target
+  fullName: GuidanceSystem.GuidanceSystemController.target
+- uid: GuidanceSystem.AGuidanceSystemTarget
+  commentId: T:GuidanceSystem.AGuidanceSystemTarget
+  parent: GuidanceSystem
+  name: AGuidanceSystemTarget
+  nameWithType: AGuidanceSystemTarget
+  fullName: GuidanceSystem.AGuidanceSystemTarget
+- uid: GuidanceSystem.GuidanceSystemController.SetGuidanceSystemActive*
+  commentId: Overload:GuidanceSystem.GuidanceSystemController.SetGuidanceSystemActive
+  name: SetGuidanceSystemActive
+  nameWithType: GuidanceSystemController.SetGuidanceSystemActive
+  fullName: GuidanceSystem.GuidanceSystemController.SetGuidanceSystemActive
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: GuidanceSystem.GuidanceSystemController.OnTargetChanged*
+  commentId: Overload:GuidanceSystem.GuidanceSystemController.OnTargetChanged
+  name: OnTargetChanged
+  nameWithType: GuidanceSystemController.OnTargetChanged
+  fullName: GuidanceSystem.GuidanceSystemController.OnTargetChanged
+- uid: GuidanceSystem.GuidanceSystemController.RegisterGuidanceSystemAtIndex*
+  commentId: Overload:GuidanceSystem.GuidanceSystemController.RegisterGuidanceSystemAtIndex
+  name: RegisterGuidanceSystemAtIndex
+  nameWithType: GuidanceSystemController.RegisterGuidanceSystemAtIndex
+  fullName: GuidanceSystem.GuidanceSystemController.RegisterGuidanceSystemAtIndex
+- uid: GuidanceSystem.GuidanceSystemController.SetRandomGuidanceTarget*
+  commentId: Overload:GuidanceSystem.GuidanceSystemController.SetRandomGuidanceTarget
+  name: SetRandomGuidanceTarget
+  nameWithType: GuidanceSystemController.SetRandomGuidanceTarget
+  fullName: GuidanceSystem.GuidanceSystemController.SetRandomGuidanceTarget
+- uid: GuidanceSystem.GuidanceSystemController.SetTargetEmpty*
+  commentId: Overload:GuidanceSystem.GuidanceSystemController.SetTargetEmpty
+  name: SetTargetEmpty
+  nameWithType: GuidanceSystemController.SetTargetEmpty
+  fullName: GuidanceSystem.GuidanceSystemController.SetTargetEmpty

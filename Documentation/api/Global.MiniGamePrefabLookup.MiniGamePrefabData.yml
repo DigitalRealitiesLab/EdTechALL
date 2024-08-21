@@ -1,0 +1,114 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniGamePrefabLookup.MiniGamePrefabData
+  commentId: T:Global.MiniGamePrefabLookup.MiniGamePrefabData
+  id: MiniGamePrefabLookup.MiniGamePrefabData
+  parent: Global
+  children:
+  - Global.MiniGamePrefabLookup.MiniGamePrefabData.prefab
+  - Global.MiniGamePrefabLookup.MiniGamePrefabData.type
+  langs:
+  - csharp
+  - vb
+  name: MiniGamePrefabLookup.MiniGamePrefabData
+  nameWithType: MiniGamePrefabLookup.MiniGamePrefabData
+  fullName: MiniGamePrefabLookup.MiniGamePrefabData
+  type: Struct
+  source:
+    id: MiniGamePrefabData
+    path: ''
+    startLine: 14877
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct MiniGamePrefabData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure MiniGamePrefabData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.MiniGamePrefabLookup.MiniGamePrefabData.type
+  commentId: F:Global.MiniGamePrefabLookup.MiniGamePrefabData.type
+  id: type
+  parent: Global.MiniGamePrefabLookup.MiniGamePrefabData
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: MiniGamePrefabLookup.MiniGamePrefabData.type
+  fullName: MiniGamePrefabLookup.MiniGamePrefabData.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 14880
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameType type
+    return:
+      type: Global.MiniGameType
+    content.vb: Public type As MiniGameType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGamePrefabLookup.MiniGamePrefabData.prefab
+  commentId: F:Global.MiniGamePrefabLookup.MiniGamePrefabData.prefab
+  id: prefab
+  parent: Global.MiniGamePrefabLookup.MiniGamePrefabData
+  langs:
+  - csharp
+  - vb
+  name: prefab
+  nameWithType: MiniGamePrefabLookup.MiniGamePrefabData.prefab
+  fullName: MiniGamePrefabLookup.MiniGamePrefabData.prefab
+  type: Field
+  source:
+    id: prefab
+    path: ''
+    startLine: 14881
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject prefab
+    return:
+      type: Global.GameObject
+    content.vb: Public prefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.MiniGameType
+  commentId: T:Global.MiniGameType
+  name: MiniGameType
+  nameWithType: MiniGameType
+  fullName: MiniGameType
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

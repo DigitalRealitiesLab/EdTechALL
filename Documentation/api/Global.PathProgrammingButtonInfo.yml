@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PathProgrammingButtonInfo
+  commentId: T:Global.PathProgrammingButtonInfo
+  id: PathProgrammingButtonInfo
+  parent: Global
+  children:
+  - Global.PathProgrammingButtonInfo.command
+  langs:
+  - csharp
+  - vb
+  name: PathProgrammingButtonInfo
+  nameWithType: PathProgrammingButtonInfo
+  fullName: PathProgrammingButtonInfo
+  type: Class
+  source:
+    id: PathProgrammingButtonInfo
+    path: ''
+    startLine: 16083
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PathProgrammingButtonInfo : MonoBehaviour'
+    content.vb: >-
+      Public Class PathProgrammingButtonInfo
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PathProgrammingButtonInfo.command
+  commentId: F:Global.PathProgrammingButtonInfo.command
+  id: command
+  parent: Global.PathProgrammingButtonInfo
+  langs:
+  - csharp
+  - vb
+  name: command
+  nameWithType: PathProgrammingButtonInfo.command
+  fullName: PathProgrammingButtonInfo.command
+  type: Field
+  source:
+    id: command
+    path: ''
+    startLine: 16085
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public PathProgrammingCommand command
+    return:
+      type: Global.PathProgrammingCommand
+    content.vb: Public command As PathProgrammingCommand
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.PathProgrammingCommand
+  commentId: T:Global.PathProgrammingCommand
+  name: PathProgrammingCommand
+  nameWithType: PathProgrammingCommand
+  fullName: PathProgrammingCommand

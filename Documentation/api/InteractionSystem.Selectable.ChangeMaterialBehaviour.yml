@@ -1,0 +1,323 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour
+  commentId: T:InteractionSystem.Selectable.ChangeMaterialBehaviour
+  id: ChangeMaterialBehaviour
+  parent: InteractionSystem.Selectable
+  children:
+  - InteractionSystem.Selectable.ChangeMaterialBehaviour.Awake
+  - InteractionSystem.Selectable.ChangeMaterialBehaviour.OnDeselect
+  - InteractionSystem.Selectable.ChangeMaterialBehaviour.OnSelect
+  - InteractionSystem.Selectable.ChangeMaterialBehaviour.substituteMaterial
+  - InteractionSystem.Selectable.ChangeMaterialBehaviour.targetRenderer
+  langs:
+  - csharp
+  - vb
+  name: ChangeMaterialBehaviour
+  nameWithType: ChangeMaterialBehaviour
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour
+  type: Class
+  source:
+    id: ChangeMaterialBehaviour
+    path: ''
+    startLine: 24852
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: 'public class ChangeMaterialBehaviour : ASelectionBehaviour'
+    content.vb: >-
+      Public Class ChangeMaterialBehaviour
+          Inherits ASelectionBehaviour
+  inheritance:
+  - System.Object
+  - InteractionSystem.Selectable.ASelectionBehaviour
+  inheritedMembers:
+  - InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour.targetRenderer
+  commentId: F:InteractionSystem.Selectable.ChangeMaterialBehaviour.targetRenderer
+  id: targetRenderer
+  parent: InteractionSystem.Selectable.ChangeMaterialBehaviour
+  langs:
+  - csharp
+  - vb
+  name: targetRenderer
+  nameWithType: ChangeMaterialBehaviour.targetRenderer
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour.targetRenderer
+  type: Field
+  source:
+    id: targetRenderer
+    path: ''
+    startLine: 24854
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public Renderer targetRenderer
+    return:
+      type: Global.Renderer
+    content.vb: Public targetRenderer As Renderer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour.substituteMaterial
+  commentId: F:InteractionSystem.Selectable.ChangeMaterialBehaviour.substituteMaterial
+  id: substituteMaterial
+  parent: InteractionSystem.Selectable.ChangeMaterialBehaviour
+  langs:
+  - csharp
+  - vb
+  name: substituteMaterial
+  nameWithType: ChangeMaterialBehaviour.substituteMaterial
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour.substituteMaterial
+  type: Field
+  source:
+    id: substituteMaterial
+    path: ''
+    startLine: 24856
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public Material substituteMaterial
+    return:
+      type: Global.Material
+    content.vb: Public substituteMaterial As Material
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour.Awake
+  commentId: M:InteractionSystem.Selectable.ChangeMaterialBehaviour.Awake
+  id: Awake
+  parent: InteractionSystem.Selectable.ChangeMaterialBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ChangeMaterialBehaviour.Awake()
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24859
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  overload: InteractionSystem.Selectable.ChangeMaterialBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.ChangeMaterialBehaviour.OnSelect
+  id: OnSelect
+  parent: InteractionSystem.Selectable.ChangeMaterialBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnSelect()
+  nameWithType: ChangeMaterialBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnSelect()
+  type: Method
+  source:
+    id: OnSelect
+    path: ''
+    startLine: 24875
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public override void OnSelect()
+    content.vb: Public Overrides Sub OnSelect
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  overload: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnSelect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.ChangeMaterialBehaviour.OnDeselect
+  id: OnDeselect
+  parent: InteractionSystem.Selectable.ChangeMaterialBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDeselect()
+  nameWithType: ChangeMaterialBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnDeselect()
+  type: Method
+  source:
+    id: OnDeselect
+    path: ''
+    startLine: 24880
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public override void OnDeselect()
+    content.vb: Public Overrides Sub OnDeselect
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  overload: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnDeselect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: InteractionSystem.Selectable.ASelectionBehaviour
+  commentId: T:InteractionSystem.Selectable.ASelectionBehaviour
+  parent: InteractionSystem.Selectable
+  name: ASelectionBehaviour
+  nameWithType: ASelectionBehaviour
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  commentId: F:InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: selectable
+  nameWithType: ASelectionBehaviour.selectable
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Renderer
+  isExternal: true
+  name: Renderer
+  nameWithType: Renderer
+  fullName: Renderer
+- uid: Global.Material
+  isExternal: true
+  name: Material
+  nameWithType: Material
+  fullName: Material
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: Awake()
+  nameWithType: ASelectionBehaviour.Awake()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+    name: Awake
+    nameWithType: ASelectionBehaviour.Awake
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+    name: Awake
+    nameWithType: ASelectionBehaviour.Awake
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour.Awake*
+  commentId: Overload:InteractionSystem.Selectable.ChangeMaterialBehaviour.Awake
+  name: Awake
+  nameWithType: ChangeMaterialBehaviour.Awake
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour.Awake
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: OnSelect()
+  nameWithType: ASelectionBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+    name: OnSelect
+    nameWithType: ASelectionBehaviour.OnSelect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+    name: OnSelect
+    nameWithType: ASelectionBehaviour.OnSelect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnSelect*
+  commentId: Overload:InteractionSystem.Selectable.ChangeMaterialBehaviour.OnSelect
+  name: OnSelect
+  nameWithType: ChangeMaterialBehaviour.OnSelect
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnSelect
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: OnDeselect()
+  nameWithType: ASelectionBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+    name: OnDeselect
+    nameWithType: ASelectionBehaviour.OnDeselect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+    name: OnDeselect
+    nameWithType: ASelectionBehaviour.OnDeselect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnDeselect*
+  commentId: Overload:InteractionSystem.Selectable.ChangeMaterialBehaviour.OnDeselect
+  name: OnDeselect
+  nameWithType: ChangeMaterialBehaviour.OnDeselect
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour.OnDeselect

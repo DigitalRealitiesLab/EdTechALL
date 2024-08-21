@@ -1,0 +1,253 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ErrorWindow
+  commentId: T:Global.ErrorWindow
+  id: ErrorWindow
+  parent: Global
+  children:
+  - Global.ErrorWindow.acknowlledgeButton
+  - Global.ErrorWindow.Awake
+  - Global.ErrorWindow.errorMessageText
+  - Global.ErrorWindow.errorTypeText
+  - Global.ErrorWindow.OnAcknowlledge
+  - Global.ErrorWindow.OnError(Error)
+  langs:
+  - csharp
+  - vb
+  name: ErrorWindow
+  nameWithType: ErrorWindow
+  fullName: ErrorWindow
+  type: Class
+  source:
+    id: ErrorWindow
+    path: ''
+    startLine: 20734
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class ErrorWindow : MonoBehaviour'
+    content.vb: >-
+      Public Class ErrorWindow
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.ErrorWindow.errorTypeText
+  commentId: F:Global.ErrorWindow.errorTypeText
+  id: errorTypeText
+  parent: Global.ErrorWindow
+  langs:
+  - csharp
+  - vb
+  name: errorTypeText
+  nameWithType: ErrorWindow.errorTypeText
+  fullName: ErrorWindow.errorTypeText
+  type: Field
+  source:
+    id: errorTypeText
+    path: ''
+    startLine: 20737
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI errorTypeText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public errorTypeText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ErrorWindow.errorMessageText
+  commentId: F:Global.ErrorWindow.errorMessageText
+  id: errorMessageText
+  parent: Global.ErrorWindow
+  langs:
+  - csharp
+  - vb
+  name: errorMessageText
+  nameWithType: ErrorWindow.errorMessageText
+  fullName: ErrorWindow.errorMessageText
+  type: Field
+  source:
+    id: errorMessageText
+    path: ''
+    startLine: 20738
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextMeshProUGUI errorMessageText
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public errorMessageText As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ErrorWindow.acknowlledgeButton
+  commentId: F:Global.ErrorWindow.acknowlledgeButton
+  id: acknowlledgeButton
+  parent: Global.ErrorWindow
+  langs:
+  - csharp
+  - vb
+  name: acknowlledgeButton
+  nameWithType: ErrorWindow.acknowlledgeButton
+  fullName: ErrorWindow.acknowlledgeButton
+  type: Field
+  source:
+    id: acknowlledgeButton
+    path: ''
+    startLine: 20740
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button acknowlledgeButton
+    return:
+      type: Global.Button
+    content.vb: Public acknowlledgeButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ErrorWindow.Awake
+  commentId: M:Global.ErrorWindow.Awake
+  id: Awake
+  parent: Global.ErrorWindow
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ErrorWindow.Awake()
+  fullName: ErrorWindow.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 20744
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: Global.ErrorWindow.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ErrorWindow.OnError(Error)
+  commentId: M:Global.ErrorWindow.OnError(Error)
+  id: OnError(Error)
+  parent: Global.ErrorWindow
+  langs:
+  - csharp
+  - vb
+  name: OnError(Error)
+  nameWithType: ErrorWindow.OnError(Error)
+  fullName: ErrorWindow.OnError(Error)
+  type: Method
+  source:
+    id: OnError
+    path: ''
+    startLine: 20754
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnError(Error error)
+    parameters:
+    - id: error
+      type: Global.Error
+    content.vb: Public Sub OnError(error As  Error)
+  overload: Global.ErrorWindow.OnError*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ErrorWindow.OnAcknowlledge
+  commentId: M:Global.ErrorWindow.OnAcknowlledge
+  id: OnAcknowlledge
+  parent: Global.ErrorWindow
+  langs:
+  - csharp
+  - vb
+  name: OnAcknowlledge()
+  nameWithType: ErrorWindow.OnAcknowlledge()
+  fullName: ErrorWindow.OnAcknowlledge()
+  type: Method
+  source:
+    id: OnAcknowlledge
+    path: ''
+    startLine: 20762
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnAcknowlledge()
+    content.vb: Public Sub OnAcknowlledge
+  overload: Global.ErrorWindow.OnAcknowlledge*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.ErrorWindow.Awake*
+  commentId: Overload:Global.ErrorWindow.Awake
+  name: Awake
+  nameWithType: ErrorWindow.Awake
+  fullName: ErrorWindow.Awake
+- uid: Global.ErrorWindow.OnError*
+  commentId: Overload:Global.ErrorWindow.OnError
+  name: OnError
+  nameWithType: ErrorWindow.OnError
+  fullName: ErrorWindow.OnError
+- uid: Global.Error
+  commentId: T:Global.Error
+  name: Error
+  nameWithType: Error
+  fullName: Error
+- uid: Global.ErrorWindow.OnAcknowlledge*
+  commentId: Overload:Global.ErrorWindow.OnAcknowlledge
+  name: OnAcknowlledge
+  nameWithType: ErrorWindow.OnAcknowlledge
+  fullName: ErrorWindow.OnAcknowlledge

@@ -1,0 +1,87 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DeleteAllSaveDataButton
+  commentId: T:Global.DeleteAllSaveDataButton
+  id: DeleteAllSaveDataButton
+  parent: Global
+  children:
+  - Global.DeleteAllSaveDataButton.DeleteAllSaveData
+  langs:
+  - csharp
+  - vb
+  name: DeleteAllSaveDataButton
+  nameWithType: DeleteAllSaveDataButton
+  fullName: DeleteAllSaveDataButton
+  type: Class
+  source:
+    id: DeleteAllSaveDataButton
+    path: ''
+    startLine: 16677
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class DeleteAllSaveDataButton : MonoBehaviour'
+    content.vb: >-
+      Public Class DeleteAllSaveDataButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DeleteAllSaveDataButton.DeleteAllSaveData
+  commentId: M:Global.DeleteAllSaveDataButton.DeleteAllSaveData
+  id: DeleteAllSaveData
+  parent: Global.DeleteAllSaveDataButton
+  langs:
+  - csharp
+  - vb
+  name: DeleteAllSaveData()
+  nameWithType: DeleteAllSaveDataButton.DeleteAllSaveData()
+  fullName: DeleteAllSaveDataButton.DeleteAllSaveData()
+  type: Method
+  source:
+    id: DeleteAllSaveData
+    path: ''
+    startLine: 16688
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void DeleteAllSaveData()
+    content.vb: Public Sub DeleteAllSaveData
+  overload: Global.DeleteAllSaveDataButton.DeleteAllSaveData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DeleteAllSaveDataButton.DeleteAllSaveData*
+  commentId: Overload:Global.DeleteAllSaveDataButton.DeleteAllSaveData
+  name: DeleteAllSaveData
+  nameWithType: DeleteAllSaveDataButton.DeleteAllSaveData
+  fullName: DeleteAllSaveDataButton.DeleteAllSaveData

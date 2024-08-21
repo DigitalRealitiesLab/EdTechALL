@@ -1,0 +1,90 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventId.MapLayerMiniGameEvents
+  commentId: T:Global.EventId.MapLayerMiniGameEvents
+  id: EventId.MapLayerMiniGameEvents
+  parent: Global
+  children:
+  - Global.EventId.MapLayerMiniGameEvents.SetLayerActive
+  langs:
+  - csharp
+  - vb
+  name: EventId.MapLayerMiniGameEvents
+  nameWithType: EventId.MapLayerMiniGameEvents
+  fullName: EventId.MapLayerMiniGameEvents
+  type: Class
+  source:
+    id: MapLayerMiniGameEvents
+    path: ''
+    startLine: 15522
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class MapLayerMiniGameEvents
+    content.vb: Public Class MapLayerMiniGameEvents
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.EventId.MapLayerMiniGameEvents.SetLayerActive
+  commentId: F:Global.EventId.MapLayerMiniGameEvents.SetLayerActive
+  id: SetLayerActive
+  parent: Global.EventId.MapLayerMiniGameEvents
+  langs:
+  - csharp
+  - vb
+  name: SetLayerActive
+  nameWithType: EventId.MapLayerMiniGameEvents.SetLayerActive
+  fullName: EventId.MapLayerMiniGameEvents.SetLayerActive
+  type: Field
+  source:
+    id: SetLayerActive
+    path: ''
+    startLine: 15524
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string SetLayerActive = "SetLayerActive"
+    return:
+      type: System.String
+    content.vb: Public Const SetLayerActive As String = "SetLayerActive"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

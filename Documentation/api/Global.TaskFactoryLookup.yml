@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TaskFactoryLookup
+  commentId: T:Global.TaskFactoryLookup
+  id: TaskFactoryLookup
+  parent: Global
+  children:
+  - Global.TaskFactoryLookup.Initialize
+  - Global.TaskFactoryLookup.lookup
+  langs:
+  - csharp
+  - vb
+  name: TaskFactoryLookup
+  nameWithType: TaskFactoryLookup
+  fullName: TaskFactoryLookup
+  type: Class
+  source:
+    id: TaskFactoryLookup
+    path: ''
+    startLine: 18198
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TaskFactoryLookup : ScriptableObject'
+    content.vb: >-
+      Public Class TaskFactoryLookup
+          Inherits ScriptableObject
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TaskFactoryLookup.lookup
+  commentId: F:Global.TaskFactoryLookup.lookup
+  id: lookup
+  parent: Global.TaskFactoryLookup
+  langs:
+  - csharp
+  - vb
+  name: lookup
+  nameWithType: TaskFactoryLookup.lookup
+  fullName: TaskFactoryLookup.lookup
+  type: Field
+  source:
+    id: lookup
+    path: ''
+    startLine: 18201
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Dictionary<TaskType, TaskFactoryData> lookup
+    return:
+      type: Global.Dictionary{TaskType,TaskFactoryData}
+    content.vb: Public lookup As Dictionary(Of TaskType, TaskFactoryData)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskFactoryLookup.Initialize
+  commentId: M:Global.TaskFactoryLookup.Initialize
+  id: Initialize
+  parent: Global.TaskFactoryLookup
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: TaskFactoryLookup.Initialize()
+  fullName: TaskFactoryLookup.Initialize()
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 18205
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize
+  overload: Global.TaskFactoryLookup.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Dictionary{TaskType,TaskFactoryData}
+  commentId: '!:Global.Dictionary{TaskType,TaskFactoryData}'
+  definition: Global.Dictionary`2
+  name: Dictionary<TaskType, TaskFactoryData>
+  nameWithType: Dictionary<TaskType, TaskFactoryData>
+  fullName: Dictionary<TaskType, TaskFactoryData>
+  nameWithType.vb: Dictionary(Of TaskType, TaskFactoryData)
+  fullName.vb: Dictionary(Of TaskType, TaskFactoryData)
+  name.vb: Dictionary(Of TaskType, TaskFactoryData)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.TaskType
+    name: TaskType
+    nameWithType: TaskType
+    fullName: TaskType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.TaskFactoryData
+    name: TaskFactoryData
+    nameWithType: TaskFactoryData
+    fullName: TaskFactoryData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.TaskType
+    name: TaskType
+    nameWithType: TaskType
+    fullName: TaskType
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.TaskFactoryData
+    name: TaskFactoryData
+    nameWithType: TaskFactoryData
+    fullName: TaskFactoryData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.TaskFactoryLookup.Initialize*
+  commentId: Overload:Global.TaskFactoryLookup.Initialize
+  name: Initialize
+  nameWithType: TaskFactoryLookup.Initialize
+  fullName: TaskFactoryLookup.Initialize

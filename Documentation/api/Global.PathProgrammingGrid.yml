@@ -1,0 +1,380 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PathProgrammingGrid
+  commentId: T:Global.PathProgrammingGrid
+  id: PathProgrammingGrid
+  parent: Global
+  children:
+  - Global.PathProgrammingGrid.dimensions
+  - Global.PathProgrammingGrid.GetGridLookup
+  - Global.PathProgrammingGrid.GetTile(Vector2Int)
+  - Global.PathProgrammingGrid.tiles
+  langs:
+  - csharp
+  - vb
+  name: PathProgrammingGrid
+  nameWithType: PathProgrammingGrid
+  fullName: PathProgrammingGrid
+  type: Class
+  source:
+    id: PathProgrammingGrid
+    path: ''
+    startLine: 15825
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PathProgrammingGrid : MonoBehaviour'
+    content.vb: >-
+      Public Class PathProgrammingGrid
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PathProgrammingGrid.dimensions
+  commentId: F:Global.PathProgrammingGrid.dimensions
+  id: dimensions
+  parent: Global.PathProgrammingGrid
+  langs:
+  - csharp
+  - vb
+  name: dimensions
+  nameWithType: PathProgrammingGrid.dimensions
+  fullName: PathProgrammingGrid.dimensions
+  type: Field
+  source:
+    id: dimensions
+    path: ''
+    startLine: 15827
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Vector2Int dimensions
+    return:
+      type: Global.Vector2Int
+    content.vb: Public dimensions As Vector2Int
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingGrid.tiles
+  commentId: F:Global.PathProgrammingGrid.tiles
+  id: tiles
+  parent: Global.PathProgrammingGrid
+  langs:
+  - csharp
+  - vb
+  name: tiles
+  nameWithType: PathProgrammingGrid.tiles
+  fullName: PathProgrammingGrid.tiles
+  type: Field
+  source:
+    id: tiles
+    path: ''
+    startLine: 15828
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> tiles
+    return:
+      type: Global.List{GameObject}
+    content.vb: Public tiles As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingGrid.GetGridLookup
+  commentId: M:Global.PathProgrammingGrid.GetGridLookup
+  id: GetGridLookup
+  parent: Global.PathProgrammingGrid
+  langs:
+  - csharp
+  - vb
+  name: GetGridLookup()
+  nameWithType: PathProgrammingGrid.GetGridLookup()
+  fullName: PathProgrammingGrid.GetGridLookup()
+  type: Method
+  source:
+    id: GetGridLookup
+    path: ''
+    startLine: 15830
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Dictionary<Vector2Int, PathProgrammingTile> GetGridLookup()
+    return:
+      type: Global.Dictionary{Vector2Int,PathProgrammingTile}
+    content.vb: Public Function GetGridLookup As Dictionary(Of Vector2Int, PathProgrammingTile)
+  overload: Global.PathProgrammingGrid.GetGridLookup*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.PathProgrammingGrid.GetTile(Vector2Int)
+  commentId: M:Global.PathProgrammingGrid.GetTile(Vector2Int)
+  id: GetTile(Vector2Int)
+  parent: Global.PathProgrammingGrid
+  langs:
+  - csharp
+  - vb
+  name: GetTile(Vector2Int)
+  nameWithType: PathProgrammingGrid.GetTile(Vector2Int)
+  fullName: PathProgrammingGrid.GetTile(Vector2Int)
+  type: Method
+  source:
+    id: GetTile
+    path: ''
+    startLine: 15841
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject GetTile(Vector2Int position)
+    parameters:
+    - id: position
+      type: Global.Vector2Int
+    return:
+      type: Global.GameObject
+    content.vb: Public Function GetTile(position As Vector2Int) As GameObject
+  overload: Global.PathProgrammingGrid.GetTile*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Vector2Int
+  isExternal: true
+  name: Vector2Int
+  nameWithType: Vector2Int
+  fullName: Vector2Int
+- uid: Global.List{GameObject}
+  commentId: '!:Global.List{GameObject}'
+  definition: Global.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.PathProgrammingGrid.GetGridLookup*
+  commentId: Overload:Global.PathProgrammingGrid.GetGridLookup
+  name: GetGridLookup
+  nameWithType: PathProgrammingGrid.GetGridLookup
+  fullName: PathProgrammingGrid.GetGridLookup
+- uid: Global.Dictionary{Vector2Int,PathProgrammingTile}
+  commentId: '!:Global.Dictionary{Vector2Int,PathProgrammingTile}'
+  definition: Global.Dictionary`2
+  name: Dictionary<Vector2Int, PathProgrammingTile>
+  nameWithType: Dictionary<Vector2Int, PathProgrammingTile>
+  fullName: Dictionary<Vector2Int, PathProgrammingTile>
+  nameWithType.vb: Dictionary(Of Vector2Int, PathProgrammingTile)
+  fullName.vb: Dictionary(Of Vector2Int, PathProgrammingTile)
+  name.vb: Dictionary(Of Vector2Int, PathProgrammingTile)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    nameWithType: Vector2Int
+    fullName: Vector2Int
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.PathProgrammingTile
+    name: PathProgrammingTile
+    nameWithType: PathProgrammingTile
+    fullName: PathProgrammingTile
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Vector2Int
+    name: Vector2Int
+    nameWithType: Vector2Int
+    fullName: Vector2Int
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.PathProgrammingTile
+    name: PathProgrammingTile
+    nameWithType: PathProgrammingTile
+    fullName: PathProgrammingTile
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.PathProgrammingGrid.GetTile*
+  commentId: Overload:Global.PathProgrammingGrid.GetTile
+  name: GetTile
+  nameWithType: PathProgrammingGrid.GetTile
+  fullName: PathProgrammingGrid.GetTile
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject

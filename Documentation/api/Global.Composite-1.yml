@@ -1,0 +1,582 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Composite`1
+  commentId: T:Global.Composite`1
+  id: Composite`1
+  parent: Global
+  children:
+  - Global.Composite`1.Add(AComponent{`0})
+  - Global.Composite`1.children
+  - Global.Composite`1.GetAt(`0)
+  - Global.Composite`1.Operation
+  - Global.Composite`1.RemoveAt(`0)
+  langs:
+  - csharp
+  - vb
+  name: Composite<K>
+  nameWithType: Composite<K>
+  fullName: Composite<K>
+  type: Class
+  source:
+    id: Composite
+    path: ''
+    startLine: 17460
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class Composite<K> : AComponent<K>'
+    typeParameters:
+    - id: K
+    content.vb: >-
+      Public MustInherit Class Composite(Of K)
+          Inherits AComponent(Of K)
+  inheritance:
+  - System.Object
+  - Global.AComponent{{K}}
+  inheritedMembers:
+  - Global.AComponent{{K}}.GetKey
+  nameWithType.vb: Composite(Of K)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: Composite(Of K)
+  name.vb: Composite(Of K)
+- uid: Global.Composite`1.children
+  commentId: F:Global.Composite`1.children
+  id: children
+  parent: Global.Composite`1
+  langs:
+  - csharp
+  - vb
+  name: children
+  nameWithType: Composite<K>.children
+  fullName: Composite<K>.children
+  type: Field
+  source:
+    id: children
+    path: ''
+    startLine: 17462
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected Dictionary<K, AComponent<K>> children
+    return:
+      type: Global.Dictionary{{K},AComponent{{K}}}
+    content.vb: Protected children As Dictionary(Of K, AComponent(Of K))
+  nameWithType.vb: Composite(Of K).children
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+  fullName.vb: Composite(Of K).children
+- uid: Global.Composite`1.Add(AComponent{`0})
+  commentId: M:Global.Composite`1.Add(AComponent{`0})
+  id: Add(AComponent{`0})
+  parent: Global.Composite`1
+  langs:
+  - csharp
+  - vb
+  name: Add(AComponent<K>)
+  nameWithType: Composite<K>.Add(AComponent<K>)
+  fullName: Composite<K>.Add(AComponent<K>)
+  type: Method
+  source:
+    id: Add
+    path: ''
+    startLine: 17464
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void Add(AComponent<K> value)
+    parameters:
+    - id: value
+      type: Global.AComponent{{K}}
+    content.vb: Public Overridable Sub Add(value As AComponent(Of K))
+  overload: Global.Composite`1.Add*
+  nameWithType.vb: Composite(Of K).Add(AComponent(Of K))
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Composite(Of K).Add(AComponent(Of K))
+  name.vb: Add(AComponent(Of K))
+- uid: Global.Composite`1.RemoveAt(`0)
+  commentId: M:Global.Composite`1.RemoveAt(`0)
+  id: RemoveAt(`0)
+  parent: Global.Composite`1
+  langs:
+  - csharp
+  - vb
+  name: RemoveAt(K)
+  nameWithType: Composite<K>.RemoveAt(K)
+  fullName: Composite<K>.RemoveAt(K)
+  type: Method
+  source:
+    id: RemoveAt
+    path: ''
+    startLine: 17469
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public virtual void RemoveAt(K key)
+    parameters:
+    - id: key
+      type: '{K}'
+    content.vb: Public Overridable Sub RemoveAt(key As K)
+  overload: Global.Composite`1.RemoveAt*
+  nameWithType.vb: Composite(Of K).RemoveAt(K)
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+  fullName.vb: Composite(Of K).RemoveAt(K)
+- uid: Global.Composite`1.GetAt(`0)
+  commentId: M:Global.Composite`1.GetAt(`0)
+  id: GetAt(`0)
+  parent: Global.Composite`1
+  langs:
+  - csharp
+  - vb
+  name: GetAt(K)
+  nameWithType: Composite<K>.GetAt(K)
+  fullName: Composite<K>.GetAt(K)
+  type: Method
+  source:
+    id: GetAt
+    path: ''
+    startLine: 17475
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AComponent<K> GetAt(K key)
+    parameters:
+    - id: key
+      type: '{K}'
+    return:
+      type: Global.AComponent{{K}}
+    content.vb: Public Function GetAt(key As K) As AComponent(Of K)
+  overload: Global.Composite`1.GetAt*
+  nameWithType.vb: Composite(Of K).GetAt(K)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: Composite(Of K).GetAt(K)
+- uid: Global.Composite`1.Operation
+  commentId: M:Global.Composite`1.Operation
+  id: Operation
+  parent: Global.Composite`1
+  langs:
+  - csharp
+  - vb
+  name: Operation()
+  nameWithType: Composite<K>.Operation()
+  fullName: Composite<K>.Operation()
+  type: Method
+  source:
+    id: Operation
+    path: ''
+    startLine: 17483
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void Operation()
+    content.vb: Public Overrides Sub Operation
+  overridden: Global.AComponent{{K}}.Operation
+  overload: Global.Composite`1.Operation*
+  nameWithType.vb: Composite(Of K).Operation()
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+  fullName.vb: Composite(Of K).Operation()
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AComponent{{K}}
+  commentId: T:Global.AComponent{`0}
+  definition: Global.AComponent`1
+  name: AComponent<K>
+  nameWithType: AComponent<K>
+  fullName: AComponent<K>
+  nameWithType.vb: AComponent(Of K)
+  fullName.vb: AComponent(Of K)
+  name.vb: AComponent(Of K)
+  spec.csharp:
+  - uid: Global.AComponent`1
+    name: AComponent
+    nameWithType: AComponent
+    fullName: AComponent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.AComponent`1
+    name: AComponent
+    nameWithType: AComponent
+    fullName: AComponent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AComponent{{K}}.GetKey
+  commentId: M:Global.AComponent{`0}.GetKey
+  parent: Global.AComponent{{K}}
+  definition: Global.AComponent`1.GetKey
+  name: GetKey()
+  nameWithType: AComponent<K>.GetKey()
+  fullName: AComponent<K>.GetKey()
+  nameWithType.vb: AComponent(Of K).GetKey()
+  fullName.vb: AComponent(Of K).GetKey()
+  spec.csharp:
+  - uid: Global.AComponent`1.GetKey
+    name: GetKey
+    nameWithType: AComponent<K>.GetKey
+    fullName: AComponent<K>.GetKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AComponent`1.GetKey
+    name: GetKey
+    nameWithType: AComponent(Of K).GetKey
+    fullName: AComponent(Of K).GetKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.AComponent`1
+  commentId: T:Global.AComponent`1
+  name: AComponent<K>
+  nameWithType: AComponent<K>
+  fullName: AComponent<K>
+  nameWithType.vb: AComponent(Of K)
+  fullName.vb: AComponent(Of K)
+  name.vb: AComponent(Of K)
+  spec.csharp:
+  - uid: Global.AComponent`1
+    name: AComponent
+    nameWithType: AComponent
+    fullName: AComponent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.AComponent`1
+    name: AComponent
+    nameWithType: AComponent
+    fullName: AComponent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AComponent`1.GetKey
+  commentId: M:Global.AComponent`1.GetKey
+  name: GetKey()
+  nameWithType: AComponent<K>.GetKey()
+  fullName: AComponent<K>.GetKey()
+  nameWithType.vb: AComponent(Of K).GetKey()
+  fullName.vb: AComponent(Of K).GetKey()
+  spec.csharp:
+  - uid: Global.AComponent`1.GetKey
+    name: GetKey
+    nameWithType: AComponent<K>.GetKey
+    fullName: AComponent<K>.GetKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AComponent`1.GetKey
+    name: GetKey
+    nameWithType: AComponent(Of K).GetKey
+    fullName: AComponent(Of K).GetKey
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary{{K},AComponent{{K}}}
+  commentId: '!:Global.Dictionary{`0,AComponent{`0}}'
+  definition: Global.Dictionary`2
+  name: Dictionary<K, AComponent<K>>
+  nameWithType: Dictionary<K, AComponent<K>>
+  fullName: Dictionary<K, AComponent<K>>
+  nameWithType.vb: Dictionary(Of K, AComponent(Of K))
+  fullName.vb: Dictionary(Of K, AComponent(Of K))
+  name.vb: Dictionary(Of K, AComponent(Of K))
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.AComponent`1
+    name: AComponent
+    nameWithType: AComponent
+    fullName: AComponent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.AComponent`1
+    name: AComponent
+    nameWithType: AComponent
+    fullName: AComponent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Composite`1.Add*
+  commentId: Overload:Global.Composite`1.Add
+  name: Add
+  nameWithType: Composite<K>.Add
+  fullName: Composite<K>.Add
+  nameWithType.vb: Composite(Of K).Add
+  fullName.vb: Composite(Of K).Add
+- uid: Global.Composite`1.RemoveAt*
+  commentId: Overload:Global.Composite`1.RemoveAt
+  name: RemoveAt
+  nameWithType: Composite<K>.RemoveAt
+  fullName: Composite<K>.RemoveAt
+  nameWithType.vb: Composite(Of K).RemoveAt
+  fullName.vb: Composite(Of K).RemoveAt
+- uid: '{K}'
+  commentId: '!:K'
+  definition: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: Global.Composite`1.GetAt*
+  commentId: Overload:Global.Composite`1.GetAt
+  name: GetAt
+  nameWithType: Composite<K>.GetAt
+  fullName: Composite<K>.GetAt
+  nameWithType.vb: Composite(Of K).GetAt
+  fullName.vb: Composite(Of K).GetAt
+- uid: Global.AComponent{{K}}.Operation
+  commentId: M:Global.AComponent{`0}.Operation
+  parent: Global.AComponent{{K}}
+  definition: Global.AComponent`1.Operation
+  name: Operation()
+  nameWithType: AComponent<K>.Operation()
+  fullName: AComponent<K>.Operation()
+  nameWithType.vb: AComponent(Of K).Operation()
+  fullName.vb: AComponent(Of K).Operation()
+  spec.csharp:
+  - uid: Global.AComponent`1.Operation
+    name: Operation
+    nameWithType: AComponent<K>.Operation
+    fullName: AComponent<K>.Operation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AComponent`1.Operation
+    name: Operation
+    nameWithType: AComponent(Of K).Operation
+    fullName: AComponent(Of K).Operation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Composite`1.Operation*
+  commentId: Overload:Global.Composite`1.Operation
+  name: Operation
+  nameWithType: Composite<K>.Operation
+  fullName: Composite<K>.Operation
+  nameWithType.vb: Composite(Of K).Operation
+  fullName.vb: Composite(Of K).Operation
+- uid: Global.AComponent`1.Operation
+  commentId: M:Global.AComponent`1.Operation
+  name: Operation()
+  nameWithType: AComponent<K>.Operation()
+  fullName: AComponent<K>.Operation()
+  nameWithType.vb: AComponent(Of K).Operation()
+  fullName.vb: AComponent(Of K).Operation()
+  spec.csharp:
+  - uid: Global.AComponent`1.Operation
+    name: Operation
+    nameWithType: AComponent<K>.Operation
+    fullName: AComponent<K>.Operation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AComponent`1.Operation
+    name: Operation
+    nameWithType: AComponent(Of K).Operation
+    fullName: AComponent(Of K).Operation
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

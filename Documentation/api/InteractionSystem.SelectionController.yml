@@ -1,0 +1,272 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.SelectionController
+  commentId: T:InteractionSystem.SelectionController
+  id: SelectionController
+  parent: InteractionSystem
+  children:
+  - InteractionSystem.SelectionController.Deselect
+  - InteractionSystem.SelectionController.DeselectCurrent
+  - InteractionSystem.SelectionController.OnDeselect
+  - InteractionSystem.SelectionController.OnSelect
+  - InteractionSystem.SelectionController.Select(InteractionSystem.Selectable.Selectable)
+  - InteractionSystem.SelectionController.selected
+  langs:
+  - csharp
+  - vb
+  name: SelectionController
+  nameWithType: SelectionController
+  fullName: InteractionSystem.SelectionController
+  type: Class
+  source:
+    id: SelectionController
+    path: ''
+    startLine: 23665
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public class SelectionController
+    content.vb: Public Class SelectionController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.SelectionController.OnSelect
+  commentId: F:InteractionSystem.SelectionController.OnSelect
+  id: OnSelect
+  parent: InteractionSystem.SelectionController
+  langs:
+  - csharp
+  - vb
+  name: OnSelect
+  nameWithType: SelectionController.OnSelect
+  fullName: InteractionSystem.SelectionController.OnSelect
+  type: Field
+  source:
+    id: OnSelect
+    path: ''
+    startLine: 23667
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static SelectableEvent OnSelect
+    return:
+      type: InteractionSystem.Selectable.SelectableEvent
+    content.vb: Public Shared OnSelect As SelectableEvent
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: InteractionSystem.SelectionController.OnDeselect
+  commentId: F:InteractionSystem.SelectionController.OnDeselect
+  id: OnDeselect
+  parent: InteractionSystem.SelectionController
+  langs:
+  - csharp
+  - vb
+  name: OnDeselect
+  nameWithType: SelectionController.OnDeselect
+  fullName: InteractionSystem.SelectionController.OnDeselect
+  type: Field
+  source:
+    id: OnDeselect
+    path: ''
+    startLine: 23668
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static SelectableEvent OnDeselect
+    return:
+      type: InteractionSystem.Selectable.SelectableEvent
+    content.vb: Public Shared OnDeselect As SelectableEvent
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: InteractionSystem.SelectionController.selected
+  commentId: P:InteractionSystem.SelectionController.selected
+  id: selected
+  parent: InteractionSystem.SelectionController
+  langs:
+  - csharp
+  - vb
+  name: selected
+  nameWithType: SelectionController.selected
+  fullName: InteractionSystem.SelectionController.selected
+  type: Property
+  source:
+    id: selected
+    path: ''
+    startLine: 23671
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static Selectable selected { get; }
+    parameters: []
+    return:
+      type: InteractionSystem.Selectable.Selectable
+    content.vb: Public Shared ReadOnly Property selected As Selectable
+  overload: InteractionSystem.SelectionController.selected*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: InteractionSystem.SelectionController.Select(InteractionSystem.Selectable.Selectable)
+  commentId: M:InteractionSystem.SelectionController.Select(InteractionSystem.Selectable.Selectable)
+  id: Select(InteractionSystem.Selectable.Selectable)
+  parent: InteractionSystem.SelectionController
+  langs:
+  - csharp
+  - vb
+  name: Select(Selectable)
+  nameWithType: SelectionController.Select(Selectable)
+  fullName: InteractionSystem.SelectionController.Select(InteractionSystem.Selectable.Selectable)
+  type: Method
+  source:
+    id: Select
+    path: ''
+    startLine: 23689
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static void Select(Selectable selectable)
+    parameters:
+    - id: selectable
+      type: InteractionSystem.Selectable.Selectable
+    content.vb: Public Shared Sub Select(selectable As Selectable)
+  overload: InteractionSystem.SelectionController.Select*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: InteractionSystem.SelectionController.Deselect
+  commentId: M:InteractionSystem.SelectionController.Deselect
+  id: Deselect
+  parent: InteractionSystem.SelectionController
+  langs:
+  - csharp
+  - vb
+  name: Deselect()
+  nameWithType: SelectionController.Deselect()
+  fullName: InteractionSystem.SelectionController.Deselect()
+  type: Method
+  source:
+    id: Deselect
+    path: ''
+    startLine: 23694
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static void Deselect()
+    content.vb: Public Shared Sub Deselect
+  overload: InteractionSystem.SelectionController.Deselect*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: InteractionSystem.SelectionController.DeselectCurrent
+  commentId: M:InteractionSystem.SelectionController.DeselectCurrent
+  id: DeselectCurrent
+  parent: InteractionSystem.SelectionController
+  langs:
+  - csharp
+  - vb
+  name: DeselectCurrent()
+  nameWithType: SelectionController.DeselectCurrent()
+  fullName: InteractionSystem.SelectionController.DeselectCurrent()
+  type: Method
+  source:
+    id: DeselectCurrent
+    path: ''
+    startLine: 23699
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static void DeselectCurrent()
+    content.vb: Public Shared Sub DeselectCurrent
+  overload: InteractionSystem.SelectionController.DeselectCurrent*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Selectable.SelectableEvent
+  commentId: T:InteractionSystem.Selectable.SelectableEvent
+  parent: InteractionSystem.Selectable
+  name: SelectableEvent
+  nameWithType: SelectableEvent
+  fullName: InteractionSystem.Selectable.SelectableEvent
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: InteractionSystem.SelectionController.selected*
+  commentId: Overload:InteractionSystem.SelectionController.selected
+  name: selected
+  nameWithType: SelectionController.selected
+  fullName: InteractionSystem.SelectionController.selected
+- uid: InteractionSystem.Selectable.Selectable
+  commentId: T:InteractionSystem.Selectable.Selectable
+  parent: InteractionSystem.Selectable
+  name: Selectable
+  nameWithType: Selectable
+  fullName: InteractionSystem.Selectable.Selectable
+- uid: InteractionSystem.SelectionController.Select*
+  commentId: Overload:InteractionSystem.SelectionController.Select
+  name: Select
+  nameWithType: SelectionController.Select
+  fullName: InteractionSystem.SelectionController.Select
+- uid: InteractionSystem.SelectionController.Deselect*
+  commentId: Overload:InteractionSystem.SelectionController.Deselect
+  name: Deselect
+  nameWithType: SelectionController.Deselect
+  fullName: InteractionSystem.SelectionController.Deselect
+- uid: InteractionSystem.SelectionController.DeselectCurrent*
+  commentId: Overload:InteractionSystem.SelectionController.DeselectCurrent
+  name: DeselectCurrent
+  nameWithType: SelectionController.DeselectCurrent
+  fullName: InteractionSystem.SelectionController.DeselectCurrent

@@ -1,0 +1,440 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Selectable.HandFollowBehaviour
+  commentId: T:InteractionSystem.Selectable.HandFollowBehaviour
+  id: HandFollowBehaviour
+  parent: InteractionSystem.Selectable
+  children:
+  - InteractionSystem.Selectable.HandFollowBehaviour.GoToPlaceholder(Transform)
+  - InteractionSystem.Selectable.HandFollowBehaviour.isInHand
+  - InteractionSystem.Selectable.HandFollowBehaviour.isInPlaceholder
+  - InteractionSystem.Selectable.HandFollowBehaviour.LeavePlaceholder
+  - InteractionSystem.Selectable.HandFollowBehaviour.OnDeselect
+  - InteractionSystem.Selectable.HandFollowBehaviour.OnSelect
+  - InteractionSystem.Selectable.HandFollowBehaviour.StartFollowingHand
+  - InteractionSystem.Selectable.HandFollowBehaviour.StopFollowingHand
+  langs:
+  - csharp
+  - vb
+  name: HandFollowBehaviour
+  nameWithType: HandFollowBehaviour
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour
+  type: Class
+  source:
+    id: HandFollowBehaviour
+    path: ''
+    startLine: 24771
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: 'public class HandFollowBehaviour : ASelectionBehaviour'
+    content.vb: >-
+      Public Class HandFollowBehaviour
+          Inherits ASelectionBehaviour
+  inheritance:
+  - System.Object
+  - InteractionSystem.Selectable.ASelectionBehaviour
+  inheritedMembers:
+  - InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  - InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.isInHand
+  commentId: P:InteractionSystem.Selectable.HandFollowBehaviour.isInHand
+  id: isInHand
+  parent: InteractionSystem.Selectable.HandFollowBehaviour
+  langs:
+  - csharp
+  - vb
+  name: isInHand
+  nameWithType: HandFollowBehaviour.isInHand
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.isInHand
+  type: Property
+  source:
+    id: isInHand
+    path: ''
+    startLine: 24777
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public bool isInHand { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isInHand As Boolean
+  overload: InteractionSystem.Selectable.HandFollowBehaviour.isInHand*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.isInPlaceholder
+  commentId: P:InteractionSystem.Selectable.HandFollowBehaviour.isInPlaceholder
+  id: isInPlaceholder
+  parent: InteractionSystem.Selectable.HandFollowBehaviour
+  langs:
+  - csharp
+  - vb
+  name: isInPlaceholder
+  nameWithType: HandFollowBehaviour.isInPlaceholder
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.isInPlaceholder
+  type: Property
+  source:
+    id: isInPlaceholder
+    path: ''
+    startLine: 24778
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public bool isInPlaceholder { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isInPlaceholder As Boolean
+  overload: InteractionSystem.Selectable.HandFollowBehaviour.isInPlaceholder*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.HandFollowBehaviour.OnSelect
+  id: OnSelect
+  parent: InteractionSystem.Selectable.HandFollowBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnSelect()
+  nameWithType: HandFollowBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.OnSelect()
+  type: Method
+  source:
+    id: OnSelect
+    path: ''
+    startLine: 24780
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public override void OnSelect()
+    content.vb: Public Overrides Sub OnSelect
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  overload: InteractionSystem.Selectable.HandFollowBehaviour.OnSelect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.HandFollowBehaviour.OnDeselect
+  id: OnDeselect
+  parent: InteractionSystem.Selectable.HandFollowBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnDeselect()
+  nameWithType: HandFollowBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.OnDeselect()
+  type: Method
+  source:
+    id: OnDeselect
+    path: ''
+    startLine: 24788
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public override void OnDeselect()
+    content.vb: Public Overrides Sub OnDeselect
+  overridden: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  overload: InteractionSystem.Selectable.HandFollowBehaviour.OnDeselect*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.StartFollowingHand
+  commentId: M:InteractionSystem.Selectable.HandFollowBehaviour.StartFollowingHand
+  id: StartFollowingHand
+  parent: InteractionSystem.Selectable.HandFollowBehaviour
+  langs:
+  - csharp
+  - vb
+  name: StartFollowingHand()
+  nameWithType: HandFollowBehaviour.StartFollowingHand()
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.StartFollowingHand()
+  type: Method
+  source:
+    id: StartFollowingHand
+    path: ''
+    startLine: 24793
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public void StartFollowingHand()
+    content.vb: Public Sub StartFollowingHand
+  overload: InteractionSystem.Selectable.HandFollowBehaviour.StartFollowingHand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.GoToPlaceholder(Transform)
+  commentId: M:InteractionSystem.Selectable.HandFollowBehaviour.GoToPlaceholder(Transform)
+  id: GoToPlaceholder(Transform)
+  parent: InteractionSystem.Selectable.HandFollowBehaviour
+  langs:
+  - csharp
+  - vb
+  name: GoToPlaceholder(Transform)
+  nameWithType: HandFollowBehaviour.GoToPlaceholder(Transform)
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.GoToPlaceholder(Transform)
+  type: Method
+  source:
+    id: GoToPlaceholder
+    path: ''
+    startLine: 24802
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public void GoToPlaceholder(Transform placeholder)
+    parameters:
+    - id: placeholder
+      type: Global.Transform
+    content.vb: Public Sub GoToPlaceholder(placeholder As Transform)
+  overload: InteractionSystem.Selectable.HandFollowBehaviour.GoToPlaceholder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.LeavePlaceholder
+  commentId: M:InteractionSystem.Selectable.HandFollowBehaviour.LeavePlaceholder
+  id: LeavePlaceholder
+  parent: InteractionSystem.Selectable.HandFollowBehaviour
+  langs:
+  - csharp
+  - vb
+  name: LeavePlaceholder()
+  nameWithType: HandFollowBehaviour.LeavePlaceholder()
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.LeavePlaceholder()
+  type: Method
+  source:
+    id: LeavePlaceholder
+    path: ''
+    startLine: 24810
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public void LeavePlaceholder()
+    content.vb: Public Sub LeavePlaceholder
+  overload: InteractionSystem.Selectable.HandFollowBehaviour.LeavePlaceholder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.StopFollowingHand
+  commentId: M:InteractionSystem.Selectable.HandFollowBehaviour.StopFollowingHand
+  id: StopFollowingHand
+  parent: InteractionSystem.Selectable.HandFollowBehaviour
+  langs:
+  - csharp
+  - vb
+  name: StopFollowingHand()
+  nameWithType: HandFollowBehaviour.StopFollowingHand()
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.StopFollowingHand()
+  type: Method
+  source:
+    id: StopFollowingHand
+    path: ''
+    startLine: 24816
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Selectable
+  syntax:
+    content: public void StopFollowingHand()
+    content.vb: Public Sub StopFollowingHand
+  overload: InteractionSystem.Selectable.HandFollowBehaviour.StopFollowingHand*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: InteractionSystem.Selectable.ASelectionBehaviour
+  commentId: T:InteractionSystem.Selectable.ASelectionBehaviour
+  parent: InteractionSystem.Selectable
+  name: ASelectionBehaviour
+  nameWithType: ASelectionBehaviour
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  commentId: F:InteractionSystem.Selectable.ASelectionBehaviour.selectable
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: selectable
+  nameWithType: ASelectionBehaviour.selectable
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.selectable
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: Awake()
+  nameWithType: ASelectionBehaviour.Awake()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+    name: Awake
+    nameWithType: ASelectionBehaviour.Awake
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+    name: Awake
+    nameWithType: ASelectionBehaviour.Awake
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.isInHand*
+  commentId: Overload:InteractionSystem.Selectable.HandFollowBehaviour.isInHand
+  name: isInHand
+  nameWithType: HandFollowBehaviour.isInHand
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.isInHand
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.isInPlaceholder*
+  commentId: Overload:InteractionSystem.Selectable.HandFollowBehaviour.isInPlaceholder
+  name: isInPlaceholder
+  nameWithType: HandFollowBehaviour.isInPlaceholder
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.isInPlaceholder
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: OnSelect()
+  nameWithType: ASelectionBehaviour.OnSelect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+    name: OnSelect
+    nameWithType: ASelectionBehaviour.OnSelect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+    name: OnSelect
+    nameWithType: ASelectionBehaviour.OnSelect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnSelect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.OnSelect*
+  commentId: Overload:InteractionSystem.Selectable.HandFollowBehaviour.OnSelect
+  name: OnSelect
+  nameWithType: HandFollowBehaviour.OnSelect
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.OnSelect
+- uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  commentId: M:InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  parent: InteractionSystem.Selectable.ASelectionBehaviour
+  name: OnDeselect()
+  nameWithType: ASelectionBehaviour.OnDeselect()
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect()
+  spec.csharp:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+    name: OnDeselect
+    nameWithType: ASelectionBehaviour.OnDeselect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+    name: OnDeselect
+    nameWithType: ASelectionBehaviour.OnDeselect
+    fullName: InteractionSystem.Selectable.ASelectionBehaviour.OnDeselect
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.OnDeselect*
+  commentId: Overload:InteractionSystem.Selectable.HandFollowBehaviour.OnDeselect
+  name: OnDeselect
+  nameWithType: HandFollowBehaviour.OnDeselect
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.OnDeselect
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.StartFollowingHand*
+  commentId: Overload:InteractionSystem.Selectable.HandFollowBehaviour.StartFollowingHand
+  name: StartFollowingHand
+  nameWithType: HandFollowBehaviour.StartFollowingHand
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.StartFollowingHand
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.GoToPlaceholder*
+  commentId: Overload:InteractionSystem.Selectable.HandFollowBehaviour.GoToPlaceholder
+  name: GoToPlaceholder
+  nameWithType: HandFollowBehaviour.GoToPlaceholder
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.GoToPlaceholder
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.LeavePlaceholder*
+  commentId: Overload:InteractionSystem.Selectable.HandFollowBehaviour.LeavePlaceholder
+  name: LeavePlaceholder
+  nameWithType: HandFollowBehaviour.LeavePlaceholder
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.LeavePlaceholder
+- uid: InteractionSystem.Selectable.HandFollowBehaviour.StopFollowingHand*
+  commentId: Overload:InteractionSystem.Selectable.HandFollowBehaviour.StopFollowingHand
+  name: StopFollowingHand
+  nameWithType: HandFollowBehaviour.StopFollowingHand
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour.StopFollowingHand

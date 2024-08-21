@@ -1,0 +1,251 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.CardDataLoader
+  commentId: T:CardModule.CardDataLoader
+  id: CardDataLoader
+  parent: CardModule
+  children:
+  - CardModule.CardDataLoader.cardData
+  - CardModule.CardDataLoader.cardDataSavePath
+  - CardModule.CardDataLoader.defaultCardData
+  - CardModule.CardDataLoader.fullFilePath
+  - CardModule.CardDataLoader.LoadCardData
+  - CardModule.CardDataLoader.SaveCardData
+  langs:
+  - csharp
+  - vb
+  name: CardDataLoader
+  nameWithType: CardDataLoader
+  fullName: CardModule.CardDataLoader
+  type: Class
+  source:
+    id: CardDataLoader
+    path: ''
+    startLine: 19570
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: 'public class CardDataLoader : MonoBehaviour'
+    content.vb: >-
+      Public Class CardDataLoader
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.CardDataLoader.cardDataSavePath
+  commentId: F:CardModule.CardDataLoader.cardDataSavePath
+  id: cardDataSavePath
+  parent: CardModule.CardDataLoader
+  langs:
+  - csharp
+  - vb
+  name: cardDataSavePath
+  nameWithType: CardDataLoader.cardDataSavePath
+  fullName: CardModule.CardDataLoader.cardDataSavePath
+  type: Field
+  source:
+    id: cardDataSavePath
+    path: ''
+    startLine: 19573
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string cardDataSavePath
+    return:
+      type: System.String
+    content.vb: Public cardDataSavePath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardDataLoader.defaultCardData
+  commentId: F:CardModule.CardDataLoader.defaultCardData
+  id: defaultCardData
+  parent: CardModule.CardDataLoader
+  langs:
+  - csharp
+  - vb
+  name: defaultCardData
+  nameWithType: CardDataLoader.defaultCardData
+  fullName: CardModule.CardDataLoader.defaultCardData
+  type: Field
+  source:
+    id: defaultCardData
+    path: ''
+    startLine: 19575
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: protected CardData defaultCardData
+    return:
+      type: CardModule.CardData
+    content.vb: Protected defaultCardData As CardData
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: CardModule.CardDataLoader.cardData
+  commentId: F:CardModule.CardDataLoader.cardData
+  id: cardData
+  parent: CardModule.CardDataLoader
+  langs:
+  - csharp
+  - vb
+  name: cardData
+  nameWithType: CardDataLoader.cardData
+  fullName: CardModule.CardDataLoader.cardData
+  type: Field
+  source:
+    id: cardData
+    path: ''
+    startLine: 19577
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public CardData cardData
+    return:
+      type: CardModule.CardData
+    content.vb: Public cardData As CardData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardDataLoader.fullFilePath
+  commentId: P:CardModule.CardDataLoader.fullFilePath
+  id: fullFilePath
+  parent: CardModule.CardDataLoader
+  langs:
+  - csharp
+  - vb
+  name: fullFilePath
+  nameWithType: CardDataLoader.fullFilePath
+  fullName: CardModule.CardDataLoader.fullFilePath
+  type: Property
+  source:
+    id: fullFilePath
+    path: ''
+    startLine: 19582
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string fullFilePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public ReadOnly Property fullFilePath As String
+  overload: CardModule.CardDataLoader.fullFilePath*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: CardModule.CardDataLoader.SaveCardData
+  commentId: M:CardModule.CardDataLoader.SaveCardData
+  id: SaveCardData
+  parent: CardModule.CardDataLoader
+  langs:
+  - csharp
+  - vb
+  name: SaveCardData()
+  nameWithType: CardDataLoader.SaveCardData()
+  fullName: CardModule.CardDataLoader.SaveCardData()
+  type: Method
+  source:
+    id: SaveCardData
+    path: ''
+    startLine: 19590
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public void SaveCardData()
+    content.vb: Public Sub SaveCardData
+  overload: CardModule.CardDataLoader.SaveCardData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.CardDataLoader.LoadCardData
+  commentId: M:CardModule.CardDataLoader.LoadCardData
+  id: LoadCardData
+  parent: CardModule.CardDataLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadCardData()
+  nameWithType: CardDataLoader.LoadCardData()
+  fullName: CardModule.CardDataLoader.LoadCardData()
+  type: Method
+  source:
+    id: LoadCardData
+    path: ''
+    startLine: 19595
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public void LoadCardData()
+    content.vb: Public Sub LoadCardData
+  overload: CardModule.CardDataLoader.LoadCardData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CardModule.CardData
+  commentId: T:CardModule.CardData
+  parent: CardModule
+  name: CardData
+  nameWithType: CardData
+  fullName: CardModule.CardData
+- uid: CardModule.CardDataLoader.fullFilePath*
+  commentId: Overload:CardModule.CardDataLoader.fullFilePath
+  name: fullFilePath
+  nameWithType: CardDataLoader.fullFilePath
+  fullName: CardModule.CardDataLoader.fullFilePath
+- uid: CardModule.CardDataLoader.SaveCardData*
+  commentId: Overload:CardModule.CardDataLoader.SaveCardData
+  name: SaveCardData
+  nameWithType: CardDataLoader.SaveCardData
+  fullName: CardModule.CardDataLoader.SaveCardData
+- uid: CardModule.CardDataLoader.LoadCardData*
+  commentId: Overload:CardModule.CardDataLoader.LoadCardData
+  name: LoadCardData
+  nameWithType: CardDataLoader.LoadCardData
+  fullName: CardModule.CardDataLoader.LoadCardData

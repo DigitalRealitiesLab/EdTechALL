@@ -1,0 +1,147 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TaskFactoryData
+  commentId: T:Global.TaskFactoryData
+  id: TaskFactoryData
+  parent: Global
+  children:
+  - Global.TaskFactoryData.defaultTaskData
+  - Global.TaskFactoryData.taskPrefab
+  - Global.TaskFactoryData.taskType
+  langs:
+  - csharp
+  - vb
+  name: TaskFactoryData
+  nameWithType: TaskFactoryData
+  fullName: TaskFactoryData
+  type: Struct
+  source:
+    id: TaskFactoryData
+    path: ''
+    startLine: 18213
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct TaskFactoryData
+    content.vb: >-
+      <Serializable>
+
+      Public Structure TaskFactoryData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.TaskFactoryData.taskType
+  commentId: F:Global.TaskFactoryData.taskType
+  id: taskType
+  parent: Global.TaskFactoryData
+  langs:
+  - csharp
+  - vb
+  name: taskType
+  nameWithType: TaskFactoryData.taskType
+  fullName: TaskFactoryData.taskType
+  type: Field
+  source:
+    id: taskType
+    path: ''
+    startLine: 18216
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskType taskType
+    return:
+      type: Global.TaskType
+    content.vb: Public taskType As TaskType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskFactoryData.taskPrefab
+  commentId: F:Global.TaskFactoryData.taskPrefab
+  id: taskPrefab
+  parent: Global.TaskFactoryData
+  langs:
+  - csharp
+  - vb
+  name: taskPrefab
+  nameWithType: TaskFactoryData.taskPrefab
+  fullName: TaskFactoryData.taskPrefab
+  type: Field
+  source:
+    id: taskPrefab
+    path: ''
+    startLine: 18217
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject taskPrefab
+    return:
+      type: Global.GameObject
+    content.vb: Public taskPrefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskFactoryData.defaultTaskData
+  commentId: F:Global.TaskFactoryData.defaultTaskData
+  id: defaultTaskData
+  parent: Global.TaskFactoryData
+  langs:
+  - csharp
+  - vb
+  name: defaultTaskData
+  nameWithType: TaskFactoryData.defaultTaskData
+  fullName: TaskFactoryData.defaultTaskData
+  type: Field
+  source:
+    id: defaultTaskData
+    path: ''
+    startLine: 18218
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskData defaultTaskData
+    return:
+      type: Global.TaskData
+    content.vb: Public defaultTaskData As TaskData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.TaskType
+  commentId: T:Global.TaskType
+  name: TaskType
+  nameWithType: TaskType
+  fullName: TaskType
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData

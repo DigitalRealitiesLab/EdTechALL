@@ -1,0 +1,357 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.POIScaleBehaviour
+  commentId: T:Global.POIScaleBehaviour
+  id: POIScaleBehaviour
+  parent: Global
+  children:
+  - Global.POIScaleBehaviour.behaviourType
+  - Global.POIScaleBehaviour.InitBehaviour
+  - Global.POIScaleBehaviour.label
+  - Global.POIScaleBehaviour.scaleCurve
+  - Global.POIScaleBehaviour.scaleMultiplier
+  - Global.POIScaleBehaviour.UpdateBehaviour
+  langs:
+  - csharp
+  - vb
+  name: POIScaleBehaviour
+  nameWithType: POIScaleBehaviour
+  fullName: POIScaleBehaviour
+  type: Class
+  source:
+    id: POIScaleBehaviour
+    path: ''
+    startLine: 23486
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class POIScaleBehaviour : APOIBehaviour'
+    content.vb: >-
+      Public Class POIScaleBehaviour
+          Inherits APOIBehaviour
+  inheritance:
+  - System.Object
+  - Global.APOIBehaviour
+  inheritedMembers:
+  - Global.APOIBehaviour.viewer
+  - Global.APOIBehaviour.poi
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.POIScaleBehaviour.behaviourType
+  commentId: P:Global.POIScaleBehaviour.behaviourType
+  id: behaviourType
+  parent: Global.POIScaleBehaviour
+  langs:
+  - csharp
+  - vb
+  name: behaviourType
+  nameWithType: POIScaleBehaviour.behaviourType
+  fullName: POIScaleBehaviour.behaviourType
+  type: Property
+  source:
+    id: behaviourType
+    path: ''
+    startLine: 23488
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override string behaviourType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property behaviourType As String
+  overridden: Global.APOIBehaviour.behaviourType
+  overload: Global.POIScaleBehaviour.behaviourType*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Global.POIScaleBehaviour.label
+  commentId: F:Global.POIScaleBehaviour.label
+  id: label
+  parent: Global.POIScaleBehaviour
+  langs:
+  - csharp
+  - vb
+  name: label
+  nameWithType: POIScaleBehaviour.label
+  fullName: POIScaleBehaviour.label
+  type: Field
+  source:
+    id: label
+    path: ''
+    startLine: 23490
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Transform label
+    return:
+      type: Global.Transform
+    content.vb: Public label As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIScaleBehaviour.scaleCurve
+  commentId: F:Global.POIScaleBehaviour.scaleCurve
+  id: scaleCurve
+  parent: Global.POIScaleBehaviour
+  langs:
+  - csharp
+  - vb
+  name: scaleCurve
+  nameWithType: POIScaleBehaviour.scaleCurve
+  fullName: POIScaleBehaviour.scaleCurve
+  type: Field
+  source:
+    id: scaleCurve
+    path: ''
+    startLine: 23492
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AnimationCurve scaleCurve
+    return:
+      type: Global.AnimationCurve
+    content.vb: Public scaleCurve As AnimationCurve
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIScaleBehaviour.scaleMultiplier
+  commentId: F:Global.POIScaleBehaviour.scaleMultiplier
+  id: scaleMultiplier
+  parent: Global.POIScaleBehaviour
+  langs:
+  - csharp
+  - vb
+  name: scaleMultiplier
+  nameWithType: POIScaleBehaviour.scaleMultiplier
+  fullName: POIScaleBehaviour.scaleMultiplier
+  type: Field
+  source:
+    id: scaleMultiplier
+    path: ''
+    startLine: 23494
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float scaleMultiplier
+    return:
+      type: System.Single
+    content.vb: Public scaleMultiplier As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.POIScaleBehaviour.InitBehaviour
+  commentId: M:Global.POIScaleBehaviour.InitBehaviour
+  id: InitBehaviour
+  parent: Global.POIScaleBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InitBehaviour()
+  nameWithType: POIScaleBehaviour.InitBehaviour()
+  fullName: POIScaleBehaviour.InitBehaviour()
+  type: Method
+  source:
+    id: InitBehaviour
+    path: ''
+    startLine: 23498
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void InitBehaviour()
+    content.vb: Public Overrides Sub InitBehaviour
+  overridden: Global.APOIBehaviour.InitBehaviour
+  overload: Global.POIScaleBehaviour.InitBehaviour*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.POIScaleBehaviour.UpdateBehaviour
+  commentId: M:Global.POIScaleBehaviour.UpdateBehaviour
+  id: UpdateBehaviour
+  parent: Global.POIScaleBehaviour
+  langs:
+  - csharp
+  - vb
+  name: UpdateBehaviour()
+  nameWithType: POIScaleBehaviour.UpdateBehaviour()
+  fullName: POIScaleBehaviour.UpdateBehaviour()
+  type: Method
+  source:
+    id: UpdateBehaviour
+    path: ''
+    startLine: 23504
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void UpdateBehaviour()
+    content.vb: Public Overrides Sub UpdateBehaviour
+  overridden: Global.APOIBehaviour.UpdateBehaviour
+  overload: Global.POIScaleBehaviour.UpdateBehaviour*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.APOIBehaviour
+  commentId: T:Global.APOIBehaviour
+  name: APOIBehaviour
+  nameWithType: APOIBehaviour
+  fullName: APOIBehaviour
+- uid: Global.APOIBehaviour.viewer
+  commentId: F:Global.APOIBehaviour.viewer
+  parent: Global.APOIBehaviour
+  name: viewer
+  nameWithType: APOIBehaviour.viewer
+  fullName: APOIBehaviour.viewer
+- uid: Global.APOIBehaviour.poi
+  commentId: F:Global.APOIBehaviour.poi
+  parent: Global.APOIBehaviour
+  name: poi
+  nameWithType: APOIBehaviour.poi
+  fullName: APOIBehaviour.poi
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.APOIBehaviour.behaviourType
+  commentId: P:Global.APOIBehaviour.behaviourType
+  parent: Global.APOIBehaviour
+  name: behaviourType
+  nameWithType: APOIBehaviour.behaviourType
+  fullName: APOIBehaviour.behaviourType
+- uid: Global.POIScaleBehaviour.behaviourType*
+  commentId: Overload:Global.POIScaleBehaviour.behaviourType
+  name: behaviourType
+  nameWithType: POIScaleBehaviour.behaviourType
+  fullName: POIScaleBehaviour.behaviourType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.AnimationCurve
+  commentId: '!:Global.AnimationCurve'
+  isExternal: true
+  name: AnimationCurve
+  nameWithType: AnimationCurve
+  fullName: AnimationCurve
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.APOIBehaviour.InitBehaviour
+  commentId: M:Global.APOIBehaviour.InitBehaviour
+  parent: Global.APOIBehaviour
+  name: InitBehaviour()
+  nameWithType: APOIBehaviour.InitBehaviour()
+  fullName: APOIBehaviour.InitBehaviour()
+  spec.csharp:
+  - uid: Global.APOIBehaviour.InitBehaviour
+    name: InitBehaviour
+    nameWithType: APOIBehaviour.InitBehaviour
+    fullName: APOIBehaviour.InitBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.APOIBehaviour.InitBehaviour
+    name: InitBehaviour
+    nameWithType: APOIBehaviour.InitBehaviour
+    fullName: APOIBehaviour.InitBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.POIScaleBehaviour.InitBehaviour*
+  commentId: Overload:Global.POIScaleBehaviour.InitBehaviour
+  name: InitBehaviour
+  nameWithType: POIScaleBehaviour.InitBehaviour
+  fullName: POIScaleBehaviour.InitBehaviour
+- uid: Global.APOIBehaviour.UpdateBehaviour
+  commentId: M:Global.APOIBehaviour.UpdateBehaviour
+  parent: Global.APOIBehaviour
+  name: UpdateBehaviour()
+  nameWithType: APOIBehaviour.UpdateBehaviour()
+  fullName: APOIBehaviour.UpdateBehaviour()
+  spec.csharp:
+  - uid: Global.APOIBehaviour.UpdateBehaviour
+    name: UpdateBehaviour
+    nameWithType: APOIBehaviour.UpdateBehaviour
+    fullName: APOIBehaviour.UpdateBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.APOIBehaviour.UpdateBehaviour
+    name: UpdateBehaviour
+    nameWithType: APOIBehaviour.UpdateBehaviour
+    fullName: APOIBehaviour.UpdateBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.POIScaleBehaviour.UpdateBehaviour*
+  commentId: Overload:Global.POIScaleBehaviour.UpdateBehaviour
+  name: UpdateBehaviour
+  nameWithType: POIScaleBehaviour.UpdateBehaviour
+  fullName: POIScaleBehaviour.UpdateBehaviour

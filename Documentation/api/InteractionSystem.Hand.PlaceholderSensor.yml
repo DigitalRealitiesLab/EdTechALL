@@ -1,0 +1,166 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Hand.PlaceholderSensor
+  commentId: T:InteractionSystem.Hand.PlaceholderSensor
+  id: PlaceholderSensor
+  parent: InteractionSystem.Hand
+  children:
+  - InteractionSystem.Hand.PlaceholderSensor.getClosestAvailablePlaceholder
+  - InteractionSystem.Hand.PlaceholderSensor.handSensor
+  - InteractionSystem.Hand.PlaceholderSensor.OnAvailablePlaceholderChanged
+  langs:
+  - csharp
+  - vb
+  name: PlaceholderSensor
+  nameWithType: PlaceholderSensor
+  fullName: InteractionSystem.Hand.PlaceholderSensor
+  type: Class
+  source:
+    id: PlaceholderSensor
+    path: ''
+    startLine: 23808
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: 'public class PlaceholderSensor : MonoBehaviour'
+    content.vb: >-
+      Public Class PlaceholderSensor
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Hand.PlaceholderSensor.handSensor
+  commentId: F:InteractionSystem.Hand.PlaceholderSensor.handSensor
+  id: handSensor
+  parent: InteractionSystem.Hand.PlaceholderSensor
+  langs:
+  - csharp
+  - vb
+  name: handSensor
+  nameWithType: PlaceholderSensor.handSensor
+  fullName: InteractionSystem.Hand.PlaceholderSensor.handSensor
+  type: Field
+  source:
+    id: handSensor
+    path: ''
+    startLine: 23810
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public HandSensor handSensor
+    return:
+      type: InteractionSystem.Hand.HandSensor
+    content.vb: Public handSensor As HandSensor
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.PlaceholderSensor.OnAvailablePlaceholderChanged
+  commentId: F:InteractionSystem.Hand.PlaceholderSensor.OnAvailablePlaceholderChanged
+  id: OnAvailablePlaceholderChanged
+  parent: InteractionSystem.Hand.PlaceholderSensor
+  langs:
+  - csharp
+  - vb
+  name: OnAvailablePlaceholderChanged
+  nameWithType: PlaceholderSensor.OnAvailablePlaceholderChanged
+  fullName: InteractionSystem.Hand.PlaceholderSensor.OnAvailablePlaceholderChanged
+  type: Field
+  source:
+    id: OnAvailablePlaceholderChanged
+    path: ''
+    startLine: 23811
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public PlaceholderEvent OnAvailablePlaceholderChanged
+    return:
+      type: InteractionSystem.Placeholder.PlaceholderEvent
+    content.vb: Public OnAvailablePlaceholderChanged As PlaceholderEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.PlaceholderSensor.getClosestAvailablePlaceholder
+  commentId: M:InteractionSystem.Hand.PlaceholderSensor.getClosestAvailablePlaceholder
+  id: getClosestAvailablePlaceholder
+  parent: InteractionSystem.Hand.PlaceholderSensor
+  langs:
+  - csharp
+  - vb
+  name: getClosestAvailablePlaceholder()
+  nameWithType: PlaceholderSensor.getClosestAvailablePlaceholder()
+  fullName: InteractionSystem.Hand.PlaceholderSensor.getClosestAvailablePlaceholder()
+  type: Method
+  source:
+    id: getClosestAvailablePlaceholder
+    path: ''
+    startLine: 23837
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public Placeholder getClosestAvailablePlaceholder()
+    return:
+      type: InteractionSystem.Placeholder.Placeholder
+    content.vb: Public Function getClosestAvailablePlaceholder As Placeholder
+  overload: InteractionSystem.Hand.PlaceholderSensor.getClosestAvailablePlaceholder*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Hand
+  commentId: N:InteractionSystem.Hand
+  name: InteractionSystem.Hand
+  nameWithType: InteractionSystem.Hand
+  fullName: InteractionSystem.Hand
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Hand.HandSensor
+  commentId: T:InteractionSystem.Hand.HandSensor
+  parent: InteractionSystem.Hand
+  name: HandSensor
+  nameWithType: HandSensor
+  fullName: InteractionSystem.Hand.HandSensor
+- uid: InteractionSystem.Placeholder.PlaceholderEvent
+  commentId: T:InteractionSystem.Placeholder.PlaceholderEvent
+  parent: InteractionSystem.Placeholder
+  name: PlaceholderEvent
+  nameWithType: PlaceholderEvent
+  fullName: InteractionSystem.Placeholder.PlaceholderEvent
+- uid: InteractionSystem.Placeholder
+  commentId: N:InteractionSystem.Placeholder
+  name: InteractionSystem.Placeholder
+  nameWithType: InteractionSystem.Placeholder
+  fullName: InteractionSystem.Placeholder
+- uid: InteractionSystem.Hand.PlaceholderSensor.getClosestAvailablePlaceholder*
+  commentId: Overload:InteractionSystem.Hand.PlaceholderSensor.getClosestAvailablePlaceholder
+  name: getClosestAvailablePlaceholder
+  nameWithType: PlaceholderSensor.getClosestAvailablePlaceholder
+  fullName: InteractionSystem.Hand.PlaceholderSensor.getClosestAvailablePlaceholder
+- uid: InteractionSystem.Placeholder.Placeholder
+  commentId: T:InteractionSystem.Placeholder.Placeholder
+  parent: InteractionSystem.Placeholder
+  name: Placeholder
+  nameWithType: Placeholder
+  fullName: InteractionSystem.Placeholder.Placeholder

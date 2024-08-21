@@ -1,0 +1,204 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.ProxyCard
+  commentId: T:CardModule.ProxyCard
+  id: ProxyCard
+  parent: CardModule
+  children:
+  - CardModule.ProxyCard.back
+  - CardModule.ProxyCard.front
+  - CardModule.ProxyCard.iconBack
+  - CardModule.ProxyCard.iconFront
+  - CardModule.ProxyCard.proxyCardData
+  langs:
+  - csharp
+  - vb
+  name: ProxyCard
+  nameWithType: ProxyCard
+  fullName: CardModule.ProxyCard
+  type: Class
+  source:
+    id: ProxyCard
+    path: ''
+    startLine: 19626
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: 'public class ProxyCard : MonoBehaviour'
+    content.vb: >-
+      Public Class ProxyCard
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.ProxyCard.front
+  commentId: F:CardModule.ProxyCard.front
+  id: front
+  parent: CardModule.ProxyCard
+  langs:
+  - csharp
+  - vb
+  name: front
+  nameWithType: ProxyCard.front
+  fullName: CardModule.ProxyCard.front
+  type: Field
+  source:
+    id: front
+    path: ''
+    startLine: 19628
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public Image front
+    return:
+      type: Global.Image
+    content.vb: Public front As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCard.back
+  commentId: F:CardModule.ProxyCard.back
+  id: back
+  parent: CardModule.ProxyCard
+  langs:
+  - csharp
+  - vb
+  name: back
+  nameWithType: ProxyCard.back
+  fullName: CardModule.ProxyCard.back
+  type: Field
+  source:
+    id: back
+    path: ''
+    startLine: 19628
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public Image back
+    return:
+      type: Global.Image
+    content.vb: Public back As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCard.iconFront
+  commentId: F:CardModule.ProxyCard.iconFront
+  id: iconFront
+  parent: CardModule.ProxyCard
+  langs:
+  - csharp
+  - vb
+  name: iconFront
+  nameWithType: ProxyCard.iconFront
+  fullName: CardModule.ProxyCard.iconFront
+  type: Field
+  source:
+    id: iconFront
+    path: ''
+    startLine: 19628
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public Image iconFront
+    return:
+      type: Global.Image
+    content.vb: Public iconFront As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCard.iconBack
+  commentId: F:CardModule.ProxyCard.iconBack
+  id: iconBack
+  parent: CardModule.ProxyCard
+  langs:
+  - csharp
+  - vb
+  name: iconBack
+  nameWithType: ProxyCard.iconBack
+  fullName: CardModule.ProxyCard.iconBack
+  type: Field
+  source:
+    id: iconBack
+    path: ''
+    startLine: 19628
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public Image iconBack
+    return:
+      type: Global.Image
+    content.vb: Public iconBack As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.ProxyCard.proxyCardData
+  commentId: F:CardModule.ProxyCard.proxyCardData
+  id: proxyCardData
+  parent: CardModule.ProxyCard
+  langs:
+  - csharp
+  - vb
+  name: proxyCardData
+  nameWithType: ProxyCard.proxyCardData
+  fullName: CardModule.ProxyCard.proxyCardData
+  type: Field
+  source:
+    id: proxyCardData
+    path: ''
+    startLine: 19629
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public ProxyCardData proxyCardData
+    return:
+      type: CardModule.ProxyCardData
+    content.vb: Public proxyCardData As ProxyCardData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: CardModule.ProxyCardData
+  commentId: T:CardModule.ProxyCardData
+  parent: CardModule
+  name: ProxyCardData
+  nameWithType: ProxyCardData
+  fullName: CardModule.ProxyCardData

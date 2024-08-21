@@ -1,0 +1,64 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GameObjectEvent
+  commentId: T:Global.GameObjectEvent
+  id: GameObjectEvent
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GameObjectEvent
+  nameWithType: GameObjectEvent
+  fullName: GameObjectEvent
+  type: Class
+  source:
+    id: GameObjectEvent
+    path: ''
+    startLine: 17835
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class GameObjectEvent : UnityEvent<GameObject>
+    content.vb: >-
+      <Serializable>
+
+      Public Class GameObjectEvent
+          Inherits UnityEvent(Of GameObject)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

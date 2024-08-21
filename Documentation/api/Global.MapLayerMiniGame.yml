@@ -1,0 +1,453 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MapLayerMiniGame
+  commentId: T:Global.MapLayerMiniGame
+  id: MapLayerMiniGame
+  parent: Global
+  children:
+  - Global.MapLayerMiniGame.AbortMiniGame
+  - Global.MapLayerMiniGame.Awake
+  - Global.MapLayerMiniGame.ExitMiniGame
+  - Global.MapLayerMiniGame.mapLayerLookup
+  - Global.MapLayerMiniGame.OnRequestSetLayerActive(System.String,System.Boolean)
+  - Global.MapLayerMiniGame.StartMiniGame
+  langs:
+  - csharp
+  - vb
+  name: MapLayerMiniGame
+  nameWithType: MapLayerMiniGame
+  fullName: MapLayerMiniGame
+  type: Class
+  source:
+    id: MapLayerMiniGame
+    path: ''
+    startLine: 15461
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MapLayerMiniGame : AMiniGame'
+    content.vb: >-
+      Public Class MapLayerMiniGame
+          Inherits AMiniGame
+  inheritance:
+  - System.Object
+  - Global.AMiniGame
+  inheritedMembers:
+  - Global.AMiniGame.miniGameConfig
+  - Global.AMiniGame.score
+  - Global.AMiniGame.success
+  - Global.AMiniGame.windowText
+  - Global.AMiniGame.RequestScoreWindow
+  - Global.AMiniGame.RquestPromtWindow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MapLayerMiniGame.mapLayerLookup
+  commentId: F:Global.MapLayerMiniGame.mapLayerLookup
+  id: mapLayerLookup
+  parent: Global.MapLayerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: mapLayerLookup
+  nameWithType: MapLayerMiniGame.mapLayerLookup
+  fullName: MapLayerMiniGame.mapLayerLookup
+  type: Field
+  source:
+    id: mapLayerLookup
+    path: ''
+    startLine: 15464
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MapLayerLookup mapLayerLookup
+    return:
+      type: Global.MapLayerLookup
+    content.vb: Public mapLayerLookup As MapLayerLookup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapLayerMiniGame.Awake
+  commentId: M:Global.MapLayerMiniGame.Awake
+  id: Awake
+  parent: Global.MapLayerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: MapLayerMiniGame.Awake()
+  fullName: MapLayerMiniGame.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 15467
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: Global.MapLayerMiniGame.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapLayerMiniGame.AbortMiniGame
+  commentId: M:Global.MapLayerMiniGame.AbortMiniGame
+  id: AbortMiniGame
+  parent: Global.MapLayerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: AbortMiniGame()
+  nameWithType: MapLayerMiniGame.AbortMiniGame()
+  fullName: MapLayerMiniGame.AbortMiniGame()
+  type: Method
+  source:
+    id: AbortMiniGame
+    path: ''
+    startLine: 15472
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void AbortMiniGame()
+    content.vb: Public Overrides Sub AbortMiniGame
+  overridden: Global.AMiniGame.AbortMiniGame
+  overload: Global.MapLayerMiniGame.AbortMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.MapLayerMiniGame.ExitMiniGame
+  commentId: M:Global.MapLayerMiniGame.ExitMiniGame
+  id: ExitMiniGame
+  parent: Global.MapLayerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: ExitMiniGame()
+  nameWithType: MapLayerMiniGame.ExitMiniGame()
+  fullName: MapLayerMiniGame.ExitMiniGame()
+  type: Method
+  source:
+    id: ExitMiniGame
+    path: ''
+    startLine: 15477
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void ExitMiniGame()
+    content.vb: Public Overrides Sub ExitMiniGame
+  overridden: Global.AMiniGame.ExitMiniGame
+  overload: Global.MapLayerMiniGame.ExitMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.MapLayerMiniGame.StartMiniGame
+  commentId: M:Global.MapLayerMiniGame.StartMiniGame
+  id: StartMiniGame
+  parent: Global.MapLayerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: StartMiniGame()
+  nameWithType: MapLayerMiniGame.StartMiniGame()
+  fullName: MapLayerMiniGame.StartMiniGame()
+  type: Method
+  source:
+    id: StartMiniGame
+    path: ''
+    startLine: 15482
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void StartMiniGame()
+    content.vb: Public Overrides Sub StartMiniGame
+  overridden: Global.AMiniGame.StartMiniGame
+  overload: Global.MapLayerMiniGame.StartMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.MapLayerMiniGame.OnRequestSetLayerActive(System.String,System.Boolean)
+  commentId: M:Global.MapLayerMiniGame.OnRequestSetLayerActive(System.String,System.Boolean)
+  id: OnRequestSetLayerActive(System.String,System.Boolean)
+  parent: Global.MapLayerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: OnRequestSetLayerActive(String, Boolean)
+  nameWithType: MapLayerMiniGame.OnRequestSetLayerActive(String, Boolean)
+  fullName: MapLayerMiniGame.OnRequestSetLayerActive(System.String, System.Boolean)
+  type: Method
+  source:
+    id: OnRequestSetLayerActive
+    path: ''
+    startLine: 15512
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void OnRequestSetLayerActive(string name, bool active)
+    parameters:
+    - id: name
+      type: System.String
+    - id: active
+      type: System.Boolean
+    content.vb: Public Sub OnRequestSetLayerActive(name As String, active As Boolean)
+  overload: Global.MapLayerMiniGame.OnRequestSetLayerActive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AMiniGame
+  commentId: T:Global.AMiniGame
+  name: AMiniGame
+  nameWithType: AMiniGame
+  fullName: AMiniGame
+- uid: Global.AMiniGame.miniGameConfig
+  commentId: F:Global.AMiniGame.miniGameConfig
+  parent: Global.AMiniGame
+  name: miniGameConfig
+  nameWithType: AMiniGame.miniGameConfig
+  fullName: AMiniGame.miniGameConfig
+- uid: Global.AMiniGame.score
+  commentId: F:Global.AMiniGame.score
+  parent: Global.AMiniGame
+  name: score
+  nameWithType: AMiniGame.score
+  fullName: AMiniGame.score
+- uid: Global.AMiniGame.success
+  commentId: P:Global.AMiniGame.success
+  parent: Global.AMiniGame
+  name: success
+  nameWithType: AMiniGame.success
+  fullName: AMiniGame.success
+- uid: Global.AMiniGame.windowText
+  commentId: F:Global.AMiniGame.windowText
+  parent: Global.AMiniGame
+  name: windowText
+  nameWithType: AMiniGame.windowText
+  fullName: AMiniGame.windowText
+- uid: Global.AMiniGame.RequestScoreWindow
+  commentId: M:Global.AMiniGame.RequestScoreWindow
+  parent: Global.AMiniGame
+  name: RequestScoreWindow()
+  nameWithType: AMiniGame.RequestScoreWindow()
+  fullName: AMiniGame.RequestScoreWindow()
+  spec.csharp:
+  - uid: Global.AMiniGame.RequestScoreWindow
+    name: RequestScoreWindow
+    nameWithType: AMiniGame.RequestScoreWindow
+    fullName: AMiniGame.RequestScoreWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.RequestScoreWindow
+    name: RequestScoreWindow
+    nameWithType: AMiniGame.RequestScoreWindow
+    fullName: AMiniGame.RequestScoreWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AMiniGame.RquestPromtWindow
+  commentId: M:Global.AMiniGame.RquestPromtWindow
+  parent: Global.AMiniGame
+  name: RquestPromtWindow()
+  nameWithType: AMiniGame.RquestPromtWindow()
+  fullName: AMiniGame.RquestPromtWindow()
+  spec.csharp:
+  - uid: Global.AMiniGame.RquestPromtWindow
+    name: RquestPromtWindow
+    nameWithType: AMiniGame.RquestPromtWindow
+    fullName: AMiniGame.RquestPromtWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.RquestPromtWindow
+    name: RquestPromtWindow
+    nameWithType: AMiniGame.RquestPromtWindow
+    fullName: AMiniGame.RquestPromtWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MapLayerLookup
+  commentId: T:Global.MapLayerLookup
+  name: MapLayerLookup
+  nameWithType: MapLayerLookup
+  fullName: MapLayerLookup
+- uid: Global.MapLayerMiniGame.Awake*
+  commentId: Overload:Global.MapLayerMiniGame.Awake
+  name: Awake
+  nameWithType: MapLayerMiniGame.Awake
+  fullName: MapLayerMiniGame.Awake
+- uid: Global.AMiniGame.AbortMiniGame
+  commentId: M:Global.AMiniGame.AbortMiniGame
+  parent: Global.AMiniGame
+  name: AbortMiniGame()
+  nameWithType: AMiniGame.AbortMiniGame()
+  fullName: AMiniGame.AbortMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.AbortMiniGame
+    name: AbortMiniGame
+    nameWithType: AMiniGame.AbortMiniGame
+    fullName: AMiniGame.AbortMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.AbortMiniGame
+    name: AbortMiniGame
+    nameWithType: AMiniGame.AbortMiniGame
+    fullName: AMiniGame.AbortMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.MapLayerMiniGame.AbortMiniGame*
+  commentId: Overload:Global.MapLayerMiniGame.AbortMiniGame
+  name: AbortMiniGame
+  nameWithType: MapLayerMiniGame.AbortMiniGame
+  fullName: MapLayerMiniGame.AbortMiniGame
+- uid: Global.AMiniGame.ExitMiniGame
+  commentId: M:Global.AMiniGame.ExitMiniGame
+  parent: Global.AMiniGame
+  name: ExitMiniGame()
+  nameWithType: AMiniGame.ExitMiniGame()
+  fullName: AMiniGame.ExitMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.ExitMiniGame
+    name: ExitMiniGame
+    nameWithType: AMiniGame.ExitMiniGame
+    fullName: AMiniGame.ExitMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.ExitMiniGame
+    name: ExitMiniGame
+    nameWithType: AMiniGame.ExitMiniGame
+    fullName: AMiniGame.ExitMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.MapLayerMiniGame.ExitMiniGame*
+  commentId: Overload:Global.MapLayerMiniGame.ExitMiniGame
+  name: ExitMiniGame
+  nameWithType: MapLayerMiniGame.ExitMiniGame
+  fullName: MapLayerMiniGame.ExitMiniGame
+- uid: Global.AMiniGame.StartMiniGame
+  commentId: M:Global.AMiniGame.StartMiniGame
+  parent: Global.AMiniGame
+  name: StartMiniGame()
+  nameWithType: AMiniGame.StartMiniGame()
+  fullName: AMiniGame.StartMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.StartMiniGame
+    name: StartMiniGame
+    nameWithType: AMiniGame.StartMiniGame
+    fullName: AMiniGame.StartMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.StartMiniGame
+    name: StartMiniGame
+    nameWithType: AMiniGame.StartMiniGame
+    fullName: AMiniGame.StartMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.MapLayerMiniGame.StartMiniGame*
+  commentId: Overload:Global.MapLayerMiniGame.StartMiniGame
+  name: StartMiniGame
+  nameWithType: MapLayerMiniGame.StartMiniGame
+  fullName: MapLayerMiniGame.StartMiniGame
+- uid: Global.MapLayerMiniGame.OnRequestSetLayerActive*
+  commentId: Overload:Global.MapLayerMiniGame.OnRequestSetLayerActive
+  name: OnRequestSetLayerActive
+  nameWithType: MapLayerMiniGame.OnRequestSetLayerActive
+  fullName: MapLayerMiniGame.OnRequestSetLayerActive
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

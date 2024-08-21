@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: FloorMapImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5366936962606897083
+  m_GuidHigh: 9433164762846205849
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4960467298942705161
+      m_GuidHigh: 6594734276292266667
+    m_SerializedTextureGuid:
+      m_GuidLow: 8416217255034746127
+      m_GuidHigh: 7288903634559732681
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker1
+    m_Texture: {fileID: 2800000, guid: 9edbf50f690074ccc98bfcc33c632765, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4936035921423559894
+      m_GuidHigh: 17235710261341905825
+    m_SerializedTextureGuid:
+      m_GuidLow: 15288571192383146953
+      m_GuidHigh: 8803781486484383594
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker2
+    m_Texture: {fileID: 2800000, guid: 45448bc9ea7fd42b6ae70f169e502d7a, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5756536942241977452
+      m_GuidHigh: 16350766613920262814
+    m_SerializedTextureGuid:
+      m_GuidLow: 7264976011938552235
+      m_GuidHigh: 5775705722844593419
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker3
+    m_Texture: {fileID: 2800000, guid: fd54d9ab613064d20bbd5701c16d2750, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4784365002252831721
+      m_GuidHigh: 10740794690167421628
+    m_SerializedTextureGuid:
+      m_GuidLow: 14193848076375617430
+      m_GuidHigh: 9565294793021984440
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker4
+    m_Texture: {fileID: 2800000, guid: 8c3aef96ad9fc4fab80ef865efc0be84, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4752145016852726987
+      m_GuidHigh: 2875910258271919031
+    m_SerializedTextureGuid:
+      m_GuidLow: 1485200044930897263
+      m_GuidHigh: 2941056245239971979
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker5
+    m_Texture: {fileID: 2800000, guid: 6a80156f7d92149c8b00f99912bbd028, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4748326332423087860
+      m_GuidHigh: 2040281007563525799
+    m_SerializedTextureGuid:
+      m_GuidLow: 11843808287815693861
+      m_GuidHigh: 13843992034096359098
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker6
+    m_Texture: {fileID: 2800000, guid: f714f625a8e2a45dbaa6a60968bd1fc0, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4952170858418751681
+      m_GuidHigh: 5459123976278194596
+    m_SerializedTextureGuid:
+      m_GuidLow: 6088556549505137090
+      m_GuidHigh: 2719439923216712603
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker7
+    m_Texture: {fileID: 2800000, guid: 5821b9c2e5ec547e9b0359b33364bd25, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5751297696295767884
+      m_GuidHigh: 18299293429091646612
+    m_SerializedTextureGuid:
+      m_GuidLow: 3780321138027482784
+      m_GuidHigh: 17218348030864389864
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker8
+    m_Texture: {fileID: 2800000, guid: c9074ea0660b3476e8f6b7ae4edcf3ee, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4831228154040860895
+      m_GuidHigh: 9336789996316078228
+    m_SerializedTextureGuid:
+      m_GuidLow: 10694543337072606864
+      m_GuidHigh: 1146041624929043033
+    m_Size: {x: 0.096667, y: 0.096478194}
+    m_SpecifySize: 1
+    m_Name: FloorMapMarker9
+    m_Texture: {fileID: 2800000, guid: c13bbe90a680946a5902b52fc98ee70f, type: 3}

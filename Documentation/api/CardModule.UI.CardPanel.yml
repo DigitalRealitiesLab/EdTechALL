@@ -1,0 +1,296 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.CardPanel
+  commentId: T:CardModule.UI.CardPanel
+  id: CardPanel
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.CardPanel.cardDataLoader
+  - CardModule.UI.CardPanel.closeButton
+  - CardModule.UI.CardPanel.infoWebView
+  - CardModule.UI.CardPanel.OnRequestDisplayCard(CardModule.ProxyCardData)
+  - CardModule.UI.CardPanel.quizWebView
+  - CardModule.UI.CardPanel.taskCardUI
+  - CardModule.UI.CardPanel.taskController
+  langs:
+  - csharp
+  - vb
+  name: CardPanel
+  nameWithType: CardPanel
+  fullName: CardModule.UI.CardPanel
+  type: Class
+  source:
+    id: CardPanel
+    path: ''
+    startLine: 19933
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: 'public class CardPanel : MonoBehaviour'
+    content.vb: >-
+      Public Class CardPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.UI.CardPanel.cardDataLoader
+  commentId: F:CardModule.UI.CardPanel.cardDataLoader
+  id: cardDataLoader
+  parent: CardModule.UI.CardPanel
+  langs:
+  - csharp
+  - vb
+  name: cardDataLoader
+  nameWithType: CardPanel.cardDataLoader
+  fullName: CardModule.UI.CardPanel.cardDataLoader
+  type: Field
+  source:
+    id: cardDataLoader
+    path: ''
+    startLine: 19935
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public CardDataLoader cardDataLoader
+    return:
+      type: CardModule.CardDataLoader
+    content.vb: Public cardDataLoader As CardDataLoader
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanel.infoWebView
+  commentId: F:CardModule.UI.CardPanel.infoWebView
+  id: infoWebView
+  parent: CardModule.UI.CardPanel
+  langs:
+  - csharp
+  - vb
+  name: infoWebView
+  nameWithType: CardPanel.infoWebView
+  fullName: CardModule.UI.CardPanel.infoWebView
+  type: Field
+  source:
+    id: infoWebView
+    path: ''
+    startLine: 19936
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public CardPanelWebView infoWebView
+    return:
+      type: CardModule.UI.CardPanelWebView
+    content.vb: Public infoWebView As CardPanelWebView
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanel.quizWebView
+  commentId: F:CardModule.UI.CardPanel.quizWebView
+  id: quizWebView
+  parent: CardModule.UI.CardPanel
+  langs:
+  - csharp
+  - vb
+  name: quizWebView
+  nameWithType: CardPanel.quizWebView
+  fullName: CardModule.UI.CardPanel.quizWebView
+  type: Field
+  source:
+    id: quizWebView
+    path: ''
+    startLine: 19937
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public CardPanelWebView quizWebView
+    return:
+      type: CardModule.UI.CardPanelWebView
+    content.vb: Public quizWebView As CardPanelWebView
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanel.taskCardUI
+  commentId: F:CardModule.UI.CardPanel.taskCardUI
+  id: taskCardUI
+  parent: CardModule.UI.CardPanel
+  langs:
+  - csharp
+  - vb
+  name: taskCardUI
+  nameWithType: CardPanel.taskCardUI
+  fullName: CardModule.UI.CardPanel.taskCardUI
+  type: Field
+  source:
+    id: taskCardUI
+    path: ''
+    startLine: 19938
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TaskCardUI taskCardUI
+    return:
+      type: CardModule.UI.TaskCardUI
+    content.vb: Public taskCardUI As TaskCardUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanel.taskController
+  commentId: F:CardModule.UI.CardPanel.taskController
+  id: taskController
+  parent: CardModule.UI.CardPanel
+  langs:
+  - csharp
+  - vb
+  name: taskController
+  nameWithType: CardPanel.taskController
+  fullName: CardModule.UI.CardPanel.taskController
+  type: Field
+  source:
+    id: taskController
+    path: ''
+    startLine: 19939
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TaskController taskController
+    return:
+      type: Global.TaskController
+    content.vb: Public taskController As TaskController
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanel.closeButton
+  commentId: F:CardModule.UI.CardPanel.closeButton
+  id: closeButton
+  parent: CardModule.UI.CardPanel
+  langs:
+  - csharp
+  - vb
+  name: closeButton
+  nameWithType: CardPanel.closeButton
+  fullName: CardModule.UI.CardPanel.closeButton
+  type: Field
+  source:
+    id: closeButton
+    path: ''
+    startLine: 19940
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public UI.Button closeButton
+    return:
+      type: UnityEngine.UI.Button
+    content.vb: Public closeButton As UI.Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardPanel.OnRequestDisplayCard(CardModule.ProxyCardData)
+  commentId: M:CardModule.UI.CardPanel.OnRequestDisplayCard(CardModule.ProxyCardData)
+  id: OnRequestDisplayCard(CardModule.ProxyCardData)
+  parent: CardModule.UI.CardPanel
+  langs:
+  - csharp
+  - vb
+  name: OnRequestDisplayCard(ProxyCardData)
+  nameWithType: CardPanel.OnRequestDisplayCard(ProxyCardData)
+  fullName: CardModule.UI.CardPanel.OnRequestDisplayCard(CardModule.ProxyCardData)
+  type: Method
+  source:
+    id: OnRequestDisplayCard
+    path: ''
+    startLine: 20004
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public void OnRequestDisplayCard(ProxyCardData proxyCardData)
+    parameters:
+    - id: proxyCardData
+      type: CardModule.ProxyCardData
+    content.vb: Public Sub OnRequestDisplayCard(proxyCardData As ProxyCardData)
+  overload: CardModule.UI.CardPanel.OnRequestDisplayCard*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardModule.CardDataLoader
+  commentId: T:CardModule.CardDataLoader
+  parent: CardModule
+  name: CardDataLoader
+  nameWithType: CardDataLoader
+  fullName: CardModule.CardDataLoader
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: CardModule.UI.CardPanelWebView
+  commentId: T:CardModule.UI.CardPanelWebView
+  parent: CardModule.UI
+  name: CardPanelWebView
+  nameWithType: CardPanelWebView
+  fullName: CardModule.UI.CardPanelWebView
+- uid: CardModule.UI.TaskCardUI
+  commentId: T:CardModule.UI.TaskCardUI
+  parent: CardModule.UI
+  name: TaskCardUI
+  nameWithType: TaskCardUI
+  fullName: CardModule.UI.TaskCardUI
+- uid: Global.TaskController
+  commentId: T:Global.TaskController
+  name: TaskController
+  nameWithType: TaskController
+  fullName: TaskController
+- uid: UnityEngine.UI.Button
+  commentId: '!:UnityEngine.UI.Button'
+  isExternal: true
+  name: UI.Button
+  nameWithType: UI.Button
+  fullName: UnityEngine.UI.Button
+- uid: CardModule.UI.CardPanel.OnRequestDisplayCard*
+  commentId: Overload:CardModule.UI.CardPanel.OnRequestDisplayCard
+  name: OnRequestDisplayCard
+  nameWithType: CardPanel.OnRequestDisplayCard
+  fullName: CardModule.UI.CardPanel.OnRequestDisplayCard
+- uid: CardModule.ProxyCardData
+  commentId: T:CardModule.ProxyCardData
+  parent: CardModule
+  name: ProxyCardData
+  nameWithType: ProxyCardData
+  fullName: CardModule.ProxyCardData

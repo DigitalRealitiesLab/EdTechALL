@@ -1,0 +1,433 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CowCaretakerMiniGame
+  commentId: T:Global.CowCaretakerMiniGame
+  id: CowCaretakerMiniGame
+  parent: Global
+  children:
+  - Global.CowCaretakerMiniGame.AbortMiniGame
+  - Global.CowCaretakerMiniGame.calfTimeline
+  - Global.CowCaretakerMiniGame.cowTimeline
+  - Global.CowCaretakerMiniGame.cowVetText
+  - Global.CowCaretakerMiniGame.ExitMiniGame
+  - Global.CowCaretakerMiniGame.StartMiniGame
+  langs:
+  - csharp
+  - vb
+  name: CowCaretakerMiniGame
+  nameWithType: CowCaretakerMiniGame
+  fullName: CowCaretakerMiniGame
+  type: Class
+  source:
+    id: CowCaretakerMiniGame
+    path: ''
+    startLine: 15341
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class CowCaretakerMiniGame : AMiniGame'
+    content.vb: >-
+      Public Class CowCaretakerMiniGame
+          Inherits AMiniGame
+  inheritance:
+  - System.Object
+  - Global.AMiniGame
+  inheritedMembers:
+  - Global.AMiniGame.miniGameConfig
+  - Global.AMiniGame.score
+  - Global.AMiniGame.success
+  - Global.AMiniGame.windowText
+  - Global.AMiniGame.RequestScoreWindow
+  - Global.AMiniGame.RquestPromtWindow
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CowCaretakerMiniGame.cowTimeline
+  commentId: F:Global.CowCaretakerMiniGame.cowTimeline
+  id: cowTimeline
+  parent: Global.CowCaretakerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: cowTimeline
+  nameWithType: CowCaretakerMiniGame.cowTimeline
+  fullName: CowCaretakerMiniGame.cowTimeline
+  type: Field
+  source:
+    id: cowTimeline
+    path: ''
+    startLine: 15343
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CowCaretakerTimeline cowTimeline
+    return:
+      type: Global.CowCaretakerTimeline
+    content.vb: Public cowTimeline As CowCaretakerTimeline
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerMiniGame.calfTimeline
+  commentId: F:Global.CowCaretakerMiniGame.calfTimeline
+  id: calfTimeline
+  parent: Global.CowCaretakerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: calfTimeline
+  nameWithType: CowCaretakerMiniGame.calfTimeline
+  fullName: CowCaretakerMiniGame.calfTimeline
+  type: Field
+  source:
+    id: calfTimeline
+    path: ''
+    startLine: 15344
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CowCaretakerTimeline calfTimeline
+    return:
+      type: Global.CowCaretakerTimeline
+    content.vb: Public calfTimeline As CowCaretakerTimeline
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerMiniGame.cowVetText
+  commentId: F:Global.CowCaretakerMiniGame.cowVetText
+  id: cowVetText
+  parent: Global.CowCaretakerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: cowVetText
+  nameWithType: CowCaretakerMiniGame.cowVetText
+  fullName: CowCaretakerMiniGame.cowVetText
+  type: Field
+  source:
+    id: cowVetText
+    path: ''
+    startLine: 15345
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string cowVetText
+    return:
+      type: System.String
+    content.vb: Public cowVetText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowCaretakerMiniGame.AbortMiniGame
+  commentId: M:Global.CowCaretakerMiniGame.AbortMiniGame
+  id: AbortMiniGame
+  parent: Global.CowCaretakerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: AbortMiniGame()
+  nameWithType: CowCaretakerMiniGame.AbortMiniGame()
+  fullName: CowCaretakerMiniGame.AbortMiniGame()
+  type: Method
+  source:
+    id: AbortMiniGame
+    path: ''
+    startLine: 15353
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void AbortMiniGame()
+    content.vb: Public Overrides Sub AbortMiniGame
+  overridden: Global.AMiniGame.AbortMiniGame
+  overload: Global.CowCaretakerMiniGame.AbortMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.CowCaretakerMiniGame.ExitMiniGame
+  commentId: M:Global.CowCaretakerMiniGame.ExitMiniGame
+  id: ExitMiniGame
+  parent: Global.CowCaretakerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: ExitMiniGame()
+  nameWithType: CowCaretakerMiniGame.ExitMiniGame()
+  fullName: CowCaretakerMiniGame.ExitMiniGame()
+  type: Method
+  source:
+    id: ExitMiniGame
+    path: ''
+    startLine: 15358
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void ExitMiniGame()
+    content.vb: Public Overrides Sub ExitMiniGame
+  overridden: Global.AMiniGame.ExitMiniGame
+  overload: Global.CowCaretakerMiniGame.ExitMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.CowCaretakerMiniGame.StartMiniGame
+  commentId: M:Global.CowCaretakerMiniGame.StartMiniGame
+  id: StartMiniGame
+  parent: Global.CowCaretakerMiniGame
+  langs:
+  - csharp
+  - vb
+  name: StartMiniGame()
+  nameWithType: CowCaretakerMiniGame.StartMiniGame()
+  fullName: CowCaretakerMiniGame.StartMiniGame()
+  type: Method
+  source:
+    id: StartMiniGame
+    path: ''
+    startLine: 15363
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void StartMiniGame()
+    content.vb: Public Overrides Sub StartMiniGame
+  overridden: Global.AMiniGame.StartMiniGame
+  overload: Global.CowCaretakerMiniGame.StartMiniGame*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AMiniGame
+  commentId: T:Global.AMiniGame
+  name: AMiniGame
+  nameWithType: AMiniGame
+  fullName: AMiniGame
+- uid: Global.AMiniGame.miniGameConfig
+  commentId: F:Global.AMiniGame.miniGameConfig
+  parent: Global.AMiniGame
+  name: miniGameConfig
+  nameWithType: AMiniGame.miniGameConfig
+  fullName: AMiniGame.miniGameConfig
+- uid: Global.AMiniGame.score
+  commentId: F:Global.AMiniGame.score
+  parent: Global.AMiniGame
+  name: score
+  nameWithType: AMiniGame.score
+  fullName: AMiniGame.score
+- uid: Global.AMiniGame.success
+  commentId: P:Global.AMiniGame.success
+  parent: Global.AMiniGame
+  name: success
+  nameWithType: AMiniGame.success
+  fullName: AMiniGame.success
+- uid: Global.AMiniGame.windowText
+  commentId: F:Global.AMiniGame.windowText
+  parent: Global.AMiniGame
+  name: windowText
+  nameWithType: AMiniGame.windowText
+  fullName: AMiniGame.windowText
+- uid: Global.AMiniGame.RequestScoreWindow
+  commentId: M:Global.AMiniGame.RequestScoreWindow
+  parent: Global.AMiniGame
+  name: RequestScoreWindow()
+  nameWithType: AMiniGame.RequestScoreWindow()
+  fullName: AMiniGame.RequestScoreWindow()
+  spec.csharp:
+  - uid: Global.AMiniGame.RequestScoreWindow
+    name: RequestScoreWindow
+    nameWithType: AMiniGame.RequestScoreWindow
+    fullName: AMiniGame.RequestScoreWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.RequestScoreWindow
+    name: RequestScoreWindow
+    nameWithType: AMiniGame.RequestScoreWindow
+    fullName: AMiniGame.RequestScoreWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AMiniGame.RquestPromtWindow
+  commentId: M:Global.AMiniGame.RquestPromtWindow
+  parent: Global.AMiniGame
+  name: RquestPromtWindow()
+  nameWithType: AMiniGame.RquestPromtWindow()
+  fullName: AMiniGame.RquestPromtWindow()
+  spec.csharp:
+  - uid: Global.AMiniGame.RquestPromtWindow
+    name: RquestPromtWindow
+    nameWithType: AMiniGame.RquestPromtWindow
+    fullName: AMiniGame.RquestPromtWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.RquestPromtWindow
+    name: RquestPromtWindow
+    nameWithType: AMiniGame.RquestPromtWindow
+    fullName: AMiniGame.RquestPromtWindow
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CowCaretakerTimeline
+  commentId: T:Global.CowCaretakerTimeline
+  name: CowCaretakerTimeline
+  nameWithType: CowCaretakerTimeline
+  fullName: CowCaretakerTimeline
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.AMiniGame.AbortMiniGame
+  commentId: M:Global.AMiniGame.AbortMiniGame
+  parent: Global.AMiniGame
+  name: AbortMiniGame()
+  nameWithType: AMiniGame.AbortMiniGame()
+  fullName: AMiniGame.AbortMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.AbortMiniGame
+    name: AbortMiniGame
+    nameWithType: AMiniGame.AbortMiniGame
+    fullName: AMiniGame.AbortMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.AbortMiniGame
+    name: AbortMiniGame
+    nameWithType: AMiniGame.AbortMiniGame
+    fullName: AMiniGame.AbortMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.CowCaretakerMiniGame.AbortMiniGame*
+  commentId: Overload:Global.CowCaretakerMiniGame.AbortMiniGame
+  name: AbortMiniGame
+  nameWithType: CowCaretakerMiniGame.AbortMiniGame
+  fullName: CowCaretakerMiniGame.AbortMiniGame
+- uid: Global.AMiniGame.ExitMiniGame
+  commentId: M:Global.AMiniGame.ExitMiniGame
+  parent: Global.AMiniGame
+  name: ExitMiniGame()
+  nameWithType: AMiniGame.ExitMiniGame()
+  fullName: AMiniGame.ExitMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.ExitMiniGame
+    name: ExitMiniGame
+    nameWithType: AMiniGame.ExitMiniGame
+    fullName: AMiniGame.ExitMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.ExitMiniGame
+    name: ExitMiniGame
+    nameWithType: AMiniGame.ExitMiniGame
+    fullName: AMiniGame.ExitMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.CowCaretakerMiniGame.ExitMiniGame*
+  commentId: Overload:Global.CowCaretakerMiniGame.ExitMiniGame
+  name: ExitMiniGame
+  nameWithType: CowCaretakerMiniGame.ExitMiniGame
+  fullName: CowCaretakerMiniGame.ExitMiniGame
+- uid: Global.AMiniGame.StartMiniGame
+  commentId: M:Global.AMiniGame.StartMiniGame
+  parent: Global.AMiniGame
+  name: StartMiniGame()
+  nameWithType: AMiniGame.StartMiniGame()
+  fullName: AMiniGame.StartMiniGame()
+  spec.csharp:
+  - uid: Global.AMiniGame.StartMiniGame
+    name: StartMiniGame
+    nameWithType: AMiniGame.StartMiniGame
+    fullName: AMiniGame.StartMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AMiniGame.StartMiniGame
+    name: StartMiniGame
+    nameWithType: AMiniGame.StartMiniGame
+    fullName: AMiniGame.StartMiniGame
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.CowCaretakerMiniGame.StartMiniGame*
+  commentId: Overload:Global.CowCaretakerMiniGame.StartMiniGame
+  name: StartMiniGame
+  nameWithType: CowCaretakerMiniGame.StartMiniGame
+  fullName: CowCaretakerMiniGame.StartMiniGame

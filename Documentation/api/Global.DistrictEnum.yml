@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.DistrictEnum
+  commentId: T:Global.DistrictEnum
+  id: DistrictEnum
+  parent: Global
+  children:
+  - Global.DistrictEnum.#ctor(DistrictData[])
+  - Global.DistrictEnum._districts
+  - Global.DistrictEnum.Current
+  - Global.DistrictEnum.Dispose
+  - Global.DistrictEnum.MoveNext
+  - Global.DistrictEnum.Reset
+  langs:
+  - csharp
+  - vb
+  name: DistrictEnum
+  nameWithType: DistrictEnum
+  fullName: DistrictEnum
+  type: Class
+  source:
+    id: DistrictEnum
+    path: ''
+    startLine: 23080
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class DistrictEnum : IEnumerator<DistrictData>'
+    content.vb: >-
+      Public Class DistrictEnum
+          Inherits IEnumerator(Of DistrictData)
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.DistrictEnum._districts
+  commentId: F:Global.DistrictEnum._districts
+  id: _districts
+  parent: Global.DistrictEnum
+  langs:
+  - csharp
+  - vb
+  name: _districts
+  nameWithType: DistrictEnum._districts
+  fullName: DistrictEnum._districts
+  type: Field
+  source:
+    id: _districts
+    path: ''
+    startLine: 23082
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public DistrictData[] _districts
+    return:
+      type: Global.DistrictData[]
+    content.vb: Public _districts As DistrictData()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DistrictEnum.#ctor(DistrictData[])
+  commentId: M:Global.DistrictEnum.#ctor(DistrictData[])
+  id: '#ctor(DistrictData[])'
+  parent: Global.DistrictEnum
+  langs:
+  - csharp
+  - vb
+  name: DistrictEnum(DistrictData[])
+  nameWithType: DistrictEnum.DistrictEnum(DistrictData[])
+  fullName: DistrictEnum.DistrictEnum(DistrictData[])
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23085
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public DistrictEnum(DistrictData[] list)
+    parameters:
+    - id: list
+      type: Global.DistrictData[]
+    content.vb: Public Sub New(list As DistrictData())
+  overload: Global.DistrictEnum.#ctor*
+  nameWithType.vb: DistrictEnum.DistrictEnum(DistrictData())
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: DistrictEnum.DistrictEnum(DistrictData())
+  name.vb: DistrictEnum(DistrictData())
+- uid: Global.DistrictEnum.MoveNext
+  commentId: M:Global.DistrictEnum.MoveNext
+  id: MoveNext
+  parent: Global.DistrictEnum
+  langs:
+  - csharp
+  - vb
+  name: MoveNext()
+  nameWithType: DistrictEnum.MoveNext()
+  fullName: DistrictEnum.MoveNext()
+  type: Method
+  source:
+    id: MoveNext
+    path: ''
+    startLine: 23090
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool MoveNext()
+    return:
+      type: System.Boolean
+    content.vb: Public Function MoveNext As Boolean
+  overload: Global.DistrictEnum.MoveNext*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DistrictEnum.Reset
+  commentId: M:Global.DistrictEnum.Reset
+  id: Reset
+  parent: Global.DistrictEnum
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: DistrictEnum.Reset()
+  fullName: DistrictEnum.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 23096
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Reset()
+    content.vb: Public Sub Reset
+  overload: Global.DistrictEnum.Reset*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DistrictEnum.Dispose
+  commentId: M:Global.DistrictEnum.Dispose
+  id: Dispose
+  parent: Global.DistrictEnum
+  langs:
+  - csharp
+  - vb
+  name: Dispose()
+  nameWithType: DistrictEnum.Dispose()
+  fullName: DistrictEnum.Dispose()
+  type: Method
+  source:
+    id: Dispose
+    path: ''
+    startLine: 23101
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Dispose()
+    content.vb: Public Sub Dispose
+  overload: Global.DistrictEnum.Dispose*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.DistrictEnum.Current
+  commentId: P:Global.DistrictEnum.Current
+  id: Current
+  parent: Global.DistrictEnum
+  langs:
+  - csharp
+  - vb
+  name: Current
+  nameWithType: DistrictEnum.Current
+  fullName: DistrictEnum.Current
+  type: Property
+  source:
+    id: Current
+    path: ''
+    startLine: 23114
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public DistrictData Current { get; }
+    parameters: []
+    return:
+      type: Global.DistrictData
+    content.vb: Public ReadOnly Property Current As DistrictData
+  overload: Global.DistrictEnum.Current*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DistrictData[]
+  isExternal: true
+  name: DistrictData[]
+  nameWithType: DistrictData[]
+  fullName: DistrictData[]
+  nameWithType.vb: DistrictData()
+  fullName.vb: DistrictData()
+  name.vb: DistrictData()
+  spec.csharp:
+  - uid: Global.DistrictData
+    name: DistrictData
+    nameWithType: DistrictData
+    fullName: DistrictData
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.DistrictData
+    name: DistrictData
+    nameWithType: DistrictData
+    fullName: DistrictData
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.DistrictEnum.#ctor*
+  commentId: Overload:Global.DistrictEnum.#ctor
+  name: DistrictEnum
+  nameWithType: DistrictEnum.DistrictEnum
+  fullName: DistrictEnum.DistrictEnum
+- uid: Global.DistrictEnum.MoveNext*
+  commentId: Overload:Global.DistrictEnum.MoveNext
+  name: MoveNext
+  nameWithType: DistrictEnum.MoveNext
+  fullName: DistrictEnum.MoveNext
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.DistrictEnum.Reset*
+  commentId: Overload:Global.DistrictEnum.Reset
+  name: Reset
+  nameWithType: DistrictEnum.Reset
+  fullName: DistrictEnum.Reset
+- uid: Global.DistrictEnum.Dispose*
+  commentId: Overload:Global.DistrictEnum.Dispose
+  name: Dispose
+  nameWithType: DistrictEnum.Dispose
+  fullName: DistrictEnum.Dispose
+- uid: Global.DistrictEnum.Current*
+  commentId: Overload:Global.DistrictEnum.Current
+  name: Current
+  nameWithType: DistrictEnum.Current
+  fullName: DistrictEnum.Current
+- uid: Global.DistrictData
+  commentId: T:Global.DistrictData
+  name: DistrictData
+  nameWithType: DistrictData
+  fullName: DistrictData

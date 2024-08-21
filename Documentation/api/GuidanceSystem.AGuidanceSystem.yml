@@ -1,0 +1,610 @@
+### YamlMime:ManagedReference
+items:
+- uid: GuidanceSystem.AGuidanceSystem
+  commentId: T:GuidanceSystem.AGuidanceSystem
+  id: AGuidanceSystem
+  parent: GuidanceSystem
+  children:
+  - GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  - GuidanceSystem.AGuidanceSystem.guidanceSystemIndex
+  - GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  - GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  - GuidanceSystem.AGuidanceSystem.positionOffset
+  - GuidanceSystem.AGuidanceSystem.radiusOffset
+  - GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  - GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3,System.Single)
+  - GuidanceSystem.AGuidanceSystem.Reset
+  - GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  - GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  - GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+  - GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+  - GuidanceSystem.AGuidanceSystem.target
+  - GuidanceSystem.AGuidanceSystem.viewer
+  - GuidanceSystem.AGuidanceSystem.visualEnabled
+  langs:
+  - csharp
+  - vb
+  name: AGuidanceSystem
+  nameWithType: AGuidanceSystem
+  fullName: GuidanceSystem.AGuidanceSystem
+  type: Class
+  source:
+    id: AGuidanceSystem
+    path: ''
+    startLine: 19195
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: 'public abstract class AGuidanceSystem : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class AGuidanceSystem
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - GuidanceSystem.ArrowGuidanceSystem
+  - GuidanceSystem.FunnelGuidanceSystem
+  - GuidanceSystem.SphericalWaveGuidanceSystem
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: GuidanceSystem.AGuidanceSystem.guidanceSystemIndex
+  commentId: F:GuidanceSystem.AGuidanceSystem.guidanceSystemIndex
+  id: guidanceSystemIndex
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: guidanceSystemIndex
+  nameWithType: AGuidanceSystem.guidanceSystemIndex
+  fullName: GuidanceSystem.AGuidanceSystem.guidanceSystemIndex
+  type: Field
+  source:
+    id: guidanceSystemIndex
+    path: ''
+    startLine: 19197
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public int guidanceSystemIndex
+    return:
+      type: System.Int32
+    content.vb: Public guidanceSystemIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.AGuidanceSystem.viewer
+  commentId: F:GuidanceSystem.AGuidanceSystem.viewer
+  id: viewer
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: viewer
+  nameWithType: AGuidanceSystem.viewer
+  fullName: GuidanceSystem.AGuidanceSystem.viewer
+  type: Field
+  source:
+    id: viewer
+    path: ''
+    startLine: 19198
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public Camera viewer
+    return:
+      type: Global.Camera
+    content.vb: Public viewer As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.AGuidanceSystem.target
+  commentId: F:GuidanceSystem.AGuidanceSystem.target
+  id: target
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: AGuidanceSystem.target
+  fullName: GuidanceSystem.AGuidanceSystem.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 19199
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public AGuidanceSystemTarget target
+    return:
+      type: GuidanceSystem.AGuidanceSystemTarget
+    content.vb: Public target As AGuidanceSystemTarget
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GuidanceSystem.AGuidanceSystem.visualEnabled
+  commentId: F:GuidanceSystem.AGuidanceSystem.visualEnabled
+  id: visualEnabled
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: visualEnabled
+  nameWithType: AGuidanceSystem.visualEnabled
+  fullName: GuidanceSystem.AGuidanceSystem.visualEnabled
+  type: Field
+  source:
+    id: visualEnabled
+    path: ''
+    startLine: 19200
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected bool visualEnabled
+    return:
+      type: System.Boolean
+    content.vb: Protected visualEnabled As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: GuidanceSystem.AGuidanceSystem.radiusOffset
+  commentId: F:GuidanceSystem.AGuidanceSystem.radiusOffset
+  id: radiusOffset
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: radiusOffset
+  nameWithType: AGuidanceSystem.radiusOffset
+  fullName: GuidanceSystem.AGuidanceSystem.radiusOffset
+  type: Field
+  source:
+    id: radiusOffset
+    path: ''
+    startLine: 19201
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected float radiusOffset
+    return:
+      type: System.Single
+    content.vb: Protected radiusOffset As Single
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: GuidanceSystem.AGuidanceSystem.positionOffset
+  commentId: F:GuidanceSystem.AGuidanceSystem.positionOffset
+  id: positionOffset
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: positionOffset
+  nameWithType: AGuidanceSystem.positionOffset
+  fullName: GuidanceSystem.AGuidanceSystem.positionOffset
+  type: Field
+  source:
+    id: positionOffset
+    path: ''
+    startLine: 19202
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected Vector3 positionOffset
+    return:
+      type: Global.Vector3
+    content.vb: Protected positionOffset As Vector3
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  commentId: M:GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  id: SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: SetTarget(AGuidanceSystemTarget)
+  nameWithType: AGuidanceSystem.SetTarget(AGuidanceSystemTarget)
+  fullName: GuidanceSystem.AGuidanceSystem.SetTarget(GuidanceSystem.AGuidanceSystemTarget)
+  type: Method
+  source:
+    id: SetTarget
+    path: ''
+    startLine: 19205
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public abstract void SetTarget(AGuidanceSystemTarget target)
+    parameters:
+    - id: target
+      type: GuidanceSystem.AGuidanceSystemTarget
+    content.vb: Public MustOverride Sub SetTarget(target As AGuidanceSystemTarget)
+  overload: GuidanceSystem.AGuidanceSystem.SetTarget*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+  commentId: M:GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+  id: SetViewer(Camera)
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: SetViewer(Camera)
+  nameWithType: AGuidanceSystem.SetViewer(Camera)
+  fullName: GuidanceSystem.AGuidanceSystem.SetViewer(Camera)
+  type: Method
+  source:
+    id: SetViewer
+    path: ''
+    startLine: 19206
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public abstract void SetViewer(Camera viewer)
+    parameters:
+    - id: viewer
+      type: Global.Camera
+    content.vb: Public MustOverride Sub SetViewer(viewer As Camera)
+  overload: GuidanceSystem.AGuidanceSystem.SetViewer*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  commentId: M:GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  id: OnTargetStateChanged
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: OnTargetStateChanged()
+  nameWithType: AGuidanceSystem.OnTargetStateChanged()
+  fullName: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged()
+  type: Method
+  source:
+    id: OnTargetStateChanged
+    path: ''
+    startLine: 19207
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public abstract void OnTargetStateChanged()
+    content.vb: Public MustOverride Sub OnTargetStateChanged
+  overload: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  commentId: M:GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  id: OnViewerStateChanged
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: OnViewerStateChanged()
+  nameWithType: AGuidanceSystem.OnViewerStateChanged()
+  fullName: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged()
+  type: Method
+  source:
+    id: OnViewerStateChanged
+    path: ''
+    startLine: 19208
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public abstract void OnViewerStateChanged()
+    content.vb: Public MustOverride Sub OnViewerStateChanged
+  overload: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: GuidanceSystem.AGuidanceSystem.Reset
+  commentId: M:GuidanceSystem.AGuidanceSystem.Reset
+  id: Reset
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: Reset()
+  nameWithType: AGuidanceSystem.Reset()
+  fullName: GuidanceSystem.AGuidanceSystem.Reset()
+  type: Method
+  source:
+    id: Reset
+    path: ''
+    startLine: 19209
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public abstract void Reset()
+    content.vb: Public MustOverride Sub Reset
+  overload: GuidanceSystem.AGuidanceSystem.Reset*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+- uid: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+  commentId: M:GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+  id: SetVisualizationEnabled(System.Boolean)
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: SetVisualizationEnabled(Boolean)
+  nameWithType: AGuidanceSystem.SetVisualizationEnabled(Boolean)
+  fullName: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled(System.Boolean)
+  type: Method
+  source:
+    id: SetVisualizationEnabled
+    path: ''
+    startLine: 19211
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: public virtual void SetVisualizationEnabled(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Overridable Sub SetVisualizationEnabled(enabled As Boolean)
+  overload: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+- uid: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  commentId: M:GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  id: RegisterGuidanceSystem
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: RegisterGuidanceSystem()
+  nameWithType: AGuidanceSystem.RegisterGuidanceSystem()
+  fullName: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem()
+  type: Method
+  source:
+    id: RegisterGuidanceSystem
+    path: ''
+    startLine: 19218
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected void RegisterGuidanceSystem()
+    content.vb: Protected Sub RegisterGuidanceSystem
+  overload: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  commentId: M:GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  id: GetRandomOffset
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: GetRandomOffset()
+  nameWithType: AGuidanceSystem.GetRandomOffset()
+  fullName: GuidanceSystem.AGuidanceSystem.GetRandomOffset()
+  type: Method
+  source:
+    id: GetRandomOffset
+    path: ''
+    startLine: 19223
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected void GetRandomOffset()
+    content.vb: Protected Sub GetRandomOffset
+  overload: GuidanceSystem.AGuidanceSystem.GetRandomOffset*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  commentId: M:GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  id: ResetRandomOffset
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: ResetRandomOffset()
+  nameWithType: AGuidanceSystem.ResetRandomOffset()
+  fullName: GuidanceSystem.AGuidanceSystem.ResetRandomOffset()
+  type: Method
+  source:
+    id: ResetRandomOffset
+    path: ''
+    startLine: 19232
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected void ResetRandomOffset()
+    content.vb: Protected Sub ResetRandomOffset
+  overload: GuidanceSystem.AGuidanceSystem.ResetRandomOffset*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3,System.Single)
+  commentId: M:GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3,System.Single)
+  id: RequestHighlightAt(Vector3,System.Single)
+  parent: GuidanceSystem.AGuidanceSystem
+  langs:
+  - csharp
+  - vb
+  name: RequestHighlightAt(Vector3, Single)
+  nameWithType: AGuidanceSystem.RequestHighlightAt(Vector3, Single)
+  fullName: GuidanceSystem.AGuidanceSystem.RequestHighlightAt(Vector3, System.Single)
+  type: Method
+  source:
+    id: RequestHighlightAt
+    path: ''
+    startLine: 19238
+  assemblies:
+  - cs.temp.dll
+  namespace: GuidanceSystem
+  syntax:
+    content: protected void RequestHighlightAt(Vector3 position, float radius)
+    parameters:
+    - id: position
+      type: Global.Vector3
+    - id: radius
+      type: System.Single
+    content.vb: Protected Sub RequestHighlightAt(position As Vector3, radius As Single)
+  overload: GuidanceSystem.AGuidanceSystem.RequestHighlightAt*
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+references:
+- uid: GuidanceSystem
+  commentId: N:GuidanceSystem
+  name: GuidanceSystem
+  nameWithType: GuidanceSystem
+  fullName: GuidanceSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.Camera
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: GuidanceSystem.AGuidanceSystemTarget
+  commentId: T:GuidanceSystem.AGuidanceSystemTarget
+  parent: GuidanceSystem
+  name: AGuidanceSystemTarget
+  nameWithType: AGuidanceSystemTarget
+  fullName: GuidanceSystem.AGuidanceSystemTarget
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3
+- uid: GuidanceSystem.AGuidanceSystem.SetTarget*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.SetTarget
+  name: SetTarget
+  nameWithType: AGuidanceSystem.SetTarget
+  fullName: GuidanceSystem.AGuidanceSystem.SetTarget
+- uid: GuidanceSystem.AGuidanceSystem.SetViewer*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.SetViewer
+  name: SetViewer
+  nameWithType: AGuidanceSystem.SetViewer
+  fullName: GuidanceSystem.AGuidanceSystem.SetViewer
+- uid: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+  name: OnTargetStateChanged
+  nameWithType: AGuidanceSystem.OnTargetStateChanged
+  fullName: GuidanceSystem.AGuidanceSystem.OnTargetStateChanged
+- uid: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+  name: OnViewerStateChanged
+  nameWithType: AGuidanceSystem.OnViewerStateChanged
+  fullName: GuidanceSystem.AGuidanceSystem.OnViewerStateChanged
+- uid: GuidanceSystem.AGuidanceSystem.Reset*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.Reset
+  name: Reset
+  nameWithType: AGuidanceSystem.Reset
+  fullName: GuidanceSystem.AGuidanceSystem.Reset
+- uid: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled
+  name: SetVisualizationEnabled
+  nameWithType: AGuidanceSystem.SetVisualizationEnabled
+  fullName: GuidanceSystem.AGuidanceSystem.SetVisualizationEnabled
+- uid: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+  name: RegisterGuidanceSystem
+  nameWithType: AGuidanceSystem.RegisterGuidanceSystem
+  fullName: GuidanceSystem.AGuidanceSystem.RegisterGuidanceSystem
+- uid: GuidanceSystem.AGuidanceSystem.GetRandomOffset*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.GetRandomOffset
+  name: GetRandomOffset
+  nameWithType: AGuidanceSystem.GetRandomOffset
+  fullName: GuidanceSystem.AGuidanceSystem.GetRandomOffset
+- uid: GuidanceSystem.AGuidanceSystem.ResetRandomOffset*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+  name: ResetRandomOffset
+  nameWithType: AGuidanceSystem.ResetRandomOffset
+  fullName: GuidanceSystem.AGuidanceSystem.ResetRandomOffset
+- uid: GuidanceSystem.AGuidanceSystem.RequestHighlightAt*
+  commentId: Overload:GuidanceSystem.AGuidanceSystem.RequestHighlightAt
+  name: RequestHighlightAt
+  nameWithType: AGuidanceSystem.RequestHighlightAt
+  fullName: GuidanceSystem.AGuidanceSystem.RequestHighlightAt

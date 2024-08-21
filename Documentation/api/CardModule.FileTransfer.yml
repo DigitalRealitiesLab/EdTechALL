@@ -1,0 +1,226 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.FileTransfer
+  commentId: T:CardModule.FileTransfer
+  id: FileTransfer
+  parent: CardModule
+  children:
+  - CardModule.FileTransfer.assetSourcePath
+  - CardModule.FileTransfer.Awake
+  - CardModule.FileTransfer.CopyDirectory(System.String,System.String)
+  - CardModule.FileTransfer.destinationPath
+  - CardModule.FileTransfer.Modify(System.String)
+  langs:
+  - csharp
+  - vb
+  name: FileTransfer
+  nameWithType: FileTransfer
+  fullName: CardModule.FileTransfer
+  type: Class
+  source:
+    id: FileTransfer
+    path: ''
+    startLine: 19643
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: 'public class FileTransfer : MonoBehaviour'
+    content.vb: >-
+      Public Class FileTransfer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.FileTransfer.assetSourcePath
+  commentId: F:CardModule.FileTransfer.assetSourcePath
+  id: assetSourcePath
+  parent: CardModule.FileTransfer
+  langs:
+  - csharp
+  - vb
+  name: assetSourcePath
+  nameWithType: FileTransfer.assetSourcePath
+  fullName: CardModule.FileTransfer.assetSourcePath
+  type: Field
+  source:
+    id: assetSourcePath
+    path: ''
+    startLine: 19645
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string assetSourcePath
+    return:
+      type: System.String
+    content.vb: Public assetSourcePath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.FileTransfer.destinationPath
+  commentId: F:CardModule.FileTransfer.destinationPath
+  id: destinationPath
+  parent: CardModule.FileTransfer
+  langs:
+  - csharp
+  - vb
+  name: destinationPath
+  nameWithType: FileTransfer.destinationPath
+  fullName: CardModule.FileTransfer.destinationPath
+  type: Field
+  source:
+    id: destinationPath
+    path: ''
+    startLine: 19646
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string destinationPath
+    return:
+      type: System.String
+    content.vb: Public destinationPath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.FileTransfer.Awake
+  commentId: M:CardModule.FileTransfer.Awake
+  id: Awake
+  parent: CardModule.FileTransfer
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: FileTransfer.Awake()
+  fullName: CardModule.FileTransfer.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 19648
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public void Awake()
+    content.vb: Public Sub Awake
+  overload: CardModule.FileTransfer.Awake*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.FileTransfer.CopyDirectory(System.String,System.String)
+  commentId: M:CardModule.FileTransfer.CopyDirectory(System.String,System.String)
+  id: CopyDirectory(System.String,System.String)
+  parent: CardModule.FileTransfer
+  langs:
+  - csharp
+  - vb
+  name: CopyDirectory(String, String)
+  nameWithType: FileTransfer.CopyDirectory(String, String)
+  fullName: CardModule.FileTransfer.CopyDirectory(System.String, System.String)
+  type: Method
+  source:
+    id: CopyDirectory
+    path: ''
+    startLine: 19653
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public static void CopyDirectory(string sourceDirectory, string destinationDirectory)
+    parameters:
+    - id: sourceDirectory
+      type: System.String
+    - id: destinationDirectory
+      type: System.String
+    content.vb: Public Shared Sub CopyDirectory(sourceDirectory As String, destinationDirectory As String)
+  overload: CardModule.FileTransfer.CopyDirectory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: CardModule.FileTransfer.Modify(System.String)
+  commentId: M:CardModule.FileTransfer.Modify(System.String)
+  id: Modify(System.String)
+  parent: CardModule.FileTransfer
+  langs:
+  - csharp
+  - vb
+  name: Modify(String)
+  nameWithType: FileTransfer.Modify(String)
+  fullName: CardModule.FileTransfer.Modify(System.String)
+  type: Method
+  source:
+    id: Modify
+    path: ''
+    startLine: 19695
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public static string Modify(string source)
+    parameters:
+    - id: source
+      type: System.String
+    return:
+      type: System.String
+    content.vb: Public Shared Function Modify(source As String) As String
+  overload: CardModule.FileTransfer.Modify*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CardModule.FileTransfer.Awake*
+  commentId: Overload:CardModule.FileTransfer.Awake
+  name: Awake
+  nameWithType: FileTransfer.Awake
+  fullName: CardModule.FileTransfer.Awake
+- uid: CardModule.FileTransfer.CopyDirectory*
+  commentId: Overload:CardModule.FileTransfer.CopyDirectory
+  name: CopyDirectory
+  nameWithType: FileTransfer.CopyDirectory
+  fullName: CardModule.FileTransfer.CopyDirectory
+- uid: CardModule.FileTransfer.Modify*
+  commentId: Overload:CardModule.FileTransfer.Modify
+  name: Modify
+  nameWithType: FileTransfer.Modify
+  fullName: CardModule.FileTransfer.Modify

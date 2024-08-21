@@ -1,0 +1,629 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SceneLoader
+  commentId: T:Global.SceneLoader
+  id: SceneLoader
+  parent: Global
+  children:
+  - Global.SceneLoader.currentScene
+  - Global.SceneLoader.GetArguments
+  - Global.SceneLoader.Init
+  - Global.SceneLoader.initialScene
+  - Global.SceneLoader.LessonMarkerDetectionScene
+  - Global.SceneLoader.LoadPreviousSceneSingle
+  - Global.SceneLoader.previousScene
+  - Global.SceneLoader.RequestLoadSceneAdditive(System.String)
+  - Global.SceneLoader.RequestLoadSceneSingle(System.String)
+  - Global.SceneLoader.RequestReloadCurrentScene
+  - Global.SceneLoader.RequestUnloadScene(System.String)
+  - Global.SceneLoader.scenes
+  - Global.SceneLoader.SetSceneLoadArguments(System.Object[])
+  - Global.SceneLoader.StartSceneLoadCoroutine(System.String,LoadSceneMode)
+  - Global.SceneLoader.StartSceneUnloadCoroutine(System.String)
+  langs:
+  - csharp
+  - vb
+  name: SceneLoader
+  nameWithType: SceneLoader
+  fullName: SceneLoader
+  type: Class
+  source:
+    id: SceneLoader
+    path: ''
+    startLine: 17096
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SceneLoader : MonoBehaviour'
+    content.vb: >-
+      Public Class SceneLoader
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SceneLoader.scenes
+  commentId: F:Global.SceneLoader.scenes
+  id: scenes
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: scenes
+  nameWithType: SceneLoader.scenes
+  fullName: SceneLoader.scenes
+  type: Field
+  source:
+    id: scenes
+    path: ''
+    startLine: 17098
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string[] scenes
+    return:
+      type: System.String[]
+    content.vb: Public Shared scenes As String()
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SceneLoader.Init
+  commentId: F:Global.SceneLoader.Init
+  id: Init
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: Init
+  nameWithType: SceneLoader.Init
+  fullName: SceneLoader.Init
+  type: Field
+  source:
+    id: Init
+    path: ''
+    startLine: 17100
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string Init = "Init"
+    return:
+      type: System.String
+    content.vb: Public Const Init As String = "Init"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.SceneLoader.LessonMarkerDetectionScene
+  commentId: F:Global.SceneLoader.LessonMarkerDetectionScene
+  id: LessonMarkerDetectionScene
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: LessonMarkerDetectionScene
+  nameWithType: SceneLoader.LessonMarkerDetectionScene
+  fullName: SceneLoader.LessonMarkerDetectionScene
+  type: Field
+  source:
+    id: LessonMarkerDetectionScene
+    path: ''
+    startLine: 17101
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string LessonMarkerDetectionScene = "LessonMarkerDetectionScene"
+    return:
+      type: System.String
+    content.vb: Public Const LessonMarkerDetectionScene As String = "LessonMarkerDetectionScene"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.SceneLoader.initialScene
+  commentId: F:Global.SceneLoader.initialScene
+  id: initialScene
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: initialScene
+  nameWithType: SceneLoader.initialScene
+  fullName: SceneLoader.initialScene
+  type: Field
+  source:
+    id: initialScene
+    path: ''
+    startLine: 17103
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string initialScene
+    return:
+      type: System.String
+    content.vb: Public initialScene As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SceneLoader.previousScene
+  commentId: F:Global.SceneLoader.previousScene
+  id: previousScene
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: previousScene
+  nameWithType: SceneLoader.previousScene
+  fullName: SceneLoader.previousScene
+  type: Field
+  source:
+    id: previousScene
+    path: ''
+    startLine: 17104
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string previousScene
+    return:
+      type: System.String
+    content.vb: Public Shared previousScene As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SceneLoader.currentScene
+  commentId: F:Global.SceneLoader.currentScene
+  id: currentScene
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: currentScene
+  nameWithType: SceneLoader.currentScene
+  fullName: SceneLoader.currentScene
+  type: Field
+  source:
+    id: currentScene
+    path: ''
+    startLine: 17105
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string currentScene
+    return:
+      type: System.String
+    content.vb: Public Shared currentScene As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SceneLoader.StartSceneLoadCoroutine(System.String,LoadSceneMode)
+  commentId: M:Global.SceneLoader.StartSceneLoadCoroutine(System.String,LoadSceneMode)
+  id: StartSceneLoadCoroutine(System.String,LoadSceneMode)
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: StartSceneLoadCoroutine(String, LoadSceneMode)
+  nameWithType: SceneLoader.StartSceneLoadCoroutine(String, LoadSceneMode)
+  fullName: SceneLoader.StartSceneLoadCoroutine(System.String, LoadSceneMode)
+  type: Method
+  source:
+    id: StartSceneLoadCoroutine
+    path: ''
+    startLine: 17124
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void StartSceneLoadCoroutine(string sceneName, LoadSceneMode loadMode)
+    parameters:
+    - id: sceneName
+      type: System.String
+    - id: loadMode
+      type: Global.LoadSceneMode
+    content.vb: Public Sub StartSceneLoadCoroutine(sceneName As String, loadMode As LoadSceneMode)
+  overload: Global.SceneLoader.StartSceneLoadCoroutine*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SceneLoader.StartSceneUnloadCoroutine(System.String)
+  commentId: M:Global.SceneLoader.StartSceneUnloadCoroutine(System.String)
+  id: StartSceneUnloadCoroutine(System.String)
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: StartSceneUnloadCoroutine(String)
+  nameWithType: SceneLoader.StartSceneUnloadCoroutine(String)
+  fullName: SceneLoader.StartSceneUnloadCoroutine(System.String)
+  type: Method
+  source:
+    id: StartSceneUnloadCoroutine
+    path: ''
+    startLine: 17155
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void StartSceneUnloadCoroutine(string sceneName)
+    parameters:
+    - id: sceneName
+      type: System.String
+    content.vb: Public Sub StartSceneUnloadCoroutine(sceneName As String)
+  overload: Global.SceneLoader.StartSceneUnloadCoroutine*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SceneLoader.SetSceneLoadArguments(System.Object[])
+  commentId: M:Global.SceneLoader.SetSceneLoadArguments(System.Object[])
+  id: SetSceneLoadArguments(System.Object[])
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: SetSceneLoadArguments(Object[])
+  nameWithType: SceneLoader.SetSceneLoadArguments(Object[])
+  fullName: SceneLoader.SetSceneLoadArguments(System.Object[])
+  type: Method
+  source:
+    id: SetSceneLoadArguments
+    path: ''
+    startLine: 17171
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SetSceneLoadArguments(params object[] arguments)
+    parameters:
+    - id: arguments
+      type: System.Object[]
+    content.vb: Public Shared Sub SetSceneLoadArguments(ParamArray arguments As Object())
+  overload: Global.SceneLoader.SetSceneLoadArguments*
+  nameWithType.vb: SceneLoader.SetSceneLoadArguments(Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: SceneLoader.SetSceneLoadArguments(System.Object())
+  name.vb: SetSceneLoadArguments(Object())
+- uid: Global.SceneLoader.GetArguments
+  commentId: M:Global.SceneLoader.GetArguments
+  id: GetArguments
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: GetArguments()
+  nameWithType: SceneLoader.GetArguments()
+  fullName: SceneLoader.GetArguments()
+  type: Method
+  source:
+    id: GetArguments
+    path: ''
+    startLine: 17176
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static SceneLoadingArguments GetArguments()
+    return:
+      type: Global.SceneLoadingArguments
+    content.vb: Public Shared Function GetArguments As SceneLoadingArguments
+  overload: Global.SceneLoader.GetArguments*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SceneLoader.RequestLoadSceneAdditive(System.String)
+  commentId: M:Global.SceneLoader.RequestLoadSceneAdditive(System.String)
+  id: RequestLoadSceneAdditive(System.String)
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: RequestLoadSceneAdditive(String)
+  nameWithType: SceneLoader.RequestLoadSceneAdditive(String)
+  fullName: SceneLoader.RequestLoadSceneAdditive(System.String)
+  type: Method
+  source:
+    id: RequestLoadSceneAdditive
+    path: ''
+    startLine: 17181
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void RequestLoadSceneAdditive(string sceneName)
+    parameters:
+    - id: sceneName
+      type: System.String
+    content.vb: Public Shared Sub RequestLoadSceneAdditive(sceneName As String)
+  overload: Global.SceneLoader.RequestLoadSceneAdditive*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SceneLoader.RequestLoadSceneSingle(System.String)
+  commentId: M:Global.SceneLoader.RequestLoadSceneSingle(System.String)
+  id: RequestLoadSceneSingle(System.String)
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: RequestLoadSceneSingle(String)
+  nameWithType: SceneLoader.RequestLoadSceneSingle(String)
+  fullName: SceneLoader.RequestLoadSceneSingle(System.String)
+  type: Method
+  source:
+    id: RequestLoadSceneSingle
+    path: ''
+    startLine: 17186
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void RequestLoadSceneSingle(string sceneName)
+    parameters:
+    - id: sceneName
+      type: System.String
+    content.vb: Public Shared Sub RequestLoadSceneSingle(sceneName As String)
+  overload: Global.SceneLoader.RequestLoadSceneSingle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SceneLoader.RequestUnloadScene(System.String)
+  commentId: M:Global.SceneLoader.RequestUnloadScene(System.String)
+  id: RequestUnloadScene(System.String)
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: RequestUnloadScene(String)
+  nameWithType: SceneLoader.RequestUnloadScene(String)
+  fullName: SceneLoader.RequestUnloadScene(System.String)
+  type: Method
+  source:
+    id: RequestUnloadScene
+    path: ''
+    startLine: 17191
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void RequestUnloadScene(string sceneName)
+    parameters:
+    - id: sceneName
+      type: System.String
+    content.vb: Public Shared Sub RequestUnloadScene(sceneName As String)
+  overload: Global.SceneLoader.RequestUnloadScene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SceneLoader.RequestReloadCurrentScene
+  commentId: M:Global.SceneLoader.RequestReloadCurrentScene
+  id: RequestReloadCurrentScene
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: RequestReloadCurrentScene()
+  nameWithType: SceneLoader.RequestReloadCurrentScene()
+  fullName: SceneLoader.RequestReloadCurrentScene()
+  type: Method
+  source:
+    id: RequestReloadCurrentScene
+    path: ''
+    startLine: 17196
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void RequestReloadCurrentScene()
+    content.vb: Public Shared Sub RequestReloadCurrentScene
+  overload: Global.SceneLoader.RequestReloadCurrentScene*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.SceneLoader.LoadPreviousSceneSingle
+  commentId: M:Global.SceneLoader.LoadPreviousSceneSingle
+  id: LoadPreviousSceneSingle
+  parent: Global.SceneLoader
+  langs:
+  - csharp
+  - vb
+  name: LoadPreviousSceneSingle()
+  nameWithType: SceneLoader.LoadPreviousSceneSingle()
+  fullName: SceneLoader.LoadPreviousSceneSingle()
+  type: Method
+  source:
+    id: LoadPreviousSceneSingle
+    path: ''
+    startLine: 17201
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void LoadPreviousSceneSingle()
+    content.vb: Public Shared Sub LoadPreviousSceneSingle
+  overload: Global.SceneLoader.LoadPreviousSceneSingle*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String[]
+  isExternal: true
+  name: String[]
+  nameWithType: String[]
+  fullName: System.String[]
+  nameWithType.vb: String()
+  fullName.vb: System.String()
+  name.vb: String()
+  spec.csharp:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SceneLoader.StartSceneLoadCoroutine*
+  commentId: Overload:Global.SceneLoader.StartSceneLoadCoroutine
+  name: StartSceneLoadCoroutine
+  nameWithType: SceneLoader.StartSceneLoadCoroutine
+  fullName: SceneLoader.StartSceneLoadCoroutine
+- uid: Global.LoadSceneMode
+  isExternal: true
+  name: LoadSceneMode
+  nameWithType: LoadSceneMode
+  fullName: LoadSceneMode
+- uid: Global.SceneLoader.StartSceneUnloadCoroutine*
+  commentId: Overload:Global.SceneLoader.StartSceneUnloadCoroutine
+  name: StartSceneUnloadCoroutine
+  nameWithType: SceneLoader.StartSceneUnloadCoroutine
+  fullName: SceneLoader.StartSceneUnloadCoroutine
+- uid: Global.SceneLoader.SetSceneLoadArguments*
+  commentId: Overload:Global.SceneLoader.SetSceneLoadArguments
+  name: SetSceneLoadArguments
+  nameWithType: SceneLoader.SetSceneLoadArguments
+  fullName: SceneLoader.SetSceneLoadArguments
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.SceneLoader.GetArguments*
+  commentId: Overload:Global.SceneLoader.GetArguments
+  name: GetArguments
+  nameWithType: SceneLoader.GetArguments
+  fullName: SceneLoader.GetArguments
+- uid: Global.SceneLoadingArguments
+  commentId: T:Global.SceneLoadingArguments
+  name: SceneLoadingArguments
+  nameWithType: SceneLoadingArguments
+  fullName: SceneLoadingArguments
+- uid: Global.SceneLoader.RequestLoadSceneAdditive*
+  commentId: Overload:Global.SceneLoader.RequestLoadSceneAdditive
+  name: RequestLoadSceneAdditive
+  nameWithType: SceneLoader.RequestLoadSceneAdditive
+  fullName: SceneLoader.RequestLoadSceneAdditive
+- uid: Global.SceneLoader.RequestLoadSceneSingle*
+  commentId: Overload:Global.SceneLoader.RequestLoadSceneSingle
+  name: RequestLoadSceneSingle
+  nameWithType: SceneLoader.RequestLoadSceneSingle
+  fullName: SceneLoader.RequestLoadSceneSingle
+- uid: Global.SceneLoader.RequestUnloadScene*
+  commentId: Overload:Global.SceneLoader.RequestUnloadScene
+  name: RequestUnloadScene
+  nameWithType: SceneLoader.RequestUnloadScene
+  fullName: SceneLoader.RequestUnloadScene
+- uid: Global.SceneLoader.RequestReloadCurrentScene*
+  commentId: Overload:Global.SceneLoader.RequestReloadCurrentScene
+  name: RequestReloadCurrentScene
+  nameWithType: SceneLoader.RequestReloadCurrentScene
+  fullName: SceneLoader.RequestReloadCurrentScene
+- uid: Global.SceneLoader.LoadPreviousSceneSingle*
+  commentId: Overload:Global.SceneLoader.LoadPreviousSceneSingle
+  name: LoadPreviousSceneSingle
+  nameWithType: SceneLoader.LoadPreviousSceneSingle
+  fullName: SceneLoader.LoadPreviousSceneSingle

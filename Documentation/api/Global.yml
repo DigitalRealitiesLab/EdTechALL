@@ -1,0 +1,1601 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global
+  id: Global
+  children:
+  - Global.AComponent`1
+  - Global.AImageMarkerLookupData
+  - Global.AImageMarkerReactionBehaviour
+  - Global.AMiniGame
+  - Global.AMiniGameWindow
+  - Global.APOIBehaviour
+  - Global.ApplicationStatsPanel
+  - Global.ARSupportCheck
+  - Global.ArticleDescriptor
+  - Global.ASceneChangeArgsLoader
+  - Global.AState
+  - Global.AState`1
+  - Global.ATask
+  - Global.AutoSpawnTask
+  - Global.BoolEvent
+  - Global.ButtonClickSetFloat
+  - Global.CardPanelWebViewEditor
+  - Global.CardProxyMiniGameBehaviour
+  - Global.CardTask
+  - Global.Casus
+  - Global.CollisionForwarder
+  - Global.ComponentExtensions
+  - Global.Composite`1
+  - Global.Cow
+  - Global.Cow.CowNeed
+  - Global.CowCaretakerMiniGame
+  - Global.CowCaretakerTimeline
+  - Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  - Global.CowNeedFulfiller
+  - Global.CowNeedUI
+  - Global.CowNeedUI.CowNeedSpriteLookup
+  - Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  - Global.CubicSpline
+  - Global.CubicSplineEditor
+  - Global.DebugToggleMonoBehaviour
+  - Global.DefaultEdTechALLConfig
+  - Global.DeleteAllSaveDataButton
+  - Global.DeleteSaveDataButton
+  - Global.DictionaryListManager`2
+  - Global.DictionaryManager`2
+  - Global.DistrictData
+  - Global.DistrictEnum
+  - Global.DistrictLookup
+  - Global.Districts
+  - Global.DropdownPublisher
+  - Global.EditorScreenshotExtension
+  - Global.EdTechALLConfig
+  - Global.EnumerableLookup`2
+  - Global.EnumerableValue`2
+  - Global.Error
+  - Global.ErrorCategory
+  - Global.ErrorWindow
+  - Global.EventBus
+  - Global.EventBusTester
+  - Global.EventBusUpdater
+  - Global.EventCallback
+  - Global.EventId
+  - Global.EventId.CowCaretakerMiniGameEvents
+  - Global.EventId.GemeindeSucheMiniGameEvents
+  - Global.EventId.MapLayerMiniGameEvents
+  - Global.EventId.MiniGameEvents
+  - Global.EventId.SceneManagementEvents
+  - Global.EventTogglePublisher
+  - Global.FederalUnit
+  - Global.FindMissingScriptsRecursively
+  - Global.GameObjectEvent
+  - Global.GemeindeSucheActiveImageMarkerUI
+  - Global.GemeindeSucheBauernhofMiniGame
+  - Global.GemeindeSucheLookup
+  - Global.GemeindeSucheLookupData
+  - Global.GemeindeSucheMarkerReactionBehaviour
+  - Global.GemeindeSucheMiniGame
+  - Global.Gender
+  - Global.GridTileType
+  - Global.GuidanceSystemControllerEditor
+  - Global.HideAfterSeconds
+  - Global.ImageMarkerDetector
+  - Global.ImageMarkerLookup`1
+  - Global.ImageTrackingObjectManager
+  - Global.InfoCardTask
+  - Global.InstructionPanel
+  - Global.IPlayerPrefsIO`1
+  - Global.IProvideSaveData
+  - Global.ISaveData
+  - Global.JsonLookup`3
+  - Global.KastralGemeinde
+  - Global.LessonLoaderWindow
+  - Global.LessonSceneLoadData
+  - Global.LessonSceneLookup
+  - Global.LightEstimation
+  - Global.LineRendererScaler
+  - Global.LoadingScreen
+  - Global.LoadPreviousSceneButton
+  - Global.LoadSceneButton
+  - Global.ManualSceneLoadWindow
+  - Global.MapLayerData
+  - Global.MapLayerLookup
+  - Global.MapLayerMiniGame
+  - Global.MapLayerMiniGameToggle
+  - Global.MapLayerMiniGameUI
+  - Global.MapResizeController
+  - Global.MapSelectionPanel
+  - Global.MiniGameAbortUI
+  - Global.MiniGameCompletionInteractionBehaviour
+  - Global.MiniGameManager
+  - Global.MiniGamePrefabLookup
+  - Global.MiniGamePrefabLookup.MiniGamePrefabData
+  - Global.MiniGamePromptUI
+  - Global.MiniGameScoreUI
+  - Global.MiniGameStartUI
+  - Global.MiniGameTask
+  - Global.MiniGameType
+  - Global.MiniGameUIController
+  - Global.Municipalities
+  - Global.Municipality
+  - Global.MunicipalityEnum
+  - Global.MunicipalityLookup
+  - Global.Numerus
+  - Global.ObjectSaveData
+  - Global.PathProgrammingButtonInfo
+  - Global.PathProgrammingCommand
+  - Global.PathProgrammingCommandQueue
+  - Global.PathProgrammingGrid
+  - Global.PathProgrammingGridEditor
+  - Global.PathProgrammingMiniGame
+  - Global.PathProgrammingTile
+  - Global.PathProgrammingTileEditor
+  - Global.PersistentDataTransferWindow
+  - Global.POI
+  - Global.POIColorBehaviour
+  - Global.POIHighlightAreaBehaviour
+  - Global.POIPlacementBehaviour
+  - Global.POIRotateBehaviour
+  - Global.POIScaleBehaviour
+  - Global.POIType
+  - Global.ProgressBar
+  - Global.ProxyCardAutoSpawnTask
+  - Global.QuaternionExtensions
+  - Global.QuizCardTask
+  - Global.ReferenceImageLibraryManager
+  - Global.ReferenceImageToggle
+  - Global.ReferenceLibrarySignature
+  - Global.Region
+  - Global.RegionEnum
+  - Global.RegionLookup
+  - Global.Regions
+  - Global.RelativeResize
+  - Global.RelativeResizeTestEditor
+  - Global.RelativeUniformResize
+  - Global.RotateTowardsCamera
+  - Global.Salzburg
+  - Global.SampleData
+  - Global.SampleDataSaving
+  - Global.SaveData
+  - Global.SaveManager
+  - Global.ScaleToRenderer
+  - Global.SceneLoadButtonEditor
+  - Global.SceneLoader
+  - Global.SceneLoadingArguments
+  - Global.SceneLoadMarkerReactionBehaviour
+  - Global.SelectableEditor
+  - Global.SettingsPanel
+  - Global.SettingsToggle
+  - Global.SettingsToggleActive
+  - Global.SettingsToggleActiveEditor
+  - Global.SettingsToggleEditor
+  - Global.Singleton`1
+  - Global.SnapshotCapture
+  - Global.StateTransition
+  - Global.TaskCallback
+  - Global.TaskController
+  - Global.TaskData
+  - Global.TaskFactory
+  - Global.TaskFactoryData
+  - Global.TaskFactoryLookup
+  - Global.Tasks
+  - Global.TaskType
+  - Global.TerrainMeshMaterialModifer
+  - Global.TextSynthesisData
+  - Global.TextureToPrefabMapper
+  - Global.TextureToPrefabPreset
+  - Global.TrackedImageDebugToggle
+  - Global.TrackedImageLerper
+  - Global.TrackedImagePrefabScaler
+  - Global.TriggerForwarder
+  - Global.UIPanelController
+  - Global.UIPanels
+  - Global.Unlockable
+  - Global.UnlockableGroup
+  - Global.UnlockableLoader
+  - Global.UnlockableType
+  - Global.Util
+  - Global.Vector3Event
+  - Global.Vector3Extensions
+  - Global.WorldDeltaScaler
+  langs:
+  - csharp
+  - vb
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+references:
+- uid: Global.CardProxyMiniGameBehaviour
+  commentId: T:Global.CardProxyMiniGameBehaviour
+  name: CardProxyMiniGameBehaviour
+  nameWithType: CardProxyMiniGameBehaviour
+  fullName: CardProxyMiniGameBehaviour
+- uid: Global.AMiniGame
+  commentId: T:Global.AMiniGame
+  name: AMiniGame
+  nameWithType: AMiniGame
+  fullName: AMiniGame
+- uid: Global.MiniGameType
+  commentId: T:Global.MiniGameType
+  name: MiniGameType
+  nameWithType: MiniGameType
+  fullName: MiniGameType
+- uid: Global.MiniGameCompletionInteractionBehaviour
+  commentId: T:Global.MiniGameCompletionInteractionBehaviour
+  name: MiniGameCompletionInteractionBehaviour
+  nameWithType: MiniGameCompletionInteractionBehaviour
+  fullName: MiniGameCompletionInteractionBehaviour
+- uid: Global.MiniGameManager
+  commentId: T:Global.MiniGameManager
+  name: MiniGameManager
+  nameWithType: MiniGameManager
+  fullName: MiniGameManager
+- uid: Global.EventId
+  commentId: T:Global.EventId
+  name: EventId
+  nameWithType: EventId
+  fullName: EventId
+- uid: Global.EventId.MiniGameEvents
+  commentId: T:Global.EventId.MiniGameEvents
+  name: EventId.MiniGameEvents
+  nameWithType: EventId.MiniGameEvents
+  fullName: EventId.MiniGameEvents
+- uid: Global.EventId.CowCaretakerMiniGameEvents
+  commentId: T:Global.EventId.CowCaretakerMiniGameEvents
+  name: EventId.CowCaretakerMiniGameEvents
+  nameWithType: EventId.CowCaretakerMiniGameEvents
+  fullName: EventId.CowCaretakerMiniGameEvents
+- uid: Global.EventId.MapLayerMiniGameEvents
+  commentId: T:Global.EventId.MapLayerMiniGameEvents
+  name: EventId.MapLayerMiniGameEvents
+  nameWithType: EventId.MapLayerMiniGameEvents
+  fullName: EventId.MapLayerMiniGameEvents
+- uid: Global.EventId.GemeindeSucheMiniGameEvents
+  commentId: T:Global.EventId.GemeindeSucheMiniGameEvents
+  name: EventId.GemeindeSucheMiniGameEvents
+  nameWithType: EventId.GemeindeSucheMiniGameEvents
+  fullName: EventId.GemeindeSucheMiniGameEvents
+- uid: Global.EventId.SceneManagementEvents
+  commentId: T:Global.EventId.SceneManagementEvents
+  name: EventId.SceneManagementEvents
+  nameWithType: EventId.SceneManagementEvents
+  fullName: EventId.SceneManagementEvents
+- uid: Global.MiniGamePrefabLookup
+  commentId: T:Global.MiniGamePrefabLookup
+  name: MiniGamePrefabLookup
+  nameWithType: MiniGamePrefabLookup
+  fullName: MiniGamePrefabLookup
+- uid: Global.MiniGamePrefabLookup.MiniGamePrefabData
+  commentId: T:Global.MiniGamePrefabLookup.MiniGamePrefabData
+  name: MiniGamePrefabLookup.MiniGamePrefabData
+  nameWithType: MiniGamePrefabLookup.MiniGamePrefabData
+  fullName: MiniGamePrefabLookup.MiniGamePrefabData
+- uid: Global.AMiniGameWindow
+  commentId: T:Global.AMiniGameWindow
+  name: AMiniGameWindow
+  nameWithType: AMiniGameWindow
+  fullName: AMiniGameWindow
+- uid: Global.MiniGamePromptUI
+  commentId: T:Global.MiniGamePromptUI
+  name: MiniGamePromptUI
+  nameWithType: MiniGamePromptUI
+  fullName: MiniGamePromptUI
+- uid: Global.MiniGameScoreUI
+  commentId: T:Global.MiniGameScoreUI
+  name: MiniGameScoreUI
+  nameWithType: MiniGameScoreUI
+  fullName: MiniGameScoreUI
+- uid: Global.MiniGameUIController
+  commentId: T:Global.MiniGameUIController
+  name: MiniGameUIController
+  nameWithType: MiniGameUIController
+  fullName: MiniGameUIController
+- uid: Global.MiniGameAbortUI
+  commentId: T:Global.MiniGameAbortUI
+  name: MiniGameAbortUI
+  nameWithType: MiniGameAbortUI
+  fullName: MiniGameAbortUI
+- uid: Global.MiniGameStartUI
+  commentId: T:Global.MiniGameStartUI
+  name: MiniGameStartUI
+  nameWithType: MiniGameStartUI
+  fullName: MiniGameStartUI
+- uid: Global.Cow
+  commentId: T:Global.Cow
+  name: Cow
+  nameWithType: Cow
+  fullName: Cow
+- uid: Global.Cow.CowNeed
+  commentId: T:Global.Cow.CowNeed
+  name: Cow.CowNeed
+  nameWithType: Cow.CowNeed
+  fullName: Cow.CowNeed
+- uid: Global.CowNeedFulfiller
+  commentId: T:Global.CowNeedFulfiller
+  name: CowNeedFulfiller
+  nameWithType: CowNeedFulfiller
+  fullName: CowNeedFulfiller
+- uid: Global.CowNeedUI
+  commentId: T:Global.CowNeedUI
+  name: CowNeedUI
+  nameWithType: CowNeedUI
+  fullName: CowNeedUI
+- uid: Global.CowNeedUI.CowNeedSpriteLookup
+  commentId: T:Global.CowNeedUI.CowNeedSpriteLookup
+  name: CowNeedUI.CowNeedSpriteLookup
+  nameWithType: CowNeedUI.CowNeedSpriteLookup
+  fullName: CowNeedUI.CowNeedSpriteLookup
+- uid: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  commentId: T:Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  name: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  nameWithType: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  fullName: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+- uid: Global.CowCaretakerTimeline
+  commentId: T:Global.CowCaretakerTimeline
+  name: CowCaretakerTimeline
+  nameWithType: CowCaretakerTimeline
+  fullName: CowCaretakerTimeline
+- uid: Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  commentId: T:Global.CowCaretakerTimeline.CowCaretakerTimelinePoint
+  name: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  nameWithType: CowCaretakerTimeline.CowCaretakerTimelinePoint
+  fullName: CowCaretakerTimeline.CowCaretakerTimelinePoint
+- uid: Global.CowCaretakerMiniGame
+  commentId: T:Global.CowCaretakerMiniGame
+  name: CowCaretakerMiniGame
+  nameWithType: CowCaretakerMiniGame
+  fullName: CowCaretakerMiniGame
+- uid: Global.MapLayerLookup
+  commentId: T:Global.MapLayerLookup
+  name: MapLayerLookup
+  nameWithType: MapLayerLookup
+  fullName: MapLayerLookup
+- uid: Global.MapLayerData
+  commentId: T:Global.MapLayerData
+  name: MapLayerData
+  nameWithType: MapLayerData
+  fullName: MapLayerData
+- uid: Global.MapLayerMiniGame
+  commentId: T:Global.MapLayerMiniGame
+  name: MapLayerMiniGame
+  nameWithType: MapLayerMiniGame
+  fullName: MapLayerMiniGame
+- uid: Global.MapLayerMiniGameUI
+  commentId: T:Global.MapLayerMiniGameUI
+  name: MapLayerMiniGameUI
+  nameWithType: MapLayerMiniGameUI
+  fullName: MapLayerMiniGameUI
+- uid: Global.MapLayerMiniGameToggle
+  commentId: T:Global.MapLayerMiniGameToggle
+  name: MapLayerMiniGameToggle
+  nameWithType: MapLayerMiniGameToggle
+  fullName: MapLayerMiniGameToggle
+- uid: Global.GemeindeSucheBauernhofMiniGame
+  commentId: T:Global.GemeindeSucheBauernhofMiniGame
+  name: GemeindeSucheBauernhofMiniGame
+  nameWithType: GemeindeSucheBauernhofMiniGame
+  fullName: GemeindeSucheBauernhofMiniGame
+- uid: Global.GemeindeSucheMarkerReactionBehaviour
+  commentId: T:Global.GemeindeSucheMarkerReactionBehaviour
+  name: GemeindeSucheMarkerReactionBehaviour
+  nameWithType: GemeindeSucheMarkerReactionBehaviour
+  fullName: GemeindeSucheMarkerReactionBehaviour
+- uid: Global.GemeindeSucheLookup
+  commentId: T:Global.GemeindeSucheLookup
+  name: GemeindeSucheLookup
+  nameWithType: GemeindeSucheLookup
+  fullName: GemeindeSucheLookup
+- uid: Global.GemeindeSucheLookupData
+  commentId: T:Global.GemeindeSucheLookupData
+  name: GemeindeSucheLookupData
+  nameWithType: GemeindeSucheLookupData
+  fullName: GemeindeSucheLookupData
+- uid: Global.GemeindeSucheMiniGame
+  commentId: T:Global.GemeindeSucheMiniGame
+  name: GemeindeSucheMiniGame
+  nameWithType: GemeindeSucheMiniGame
+  fullName: GemeindeSucheMiniGame
+- uid: Global.GemeindeSucheActiveImageMarkerUI
+  commentId: T:Global.GemeindeSucheActiveImageMarkerUI
+  name: GemeindeSucheActiveImageMarkerUI
+  nameWithType: GemeindeSucheActiveImageMarkerUI
+  fullName: GemeindeSucheActiveImageMarkerUI
+- uid: Global.PathProgrammingGrid
+  commentId: T:Global.PathProgrammingGrid
+  name: PathProgrammingGrid
+  nameWithType: PathProgrammingGrid
+  fullName: PathProgrammingGrid
+- uid: Global.PathProgrammingTile
+  commentId: T:Global.PathProgrammingTile
+  name: PathProgrammingTile
+  nameWithType: PathProgrammingTile
+  fullName: PathProgrammingTile
+- uid: Global.GridTileType
+  commentId: T:Global.GridTileType
+  name: GridTileType
+  nameWithType: GridTileType
+  fullName: GridTileType
+- uid: Global.PathProgrammingMiniGame
+  commentId: T:Global.PathProgrammingMiniGame
+  name: PathProgrammingMiniGame
+  nameWithType: PathProgrammingMiniGame
+  fullName: PathProgrammingMiniGame
+- uid: Global.PathProgrammingCommand
+  commentId: T:Global.PathProgrammingCommand
+  name: PathProgrammingCommand
+  nameWithType: PathProgrammingCommand
+  fullName: PathProgrammingCommand
+- uid: Global.PathProgrammingCommandQueue
+  commentId: T:Global.PathProgrammingCommandQueue
+  name: PathProgrammingCommandQueue
+  nameWithType: PathProgrammingCommandQueue
+  fullName: PathProgrammingCommandQueue
+- uid: Global.PathProgrammingButtonInfo
+  commentId: T:Global.PathProgrammingButtonInfo
+  name: PathProgrammingButtonInfo
+  nameWithType: PathProgrammingButtonInfo
+  fullName: PathProgrammingButtonInfo
+- uid: Global.PathProgrammingTileEditor
+  commentId: T:Global.PathProgrammingTileEditor
+  name: PathProgrammingTileEditor
+  nameWithType: PathProgrammingTileEditor
+  fullName: PathProgrammingTileEditor
+- uid: Global.PathProgrammingGridEditor
+  commentId: T:Global.PathProgrammingGridEditor
+  name: PathProgrammingGridEditor
+  nameWithType: PathProgrammingGridEditor
+  fullName: PathProgrammingGridEditor
+- uid: Global.Util
+  commentId: T:Global.Util
+  name: Util
+  nameWithType: Util
+  fullName: Util
+- uid: Global.TextSynthesisData
+  commentId: T:Global.TextSynthesisData
+  name: TextSynthesisData
+  nameWithType: TextSynthesisData
+  fullName: TextSynthesisData
+- uid: Global.ArticleDescriptor
+  commentId: T:Global.ArticleDescriptor
+  name: ArticleDescriptor
+  nameWithType: ArticleDescriptor
+  fullName: ArticleDescriptor
+- uid: Global.Numerus
+  commentId: T:Global.Numerus
+  name: Numerus
+  nameWithType: Numerus
+  fullName: Numerus
+- uid: Global.Gender
+  commentId: T:Global.Gender
+  name: Gender
+  nameWithType: Gender
+  fullName: Gender
+- uid: Global.Casus
+  commentId: T:Global.Casus
+  name: Casus
+  nameWithType: Casus
+  fullName: Casus
+- uid: Global.JsonLookup`3
+  commentId: T:Global.JsonLookup`3
+  name: JsonLookup<K, V, S>
+  nameWithType: JsonLookup<K, V, S>
+  fullName: JsonLookup<K, V, S>
+  nameWithType.vb: JsonLookup(Of K, V, S)
+  fullName.vb: JsonLookup(Of K, V, S)
+  name.vb: JsonLookup(Of K, V, S)
+  spec.csharp:
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.JsonLookup`3
+    name: JsonLookup
+    nameWithType: JsonLookup
+    fullName: JsonLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: S
+    nameWithType: S
+    fullName: S
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.CubicSpline
+  commentId: T:Global.CubicSpline
+  name: CubicSpline
+  nameWithType: CubicSpline
+  fullName: CubicSpline
+- uid: Global.HideAfterSeconds
+  commentId: T:Global.HideAfterSeconds
+  name: HideAfterSeconds
+  nameWithType: HideAfterSeconds
+  fullName: HideAfterSeconds
+- uid: Global.EnumerableLookup`2
+  commentId: T:Global.EnumerableLookup`2
+  name: EnumerableLookup<E, V>
+  nameWithType: EnumerableLookup<E, V>
+  fullName: EnumerableLookup<E, V>
+  nameWithType.vb: EnumerableLookup(Of E, V)
+  fullName.vb: EnumerableLookup(Of E, V)
+  name.vb: EnumerableLookup(Of E, V)
+  spec.csharp:
+  - uid: Global.EnumerableLookup`2
+    name: EnumerableLookup
+    nameWithType: EnumerableLookup
+    fullName: EnumerableLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.EnumerableLookup`2
+    name: EnumerableLookup
+    nameWithType: EnumerableLookup
+    fullName: EnumerableLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.EnumerableValue`2
+  commentId: T:Global.EnumerableValue`2
+  name: EnumerableValue<E, V>
+  nameWithType: EnumerableValue<E, V>
+  fullName: EnumerableValue<E, V>
+  nameWithType.vb: EnumerableValue(Of E, V)
+  fullName.vb: EnumerableValue(Of E, V)
+  name.vb: EnumerableValue(Of E, V)
+  spec.csharp:
+  - uid: Global.EnumerableValue`2
+    name: EnumerableValue
+    nameWithType: EnumerableValue
+    fullName: EnumerableValue
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.EnumerableValue`2
+    name: EnumerableValue
+    nameWithType: EnumerableValue
+    fullName: EnumerableValue
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: E
+    nameWithType: E
+    fullName: E
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.WorldDeltaScaler
+  commentId: T:Global.WorldDeltaScaler
+  name: WorldDeltaScaler
+  nameWithType: WorldDeltaScaler
+  fullName: WorldDeltaScaler
+- uid: Global.RotateTowardsCamera
+  commentId: T:Global.RotateTowardsCamera
+  name: RotateTowardsCamera
+  nameWithType: RotateTowardsCamera
+  fullName: RotateTowardsCamera
+- uid: Global.LightEstimation
+  commentId: T:Global.LightEstimation
+  name: LightEstimation
+  nameWithType: LightEstimation
+  fullName: LightEstimation
+- uid: Global.CollisionForwarder
+  commentId: T:Global.CollisionForwarder
+  name: CollisionForwarder
+  nameWithType: CollisionForwarder
+  fullName: CollisionForwarder
+- uid: Global.TriggerForwarder
+  commentId: T:Global.TriggerForwarder
+  name: TriggerForwarder
+  nameWithType: TriggerForwarder
+  fullName: TriggerForwarder
+- uid: Global.ProgressBar
+  commentId: T:Global.ProgressBar
+  name: ProgressBar
+  nameWithType: ProgressBar
+  fullName: ProgressBar
+- uid: Global.EventTogglePublisher
+  commentId: T:Global.EventTogglePublisher
+  name: EventTogglePublisher
+  nameWithType: EventTogglePublisher
+  fullName: EventTogglePublisher
+- uid: Global.DeleteAllSaveDataButton
+  commentId: T:Global.DeleteAllSaveDataButton
+  name: DeleteAllSaveDataButton
+  nameWithType: DeleteAllSaveDataButton
+  fullName: DeleteAllSaveDataButton
+- uid: Global.DeleteSaveDataButton
+  commentId: T:Global.DeleteSaveDataButton
+  name: DeleteSaveDataButton
+  nameWithType: DeleteSaveDataButton
+  fullName: DeleteSaveDataButton
+- uid: Global.SampleDataSaving
+  commentId: T:Global.SampleDataSaving
+  name: SampleDataSaving
+  nameWithType: SampleDataSaving
+  fullName: SampleDataSaving
+- uid: Global.SampleData
+  commentId: T:Global.SampleData
+  name: SampleData
+  nameWithType: SampleData
+  fullName: SampleData
+- uid: Global.SaveManager
+  commentId: T:Global.SaveManager
+  name: SaveManager
+  nameWithType: SaveManager
+  fullName: SaveManager
+- uid: Global.SaveData
+  commentId: T:Global.SaveData
+  name: SaveData
+  nameWithType: SaveData
+  fullName: SaveData
+- uid: Global.ISaveData
+  commentId: T:Global.ISaveData
+  name: ISaveData
+  nameWithType: ISaveData
+  fullName: ISaveData
+- uid: Global.IProvideSaveData
+  commentId: T:Global.IProvideSaveData
+  name: IProvideSaveData
+  nameWithType: IProvideSaveData
+  fullName: IProvideSaveData
+- uid: Global.ObjectSaveData
+  commentId: T:Global.ObjectSaveData
+  name: ObjectSaveData
+  nameWithType: ObjectSaveData
+  fullName: ObjectSaveData
+- uid: Global.QuaternionExtensions
+  commentId: T:Global.QuaternionExtensions
+  name: QuaternionExtensions
+  nameWithType: QuaternionExtensions
+  fullName: QuaternionExtensions
+- uid: Global.ComponentExtensions
+  commentId: T:Global.ComponentExtensions
+  name: ComponentExtensions
+  nameWithType: ComponentExtensions
+  fullName: ComponentExtensions
+- uid: Global.Vector3Extensions
+  commentId: T:Global.Vector3Extensions
+  name: Vector3Extensions
+  nameWithType: Vector3Extensions
+  fullName: Vector3Extensions
+- uid: Global.LoadingScreen
+  commentId: T:Global.LoadingScreen
+  name: LoadingScreen
+  nameWithType: LoadingScreen
+  fullName: LoadingScreen
+- uid: Global.SceneLoader
+  commentId: T:Global.SceneLoader
+  name: SceneLoader
+  nameWithType: SceneLoader
+  fullName: SceneLoader
+- uid: Global.SceneLoadingArguments
+  commentId: T:Global.SceneLoadingArguments
+  name: SceneLoadingArguments
+  nameWithType: SceneLoadingArguments
+  fullName: SceneLoadingArguments
+- uid: Global.ASceneChangeArgsLoader
+  commentId: T:Global.ASceneChangeArgsLoader
+  name: ASceneChangeArgsLoader
+  nameWithType: ASceneChangeArgsLoader
+  fullName: ASceneChangeArgsLoader
+- uid: Global.LoadPreviousSceneButton
+  commentId: T:Global.LoadPreviousSceneButton
+  name: LoadPreviousSceneButton
+  nameWithType: LoadPreviousSceneButton
+  fullName: LoadPreviousSceneButton
+- uid: Global.LoadSceneButton
+  commentId: T:Global.LoadSceneButton
+  name: LoadSceneButton
+  nameWithType: LoadSceneButton
+  fullName: LoadSceneButton
+- uid: Global.SceneLoadButtonEditor
+  commentId: T:Global.SceneLoadButtonEditor
+  name: SceneLoadButtonEditor
+  nameWithType: SceneLoadButtonEditor
+  fullName: SceneLoadButtonEditor
+- uid: Global.DictionaryManager`2
+  commentId: T:Global.DictionaryManager`2
+  name: DictionaryManager<K, V>
+  nameWithType: DictionaryManager<K, V>
+  fullName: DictionaryManager<K, V>
+  nameWithType.vb: DictionaryManager(Of K, V)
+  fullName.vb: DictionaryManager(Of K, V)
+  name.vb: DictionaryManager(Of K, V)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryListManager`2
+  commentId: T:Global.DictionaryListManager`2
+  name: DictionaryListManager<K, V>
+  nameWithType: DictionaryListManager<K, V>
+  fullName: DictionaryListManager<K, V>
+  nameWithType.vb: DictionaryListManager(Of K, V)
+  fullName.vb: DictionaryListManager(Of K, V)
+  name.vb: DictionaryListManager(Of K, V)
+  spec.csharp:
+  - uid: Global.DictionaryListManager`2
+    name: DictionaryListManager
+    nameWithType: DictionaryListManager
+    fullName: DictionaryListManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.DictionaryListManager`2
+    name: DictionaryListManager
+    nameWithType: DictionaryListManager
+    fullName: DictionaryListManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AState
+  commentId: T:Global.AState
+  name: AState
+  nameWithType: AState
+  fullName: AState
+- uid: Global.AState`1
+  commentId: T:Global.AState`1
+  name: AState<T>
+  nameWithType: AState<T>
+  fullName: AState<T>
+  nameWithType.vb: AState(Of T)
+  fullName.vb: AState(Of T)
+  name.vb: AState(Of T)
+  spec.csharp:
+  - uid: Global.AState`1
+    name: AState
+    nameWithType: AState
+    fullName: AState
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.AState`1
+    name: AState
+    nameWithType: AState
+    fullName: AState
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.StateTransition
+  commentId: T:Global.StateTransition
+  name: StateTransition
+  nameWithType: StateTransition
+  fullName: StateTransition
+- uid: Global.IPlayerPrefsIO`1
+  commentId: T:Global.IPlayerPrefsIO`1
+  name: IPlayerPrefsIO<T>
+  nameWithType: IPlayerPrefsIO<T>
+  fullName: IPlayerPrefsIO<T>
+  nameWithType.vb: IPlayerPrefsIO(Of T)
+  fullName.vb: IPlayerPrefsIO(Of T)
+  name.vb: IPlayerPrefsIO(Of T)
+  spec.csharp:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.IPlayerPrefsIO`1
+    name: IPlayerPrefsIO
+    nameWithType: IPlayerPrefsIO
+    fullName: IPlayerPrefsIO
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AComponent`1
+  commentId: T:Global.AComponent`1
+  name: AComponent<K>
+  nameWithType: AComponent<K>
+  fullName: AComponent<K>
+  nameWithType.vb: AComponent(Of K)
+  fullName.vb: AComponent(Of K)
+  name.vb: AComponent(Of K)
+  spec.csharp:
+  - uid: Global.AComponent`1
+    name: AComponent
+    nameWithType: AComponent
+    fullName: AComponent
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.AComponent`1
+    name: AComponent
+    nameWithType: AComponent
+    fullName: AComponent
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Composite`1
+  commentId: T:Global.Composite`1
+  name: Composite<K>
+  nameWithType: Composite<K>
+  fullName: Composite<K>
+  nameWithType.vb: Composite(Of K)
+  fullName.vb: Composite(Of K)
+  name.vb: Composite(Of K)
+  spec.csharp:
+  - uid: Global.Composite`1
+    name: Composite
+    nameWithType: Composite
+    fullName: Composite
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Composite`1
+    name: Composite
+    nameWithType: Composite
+    fullName: Composite
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Singleton`1
+  commentId: T:Global.Singleton`1
+  name: Singleton<T>
+  nameWithType: Singleton<T>
+  fullName: Singleton<T>
+  nameWithType.vb: Singleton(Of T)
+  fullName.vb: Singleton(Of T)
+  name.vb: Singleton(Of T)
+  spec.csharp:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Singleton`1
+    name: Singleton
+    nameWithType: Singleton
+    fullName: Singleton
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.SnapshotCapture
+  commentId: T:Global.SnapshotCapture
+  name: SnapshotCapture
+  nameWithType: SnapshotCapture
+  fullName: SnapshotCapture
+- uid: Global.EventBus
+  commentId: T:Global.EventBus
+  name: EventBus
+  nameWithType: EventBus
+  fullName: EventBus
+- uid: Global.EventCallback
+  commentId: T:Global.EventCallback
+  name: EventCallback
+  nameWithType: EventCallback
+  fullName: EventCallback
+- uid: Global.EventBusUpdater
+  commentId: T:Global.EventBusUpdater
+  name: EventBusUpdater
+  nameWithType: EventBusUpdater
+  fullName: EventBusUpdater
+- uid: Global.Vector3Event
+  commentId: T:Global.Vector3Event
+  name: Vector3Event
+  nameWithType: Vector3Event
+  fullName: Vector3Event
+- uid: Global.GameObjectEvent
+  commentId: T:Global.GameObjectEvent
+  name: GameObjectEvent
+  nameWithType: GameObjectEvent
+  fullName: GameObjectEvent
+- uid: Global.BoolEvent
+  commentId: T:Global.BoolEvent
+  name: BoolEvent
+  nameWithType: BoolEvent
+  fullName: BoolEvent
+- uid: Global.EventBusTester
+  commentId: T:Global.EventBusTester
+  name: EventBusTester
+  nameWithType: EventBusTester
+  fullName: EventBusTester
+- uid: Global.EditorScreenshotExtension
+  commentId: T:Global.EditorScreenshotExtension
+  name: EditorScreenshotExtension
+  nameWithType: EditorScreenshotExtension
+  fullName: EditorScreenshotExtension
+- uid: Global.PersistentDataTransferWindow
+  commentId: T:Global.PersistentDataTransferWindow
+  name: PersistentDataTransferWindow
+  nameWithType: PersistentDataTransferWindow
+  fullName: PersistentDataTransferWindow
+- uid: Global.CubicSplineEditor
+  commentId: T:Global.CubicSplineEditor
+  name: CubicSplineEditor
+  nameWithType: CubicSplineEditor
+  fullName: CubicSplineEditor
+- uid: Global.FindMissingScriptsRecursively
+  commentId: T:Global.FindMissingScriptsRecursively
+  name: FindMissingScriptsRecursively
+  nameWithType: FindMissingScriptsRecursively
+  fullName: FindMissingScriptsRecursively
+- uid: Global.TaskCallback
+  commentId: T:Global.TaskCallback
+  name: TaskCallback
+  nameWithType: TaskCallback
+  fullName: TaskCallback
+- uid: Global.TaskFactoryLookup
+  commentId: T:Global.TaskFactoryLookup
+  name: TaskFactoryLookup
+  nameWithType: TaskFactoryLookup
+  fullName: TaskFactoryLookup
+- uid: Global.TaskFactoryData
+  commentId: T:Global.TaskFactoryData
+  name: TaskFactoryData
+  nameWithType: TaskFactoryData
+  fullName: TaskFactoryData
+- uid: Global.Tasks
+  commentId: T:Global.Tasks
+  name: Tasks
+  nameWithType: Tasks
+  fullName: Tasks
+- uid: Global.TaskFactory
+  commentId: T:Global.TaskFactory
+  name: TaskFactory
+  nameWithType: TaskFactory
+  fullName: TaskFactory
+- uid: Global.UnlockableLoader
+  commentId: T:Global.UnlockableLoader
+  name: UnlockableLoader
+  nameWithType: UnlockableLoader
+  fullName: UnlockableLoader
+- uid: Global.UnlockableGroup
+  commentId: T:Global.UnlockableGroup
+  name: UnlockableGroup
+  nameWithType: UnlockableGroup
+  fullName: UnlockableGroup
+- uid: Global.Unlockable
+  commentId: T:Global.Unlockable
+  name: Unlockable
+  nameWithType: Unlockable
+  fullName: Unlockable
+- uid: Global.UnlockableType
+  commentId: T:Global.UnlockableType
+  name: UnlockableType
+  nameWithType: UnlockableType
+  fullName: UnlockableType
+- uid: Global.TaskController
+  commentId: T:Global.TaskController
+  name: TaskController
+  nameWithType: TaskController
+  fullName: TaskController
+- uid: Global.QuizCardTask
+  commentId: T:Global.QuizCardTask
+  name: QuizCardTask
+  nameWithType: QuizCardTask
+  fullName: QuizCardTask
+- uid: Global.InfoCardTask
+  commentId: T:Global.InfoCardTask
+  name: InfoCardTask
+  nameWithType: InfoCardTask
+  fullName: InfoCardTask
+- uid: Global.MiniGameTask
+  commentId: T:Global.MiniGameTask
+  name: MiniGameTask
+  nameWithType: MiniGameTask
+  fullName: MiniGameTask
+- uid: Global.ATask
+  commentId: T:Global.ATask
+  name: ATask
+  nameWithType: ATask
+  fullName: ATask
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+- uid: Global.TaskType
+  commentId: T:Global.TaskType
+  name: TaskType
+  nameWithType: TaskType
+  fullName: TaskType
+- uid: Global.CardTask
+  commentId: T:Global.CardTask
+  name: CardTask
+  nameWithType: CardTask
+  fullName: CardTask
+- uid: Global.ProxyCardAutoSpawnTask
+  commentId: T:Global.ProxyCardAutoSpawnTask
+  name: ProxyCardAutoSpawnTask
+  nameWithType: ProxyCardAutoSpawnTask
+  fullName: ProxyCardAutoSpawnTask
+- uid: Global.AutoSpawnTask
+  commentId: T:Global.AutoSpawnTask
+  name: AutoSpawnTask
+  nameWithType: AutoSpawnTask
+  fullName: AutoSpawnTask
+- uid: Global.GuidanceSystemControllerEditor
+  commentId: T:Global.GuidanceSystemControllerEditor
+  name: GuidanceSystemControllerEditor
+  nameWithType: GuidanceSystemControllerEditor
+  fullName: GuidanceSystemControllerEditor
+- uid: Global.CardPanelWebViewEditor
+  commentId: T:Global.CardPanelWebViewEditor
+  name: CardPanelWebViewEditor
+  nameWithType: CardPanelWebViewEditor
+  fullName: CardPanelWebViewEditor
+- uid: Global.RelativeUniformResize
+  commentId: T:Global.RelativeUniformResize
+  name: RelativeUniformResize
+  nameWithType: RelativeUniformResize
+  fullName: RelativeUniformResize
+- uid: Global.RelativeResize
+  commentId: T:Global.RelativeResize
+  name: RelativeResize
+  nameWithType: RelativeResize
+  fullName: RelativeResize
+- uid: Global.DefaultEdTechALLConfig
+  commentId: T:Global.DefaultEdTechALLConfig
+  name: DefaultEdTechALLConfig
+  nameWithType: DefaultEdTechALLConfig
+  fullName: DefaultEdTechALLConfig
+- uid: Global.MapResizeController
+  commentId: T:Global.MapResizeController
+  name: MapResizeController
+  nameWithType: MapResizeController
+  fullName: MapResizeController
+- uid: Global.ApplicationStatsPanel
+  commentId: T:Global.ApplicationStatsPanel
+  name: ApplicationStatsPanel
+  nameWithType: ApplicationStatsPanel
+  fullName: ApplicationStatsPanel
+- uid: Global.UIPanelController
+  commentId: T:Global.UIPanelController
+  name: UIPanelController
+  nameWithType: UIPanelController
+  fullName: UIPanelController
+- uid: Global.UIPanels
+  commentId: T:Global.UIPanels
+  name: UIPanels
+  nameWithType: UIPanels
+  fullName: UIPanels
+- uid: Global.InstructionPanel
+  commentId: T:Global.InstructionPanel
+  name: InstructionPanel
+  nameWithType: InstructionPanel
+  fullName: InstructionPanel
+- uid: Global.ErrorWindow
+  commentId: T:Global.ErrorWindow
+  name: ErrorWindow
+  nameWithType: ErrorWindow
+  fullName: ErrorWindow
+- uid: Global.Error
+  commentId: T:Global.Error
+  name: Error
+  nameWithType: Error
+  fullName: Error
+- uid: Global.ErrorCategory
+  commentId: T:Global.ErrorCategory
+  name: ErrorCategory
+  nameWithType: ErrorCategory
+  fullName: ErrorCategory
+- uid: Global.MapSelectionPanel
+  commentId: T:Global.MapSelectionPanel
+  name: MapSelectionPanel
+  nameWithType: MapSelectionPanel
+  fullName: MapSelectionPanel
+- uid: Global.SettingsPanel
+  commentId: T:Global.SettingsPanel
+  name: SettingsPanel
+  nameWithType: SettingsPanel
+  fullName: SettingsPanel
+- uid: Global.SettingsToggle
+  commentId: T:Global.SettingsToggle
+  name: SettingsToggle
+  nameWithType: SettingsToggle
+  fullName: SettingsToggle
+- uid: Global.EdTechALLConfig
+  commentId: T:Global.EdTechALLConfig
+  name: EdTechALLConfig
+  nameWithType: EdTechALLConfig
+  fullName: EdTechALLConfig
+- uid: Global.DropdownPublisher
+  commentId: T:Global.DropdownPublisher
+  name: DropdownPublisher
+  nameWithType: DropdownPublisher
+  fullName: DropdownPublisher
+- uid: Global.SettingsToggleActive
+  commentId: T:Global.SettingsToggleActive
+  name: SettingsToggleActive
+  nameWithType: SettingsToggleActive
+  fullName: SettingsToggleActive
+- uid: Global.ButtonClickSetFloat
+  commentId: T:Global.ButtonClickSetFloat
+  name: ButtonClickSetFloat
+  nameWithType: ButtonClickSetFloat
+  fullName: ButtonClickSetFloat
+- uid: Global.DebugToggleMonoBehaviour
+  commentId: T:Global.DebugToggleMonoBehaviour
+  name: DebugToggleMonoBehaviour
+  nameWithType: DebugToggleMonoBehaviour
+  fullName: DebugToggleMonoBehaviour
+- uid: Global.ReferenceImageToggle
+  commentId: T:Global.ReferenceImageToggle
+  name: ReferenceImageToggle
+  nameWithType: ReferenceImageToggle
+  fullName: ReferenceImageToggle
+- uid: Global.SettingsToggleActiveEditor
+  commentId: T:Global.SettingsToggleActiveEditor
+  name: SettingsToggleActiveEditor
+  nameWithType: SettingsToggleActiveEditor
+  fullName: SettingsToggleActiveEditor
+- uid: Global.SettingsToggleEditor
+  commentId: T:Global.SettingsToggleEditor
+  name: SettingsToggleEditor
+  nameWithType: SettingsToggleEditor
+  fullName: SettingsToggleEditor
+- uid: Global.RelativeResizeTestEditor
+  commentId: T:Global.RelativeResizeTestEditor
+  name: RelativeResizeTestEditor
+  nameWithType: RelativeResizeTestEditor
+  fullName: RelativeResizeTestEditor
+- uid: Global.ScaleToRenderer
+  commentId: T:Global.ScaleToRenderer
+  name: ScaleToRenderer
+  nameWithType: ScaleToRenderer
+  fullName: ScaleToRenderer
+- uid: Global.TerrainMeshMaterialModifer
+  commentId: T:Global.TerrainMeshMaterialModifer
+  name: TerrainMeshMaterialModifer
+  nameWithType: TerrainMeshMaterialModifer
+  fullName: TerrainMeshMaterialModifer
+- uid: Global.LineRendererScaler
+  commentId: T:Global.LineRendererScaler
+  name: LineRendererScaler
+  nameWithType: LineRendererScaler
+  fullName: LineRendererScaler
+- uid: Global.Salzburg
+  commentId: T:Global.Salzburg
+  name: Salzburg
+  nameWithType: Salzburg
+  fullName: Salzburg
+- uid: Global.KastralGemeinde
+  commentId: T:Global.KastralGemeinde
+  name: KastralGemeinde
+  nameWithType: KastralGemeinde
+  fullName: KastralGemeinde
+- uid: Global.MunicipalityLookup
+  commentId: T:Global.MunicipalityLookup
+  name: MunicipalityLookup
+  nameWithType: MunicipalityLookup
+  fullName: MunicipalityLookup
+- uid: Global.Municipality
+  commentId: T:Global.Municipality
+  name: Municipality
+  nameWithType: Municipality
+  fullName: Municipality
+- uid: Global.Municipalities
+  commentId: T:Global.Municipalities
+  name: Municipalities
+  nameWithType: Municipalities
+  fullName: Municipalities
+- uid: Global.MunicipalityEnum
+  commentId: T:Global.MunicipalityEnum
+  name: MunicipalityEnum
+  nameWithType: MunicipalityEnum
+  fullName: MunicipalityEnum
+- uid: Global.DistrictLookup
+  commentId: T:Global.DistrictLookup
+  name: DistrictLookup
+  nameWithType: DistrictLookup
+  fullName: DistrictLookup
+- uid: Global.DistrictData
+  commentId: T:Global.DistrictData
+  name: DistrictData
+  nameWithType: DistrictData
+  fullName: DistrictData
+- uid: Global.Districts
+  commentId: T:Global.Districts
+  name: Districts
+  nameWithType: Districts
+  fullName: Districts
+- uid: Global.DistrictEnum
+  commentId: T:Global.DistrictEnum
+  name: DistrictEnum
+  nameWithType: DistrictEnum
+  fullName: DistrictEnum
+- uid: Global.FederalUnit
+  commentId: T:Global.FederalUnit
+  name: FederalUnit
+  nameWithType: FederalUnit
+  fullName: FederalUnit
+- uid: Global.RegionLookup
+  commentId: T:Global.RegionLookup
+  name: RegionLookup
+  nameWithType: RegionLookup
+  fullName: RegionLookup
+- uid: Global.Region
+  commentId: T:Global.Region
+  name: Region
+  nameWithType: Region
+  fullName: Region
+- uid: Global.Regions
+  commentId: T:Global.Regions
+  name: Regions
+  nameWithType: Regions
+  fullName: Regions
+- uid: Global.RegionEnum
+  commentId: T:Global.RegionEnum
+  name: RegionEnum
+  nameWithType: RegionEnum
+  fullName: RegionEnum
+- uid: Global.POIPlacementBehaviour
+  commentId: T:Global.POIPlacementBehaviour
+  name: POIPlacementBehaviour
+  nameWithType: POIPlacementBehaviour
+  fullName: POIPlacementBehaviour
+- uid: Global.POIColorBehaviour
+  commentId: T:Global.POIColorBehaviour
+  name: POIColorBehaviour
+  nameWithType: POIColorBehaviour
+  fullName: POIColorBehaviour
+- uid: Global.APOIBehaviour
+  commentId: T:Global.APOIBehaviour
+  name: APOIBehaviour
+  nameWithType: APOIBehaviour
+  fullName: APOIBehaviour
+- uid: Global.POIHighlightAreaBehaviour
+  commentId: T:Global.POIHighlightAreaBehaviour
+  name: POIHighlightAreaBehaviour
+  nameWithType: POIHighlightAreaBehaviour
+  fullName: POIHighlightAreaBehaviour
+- uid: Global.POI
+  commentId: T:Global.POI
+  name: POI
+  nameWithType: POI
+  fullName: POI
+- uid: Global.POIType
+  commentId: T:Global.POIType
+  name: POIType
+  nameWithType: POIType
+  fullName: POIType
+- uid: Global.POIScaleBehaviour
+  commentId: T:Global.POIScaleBehaviour
+  name: POIScaleBehaviour
+  nameWithType: POIScaleBehaviour
+  fullName: POIScaleBehaviour
+- uid: Global.POIRotateBehaviour
+  commentId: T:Global.POIRotateBehaviour
+  name: POIRotateBehaviour
+  nameWithType: POIRotateBehaviour
+  fullName: POIRotateBehaviour
+- uid: Global.SelectableEditor
+  commentId: T:Global.SelectableEditor
+  name: SelectableEditor
+  nameWithType: SelectableEditor
+  fullName: SelectableEditor
+- uid: Global.AImageMarkerReactionBehaviour
+  commentId: T:Global.AImageMarkerReactionBehaviour
+  name: AImageMarkerReactionBehaviour
+  nameWithType: AImageMarkerReactionBehaviour
+  fullName: AImageMarkerReactionBehaviour
+- uid: Global.ImageMarkerLookup`1
+  commentId: T:Global.ImageMarkerLookup`1
+  name: ImageMarkerLookup<T>
+  nameWithType: ImageMarkerLookup<T>
+  fullName: ImageMarkerLookup<T>
+  nameWithType.vb: ImageMarkerLookup(Of T)
+  fullName.vb: ImageMarkerLookup(Of T)
+  name.vb: ImageMarkerLookup(Of T)
+  spec.csharp:
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AImageMarkerLookupData
+  commentId: T:Global.AImageMarkerLookupData
+  name: AImageMarkerLookupData
+  nameWithType: AImageMarkerLookupData
+  fullName: AImageMarkerLookupData
+- uid: Global.ImageMarkerDetector
+  commentId: T:Global.ImageMarkerDetector
+  name: ImageMarkerDetector
+  nameWithType: ImageMarkerDetector
+  fullName: ImageMarkerDetector
+- uid: Global.LessonSceneLookup
+  commentId: T:Global.LessonSceneLookup
+  name: LessonSceneLookup
+  nameWithType: LessonSceneLookup
+  fullName: LessonSceneLookup
+- uid: Global.LessonSceneLoadData
+  commentId: T:Global.LessonSceneLoadData
+  name: LessonSceneLoadData
+  nameWithType: LessonSceneLoadData
+  fullName: LessonSceneLoadData
+- uid: Global.SceneLoadMarkerReactionBehaviour
+  commentId: T:Global.SceneLoadMarkerReactionBehaviour
+  name: SceneLoadMarkerReactionBehaviour
+  nameWithType: SceneLoadMarkerReactionBehaviour
+  fullName: SceneLoadMarkerReactionBehaviour
+- uid: Global.ManualSceneLoadWindow
+  commentId: T:Global.ManualSceneLoadWindow
+  name: ManualSceneLoadWindow
+  nameWithType: ManualSceneLoadWindow
+  fullName: ManualSceneLoadWindow
+- uid: Global.LessonLoaderWindow
+  commentId: T:Global.LessonLoaderWindow
+  name: LessonLoaderWindow
+  nameWithType: LessonLoaderWindow
+  fullName: LessonLoaderWindow
+- uid: Global.ARSupportCheck
+  commentId: T:Global.ARSupportCheck
+  name: ARSupportCheck
+  nameWithType: ARSupportCheck
+  fullName: ARSupportCheck
+- uid: Global.TrackedImageLerper
+  commentId: T:Global.TrackedImageLerper
+  name: TrackedImageLerper
+  nameWithType: TrackedImageLerper
+  fullName: TrackedImageLerper
+- uid: Global.ReferenceImageLibraryManager
+  commentId: T:Global.ReferenceImageLibraryManager
+  name: ReferenceImageLibraryManager
+  nameWithType: ReferenceImageLibraryManager
+  fullName: ReferenceImageLibraryManager
+- uid: Global.ReferenceLibrarySignature
+  commentId: T:Global.ReferenceLibrarySignature
+  name: ReferenceLibrarySignature
+  nameWithType: ReferenceLibrarySignature
+  fullName: ReferenceLibrarySignature
+- uid: Global.TrackedImagePrefabScaler
+  commentId: T:Global.TrackedImagePrefabScaler
+  name: TrackedImagePrefabScaler
+  nameWithType: TrackedImagePrefabScaler
+  fullName: TrackedImagePrefabScaler
+- uid: Global.TrackedImageDebugToggle
+  commentId: T:Global.TrackedImageDebugToggle
+  name: TrackedImageDebugToggle
+  nameWithType: TrackedImageDebugToggle
+  fullName: TrackedImageDebugToggle
+- uid: Global.TextureToPrefabMapper
+  commentId: T:Global.TextureToPrefabMapper
+  name: TextureToPrefabMapper
+  nameWithType: TextureToPrefabMapper
+  fullName: TextureToPrefabMapper
+- uid: Global.TextureToPrefabPreset
+  commentId: T:Global.TextureToPrefabPreset
+  name: TextureToPrefabPreset
+  nameWithType: TextureToPrefabPreset
+  fullName: TextureToPrefabPreset
+- uid: Global.ImageTrackingObjectManager
+  commentId: T:Global.ImageTrackingObjectManager
+  name: ImageTrackingObjectManager
+  nameWithType: ImageTrackingObjectManager
+  fullName: ImageTrackingObjectManager

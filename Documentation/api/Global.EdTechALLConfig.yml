@@ -1,0 +1,292 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EdTechALLConfig
+  commentId: T:Global.EdTechALLConfig
+  id: EdTechALLConfig
+  parent: Global
+  children:
+  - Global.EdTechALLConfig.hasPrefabMapper
+  - Global.EdTechALLConfig.hasReferenceLibrary
+  - Global.EdTechALLConfig.prefabMapper
+  - Global.EdTechALLConfig.prefabMapperChanged
+  - Global.EdTechALLConfig.referenceLibrary
+  - Global.EdTechALLConfig.referenceLibraryChanged
+  langs:
+  - csharp
+  - vb
+  name: EdTechALLConfig
+  nameWithType: EdTechALLConfig
+  fullName: EdTechALLConfig
+  type: Class
+  source:
+    id: EdTechALLConfig
+    path: ''
+    startLine: 21007
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class EdTechALLConfig
+    content.vb: Public Module EdTechALLConfig
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.EdTechALLConfig.referenceLibraryChanged
+  commentId: F:Global.EdTechALLConfig.referenceLibraryChanged
+  id: referenceLibraryChanged
+  parent: Global.EdTechALLConfig
+  langs:
+  - csharp
+  - vb
+  name: referenceLibraryChanged
+  nameWithType: EdTechALLConfig.referenceLibraryChanged
+  fullName: EdTechALLConfig.referenceLibraryChanged
+  type: Field
+  source:
+    id: referenceLibraryChanged
+    path: ''
+    startLine: 21009
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static UnityEvent referenceLibraryChanged
+    return:
+      type: Global.UnityEvent
+    content.vb: Public Shared referenceLibraryChanged As UnityEvent
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EdTechALLConfig.hasReferenceLibrary
+  commentId: P:Global.EdTechALLConfig.hasReferenceLibrary
+  id: hasReferenceLibrary
+  parent: Global.EdTechALLConfig
+  langs:
+  - csharp
+  - vb
+  name: hasReferenceLibrary
+  nameWithType: EdTechALLConfig.hasReferenceLibrary
+  fullName: EdTechALLConfig.hasReferenceLibrary
+  type: Property
+  source:
+    id: hasReferenceLibrary
+    path: ''
+    startLine: 21010
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool hasReferenceLibrary { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property hasReferenceLibrary As Boolean
+  overload: Global.EdTechALLConfig.hasReferenceLibrary*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.EdTechALLConfig.referenceLibrary
+  commentId: P:Global.EdTechALLConfig.referenceLibrary
+  id: referenceLibrary
+  parent: Global.EdTechALLConfig
+  langs:
+  - csharp
+  - vb
+  name: referenceLibrary
+  nameWithType: EdTechALLConfig.referenceLibrary
+  fullName: EdTechALLConfig.referenceLibrary
+  type: Property
+  source:
+    id: referenceLibrary
+    path: ''
+    startLine: 21012
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static ReferenceLibrarySignature referenceLibrary { get; set; }
+    parameters: []
+    return:
+      type: Global.ReferenceLibrarySignature
+    content.vb: Public Shared Property referenceLibrary As ReferenceLibrarySignature
+  overload: Global.EdTechALLConfig.referenceLibrary*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EdTechALLConfig.prefabMapperChanged
+  commentId: F:Global.EdTechALLConfig.prefabMapperChanged
+  id: prefabMapperChanged
+  parent: Global.EdTechALLConfig
+  langs:
+  - csharp
+  - vb
+  name: prefabMapperChanged
+  nameWithType: EdTechALLConfig.prefabMapperChanged
+  fullName: EdTechALLConfig.prefabMapperChanged
+  type: Field
+  source:
+    id: prefabMapperChanged
+    path: ''
+    startLine: 21028
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static UnityEvent prefabMapperChanged
+    return:
+      type: Global.UnityEvent
+    content.vb: Public Shared prefabMapperChanged As UnityEvent
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EdTechALLConfig.hasPrefabMapper
+  commentId: P:Global.EdTechALLConfig.hasPrefabMapper
+  id: hasPrefabMapper
+  parent: Global.EdTechALLConfig
+  langs:
+  - csharp
+  - vb
+  name: hasPrefabMapper
+  nameWithType: EdTechALLConfig.hasPrefabMapper
+  fullName: EdTechALLConfig.hasPrefabMapper
+  type: Property
+  source:
+    id: hasPrefabMapper
+    path: ''
+    startLine: 21029
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool hasPrefabMapper { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Shared ReadOnly Property hasPrefabMapper As Boolean
+  overload: Global.EdTechALLConfig.hasPrefabMapper*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.EdTechALLConfig.prefabMapper
+  commentId: P:Global.EdTechALLConfig.prefabMapper
+  id: prefabMapper
+  parent: Global.EdTechALLConfig
+  langs:
+  - csharp
+  - vb
+  name: prefabMapper
+  nameWithType: EdTechALLConfig.prefabMapper
+  fullName: EdTechALLConfig.prefabMapper
+  type: Property
+  source:
+    id: prefabMapper
+    path: ''
+    startLine: 21031
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static TextureToPrefabMapper prefabMapper { get; set; }
+    parameters: []
+    return:
+      type: Global.TextureToPrefabMapper
+    content.vb: Public Shared Property prefabMapper As TextureToPrefabMapper
+  overload: Global.EdTechALLConfig.prefabMapper*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnityEvent
+  isExternal: true
+  name: UnityEvent
+  nameWithType: UnityEvent
+  fullName: UnityEvent
+- uid: Global.EdTechALLConfig.hasReferenceLibrary*
+  commentId: Overload:Global.EdTechALLConfig.hasReferenceLibrary
+  name: hasReferenceLibrary
+  nameWithType: EdTechALLConfig.hasReferenceLibrary
+  fullName: EdTechALLConfig.hasReferenceLibrary
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.EdTechALLConfig.referenceLibrary*
+  commentId: Overload:Global.EdTechALLConfig.referenceLibrary
+  name: referenceLibrary
+  nameWithType: EdTechALLConfig.referenceLibrary
+  fullName: EdTechALLConfig.referenceLibrary
+- uid: Global.ReferenceLibrarySignature
+  commentId: T:Global.ReferenceLibrarySignature
+  name: ReferenceLibrarySignature
+  nameWithType: ReferenceLibrarySignature
+  fullName: ReferenceLibrarySignature
+- uid: Global.EdTechALLConfig.hasPrefabMapper*
+  commentId: Overload:Global.EdTechALLConfig.hasPrefabMapper
+  name: hasPrefabMapper
+  nameWithType: EdTechALLConfig.hasPrefabMapper
+  fullName: EdTechALLConfig.hasPrefabMapper
+- uid: Global.EdTechALLConfig.prefabMapper*
+  commentId: Overload:Global.EdTechALLConfig.prefabMapper
+  name: prefabMapper
+  nameWithType: EdTechALLConfig.prefabMapper
+  fullName: EdTechALLConfig.prefabMapper
+- uid: Global.TextureToPrefabMapper
+  commentId: T:Global.TextureToPrefabMapper
+  name: TextureToPrefabMapper
+  nameWithType: TextureToPrefabMapper
+  fullName: TextureToPrefabMapper

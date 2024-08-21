@@ -1,0 +1,123 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SampleDataSaving
+  commentId: T:Global.SampleDataSaving
+  id: SampleDataSaving
+  parent: Global
+  children:
+  - Global.SampleDataSaving.sample
+  - Global.SampleDataSaving.savePath
+  langs:
+  - csharp
+  - vb
+  name: SampleDataSaving
+  nameWithType: SampleDataSaving
+  fullName: SampleDataSaving
+  type: Class
+  source:
+    id: SampleDataSaving
+    path: ''
+    startLine: 16719
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SampleDataSaving : MonoBehaviour'
+    content.vb: >-
+      Public Class SampleDataSaving
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SampleDataSaving.savePath
+  commentId: F:Global.SampleDataSaving.savePath
+  id: savePath
+  parent: Global.SampleDataSaving
+  langs:
+  - csharp
+  - vb
+  name: savePath
+  nameWithType: SampleDataSaving.savePath
+  fullName: SampleDataSaving.savePath
+  type: Field
+  source:
+    id: savePath
+    path: ''
+    startLine: 16721
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string savePath
+    return:
+      type: System.String
+    content.vb: Public savePath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SampleDataSaving.sample
+  commentId: F:Global.SampleDataSaving.sample
+  id: sample
+  parent: Global.SampleDataSaving
+  langs:
+  - csharp
+  - vb
+  name: sample
+  nameWithType: SampleDataSaving.sample
+  fullName: SampleDataSaving.sample
+  type: Field
+  source:
+    id: sample
+    path: ''
+    startLine: 16722
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public SampleData sample
+    return:
+      type: Global.SampleData
+    content.vb: Public sample As SampleData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.SampleData
+  commentId: T:Global.SampleData
+  name: SampleData
+  nameWithType: SampleData
+  fullName: SampleData

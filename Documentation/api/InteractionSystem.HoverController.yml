@@ -1,0 +1,168 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.HoverController
+  commentId: T:InteractionSystem.HoverController
+  id: HoverController
+  parent: InteractionSystem
+  children:
+  - InteractionSystem.HoverController.hovered
+  - InteractionSystem.HoverController.OnHoverEnter
+  - InteractionSystem.HoverController.OnHoverExit
+  langs:
+  - csharp
+  - vb
+  name: HoverController
+  nameWithType: HoverController
+  fullName: InteractionSystem.HoverController
+  type: Class
+  source:
+    id: HoverController
+    path: ''
+    startLine: 23641
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static class HoverController
+    content.vb: Public Module HoverController
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: InteractionSystem.HoverController.OnHoverEnter
+  commentId: F:InteractionSystem.HoverController.OnHoverEnter
+  id: OnHoverEnter
+  parent: InteractionSystem.HoverController
+  langs:
+  - csharp
+  - vb
+  name: OnHoverEnter
+  nameWithType: HoverController.OnHoverEnter
+  fullName: InteractionSystem.HoverController.OnHoverEnter
+  type: Field
+  source:
+    id: OnHoverEnter
+    path: ''
+    startLine: 23643
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static InteractableEvent OnHoverEnter
+    return:
+      type: InteractionSystem.Interactable.InteractableEvent
+    content.vb: Public Shared OnHoverEnter As InteractableEvent
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: InteractionSystem.HoverController.OnHoverExit
+  commentId: F:InteractionSystem.HoverController.OnHoverExit
+  id: OnHoverExit
+  parent: InteractionSystem.HoverController
+  langs:
+  - csharp
+  - vb
+  name: OnHoverExit
+  nameWithType: HoverController.OnHoverExit
+  fullName: InteractionSystem.HoverController.OnHoverExit
+  type: Field
+  source:
+    id: OnHoverExit
+    path: ''
+    startLine: 23644
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static InteractableEvent OnHoverExit
+    return:
+      type: InteractionSystem.Interactable.InteractableEvent
+    content.vb: Public Shared OnHoverExit As InteractableEvent
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: InteractionSystem.HoverController.hovered
+  commentId: P:InteractionSystem.HoverController.hovered
+  id: hovered
+  parent: InteractionSystem.HoverController
+  langs:
+  - csharp
+  - vb
+  name: hovered
+  nameWithType: HoverController.hovered
+  fullName: InteractionSystem.HoverController.hovered
+  type: Property
+  source:
+    id: hovered
+    path: ''
+    startLine: 23646
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static Interactable hovered { get; set; }
+    parameters: []
+    return:
+      type: InteractionSystem.Interactable.Interactable
+    content.vb: Public Shared Property hovered As Interactable
+  overload: InteractionSystem.HoverController.hovered*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  - set
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: InteractionSystem.Interactable.InteractableEvent
+  commentId: T:InteractionSystem.Interactable.InteractableEvent
+  parent: InteractionSystem.Interactable
+  name: InteractableEvent
+  nameWithType: InteractableEvent
+  fullName: InteractionSystem.Interactable.InteractableEvent
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+- uid: InteractionSystem.HoverController.hovered*
+  commentId: Overload:InteractionSystem.HoverController.hovered
+  name: hovered
+  nameWithType: HoverController.hovered
+  fullName: InteractionSystem.HoverController.hovered
+- uid: InteractionSystem.Interactable.Interactable
+  commentId: T:InteractionSystem.Interactable.Interactable
+  parent: InteractionSystem.Interactable
+  name: Interactable
+  nameWithType: Interactable
+  fullName: InteractionSystem.Interactable.Interactable

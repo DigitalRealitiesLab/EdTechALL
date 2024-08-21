@@ -1,0 +1,239 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.EventId.CardEvents
+  commentId: T:CardModule.EventId.CardEvents
+  id: EventId.CardEvents
+  parent: CardModule
+  children:
+  - CardModule.EventId.CardEvents.CollectCard
+  - CardModule.EventId.CardEvents.DisplayCard
+  - CardModule.EventId.CardEvents.LoadLastUnlockableGroup
+  - CardModule.EventId.CardEvents.RequestActiveCardCount
+  - CardModule.EventId.CardEvents.RequestAddToUnlockables
+  - CardModule.EventId.CardEvents.SetActiveCardCount
+  langs:
+  - csharp
+  - vb
+  name: EventId.CardEvents
+  nameWithType: EventId.CardEvents
+  fullName: CardModule.EventId.CardEvents
+  type: Class
+  source:
+    id: CardEvents
+    path: ''
+    startLine: 19555
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public static class CardEvents
+    content.vb: Public Module CardEvents
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: CardModule.EventId.CardEvents.CollectCard
+  commentId: F:CardModule.EventId.CardEvents.CollectCard
+  id: CollectCard
+  parent: CardModule.EventId.CardEvents
+  langs:
+  - csharp
+  - vb
+  name: CollectCard
+  nameWithType: EventId.CardEvents.CollectCard
+  fullName: CardModule.EventId.CardEvents.CollectCard
+  type: Field
+  source:
+    id: CollectCard
+    path: ''
+    startLine: 19557
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public const string CollectCard = "CollectCard"
+    return:
+      type: System.String
+    content.vb: Public Const CollectCard As String = "CollectCard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.EventId.CardEvents.DisplayCard
+  commentId: F:CardModule.EventId.CardEvents.DisplayCard
+  id: DisplayCard
+  parent: CardModule.EventId.CardEvents
+  langs:
+  - csharp
+  - vb
+  name: DisplayCard
+  nameWithType: EventId.CardEvents.DisplayCard
+  fullName: CardModule.EventId.CardEvents.DisplayCard
+  type: Field
+  source:
+    id: DisplayCard
+    path: ''
+    startLine: 19558
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public const string DisplayCard = "DisplayCard"
+    return:
+      type: System.String
+    content.vb: Public Const DisplayCard As String = "DisplayCard"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.EventId.CardEvents.RequestAddToUnlockables
+  commentId: F:CardModule.EventId.CardEvents.RequestAddToUnlockables
+  id: RequestAddToUnlockables
+  parent: CardModule.EventId.CardEvents
+  langs:
+  - csharp
+  - vb
+  name: RequestAddToUnlockables
+  nameWithType: EventId.CardEvents.RequestAddToUnlockables
+  fullName: CardModule.EventId.CardEvents.RequestAddToUnlockables
+  type: Field
+  source:
+    id: RequestAddToUnlockables
+    path: ''
+    startLine: 19559
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public const string RequestAddToUnlockables = "RequestAddToUnlockables"
+    return:
+      type: System.String
+    content.vb: Public Const RequestAddToUnlockables As String = "RequestAddToUnlockables"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.EventId.CardEvents.LoadLastUnlockableGroup
+  commentId: F:CardModule.EventId.CardEvents.LoadLastUnlockableGroup
+  id: LoadLastUnlockableGroup
+  parent: CardModule.EventId.CardEvents
+  langs:
+  - csharp
+  - vb
+  name: LoadLastUnlockableGroup
+  nameWithType: EventId.CardEvents.LoadLastUnlockableGroup
+  fullName: CardModule.EventId.CardEvents.LoadLastUnlockableGroup
+  type: Field
+  source:
+    id: LoadLastUnlockableGroup
+    path: ''
+    startLine: 19560
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public const string LoadLastUnlockableGroup = "LoadLastUnlockableGroup"
+    return:
+      type: System.String
+    content.vb: Public Const LoadLastUnlockableGroup As String = "LoadLastUnlockableGroup"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.EventId.CardEvents.SetActiveCardCount
+  commentId: F:CardModule.EventId.CardEvents.SetActiveCardCount
+  id: SetActiveCardCount
+  parent: CardModule.EventId.CardEvents
+  langs:
+  - csharp
+  - vb
+  name: SetActiveCardCount
+  nameWithType: EventId.CardEvents.SetActiveCardCount
+  fullName: CardModule.EventId.CardEvents.SetActiveCardCount
+  type: Field
+  source:
+    id: SetActiveCardCount
+    path: ''
+    startLine: 19561
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public const string SetActiveCardCount = "SetActiveCardCount"
+    return:
+      type: System.String
+    content.vb: Public Const SetActiveCardCount As String = "SetActiveCardCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.EventId.CardEvents.RequestActiveCardCount
+  commentId: F:CardModule.EventId.CardEvents.RequestActiveCardCount
+  id: RequestActiveCardCount
+  parent: CardModule.EventId.CardEvents
+  langs:
+  - csharp
+  - vb
+  name: RequestActiveCardCount
+  nameWithType: EventId.CardEvents.RequestActiveCardCount
+  fullName: CardModule.EventId.CardEvents.RequestActiveCardCount
+  type: Field
+  source:
+    id: RequestActiveCardCount
+    path: ''
+    startLine: 19562
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public const string RequestActiveCardCount = "RequestActiveCardCount"
+    return:
+      type: System.String
+    content.vb: Public Const RequestActiveCardCount As String = "RequestActiveCardCount"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

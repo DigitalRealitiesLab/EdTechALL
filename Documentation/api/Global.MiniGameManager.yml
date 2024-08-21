@@ -1,0 +1,334 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MiniGameManager
+  commentId: T:Global.MiniGameManager
+  id: MiniGameManager
+  parent: Global
+  children:
+  - Global.MiniGameManager.AbortActiveMiniGame
+  - Global.MiniGameManager.activeMiniGame
+  - Global.MiniGameManager.cardDataLoader
+  - Global.MiniGameManager.ExitActiveMiniGame
+  - Global.MiniGameManager.miniGameConfig
+  - Global.MiniGameManager.prefabLookup
+  - Global.MiniGameManager.StartMiniGame
+  - Global.MiniGameManager.UIController
+  langs:
+  - csharp
+  - vb
+  name: MiniGameManager
+  nameWithType: MiniGameManager
+  fullName: MiniGameManager
+  type: Class
+  source:
+    id: MiniGameManager
+    path: ''
+    startLine: 14766
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MiniGameManager : MonoBehaviour'
+    content.vb: >-
+      Public Class MiniGameManager
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MiniGameManager.cardDataLoader
+  commentId: F:Global.MiniGameManager.cardDataLoader
+  id: cardDataLoader
+  parent: Global.MiniGameManager
+  langs:
+  - csharp
+  - vb
+  name: cardDataLoader
+  nameWithType: MiniGameManager.cardDataLoader
+  fullName: MiniGameManager.cardDataLoader
+  type: Field
+  source:
+    id: cardDataLoader
+    path: ''
+    startLine: 14770
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public CardDataLoader cardDataLoader
+    return:
+      type: Global.CardDataLoader
+    content.vb: Public cardDataLoader As CardDataLoader
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameManager.prefabLookup
+  commentId: F:Global.MiniGameManager.prefabLookup
+  id: prefabLookup
+  parent: Global.MiniGameManager
+  langs:
+  - csharp
+  - vb
+  name: prefabLookup
+  nameWithType: MiniGameManager.prefabLookup
+  fullName: MiniGameManager.prefabLookup
+  type: Field
+  source:
+    id: prefabLookup
+    path: ''
+    startLine: 14771
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGamePrefabLookup prefabLookup
+    return:
+      type: Global.MiniGamePrefabLookup
+    content.vb: Public prefabLookup As MiniGamePrefabLookup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameManager.UIController
+  commentId: F:Global.MiniGameManager.UIController
+  id: UIController
+  parent: Global.MiniGameManager
+  langs:
+  - csharp
+  - vb
+  name: UIController
+  nameWithType: MiniGameManager.UIController
+  fullName: MiniGameManager.UIController
+  type: Field
+  source:
+    id: UIController
+    path: ''
+    startLine: 14772
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameUIController UIController
+    return:
+      type: Global.MiniGameUIController
+    content.vb: Public UIController As MiniGameUIController
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameManager.miniGameConfig
+  commentId: P:Global.MiniGameManager.miniGameConfig
+  id: miniGameConfig
+  parent: Global.MiniGameManager
+  langs:
+  - csharp
+  - vb
+  name: miniGameConfig
+  nameWithType: MiniGameManager.miniGameConfig
+  fullName: MiniGameManager.miniGameConfig
+  type: Property
+  source:
+    id: miniGameConfig
+    path: ''
+    startLine: 14774
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MiniGameConfig miniGameConfig { get; set; }
+    parameters: []
+    return:
+      type: Global.MiniGameConfig
+    content.vb: Public Property miniGameConfig As MiniGameConfig
+  overload: Global.MiniGameManager.miniGameConfig*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameManager.activeMiniGame
+  commentId: P:Global.MiniGameManager.activeMiniGame
+  id: activeMiniGame
+  parent: Global.MiniGameManager
+  langs:
+  - csharp
+  - vb
+  name: activeMiniGame
+  nameWithType: MiniGameManager.activeMiniGame
+  fullName: MiniGameManager.activeMiniGame
+  type: Property
+  source:
+    id: activeMiniGame
+    path: ''
+    startLine: 14775
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AMiniGame activeMiniGame { get; }
+    parameters: []
+    return:
+      type: Global.AMiniGame
+    content.vb: Public ReadOnly Property activeMiniGame As AMiniGame
+  overload: Global.MiniGameManager.activeMiniGame*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.MiniGameManager.StartMiniGame
+  commentId: M:Global.MiniGameManager.StartMiniGame
+  id: StartMiniGame
+  parent: Global.MiniGameManager
+  langs:
+  - csharp
+  - vb
+  name: StartMiniGame()
+  nameWithType: MiniGameManager.StartMiniGame()
+  fullName: MiniGameManager.StartMiniGame()
+  type: Method
+  source:
+    id: StartMiniGame
+    path: ''
+    startLine: 14785
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void StartMiniGame()
+    content.vb: Public Sub StartMiniGame
+  overload: Global.MiniGameManager.StartMiniGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameManager.ExitActiveMiniGame
+  commentId: M:Global.MiniGameManager.ExitActiveMiniGame
+  id: ExitActiveMiniGame
+  parent: Global.MiniGameManager
+  langs:
+  - csharp
+  - vb
+  name: ExitActiveMiniGame()
+  nameWithType: MiniGameManager.ExitActiveMiniGame()
+  fullName: MiniGameManager.ExitActiveMiniGame()
+  type: Method
+  source:
+    id: ExitActiveMiniGame
+    path: ''
+    startLine: 14806
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void ExitActiveMiniGame()
+    content.vb: Public Sub ExitActiveMiniGame
+  overload: Global.MiniGameManager.ExitActiveMiniGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MiniGameManager.AbortActiveMiniGame
+  commentId: M:Global.MiniGameManager.AbortActiveMiniGame
+  id: AbortActiveMiniGame
+  parent: Global.MiniGameManager
+  langs:
+  - csharp
+  - vb
+  name: AbortActiveMiniGame()
+  nameWithType: MiniGameManager.AbortActiveMiniGame()
+  fullName: MiniGameManager.AbortActiveMiniGame()
+  type: Method
+  source:
+    id: AbortActiveMiniGame
+    path: ''
+    startLine: 14818
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void AbortActiveMiniGame()
+    content.vb: Public Sub AbortActiveMiniGame
+  overload: Global.MiniGameManager.AbortActiveMiniGame*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.CardDataLoader
+  isExternal: true
+  name: CardDataLoader
+  nameWithType: CardDataLoader
+  fullName: CardDataLoader
+- uid: Global.MiniGamePrefabLookup
+  commentId: T:Global.MiniGamePrefabLookup
+  name: MiniGamePrefabLookup
+  nameWithType: MiniGamePrefabLookup
+  fullName: MiniGamePrefabLookup
+- uid: Global.MiniGameUIController
+  commentId: T:Global.MiniGameUIController
+  name: MiniGameUIController
+  nameWithType: MiniGameUIController
+  fullName: MiniGameUIController
+- uid: Global.MiniGameManager.miniGameConfig*
+  commentId: Overload:Global.MiniGameManager.miniGameConfig
+  name: miniGameConfig
+  nameWithType: MiniGameManager.miniGameConfig
+  fullName: MiniGameManager.miniGameConfig
+- uid: Global.MiniGameConfig
+  isExternal: true
+  name: MiniGameConfig
+  nameWithType: MiniGameConfig
+  fullName: MiniGameConfig
+- uid: Global.MiniGameManager.activeMiniGame*
+  commentId: Overload:Global.MiniGameManager.activeMiniGame
+  name: activeMiniGame
+  nameWithType: MiniGameManager.activeMiniGame
+  fullName: MiniGameManager.activeMiniGame
+- uid: Global.AMiniGame
+  commentId: T:Global.AMiniGame
+  name: AMiniGame
+  nameWithType: AMiniGame
+  fullName: AMiniGame
+- uid: Global.MiniGameManager.StartMiniGame*
+  commentId: Overload:Global.MiniGameManager.StartMiniGame
+  name: StartMiniGame
+  nameWithType: MiniGameManager.StartMiniGame
+  fullName: MiniGameManager.StartMiniGame
+- uid: Global.MiniGameManager.ExitActiveMiniGame*
+  commentId: Overload:Global.MiniGameManager.ExitActiveMiniGame
+  name: ExitActiveMiniGame
+  nameWithType: MiniGameManager.ExitActiveMiniGame
+  fullName: MiniGameManager.ExitActiveMiniGame
+- uid: Global.MiniGameManager.AbortActiveMiniGame*
+  commentId: Overload:Global.MiniGameManager.AbortActiveMiniGame
+  name: AbortActiveMiniGame
+  nameWithType: MiniGameManager.AbortActiveMiniGame
+  fullName: MiniGameManager.AbortActiveMiniGame

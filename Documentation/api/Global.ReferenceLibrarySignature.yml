@@ -1,0 +1,489 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.ReferenceLibrarySignature
+  commentId: T:Global.ReferenceLibrarySignature
+  id: ReferenceLibrarySignature
+  parent: Global
+  children:
+  - Global.ReferenceLibrarySignature.Equals(System.Object)
+  - Global.ReferenceLibrarySignature.GetHashCode
+  - Global.ReferenceLibrarySignature.op_Equality(ReferenceLibrarySignature,ReferenceLibrarySignature)
+  - Global.ReferenceLibrarySignature.op_Inequality(ReferenceLibrarySignature,ReferenceLibrarySignature)
+  - Global.ReferenceLibrarySignature.texture
+  - Global.ReferenceLibrarySignature.textureName
+  - Global.ReferenceLibrarySignature.ToString
+  - Global.ReferenceLibrarySignature.widthInMeters
+  langs:
+  - csharp
+  - vb
+  name: ReferenceLibrarySignature
+  nameWithType: ReferenceLibrarySignature
+  fullName: ReferenceLibrarySignature
+  type: Struct
+  source:
+    id: ReferenceLibrarySignature
+    path: ''
+    startLine: 25440
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct ReferenceLibrarySignature
+    content.vb: >-
+      <Serializable>
+
+      Public Structure ReferenceLibrarySignature
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.ReferenceLibrarySignature.texture
+  commentId: F:Global.ReferenceLibrarySignature.texture
+  id: texture
+  parent: Global.ReferenceLibrarySignature
+  langs:
+  - csharp
+  - vb
+  name: texture
+  nameWithType: ReferenceLibrarySignature.texture
+  fullName: ReferenceLibrarySignature.texture
+  type: Field
+  source:
+    id: texture
+    path: ''
+    startLine: 25443
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D texture
+    return:
+      type: Global.Texture2D
+    content.vb: Public texture As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ReferenceLibrarySignature.textureName
+  commentId: F:Global.ReferenceLibrarySignature.textureName
+  id: textureName
+  parent: Global.ReferenceLibrarySignature
+  langs:
+  - csharp
+  - vb
+  name: textureName
+  nameWithType: ReferenceLibrarySignature.textureName
+  fullName: ReferenceLibrarySignature.textureName
+  type: Field
+  source:
+    id: textureName
+    path: ''
+    startLine: 25444
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string textureName
+    return:
+      type: System.String
+    content.vb: Public textureName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ReferenceLibrarySignature.widthInMeters
+  commentId: F:Global.ReferenceLibrarySignature.widthInMeters
+  id: widthInMeters
+  parent: Global.ReferenceLibrarySignature
+  langs:
+  - csharp
+  - vb
+  name: widthInMeters
+  nameWithType: ReferenceLibrarySignature.widthInMeters
+  fullName: ReferenceLibrarySignature.widthInMeters
+  type: Field
+  source:
+    id: widthInMeters
+    path: ''
+    startLine: 25445
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float widthInMeters
+    return:
+      type: System.Single
+    content.vb: Public widthInMeters As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.ReferenceLibrarySignature.Equals(System.Object)
+  commentId: M:Global.ReferenceLibrarySignature.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Global.ReferenceLibrarySignature
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: ReferenceLibrarySignature.Equals(Object)
+  fullName: ReferenceLibrarySignature.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 25447
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.ValueType.Equals(System.Object)
+  overload: Global.ReferenceLibrarySignature.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.ReferenceLibrarySignature.GetHashCode
+  commentId: M:Global.ReferenceLibrarySignature.GetHashCode
+  id: GetHashCode
+  parent: Global.ReferenceLibrarySignature
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: ReferenceLibrarySignature.GetHashCode()
+  fullName: ReferenceLibrarySignature.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 25454
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.ValueType.GetHashCode
+  overload: Global.ReferenceLibrarySignature.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.ReferenceLibrarySignature.op_Equality(ReferenceLibrarySignature,ReferenceLibrarySignature)
+  commentId: M:Global.ReferenceLibrarySignature.op_Equality(ReferenceLibrarySignature,ReferenceLibrarySignature)
+  id: op_Equality(ReferenceLibrarySignature,ReferenceLibrarySignature)
+  parent: Global.ReferenceLibrarySignature
+  langs:
+  - csharp
+  - vb
+  name: Equality(ReferenceLibrarySignature, ReferenceLibrarySignature)
+  nameWithType: ReferenceLibrarySignature.Equality(ReferenceLibrarySignature, ReferenceLibrarySignature)
+  fullName: ReferenceLibrarySignature.Equality(ReferenceLibrarySignature, ReferenceLibrarySignature)
+  type: Operator
+  source:
+    id: op_Equality
+    path: ''
+    startLine: 25459
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool operator ==(ReferenceLibrarySignature left, ReferenceLibrarySignature right)
+    parameters:
+    - id: left
+      type: Global.ReferenceLibrarySignature
+    - id: right
+      type: Global.ReferenceLibrarySignature
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator =(left As ReferenceLibrarySignature, right As ReferenceLibrarySignature) As Boolean
+  overload: Global.ReferenceLibrarySignature.op_Equality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.ReferenceLibrarySignature.op_Inequality(ReferenceLibrarySignature,ReferenceLibrarySignature)
+  commentId: M:Global.ReferenceLibrarySignature.op_Inequality(ReferenceLibrarySignature,ReferenceLibrarySignature)
+  id: op_Inequality(ReferenceLibrarySignature,ReferenceLibrarySignature)
+  parent: Global.ReferenceLibrarySignature
+  langs:
+  - csharp
+  - vb
+  name: Inequality(ReferenceLibrarySignature, ReferenceLibrarySignature)
+  nameWithType: ReferenceLibrarySignature.Inequality(ReferenceLibrarySignature, ReferenceLibrarySignature)
+  fullName: ReferenceLibrarySignature.Inequality(ReferenceLibrarySignature, ReferenceLibrarySignature)
+  type: Operator
+  source:
+    id: op_Inequality
+    path: ''
+    startLine: 25460
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool operator !=(ReferenceLibrarySignature left, ReferenceLibrarySignature right)
+    parameters:
+    - id: left
+      type: Global.ReferenceLibrarySignature
+    - id: right
+      type: Global.ReferenceLibrarySignature
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Operator <>(left As ReferenceLibrarySignature, right As ReferenceLibrarySignature) As Boolean
+  overload: Global.ReferenceLibrarySignature.op_Inequality*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.ReferenceLibrarySignature.ToString
+  commentId: M:Global.ReferenceLibrarySignature.ToString
+  id: ToString
+  parent: Global.ReferenceLibrarySignature
+  langs:
+  - csharp
+  - vb
+  name: ToString()
+  nameWithType: ReferenceLibrarySignature.ToString()
+  fullName: ReferenceLibrarySignature.ToString()
+  type: Method
+  source:
+    id: ToString
+    path: ''
+    startLine: 25462
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override string ToString()
+    return:
+      type: System.String
+    content.vb: Public Overrides Function ToString As String
+  overridden: System.ValueType.ToString
+  overload: Global.ReferenceLibrarySignature.ToString*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: System.ValueType.Equals(System.Object)
+  commentId: M:System.ValueType.Equals(System.Object)
+  parent: System.ValueType
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: ValueType.Equals(Object)
+  fullName: System.ValueType.Equals(System.Object)
+  spec.csharp:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.Equals(System.Object)
+    name: Equals
+    nameWithType: ValueType.Equals
+    fullName: System.ValueType.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ReferenceLibrarySignature.Equals*
+  commentId: Overload:Global.ReferenceLibrarySignature.Equals
+  name: Equals
+  nameWithType: ReferenceLibrarySignature.Equals
+  fullName: ReferenceLibrarySignature.Equals
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.ValueType
+  commentId: T:System.ValueType
+  parent: System
+  isExternal: true
+  name: ValueType
+  nameWithType: ValueType
+  fullName: System.ValueType
+- uid: System.ValueType.GetHashCode
+  commentId: M:System.ValueType.GetHashCode
+  parent: System.ValueType
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: ValueType.GetHashCode()
+  fullName: System.ValueType.GetHashCode()
+  spec.csharp:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.GetHashCode
+    name: GetHashCode
+    nameWithType: ValueType.GetHashCode
+    fullName: System.ValueType.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ReferenceLibrarySignature.GetHashCode*
+  commentId: Overload:Global.ReferenceLibrarySignature.GetHashCode
+  name: GetHashCode
+  nameWithType: ReferenceLibrarySignature.GetHashCode
+  fullName: ReferenceLibrarySignature.GetHashCode
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.ReferenceLibrarySignature.op_Equality*
+  commentId: Overload:Global.ReferenceLibrarySignature.op_Equality
+  name: Equality
+  nameWithType: ReferenceLibrarySignature.Equality
+  fullName: ReferenceLibrarySignature.Equality
+- uid: Global.ReferenceLibrarySignature
+  commentId: T:Global.ReferenceLibrarySignature
+  name: ReferenceLibrarySignature
+  nameWithType: ReferenceLibrarySignature
+  fullName: ReferenceLibrarySignature
+- uid: Global.ReferenceLibrarySignature.op_Inequality*
+  commentId: Overload:Global.ReferenceLibrarySignature.op_Inequality
+  name: Inequality
+  nameWithType: ReferenceLibrarySignature.Inequality
+  fullName: ReferenceLibrarySignature.Inequality
+- uid: System.ValueType.ToString
+  commentId: M:System.ValueType.ToString
+  parent: System.ValueType
+  isExternal: true
+  name: ToString()
+  nameWithType: ValueType.ToString()
+  fullName: System.ValueType.ToString()
+  spec.csharp:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.ValueType.ToString
+    name: ToString
+    nameWithType: ValueType.ToString
+    fullName: System.ValueType.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ReferenceLibrarySignature.ToString*
+  commentId: Overload:Global.ReferenceLibrarySignature.ToString
+  name: ToString
+  nameWithType: ReferenceLibrarySignature.ToString
+  fullName: ReferenceLibrarySignature.ToString

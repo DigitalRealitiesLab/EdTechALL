@@ -1,0 +1,393 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.InstructionPanel
+  commentId: T:Global.InstructionPanel
+  id: InstructionPanel
+  parent: Global
+  children:
+  - Global.InstructionPanel.activeIndex
+  - Global.InstructionPanel.defaultActiveIndex
+  - Global.InstructionPanel.instructionPanels
+  - Global.InstructionPanel.LayoutButtons
+  - Global.InstructionPanel.nextButton
+  - Global.InstructionPanel.NextInstruction
+  - Global.InstructionPanel.previousButton
+  - Global.InstructionPanel.PreviousInstruction
+  langs:
+  - csharp
+  - vb
+  name: InstructionPanel
+  nameWithType: InstructionPanel
+  fullName: InstructionPanel
+  type: Class
+  source:
+    id: InstructionPanel
+    path: ''
+    startLine: 20680
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class InstructionPanel : MonoBehaviour'
+    content.vb: >-
+      Public Class InstructionPanel
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.InstructionPanel.instructionPanels
+  commentId: F:Global.InstructionPanel.instructionPanels
+  id: instructionPanels
+  parent: Global.InstructionPanel
+  langs:
+  - csharp
+  - vb
+  name: instructionPanels
+  nameWithType: InstructionPanel.instructionPanels
+  fullName: InstructionPanel.instructionPanels
+  type: Field
+  source:
+    id: instructionPanels
+    path: ''
+    startLine: 20682
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public List<GameObject> instructionPanels
+    return:
+      type: Global.List{GameObject}
+    content.vb: Public instructionPanels As List(Of GameObject)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InstructionPanel.defaultActiveIndex
+  commentId: F:Global.InstructionPanel.defaultActiveIndex
+  id: defaultActiveIndex
+  parent: Global.InstructionPanel
+  langs:
+  - csharp
+  - vb
+  name: defaultActiveIndex
+  nameWithType: InstructionPanel.defaultActiveIndex
+  fullName: InstructionPanel.defaultActiveIndex
+  type: Field
+  source:
+    id: defaultActiveIndex
+    path: ''
+    startLine: 20684
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int defaultActiveIndex
+    return:
+      type: System.Int32
+    content.vb: Public defaultActiveIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InstructionPanel.activeIndex
+  commentId: P:Global.InstructionPanel.activeIndex
+  id: activeIndex
+  parent: Global.InstructionPanel
+  langs:
+  - csharp
+  - vb
+  name: activeIndex
+  nameWithType: InstructionPanel.activeIndex
+  fullName: InstructionPanel.activeIndex
+  type: Property
+  source:
+    id: activeIndex
+    path: ''
+    startLine: 20686
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int activeIndex { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property activeIndex As Integer
+  overload: Global.InstructionPanel.activeIndex*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Global.InstructionPanel.nextButton
+  commentId: F:Global.InstructionPanel.nextButton
+  id: nextButton
+  parent: Global.InstructionPanel
+  langs:
+  - csharp
+  - vb
+  name: nextButton
+  nameWithType: InstructionPanel.nextButton
+  fullName: InstructionPanel.nextButton
+  type: Field
+  source:
+    id: nextButton
+    path: ''
+    startLine: 20700
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button nextButton
+    return:
+      type: Global.Button
+    content.vb: Public nextButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InstructionPanel.previousButton
+  commentId: F:Global.InstructionPanel.previousButton
+  id: previousButton
+  parent: Global.InstructionPanel
+  langs:
+  - csharp
+  - vb
+  name: previousButton
+  nameWithType: InstructionPanel.previousButton
+  fullName: InstructionPanel.previousButton
+  type: Field
+  source:
+    id: previousButton
+    path: ''
+    startLine: 20701
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button previousButton
+    return:
+      type: Global.Button
+    content.vb: Public previousButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InstructionPanel.NextInstruction
+  commentId: M:Global.InstructionPanel.NextInstruction
+  id: NextInstruction
+  parent: Global.InstructionPanel
+  langs:
+  - csharp
+  - vb
+  name: NextInstruction()
+  nameWithType: InstructionPanel.NextInstruction()
+  fullName: InstructionPanel.NextInstruction()
+  type: Method
+  source:
+    id: NextInstruction
+    path: ''
+    startLine: 20711
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void NextInstruction()
+    content.vb: Public Sub NextInstruction
+  overload: Global.InstructionPanel.NextInstruction*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InstructionPanel.PreviousInstruction
+  commentId: M:Global.InstructionPanel.PreviousInstruction
+  id: PreviousInstruction
+  parent: Global.InstructionPanel
+  langs:
+  - csharp
+  - vb
+  name: PreviousInstruction()
+  nameWithType: InstructionPanel.PreviousInstruction()
+  fullName: InstructionPanel.PreviousInstruction()
+  type: Method
+  source:
+    id: PreviousInstruction
+    path: ''
+    startLine: 20716
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PreviousInstruction()
+    content.vb: Public Sub PreviousInstruction
+  overload: Global.InstructionPanel.PreviousInstruction*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.InstructionPanel.LayoutButtons
+  commentId: M:Global.InstructionPanel.LayoutButtons
+  id: LayoutButtons
+  parent: Global.InstructionPanel
+  langs:
+  - csharp
+  - vb
+  name: LayoutButtons()
+  nameWithType: InstructionPanel.LayoutButtons()
+  fullName: InstructionPanel.LayoutButtons()
+  type: Method
+  source:
+    id: LayoutButtons
+    path: ''
+    startLine: 20721
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LayoutButtons()
+    content.vb: Public Sub LayoutButtons
+  overload: Global.InstructionPanel.LayoutButtons*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.List{GameObject}
+  commentId: '!:Global.List{GameObject}'
+  definition: Global.List`1
+  name: List<GameObject>
+  nameWithType: List<GameObject>
+  fullName: List<GameObject>
+  nameWithType.vb: List(Of GameObject)
+  fullName.vb: List(Of GameObject)
+  name.vb: List(Of GameObject)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GameObject
+    name: GameObject
+    nameWithType: GameObject
+    fullName: GameObject
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.InstructionPanel.activeIndex*
+  commentId: Overload:Global.InstructionPanel.activeIndex
+  name: activeIndex
+  nameWithType: InstructionPanel.activeIndex
+  fullName: InstructionPanel.activeIndex
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.InstructionPanel.NextInstruction*
+  commentId: Overload:Global.InstructionPanel.NextInstruction
+  name: NextInstruction
+  nameWithType: InstructionPanel.NextInstruction
+  fullName: InstructionPanel.NextInstruction
+- uid: Global.InstructionPanel.PreviousInstruction*
+  commentId: Overload:Global.InstructionPanel.PreviousInstruction
+  name: PreviousInstruction
+  nameWithType: InstructionPanel.PreviousInstruction
+  fullName: InstructionPanel.PreviousInstruction
+- uid: Global.InstructionPanel.LayoutButtons*
+  commentId: Overload:Global.InstructionPanel.LayoutButtons
+  name: LayoutButtons
+  nameWithType: InstructionPanel.LayoutButtons
+  fullName: InstructionPanel.LayoutButtons

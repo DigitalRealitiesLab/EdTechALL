@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: MapLegendImageLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4834414372364482109
+  m_GuidHigh: 12970494289805015223
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5018011281484111300
+      m_GuidHigh: 6708584516605752753
+    m_SerializedTextureGuid:
+      m_GuidLow: 1462847427215163130
+      m_GuidHigh: 7470600847269599688
+    m_Size: {x: 0.1, y: 0.15826024}
+    m_SpecifySize: 1
+    m_Name: MapLegendMarker1
+    m_Texture: {fileID: 2800000, guid: 0bc0fefa13fc144dc8993cc0e3e7ac67, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5311434548718376314
+      m_GuidHigh: 9328556320674304914
+    m_SerializedTextureGuid:
+      m_GuidLow: 1483873533174989764
+      m_GuidHigh: 16057824782618661752
+    m_Size: {x: 0.1, y: 0.0723589}
+    m_SpecifySize: 1
+    m_Name: MapLegendMarker2
+    m_Texture: {fileID: 2800000, guid: d47fc3c4c71d1497781373d18fdad8de, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5156423606317110034
+      m_GuidHigh: 6506867277654085043
+    m_SerializedTextureGuid:
+      m_GuidLow: 7216320613009207282
+      m_GuidHigh: 3274104998704676411
+    m_Size: {x: 0.1, y: 0.0723589}
+    m_SpecifySize: 1
+    m_Name: MapLegendMarker3
+    m_Texture: {fileID: 2800000, guid: 23be2ff2855d64253b7e1f3d26f56f2d, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5337660187287119373
+      m_GuidHigh: 6226605442836247168
+    m_SerializedTextureGuid:
+      m_GuidLow: 12998696991031154615
+      m_GuidHigh: 3646153751583629913
+    m_Size: {x: 0.1, y: 0.0723589}
+    m_SpecifySize: 1
+    m_Name: MapLegendMarker4
+    m_Texture: {fileID: 2800000, guid: 1559d7b7a60bb46459a299d784bd9932, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 5548349296843434681
+      m_GuidHigh: 9928060832272779671
+    m_SerializedTextureGuid:
+      m_GuidLow: 16439471156759905191
+      m_GuidHigh: 14602576513297508939
+    m_Size: {x: 0.1, y: 0.0723589}
+    m_SpecifySize: 1
+    m_Name: MapLegendMarker5
+    m_Texture: {fileID: 2800000, guid: c1f443a7bbeae4244b6a8f98f8c5a6ca, type: 3}
+  - m_SerializedGuid:
+      m_GuidLow: 4636382879891022967
+      m_GuidHigh: 8324851239392412302
+    m_SerializedTextureGuid:
+      m_GuidLow: 2623557765629078346
+      m_GuidHigh: 9654757453640215865
+    m_Size: {x: 0.1, y: 0.0723589}
+    m_SpecifySize: 1
+    m_Name: MapLegendMarker6
+    m_Texture: {fileID: 2800000, guid: 3c09eb4abfe3246839adc740c096fc85, type: 3}

@@ -1,0 +1,91 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventId.GemeindeSucheMiniGameEvents
+  commentId: T:Global.EventId.GemeindeSucheMiniGameEvents
+  id: EventId.GemeindeSucheMiniGameEvents
+  parent: Global
+  children:
+  - Global.EventId.GemeindeSucheMiniGameEvents.ReferenceImageMarkerDetected
+  langs:
+  - csharp
+  - vb
+  name: EventId.GemeindeSucheMiniGameEvents
+  nameWithType: EventId.GemeindeSucheMiniGameEvents
+  fullName: EventId.GemeindeSucheMiniGameEvents
+  type: Class
+  source:
+    id: GemeindeSucheMiniGameEvents
+    path: ''
+    startLine: 15780
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class GemeindeSucheMiniGameEvents
+    content.vb: Public Module GemeindeSucheMiniGameEvents
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.EventId.GemeindeSucheMiniGameEvents.ReferenceImageMarkerDetected
+  commentId: F:Global.EventId.GemeindeSucheMiniGameEvents.ReferenceImageMarkerDetected
+  id: ReferenceImageMarkerDetected
+  parent: Global.EventId.GemeindeSucheMiniGameEvents
+  langs:
+  - csharp
+  - vb
+  name: ReferenceImageMarkerDetected
+  nameWithType: EventId.GemeindeSucheMiniGameEvents.ReferenceImageMarkerDetected
+  fullName: EventId.GemeindeSucheMiniGameEvents.ReferenceImageMarkerDetected
+  type: Field
+  source:
+    id: ReferenceImageMarkerDetected
+    path: ''
+    startLine: 15782
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ReferenceImageMarkerDetected = "ReferenceImageMarkerDetected"
+    return:
+      type: System.String
+    content.vb: Public Const ReferenceImageMarkerDetected As String = "ReferenceImageMarkerDetected"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

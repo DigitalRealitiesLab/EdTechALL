@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.POIRotateBehaviour
+  commentId: T:Global.POIRotateBehaviour
+  id: POIRotateBehaviour
+  parent: Global
+  children:
+  - Global.POIRotateBehaviour.behaviourType
+  - Global.POIRotateBehaviour.InitBehaviour
+  - Global.POIRotateBehaviour.UpdateBehaviour
+  langs:
+  - csharp
+  - vb
+  name: POIRotateBehaviour
+  nameWithType: POIRotateBehaviour
+  fullName: POIRotateBehaviour
+  type: Class
+  source:
+    id: POIRotateBehaviour
+    path: ''
+    startLine: 23522
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class POIRotateBehaviour : APOIBehaviour'
+    content.vb: >-
+      Public Class POIRotateBehaviour
+          Inherits APOIBehaviour
+  inheritance:
+  - System.Object
+  - Global.APOIBehaviour
+  inheritedMembers:
+  - Global.APOIBehaviour.viewer
+  - Global.APOIBehaviour.poi
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.POIRotateBehaviour.behaviourType
+  commentId: P:Global.POIRotateBehaviour.behaviourType
+  id: behaviourType
+  parent: Global.POIRotateBehaviour
+  langs:
+  - csharp
+  - vb
+  name: behaviourType
+  nameWithType: POIRotateBehaviour.behaviourType
+  fullName: POIRotateBehaviour.behaviourType
+  type: Property
+  source:
+    id: behaviourType
+    path: ''
+    startLine: 23524
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override string behaviourType { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Overrides ReadOnly Property behaviourType As String
+  overridden: Global.APOIBehaviour.behaviourType
+  overload: Global.POIRotateBehaviour.behaviourType*
+  modifiers.csharp:
+  - public
+  - override
+  - get
+  modifiers.vb:
+  - Public
+  - Overrides
+  - ReadOnly
+- uid: Global.POIRotateBehaviour.InitBehaviour
+  commentId: M:Global.POIRotateBehaviour.InitBehaviour
+  id: InitBehaviour
+  parent: Global.POIRotateBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InitBehaviour()
+  nameWithType: POIRotateBehaviour.InitBehaviour()
+  fullName: POIRotateBehaviour.InitBehaviour()
+  type: Method
+  source:
+    id: InitBehaviour
+    path: ''
+    startLine: 23526
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void InitBehaviour()
+    content.vb: Public Overrides Sub InitBehaviour
+  overridden: Global.APOIBehaviour.InitBehaviour
+  overload: Global.POIRotateBehaviour.InitBehaviour*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.POIRotateBehaviour.UpdateBehaviour
+  commentId: M:Global.POIRotateBehaviour.UpdateBehaviour
+  id: UpdateBehaviour
+  parent: Global.POIRotateBehaviour
+  langs:
+  - csharp
+  - vb
+  name: UpdateBehaviour()
+  nameWithType: POIRotateBehaviour.UpdateBehaviour()
+  fullName: POIRotateBehaviour.UpdateBehaviour()
+  type: Method
+  source:
+    id: UpdateBehaviour
+    path: ''
+    startLine: 23531
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void UpdateBehaviour()
+    content.vb: Public Overrides Sub UpdateBehaviour
+  overridden: Global.APOIBehaviour.UpdateBehaviour
+  overload: Global.POIRotateBehaviour.UpdateBehaviour*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.APOIBehaviour
+  commentId: T:Global.APOIBehaviour
+  name: APOIBehaviour
+  nameWithType: APOIBehaviour
+  fullName: APOIBehaviour
+- uid: Global.APOIBehaviour.viewer
+  commentId: F:Global.APOIBehaviour.viewer
+  parent: Global.APOIBehaviour
+  name: viewer
+  nameWithType: APOIBehaviour.viewer
+  fullName: APOIBehaviour.viewer
+- uid: Global.APOIBehaviour.poi
+  commentId: F:Global.APOIBehaviour.poi
+  parent: Global.APOIBehaviour
+  name: poi
+  nameWithType: APOIBehaviour.poi
+  fullName: APOIBehaviour.poi
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.APOIBehaviour.behaviourType
+  commentId: P:Global.APOIBehaviour.behaviourType
+  parent: Global.APOIBehaviour
+  name: behaviourType
+  nameWithType: APOIBehaviour.behaviourType
+  fullName: APOIBehaviour.behaviourType
+- uid: Global.POIRotateBehaviour.behaviourType*
+  commentId: Overload:Global.POIRotateBehaviour.behaviourType
+  name: behaviourType
+  nameWithType: POIRotateBehaviour.behaviourType
+  fullName: POIRotateBehaviour.behaviourType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.APOIBehaviour.InitBehaviour
+  commentId: M:Global.APOIBehaviour.InitBehaviour
+  parent: Global.APOIBehaviour
+  name: InitBehaviour()
+  nameWithType: APOIBehaviour.InitBehaviour()
+  fullName: APOIBehaviour.InitBehaviour()
+  spec.csharp:
+  - uid: Global.APOIBehaviour.InitBehaviour
+    name: InitBehaviour
+    nameWithType: APOIBehaviour.InitBehaviour
+    fullName: APOIBehaviour.InitBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.APOIBehaviour.InitBehaviour
+    name: InitBehaviour
+    nameWithType: APOIBehaviour.InitBehaviour
+    fullName: APOIBehaviour.InitBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.POIRotateBehaviour.InitBehaviour*
+  commentId: Overload:Global.POIRotateBehaviour.InitBehaviour
+  name: InitBehaviour
+  nameWithType: POIRotateBehaviour.InitBehaviour
+  fullName: POIRotateBehaviour.InitBehaviour
+- uid: Global.APOIBehaviour.UpdateBehaviour
+  commentId: M:Global.APOIBehaviour.UpdateBehaviour
+  parent: Global.APOIBehaviour
+  name: UpdateBehaviour()
+  nameWithType: APOIBehaviour.UpdateBehaviour()
+  fullName: APOIBehaviour.UpdateBehaviour()
+  spec.csharp:
+  - uid: Global.APOIBehaviour.UpdateBehaviour
+    name: UpdateBehaviour
+    nameWithType: APOIBehaviour.UpdateBehaviour
+    fullName: APOIBehaviour.UpdateBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.APOIBehaviour.UpdateBehaviour
+    name: UpdateBehaviour
+    nameWithType: APOIBehaviour.UpdateBehaviour
+    fullName: APOIBehaviour.UpdateBehaviour
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.POIRotateBehaviour.UpdateBehaviour*
+  commentId: Overload:Global.POIRotateBehaviour.UpdateBehaviour
+  name: UpdateBehaviour
+  nameWithType: POIRotateBehaviour.UpdateBehaviour
+  fullName: POIRotateBehaviour.UpdateBehaviour

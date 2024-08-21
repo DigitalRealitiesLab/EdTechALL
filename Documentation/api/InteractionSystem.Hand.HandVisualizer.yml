@@ -1,0 +1,379 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Hand.HandVisualizer
+  commentId: T:InteractionSystem.Hand.HandVisualizer
+  id: HandVisualizer
+  parent: InteractionSystem.Hand
+  children:
+  - InteractionSystem.Hand.HandVisualizer.handRadius
+  - InteractionSystem.Hand.HandVisualizer.handRenderer
+  - InteractionSystem.Hand.HandVisualizer.ringWidth
+  - InteractionSystem.Hand.HandVisualizer.ScaleToHandCollider
+  - InteractionSystem.Hand.HandVisualizer.ScaleToSensable(InteractionSystem.Sensable)
+  - InteractionSystem.Hand.HandVisualizer.scalingStepSize
+  - InteractionSystem.Hand.HandVisualizer.scalingTarget
+  - InteractionSystem.Hand.HandVisualizer.SetHandRendererEnabled(System.Boolean)
+  - InteractionSystem.Hand.HandVisualizer.textureDimension
+  langs:
+  - csharp
+  - vb
+  name: HandVisualizer
+  nameWithType: HandVisualizer
+  fullName: InteractionSystem.Hand.HandVisualizer
+  type: Class
+  source:
+    id: HandVisualizer
+    path: ''
+    startLine: 24030
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: 'public class HandVisualizer : MonoBehaviour'
+    content.vb: >-
+      Public Class HandVisualizer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Hand.HandVisualizer.scalingTarget
+  commentId: F:InteractionSystem.Hand.HandVisualizer.scalingTarget
+  id: scalingTarget
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: scalingTarget
+  nameWithType: HandVisualizer.scalingTarget
+  fullName: InteractionSystem.Hand.HandVisualizer.scalingTarget
+  type: Field
+  source:
+    id: scalingTarget
+    path: ''
+    startLine: 24032
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public Transform scalingTarget
+    return:
+      type: Global.Transform
+    content.vb: Public scalingTarget As Transform
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandVisualizer.textureDimension
+  commentId: F:InteractionSystem.Hand.HandVisualizer.textureDimension
+  id: textureDimension
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: textureDimension
+  nameWithType: HandVisualizer.textureDimension
+  fullName: InteractionSystem.Hand.HandVisualizer.textureDimension
+  type: Field
+  source:
+    id: textureDimension
+    path: ''
+    startLine: 24034
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public float textureDimension
+    return:
+      type: System.Single
+    content.vb: Public textureDimension As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandVisualizer.ringWidth
+  commentId: F:InteractionSystem.Hand.HandVisualizer.ringWidth
+  id: ringWidth
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: ringWidth
+  nameWithType: HandVisualizer.ringWidth
+  fullName: InteractionSystem.Hand.HandVisualizer.ringWidth
+  type: Field
+  source:
+    id: ringWidth
+    path: ''
+    startLine: 24036
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public float ringWidth
+    return:
+      type: System.Single
+    content.vb: Public ringWidth As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandVisualizer.handRenderer
+  commentId: F:InteractionSystem.Hand.HandVisualizer.handRenderer
+  id: handRenderer
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: handRenderer
+  nameWithType: HandVisualizer.handRenderer
+  fullName: InteractionSystem.Hand.HandVisualizer.handRenderer
+  type: Field
+  source:
+    id: handRenderer
+    path: ''
+    startLine: 24037
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public Renderer[] handRenderer
+    return:
+      type: Global.Renderer[]
+    content.vb: Public handRenderer As Renderer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandVisualizer.scalingStepSize
+  commentId: F:InteractionSystem.Hand.HandVisualizer.scalingStepSize
+  id: scalingStepSize
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: scalingStepSize
+  nameWithType: HandVisualizer.scalingStepSize
+  fullName: InteractionSystem.Hand.HandVisualizer.scalingStepSize
+  type: Field
+  source:
+    id: scalingStepSize
+    path: ''
+    startLine: 24038
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public float scalingStepSize
+    return:
+      type: System.Single
+    content.vb: Public scalingStepSize As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandVisualizer.handRadius
+  commentId: F:InteractionSystem.Hand.HandVisualizer.handRadius
+  id: handRadius
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: handRadius
+  nameWithType: HandVisualizer.handRadius
+  fullName: InteractionSystem.Hand.HandVisualizer.handRadius
+  type: Field
+  source:
+    id: handRadius
+    path: ''
+    startLine: 24043
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public float handRadius
+    return:
+      type: System.Single
+    content.vb: Public handRadius As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandVisualizer.SetHandRendererEnabled(System.Boolean)
+  commentId: M:InteractionSystem.Hand.HandVisualizer.SetHandRendererEnabled(System.Boolean)
+  id: SetHandRendererEnabled(System.Boolean)
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: SetHandRendererEnabled(Boolean)
+  nameWithType: HandVisualizer.SetHandRendererEnabled(Boolean)
+  fullName: InteractionSystem.Hand.HandVisualizer.SetHandRendererEnabled(System.Boolean)
+  type: Method
+  source:
+    id: SetHandRendererEnabled
+    path: ''
+    startLine: 24065
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public void SetHandRendererEnabled(bool enabled)
+    parameters:
+    - id: enabled
+      type: System.Boolean
+    content.vb: Public Sub SetHandRendererEnabled(enabled As Boolean)
+  overload: InteractionSystem.Hand.HandVisualizer.SetHandRendererEnabled*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandVisualizer.ScaleToHandCollider
+  commentId: M:InteractionSystem.Hand.HandVisualizer.ScaleToHandCollider
+  id: ScaleToHandCollider
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: ScaleToHandCollider()
+  nameWithType: HandVisualizer.ScaleToHandCollider()
+  fullName: InteractionSystem.Hand.HandVisualizer.ScaleToHandCollider()
+  type: Method
+  source:
+    id: ScaleToHandCollider
+    path: ''
+    startLine: 24071
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public void ScaleToHandCollider()
+    content.vb: Public Sub ScaleToHandCollider
+  overload: InteractionSystem.Hand.HandVisualizer.ScaleToHandCollider*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandVisualizer.ScaleToSensable(InteractionSystem.Sensable)
+  commentId: M:InteractionSystem.Hand.HandVisualizer.ScaleToSensable(InteractionSystem.Sensable)
+  id: ScaleToSensable(InteractionSystem.Sensable)
+  parent: InteractionSystem.Hand.HandVisualizer
+  langs:
+  - csharp
+  - vb
+  name: ScaleToSensable(Sensable)
+  nameWithType: HandVisualizer.ScaleToSensable(Sensable)
+  fullName: InteractionSystem.Hand.HandVisualizer.ScaleToSensable(InteractionSystem.Sensable)
+  type: Method
+  source:
+    id: ScaleToSensable
+    path: ''
+    startLine: 24077
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public void ScaleToSensable(Sensable sensable)
+    parameters:
+    - id: sensable
+      type: InteractionSystem.Sensable
+    content.vb: Public Sub ScaleToSensable(sensable As Sensable)
+  overload: InteractionSystem.Hand.HandVisualizer.ScaleToSensable*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Hand
+  commentId: N:InteractionSystem.Hand
+  name: InteractionSystem.Hand
+  nameWithType: InteractionSystem.Hand
+  fullName: InteractionSystem.Hand
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.Renderer[]
+  isExternal: true
+  name: Renderer[]
+  nameWithType: Renderer[]
+  fullName: Renderer[]
+  nameWithType.vb: Renderer()
+  fullName.vb: Renderer()
+  name.vb: Renderer()
+  spec.csharp:
+  - uid: Global.Renderer
+    name: Renderer
+    nameWithType: Renderer
+    fullName: Renderer
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Renderer
+    name: Renderer
+    nameWithType: Renderer
+    fullName: Renderer
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: InteractionSystem.Hand.HandVisualizer.SetHandRendererEnabled*
+  commentId: Overload:InteractionSystem.Hand.HandVisualizer.SetHandRendererEnabled
+  name: SetHandRendererEnabled
+  nameWithType: HandVisualizer.SetHandRendererEnabled
+  fullName: InteractionSystem.Hand.HandVisualizer.SetHandRendererEnabled
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: InteractionSystem.Hand.HandVisualizer.ScaleToHandCollider*
+  commentId: Overload:InteractionSystem.Hand.HandVisualizer.ScaleToHandCollider
+  name: ScaleToHandCollider
+  nameWithType: HandVisualizer.ScaleToHandCollider
+  fullName: InteractionSystem.Hand.HandVisualizer.ScaleToHandCollider
+- uid: InteractionSystem.Hand.HandVisualizer.ScaleToSensable*
+  commentId: Overload:InteractionSystem.Hand.HandVisualizer.ScaleToSensable
+  name: ScaleToSensable
+  nameWithType: HandVisualizer.ScaleToSensable
+  fullName: InteractionSystem.Hand.HandVisualizer.ScaleToSensable
+- uid: InteractionSystem.Sensable
+  commentId: T:InteractionSystem.Sensable
+  parent: InteractionSystem
+  name: Sensable
+  nameWithType: Sensable
+  fullName: InteractionSystem.Sensable
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem

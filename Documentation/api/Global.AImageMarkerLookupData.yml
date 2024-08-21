@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AImageMarkerLookupData
+  commentId: T:Global.AImageMarkerLookupData
+  id: AImageMarkerLookupData
+  parent: Global
+  children:
+  - Global.AImageMarkerLookupData.lookupKey
+  langs:
+  - csharp
+  - vb
+  name: AImageMarkerLookupData
+  nameWithType: AImageMarkerLookupData
+  fullName: AImageMarkerLookupData
+  type: Class
+  source:
+    id: AImageMarkerLookupData
+    path: ''
+    startLine: 25034
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public abstract class AImageMarkerLookupData
+    content.vb: >-
+      <Serializable>
+
+      Public MustInherit Class AImageMarkerLookupData
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.GemeindeSucheLookupData
+  - Global.LessonSceneLoadData
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: Global.AImageMarkerLookupData.lookupKey
+  commentId: F:Global.AImageMarkerLookupData.lookupKey
+  id: lookupKey
+  parent: Global.AImageMarkerLookupData
+  langs:
+  - csharp
+  - vb
+  name: lookupKey
+  nameWithType: AImageMarkerLookupData.lookupKey
+  fullName: AImageMarkerLookupData.lookupKey
+  type: Field
+  source:
+    id: lookupKey
+    path: ''
+    startLine: 25040
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nLookupKey must be equal ReferenceImageMarkerTexture name\n"
+  example: []
+  syntax:
+    content: public string lookupKey
+    return:
+      type: System.String
+    content.vb: Public lookupKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

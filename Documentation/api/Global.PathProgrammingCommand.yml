@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PathProgrammingCommand
+  commentId: T:Global.PathProgrammingCommand
+  id: PathProgrammingCommand
+  parent: Global
+  children:
+  - Global.PathProgrammingCommand.leftTurn
+  - Global.PathProgrammingCommand.move
+  - Global.PathProgrammingCommand.rightTurn
+  langs:
+  - csharp
+  - vb
+  name: PathProgrammingCommand
+  nameWithType: PathProgrammingCommand
+  fullName: PathProgrammingCommand
+  type: Enum
+  source:
+    id: PathProgrammingCommand
+    path: ''
+    startLine: 16022
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public enum PathProgrammingCommand
+    content.vb: Public Enum PathProgrammingCommand
+  modifiers.csharp:
+  - public
+  - enum
+  modifiers.vb:
+  - Public
+  - Enum
+- uid: Global.PathProgrammingCommand.leftTurn
+  commentId: F:Global.PathProgrammingCommand.leftTurn
+  id: leftTurn
+  parent: Global.PathProgrammingCommand
+  langs:
+  - csharp
+  - vb
+  name: leftTurn
+  nameWithType: PathProgrammingCommand.leftTurn
+  fullName: PathProgrammingCommand.leftTurn
+  type: Field
+  source:
+    id: leftTurn
+    path: ''
+    startLine: 16024
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: leftTurn = 0
+    return:
+      type: Global.PathProgrammingCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PathProgrammingCommand.rightTurn
+  commentId: F:Global.PathProgrammingCommand.rightTurn
+  id: rightTurn
+  parent: Global.PathProgrammingCommand
+  langs:
+  - csharp
+  - vb
+  name: rightTurn
+  nameWithType: PathProgrammingCommand.rightTurn
+  fullName: PathProgrammingCommand.rightTurn
+  type: Field
+  source:
+    id: rightTurn
+    path: ''
+    startLine: 16025
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: rightTurn = 1
+    return:
+      type: Global.PathProgrammingCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.PathProgrammingCommand.move
+  commentId: F:Global.PathProgrammingCommand.move
+  id: move
+  parent: Global.PathProgrammingCommand
+  langs:
+  - csharp
+  - vb
+  name: move
+  nameWithType: PathProgrammingCommand.move
+  fullName: PathProgrammingCommand.move
+  type: Field
+  source:
+    id: move
+    path: ''
+    startLine: 16026
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: move = 2
+    return:
+      type: Global.PathProgrammingCommand
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.PathProgrammingCommand
+  commentId: T:Global.PathProgrammingCommand
+  name: PathProgrammingCommand
+  nameWithType: PathProgrammingCommand
+  fullName: PathProgrammingCommand

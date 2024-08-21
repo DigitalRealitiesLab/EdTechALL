@@ -1,0 +1,273 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.PersistentDataTransferWindow
+  commentId: T:Global.PersistentDataTransferWindow
+  id: PersistentDataTransferWindow
+  parent: Global
+  children:
+  - Global.PersistentDataTransferWindow.assetSourcePath
+  - Global.PersistentDataTransferWindow.CopyDirectory(System.String,System.String)
+  - Global.PersistentDataTransferWindow.destinationPath
+  - Global.PersistentDataTransferWindow.fullAssetSourcePath
+  - Global.PersistentDataTransferWindow.fullDestinationPath
+  - Global.PersistentDataTransferWindow.SaveChanges
+  langs:
+  - csharp
+  - vb
+  name: PersistentDataTransferWindow
+  nameWithType: PersistentDataTransferWindow
+  fullName: PersistentDataTransferWindow
+  type: Class
+  source:
+    id: PersistentDataTransferWindow
+    path: ''
+    startLine: 17994
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class PersistentDataTransferWindow : EditorWindow'
+    content.vb: >-
+      Public Class PersistentDataTransferWindow
+          Inherits EditorWindow
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.PersistentDataTransferWindow.assetSourcePath
+  commentId: F:Global.PersistentDataTransferWindow.assetSourcePath
+  id: assetSourcePath
+  parent: Global.PersistentDataTransferWindow
+  langs:
+  - csharp
+  - vb
+  name: assetSourcePath
+  nameWithType: PersistentDataTransferWindow.assetSourcePath
+  fullName: PersistentDataTransferWindow.assetSourcePath
+  type: Field
+  source:
+    id: assetSourcePath
+    path: ''
+    startLine: 17996
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string assetSourcePath
+    return:
+      type: System.String
+    content.vb: Public Shared assetSourcePath As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PersistentDataTransferWindow.destinationPath
+  commentId: F:Global.PersistentDataTransferWindow.destinationPath
+  id: destinationPath
+  parent: Global.PersistentDataTransferWindow
+  langs:
+  - csharp
+  - vb
+  name: destinationPath
+  nameWithType: PersistentDataTransferWindow.destinationPath
+  fullName: PersistentDataTransferWindow.destinationPath
+  type: Field
+  source:
+    id: destinationPath
+    path: ''
+    startLine: 17997
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string destinationPath
+    return:
+      type: System.String
+    content.vb: Public Shared destinationPath As String
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PersistentDataTransferWindow.fullAssetSourcePath
+  commentId: P:Global.PersistentDataTransferWindow.fullAssetSourcePath
+  id: fullAssetSourcePath
+  parent: Global.PersistentDataTransferWindow
+  langs:
+  - csharp
+  - vb
+  name: fullAssetSourcePath
+  nameWithType: PersistentDataTransferWindow.fullAssetSourcePath
+  fullName: PersistentDataTransferWindow.fullAssetSourcePath
+  type: Property
+  source:
+    id: fullAssetSourcePath
+    path: ''
+    startLine: 17998
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string fullAssetSourcePath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property fullAssetSourcePath As String
+  overload: Global.PersistentDataTransferWindow.fullAssetSourcePath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.PersistentDataTransferWindow.fullDestinationPath
+  commentId: P:Global.PersistentDataTransferWindow.fullDestinationPath
+  id: fullDestinationPath
+  parent: Global.PersistentDataTransferWindow
+  langs:
+  - csharp
+  - vb
+  name: fullDestinationPath
+  nameWithType: PersistentDataTransferWindow.fullDestinationPath
+  fullName: PersistentDataTransferWindow.fullDestinationPath
+  type: Property
+  source:
+    id: fullDestinationPath
+    path: ''
+    startLine: 17999
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static string fullDestinationPath { get; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Shared ReadOnly Property fullDestinationPath As String
+  overload: Global.PersistentDataTransferWindow.fullDestinationPath*
+  modifiers.csharp:
+  - public
+  - static
+  - get
+  modifiers.vb:
+  - Public
+  - Shared
+  - ReadOnly
+- uid: Global.PersistentDataTransferWindow.CopyDirectory(System.String,System.String)
+  commentId: M:Global.PersistentDataTransferWindow.CopyDirectory(System.String,System.String)
+  id: CopyDirectory(System.String,System.String)
+  parent: Global.PersistentDataTransferWindow
+  langs:
+  - csharp
+  - vb
+  name: CopyDirectory(String, String)
+  nameWithType: PersistentDataTransferWindow.CopyDirectory(String, String)
+  fullName: PersistentDataTransferWindow.CopyDirectory(System.String, System.String)
+  type: Method
+  source:
+    id: CopyDirectory
+    path: ''
+    startLine: 18001
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void CopyDirectory(string sourceDirectory, string destinationDirectory)
+    parameters:
+    - id: sourceDirectory
+      type: System.String
+    - id: destinationDirectory
+      type: System.String
+    content.vb: Public Shared Sub CopyDirectory(sourceDirectory As String, destinationDirectory As String)
+  overload: Global.PersistentDataTransferWindow.CopyDirectory*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.PersistentDataTransferWindow.SaveChanges
+  commentId: M:Global.PersistentDataTransferWindow.SaveChanges
+  id: SaveChanges
+  parent: Global.PersistentDataTransferWindow
+  langs:
+  - csharp
+  - vb
+  name: SaveChanges()
+  nameWithType: PersistentDataTransferWindow.SaveChanges()
+  fullName: PersistentDataTransferWindow.SaveChanges()
+  type: Method
+  source:
+    id: SaveChanges
+    path: ''
+    startLine: 18044
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void SaveChanges()
+    content.vb: Public Overrides Sub SaveChanges
+  overload: Global.PersistentDataTransferWindow.SaveChanges*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.PersistentDataTransferWindow.fullAssetSourcePath*
+  commentId: Overload:Global.PersistentDataTransferWindow.fullAssetSourcePath
+  name: fullAssetSourcePath
+  nameWithType: PersistentDataTransferWindow.fullAssetSourcePath
+  fullName: PersistentDataTransferWindow.fullAssetSourcePath
+- uid: Global.PersistentDataTransferWindow.fullDestinationPath*
+  commentId: Overload:Global.PersistentDataTransferWindow.fullDestinationPath
+  name: fullDestinationPath
+  nameWithType: PersistentDataTransferWindow.fullDestinationPath
+  fullName: PersistentDataTransferWindow.fullDestinationPath
+- uid: Global.PersistentDataTransferWindow.CopyDirectory*
+  commentId: Overload:Global.PersistentDataTransferWindow.CopyDirectory
+  name: CopyDirectory
+  nameWithType: PersistentDataTransferWindow.CopyDirectory
+  fullName: PersistentDataTransferWindow.CopyDirectory
+- uid: Global.PersistentDataTransferWindow.SaveChanges*
+  commentId: Overload:Global.PersistentDataTransferWindow.SaveChanges
+  name: SaveChanges
+  nameWithType: PersistentDataTransferWindow.SaveChanges
+  fullName: PersistentDataTransferWindow.SaveChanges

@@ -1,0 +1,228 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.CowNeedUI.CowNeedSpriteLookup
+  commentId: T:Global.CowNeedUI.CowNeedSpriteLookup
+  id: CowNeedUI.CowNeedSpriteLookup
+  parent: Global
+  children:
+  - Global.CowNeedUI.CowNeedSpriteLookup.Initialize
+  - Global.CowNeedUI.CowNeedSpriteLookup.lookup
+  langs:
+  - csharp
+  - vb
+  name: CowNeedUI.CowNeedSpriteLookup
+  nameWithType: CowNeedUI.CowNeedSpriteLookup
+  fullName: CowNeedUI.CowNeedSpriteLookup
+  type: Class
+  source:
+    id: CowNeedSpriteLookup
+    path: ''
+    startLine: 15250
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class CowNeedSpriteLookup
+    content.vb: >-
+      <Serializable>
+
+      Public Class CowNeedSpriteLookup
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.CowNeedUI.CowNeedSpriteLookup.lookup
+  commentId: F:Global.CowNeedUI.CowNeedSpriteLookup.lookup
+  id: lookup
+  parent: Global.CowNeedUI.CowNeedSpriteLookup
+  langs:
+  - csharp
+  - vb
+  name: lookup
+  nameWithType: CowNeedUI.CowNeedSpriteLookup.lookup
+  fullName: CowNeedUI.CowNeedSpriteLookup.lookup
+  type: Field
+  source:
+    id: lookup
+    path: ''
+    startLine: 15253
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Dictionary<Cow.CowNeed, CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry> lookup
+    return:
+      type: Global.Dictionary{Cow.CowNeed,CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry}
+    content.vb: Public lookup As Dictionary(Of Cow.CowNeed, CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.CowNeedUI.CowNeedSpriteLookup.Initialize
+  commentId: M:Global.CowNeedUI.CowNeedSpriteLookup.Initialize
+  id: Initialize
+  parent: Global.CowNeedUI.CowNeedSpriteLookup
+  langs:
+  - csharp
+  - vb
+  name: Initialize()
+  nameWithType: CowNeedUI.CowNeedSpriteLookup.Initialize()
+  fullName: CowNeedUI.CowNeedSpriteLookup.Initialize()
+  type: Method
+  source:
+    id: Initialize
+    path: ''
+    startLine: 15257
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void Initialize()
+    content.vb: Public Sub Initialize
+  overload: Global.CowNeedUI.CowNeedSpriteLookup.Initialize*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Dictionary{Cow.CowNeed,CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry}
+  commentId: '!:Global.Dictionary{Cow.CowNeed,CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry}'
+  definition: Global.Dictionary`2
+  name: Dictionary<Cow.CowNeed, CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry>
+  nameWithType: Dictionary<Cow.CowNeed, CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry>
+  fullName: Dictionary<Cow.CowNeed, CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry>
+  nameWithType.vb: Dictionary(Of Cow.CowNeed, CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry)
+  fullName.vb: Dictionary(Of Cow.CowNeed, CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry)
+  name.vb: Dictionary(Of Cow.CowNeed, CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry)
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.Cow.CowNeed
+    name: Cow.CowNeed
+    nameWithType: Cow.CowNeed
+    fullName: Cow.CowNeed
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+    name: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+    nameWithType: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+    fullName: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.Cow.CowNeed
+    name: Cow.CowNeed
+    nameWithType: Cow.CowNeed
+    fullName: Cow.CowNeed
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+    name: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+    nameWithType: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+    fullName: CowNeedUI.CowNeedSpriteLookup.CowNeedDataEntry
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.Dictionary`2
+  isExternal: true
+  name: Dictionary<, >
+  nameWithType: Dictionary<, >
+  fullName: Dictionary<, >
+  nameWithType.vb: Dictionary(Of , )
+  fullName.vb: Dictionary(Of , )
+  name.vb: Dictionary(Of , )
+  spec.csharp:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.Dictionary`2
+    name: Dictionary
+    nameWithType: Dictionary
+    fullName: Dictionary
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.CowNeedUI.CowNeedSpriteLookup.Initialize*
+  commentId: Overload:Global.CowNeedUI.CowNeedSpriteLookup.Initialize
+  name: Initialize
+  nameWithType: CowNeedUI.CowNeedSpriteLookup.Initialize
+  fullName: CowNeedUI.CowNeedSpriteLookup.Initialize

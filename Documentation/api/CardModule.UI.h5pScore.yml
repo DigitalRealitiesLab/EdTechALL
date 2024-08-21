@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.h5pScore
+  commentId: T:CardModule.UI.h5pScore
+  id: h5pScore
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.h5pScore.max
+  - CardModule.UI.h5pScore.min
+  - CardModule.UI.h5pScore.raw
+  - CardModule.UI.h5pScore.scaled
+  langs:
+  - csharp
+  - vb
+  name: h5pScore
+  nameWithType: h5pScore
+  fullName: CardModule.UI.h5pScore
+  type: Struct
+  source:
+    id: h5pScore
+    path: ''
+    startLine: 19919
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct h5pScore
+    content.vb: >-
+      <Serializable>
+
+      Public Structure h5pScore
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: CardModule.UI.h5pScore.min
+  commentId: F:CardModule.UI.h5pScore.min
+  id: min
+  parent: CardModule.UI.h5pScore
+  langs:
+  - csharp
+  - vb
+  name: min
+  nameWithType: h5pScore.min
+  fullName: CardModule.UI.h5pScore.min
+  type: Field
+  source:
+    id: min
+    path: ''
+    startLine: 19922
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public int min
+    return:
+      type: System.Int32
+    content.vb: Public min As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pScore.max
+  commentId: F:CardModule.UI.h5pScore.max
+  id: max
+  parent: CardModule.UI.h5pScore
+  langs:
+  - csharp
+  - vb
+  name: max
+  nameWithType: h5pScore.max
+  fullName: CardModule.UI.h5pScore.max
+  type: Field
+  source:
+    id: max
+    path: ''
+    startLine: 19923
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public int max
+    return:
+      type: System.Int32
+    content.vb: Public max As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pScore.raw
+  commentId: F:CardModule.UI.h5pScore.raw
+  id: raw
+  parent: CardModule.UI.h5pScore
+  langs:
+  - csharp
+  - vb
+  name: raw
+  nameWithType: h5pScore.raw
+  fullName: CardModule.UI.h5pScore.raw
+  type: Field
+  source:
+    id: raw
+    path: ''
+    startLine: 19924
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public int raw
+    return:
+      type: System.Int32
+    content.vb: Public raw As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pScore.scaled
+  commentId: F:CardModule.UI.h5pScore.scaled
+  id: scaled
+  parent: CardModule.UI.h5pScore
+  langs:
+  - csharp
+  - vb
+  name: scaled
+  nameWithType: h5pScore.scaled
+  fullName: CardModule.UI.h5pScore.scaled
+  type: Field
+  source:
+    id: scaled
+    path: ''
+    startLine: 19925
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public float scaled
+    return:
+      type: System.Single
+    content.vb: Public scaled As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single

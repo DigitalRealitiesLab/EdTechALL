@@ -1,0 +1,255 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventBusTester
+  commentId: T:Global.EventBusTester
+  id: EventBusTester
+  parent: Global
+  children:
+  - Global.EventBusTester.BreakEnumerationTest
+  - Global.EventBusTester.eventId
+  - Global.EventBusTester.TestCallbackEventBus(System.String)
+  - Global.EventBusTester.TestCallbackEventBus1(System.String)
+  - Global.EventBusTester.testInvokeCount
+  - Global.EventBusTester.testMessage
+  langs:
+  - csharp
+  - vb
+  name: EventBusTester
+  nameWithType: EventBusTester
+  fullName: EventBusTester
+  type: Class
+  source:
+    id: EventBusTester
+    path: ''
+    startLine: 17846
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class EventBusTester : MonoBehaviour'
+    content.vb: >-
+      Public Class EventBusTester
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.EventBusTester.testInvokeCount
+  commentId: F:Global.EventBusTester.testInvokeCount
+  id: testInvokeCount
+  parent: Global.EventBusTester
+  langs:
+  - csharp
+  - vb
+  name: testInvokeCount
+  nameWithType: EventBusTester.testInvokeCount
+  fullName: EventBusTester.testInvokeCount
+  type: Field
+  source:
+    id: testInvokeCount
+    path: ''
+    startLine: 17848
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int testInvokeCount
+    return:
+      type: System.Int32
+    content.vb: Public testInvokeCount As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.EventBusTester.eventId
+  commentId: F:Global.EventBusTester.eventId
+  id: eventId
+  parent: Global.EventBusTester
+  langs:
+  - csharp
+  - vb
+  name: eventId
+  nameWithType: EventBusTester.eventId
+  fullName: EventBusTester.eventId
+  type: Field
+  source:
+    id: eventId
+    path: ''
+    startLine: 17849
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string eventId
+    return:
+      type: System.String
+    content.vb: Public eventId As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.EventBusTester.testMessage
+  commentId: F:Global.EventBusTester.testMessage
+  id: testMessage
+  parent: Global.EventBusTester
+  langs:
+  - csharp
+  - vb
+  name: testMessage
+  nameWithType: EventBusTester.testMessage
+  fullName: EventBusTester.testMessage
+  type: Field
+  source:
+    id: testMessage
+    path: ''
+    startLine: 17850
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string testMessage
+    return:
+      type: System.String
+    content.vb: Public testMessage As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.EventBusTester.TestCallbackEventBus(System.String)
+  commentId: M:Global.EventBusTester.TestCallbackEventBus(System.String)
+  id: TestCallbackEventBus(System.String)
+  parent: Global.EventBusTester
+  langs:
+  - csharp
+  - vb
+  name: TestCallbackEventBus(String)
+  nameWithType: EventBusTester.TestCallbackEventBus(String)
+  fullName: EventBusTester.TestCallbackEventBus(System.String)
+  type: Method
+  source:
+    id: TestCallbackEventBus
+    path: ''
+    startLine: 17883
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void TestCallbackEventBus(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub TestCallbackEventBus(message As String)
+  overload: Global.EventBusTester.TestCallbackEventBus*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.EventBusTester.TestCallbackEventBus1(System.String)
+  commentId: M:Global.EventBusTester.TestCallbackEventBus1(System.String)
+  id: TestCallbackEventBus1(System.String)
+  parent: Global.EventBusTester
+  langs:
+  - csharp
+  - vb
+  name: TestCallbackEventBus1(String)
+  nameWithType: EventBusTester.TestCallbackEventBus1(String)
+  fullName: EventBusTester.TestCallbackEventBus1(System.String)
+  type: Method
+  source:
+    id: TestCallbackEventBus1
+    path: ''
+    startLine: 17888
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void TestCallbackEventBus1(string message)
+    parameters:
+    - id: message
+      type: System.String
+    content.vb: Public Sub TestCallbackEventBus1(message As String)
+  overload: Global.EventBusTester.TestCallbackEventBus1*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.EventBusTester.BreakEnumerationTest
+  commentId: M:Global.EventBusTester.BreakEnumerationTest
+  id: BreakEnumerationTest
+  parent: Global.EventBusTester
+  langs:
+  - csharp
+  - vb
+  name: BreakEnumerationTest()
+  nameWithType: EventBusTester.BreakEnumerationTest()
+  fullName: EventBusTester.BreakEnumerationTest()
+  type: Method
+  source:
+    id: BreakEnumerationTest
+    path: ''
+    startLine: 17893
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void BreakEnumerationTest()
+    content.vb: Public Sub BreakEnumerationTest
+  overload: Global.EventBusTester.BreakEnumerationTest*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.EventBusTester.TestCallbackEventBus*
+  commentId: Overload:Global.EventBusTester.TestCallbackEventBus
+  name: TestCallbackEventBus
+  nameWithType: EventBusTester.TestCallbackEventBus
+  fullName: EventBusTester.TestCallbackEventBus
+- uid: Global.EventBusTester.TestCallbackEventBus1*
+  commentId: Overload:Global.EventBusTester.TestCallbackEventBus1
+  name: TestCallbackEventBus1
+  nameWithType: EventBusTester.TestCallbackEventBus1
+  fullName: EventBusTester.TestCallbackEventBus1
+- uid: Global.EventBusTester.BreakEnumerationTest*
+  commentId: Overload:Global.EventBusTester.BreakEnumerationTest
+  name: BreakEnumerationTest
+  nameWithType: EventBusTester.BreakEnumerationTest
+  fullName: EventBusTester.BreakEnumerationTest

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Regions
+  commentId: T:Global.Regions
+  id: Regions
+  parent: Global
+  children:
+  - Global.Regions.GetEnumerator
+  - Global.Regions.Regionen
+  langs:
+  - csharp
+  - vb
+  name: Regions
+  nameWithType: Regions
+  fullName: Regions
+  type: Class
+  source:
+    id: Regions
+    path: ''
+    startLine: 23205
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Regions : IEnumerable<Region>
+    content.vb: >-
+      <Serializable>
+
+      Public Class Regions
+          Inherits IEnumerable(Of Region)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Regions.Regionen
+  commentId: F:Global.Regions.Regionen
+  id: Regionen
+  parent: Global.Regions
+  langs:
+  - csharp
+  - vb
+  name: Regionen
+  nameWithType: Regions.Regionen
+  fullName: Regions.Regionen
+  type: Field
+  source:
+    id: Regionen
+    path: ''
+    startLine: 23208
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Region[] Regionen
+    return:
+      type: Global.Region[]
+    content.vb: Public Regionen As Region()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Regions.GetEnumerator
+  commentId: M:Global.Regions.GetEnumerator
+  id: GetEnumerator
+  parent: Global.Regions
+  langs:
+  - csharp
+  - vb
+  name: GetEnumerator()
+  nameWithType: Regions.GetEnumerator()
+  fullName: Regions.GetEnumerator()
+  type: Method
+  source:
+    id: GetEnumerator
+    path: ''
+    startLine: 23220
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public RegionEnum GetEnumerator()
+    return:
+      type: Global.RegionEnum
+    content.vb: Public Function GetEnumerator As RegionEnum
+  overload: Global.Regions.GetEnumerator*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Region[]
+  isExternal: true
+  name: Region[]
+  nameWithType: Region[]
+  fullName: Region[]
+  nameWithType.vb: Region()
+  fullName.vb: Region()
+  name.vb: Region()
+  spec.csharp:
+  - uid: Global.Region
+    name: Region
+    nameWithType: Region
+    fullName: Region
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Region
+    name: Region
+    nameWithType: Region
+    fullName: Region
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.Regions.GetEnumerator*
+  commentId: Overload:Global.Regions.GetEnumerator
+  name: GetEnumerator
+  nameWithType: Regions.GetEnumerator
+  fullName: Regions.GetEnumerator
+- uid: Global.RegionEnum
+  commentId: T:Global.RegionEnum
+  name: RegionEnum
+  nameWithType: RegionEnum
+  fullName: RegionEnum

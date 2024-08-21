@@ -1,0 +1,270 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.UI.BuildingBoxButtonUIElement
+  commentId: T:BuildingBox.UI.BuildingBoxButtonUIElement
+  id: BuildingBoxButtonUIElement
+  parent: BuildingBox.UI
+  children:
+  - BuildingBox.UI.BuildingBoxButtonUIElement.Awake
+  - BuildingBox.UI.BuildingBoxButtonUIElement.elementCount
+  - BuildingBox.UI.BuildingBoxButtonUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxButtonUIElement
+  nameWithType: BuildingBoxButtonUIElement
+  fullName: BuildingBox.UI.BuildingBoxButtonUIElement
+  type: Class
+  source:
+    id: BuildingBoxButtonUIElement
+    path: ''
+    startLine: 242
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: 'public class BuildingBoxButtonUIElement : BaseBuildingBoxUIElement'
+    content.vb: >-
+      Public Class BuildingBoxButtonUIElement
+          Inherits BaseBuildingBoxUIElement
+  inheritance:
+  - System.Object
+  - BuildingBox.UI.BaseBuildingBoxUIElement
+  inheritedMembers:
+  - BuildingBox.UI.BaseBuildingBoxUIElement.selectable
+  - BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+  - BuildingBox.UI.BaseBuildingBoxUIElement.elementName
+  - BuildingBox.UI.BaseBuildingBoxUIElement.image
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.UI.BuildingBoxButtonUIElement.elementCount
+  commentId: F:BuildingBox.UI.BuildingBoxButtonUIElement.elementCount
+  id: elementCount
+  parent: BuildingBox.UI.BuildingBoxButtonUIElement
+  langs:
+  - csharp
+  - vb
+  name: elementCount
+  nameWithType: BuildingBoxButtonUIElement.elementCount
+  fullName: BuildingBox.UI.BuildingBoxButtonUIElement.elementCount
+  type: Field
+  source:
+    id: elementCount
+    path: ''
+    startLine: 244
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public TextMeshProUGUI elementCount
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public elementCount As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BuildingBoxButtonUIElement.Awake
+  commentId: M:BuildingBox.UI.BuildingBoxButtonUIElement.Awake
+  id: Awake
+  parent: BuildingBox.UI.BuildingBoxButtonUIElement
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: BuildingBoxButtonUIElement.Awake()
+  fullName: BuildingBox.UI.BuildingBoxButtonUIElement.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 246
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  overload: BuildingBox.UI.BuildingBoxButtonUIElement.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: BuildingBox.UI.BuildingBoxButtonUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  commentId: M:BuildingBox.UI.BuildingBoxButtonUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  id: SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  parent: BuildingBox.UI.BuildingBoxButtonUIElement
+  langs:
+  - csharp
+  - vb
+  name: SetBuildingBoxElementData(BuildingBoxElementData)
+  nameWithType: BuildingBoxButtonUIElement.SetBuildingBoxElementData(BuildingBoxElementData)
+  fullName: BuildingBox.UI.BuildingBoxButtonUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  type: Method
+  source:
+    id: SetBuildingBoxElementData
+    path: ''
+    startLine: 254
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public override void SetBuildingBoxElementData(BuildingBoxElementData elementData)
+    parameters:
+    - id: elementData
+      type: BuildingBox.BuildingBoxElementData
+    content.vb: Public Overrides Sub SetBuildingBoxElementData(elementData As BuildingBoxElementData)
+  overridden: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  overload: BuildingBox.UI.BuildingBoxButtonUIElement.SetBuildingBoxElementData*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: BuildingBox.UI
+  commentId: N:BuildingBox.UI
+  name: BuildingBox.UI
+  nameWithType: BuildingBox.UI
+  fullName: BuildingBox.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement
+  commentId: T:BuildingBox.UI.BaseBuildingBoxUIElement
+  parent: BuildingBox.UI
+  name: BaseBuildingBoxUIElement
+  nameWithType: BaseBuildingBoxUIElement
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.selectable
+  commentId: F:BuildingBox.UI.BaseBuildingBoxUIElement.selectable
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  name: selectable
+  nameWithType: BaseBuildingBoxUIElement.selectable
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.selectable
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+  commentId: P:BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  name: buildingBoxElementData
+  nameWithType: BaseBuildingBoxUIElement.buildingBoxElementData
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.elementName
+  commentId: F:BuildingBox.UI.BaseBuildingBoxUIElement.elementName
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  name: elementName
+  nameWithType: BaseBuildingBoxUIElement.elementName
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.elementName
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.image
+  commentId: F:BuildingBox.UI.BaseBuildingBoxUIElement.image
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  name: image
+  nameWithType: BaseBuildingBoxUIElement.image
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.image
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  commentId: M:BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  name: Awake()
+  nameWithType: BaseBuildingBoxUIElement.Awake()
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.Awake()
+  spec.csharp:
+  - uid: BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+    name: Awake
+    nameWithType: BaseBuildingBoxUIElement.Awake
+    fullName: BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+    name: Awake
+    nameWithType: BaseBuildingBoxUIElement.Awake
+    fullName: BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BuildingBox.UI.BuildingBoxButtonUIElement.Awake*
+  commentId: Overload:BuildingBox.UI.BuildingBoxButtonUIElement.Awake
+  name: Awake
+  nameWithType: BuildingBoxButtonUIElement.Awake
+  fullName: BuildingBox.UI.BuildingBoxButtonUIElement.Awake
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  commentId: M:BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  name: SetBuildingBoxElementData(BuildingBoxElementData)
+  nameWithType: BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBoxElementData)
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  spec.csharp:
+  - uid: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+    name: SetBuildingBoxElementData
+    nameWithType: BaseBuildingBoxUIElement.SetBuildingBoxElementData
+    fullName: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BuildingBox.BuildingBoxElementData
+    name: BuildingBoxElementData
+    nameWithType: BuildingBoxElementData
+    fullName: BuildingBox.BuildingBoxElementData
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+    name: SetBuildingBoxElementData
+    nameWithType: BaseBuildingBoxUIElement.SetBuildingBoxElementData
+    fullName: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: BuildingBox.BuildingBoxElementData
+    name: BuildingBoxElementData
+    nameWithType: BuildingBoxElementData
+    fullName: BuildingBox.BuildingBoxElementData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: BuildingBox.UI.BuildingBoxButtonUIElement.SetBuildingBoxElementData*
+  commentId: Overload:BuildingBox.UI.BuildingBoxButtonUIElement.SetBuildingBoxElementData
+  name: SetBuildingBoxElementData
+  nameWithType: BuildingBoxButtonUIElement.SetBuildingBoxElementData
+  fullName: BuildingBox.UI.BuildingBoxButtonUIElement.SetBuildingBoxElementData
+- uid: BuildingBox.BuildingBoxElementData
+  commentId: T:BuildingBox.BuildingBoxElementData
+  parent: BuildingBox
+  name: BuildingBoxElementData
+  nameWithType: BuildingBoxElementData
+  fullName: BuildingBox.BuildingBoxElementData
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox

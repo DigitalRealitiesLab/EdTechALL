@@ -1,0 +1,130 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.MapLayerMiniGameToggle
+  commentId: T:Global.MapLayerMiniGameToggle
+  id: MapLayerMiniGameToggle
+  parent: Global
+  children:
+  - Global.MapLayerMiniGameToggle.label
+  - Global.MapLayerMiniGameToggle.mapLayerData
+  langs:
+  - csharp
+  - vb
+  name: MapLayerMiniGameToggle
+  nameWithType: MapLayerMiniGameToggle
+  fullName: MapLayerMiniGameToggle
+  type: Class
+  source:
+    id: MapLayerMiniGameToggle
+    path: ''
+    startLine: 15570
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class MapLayerMiniGameToggle : MonoBehaviour'
+    content.vb: >-
+      Public Class MapLayerMiniGameToggle
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.MapLayerMiniGameToggle.label
+  commentId: F:Global.MapLayerMiniGameToggle.label
+  id: label
+  parent: Global.MapLayerMiniGameToggle
+  langs:
+  - csharp
+  - vb
+  name: label
+  nameWithType: MapLayerMiniGameToggle.label
+  fullName: MapLayerMiniGameToggle.label
+  type: Field
+  source:
+    id: label
+    path: ''
+    startLine: 15574
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TMPro.TextMeshProUGUI label
+    return:
+      type: Global.TMPro.TextMeshProUGUI
+    content.vb: Public label As TMPro.TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.MapLayerMiniGameToggle.mapLayerData
+  commentId: P:Global.MapLayerMiniGameToggle.mapLayerData
+  id: mapLayerData
+  parent: Global.MapLayerMiniGameToggle
+  langs:
+  - csharp
+  - vb
+  name: mapLayerData
+  nameWithType: MapLayerMiniGameToggle.mapLayerData
+  fullName: MapLayerMiniGameToggle.mapLayerData
+  type: Property
+  source:
+    id: mapLayerData
+    path: ''
+    startLine: 15576
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public MapLayerData mapLayerData { set; }
+    parameters: []
+    return:
+      type: Global.MapLayerData
+    content.vb: Public WriteOnly Property mapLayerData As MapLayerData
+  overload: Global.MapLayerMiniGameToggle.mapLayerData*
+  modifiers.csharp:
+  - public
+  - set
+  modifiers.vb:
+  - Public
+  - WriteOnly
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.TMPro.TextMeshProUGUI
+  isExternal: true
+  name: TMPro.TextMeshProUGUI
+  nameWithType: TMPro.TextMeshProUGUI
+  fullName: TMPro.TextMeshProUGUI
+- uid: Global.MapLayerMiniGameToggle.mapLayerData*
+  commentId: Overload:Global.MapLayerMiniGameToggle.mapLayerData
+  name: mapLayerData
+  nameWithType: MapLayerMiniGameToggle.mapLayerData
+  fullName: MapLayerMiniGameToggle.mapLayerData
+- uid: Global.MapLayerData
+  commentId: T:Global.MapLayerData
+  name: MapLayerData
+  nameWithType: MapLayerData
+  fullName: MapLayerData

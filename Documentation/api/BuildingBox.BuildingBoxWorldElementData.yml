@@ -1,0 +1,276 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.BuildingBoxWorldElementData
+  commentId: T:BuildingBox.BuildingBoxWorldElementData
+  id: BuildingBoxWorldElementData
+  parent: BuildingBox
+  children:
+  - BuildingBox.BuildingBoxWorldElementData.Clean
+  - BuildingBox.BuildingBoxWorldElementData.DestroyInstance(GameObject)
+  - BuildingBox.BuildingBoxWorldElementData.lastInstance
+  - BuildingBox.BuildingBoxWorldElementData.spawnCount
+  - BuildingBox.BuildingBoxWorldElementData.SpawnInstance
+  - BuildingBox.BuildingBoxWorldElementData.spawnLimit
+  langs:
+  - csharp
+  - vb
+  name: BuildingBoxWorldElementData
+  nameWithType: BuildingBoxWorldElementData
+  fullName: BuildingBox.BuildingBoxWorldElementData
+  type: Class
+  source:
+    id: BuildingBoxWorldElementData
+    path: ''
+    startLine: 855
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class BuildingBoxWorldElementData
+    content.vb: >-
+      <Serializable>
+
+      Public Class BuildingBoxWorldElementData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.BuildingBoxWorldElementData.spawnLimit
+  commentId: F:BuildingBox.BuildingBoxWorldElementData.spawnLimit
+  id: spawnLimit
+  parent: BuildingBox.BuildingBoxWorldElementData
+  langs:
+  - csharp
+  - vb
+  name: spawnLimit
+  nameWithType: BuildingBoxWorldElementData.spawnLimit
+  fullName: BuildingBox.BuildingBoxWorldElementData.spawnLimit
+  type: Field
+  source:
+    id: spawnLimit
+    path: ''
+    startLine: 861
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int spawnLimit
+    return:
+      type: System.Int32
+    content.vb: Public spawnLimit As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxWorldElementData.spawnCount
+  commentId: P:BuildingBox.BuildingBoxWorldElementData.spawnCount
+  id: spawnCount
+  parent: BuildingBox.BuildingBoxWorldElementData
+  langs:
+  - csharp
+  - vb
+  name: spawnCount
+  nameWithType: BuildingBoxWorldElementData.spawnCount
+  fullName: BuildingBox.BuildingBoxWorldElementData.spawnCount
+  type: Property
+  source:
+    id: spawnCount
+    path: ''
+    startLine: 865
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public int spawnCount { get; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public ReadOnly Property spawnCount As Integer
+  overload: BuildingBox.BuildingBoxWorldElementData.spawnCount*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.BuildingBoxWorldElementData.lastInstance
+  commentId: P:BuildingBox.BuildingBoxWorldElementData.lastInstance
+  id: lastInstance
+  parent: BuildingBox.BuildingBoxWorldElementData
+  langs:
+  - csharp
+  - vb
+  name: lastInstance
+  nameWithType: BuildingBoxWorldElementData.lastInstance
+  fullName: BuildingBox.BuildingBoxWorldElementData.lastInstance
+  type: Property
+  source:
+    id: lastInstance
+    path: ''
+    startLine: 866
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public GameObject lastInstance { get; }
+    parameters: []
+    return:
+      type: Global.GameObject
+    content.vb: Public ReadOnly Property lastInstance As GameObject
+  overload: BuildingBox.BuildingBoxWorldElementData.lastInstance*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.BuildingBoxWorldElementData.SpawnInstance
+  commentId: M:BuildingBox.BuildingBoxWorldElementData.SpawnInstance
+  id: SpawnInstance
+  parent: BuildingBox.BuildingBoxWorldElementData
+  langs:
+  - csharp
+  - vb
+  name: SpawnInstance()
+  nameWithType: BuildingBoxWorldElementData.SpawnInstance()
+  fullName: BuildingBox.BuildingBoxWorldElementData.SpawnInstance()
+  type: Method
+  source:
+    id: SpawnInstance
+    path: ''
+    startLine: 868
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public GameObject SpawnInstance()
+    return:
+      type: Global.GameObject
+    content.vb: Public Function SpawnInstance As GameObject
+  overload: BuildingBox.BuildingBoxWorldElementData.SpawnInstance*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxWorldElementData.DestroyInstance(GameObject)
+  commentId: M:BuildingBox.BuildingBoxWorldElementData.DestroyInstance(GameObject)
+  id: DestroyInstance(GameObject)
+  parent: BuildingBox.BuildingBoxWorldElementData
+  langs:
+  - csharp
+  - vb
+  name: DestroyInstance(GameObject)
+  nameWithType: BuildingBoxWorldElementData.DestroyInstance(GameObject)
+  fullName: BuildingBox.BuildingBoxWorldElementData.DestroyInstance(GameObject)
+  type: Method
+  source:
+    id: DestroyInstance
+    path: ''
+    startLine: 884
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void DestroyInstance(GameObject instance)
+    parameters:
+    - id: instance
+      type: Global.GameObject
+    content.vb: Public Sub DestroyInstance(instance As GameObject)
+  overload: BuildingBox.BuildingBoxWorldElementData.DestroyInstance*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.BuildingBoxWorldElementData.Clean
+  commentId: M:BuildingBox.BuildingBoxWorldElementData.Clean
+  id: Clean
+  parent: BuildingBox.BuildingBoxWorldElementData
+  langs:
+  - csharp
+  - vb
+  name: Clean()
+  nameWithType: BuildingBoxWorldElementData.Clean()
+  fullName: BuildingBox.BuildingBoxWorldElementData.Clean()
+  type: Method
+  source:
+    id: Clean
+    path: ''
+    startLine: 892
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public void Clean()
+    content.vb: Public Sub Clean
+  overload: BuildingBox.BuildingBoxWorldElementData.Clean*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: BuildingBox.BuildingBoxWorldElementData.spawnCount*
+  commentId: Overload:BuildingBox.BuildingBoxWorldElementData.spawnCount
+  name: spawnCount
+  nameWithType: BuildingBoxWorldElementData.spawnCount
+  fullName: BuildingBox.BuildingBoxWorldElementData.spawnCount
+- uid: BuildingBox.BuildingBoxWorldElementData.lastInstance*
+  commentId: Overload:BuildingBox.BuildingBoxWorldElementData.lastInstance
+  name: lastInstance
+  nameWithType: BuildingBoxWorldElementData.lastInstance
+  fullName: BuildingBox.BuildingBoxWorldElementData.lastInstance
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: BuildingBox.BuildingBoxWorldElementData.SpawnInstance*
+  commentId: Overload:BuildingBox.BuildingBoxWorldElementData.SpawnInstance
+  name: SpawnInstance
+  nameWithType: BuildingBoxWorldElementData.SpawnInstance
+  fullName: BuildingBox.BuildingBoxWorldElementData.SpawnInstance
+- uid: BuildingBox.BuildingBoxWorldElementData.DestroyInstance*
+  commentId: Overload:BuildingBox.BuildingBoxWorldElementData.DestroyInstance
+  name: DestroyInstance
+  nameWithType: BuildingBoxWorldElementData.DestroyInstance
+  fullName: BuildingBox.BuildingBoxWorldElementData.DestroyInstance
+- uid: BuildingBox.BuildingBoxWorldElementData.Clean*
+  commentId: Overload:BuildingBox.BuildingBoxWorldElementData.Clean
+  name: Clean
+  nameWithType: BuildingBoxWorldElementData.Clean
+  fullName: BuildingBox.BuildingBoxWorldElementData.Clean

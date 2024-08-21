@@ -1,0 +1,262 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Interactable.ToggleActiveBehaviour
+  commentId: T:InteractionSystem.Interactable.ToggleActiveBehaviour
+  id: ToggleActiveBehaviour
+  parent: InteractionSystem.Interactable
+  children:
+  - InteractionSystem.Interactable.ToggleActiveBehaviour.Awake
+  - InteractionSystem.Interactable.ToggleActiveBehaviour.initialState
+  - InteractionSystem.Interactable.ToggleActiveBehaviour.OnInteract
+  - InteractionSystem.Interactable.ToggleActiveBehaviour.target
+  langs:
+  - csharp
+  - vb
+  name: ToggleActiveBehaviour
+  nameWithType: ToggleActiveBehaviour
+  fullName: InteractionSystem.Interactable.ToggleActiveBehaviour
+  type: Class
+  source:
+    id: ToggleActiveBehaviour
+    path: ''
+    startLine: 24647
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: 'public class ToggleActiveBehaviour : AInteractionBehaviour'
+    content.vb: >-
+      Public Class ToggleActiveBehaviour
+          Inherits AInteractionBehaviour
+  inheritance:
+  - System.Object
+  - InteractionSystem.Interactable.AInteractionBehaviour
+  inheritedMembers:
+  - InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Interactable.ToggleActiveBehaviour.target
+  commentId: F:InteractionSystem.Interactable.ToggleActiveBehaviour.target
+  id: target
+  parent: InteractionSystem.Interactable.ToggleActiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: target
+  nameWithType: ToggleActiveBehaviour.target
+  fullName: InteractionSystem.Interactable.ToggleActiveBehaviour.target
+  type: Field
+  source:
+    id: target
+    path: ''
+    startLine: 24649
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: public GameObject target
+    return:
+      type: Global.GameObject
+    content.vb: Public target As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Interactable.ToggleActiveBehaviour.initialState
+  commentId: F:InteractionSystem.Interactable.ToggleActiveBehaviour.initialState
+  id: initialState
+  parent: InteractionSystem.Interactable.ToggleActiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: initialState
+  nameWithType: ToggleActiveBehaviour.initialState
+  fullName: InteractionSystem.Interactable.ToggleActiveBehaviour.initialState
+  type: Field
+  source:
+    id: initialState
+    path: ''
+    startLine: 24650
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: public bool initialState
+    return:
+      type: System.Boolean
+    content.vb: Public initialState As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Interactable.ToggleActiveBehaviour.Awake
+  commentId: M:InteractionSystem.Interactable.ToggleActiveBehaviour.Awake
+  id: Awake
+  parent: InteractionSystem.Interactable.ToggleActiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ToggleActiveBehaviour.Awake()
+  fullName: InteractionSystem.Interactable.ToggleActiveBehaviour.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 24652
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: protected override void Awake()
+    content.vb: Protected Overrides Sub Awake
+  overridden: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  overload: InteractionSystem.Interactable.ToggleActiveBehaviour.Awake*
+  modifiers.csharp:
+  - protected
+  - override
+  modifiers.vb:
+  - Protected
+  - Overrides
+- uid: InteractionSystem.Interactable.ToggleActiveBehaviour.OnInteract
+  commentId: M:InteractionSystem.Interactable.ToggleActiveBehaviour.OnInteract
+  id: OnInteract
+  parent: InteractionSystem.Interactable.ToggleActiveBehaviour
+  langs:
+  - csharp
+  - vb
+  name: OnInteract()
+  nameWithType: ToggleActiveBehaviour.OnInteract()
+  fullName: InteractionSystem.Interactable.ToggleActiveBehaviour.OnInteract()
+  type: Method
+  source:
+    id: OnInteract
+    path: ''
+    startLine: 24659
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Interactable
+  syntax:
+    content: public override void OnInteract()
+    content.vb: Public Overrides Sub OnInteract
+  overridden: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  overload: InteractionSystem.Interactable.ToggleActiveBehaviour.OnInteract*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: InteractionSystem.Interactable
+  commentId: N:InteractionSystem.Interactable
+  name: InteractionSystem.Interactable
+  nameWithType: InteractionSystem.Interactable
+  fullName: InteractionSystem.Interactable
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: InteractionSystem.Interactable.AInteractionBehaviour
+  commentId: T:InteractionSystem.Interactable.AInteractionBehaviour
+  parent: InteractionSystem.Interactable
+  name: AInteractionBehaviour
+  nameWithType: AInteractionBehaviour
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  commentId: F:InteractionSystem.Interactable.AInteractionBehaviour.interactable
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  name: interactable
+  nameWithType: AInteractionBehaviour.interactable
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.interactable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  commentId: M:InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  name: Awake()
+  nameWithType: AInteractionBehaviour.Awake()
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.Awake()
+  spec.csharp:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+    name: Awake
+    nameWithType: AInteractionBehaviour.Awake
+    fullName: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+    name: Awake
+    nameWithType: AInteractionBehaviour.Awake
+    fullName: InteractionSystem.Interactable.AInteractionBehaviour.Awake
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Interactable.ToggleActiveBehaviour.Awake*
+  commentId: Overload:InteractionSystem.Interactable.ToggleActiveBehaviour.Awake
+  name: Awake
+  nameWithType: ToggleActiveBehaviour.Awake
+  fullName: InteractionSystem.Interactable.ToggleActiveBehaviour.Awake
+- uid: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  commentId: M:InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  parent: InteractionSystem.Interactable.AInteractionBehaviour
+  name: OnInteract()
+  nameWithType: AInteractionBehaviour.OnInteract()
+  fullName: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract()
+  spec.csharp:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+    name: OnInteract
+    nameWithType: AInteractionBehaviour.OnInteract
+    fullName: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+    name: OnInteract
+    nameWithType: AInteractionBehaviour.OnInteract
+    fullName: InteractionSystem.Interactable.AInteractionBehaviour.OnInteract
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Interactable.ToggleActiveBehaviour.OnInteract*
+  commentId: Overload:InteractionSystem.Interactable.ToggleActiveBehaviour.OnInteract
+  name: OnInteract
+  nameWithType: ToggleActiveBehaviour.OnInteract
+  fullName: InteractionSystem.Interactable.ToggleActiveBehaviour.OnInteract

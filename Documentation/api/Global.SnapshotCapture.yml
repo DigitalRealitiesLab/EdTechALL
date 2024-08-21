@@ -1,0 +1,286 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SnapshotCapture
+  commentId: T:Global.SnapshotCapture
+  id: SnapshotCapture
+  parent: Global
+  children:
+  - Global.SnapshotCapture.animator
+  - Global.SnapshotCapture.CaptureSnapshot
+  - Global.SnapshotCapture.exitButton
+  - Global.SnapshotCapture.ReactivateSnapshotButton
+  - Global.SnapshotCapture.snapshotButton
+  - Global.SnapshotCapture.snapshotDelay
+  - Global.SnapshotCapture.snapshotReactivationDelay
+  langs:
+  - csharp
+  - vb
+  name: SnapshotCapture
+  nameWithType: SnapshotCapture
+  fullName: SnapshotCapture
+  type: Class
+  source:
+    id: SnapshotCapture
+    path: ''
+    startLine: 17553
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SnapshotCapture : MonoBehaviour'
+    content.vb: >-
+      Public Class SnapshotCapture
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SnapshotCapture.snapshotButton
+  commentId: F:Global.SnapshotCapture.snapshotButton
+  id: snapshotButton
+  parent: Global.SnapshotCapture
+  langs:
+  - csharp
+  - vb
+  name: snapshotButton
+  nameWithType: SnapshotCapture.snapshotButton
+  fullName: SnapshotCapture.snapshotButton
+  type: Field
+  source:
+    id: snapshotButton
+    path: ''
+    startLine: 17555
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button snapshotButton
+    return:
+      type: Global.Button
+    content.vb: Public snapshotButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SnapshotCapture.exitButton
+  commentId: F:Global.SnapshotCapture.exitButton
+  id: exitButton
+  parent: Global.SnapshotCapture
+  langs:
+  - csharp
+  - vb
+  name: exitButton
+  nameWithType: SnapshotCapture.exitButton
+  fullName: SnapshotCapture.exitButton
+  type: Field
+  source:
+    id: exitButton
+    path: ''
+    startLine: 17556
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button exitButton
+    return:
+      type: Global.Button
+    content.vb: Public exitButton As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SnapshotCapture.animator
+  commentId: F:Global.SnapshotCapture.animator
+  id: animator
+  parent: Global.SnapshotCapture
+  langs:
+  - csharp
+  - vb
+  name: animator
+  nameWithType: SnapshotCapture.animator
+  fullName: SnapshotCapture.animator
+  type: Field
+  source:
+    id: animator
+    path: ''
+    startLine: 17557
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Animator animator
+    return:
+      type: Global.Animator
+    content.vb: Public animator As Animator
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SnapshotCapture.snapshotDelay
+  commentId: F:Global.SnapshotCapture.snapshotDelay
+  id: snapshotDelay
+  parent: Global.SnapshotCapture
+  langs:
+  - csharp
+  - vb
+  name: snapshotDelay
+  nameWithType: SnapshotCapture.snapshotDelay
+  fullName: SnapshotCapture.snapshotDelay
+  type: Field
+  source:
+    id: snapshotDelay
+    path: ''
+    startLine: 17558
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float snapshotDelay
+    return:
+      type: System.Single
+    content.vb: Public snapshotDelay As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SnapshotCapture.snapshotReactivationDelay
+  commentId: F:Global.SnapshotCapture.snapshotReactivationDelay
+  id: snapshotReactivationDelay
+  parent: Global.SnapshotCapture
+  langs:
+  - csharp
+  - vb
+  name: snapshotReactivationDelay
+  nameWithType: SnapshotCapture.snapshotReactivationDelay
+  fullName: SnapshotCapture.snapshotReactivationDelay
+  type: Field
+  source:
+    id: snapshotReactivationDelay
+    path: ''
+    startLine: 17559
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float snapshotReactivationDelay
+    return:
+      type: System.Single
+    content.vb: Public snapshotReactivationDelay As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SnapshotCapture.CaptureSnapshot
+  commentId: M:Global.SnapshotCapture.CaptureSnapshot
+  id: CaptureSnapshot
+  parent: Global.SnapshotCapture
+  langs:
+  - csharp
+  - vb
+  name: CaptureSnapshot()
+  nameWithType: SnapshotCapture.CaptureSnapshot()
+  fullName: SnapshotCapture.CaptureSnapshot()
+  type: Method
+  source:
+    id: CaptureSnapshot
+    path: ''
+    startLine: 17577
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public IEnumerator CaptureSnapshot()
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function CaptureSnapshot As IEnumerator
+  overload: Global.SnapshotCapture.CaptureSnapshot*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SnapshotCapture.ReactivateSnapshotButton
+  commentId: M:Global.SnapshotCapture.ReactivateSnapshotButton
+  id: ReactivateSnapshotButton
+  parent: Global.SnapshotCapture
+  langs:
+  - csharp
+  - vb
+  name: ReactivateSnapshotButton()
+  nameWithType: SnapshotCapture.ReactivateSnapshotButton()
+  fullName: SnapshotCapture.ReactivateSnapshotButton()
+  type: Method
+  source:
+    id: ReactivateSnapshotButton
+    path: ''
+    startLine: 17592
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public IEnumerator ReactivateSnapshotButton()
+    return:
+      type: Global.IEnumerator
+    content.vb: Public Function ReactivateSnapshotButton As IEnumerator
+  overload: Global.SnapshotCapture.ReactivateSnapshotButton*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.Animator
+  commentId: '!:Global.Animator'
+  isExternal: true
+  name: Animator
+  nameWithType: Animator
+  fullName: Animator
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.SnapshotCapture.CaptureSnapshot*
+  commentId: Overload:Global.SnapshotCapture.CaptureSnapshot
+  name: CaptureSnapshot
+  nameWithType: SnapshotCapture.CaptureSnapshot
+  fullName: SnapshotCapture.CaptureSnapshot
+- uid: Global.IEnumerator
+  isExternal: true
+  name: IEnumerator
+  nameWithType: IEnumerator
+  fullName: IEnumerator
+- uid: Global.SnapshotCapture.ReactivateSnapshotButton*
+  commentId: Overload:Global.SnapshotCapture.ReactivateSnapshotButton
+  name: ReactivateSnapshotButton
+  nameWithType: SnapshotCapture.ReactivateSnapshotButton
+  fullName: SnapshotCapture.ReactivateSnapshotButton

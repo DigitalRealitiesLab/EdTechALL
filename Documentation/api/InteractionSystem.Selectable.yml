@@ -1,0 +1,68 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  id: InteractionSystem.Selectable
+  children:
+  - InteractionSystem.Selectable.ASelectionBehaviour
+  - InteractionSystem.Selectable.ChangeMaterialBehaviour
+  - InteractionSystem.Selectable.HandFollowBehaviour
+  - InteractionSystem.Selectable.Selectable
+  - InteractionSystem.Selectable.SelectableEvent
+  - InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  - InteractionSystem.Selectable.SnappingBehaviour
+  langs:
+  - csharp
+  - vb
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: InteractionSystem.Selectable.Selectable
+  commentId: T:InteractionSystem.Selectable.Selectable
+  parent: InteractionSystem.Selectable
+  name: Selectable
+  nameWithType: Selectable
+  fullName: InteractionSystem.Selectable.Selectable
+- uid: InteractionSystem.Selectable.SelectableEvent
+  commentId: T:InteractionSystem.Selectable.SelectableEvent
+  parent: InteractionSystem.Selectable
+  name: SelectableEvent
+  nameWithType: SelectableEvent
+  fullName: InteractionSystem.Selectable.SelectableEvent
+- uid: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  commentId: T:InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+  name: SelectionRotateToCameraBehaviour
+  nameWithType: SelectionRotateToCameraBehaviour
+  fullName: InteractionSystem.Selectable.SelectionRotateToCameraBehaviour
+- uid: InteractionSystem.Selectable.ASelectionBehaviour
+  commentId: T:InteractionSystem.Selectable.ASelectionBehaviour
+  parent: InteractionSystem.Selectable
+  name: ASelectionBehaviour
+  nameWithType: ASelectionBehaviour
+  fullName: InteractionSystem.Selectable.ASelectionBehaviour
+- uid: InteractionSystem.Selectable.HandFollowBehaviour
+  commentId: T:InteractionSystem.Selectable.HandFollowBehaviour
+  parent: InteractionSystem.Selectable
+  name: HandFollowBehaviour
+  nameWithType: HandFollowBehaviour
+  fullName: InteractionSystem.Selectable.HandFollowBehaviour
+- uid: InteractionSystem.Selectable.ChangeMaterialBehaviour
+  commentId: T:InteractionSystem.Selectable.ChangeMaterialBehaviour
+  name: ChangeMaterialBehaviour
+  nameWithType: ChangeMaterialBehaviour
+  fullName: InteractionSystem.Selectable.ChangeMaterialBehaviour
+- uid: InteractionSystem.Selectable.SnappingBehaviour
+  commentId: T:InteractionSystem.Selectable.SnappingBehaviour
+  parent: InteractionSystem.Selectable
+  name: SnappingBehaviour
+  nameWithType: SnappingBehaviour
+  fullName: InteractionSystem.Selectable.SnappingBehaviour
+- uid: InteractionSystem.Selectable
+  commentId: N:InteractionSystem.Selectable
+  name: InteractionSystem.Selectable
+  nameWithType: InteractionSystem.Selectable
+  fullName: InteractionSystem.Selectable

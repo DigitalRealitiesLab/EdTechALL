@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Region
+  commentId: T:Global.Region
+  id: Region
+  parent: Global
+  children:
+  - Global.Region.AlmwirtschaftMoeglich
+  - Global.Region.Regionsname
+  - Global.Region.Vollerwerb
+  langs:
+  - csharp
+  - vb
+  name: Region
+  nameWithType: Region
+  fullName: Region
+  type: Class
+  source:
+    id: Region
+    path: ''
+    startLine: 23197
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class Region
+    content.vb: >-
+      <Serializable>
+
+      Public Class Region
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.Region.Regionsname
+  commentId: F:Global.Region.Regionsname
+  id: Regionsname
+  parent: Global.Region
+  langs:
+  - csharp
+  - vb
+  name: Regionsname
+  nameWithType: Region.Regionsname
+  fullName: Region.Regionsname
+  type: Field
+  source:
+    id: Regionsname
+    path: ''
+    startLine: 23200
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string Regionsname
+    return:
+      type: System.String
+    content.vb: Public Regionsname As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Region.AlmwirtschaftMoeglich
+  commentId: F:Global.Region.AlmwirtschaftMoeglich
+  id: AlmwirtschaftMoeglich
+  parent: Global.Region
+  langs:
+  - csharp
+  - vb
+  name: AlmwirtschaftMoeglich
+  nameWithType: Region.AlmwirtschaftMoeglich
+  fullName: Region.AlmwirtschaftMoeglich
+  type: Field
+  source:
+    id: AlmwirtschaftMoeglich
+    path: ''
+    startLine: 23201
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool AlmwirtschaftMoeglich
+    return:
+      type: System.Boolean
+    content.vb: Public AlmwirtschaftMoeglich As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Region.Vollerwerb
+  commentId: F:Global.Region.Vollerwerb
+  id: Vollerwerb
+  parent: Global.Region
+  langs:
+  - csharp
+  - vb
+  name: Vollerwerb
+  nameWithType: Region.Vollerwerb
+  fullName: Region.Vollerwerb
+  type: Field
+  source:
+    id: Vollerwerb
+    path: ''
+    startLine: 23202
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool Vollerwerb
+    return:
+      type: System.Boolean
+    content.vb: Public Vollerwerb As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

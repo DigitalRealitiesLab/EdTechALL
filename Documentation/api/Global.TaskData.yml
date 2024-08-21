@@ -1,0 +1,499 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  id: TaskData
+  parent: Global
+  children:
+  - Global.TaskData.#ctor(TaskData)
+  - Global.TaskData.active
+  - Global.TaskData.completed
+  - Global.TaskData.contentIndex
+  - Global.TaskData.Equals(System.Object)
+  - Global.TaskData.GetHashCode
+  - Global.TaskData.taskDescription
+  - Global.TaskData.taskIndex
+  - Global.TaskData.taskType
+  - Global.TaskData.unlockableGroup
+  langs:
+  - csharp
+  - vb
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+  type: Class
+  source:
+    id: TaskData
+    path: ''
+    startLine: 18642
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class TaskData
+    content.vb: >-
+      <Serializable>
+
+      Public Class TaskData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TaskData.taskIndex
+  commentId: F:Global.TaskData.taskIndex
+  id: taskIndex
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: taskIndex
+  nameWithType: TaskData.taskIndex
+  fullName: TaskData.taskIndex
+  type: Field
+  source:
+    id: taskIndex
+    path: ''
+    startLine: 18646
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public int taskIndex
+    return:
+      type: System.Int32
+    content.vb: >-
+      <NonSerialized>
+
+      Public taskIndex As Integer
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskData.contentIndex
+  commentId: F:Global.TaskData.contentIndex
+  id: contentIndex
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: contentIndex
+  nameWithType: TaskData.contentIndex
+  fullName: TaskData.contentIndex
+  type: Field
+  source:
+    id: contentIndex
+    path: ''
+    startLine: 18647
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int contentIndex
+    return:
+      type: System.Int32
+    content.vb: Public contentIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskData.taskType
+  commentId: F:Global.TaskData.taskType
+  id: taskType
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: taskType
+  nameWithType: TaskData.taskType
+  fullName: TaskData.taskType
+  type: Field
+  source:
+    id: taskType
+    path: ''
+    startLine: 18648
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskType taskType
+    return:
+      type: Global.TaskType
+    content.vb: Public taskType As TaskType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskData.taskDescription
+  commentId: F:Global.TaskData.taskDescription
+  id: taskDescription
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: taskDescription
+  nameWithType: TaskData.taskDescription
+  fullName: TaskData.taskDescription
+  type: Field
+  source:
+    id: taskDescription
+    path: ''
+    startLine: 18650
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string taskDescription
+    return:
+      type: System.String
+    content.vb: Public taskDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskData.unlockableGroup
+  commentId: F:Global.TaskData.unlockableGroup
+  id: unlockableGroup
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: unlockableGroup
+  nameWithType: TaskData.unlockableGroup
+  fullName: TaskData.unlockableGroup
+  type: Field
+  source:
+    id: unlockableGroup
+    path: ''
+    startLine: 18651
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnlockableGroup unlockableGroup
+    return:
+      type: Global.UnlockableGroup
+    content.vb: Public unlockableGroup As UnlockableGroup
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskData.completed
+  commentId: F:Global.TaskData.completed
+  id: completed
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: completed
+  nameWithType: TaskData.completed
+  fullName: TaskData.completed
+  type: Field
+  source:
+    id: completed
+    path: ''
+    startLine: 18652
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool completed
+    return:
+      type: System.Boolean
+    content.vb: Public completed As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskData.active
+  commentId: F:Global.TaskData.active
+  id: active
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: active
+  nameWithType: TaskData.active
+  fullName: TaskData.active
+  type: Field
+  source:
+    id: active
+    path: ''
+    startLine: 18654
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public bool active
+    return:
+      type: System.Boolean
+    content.vb: >-
+      <NonSerialized>
+
+      Public active As Boolean
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskData.#ctor(TaskData)
+  commentId: M:Global.TaskData.#ctor(TaskData)
+  id: '#ctor(TaskData)'
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: TaskData(TaskData)
+  nameWithType: TaskData.TaskData(TaskData)
+  fullName: TaskData.TaskData(TaskData)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 18656
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TaskData(TaskData original)
+    parameters:
+    - id: original
+      type: Global.TaskData
+    content.vb: Public Sub New(original As TaskData)
+  overload: Global.TaskData.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TaskData.Equals(System.Object)
+  commentId: M:Global.TaskData.Equals(System.Object)
+  id: Equals(System.Object)
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: Equals(Object)
+  nameWithType: TaskData.Equals(Object)
+  fullName: TaskData.Equals(System.Object)
+  type: Method
+  source:
+    id: Equals
+    path: ''
+    startLine: 18673
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override bool Equals(object obj)
+    parameters:
+    - id: obj
+      type: System.Object
+    return:
+      type: System.Boolean
+    content.vb: Public Overrides Function Equals(obj As Object) As Boolean
+  overridden: System.Object.Equals(System.Object)
+  overload: Global.TaskData.Equals*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: Global.TaskData.GetHashCode
+  commentId: M:Global.TaskData.GetHashCode
+  id: GetHashCode
+  parent: Global.TaskData
+  langs:
+  - csharp
+  - vb
+  name: GetHashCode()
+  nameWithType: TaskData.GetHashCode()
+  fullName: TaskData.GetHashCode()
+  type: Method
+  source:
+    id: GetHashCode
+    path: ''
+    startLine: 18680
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override int GetHashCode()
+    return:
+      type: System.Int32
+    content.vb: Public Overrides Function GetHashCode As Integer
+  overridden: System.Object.GetHashCode
+  overload: Global.TaskData.GetHashCode*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.TaskType
+  commentId: T:Global.TaskType
+  name: TaskType
+  nameWithType: TaskType
+  fullName: TaskType
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.UnlockableGroup
+  commentId: T:Global.UnlockableGroup
+  name: UnlockableGroup
+  nameWithType: UnlockableGroup
+  fullName: UnlockableGroup
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.TaskData.#ctor*
+  commentId: Overload:Global.TaskData.#ctor
+  name: TaskData
+  nameWithType: TaskData.TaskData
+  fullName: TaskData.TaskData
+- uid: Global.TaskData
+  commentId: T:Global.TaskData
+  name: TaskData
+  nameWithType: TaskData
+  fullName: TaskData
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.TaskData.Equals*
+  commentId: Overload:Global.TaskData.Equals
+  name: Equals
+  nameWithType: TaskData.Equals
+  fullName: TaskData.Equals
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.TaskData.GetHashCode*
+  commentId: Overload:Global.TaskData.GetHashCode
+  name: GetHashCode
+  nameWithType: TaskData.GetHashCode
+  fullName: TaskData.GetHashCode

@@ -1,0 +1,89 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SceneLoadButtonEditor
+  commentId: T:Global.SceneLoadButtonEditor
+  id: SceneLoadButtonEditor
+  parent: Global
+  children:
+  - Global.SceneLoadButtonEditor.OnInspectorGUI
+  langs:
+  - csharp
+  - vb
+  name: SceneLoadButtonEditor
+  nameWithType: SceneLoadButtonEditor
+  fullName: SceneLoadButtonEditor
+  type: Class
+  source:
+    id: SceneLoadButtonEditor
+    path: ''
+    startLine: 17323
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SceneLoadButtonEditor : Editor'
+    content.vb: >-
+      Public Class SceneLoadButtonEditor
+          Inherits Editor
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SceneLoadButtonEditor.OnInspectorGUI
+  commentId: M:Global.SceneLoadButtonEditor.OnInspectorGUI
+  id: OnInspectorGUI
+  parent: Global.SceneLoadButtonEditor
+  langs:
+  - csharp
+  - vb
+  name: OnInspectorGUI()
+  nameWithType: SceneLoadButtonEditor.OnInspectorGUI()
+  fullName: SceneLoadButtonEditor.OnInspectorGUI()
+  type: Method
+  source:
+    id: OnInspectorGUI
+    path: ''
+    startLine: 17326
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public override void OnInspectorGUI()
+    content.vb: Public Overrides Sub OnInspectorGUI
+  overload: Global.SceneLoadButtonEditor.OnInspectorGUI*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.SceneLoadButtonEditor.OnInspectorGUI*
+  commentId: Overload:Global.SceneLoadButtonEditor.OnInspectorGUI
+  name: OnInspectorGUI
+  nameWithType: SceneLoadButtonEditor.OnInspectorGUI
+  fullName: SceneLoadButtonEditor.OnInspectorGUI

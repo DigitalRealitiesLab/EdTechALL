@@ -1,0 +1,205 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.Unlockable
+  commentId: T:Global.Unlockable
+  id: Unlockable
+  parent: Global
+  children:
+  - Global.Unlockable.CardTypeToUnlockableType(CardData.CardType)
+  - Global.Unlockable.unlockableConentIndex
+  - Global.Unlockable.unlockableType
+  - Global.Unlockable.UnlockableTypeToCardType(UnlockableType)
+  langs:
+  - csharp
+  - vb
+  name: Unlockable
+  nameWithType: Unlockable
+  fullName: Unlockable
+  type: Struct
+  source:
+    id: Unlockable
+    path: ''
+    startLine: 18400
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct Unlockable
+    content.vb: >-
+      <Serializable>
+
+      Public Structure Unlockable
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.Unlockable.unlockableType
+  commentId: F:Global.Unlockable.unlockableType
+  id: unlockableType
+  parent: Global.Unlockable
+  langs:
+  - csharp
+  - vb
+  name: unlockableType
+  nameWithType: Unlockable.unlockableType
+  fullName: Unlockable.unlockableType
+  type: Field
+  source:
+    id: unlockableType
+    path: ''
+    startLine: 18403
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public UnlockableType unlockableType
+    return:
+      type: Global.UnlockableType
+    content.vb: Public unlockableType As UnlockableType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Unlockable.unlockableConentIndex
+  commentId: F:Global.Unlockable.unlockableConentIndex
+  id: unlockableConentIndex
+  parent: Global.Unlockable
+  langs:
+  - csharp
+  - vb
+  name: unlockableConentIndex
+  nameWithType: Unlockable.unlockableConentIndex
+  fullName: Unlockable.unlockableConentIndex
+  type: Field
+  source:
+    id: unlockableConentIndex
+    path: ''
+    startLine: 18404
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int unlockableConentIndex
+    return:
+      type: System.Int32
+    content.vb: Public unlockableConentIndex As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.Unlockable.UnlockableTypeToCardType(UnlockableType)
+  commentId: M:Global.Unlockable.UnlockableTypeToCardType(UnlockableType)
+  id: UnlockableTypeToCardType(UnlockableType)
+  parent: Global.Unlockable
+  langs:
+  - csharp
+  - vb
+  name: UnlockableTypeToCardType(UnlockableType)
+  nameWithType: Unlockable.UnlockableTypeToCardType(UnlockableType)
+  fullName: Unlockable.UnlockableTypeToCardType(UnlockableType)
+  type: Method
+  source:
+    id: UnlockableTypeToCardType
+    path: ''
+    startLine: 18406
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static CardData.CardType UnlockableTypeToCardType(UnlockableType unlockable)
+    parameters:
+    - id: unlockable
+      type: Global.UnlockableType
+    return:
+      type: Global.CardData.CardType
+    content.vb: Public Shared Function UnlockableTypeToCardType(unlockable As UnlockableType) As CardData.CardType
+  overload: Global.Unlockable.UnlockableTypeToCardType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.Unlockable.CardTypeToUnlockableType(CardData.CardType)
+  commentId: M:Global.Unlockable.CardTypeToUnlockableType(CardData.CardType)
+  id: CardTypeToUnlockableType(CardData.CardType)
+  parent: Global.Unlockable
+  langs:
+  - csharp
+  - vb
+  name: CardTypeToUnlockableType(CardData.CardType)
+  nameWithType: Unlockable.CardTypeToUnlockableType(CardData.CardType)
+  fullName: Unlockable.CardTypeToUnlockableType(CardData.CardType)
+  type: Method
+  source:
+    id: CardTypeToUnlockableType
+    path: ''
+    startLine: 18411
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static UnlockableType CardTypeToUnlockableType(CardData.CardType cardType)
+    parameters:
+    - id: cardType
+      type: Global.CardData.CardType
+    return:
+      type: Global.UnlockableType
+    content.vb: Public Shared Function CardTypeToUnlockableType(cardType As CardData.CardType) As UnlockableType
+  overload: Global.Unlockable.CardTypeToUnlockableType*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.UnlockableType
+  commentId: T:Global.UnlockableType
+  name: UnlockableType
+  nameWithType: UnlockableType
+  fullName: UnlockableType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Unlockable.UnlockableTypeToCardType*
+  commentId: Overload:Global.Unlockable.UnlockableTypeToCardType
+  name: UnlockableTypeToCardType
+  nameWithType: Unlockable.UnlockableTypeToCardType
+  fullName: Unlockable.UnlockableTypeToCardType
+- uid: Global.CardData.CardType
+  isExternal: true
+  name: CardData.CardType
+  nameWithType: CardData.CardType
+  fullName: CardData.CardType
+- uid: Global.Unlockable.CardTypeToUnlockableType*
+  commentId: Overload:Global.Unlockable.CardTypeToUnlockableType
+  name: CardTypeToUnlockableType
+  nameWithType: Unlockable.CardTypeToUnlockableType
+  fullName: Unlockable.CardTypeToUnlockableType

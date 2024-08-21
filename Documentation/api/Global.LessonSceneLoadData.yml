@@ -1,0 +1,202 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LessonSceneLoadData
+  commentId: T:Global.LessonSceneLoadData
+  id: LessonSceneLoadData
+  parent: Global
+  children:
+  - Global.LessonSceneLoadData.prefabMapper
+  - Global.LessonSceneLoadData.sceneDescription
+  - Global.LessonSceneLoadData.sceneHeading
+  - Global.LessonSceneLoadData.sceneName
+  langs:
+  - csharp
+  - vb
+  name: LessonSceneLoadData
+  nameWithType: LessonSceneLoadData
+  fullName: LessonSceneLoadData
+  type: Class
+  source:
+    id: LessonSceneLoadData
+    path: ''
+    startLine: 25153
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class LessonSceneLoadData : AImageMarkerLookupData
+    content.vb: >-
+      <Serializable>
+
+      Public Class LessonSceneLoadData
+          Inherits AImageMarkerLookupData
+  inheritance:
+  - System.Object
+  - Global.AImageMarkerLookupData
+  inheritedMembers:
+  - Global.AImageMarkerLookupData.lookupKey
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.LessonSceneLoadData.sceneName
+  commentId: F:Global.LessonSceneLoadData.sceneName
+  id: sceneName
+  parent: Global.LessonSceneLoadData
+  langs:
+  - csharp
+  - vb
+  name: sceneName
+  nameWithType: LessonSceneLoadData.sceneName
+  fullName: LessonSceneLoadData.sceneName
+  type: Field
+  source:
+    id: sceneName
+    path: ''
+    startLine: 25156
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string sceneName
+    return:
+      type: System.String
+    content.vb: Public sceneName As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LessonSceneLoadData.sceneHeading
+  commentId: F:Global.LessonSceneLoadData.sceneHeading
+  id: sceneHeading
+  parent: Global.LessonSceneLoadData
+  langs:
+  - csharp
+  - vb
+  name: sceneHeading
+  nameWithType: LessonSceneLoadData.sceneHeading
+  fullName: LessonSceneLoadData.sceneHeading
+  type: Field
+  source:
+    id: sceneHeading
+    path: ''
+    startLine: 25157
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string sceneHeading
+    return:
+      type: System.String
+    content.vb: Public sceneHeading As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LessonSceneLoadData.sceneDescription
+  commentId: F:Global.LessonSceneLoadData.sceneDescription
+  id: sceneDescription
+  parent: Global.LessonSceneLoadData
+  langs:
+  - csharp
+  - vb
+  name: sceneDescription
+  nameWithType: LessonSceneLoadData.sceneDescription
+  fullName: LessonSceneLoadData.sceneDescription
+  type: Field
+  source:
+    id: sceneDescription
+    path: ''
+    startLine: 25159
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string sceneDescription
+    return:
+      type: System.String
+    content.vb: Public sceneDescription As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.LessonSceneLoadData.prefabMapper
+  commentId: F:Global.LessonSceneLoadData.prefabMapper
+  id: prefabMapper
+  parent: Global.LessonSceneLoadData
+  langs:
+  - csharp
+  - vb
+  name: prefabMapper
+  nameWithType: LessonSceneLoadData.prefabMapper
+  fullName: LessonSceneLoadData.prefabMapper
+  type: Field
+  source:
+    id: prefabMapper
+    path: ''
+    startLine: 25160
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public TextureToPrefabMapper prefabMapper
+    return:
+      type: Global.TextureToPrefabMapper
+    content.vb: Public prefabMapper As TextureToPrefabMapper
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.AImageMarkerLookupData
+  commentId: T:Global.AImageMarkerLookupData
+  name: AImageMarkerLookupData
+  nameWithType: AImageMarkerLookupData
+  fullName: AImageMarkerLookupData
+- uid: Global.AImageMarkerLookupData.lookupKey
+  commentId: F:Global.AImageMarkerLookupData.lookupKey
+  parent: Global.AImageMarkerLookupData
+  name: lookupKey
+  nameWithType: AImageMarkerLookupData.lookupKey
+  fullName: AImageMarkerLookupData.lookupKey
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.TextureToPrefabMapper
+  commentId: T:Global.TextureToPrefabMapper
+  name: TextureToPrefabMapper
+  nameWithType: TextureToPrefabMapper
+  fullName: TextureToPrefabMapper

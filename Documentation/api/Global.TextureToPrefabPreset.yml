@@ -1,0 +1,188 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TextureToPrefabPreset
+  commentId: T:Global.TextureToPrefabPreset
+  id: TextureToPrefabPreset
+  parent: Global
+  children:
+  - Global.TextureToPrefabPreset.displaySprite
+  - Global.TextureToPrefabPreset.name
+  - Global.TextureToPrefabPreset.prefab
+  - Global.TextureToPrefabPreset.texture
+  langs:
+  - csharp
+  - vb
+  name: TextureToPrefabPreset
+  nameWithType: TextureToPrefabPreset
+  fullName: TextureToPrefabPreset
+  type: Struct
+  source:
+    id: TextureToPrefabPreset
+    path: ''
+    startLine: 25605
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct TextureToPrefabPreset
+    content.vb: >-
+      <Serializable>
+
+      Public Structure TextureToPrefabPreset
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: Global.TextureToPrefabPreset.texture
+  commentId: F:Global.TextureToPrefabPreset.texture
+  id: texture
+  parent: Global.TextureToPrefabPreset
+  langs:
+  - csharp
+  - vb
+  name: texture
+  nameWithType: TextureToPrefabPreset.texture
+  fullName: TextureToPrefabPreset.texture
+  type: Field
+  source:
+    id: texture
+    path: ''
+    startLine: 25608
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Texture2D texture
+    return:
+      type: Global.Texture2D
+    content.vb: Public texture As Texture2D
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabPreset.displaySprite
+  commentId: F:Global.TextureToPrefabPreset.displaySprite
+  id: displaySprite
+  parent: Global.TextureToPrefabPreset
+  langs:
+  - csharp
+  - vb
+  name: displaySprite
+  nameWithType: TextureToPrefabPreset.displaySprite
+  fullName: TextureToPrefabPreset.displaySprite
+  type: Field
+  source:
+    id: displaySprite
+    path: ''
+    startLine: 25609
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Sprite displaySprite
+    return:
+      type: Global.Sprite
+    content.vb: Public displaySprite As Sprite
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabPreset.prefab
+  commentId: F:Global.TextureToPrefabPreset.prefab
+  id: prefab
+  parent: Global.TextureToPrefabPreset
+  langs:
+  - csharp
+  - vb
+  name: prefab
+  nameWithType: TextureToPrefabPreset.prefab
+  fullName: TextureToPrefabPreset.prefab
+  type: Field
+  source:
+    id: prefab
+    path: ''
+    startLine: 25610
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public GameObject prefab
+    return:
+      type: Global.GameObject
+    content.vb: Public prefab As GameObject
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TextureToPrefabPreset.name
+  commentId: F:Global.TextureToPrefabPreset.name
+  id: name
+  parent: Global.TextureToPrefabPreset
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: TextureToPrefabPreset.name
+  fullName: TextureToPrefabPreset.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 25611
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: Global.Texture2D
+  isExternal: true
+  name: Texture2D
+  nameWithType: Texture2D
+  fullName: Texture2D
+- uid: Global.Sprite
+  isExternal: true
+  name: Sprite
+  nameWithType: Sprite
+  fullName: Sprite
+- uid: Global.GameObject
+  isExternal: true
+  name: GameObject
+  nameWithType: GameObject
+  fullName: GameObject
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

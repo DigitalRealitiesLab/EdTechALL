@@ -1,0 +1,203 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.StateTransition
+  commentId: T:Global.StateTransition
+  id: StateTransition
+  parent: Global
+  children:
+  - Global.StateTransition.#ctor(AState,AState)
+  - Global.StateTransition.ActivateTransition
+  - Global.StateTransition.from
+  - Global.StateTransition.to
+  langs:
+  - csharp
+  - vb
+  name: StateTransition
+  nameWithType: StateTransition
+  fullName: StateTransition
+  type: Class
+  source:
+    id: StateTransition
+    path: ''
+    startLine: 17422
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class StateTransition
+    content.vb: Public Class StateTransition
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.StateTransition.from
+  commentId: P:Global.StateTransition.from
+  id: from
+  parent: Global.StateTransition
+  langs:
+  - csharp
+  - vb
+  name: from
+  nameWithType: StateTransition.from
+  fullName: StateTransition.from
+  type: Property
+  source:
+    id: from
+    path: ''
+    startLine: 17425
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AState from { get; }
+    parameters: []
+    return:
+      type: Global.AState
+    content.vb: Public ReadOnly Property from As AState
+  overload: Global.StateTransition.from*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.StateTransition.to
+  commentId: P:Global.StateTransition.to
+  id: to
+  parent: Global.StateTransition
+  langs:
+  - csharp
+  - vb
+  name: to
+  nameWithType: StateTransition.to
+  fullName: StateTransition.to
+  type: Property
+  source:
+    id: to
+    path: ''
+    startLine: 17426
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AState to { get; }
+    parameters: []
+    return:
+      type: Global.AState
+    content.vb: Public ReadOnly Property to As AState
+  overload: Global.StateTransition.to*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: Global.StateTransition.#ctor(AState,AState)
+  commentId: M:Global.StateTransition.#ctor(AState,AState)
+  id: '#ctor(AState,AState)'
+  parent: Global.StateTransition
+  langs:
+  - csharp
+  - vb
+  name: StateTransition(AState, AState)
+  nameWithType: StateTransition.StateTransition(AState, AState)
+  fullName: StateTransition.StateTransition(AState, AState)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 17428
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public StateTransition(AState from, AState to)
+    parameters:
+    - id: from
+      type: Global.AState
+    - id: to
+      type: Global.AState
+    content.vb: Public Sub New(from As AState, to As AState)
+  overload: Global.StateTransition.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.StateTransition.ActivateTransition
+  commentId: M:Global.StateTransition.ActivateTransition
+  id: ActivateTransition
+  parent: Global.StateTransition
+  langs:
+  - csharp
+  - vb
+  name: ActivateTransition()
+  nameWithType: StateTransition.ActivateTransition()
+  fullName: StateTransition.ActivateTransition()
+  type: Method
+  source:
+    id: ActivateTransition
+    path: ''
+    startLine: 17435
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public AState ActivateTransition()
+    return:
+      type: Global.AState
+    content.vb: Public Function ActivateTransition As AState
+  overload: Global.StateTransition.ActivateTransition*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.StateTransition.from*
+  commentId: Overload:Global.StateTransition.from
+  name: from
+  nameWithType: StateTransition.from
+  fullName: StateTransition.from
+- uid: Global.AState
+  commentId: T:Global.AState
+  name: AState
+  nameWithType: AState
+  fullName: AState
+- uid: Global.StateTransition.to*
+  commentId: Overload:Global.StateTransition.to
+  name: to
+  nameWithType: StateTransition.to
+  fullName: StateTransition.to
+- uid: Global.StateTransition.#ctor*
+  commentId: Overload:Global.StateTransition.#ctor
+  name: StateTransition
+  nameWithType: StateTransition.StateTransition
+  fullName: StateTransition.StateTransition
+- uid: Global.StateTransition.ActivateTransition*
+  commentId: Overload:Global.StateTransition.ActivateTransition
+  name: ActivateTransition
+  nameWithType: StateTransition.ActivateTransition
+  fullName: StateTransition.ActivateTransition

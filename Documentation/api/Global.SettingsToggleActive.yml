@@ -1,0 +1,195 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.SettingsToggleActive
+  commentId: T:Global.SettingsToggleActive
+  id: SettingsToggleActive
+  parent: Global
+  children:
+  - Global.SettingsToggleActive.chooseWithDropdown
+  - Global.SettingsToggleActive.index
+  - Global.SettingsToggleActive.playerPrefsKey
+  - Global.SettingsToggleActive.SetActive(System.Boolean)
+  langs:
+  - csharp
+  - vb
+  name: SettingsToggleActive
+  nameWithType: SettingsToggleActive
+  fullName: SettingsToggleActive
+  type: Class
+  source:
+    id: SettingsToggleActive
+    path: ''
+    startLine: 21100
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class SettingsToggleActive : MonoBehaviour'
+    content.vb: >-
+      Public Class SettingsToggleActive
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.SettingsToggleActive.chooseWithDropdown
+  commentId: F:Global.SettingsToggleActive.chooseWithDropdown
+  id: chooseWithDropdown
+  parent: Global.SettingsToggleActive
+  langs:
+  - csharp
+  - vb
+  name: chooseWithDropdown
+  nameWithType: SettingsToggleActive.chooseWithDropdown
+  fullName: SettingsToggleActive.chooseWithDropdown
+  type: Field
+  source:
+    id: chooseWithDropdown
+    path: ''
+    startLine: 21103
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public bool chooseWithDropdown
+    return:
+      type: System.Boolean
+    content.vb: Public chooseWithDropdown As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SettingsToggleActive.playerPrefsKey
+  commentId: F:Global.SettingsToggleActive.playerPrefsKey
+  id: playerPrefsKey
+  parent: Global.SettingsToggleActive
+  langs:
+  - csharp
+  - vb
+  name: playerPrefsKey
+  nameWithType: SettingsToggleActive.playerPrefsKey
+  fullName: SettingsToggleActive.playerPrefsKey
+  type: Field
+  source:
+    id: playerPrefsKey
+    path: ''
+    startLine: 21105
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public string playerPrefsKey
+    return:
+      type: System.String
+    content.vb: Public playerPrefsKey As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SettingsToggleActive.index
+  commentId: F:Global.SettingsToggleActive.index
+  id: index
+  parent: Global.SettingsToggleActive
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: SettingsToggleActive.index
+  fullName: SettingsToggleActive.index
+  type: Field
+  source:
+    id: index
+    path: ''
+    startLine: 21107
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public int index
+    return:
+      type: System.Int32
+    content.vb: Public index As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.SettingsToggleActive.SetActive(System.Boolean)
+  commentId: M:Global.SettingsToggleActive.SetActive(System.Boolean)
+  id: SetActive(System.Boolean)
+  parent: Global.SettingsToggleActive
+  langs:
+  - csharp
+  - vb
+  name: SetActive(Boolean)
+  nameWithType: SettingsToggleActive.SetActive(Boolean)
+  fullName: SettingsToggleActive.SetActive(System.Boolean)
+  type: Method
+  source:
+    id: SetActive
+    path: ''
+    startLine: 21118
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void SetActive(bool active)
+    parameters:
+    - id: active
+      type: System.Boolean
+    content.vb: Public Sub SetActive(active As Boolean)
+  overload: Global.SettingsToggleActive.SetActive*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Global.SettingsToggleActive.SetActive*
+  commentId: Overload:Global.SettingsToggleActive.SetActive
+  name: SetActive
+  nameWithType: SettingsToggleActive.SetActive
+  fullName: SettingsToggleActive.SetActive

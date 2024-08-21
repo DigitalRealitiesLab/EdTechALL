@@ -1,0 +1,164 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.CardStackPanelUI
+  commentId: T:CardModule.UI.CardStackPanelUI
+  id: CardStackPanelUI
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.CardStackPanelUI.AddCardData(CardModule.ProxyCardData)
+  - CardModule.UI.CardStackPanelUI.PublishActiveCardCount
+  - CardModule.UI.CardStackPanelUI.unlockableLoader
+  langs:
+  - csharp
+  - vb
+  name: CardStackPanelUI
+  nameWithType: CardStackPanelUI
+  fullName: CardModule.UI.CardStackPanelUI
+  type: Class
+  source:
+    id: CardStackPanelUI
+    path: ''
+    startLine: 20264
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: 'public class CardStackPanelUI : MonoBehaviour'
+    content.vb: >-
+      Public Class CardStackPanelUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.UI.CardStackPanelUI.unlockableLoader
+  commentId: F:CardModule.UI.CardStackPanelUI.unlockableLoader
+  id: unlockableLoader
+  parent: CardModule.UI.CardStackPanelUI
+  langs:
+  - csharp
+  - vb
+  name: unlockableLoader
+  nameWithType: CardStackPanelUI.unlockableLoader
+  fullName: CardModule.UI.CardStackPanelUI.unlockableLoader
+  type: Field
+  source:
+    id: unlockableLoader
+    path: ''
+    startLine: 20267
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public UnlockableLoader unlockableLoader
+    return:
+      type: Global.UnlockableLoader
+    content.vb: Public unlockableLoader As UnlockableLoader
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackPanelUI.AddCardData(CardModule.ProxyCardData)
+  commentId: M:CardModule.UI.CardStackPanelUI.AddCardData(CardModule.ProxyCardData)
+  id: AddCardData(CardModule.ProxyCardData)
+  parent: CardModule.UI.CardStackPanelUI
+  langs:
+  - csharp
+  - vb
+  name: AddCardData(ProxyCardData)
+  nameWithType: CardStackPanelUI.AddCardData(ProxyCardData)
+  fullName: CardModule.UI.CardStackPanelUI.AddCardData(CardModule.ProxyCardData)
+  type: Method
+  source:
+    id: AddCardData
+    path: ''
+    startLine: 20303
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public void AddCardData(ProxyCardData proxyCardData)
+    parameters:
+    - id: proxyCardData
+      type: CardModule.ProxyCardData
+    content.vb: Public Sub AddCardData(proxyCardData As ProxyCardData)
+  overload: CardModule.UI.CardStackPanelUI.AddCardData*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.CardStackPanelUI.PublishActiveCardCount
+  commentId: M:CardModule.UI.CardStackPanelUI.PublishActiveCardCount
+  id: PublishActiveCardCount
+  parent: CardModule.UI.CardStackPanelUI
+  langs:
+  - csharp
+  - vb
+  name: PublishActiveCardCount()
+  nameWithType: CardStackPanelUI.PublishActiveCardCount()
+  fullName: CardModule.UI.CardStackPanelUI.PublishActiveCardCount()
+  type: Method
+  source:
+    id: PublishActiveCardCount
+    path: ''
+    startLine: 20310
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public void PublishActiveCardCount()
+    content.vb: Public Sub PublishActiveCardCount
+  overload: CardModule.UI.CardStackPanelUI.PublishActiveCardCount*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.UnlockableLoader
+  commentId: T:Global.UnlockableLoader
+  name: UnlockableLoader
+  nameWithType: UnlockableLoader
+  fullName: UnlockableLoader
+- uid: CardModule.UI.CardStackPanelUI.AddCardData*
+  commentId: Overload:CardModule.UI.CardStackPanelUI.AddCardData
+  name: AddCardData
+  nameWithType: CardStackPanelUI.AddCardData
+  fullName: CardModule.UI.CardStackPanelUI.AddCardData
+- uid: CardModule.ProxyCardData
+  commentId: T:CardModule.ProxyCardData
+  parent: CardModule
+  name: ProxyCardData
+  nameWithType: ProxyCardData
+  fullName: CardModule.ProxyCardData
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: CardModule.UI.CardStackPanelUI.PublishActiveCardCount*
+  commentId: Overload:CardModule.UI.CardStackPanelUI.PublishActiveCardCount
+  name: PublishActiveCardCount
+  nameWithType: CardStackPanelUI.PublishActiveCardCount
+  fullName: CardModule.UI.CardStackPanelUI.PublishActiveCardCount

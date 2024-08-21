@@ -1,0 +1,275 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement
+  commentId: T:BuildingBox.UI.BaseBuildingBoxUIElement
+  id: BaseBuildingBoxUIElement
+  parent: BuildingBox.UI
+  children:
+  - BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  - BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+  - BuildingBox.UI.BaseBuildingBoxUIElement.elementName
+  - BuildingBox.UI.BaseBuildingBoxUIElement.image
+  - BuildingBox.UI.BaseBuildingBoxUIElement.selectable
+  - BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  langs:
+  - csharp
+  - vb
+  name: BaseBuildingBoxUIElement
+  nameWithType: BaseBuildingBoxUIElement
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement
+  type: Class
+  source:
+    id: BaseBuildingBoxUIElement
+    path: ''
+    startLine: 211
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: 'public class BaseBuildingBoxUIElement : MonoBehaviour'
+    content.vb: >-
+      Public Class BaseBuildingBoxUIElement
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - BuildingBox.UI.BuildingBoxButtonUIElement
+  - BuildingBox.UI.BuildingBoxToggleUIElement
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.selectable
+  commentId: F:BuildingBox.UI.BaseBuildingBoxUIElement.selectable
+  id: selectable
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  langs:
+  - csharp
+  - vb
+  name: selectable
+  nameWithType: BaseBuildingBoxUIElement.selectable
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.selectable
+  type: Field
+  source:
+    id: selectable
+    path: ''
+    startLine: 213
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public UI.Selectable selectable
+    return:
+      type: UnityEngine.UI.Selectable
+    content.vb: Public selectable As UI.Selectable
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+  commentId: P:BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+  id: buildingBoxElementData
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  langs:
+  - csharp
+  - vb
+  name: buildingBoxElementData
+  nameWithType: BaseBuildingBoxUIElement.buildingBoxElementData
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+  type: Property
+  source:
+    id: buildingBoxElementData
+    path: ''
+    startLine: 214
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public BuildingBoxElementData buildingBoxElementData { get; }
+    parameters: []
+    return:
+      type: BuildingBox.BuildingBoxElementData
+    content.vb: Public ReadOnly Property buildingBoxElementData As BuildingBoxElementData
+  overload: BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.elementName
+  commentId: F:BuildingBox.UI.BaseBuildingBoxUIElement.elementName
+  id: elementName
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  langs:
+  - csharp
+  - vb
+  name: elementName
+  nameWithType: BaseBuildingBoxUIElement.elementName
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.elementName
+  type: Field
+  source:
+    id: elementName
+    path: ''
+    startLine: 216
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public TextMeshProUGUI elementName
+    return:
+      type: Global.TextMeshProUGUI
+    content.vb: Public elementName As TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.image
+  commentId: F:BuildingBox.UI.BaseBuildingBoxUIElement.image
+  id: image
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  langs:
+  - csharp
+  - vb
+  name: image
+  nameWithType: BaseBuildingBoxUIElement.image
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.image
+  type: Field
+  source:
+    id: image
+    path: ''
+    startLine: 217
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public Image image
+    return:
+      type: Global.Image
+    content.vb: Public image As Image
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  commentId: M:BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  id: Awake
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: BaseBuildingBoxUIElement.Awake()
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 219
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: BuildingBox.UI.BaseBuildingBoxUIElement.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  commentId: M:BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  id: SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  parent: BuildingBox.UI.BaseBuildingBoxUIElement
+  langs:
+  - csharp
+  - vb
+  name: SetBuildingBoxElementData(BuildingBoxElementData)
+  nameWithType: BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBoxElementData)
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData(BuildingBox.BuildingBoxElementData)
+  type: Method
+  source:
+    id: SetBuildingBoxElementData
+    path: ''
+    startLine: 228
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox.UI
+  syntax:
+    content: public virtual void SetBuildingBoxElementData(BuildingBoxElementData elementData)
+    parameters:
+    - id: elementData
+      type: BuildingBox.BuildingBoxElementData
+    content.vb: Public Overridable Sub SetBuildingBoxElementData(elementData As BuildingBoxElementData)
+  overload: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData*
+  modifiers.csharp:
+  - public
+  - virtual
+  modifiers.vb:
+  - Public
+  - Overridable
+references:
+- uid: BuildingBox.UI
+  commentId: N:BuildingBox.UI
+  name: BuildingBox.UI
+  nameWithType: BuildingBox.UI
+  fullName: BuildingBox.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: UnityEngine.UI.Selectable
+  commentId: '!:UnityEngine.UI.Selectable'
+  isExternal: true
+  name: UI.Selectable
+  nameWithType: UI.Selectable
+  fullName: UnityEngine.UI.Selectable
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData*
+  commentId: Overload:BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+  name: buildingBoxElementData
+  nameWithType: BaseBuildingBoxUIElement.buildingBoxElementData
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.buildingBoxElementData
+- uid: BuildingBox.BuildingBoxElementData
+  commentId: T:BuildingBox.BuildingBoxElementData
+  parent: BuildingBox
+  name: BuildingBoxElementData
+  nameWithType: BuildingBoxElementData
+  fullName: BuildingBox.BuildingBoxElementData
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: Global.TextMeshProUGUI
+  isExternal: true
+  name: TextMeshProUGUI
+  nameWithType: TextMeshProUGUI
+  fullName: TextMeshProUGUI
+- uid: Global.Image
+  isExternal: true
+  name: Image
+  nameWithType: Image
+  fullName: Image
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.Awake*
+  commentId: Overload:BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+  name: Awake
+  nameWithType: BaseBuildingBoxUIElement.Awake
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.Awake
+- uid: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData*
+  commentId: Overload:BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData
+  name: SetBuildingBoxElementData
+  nameWithType: BaseBuildingBoxUIElement.SetBuildingBoxElementData
+  fullName: BuildingBox.UI.BaseBuildingBoxUIElement.SetBuildingBoxElementData

@@ -1,0 +1,152 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.AComponent`1
+  commentId: T:Global.AComponent`1
+  id: AComponent`1
+  parent: Global
+  children:
+  - Global.AComponent`1.GetKey
+  - Global.AComponent`1.Operation
+  langs:
+  - csharp
+  - vb
+  name: AComponent<K>
+  nameWithType: AComponent<K>
+  fullName: AComponent<K>
+  type: Class
+  source:
+    id: AComponent
+    path: ''
+    startLine: 17454
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public abstract class AComponent<K> : MonoBehaviour'
+    typeParameters:
+    - id: K
+    content.vb: >-
+      Public MustInherit Class AComponent(Of K)
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - Global.Composite`1
+  nameWithType.vb: AComponent(Of K)
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+  fullName.vb: AComponent(Of K)
+  name.vb: AComponent(Of K)
+- uid: Global.AComponent`1.GetKey
+  commentId: M:Global.AComponent`1.GetKey
+  id: GetKey
+  parent: Global.AComponent`1
+  langs:
+  - csharp
+  - vb
+  name: GetKey()
+  nameWithType: AComponent<K>.GetKey()
+  fullName: AComponent<K>.GetKey()
+  type: Method
+  source:
+    id: GetKey
+    path: ''
+    startLine: 17456
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract K GetKey()
+    return:
+      type: '{K}'
+    content.vb: Public MustOverride Function GetKey As K
+  overload: Global.AComponent`1.GetKey*
+  nameWithType.vb: AComponent(Of K).GetKey()
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: AComponent(Of K).GetKey()
+- uid: Global.AComponent`1.Operation
+  commentId: M:Global.AComponent`1.Operation
+  id: Operation
+  parent: Global.AComponent`1
+  langs:
+  - csharp
+  - vb
+  name: Operation()
+  nameWithType: AComponent<K>.Operation()
+  fullName: AComponent<K>.Operation()
+  type: Method
+  source:
+    id: Operation
+    path: ''
+    startLine: 17457
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public abstract void Operation()
+    content.vb: Public MustOverride Sub Operation
+  overload: Global.AComponent`1.Operation*
+  nameWithType.vb: AComponent(Of K).Operation()
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+  fullName.vb: AComponent(Of K).Operation()
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.AComponent`1.GetKey*
+  commentId: Overload:Global.AComponent`1.GetKey
+  name: GetKey
+  nameWithType: AComponent<K>.GetKey
+  fullName: AComponent<K>.GetKey
+  nameWithType.vb: AComponent(Of K).GetKey
+  fullName.vb: AComponent(Of K).GetKey
+- uid: '{K}'
+  commentId: '!:K'
+  definition: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: K
+  name: K
+  nameWithType: K
+  fullName: K
+- uid: Global.AComponent`1.Operation*
+  commentId: Overload:Global.AComponent`1.Operation
+  name: Operation
+  nameWithType: AComponent<K>.Operation
+  fullName: AComponent<K>.Operation
+  nameWithType.vb: AComponent(Of K).Operation
+  fullName.vb: AComponent(Of K).Operation

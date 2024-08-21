@@ -1,0 +1,88 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.LoadPreviousSceneButton
+  commentId: T:Global.LoadPreviousSceneButton
+  id: LoadPreviousSceneButton
+  parent: Global
+  children:
+  - Global.LoadPreviousSceneButton.button
+  langs:
+  - csharp
+  - vb
+  name: LoadPreviousSceneButton
+  nameWithType: LoadPreviousSceneButton
+  fullName: LoadPreviousSceneButton
+  type: Class
+  source:
+    id: LoadPreviousSceneButton
+    path: ''
+    startLine: 17272
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class LoadPreviousSceneButton : MonoBehaviour'
+    content.vb: >-
+      Public Class LoadPreviousSceneButton
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.LoadPreviousSceneButton.button
+  commentId: F:Global.LoadPreviousSceneButton.button
+  id: button
+  parent: Global.LoadPreviousSceneButton
+  langs:
+  - csharp
+  - vb
+  name: button
+  nameWithType: LoadPreviousSceneButton.button
+  fullName: LoadPreviousSceneButton.button
+  type: Field
+  source:
+    id: button
+    path: ''
+    startLine: 17274
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Button button
+    return:
+      type: Global.Button
+    content.vb: Public button As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button

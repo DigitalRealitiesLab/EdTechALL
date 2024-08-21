@@ -1,0 +1,294 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.QuaternionExtensions
+  commentId: T:Global.QuaternionExtensions
+  id: QuaternionExtensions
+  parent: Global
+  children:
+  - Global.QuaternionExtensions.ClampRotation(Quaternion,Vector3,Vector3)
+  - Global.QuaternionExtensions.Exp(Quaternion)
+  - Global.QuaternionExtensions.Magnitude(Quaternion)
+  - Global.QuaternionExtensions.Pow(Quaternion,System.Single)
+  - Global.QuaternionExtensions.ScalarMultiply(Quaternion,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: QuaternionExtensions
+  nameWithType: QuaternionExtensions
+  fullName: QuaternionExtensions
+  type: Class
+  source:
+    id: QuaternionExtensions
+    path: ''
+    startLine: 16946
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static class QuaternionExtensions
+    content.vb: Public Module QuaternionExtensions
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Global.QuaternionExtensions.Pow(Quaternion,System.Single)
+  commentId: M:Global.QuaternionExtensions.Pow(Quaternion,System.Single)
+  id: Pow(Quaternion,System.Single)
+  isExtensionMethod: true
+  parent: Global.QuaternionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Pow(Quaternion, Single)
+  nameWithType: QuaternionExtensions.Pow(Quaternion, Single)
+  fullName: QuaternionExtensions.Pow(Quaternion, System.Single)
+  type: Method
+  source:
+    id: Pow
+    path: ''
+    startLine: 16948
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Quaternion Pow(this Quaternion input, float power)
+    parameters:
+    - id: input
+      type: Global.Quaternion
+    - id: power
+      type: System.Single
+    return:
+      type: Global.Quaternion
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Pow(input As Quaternion, power As Single) As Quaternion
+  overload: Global.QuaternionExtensions.Pow*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.QuaternionExtensions.Exp(Quaternion)
+  commentId: M:Global.QuaternionExtensions.Exp(Quaternion)
+  id: Exp(Quaternion)
+  isExtensionMethod: true
+  parent: Global.QuaternionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Exp(Quaternion)
+  nameWithType: QuaternionExtensions.Exp(Quaternion)
+  fullName: QuaternionExtensions.Exp(Quaternion)
+  type: Method
+  source:
+    id: Exp
+    path: ''
+    startLine: 16958
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Quaternion Exp(this Quaternion input)
+    parameters:
+    - id: input
+      type: Global.Quaternion
+    return:
+      type: Global.Quaternion
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Exp(input As Quaternion) As Quaternion
+  overload: Global.QuaternionExtensions.Exp*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.QuaternionExtensions.Magnitude(Quaternion)
+  commentId: M:Global.QuaternionExtensions.Magnitude(Quaternion)
+  id: Magnitude(Quaternion)
+  isExtensionMethod: true
+  parent: Global.QuaternionExtensions
+  langs:
+  - csharp
+  - vb
+  name: Magnitude(Quaternion)
+  nameWithType: QuaternionExtensions.Magnitude(Quaternion)
+  fullName: QuaternionExtensions.Magnitude(Quaternion)
+  type: Method
+  source:
+    id: Magnitude
+    path: ''
+    startLine: 16967
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static float Magnitude(this Quaternion input)
+    parameters:
+    - id: input
+      type: Global.Quaternion
+    return:
+      type: System.Single
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function Magnitude(input As Quaternion) As Single
+  overload: Global.QuaternionExtensions.Magnitude*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.QuaternionExtensions.ScalarMultiply(Quaternion,System.Single)
+  commentId: M:Global.QuaternionExtensions.ScalarMultiply(Quaternion,System.Single)
+  id: ScalarMultiply(Quaternion,System.Single)
+  isExtensionMethod: true
+  parent: Global.QuaternionExtensions
+  langs:
+  - csharp
+  - vb
+  name: ScalarMultiply(Quaternion, Single)
+  nameWithType: QuaternionExtensions.ScalarMultiply(Quaternion, Single)
+  fullName: QuaternionExtensions.ScalarMultiply(Quaternion, System.Single)
+  type: Method
+  source:
+    id: ScalarMultiply
+    path: ''
+    startLine: 16972
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Quaternion ScalarMultiply(this Quaternion input, float scalar)
+    parameters:
+    - id: input
+      type: Global.Quaternion
+    - id: scalar
+      type: System.Single
+    return:
+      type: Global.Quaternion
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ScalarMultiply(input As Quaternion, scalar As Single) As Quaternion
+  overload: Global.QuaternionExtensions.ScalarMultiply*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.QuaternionExtensions.ClampRotation(Quaternion,Vector3,Vector3)
+  commentId: M:Global.QuaternionExtensions.ClampRotation(Quaternion,Vector3,Vector3)
+  id: ClampRotation(Quaternion,Vector3,Vector3)
+  isExtensionMethod: true
+  parent: Global.QuaternionExtensions
+  langs:
+  - csharp
+  - vb
+  name: ClampRotation(Quaternion, Vector3, Vector3)
+  nameWithType: QuaternionExtensions.ClampRotation(Quaternion, Vector3, Vector3)
+  fullName: QuaternionExtensions.ClampRotation(Quaternion, Vector3, Vector3)
+  type: Method
+  source:
+    id: ClampRotation
+    path: ''
+    startLine: 16978
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static Quaternion ClampRotation(this Quaternion q, Vector3 min, Vector3 max)
+    parameters:
+    - id: q
+      type: Global.Quaternion
+    - id: min
+      type: Global.Vector3
+    - id: max
+      type: Global.Vector3
+    return:
+      type: Global.Quaternion
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function ClampRotation(q As Quaternion, min As Vector3, max As Vector3) As Quaternion
+  overload: Global.QuaternionExtensions.ClampRotation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.QuaternionExtensions.Pow*
+  commentId: Overload:Global.QuaternionExtensions.Pow
+  name: Pow
+  nameWithType: QuaternionExtensions.Pow
+  fullName: QuaternionExtensions.Pow
+- uid: Global.Quaternion
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: Quaternion
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.QuaternionExtensions.Exp*
+  commentId: Overload:Global.QuaternionExtensions.Exp
+  name: Exp
+  nameWithType: QuaternionExtensions.Exp
+  fullName: QuaternionExtensions.Exp
+- uid: Global.QuaternionExtensions.Magnitude*
+  commentId: Overload:Global.QuaternionExtensions.Magnitude
+  name: Magnitude
+  nameWithType: QuaternionExtensions.Magnitude
+  fullName: QuaternionExtensions.Magnitude
+- uid: Global.QuaternionExtensions.ScalarMultiply*
+  commentId: Overload:Global.QuaternionExtensions.ScalarMultiply
+  name: ScalarMultiply
+  nameWithType: QuaternionExtensions.ScalarMultiply
+  fullName: QuaternionExtensions.ScalarMultiply
+- uid: Global.QuaternionExtensions.ClampRotation*
+  commentId: Overload:Global.QuaternionExtensions.ClampRotation
+  name: ClampRotation
+  nameWithType: QuaternionExtensions.ClampRotation
+  fullName: QuaternionExtensions.ClampRotation
+- uid: Global.Vector3
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: Vector3

@@ -1,0 +1,109 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TerrainMeshMaterialModifer
+  commentId: T:Global.TerrainMeshMaterialModifer
+  id: TerrainMeshMaterialModifer
+  parent: Global
+  children:
+  - Global.TerrainMeshMaterialModifer.terrainMeshRenderers
+  langs:
+  - csharp
+  - vb
+  name: TerrainMeshMaterialModifer
+  nameWithType: TerrainMeshMaterialModifer
+  fullName: TerrainMeshMaterialModifer
+  type: Class
+  source:
+    id: TerrainMeshMaterialModifer
+    path: ''
+    startLine: 22725
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TerrainMeshMaterialModifer : MonoBehaviour'
+    content.vb: >-
+      Public Class TerrainMeshMaterialModifer
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TerrainMeshMaterialModifer.terrainMeshRenderers
+  commentId: F:Global.TerrainMeshMaterialModifer.terrainMeshRenderers
+  id: terrainMeshRenderers
+  parent: Global.TerrainMeshMaterialModifer
+  langs:
+  - csharp
+  - vb
+  name: terrainMeshRenderers
+  nameWithType: TerrainMeshMaterialModifer.terrainMeshRenderers
+  fullName: TerrainMeshMaterialModifer.terrainMeshRenderers
+  type: Field
+  source:
+    id: terrainMeshRenderers
+    path: ''
+    startLine: 22727
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public Renderer[] terrainMeshRenderers
+    return:
+      type: Global.Renderer[]
+    content.vb: Public terrainMeshRenderers As Renderer()
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Renderer[]
+  isExternal: true
+  name: Renderer[]
+  nameWithType: Renderer[]
+  fullName: Renderer[]
+  nameWithType.vb: Renderer()
+  fullName.vb: Renderer()
+  name.vb: Renderer()
+  spec.csharp:
+  - uid: Global.Renderer
+    name: Renderer
+    nameWithType: Renderer
+    fullName: Renderer
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: Global.Renderer
+    name: Renderer
+    nameWithType: Renderer
+    fullName: Renderer
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()

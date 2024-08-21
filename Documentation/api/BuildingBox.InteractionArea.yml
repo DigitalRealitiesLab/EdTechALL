@@ -1,0 +1,178 @@
+### YamlMime:ManagedReference
+items:
+- uid: BuildingBox.InteractionArea
+  commentId: T:BuildingBox.InteractionArea
+  id: InteractionArea
+  parent: BuildingBox
+  children:
+  - BuildingBox.InteractionArea.areaTag
+  - BuildingBox.InteractionArea.interactorTag
+  - BuildingBox.InteractionArea.OnInteractorEnter
+  - BuildingBox.InteractionArea.OnInteractorExit
+  langs:
+  - csharp
+  - vb
+  name: InteractionArea
+  nameWithType: InteractionArea
+  fullName: BuildingBox.InteractionArea
+  type: Class
+  source:
+    id: InteractionArea
+    path: ''
+    startLine: 948
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: 'public class InteractionArea : MonoBehaviour'
+    content.vb: >-
+      Public Class InteractionArea
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: BuildingBox.InteractionArea.interactorTag
+  commentId: F:BuildingBox.InteractionArea.interactorTag
+  id: interactorTag
+  parent: BuildingBox.InteractionArea
+  langs:
+  - csharp
+  - vb
+  name: interactorTag
+  nameWithType: InteractionArea.interactorTag
+  fullName: BuildingBox.InteractionArea.interactorTag
+  type: Field
+  source:
+    id: interactorTag
+    path: ''
+    startLine: 952
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public string interactorTag
+    return:
+      type: System.String
+    content.vb: Public interactorTag As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.InteractionArea.areaTag
+  commentId: F:BuildingBox.InteractionArea.areaTag
+  id: areaTag
+  parent: BuildingBox.InteractionArea
+  langs:
+  - csharp
+  - vb
+  name: areaTag
+  nameWithType: InteractionArea.areaTag
+  fullName: BuildingBox.InteractionArea.areaTag
+  type: Field
+  source:
+    id: areaTag
+    path: ''
+    startLine: 953
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public string areaTag
+    return:
+      type: System.String
+    content.vb: Public areaTag As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.InteractionArea.OnInteractorEnter
+  commentId: F:BuildingBox.InteractionArea.OnInteractorEnter
+  id: OnInteractorEnter
+  parent: BuildingBox.InteractionArea
+  langs:
+  - csharp
+  - vb
+  name: OnInteractorEnter
+  nameWithType: InteractionArea.OnInteractorEnter
+  fullName: BuildingBox.InteractionArea.OnInteractorEnter
+  type: Field
+  source:
+    id: OnInteractorEnter
+    path: ''
+    startLine: 954
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public AreaInteractorEvent OnInteractorEnter
+    return:
+      type: BuildingBox.AreaInteractorEvent
+    content.vb: Public OnInteractorEnter As AreaInteractorEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: BuildingBox.InteractionArea.OnInteractorExit
+  commentId: F:BuildingBox.InteractionArea.OnInteractorExit
+  id: OnInteractorExit
+  parent: BuildingBox.InteractionArea
+  langs:
+  - csharp
+  - vb
+  name: OnInteractorExit
+  nameWithType: InteractionArea.OnInteractorExit
+  fullName: BuildingBox.InteractionArea.OnInteractorExit
+  type: Field
+  source:
+    id: OnInteractorExit
+    path: ''
+    startLine: 955
+  assemblies:
+  - cs.temp.dll
+  namespace: BuildingBox
+  syntax:
+    content: public AreaInteractorEvent OnInteractorExit
+    return:
+      type: BuildingBox.AreaInteractorEvent
+    content.vb: Public OnInteractorExit As AreaInteractorEvent
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: BuildingBox
+  commentId: N:BuildingBox
+  name: BuildingBox
+  nameWithType: BuildingBox
+  fullName: BuildingBox
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: BuildingBox.AreaInteractorEvent
+  commentId: T:BuildingBox.AreaInteractorEvent
+  parent: BuildingBox
+  name: AreaInteractorEvent
+  nameWithType: AreaInteractorEvent
+  fullName: BuildingBox.AreaInteractorEvent

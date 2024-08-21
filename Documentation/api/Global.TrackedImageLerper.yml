@@ -1,0 +1,190 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.TrackedImageLerper
+  commentId: T:Global.TrackedImageLerper
+  id: TrackedImageLerper
+  parent: Global
+  children:
+  - Global.TrackedImageLerper.LerpToTransform
+  - Global.TrackedImageLerper.PlaceToImageTarget(Transform)
+  - Global.TrackedImageLerper.positionLerpFraction
+  - Global.TrackedImageLerper.rotationLerpFration
+  langs:
+  - csharp
+  - vb
+  name: TrackedImageLerper
+  nameWithType: TrackedImageLerper
+  fullName: TrackedImageLerper
+  type: Class
+  source:
+    id: TrackedImageLerper
+    path: ''
+    startLine: 25363
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class TrackedImageLerper : MonoBehaviour'
+    content.vb: >-
+      Public Class TrackedImageLerper
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.TrackedImageLerper.positionLerpFraction
+  commentId: F:Global.TrackedImageLerper.positionLerpFraction
+  id: positionLerpFraction
+  parent: Global.TrackedImageLerper
+  langs:
+  - csharp
+  - vb
+  name: positionLerpFraction
+  nameWithType: TrackedImageLerper.positionLerpFraction
+  fullName: TrackedImageLerper.positionLerpFraction
+  type: Field
+  source:
+    id: positionLerpFraction
+    path: ''
+    startLine: 25366
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float positionLerpFraction
+    return:
+      type: System.Single
+    content.vb: Public positionLerpFraction As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TrackedImageLerper.rotationLerpFration
+  commentId: F:Global.TrackedImageLerper.rotationLerpFration
+  id: rotationLerpFration
+  parent: Global.TrackedImageLerper
+  langs:
+  - csharp
+  - vb
+  name: rotationLerpFration
+  nameWithType: TrackedImageLerper.rotationLerpFration
+  fullName: TrackedImageLerper.rotationLerpFration
+  type: Field
+  source:
+    id: rotationLerpFration
+    path: ''
+    startLine: 25368
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public float rotationLerpFration
+    return:
+      type: System.Single
+    content.vb: Public rotationLerpFration As Single
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TrackedImageLerper.PlaceToImageTarget(Transform)
+  commentId: M:Global.TrackedImageLerper.PlaceToImageTarget(Transform)
+  id: PlaceToImageTarget(Transform)
+  parent: Global.TrackedImageLerper
+  langs:
+  - csharp
+  - vb
+  name: PlaceToImageTarget(Transform)
+  nameWithType: TrackedImageLerper.PlaceToImageTarget(Transform)
+  fullName: TrackedImageLerper.PlaceToImageTarget(Transform)
+  type: Method
+  source:
+    id: PlaceToImageTarget
+    path: ''
+    startLine: 25372
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void PlaceToImageTarget(Transform target)
+    parameters:
+    - id: target
+      type: Global.Transform
+    content.vb: Public Sub PlaceToImageTarget(target As Transform)
+  overload: Global.TrackedImageLerper.PlaceToImageTarget*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Global.TrackedImageLerper.LerpToTransform
+  commentId: M:Global.TrackedImageLerper.LerpToTransform
+  id: LerpToTransform
+  parent: Global.TrackedImageLerper
+  langs:
+  - csharp
+  - vb
+  name: LerpToTransform()
+  nameWithType: TrackedImageLerper.LerpToTransform()
+  fullName: TrackedImageLerper.LerpToTransform()
+  type: Method
+  source:
+    id: LerpToTransform
+    path: ''
+    startLine: 25379
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public void LerpToTransform()
+    content.vb: Public Sub LerpToTransform
+  overload: Global.TrackedImageLerper.LerpToTransform*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Global.TrackedImageLerper.PlaceToImageTarget*
+  commentId: Overload:Global.TrackedImageLerper.PlaceToImageTarget
+  name: PlaceToImageTarget
+  nameWithType: TrackedImageLerper.PlaceToImageTarget
+  fullName: TrackedImageLerper.PlaceToImageTarget
+- uid: Global.Transform
+  isExternal: true
+  name: Transform
+  nameWithType: Transform
+  fullName: Transform
+- uid: Global.TrackedImageLerper.LerpToTransform*
+  commentId: Overload:Global.TrackedImageLerper.LerpToTransform
+  name: LerpToTransform
+  nameWithType: TrackedImageLerper.LerpToTransform
+  fullName: TrackedImageLerper.LerpToTransform

@@ -1,0 +1,151 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EnumerableValue`2
+  commentId: T:Global.EnumerableValue`2
+  id: EnumerableValue`2
+  parent: Global
+  children:
+  - Global.EnumerableValue`2.key
+  - Global.EnumerableValue`2.value
+  langs:
+  - csharp
+  - vb
+  name: EnumerableValue<E, V>
+  nameWithType: EnumerableValue<E, V>
+  fullName: EnumerableValue<E, V>
+  type: Class
+  source:
+    id: EnumerableValue
+    path: ''
+    startLine: 16394
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class EnumerableValue<E, V>
+          where E : struct
+    typeParameters:
+    - id: E
+    - id: V
+    content.vb: >-
+      <Serializable>
+
+      Public Class EnumerableValue(Of E As Structure, V)
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  nameWithType.vb: EnumerableValue(Of E, V)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+  fullName.vb: EnumerableValue(Of E, V)
+  name.vb: EnumerableValue(Of E, V)
+- uid: Global.EnumerableValue`2.key
+  commentId: F:Global.EnumerableValue`2.key
+  id: key
+  parent: Global.EnumerableValue`2
+  langs:
+  - csharp
+  - vb
+  name: key
+  nameWithType: EnumerableValue<E, V>.key
+  fullName: EnumerableValue<E, V>.key
+  type: Field
+  source:
+    id: key
+    path: ''
+    startLine: 16397
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public E key
+    return:
+      type: '{E}'
+    content.vb: Public key As E
+  nameWithType.vb: EnumerableValue(Of E, V).key
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: EnumerableValue(Of E, V).key
+- uid: Global.EnumerableValue`2.value
+  commentId: F:Global.EnumerableValue`2.value
+  id: value
+  parent: Global.EnumerableValue`2
+  langs:
+  - csharp
+  - vb
+  name: value
+  nameWithType: EnumerableValue<E, V>.value
+  fullName: EnumerableValue<E, V>.value
+  type: Field
+  source:
+    id: value
+    path: ''
+    startLine: 16398
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public V value
+    return:
+      type: '{V}'
+    content.vb: Public value As V
+  nameWithType.vb: EnumerableValue(Of E, V).value
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: EnumerableValue(Of E, V).value
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: '{E}'
+  commentId: '!:E'
+  definition: E
+  name: E
+  nameWithType: E
+  fullName: E
+- uid: E
+  commentId: '!:E'
+  name: E
+  nameWithType: E
+  fullName: E
+- uid: '{V}'
+  commentId: '!:V'
+  definition: V
+  name: V
+  nameWithType: V
+  fullName: V
+- uid: V
+  name: V
+  nameWithType: V
+  fullName: V

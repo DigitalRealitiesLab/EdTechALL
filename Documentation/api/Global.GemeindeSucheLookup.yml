@@ -1,0 +1,309 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.GemeindeSucheLookup
+  commentId: T:Global.GemeindeSucheLookup
+  id: GemeindeSucheLookup
+  parent: Global
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: GemeindeSucheLookup
+  nameWithType: GemeindeSucheLookup
+  fullName: GemeindeSucheLookup
+  type: Class
+  source:
+    id: GemeindeSucheLookup
+    path: ''
+    startLine: 15741
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: 'public class GemeindeSucheLookup : ImageMarkerLookup<GemeindeSucheLookupData>'
+    content.vb: >-
+      Public Class GemeindeSucheLookup
+          Inherits ImageMarkerLookup(Of GemeindeSucheLookupData)
+  inheritance:
+  - System.Object
+  - Global.ImageMarkerLookup{GemeindeSucheLookupData}
+  inheritedMembers:
+  - Global.ImageMarkerLookup{GemeindeSucheLookupData}.imageMarkerData
+  - Global.ImageMarkerLookup{GemeindeSucheLookupData}.imageMarkerLookupData
+  - Global.ImageMarkerLookup{GemeindeSucheLookupData}.GetLookupDataByMarkerTextureName(System.String)
+  - Global.ImageMarkerLookup{GemeindeSucheLookupData}.Initialize
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.ImageMarkerLookup{GemeindeSucheLookupData}
+  commentId: T:Global.ImageMarkerLookup{GemeindeSucheLookupData}
+  definition: Global.ImageMarkerLookup`1
+  name: ImageMarkerLookup<GemeindeSucheLookupData>
+  nameWithType: ImageMarkerLookup<GemeindeSucheLookupData>
+  fullName: ImageMarkerLookup<GemeindeSucheLookupData>
+  nameWithType.vb: ImageMarkerLookup(Of GemeindeSucheLookupData)
+  fullName.vb: ImageMarkerLookup(Of GemeindeSucheLookupData)
+  name.vb: ImageMarkerLookup(Of GemeindeSucheLookupData)
+  spec.csharp:
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.GemeindeSucheLookupData
+    name: GemeindeSucheLookupData
+    nameWithType: GemeindeSucheLookupData
+    fullName: GemeindeSucheLookupData
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.GemeindeSucheLookupData
+    name: GemeindeSucheLookupData
+    nameWithType: GemeindeSucheLookupData
+    fullName: GemeindeSucheLookupData
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ImageMarkerLookup{GemeindeSucheLookupData}.imageMarkerData
+  commentId: F:Global.ImageMarkerLookup{GemeindeSucheLookupData}.imageMarkerData
+  parent: Global.ImageMarkerLookup{GemeindeSucheLookupData}
+  definition: Global.ImageMarkerLookup`1.imageMarkerData
+  name: imageMarkerData
+  nameWithType: ImageMarkerLookup<GemeindeSucheLookupData>.imageMarkerData
+  fullName: ImageMarkerLookup<GemeindeSucheLookupData>.imageMarkerData
+  nameWithType.vb: ImageMarkerLookup(Of GemeindeSucheLookupData).imageMarkerData
+  fullName.vb: ImageMarkerLookup(Of GemeindeSucheLookupData).imageMarkerData
+- uid: Global.ImageMarkerLookup{GemeindeSucheLookupData}.imageMarkerLookupData
+  commentId: F:Global.ImageMarkerLookup{GemeindeSucheLookupData}.imageMarkerLookupData
+  parent: Global.ImageMarkerLookup{GemeindeSucheLookupData}
+  definition: Global.ImageMarkerLookup`1.imageMarkerLookupData
+  name: imageMarkerLookupData
+  nameWithType: ImageMarkerLookup<GemeindeSucheLookupData>.imageMarkerLookupData
+  fullName: ImageMarkerLookup<GemeindeSucheLookupData>.imageMarkerLookupData
+  nameWithType.vb: ImageMarkerLookup(Of GemeindeSucheLookupData).imageMarkerLookupData
+  fullName.vb: ImageMarkerLookup(Of GemeindeSucheLookupData).imageMarkerLookupData
+- uid: Global.ImageMarkerLookup{GemeindeSucheLookupData}.GetLookupDataByMarkerTextureName(System.String)
+  commentId: M:Global.ImageMarkerLookup{GemeindeSucheLookupData}.GetLookupDataByMarkerTextureName(System.String)
+  parent: Global.ImageMarkerLookup{GemeindeSucheLookupData}
+  definition: Global.ImageMarkerLookup`1.GetLookupDataByMarkerTextureName(System.String)
+  name: GetLookupDataByMarkerTextureName(String)
+  nameWithType: ImageMarkerLookup<GemeindeSucheLookupData>.GetLookupDataByMarkerTextureName(String)
+  fullName: ImageMarkerLookup<GemeindeSucheLookupData>.GetLookupDataByMarkerTextureName(System.String)
+  nameWithType.vb: ImageMarkerLookup(Of GemeindeSucheLookupData).GetLookupDataByMarkerTextureName(String)
+  fullName.vb: ImageMarkerLookup(Of GemeindeSucheLookupData).GetLookupDataByMarkerTextureName(System.String)
+  spec.csharp:
+  - uid: Global.ImageMarkerLookup`1.GetLookupDataByMarkerTextureName(System.String)
+    name: GetLookupDataByMarkerTextureName
+    nameWithType: ImageMarkerLookup<GemeindeSucheLookupData>.GetLookupDataByMarkerTextureName
+    fullName: ImageMarkerLookup<GemeindeSucheLookupData>.GetLookupDataByMarkerTextureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ImageMarkerLookup`1.GetLookupDataByMarkerTextureName(System.String)
+    name: GetLookupDataByMarkerTextureName
+    nameWithType: ImageMarkerLookup(Of GemeindeSucheLookupData).GetLookupDataByMarkerTextureName
+    fullName: ImageMarkerLookup(Of GemeindeSucheLookupData).GetLookupDataByMarkerTextureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ImageMarkerLookup{GemeindeSucheLookupData}.Initialize
+  commentId: M:Global.ImageMarkerLookup{GemeindeSucheLookupData}.Initialize
+  parent: Global.ImageMarkerLookup{GemeindeSucheLookupData}
+  definition: Global.ImageMarkerLookup`1.Initialize
+  name: Initialize()
+  nameWithType: ImageMarkerLookup<GemeindeSucheLookupData>.Initialize()
+  fullName: ImageMarkerLookup<GemeindeSucheLookupData>.Initialize()
+  nameWithType.vb: ImageMarkerLookup(Of GemeindeSucheLookupData).Initialize()
+  fullName.vb: ImageMarkerLookup(Of GemeindeSucheLookupData).Initialize()
+  spec.csharp:
+  - uid: Global.ImageMarkerLookup`1.Initialize
+    name: Initialize
+    nameWithType: ImageMarkerLookup<GemeindeSucheLookupData>.Initialize
+    fullName: ImageMarkerLookup<GemeindeSucheLookupData>.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ImageMarkerLookup`1.Initialize
+    name: Initialize
+    nameWithType: ImageMarkerLookup(Of GemeindeSucheLookupData).Initialize
+    fullName: ImageMarkerLookup(Of GemeindeSucheLookupData).Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.ImageMarkerLookup`1
+  commentId: T:Global.ImageMarkerLookup`1
+  name: ImageMarkerLookup<T>
+  nameWithType: ImageMarkerLookup<T>
+  fullName: ImageMarkerLookup<T>
+  nameWithType.vb: ImageMarkerLookup(Of T)
+  fullName.vb: ImageMarkerLookup(Of T)
+  name.vb: ImageMarkerLookup(Of T)
+  spec.csharp:
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.ImageMarkerLookup`1
+    name: ImageMarkerLookup
+    nameWithType: ImageMarkerLookup
+    fullName: ImageMarkerLookup
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ImageMarkerLookup`1.imageMarkerData
+  commentId: F:Global.ImageMarkerLookup`1.imageMarkerData
+  name: imageMarkerData
+  nameWithType: ImageMarkerLookup<T>.imageMarkerData
+  fullName: ImageMarkerLookup<T>.imageMarkerData
+  nameWithType.vb: ImageMarkerLookup(Of T).imageMarkerData
+  fullName.vb: ImageMarkerLookup(Of T).imageMarkerData
+- uid: Global.ImageMarkerLookup`1.imageMarkerLookupData
+  commentId: F:Global.ImageMarkerLookup`1.imageMarkerLookupData
+  name: imageMarkerLookupData
+  nameWithType: ImageMarkerLookup<T>.imageMarkerLookupData
+  fullName: ImageMarkerLookup<T>.imageMarkerLookupData
+  nameWithType.vb: ImageMarkerLookup(Of T).imageMarkerLookupData
+  fullName.vb: ImageMarkerLookup(Of T).imageMarkerLookupData
+- uid: Global.ImageMarkerLookup`1.GetLookupDataByMarkerTextureName(System.String)
+  commentId: M:Global.ImageMarkerLookup`1.GetLookupDataByMarkerTextureName(System.String)
+  isExternal: true
+  name: GetLookupDataByMarkerTextureName(String)
+  nameWithType: ImageMarkerLookup<T>.GetLookupDataByMarkerTextureName(String)
+  fullName: ImageMarkerLookup<T>.GetLookupDataByMarkerTextureName(System.String)
+  nameWithType.vb: ImageMarkerLookup(Of T).GetLookupDataByMarkerTextureName(String)
+  fullName.vb: ImageMarkerLookup(Of T).GetLookupDataByMarkerTextureName(System.String)
+  spec.csharp:
+  - uid: Global.ImageMarkerLookup`1.GetLookupDataByMarkerTextureName(System.String)
+    name: GetLookupDataByMarkerTextureName
+    nameWithType: ImageMarkerLookup<T>.GetLookupDataByMarkerTextureName
+    fullName: ImageMarkerLookup<T>.GetLookupDataByMarkerTextureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ImageMarkerLookup`1.GetLookupDataByMarkerTextureName(System.String)
+    name: GetLookupDataByMarkerTextureName
+    nameWithType: ImageMarkerLookup(Of T).GetLookupDataByMarkerTextureName
+    fullName: ImageMarkerLookup(Of T).GetLookupDataByMarkerTextureName
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.ImageMarkerLookup`1.Initialize
+  commentId: M:Global.ImageMarkerLookup`1.Initialize
+  name: Initialize()
+  nameWithType: ImageMarkerLookup<T>.Initialize()
+  fullName: ImageMarkerLookup<T>.Initialize()
+  nameWithType.vb: ImageMarkerLookup(Of T).Initialize()
+  fullName.vb: ImageMarkerLookup(Of T).Initialize()
+  spec.csharp:
+  - uid: Global.ImageMarkerLookup`1.Initialize
+    name: Initialize
+    nameWithType: ImageMarkerLookup<T>.Initialize
+    fullName: ImageMarkerLookup<T>.Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.ImageMarkerLookup`1.Initialize
+    name: Initialize
+    nameWithType: ImageMarkerLookup(Of T).Initialize
+    fullName: ImageMarkerLookup(Of T).Initialize
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )

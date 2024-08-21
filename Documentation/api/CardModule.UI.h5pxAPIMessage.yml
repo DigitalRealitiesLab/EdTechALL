@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.h5pxAPIMessage
+  commentId: T:CardModule.UI.h5pxAPIMessage
+  id: h5pxAPIMessage
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.h5pxAPIMessage.message
+  - CardModule.UI.h5pxAPIMessage.metaData
+  - CardModule.UI.h5pxAPIMessage.name
+  - CardModule.UI.h5pxAPIMessage.type
+  langs:
+  - csharp
+  - vb
+  name: h5pxAPIMessage
+  nameWithType: h5pxAPIMessage
+  fullName: CardModule.UI.h5pxAPIMessage
+  type: Struct
+  source:
+    id: h5pxAPIMessage
+    path: ''
+    startLine: 19886
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: >-
+      [Serializable]
+
+      public struct h5pxAPIMessage
+    content.vb: >-
+      <Serializable>
+
+      Public Structure h5pxAPIMessage
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - struct
+  modifiers.vb:
+  - Public
+  - Structure
+- uid: CardModule.UI.h5pxAPIMessage.type
+  commentId: F:CardModule.UI.h5pxAPIMessage.type
+  id: type
+  parent: CardModule.UI.h5pxAPIMessage
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: h5pxAPIMessage.type
+  fullName: CardModule.UI.h5pxAPIMessage.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 19889
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public string type
+    return:
+      type: System.String
+    content.vb: Public type As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pxAPIMessage.name
+  commentId: F:CardModule.UI.h5pxAPIMessage.name
+  id: name
+  parent: CardModule.UI.h5pxAPIMessage
+  langs:
+  - csharp
+  - vb
+  name: name
+  nameWithType: h5pxAPIMessage.name
+  fullName: CardModule.UI.h5pxAPIMessage.name
+  type: Field
+  source:
+    id: name
+    path: ''
+    startLine: 19890
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public string name
+    return:
+      type: System.String
+    content.vb: Public name As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pxAPIMessage.message
+  commentId: F:CardModule.UI.h5pxAPIMessage.message
+  id: message
+  parent: CardModule.UI.h5pxAPIMessage
+  langs:
+  - csharp
+  - vb
+  name: message
+  nameWithType: h5pxAPIMessage.message
+  fullName: CardModule.UI.h5pxAPIMessage.message
+  type: Field
+  source:
+    id: message
+    path: ''
+    startLine: 19891
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public h5pMessageData message
+    return:
+      type: CardModule.UI.h5pMessageData
+    content.vb: Public message As h5pMessageData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.h5pxAPIMessage.metaData
+  commentId: F:CardModule.UI.h5pxAPIMessage.metaData
+  id: metaData
+  parent: CardModule.UI.h5pxAPIMessage
+  langs:
+  - csharp
+  - vb
+  name: metaData
+  nameWithType: h5pxAPIMessage.metaData
+  fullName: CardModule.UI.h5pxAPIMessage.metaData
+  type: Field
+  source:
+    id: metaData
+    path: ''
+    startLine: 19892
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public h5pMessageMetaData metaData
+    return:
+      type: CardModule.UI.h5pMessageMetaData
+    content.vb: Public metaData As h5pMessageMetaData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: CardModule.UI.h5pMessageData
+  commentId: T:CardModule.UI.h5pMessageData
+  parent: CardModule.UI
+  name: h5pMessageData
+  nameWithType: h5pMessageData
+  fullName: CardModule.UI.h5pMessageData
+- uid: CardModule.UI.h5pMessageMetaData
+  commentId: T:CardModule.UI.h5pMessageMetaData
+  parent: CardModule.UI
+  name: h5pMessageMetaData
+  nameWithType: h5pMessageMetaData
+  fullName: CardModule.UI.h5pMessageMetaData

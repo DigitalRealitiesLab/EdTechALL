@@ -1,0 +1,343 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.H5PCardData
+  commentId: T:CardModule.H5PCardData
+  id: H5PCardData
+  parent: CardModule
+  children:
+  - CardModule.H5PCardData.h5pPath
+  - CardModule.H5PCardData.IncrementAttempt
+  - CardModule.H5PCardData.isCompleted
+  - CardModule.H5PCardData.metaDataCounter
+  - CardModule.H5PCardData.results
+  - CardModule.H5PCardData.title
+  langs:
+  - csharp
+  - vb
+  name: H5PCardData
+  nameWithType: H5PCardData
+  fullName: CardModule.H5PCardData
+  type: Class
+  source:
+    id: H5PCardData
+    path: ''
+    startLine: 19476
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class H5PCardData
+    content.vb: >-
+      <Serializable>
+
+      Public Class H5PCardData
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.H5PCardData.title
+  commentId: F:CardModule.H5PCardData.title
+  id: title
+  parent: CardModule.H5PCardData
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: H5PCardData.title
+  fullName: CardModule.H5PCardData.title
+  type: Field
+  source:
+    id: title
+    path: ''
+    startLine: 19479
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string title
+    return:
+      type: System.String
+    content.vb: Public title As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.H5PCardData.h5pPath
+  commentId: F:CardModule.H5PCardData.h5pPath
+  id: h5pPath
+  parent: CardModule.H5PCardData
+  langs:
+  - csharp
+  - vb
+  name: h5pPath
+  nameWithType: H5PCardData.h5pPath
+  fullName: CardModule.H5PCardData.h5pPath
+  type: Field
+  source:
+    id: h5pPath
+    path: ''
+    startLine: 19480
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string h5pPath
+    return:
+      type: System.String
+    content.vb: Public h5pPath As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.H5PCardData.results
+  commentId: F:CardModule.H5PCardData.results
+  id: results
+  parent: CardModule.H5PCardData
+  langs:
+  - csharp
+  - vb
+  name: results
+  nameWithType: H5PCardData.results
+  fullName: CardModule.H5PCardData.results
+  type: Field
+  source:
+    id: results
+    path: ''
+    startLine: 19481
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public List<h5pxAPIMessage> results
+    return:
+      type: Global.List{h5pxAPIMessage}
+    content.vb: Public results As List(Of h5pxAPIMessage)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.H5PCardData.metaDataCounter
+  commentId: F:CardModule.H5PCardData.metaDataCounter
+  id: metaDataCounter
+  parent: CardModule.H5PCardData
+  langs:
+  - csharp
+  - vb
+  name: metaDataCounter
+  nameWithType: H5PCardData.metaDataCounter
+  fullName: CardModule.H5PCardData.metaDataCounter
+  type: Field
+  source:
+    id: metaDataCounter
+    path: ''
+    startLine: 19482
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public h5pMessageMetaData metaDataCounter
+    return:
+      type: Global.h5pMessageMetaData
+    content.vb: Public metaDataCounter As h5pMessageMetaData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.H5PCardData.IncrementAttempt
+  commentId: M:CardModule.H5PCardData.IncrementAttempt
+  id: IncrementAttempt
+  parent: CardModule.H5PCardData
+  langs:
+  - csharp
+  - vb
+  name: IncrementAttempt()
+  nameWithType: H5PCardData.IncrementAttempt()
+  fullName: CardModule.H5PCardData.IncrementAttempt()
+  type: Method
+  source:
+    id: IncrementAttempt
+    path: ''
+    startLine: 19484
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public void IncrementAttempt()
+    content.vb: Public Sub IncrementAttempt
+  overload: CardModule.H5PCardData.IncrementAttempt*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.H5PCardData.isCompleted
+  commentId: P:CardModule.H5PCardData.isCompleted
+  id: isCompleted
+  parent: CardModule.H5PCardData
+  langs:
+  - csharp
+  - vb
+  name: isCompleted
+  nameWithType: H5PCardData.isCompleted
+  fullName: CardModule.H5PCardData.isCompleted
+  type: Property
+  source:
+    id: isCompleted
+    path: ''
+    startLine: 19491
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public bool isCompleted { get; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public ReadOnly Property isCompleted As Boolean
+  overload: CardModule.H5PCardData.isCompleted*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.List{h5pxAPIMessage}
+  commentId: '!:Global.List{h5pxAPIMessage}'
+  definition: Global.List`1
+  name: List<h5pxAPIMessage>
+  nameWithType: List<h5pxAPIMessage>
+  fullName: List<h5pxAPIMessage>
+  nameWithType.vb: List(Of h5pxAPIMessage)
+  fullName.vb: List(Of h5pxAPIMessage)
+  name.vb: List(Of h5pxAPIMessage)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.h5pxAPIMessage
+    name: h5pxAPIMessage
+    nameWithType: h5pxAPIMessage
+    fullName: h5pxAPIMessage
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.h5pxAPIMessage
+    name: h5pxAPIMessage
+    nameWithType: h5pxAPIMessage
+    fullName: h5pxAPIMessage
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.h5pMessageMetaData
+  commentId: '!:Global.h5pMessageMetaData'
+  isExternal: true
+  name: h5pMessageMetaData
+  nameWithType: h5pMessageMetaData
+  fullName: h5pMessageMetaData
+- uid: CardModule.H5PCardData.IncrementAttempt*
+  commentId: Overload:CardModule.H5PCardData.IncrementAttempt
+  name: IncrementAttempt
+  nameWithType: H5PCardData.IncrementAttempt
+  fullName: CardModule.H5PCardData.IncrementAttempt
+- uid: CardModule.H5PCardData.isCompleted*
+  commentId: Overload:CardModule.H5PCardData.isCompleted
+  name: isCompleted
+  nameWithType: H5PCardData.isCompleted
+  fullName: CardModule.H5PCardData.isCompleted
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean

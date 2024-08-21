@@ -1,0 +1,210 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventId.SceneManagementEvents
+  commentId: T:Global.EventId.SceneManagementEvents
+  id: EventId.SceneManagementEvents
+  parent: Global
+  children:
+  - Global.EventId.SceneManagementEvents.PreLoadingScene
+  - Global.EventId.SceneManagementEvents.ReportSceneLoadProgress
+  - Global.EventId.SceneManagementEvents.RequestLoadScene
+  - Global.EventId.SceneManagementEvents.RequestUnloadScene
+  - Global.EventId.SceneManagementEvents.SceneFinishedLoading
+  langs:
+  - csharp
+  - vb
+  name: EventId.SceneManagementEvents
+  nameWithType: EventId.SceneManagementEvents
+  fullName: EventId.SceneManagementEvents
+  type: Class
+  source:
+    id: SceneManagementEvents
+    path: ''
+    startLine: 17243
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class SceneManagementEvents
+    content.vb: Public Class SceneManagementEvents
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.EventId.SceneManagementEvents.RequestLoadScene
+  commentId: F:Global.EventId.SceneManagementEvents.RequestLoadScene
+  id: RequestLoadScene
+  parent: Global.EventId.SceneManagementEvents
+  langs:
+  - csharp
+  - vb
+  name: RequestLoadScene
+  nameWithType: EventId.SceneManagementEvents.RequestLoadScene
+  fullName: EventId.SceneManagementEvents.RequestLoadScene
+  type: Field
+  source:
+    id: RequestLoadScene
+    path: ''
+    startLine: 17245
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string RequestLoadScene = "RequestLoadScene"
+    return:
+      type: System.String
+    content.vb: Public Const RequestLoadScene As String = "RequestLoadScene"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.SceneManagementEvents.RequestUnloadScene
+  commentId: F:Global.EventId.SceneManagementEvents.RequestUnloadScene
+  id: RequestUnloadScene
+  parent: Global.EventId.SceneManagementEvents
+  langs:
+  - csharp
+  - vb
+  name: RequestUnloadScene
+  nameWithType: EventId.SceneManagementEvents.RequestUnloadScene
+  fullName: EventId.SceneManagementEvents.RequestUnloadScene
+  type: Field
+  source:
+    id: RequestUnloadScene
+    path: ''
+    startLine: 17246
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string RequestUnloadScene = "RequestUnloadScene"
+    return:
+      type: System.String
+    content.vb: Public Const RequestUnloadScene As String = "RequestUnloadScene"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.SceneManagementEvents.ReportSceneLoadProgress
+  commentId: F:Global.EventId.SceneManagementEvents.ReportSceneLoadProgress
+  id: ReportSceneLoadProgress
+  parent: Global.EventId.SceneManagementEvents
+  langs:
+  - csharp
+  - vb
+  name: ReportSceneLoadProgress
+  nameWithType: EventId.SceneManagementEvents.ReportSceneLoadProgress
+  fullName: EventId.SceneManagementEvents.ReportSceneLoadProgress
+  type: Field
+  source:
+    id: ReportSceneLoadProgress
+    path: ''
+    startLine: 17247
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string ReportSceneLoadProgress = "ReportSceneLoadProgress"
+    return:
+      type: System.String
+    content.vb: Public Const ReportSceneLoadProgress As String = "ReportSceneLoadProgress"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.SceneManagementEvents.SceneFinishedLoading
+  commentId: F:Global.EventId.SceneManagementEvents.SceneFinishedLoading
+  id: SceneFinishedLoading
+  parent: Global.EventId.SceneManagementEvents
+  langs:
+  - csharp
+  - vb
+  name: SceneFinishedLoading
+  nameWithType: EventId.SceneManagementEvents.SceneFinishedLoading
+  fullName: EventId.SceneManagementEvents.SceneFinishedLoading
+  type: Field
+  source:
+    id: SceneFinishedLoading
+    path: ''
+    startLine: 17248
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string SceneFinishedLoading = "SceneFinishedLoading"
+    return:
+      type: System.String
+    content.vb: Public Const SceneFinishedLoading As String = "SceneFinishedLoading"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Global.EventId.SceneManagementEvents.PreLoadingScene
+  commentId: F:Global.EventId.SceneManagementEvents.PreLoadingScene
+  id: PreLoadingScene
+  parent: Global.EventId.SceneManagementEvents
+  langs:
+  - csharp
+  - vb
+  name: PreLoadingScene
+  nameWithType: EventId.SceneManagementEvents.PreLoadingScene
+  fullName: EventId.SceneManagementEvents.PreLoadingScene
+  type: Field
+  source:
+    id: PreLoadingScene
+    path: ''
+    startLine: 17249
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public const string PreLoadingScene = "PreLoadingScene"
+    return:
+      type: System.String
+    content.vb: Public Const PreLoadingScene As String = "PreLoadingScene"
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

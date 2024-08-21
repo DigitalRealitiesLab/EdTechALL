@@ -1,0 +1,602 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Raycaster
+  commentId: T:InteractionSystem.Raycaster
+  id: Raycaster
+  parent: InteractionSystem
+  children:
+  - InteractionSystem.Raycaster.CreateAnchorAtHit(List{ARRaycastHit})
+  - InteractionSystem.Raycaster.PhysicsRaycast``1(Ray)
+  - InteractionSystem.Raycaster.PhysicsRaycast``1(Vector2)
+  - InteractionSystem.Raycaster.PhysicsRaycastStatic``1(Vector2)
+  - InteractionSystem.Raycaster.rayOrigin
+  - InteractionSystem.Raycaster.rayTowardsSelectedItem
+  - InteractionSystem.Raycaster.trackableAnchorManager
+  - InteractionSystem.Raycaster.trackablePlaneManager
+  - InteractionSystem.Raycaster.TrackableRaycast(Ray,TrackableType)
+  - InteractionSystem.Raycaster.TrackableRaycast(Vector2,TrackableType)
+  - InteractionSystem.Raycaster.trackableRaycastManager
+  langs:
+  - csharp
+  - vb
+  name: Raycaster
+  nameWithType: Raycaster
+  fullName: InteractionSystem.Raycaster
+  type: Class
+  source:
+    id: Raycaster
+    path: ''
+    startLine: 23544
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: 'public class Raycaster : MonoBehaviour'
+    content.vb: >-
+      Public Class Raycaster
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Raycaster.rayOrigin
+  commentId: F:InteractionSystem.Raycaster.rayOrigin
+  id: rayOrigin
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: rayOrigin
+  nameWithType: Raycaster.rayOrigin
+  fullName: InteractionSystem.Raycaster.rayOrigin
+  type: Field
+  source:
+    id: rayOrigin
+    path: ''
+    startLine: 23546
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public Camera rayOrigin
+    return:
+      type: Global.Camera
+    content.vb: Public rayOrigin As Camera
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Raycaster.trackableRaycastManager
+  commentId: F:InteractionSystem.Raycaster.trackableRaycastManager
+  id: trackableRaycastManager
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: trackableRaycastManager
+  nameWithType: Raycaster.trackableRaycastManager
+  fullName: InteractionSystem.Raycaster.trackableRaycastManager
+  type: Field
+  source:
+    id: trackableRaycastManager
+    path: ''
+    startLine: 23547
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public ARRaycastManager trackableRaycastManager
+    return:
+      type: Global.ARRaycastManager
+    content.vb: Public trackableRaycastManager As ARRaycastManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Raycaster.trackableAnchorManager
+  commentId: F:InteractionSystem.Raycaster.trackableAnchorManager
+  id: trackableAnchorManager
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: trackableAnchorManager
+  nameWithType: Raycaster.trackableAnchorManager
+  fullName: InteractionSystem.Raycaster.trackableAnchorManager
+  type: Field
+  source:
+    id: trackableAnchorManager
+    path: ''
+    startLine: 23548
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public ARAnchorManager trackableAnchorManager
+    return:
+      type: Global.ARAnchorManager
+    content.vb: Public trackableAnchorManager As ARAnchorManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Raycaster.trackablePlaneManager
+  commentId: F:InteractionSystem.Raycaster.trackablePlaneManager
+  id: trackablePlaneManager
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: trackablePlaneManager
+  nameWithType: Raycaster.trackablePlaneManager
+  fullName: InteractionSystem.Raycaster.trackablePlaneManager
+  type: Field
+  source:
+    id: trackablePlaneManager
+    path: ''
+    startLine: 23549
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public ARPlaneManager trackablePlaneManager
+    return:
+      type: Global.ARPlaneManager
+    content.vb: Public trackablePlaneManager As ARPlaneManager
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Raycaster.rayTowardsSelectedItem
+  commentId: P:InteractionSystem.Raycaster.rayTowardsSelectedItem
+  id: rayTowardsSelectedItem
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: rayTowardsSelectedItem
+  nameWithType: Raycaster.rayTowardsSelectedItem
+  fullName: InteractionSystem.Raycaster.rayTowardsSelectedItem
+  type: Property
+  source:
+    id: rayTowardsSelectedItem
+    path: ''
+    startLine: 23552
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public Ray rayTowardsSelectedItem { get; }
+    parameters: []
+    return:
+      type: Global.Ray
+    content.vb: Public ReadOnly Property rayTowardsSelectedItem As Ray
+  overload: InteractionSystem.Raycaster.rayTowardsSelectedItem*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+- uid: InteractionSystem.Raycaster.PhysicsRaycast``1(Vector2)
+  commentId: M:InteractionSystem.Raycaster.PhysicsRaycast``1(Vector2)
+  id: PhysicsRaycast``1(Vector2)
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: PhysicsRaycast<T>(Vector2)
+  nameWithType: Raycaster.PhysicsRaycast<T>(Vector2)
+  fullName: InteractionSystem.Raycaster.PhysicsRaycast<T>(Vector2)
+  type: Method
+  source:
+    id: PhysicsRaycast
+    path: ''
+    startLine: 23572
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public List<T> PhysicsRaycast<T>(Vector2 screenPosition)
+    parameters:
+    - id: screenPosition
+      type: Global.Vector2
+    typeParameters:
+    - id: T
+    return:
+      type: Global.List{{T}}
+    content.vb: Public Function PhysicsRaycast(Of T)(screenPosition As Vector2) As List(Of T)
+  overload: InteractionSystem.Raycaster.PhysicsRaycast*
+  nameWithType.vb: Raycaster.PhysicsRaycast(Of T)(Vector2)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: InteractionSystem.Raycaster.PhysicsRaycast(Of T)(Vector2)
+  name.vb: PhysicsRaycast(Of T)(Vector2)
+- uid: InteractionSystem.Raycaster.PhysicsRaycast``1(Ray)
+  commentId: M:InteractionSystem.Raycaster.PhysicsRaycast``1(Ray)
+  id: PhysicsRaycast``1(Ray)
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: PhysicsRaycast<T>(Ray)
+  nameWithType: Raycaster.PhysicsRaycast<T>(Ray)
+  fullName: InteractionSystem.Raycaster.PhysicsRaycast<T>(Ray)
+  type: Method
+  source:
+    id: PhysicsRaycast
+    path: ''
+    startLine: 23577
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static List<T> PhysicsRaycast<T>(Ray ray)
+    parameters:
+    - id: ray
+      type: Global.Ray
+    typeParameters:
+    - id: T
+    return:
+      type: Global.List{{T}}
+    content.vb: Public Shared Function PhysicsRaycast(Of T)(ray As Ray) As List(Of T)
+  overload: InteractionSystem.Raycaster.PhysicsRaycast*
+  nameWithType.vb: Raycaster.PhysicsRaycast(Of T)(Ray)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: InteractionSystem.Raycaster.PhysicsRaycast(Of T)(Ray)
+  name.vb: PhysicsRaycast(Of T)(Ray)
+- uid: InteractionSystem.Raycaster.PhysicsRaycastStatic``1(Vector2)
+  commentId: M:InteractionSystem.Raycaster.PhysicsRaycastStatic``1(Vector2)
+  id: PhysicsRaycastStatic``1(Vector2)
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: PhysicsRaycastStatic<T>(Vector2)
+  nameWithType: Raycaster.PhysicsRaycastStatic<T>(Vector2)
+  fullName: InteractionSystem.Raycaster.PhysicsRaycastStatic<T>(Vector2)
+  type: Method
+  source:
+    id: PhysicsRaycastStatic
+    path: ''
+    startLine: 23590
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public static List<T> PhysicsRaycastStatic<T>(Vector2 screenPosition)
+    parameters:
+    - id: screenPosition
+      type: Global.Vector2
+    typeParameters:
+    - id: T
+    return:
+      type: Global.List{{T}}
+    content.vb: Public Shared Function PhysicsRaycastStatic(Of T)(screenPosition As Vector2) As List(Of T)
+  overload: InteractionSystem.Raycaster.PhysicsRaycastStatic*
+  nameWithType.vb: Raycaster.PhysicsRaycastStatic(Of T)(Vector2)
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: InteractionSystem.Raycaster.PhysicsRaycastStatic(Of T)(Vector2)
+  name.vb: PhysicsRaycastStatic(Of T)(Vector2)
+- uid: InteractionSystem.Raycaster.TrackableRaycast(Vector2,TrackableType)
+  commentId: M:InteractionSystem.Raycaster.TrackableRaycast(Vector2,TrackableType)
+  id: TrackableRaycast(Vector2,TrackableType)
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: TrackableRaycast(Vector2, TrackableType)
+  nameWithType: Raycaster.TrackableRaycast(Vector2, TrackableType)
+  fullName: InteractionSystem.Raycaster.TrackableRaycast(Vector2, TrackableType)
+  type: Method
+  source:
+    id: TrackableRaycast
+    path: ''
+    startLine: 23595
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public void TrackableRaycast(Vector2 screenPosition, TrackableType type = null)
+    parameters:
+    - id: screenPosition
+      type: Global.Vector2
+    - id: type
+      type: Global.TrackableType
+    content.vb: Public Sub TrackableRaycast(screenPosition As Vector2, type As TrackableType = Nothing)
+  overload: InteractionSystem.Raycaster.TrackableRaycast*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Raycaster.TrackableRaycast(Ray,TrackableType)
+  commentId: M:InteractionSystem.Raycaster.TrackableRaycast(Ray,TrackableType)
+  id: TrackableRaycast(Ray,TrackableType)
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: TrackableRaycast(Ray, TrackableType)
+  nameWithType: Raycaster.TrackableRaycast(Ray, TrackableType)
+  fullName: InteractionSystem.Raycaster.TrackableRaycast(Ray, TrackableType)
+  type: Method
+  source:
+    id: TrackableRaycast
+    path: ''
+    startLine: 23600
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public List<ARRaycastHit> TrackableRaycast(Ray ray, TrackableType type = null)
+    parameters:
+    - id: ray
+      type: Global.Ray
+    - id: type
+      type: Global.TrackableType
+    return:
+      type: Global.List{ARRaycastHit}
+    content.vb: Public Function TrackableRaycast(ray As Ray, type As TrackableType = Nothing) As List(Of ARRaycastHit)
+  overload: InteractionSystem.Raycaster.TrackableRaycast*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Raycaster.CreateAnchorAtHit(List{ARRaycastHit})
+  commentId: M:InteractionSystem.Raycaster.CreateAnchorAtHit(List{ARRaycastHit})
+  id: CreateAnchorAtHit(List{ARRaycastHit})
+  parent: InteractionSystem.Raycaster
+  langs:
+  - csharp
+  - vb
+  name: CreateAnchorAtHit(List<ARRaycastHit>)
+  nameWithType: Raycaster.CreateAnchorAtHit(List<ARRaycastHit>)
+  fullName: InteractionSystem.Raycaster.CreateAnchorAtHit(List<ARRaycastHit>)
+  type: Method
+  source:
+    id: CreateAnchorAtHit
+    path: ''
+    startLine: 23607
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem
+  syntax:
+    content: public ARAnchor CreateAnchorAtHit(List<ARRaycastHit> hits)
+    parameters:
+    - id: hits
+      type: Global.List{ARRaycastHit}
+    return:
+      type: Global.ARAnchor
+    content.vb: Public Function CreateAnchorAtHit(hits As List(Of ARRaycastHit)) As ARAnchor
+  overload: InteractionSystem.Raycaster.CreateAnchorAtHit*
+  nameWithType.vb: Raycaster.CreateAnchorAtHit(List(Of ARRaycastHit))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: InteractionSystem.Raycaster.CreateAnchorAtHit(List(Of ARRaycastHit))
+  name.vb: CreateAnchorAtHit(List(Of ARRaycastHit))
+references:
+- uid: InteractionSystem
+  commentId: N:InteractionSystem
+  name: InteractionSystem
+  nameWithType: InteractionSystem
+  fullName: InteractionSystem
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Camera
+  isExternal: true
+  name: Camera
+  nameWithType: Camera
+  fullName: Camera
+- uid: Global.ARRaycastManager
+  commentId: '!:Global.ARRaycastManager'
+  isExternal: true
+  name: ARRaycastManager
+  nameWithType: ARRaycastManager
+  fullName: ARRaycastManager
+- uid: Global.ARAnchorManager
+  commentId: '!:Global.ARAnchorManager'
+  isExternal: true
+  name: ARAnchorManager
+  nameWithType: ARAnchorManager
+  fullName: ARAnchorManager
+- uid: Global.ARPlaneManager
+  commentId: '!:Global.ARPlaneManager'
+  isExternal: true
+  name: ARPlaneManager
+  nameWithType: ARPlaneManager
+  fullName: ARPlaneManager
+- uid: InteractionSystem.Raycaster.rayTowardsSelectedItem*
+  commentId: Overload:InteractionSystem.Raycaster.rayTowardsSelectedItem
+  name: rayTowardsSelectedItem
+  nameWithType: Raycaster.rayTowardsSelectedItem
+  fullName: InteractionSystem.Raycaster.rayTowardsSelectedItem
+- uid: Global.Ray
+  isExternal: true
+  name: Ray
+  nameWithType: Ray
+  fullName: Ray
+- uid: InteractionSystem.Raycaster.PhysicsRaycast*
+  commentId: Overload:InteractionSystem.Raycaster.PhysicsRaycast
+  name: PhysicsRaycast
+  nameWithType: Raycaster.PhysicsRaycast
+  fullName: InteractionSystem.Raycaster.PhysicsRaycast
+- uid: Global.Vector2
+  isExternal: true
+  name: Vector2
+  nameWithType: Vector2
+  fullName: Vector2
+- uid: Global.List{{T}}
+  commentId: '!:Global.List{``0}'
+  definition: Global.List`1
+  name: List<T>
+  nameWithType: List<T>
+  fullName: List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Raycaster.PhysicsRaycastStatic*
+  commentId: Overload:InteractionSystem.Raycaster.PhysicsRaycastStatic
+  name: PhysicsRaycastStatic
+  nameWithType: Raycaster.PhysicsRaycastStatic
+  fullName: InteractionSystem.Raycaster.PhysicsRaycastStatic
+- uid: InteractionSystem.Raycaster.TrackableRaycast*
+  commentId: Overload:InteractionSystem.Raycaster.TrackableRaycast
+  name: TrackableRaycast
+  nameWithType: Raycaster.TrackableRaycast
+  fullName: InteractionSystem.Raycaster.TrackableRaycast
+- uid: Global.TrackableType
+  isExternal: true
+  name: TrackableType
+  nameWithType: TrackableType
+  fullName: TrackableType
+- uid: Global.List{ARRaycastHit}
+  commentId: '!:Global.List{ARRaycastHit}'
+  definition: Global.List`1
+  name: List<ARRaycastHit>
+  nameWithType: List<ARRaycastHit>
+  fullName: List<ARRaycastHit>
+  nameWithType.vb: List(Of ARRaycastHit)
+  fullName.vb: List(Of ARRaycastHit)
+  name.vb: List(Of ARRaycastHit)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.ARRaycastHit
+    name: ARRaycastHit
+    nameWithType: ARRaycastHit
+    fullName: ARRaycastHit
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.ARRaycastHit
+    name: ARRaycastHit
+    nameWithType: ARRaycastHit
+    fullName: ARRaycastHit
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Raycaster.CreateAnchorAtHit*
+  commentId: Overload:InteractionSystem.Raycaster.CreateAnchorAtHit
+  name: CreateAnchorAtHit
+  nameWithType: Raycaster.CreateAnchorAtHit
+  fullName: InteractionSystem.Raycaster.CreateAnchorAtHit
+- uid: Global.ARAnchor
+  commentId: '!:Global.ARAnchor'
+  isExternal: true
+  name: ARAnchor
+  nameWithType: ARAnchor
+  fullName: ARAnchor

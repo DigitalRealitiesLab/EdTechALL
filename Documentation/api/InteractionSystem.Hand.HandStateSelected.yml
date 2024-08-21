@@ -1,0 +1,884 @@
+### YamlMime:ManagedReference
+items:
+- uid: InteractionSystem.Hand.HandStateSelected
+  commentId: T:InteractionSystem.Hand.HandStateSelected
+  id: HandStateSelected
+  parent: InteractionSystem.Hand
+  children:
+  - InteractionSystem.Hand.HandStateSelected.#ctor(InteractionSystem.Hand.Hand)
+  - InteractionSystem.Hand.HandStateSelected.EnterState
+  - InteractionSystem.Hand.HandStateSelected.ExitState
+  - InteractionSystem.Hand.HandStateSelected.OnDeselect
+  - InteractionSystem.Hand.HandStateSelected.UpdateState
+  langs:
+  - csharp
+  - vb
+  name: HandStateSelected
+  nameWithType: HandStateSelected
+  fullName: InteractionSystem.Hand.HandStateSelected
+  type: Class
+  source:
+    id: HandStateSelected
+    path: ''
+    startLine: 23714
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: 'public class HandStateSelected : AHandState'
+    content.vb: >-
+      Public Class HandStateSelected
+          Inherits AHandState
+  inheritance:
+  - System.Object
+  - Global.DictionaryManager{System.String,StateTransition}
+  - Global.AState
+  - InteractionSystem.Hand.AHandState
+  inheritedMembers:
+  - InteractionSystem.Hand.AHandState.hand
+  - InteractionSystem.Hand.AHandState.activeCamera
+  - InteractionSystem.Hand.AHandState.IsTouchOverCanvasObject(Touch)
+  - Global.AState.stateName
+  - Global.AState.MakeTransitionTo(AState)
+  - Global.DictionaryManager{System.String,StateTransition}.managedReferences
+  - Global.DictionaryManager{System.String,StateTransition}.Add(System.String,StateTransition)
+  - Global.DictionaryManager{System.String,StateTransition}.RemoveAt(System.String)
+  - Global.DictionaryManager{System.String,StateTransition}.GetAt(System.String)
+  - Global.DictionaryManager{System.String,StateTransition}.GetAt``1(System.String)
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: InteractionSystem.Hand.HandStateSelected.#ctor(InteractionSystem.Hand.Hand)
+  commentId: M:InteractionSystem.Hand.HandStateSelected.#ctor(InteractionSystem.Hand.Hand)
+  id: '#ctor(InteractionSystem.Hand.Hand)'
+  parent: InteractionSystem.Hand.HandStateSelected
+  langs:
+  - csharp
+  - vb
+  name: HandStateSelected(Hand)
+  nameWithType: HandStateSelected.HandStateSelected(Hand)
+  fullName: InteractionSystem.Hand.HandStateSelected.HandStateSelected(InteractionSystem.Hand.Hand)
+  type: Constructor
+  source:
+    id: .ctor
+    path: ''
+    startLine: 23716
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public HandStateSelected(Hand hand)
+    parameters:
+    - id: hand
+      type: InteractionSystem.Hand.Hand
+    content.vb: Public Sub New(hand As Hand)
+  overload: InteractionSystem.Hand.HandStateSelected.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: InteractionSystem.Hand.HandStateSelected.EnterState
+  commentId: M:InteractionSystem.Hand.HandStateSelected.EnterState
+  id: EnterState
+  parent: InteractionSystem.Hand.HandStateSelected
+  langs:
+  - csharp
+  - vb
+  name: EnterState()
+  nameWithType: HandStateSelected.EnterState()
+  fullName: InteractionSystem.Hand.HandStateSelected.EnterState()
+  type: Method
+  source:
+    id: EnterState
+    path: ''
+    startLine: 23721
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public override void EnterState()
+    content.vb: Public Overrides Sub EnterState
+  overridden: Global.AState.EnterState
+  overload: InteractionSystem.Hand.HandStateSelected.EnterState*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Hand.HandStateSelected.ExitState
+  commentId: M:InteractionSystem.Hand.HandStateSelected.ExitState
+  id: ExitState
+  parent: InteractionSystem.Hand.HandStateSelected
+  langs:
+  - csharp
+  - vb
+  name: ExitState()
+  nameWithType: HandStateSelected.ExitState()
+  fullName: InteractionSystem.Hand.HandStateSelected.ExitState()
+  type: Method
+  source:
+    id: ExitState
+    path: ''
+    startLine: 23727
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public override void ExitState()
+    content.vb: Public Overrides Sub ExitState
+  overridden: Global.AState.ExitState
+  overload: InteractionSystem.Hand.HandStateSelected.ExitState*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Hand.HandStateSelected.UpdateState
+  commentId: M:InteractionSystem.Hand.HandStateSelected.UpdateState
+  id: UpdateState
+  parent: InteractionSystem.Hand.HandStateSelected
+  langs:
+  - csharp
+  - vb
+  name: UpdateState()
+  nameWithType: HandStateSelected.UpdateState()
+  fullName: InteractionSystem.Hand.HandStateSelected.UpdateState()
+  type: Method
+  source:
+    id: UpdateState
+    path: ''
+    startLine: 23733
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public override void UpdateState()
+    content.vb: Public Overrides Sub UpdateState
+  overridden: Global.AState.UpdateState
+  overload: InteractionSystem.Hand.HandStateSelected.UpdateState*
+  modifiers.csharp:
+  - public
+  - override
+  modifiers.vb:
+  - Public
+  - Overrides
+- uid: InteractionSystem.Hand.HandStateSelected.OnDeselect
+  commentId: M:InteractionSystem.Hand.HandStateSelected.OnDeselect
+  id: OnDeselect
+  parent: InteractionSystem.Hand.HandStateSelected
+  langs:
+  - csharp
+  - vb
+  name: OnDeselect()
+  nameWithType: HandStateSelected.OnDeselect()
+  fullName: InteractionSystem.Hand.HandStateSelected.OnDeselect()
+  type: Method
+  source:
+    id: OnDeselect
+    path: ''
+    startLine: 23794
+  assemblies:
+  - cs.temp.dll
+  namespace: InteractionSystem.Hand
+  syntax:
+    content: public void OnDeselect()
+    content.vb: Public Sub OnDeselect
+  overload: InteractionSystem.Hand.HandStateSelected.OnDeselect*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: InteractionSystem.Hand
+  commentId: N:InteractionSystem.Hand
+  name: InteractionSystem.Hand
+  nameWithType: InteractionSystem.Hand
+  fullName: InteractionSystem.Hand
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Global.DictionaryManager{System.String,StateTransition}
+  commentId: T:Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2
+  name: DictionaryManager<String, StateTransition>
+  nameWithType: DictionaryManager<String, StateTransition>
+  fullName: DictionaryManager<System.String, StateTransition>
+  nameWithType.vb: DictionaryManager(Of String, StateTransition)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition)
+  name.vb: DictionaryManager(Of String, StateTransition)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.StateTransition
+    name: StateTransition
+    nameWithType: StateTransition
+    fullName: StateTransition
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.StateTransition
+    name: StateTransition
+    nameWithType: StateTransition
+    fullName: StateTransition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AState
+  commentId: T:Global.AState
+  name: AState
+  nameWithType: AState
+  fullName: AState
+- uid: InteractionSystem.Hand.AHandState
+  commentId: T:InteractionSystem.Hand.AHandState
+  parent: InteractionSystem.Hand
+  name: AHandState
+  nameWithType: AHandState
+  fullName: InteractionSystem.Hand.AHandState
+- uid: InteractionSystem.Hand.AHandState.hand
+  commentId: P:InteractionSystem.Hand.AHandState.hand
+  parent: InteractionSystem.Hand.AHandState
+  name: hand
+  nameWithType: AHandState.hand
+  fullName: InteractionSystem.Hand.AHandState.hand
+- uid: InteractionSystem.Hand.AHandState.activeCamera
+  commentId: F:InteractionSystem.Hand.AHandState.activeCamera
+  parent: InteractionSystem.Hand.AHandState
+  name: activeCamera
+  nameWithType: AHandState.activeCamera
+  fullName: InteractionSystem.Hand.AHandState.activeCamera
+- uid: InteractionSystem.Hand.AHandState.IsTouchOverCanvasObject(Touch)
+  commentId: M:InteractionSystem.Hand.AHandState.IsTouchOverCanvasObject(Touch)
+  parent: InteractionSystem.Hand.AHandState
+  isExternal: true
+  name: IsTouchOverCanvasObject(Touch)
+  nameWithType: AHandState.IsTouchOverCanvasObject(Touch)
+  fullName: InteractionSystem.Hand.AHandState.IsTouchOverCanvasObject(Touch)
+  spec.csharp:
+  - uid: InteractionSystem.Hand.AHandState.IsTouchOverCanvasObject(Touch)
+    name: IsTouchOverCanvasObject
+    nameWithType: AHandState.IsTouchOverCanvasObject
+    fullName: InteractionSystem.Hand.AHandState.IsTouchOverCanvasObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Touch
+    name: Touch
+    nameWithType: Touch
+    fullName: Touch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: InteractionSystem.Hand.AHandState.IsTouchOverCanvasObject(Touch)
+    name: IsTouchOverCanvasObject
+    nameWithType: AHandState.IsTouchOverCanvasObject
+    fullName: InteractionSystem.Hand.AHandState.IsTouchOverCanvasObject
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.Touch
+    name: Touch
+    nameWithType: Touch
+    fullName: Touch
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.AState.stateName
+  commentId: F:Global.AState.stateName
+  parent: Global.AState
+  name: stateName
+  nameWithType: AState.stateName
+  fullName: AState.stateName
+- uid: Global.AState.MakeTransitionTo(AState)
+  commentId: M:Global.AState.MakeTransitionTo(AState)
+  parent: Global.AState
+  name: MakeTransitionTo(AState)
+  nameWithType: AState.MakeTransitionTo(AState)
+  fullName: AState.MakeTransitionTo(AState)
+  spec.csharp:
+  - uid: Global.AState.MakeTransitionTo(AState)
+    name: MakeTransitionTo
+    nameWithType: AState.MakeTransitionTo
+    fullName: AState.MakeTransitionTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.AState
+    name: AState
+    nameWithType: AState
+    fullName: AState
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AState.MakeTransitionTo(AState)
+    name: MakeTransitionTo
+    nameWithType: AState.MakeTransitionTo
+    fullName: AState.MakeTransitionTo
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Global.AState
+    name: AState
+    nameWithType: AState
+    fullName: AState
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{System.String,StateTransition}.managedReferences
+  commentId: F:Global.DictionaryManager{System.String,StateTransition}.managedReferences
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.managedReferences
+  name: managedReferences
+  nameWithType: DictionaryManager<String, StateTransition>.managedReferences
+  fullName: DictionaryManager<System.String, StateTransition>.managedReferences
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).managedReferences
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).managedReferences
+- uid: Global.DictionaryManager{System.String,StateTransition}.Add(System.String,StateTransition)
+  commentId: M:Global.DictionaryManager{System.String,StateTransition}.Add(System.String,StateTransition)
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.Add(`0,`1)
+  name: Add(String, StateTransition)
+  nameWithType: DictionaryManager<String, StateTransition>.Add(String, StateTransition)
+  fullName: DictionaryManager<System.String, StateTransition>.Add(System.String, StateTransition)
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).Add(String, StateTransition)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).Add(System.String, StateTransition)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager<String, StateTransition>.Add
+    fullName: DictionaryManager<System.String, StateTransition>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.StateTransition
+    name: StateTransition
+    nameWithType: StateTransition
+    fullName: StateTransition
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager(Of String, StateTransition).Add
+    fullName: DictionaryManager(Of System.String, StateTransition).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Global.StateTransition
+    name: StateTransition
+    nameWithType: StateTransition
+    fullName: StateTransition
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{System.String,StateTransition}.RemoveAt(System.String)
+  commentId: M:Global.DictionaryManager{System.String,StateTransition}.RemoveAt(System.String)
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.RemoveAt(`0)
+  name: RemoveAt(String)
+  nameWithType: DictionaryManager<String, StateTransition>.RemoveAt(String)
+  fullName: DictionaryManager<System.String, StateTransition>.RemoveAt(System.String)
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).RemoveAt(String)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).RemoveAt(System.String)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager<String, StateTransition>.RemoveAt
+    fullName: DictionaryManager<System.String, StateTransition>.RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager(Of String, StateTransition).RemoveAt
+    fullName: DictionaryManager(Of System.String, StateTransition).RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{System.String,StateTransition}.GetAt(System.String)
+  commentId: M:Global.DictionaryManager{System.String,StateTransition}.GetAt(System.String)
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.GetAt(`0)
+  name: GetAt(String)
+  nameWithType: DictionaryManager<String, StateTransition>.GetAt(String)
+  fullName: DictionaryManager<System.String, StateTransition>.GetAt(System.String)
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).GetAt(String)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).GetAt(System.String)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager<String, StateTransition>.GetAt
+    fullName: DictionaryManager<System.String, StateTransition>.GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager(Of String, StateTransition).GetAt
+    fullName: DictionaryManager(Of System.String, StateTransition).GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager{System.String,StateTransition}.GetAt``1(System.String)
+  commentId: M:Global.DictionaryManager{System.String,StateTransition}.GetAt``1(System.String)
+  parent: Global.DictionaryManager{System.String,StateTransition}
+  definition: Global.DictionaryManager`2.GetAt``1(`0)
+  name: GetAt<X>(String)
+  nameWithType: DictionaryManager<String, StateTransition>.GetAt<X>(String)
+  fullName: DictionaryManager<System.String, StateTransition>.GetAt<X>(System.String)
+  nameWithType.vb: DictionaryManager(Of String, StateTransition).GetAt(Of X)(String)
+  fullName.vb: DictionaryManager(Of System.String, StateTransition).GetAt(Of X)(System.String)
+  name.vb: GetAt(Of X)(String)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt<X>
+    nameWithType: DictionaryManager<String, StateTransition>.GetAt<X>
+    fullName: DictionaryManager<System.String, StateTransition>.GetAt<X>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt(Of X)
+    nameWithType: DictionaryManager(Of String, StateTransition).GetAt(Of X)
+    fullName: DictionaryManager(Of System.String, StateTransition).GetAt(Of X)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.DictionaryManager`2
+  commentId: T:Global.DictionaryManager`2
+  name: DictionaryManager<K, V>
+  nameWithType: DictionaryManager<K, V>
+  fullName: DictionaryManager<K, V>
+  nameWithType.vb: DictionaryManager(Of K, V)
+  fullName.vb: DictionaryManager(Of K, V)
+  name.vb: DictionaryManager(Of K, V)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.DictionaryManager`2
+    name: DictionaryManager
+    nameWithType: DictionaryManager
+    fullName: DictionaryManager
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.managedReferences
+  commentId: F:Global.DictionaryManager`2.managedReferences
+  name: managedReferences
+  nameWithType: DictionaryManager<K, V>.managedReferences
+  fullName: DictionaryManager<K, V>.managedReferences
+  nameWithType.vb: DictionaryManager(Of K, V).managedReferences
+  fullName.vb: DictionaryManager(Of K, V).managedReferences
+- uid: Global.DictionaryManager`2.Add(`0,`1)
+  commentId: M:Global.DictionaryManager`2.Add(`0,`1)
+  name: Add(K, V)
+  nameWithType: DictionaryManager<K, V>.Add(K, V)
+  fullName: DictionaryManager<K, V>.Add(K, V)
+  nameWithType.vb: DictionaryManager(Of K, V).Add(K, V)
+  fullName.vb: DictionaryManager(Of K, V).Add(K, V)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager<K, V>.Add
+    fullName: DictionaryManager<K, V>.Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.Add(`0,`1)
+    name: Add
+    nameWithType: DictionaryManager(Of K, V).Add
+    fullName: DictionaryManager(Of K, V).Add
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - name: V
+    nameWithType: V
+    fullName: V
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.RemoveAt(`0)
+  commentId: M:Global.DictionaryManager`2.RemoveAt(`0)
+  name: RemoveAt(K)
+  nameWithType: DictionaryManager<K, V>.RemoveAt(K)
+  fullName: DictionaryManager<K, V>.RemoveAt(K)
+  nameWithType.vb: DictionaryManager(Of K, V).RemoveAt(K)
+  fullName.vb: DictionaryManager(Of K, V).RemoveAt(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager<K, V>.RemoveAt
+    fullName: DictionaryManager<K, V>.RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.RemoveAt(`0)
+    name: RemoveAt
+    nameWithType: DictionaryManager(Of K, V).RemoveAt
+    fullName: DictionaryManager(Of K, V).RemoveAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.GetAt(`0)
+  commentId: M:Global.DictionaryManager`2.GetAt(`0)
+  name: GetAt(K)
+  nameWithType: DictionaryManager<K, V>.GetAt(K)
+  fullName: DictionaryManager<K, V>.GetAt(K)
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt(K)
+  fullName.vb: DictionaryManager(Of K, V).GetAt(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager<K, V>.GetAt
+    fullName: DictionaryManager<K, V>.GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt(`0)
+    name: GetAt
+    nameWithType: DictionaryManager(Of K, V).GetAt
+    fullName: DictionaryManager(Of K, V).GetAt
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.DictionaryManager`2.GetAt``1(`0)
+  commentId: M:Global.DictionaryManager`2.GetAt``1(`0)
+  name: GetAt<X>(K)
+  nameWithType: DictionaryManager<K, V>.GetAt<X>(K)
+  fullName: DictionaryManager<K, V>.GetAt<X>(K)
+  nameWithType.vb: DictionaryManager(Of K, V).GetAt(Of X)(K)
+  fullName.vb: DictionaryManager(Of K, V).GetAt(Of X)(K)
+  name.vb: GetAt(Of X)(K)
+  spec.csharp:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt<X>
+    nameWithType: DictionaryManager<K, V>.GetAt<X>
+    fullName: DictionaryManager<K, V>.GetAt<X>
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.DictionaryManager`2.GetAt``1(`0)
+    name: GetAt(Of X)
+    nameWithType: DictionaryManager(Of K, V).GetAt(Of X)
+    fullName: DictionaryManager(Of K, V).GetAt(Of X)
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: K
+    nameWithType: K
+    fullName: K
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Hand.HandStateSelected.#ctor*
+  commentId: Overload:InteractionSystem.Hand.HandStateSelected.#ctor
+  name: HandStateSelected
+  nameWithType: HandStateSelected.HandStateSelected
+  fullName: InteractionSystem.Hand.HandStateSelected.HandStateSelected
+- uid: InteractionSystem.Hand.Hand
+  commentId: T:InteractionSystem.Hand.Hand
+  parent: InteractionSystem.Hand
+  name: Hand
+  nameWithType: Hand
+  fullName: InteractionSystem.Hand.Hand
+- uid: Global.AState.EnterState
+  commentId: M:Global.AState.EnterState
+  parent: Global.AState
+  name: EnterState()
+  nameWithType: AState.EnterState()
+  fullName: AState.EnterState()
+  spec.csharp:
+  - uid: Global.AState.EnterState
+    name: EnterState
+    nameWithType: AState.EnterState
+    fullName: AState.EnterState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AState.EnterState
+    name: EnterState
+    nameWithType: AState.EnterState
+    fullName: AState.EnterState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Hand.HandStateSelected.EnterState*
+  commentId: Overload:InteractionSystem.Hand.HandStateSelected.EnterState
+  name: EnterState
+  nameWithType: HandStateSelected.EnterState
+  fullName: InteractionSystem.Hand.HandStateSelected.EnterState
+- uid: Global.AState.ExitState
+  commentId: M:Global.AState.ExitState
+  parent: Global.AState
+  name: ExitState()
+  nameWithType: AState.ExitState()
+  fullName: AState.ExitState()
+  spec.csharp:
+  - uid: Global.AState.ExitState
+    name: ExitState
+    nameWithType: AState.ExitState
+    fullName: AState.ExitState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AState.ExitState
+    name: ExitState
+    nameWithType: AState.ExitState
+    fullName: AState.ExitState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Hand.HandStateSelected.ExitState*
+  commentId: Overload:InteractionSystem.Hand.HandStateSelected.ExitState
+  name: ExitState
+  nameWithType: HandStateSelected.ExitState
+  fullName: InteractionSystem.Hand.HandStateSelected.ExitState
+- uid: Global.AState.UpdateState
+  commentId: M:Global.AState.UpdateState
+  parent: Global.AState
+  name: UpdateState()
+  nameWithType: AState.UpdateState()
+  fullName: AState.UpdateState()
+  spec.csharp:
+  - uid: Global.AState.UpdateState
+    name: UpdateState
+    nameWithType: AState.UpdateState
+    fullName: AState.UpdateState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Global.AState.UpdateState
+    name: UpdateState
+    nameWithType: AState.UpdateState
+    fullName: AState.UpdateState
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: InteractionSystem.Hand.HandStateSelected.UpdateState*
+  commentId: Overload:InteractionSystem.Hand.HandStateSelected.UpdateState
+  name: UpdateState
+  nameWithType: HandStateSelected.UpdateState
+  fullName: InteractionSystem.Hand.HandStateSelected.UpdateState
+- uid: InteractionSystem.Hand.HandStateSelected.OnDeselect*
+  commentId: Overload:InteractionSystem.Hand.HandStateSelected.OnDeselect
+  name: OnDeselect
+  nameWithType: HandStateSelected.OnDeselect
+  fullName: InteractionSystem.Hand.HandStateSelected.OnDeselect

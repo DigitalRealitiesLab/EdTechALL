@@ -1,0 +1,10 @@
+diff a/Documentation/docfx.json b/Documentation/docfx.json	(rejected hunks)
+@@ -62,7 +62,7 @@
+             }
+         ],
+         "sitemap": {
+-            "baseUrl": "https://normanderwan.github.io/DocFxForUnity",
++            "baseUrl": "https://gitlab.mediacube.at/fhs38598/edtechall",
+             "changefreq": "weekly",
+             "fileOptions": {
+                 "api/*": {

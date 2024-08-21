@@ -1,0 +1,947 @@
+### YamlMime:ManagedReference
+items:
+- uid: Global.EventBus
+  commentId: T:Global.EventBus
+  id: EventBus
+  parent: Global
+  children:
+  - Global.EventBus.DeregisterAllCallbacks(System.Object)
+  - Global.EventBus.DeregisterAllCallbacksQueued(System.Object)
+  - Global.EventBus.DeregisterCallback(EventCallback)
+  - Global.EventBus.DeregisterCallback(System.Object,System.String,System.String)
+  - Global.EventBus.DeregisterCallbackQueued(EventCallback)
+  - Global.EventBus.DeregisterCallbackQueued(System.Object,System.String,System.String)
+  - Global.EventBus.GetCallback(System.Object,System.String,System.String)
+  - Global.EventBus.GetCallbacksOfSubsciber(System.Object)
+  - Global.EventBus.HasCallback(EventCallback)
+  - Global.EventBus.HasCallback(System.Object,System.String,System.String)
+  - Global.EventBus.LateUpdate
+  - Global.EventBus.ProcessDeregistrationQueue
+  - Global.EventBus.ProcessRegistrationQueue
+  - Global.EventBus.Publish(System.String,System.Object[])
+  - Global.EventBus.RegisterCallback(EventCallback)
+  - Global.EventBus.RegisterCallback(System.Object,System.String,System.String)
+  - Global.EventBus.RegisterCallbackQueued(EventCallback)
+  - Global.EventBus.RegisterCallbackQueued(System.Object,System.String,System.String)
+  - Global.EventBus.SaveDeregisterCallback(System.Object,System.String,System.String)
+  - Global.EventBus.SaveRegisterCallback(System.Object,System.String,System.String)
+  langs:
+  - csharp
+  - vb
+  name: EventBus
+  nameWithType: EventBus
+  fullName: EventBus
+  type: Class
+  source:
+    id: EventBus
+    path: ''
+    startLine: 17606
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public class EventBus
+    content.vb: Public Class EventBus
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Global.EventBus.RegisterCallback(System.Object,System.String,System.String)
+  commentId: M:Global.EventBus.RegisterCallback(System.Object,System.String,System.String)
+  id: RegisterCallback(System.Object,System.String,System.String)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: RegisterCallback(Object, String, String)
+  nameWithType: EventBus.RegisterCallback(Object, String, String)
+  fullName: EventBus.RegisterCallback(System.Object, System.String, System.String)
+  type: Method
+  source:
+    id: RegisterCallback
+    path: ''
+    startLine: 17612
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void RegisterCallback(object listener, string eventId, string callbackMethodName)
+    parameters:
+    - id: listener
+      type: System.Object
+    - id: eventId
+      type: System.String
+    - id: callbackMethodName
+      type: System.String
+    content.vb: Public Shared Sub RegisterCallback(listener As Object, eventId As String, callbackMethodName As String)
+  overload: Global.EventBus.RegisterCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.RegisterCallback(EventCallback)
+  commentId: M:Global.EventBus.RegisterCallback(EventCallback)
+  id: RegisterCallback(EventCallback)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: RegisterCallback(EventCallback)
+  nameWithType: EventBus.RegisterCallback(EventCallback)
+  fullName: EventBus.RegisterCallback(EventCallback)
+  type: Method
+  source:
+    id: RegisterCallback
+    path: ''
+    startLine: 17617
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void RegisterCallback(EventCallback callback)
+    parameters:
+    - id: callback
+      type: Global.EventCallback
+    content.vb: Public Shared Sub RegisterCallback(callback As EventCallback)
+  overload: Global.EventBus.RegisterCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.DeregisterCallback(System.Object,System.String,System.String)
+  commentId: M:Global.EventBus.DeregisterCallback(System.Object,System.String,System.String)
+  id: DeregisterCallback(System.Object,System.String,System.String)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: DeregisterCallback(Object, String, String)
+  nameWithType: EventBus.DeregisterCallback(Object, String, String)
+  fullName: EventBus.DeregisterCallback(System.Object, System.String, System.String)
+  type: Method
+  source:
+    id: DeregisterCallback
+    path: ''
+    startLine: 17624
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void DeregisterCallback(object subscriber, string eventId, string callbackMethodName)
+    parameters:
+    - id: subscriber
+      type: System.Object
+    - id: eventId
+      type: System.String
+    - id: callbackMethodName
+      type: System.String
+    content.vb: Public Shared Sub DeregisterCallback(subscriber As Object, eventId As String, callbackMethodName As String)
+  overload: Global.EventBus.DeregisterCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.SaveRegisterCallback(System.Object,System.String,System.String)
+  commentId: M:Global.EventBus.SaveRegisterCallback(System.Object,System.String,System.String)
+  id: SaveRegisterCallback(System.Object,System.String,System.String)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: SaveRegisterCallback(Object, String, String)
+  nameWithType: EventBus.SaveRegisterCallback(Object, String, String)
+  fullName: EventBus.SaveRegisterCallback(System.Object, System.String, System.String)
+  type: Method
+  source:
+    id: SaveRegisterCallback
+    path: ''
+    startLine: 17636
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SaveRegisterCallback(object listener, string eventId, string callbackMethodName)
+    parameters:
+    - id: listener
+      type: System.Object
+    - id: eventId
+      type: System.String
+    - id: callbackMethodName
+      type: System.String
+    content.vb: Public Shared Sub SaveRegisterCallback(listener As Object, eventId As String, callbackMethodName As String)
+  overload: Global.EventBus.SaveRegisterCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.DeregisterCallback(EventCallback)
+  commentId: M:Global.EventBus.DeregisterCallback(EventCallback)
+  id: DeregisterCallback(EventCallback)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: DeregisterCallback(EventCallback)
+  nameWithType: EventBus.DeregisterCallback(EventCallback)
+  fullName: EventBus.DeregisterCallback(EventCallback)
+  type: Method
+  source:
+    id: DeregisterCallback
+    path: ''
+    startLine: 17642
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void DeregisterCallback(EventCallback callback)
+    parameters:
+    - id: callback
+      type: Global.EventCallback
+    content.vb: Public Shared Sub DeregisterCallback(callback As EventCallback)
+  overload: Global.EventBus.DeregisterCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.DeregisterAllCallbacks(System.Object)
+  commentId: M:Global.EventBus.DeregisterAllCallbacks(System.Object)
+  id: DeregisterAllCallbacks(System.Object)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: DeregisterAllCallbacks(Object)
+  nameWithType: EventBus.DeregisterAllCallbacks(Object)
+  fullName: EventBus.DeregisterAllCallbacks(System.Object)
+  type: Method
+  source:
+    id: DeregisterAllCallbacks
+    path: ''
+    startLine: 17647
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void DeregisterAllCallbacks(object subscriber)
+    parameters:
+    - id: subscriber
+      type: System.Object
+    content.vb: Public Shared Sub DeregisterAllCallbacks(subscriber As Object)
+  overload: Global.EventBus.DeregisterAllCallbacks*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.SaveDeregisterCallback(System.Object,System.String,System.String)
+  commentId: M:Global.EventBus.SaveDeregisterCallback(System.Object,System.String,System.String)
+  id: SaveDeregisterCallback(System.Object,System.String,System.String)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: SaveDeregisterCallback(Object, String, String)
+  nameWithType: EventBus.SaveDeregisterCallback(Object, String, String)
+  fullName: EventBus.SaveDeregisterCallback(System.Object, System.String, System.String)
+  type: Method
+  source:
+    id: SaveDeregisterCallback
+    path: ''
+    startLine: 17656
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void SaveDeregisterCallback(object listener, string eventId, string callbackMethodName)
+    parameters:
+    - id: listener
+      type: System.Object
+    - id: eventId
+      type: System.String
+    - id: callbackMethodName
+      type: System.String
+    content.vb: Public Shared Sub SaveDeregisterCallback(listener As Object, eventId As String, callbackMethodName As String)
+  overload: Global.EventBus.SaveDeregisterCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.HasCallback(System.Object,System.String,System.String)
+  commentId: M:Global.EventBus.HasCallback(System.Object,System.String,System.String)
+  id: HasCallback(System.Object,System.String,System.String)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: HasCallback(Object, String, String)
+  nameWithType: EventBus.HasCallback(Object, String, String)
+  fullName: EventBus.HasCallback(System.Object, System.String, System.String)
+  type: Method
+  source:
+    id: HasCallback
+    path: ''
+    startLine: 17662
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool HasCallback(object subscriber, string eventId, string callbackMethodName)
+    parameters:
+    - id: subscriber
+      type: System.Object
+    - id: eventId
+      type: System.String
+    - id: callbackMethodName
+      type: System.String
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasCallback(subscriber As Object, eventId As String, callbackMethodName As String) As Boolean
+  overload: Global.EventBus.HasCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.HasCallback(EventCallback)
+  commentId: M:Global.EventBus.HasCallback(EventCallback)
+  id: HasCallback(EventCallback)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: HasCallback(EventCallback)
+  nameWithType: EventBus.HasCallback(EventCallback)
+  fullName: EventBus.HasCallback(EventCallback)
+  type: Method
+  source:
+    id: HasCallback
+    path: ''
+    startLine: 17667
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static bool HasCallback(EventCallback callback)
+    parameters:
+    - id: callback
+      type: Global.EventCallback
+    return:
+      type: System.Boolean
+    content.vb: Public Shared Function HasCallback(callback As EventCallback) As Boolean
+  overload: Global.EventBus.HasCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.RegisterCallbackQueued(System.Object,System.String,System.String)
+  commentId: M:Global.EventBus.RegisterCallbackQueued(System.Object,System.String,System.String)
+  id: RegisterCallbackQueued(System.Object,System.String,System.String)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: RegisterCallbackQueued(Object, String, String)
+  nameWithType: EventBus.RegisterCallbackQueued(Object, String, String)
+  fullName: EventBus.RegisterCallbackQueued(System.Object, System.String, System.String)
+  type: Method
+  source:
+    id: RegisterCallbackQueued
+    path: ''
+    startLine: 17679
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nQueue is processed in late update. Use to avoid enumeration errors\n"
+  example: []
+  syntax:
+    content: public static void RegisterCallbackQueued(object listener, string eventId, string callbackMethodName)
+    parameters:
+    - id: listener
+      type: System.Object
+      description: ''
+    - id: eventId
+      type: System.String
+      description: ''
+    - id: callbackMethodName
+      type: System.String
+      description: ''
+    content.vb: Public Shared Sub RegisterCallbackQueued(listener As Object, eventId As String, callbackMethodName As String)
+  overload: Global.EventBus.RegisterCallbackQueued*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.RegisterCallbackQueued(EventCallback)
+  commentId: M:Global.EventBus.RegisterCallbackQueued(EventCallback)
+  id: RegisterCallbackQueued(EventCallback)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: RegisterCallbackQueued(EventCallback)
+  nameWithType: EventBus.RegisterCallbackQueued(EventCallback)
+  fullName: EventBus.RegisterCallbackQueued(EventCallback)
+  type: Method
+  source:
+    id: RegisterCallbackQueued
+    path: ''
+    startLine: 17688
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nQueue is processed in late update. Use to avoid enumeration errors\n"
+  example: []
+  syntax:
+    content: public static void RegisterCallbackQueued(EventCallback callback)
+    parameters:
+    - id: callback
+      type: Global.EventCallback
+      description: ''
+    content.vb: Public Shared Sub RegisterCallbackQueued(callback As EventCallback)
+  overload: Global.EventBus.RegisterCallbackQueued*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.DeregisterCallbackQueued(System.Object,System.String,System.String)
+  commentId: M:Global.EventBus.DeregisterCallbackQueued(System.Object,System.String,System.String)
+  id: DeregisterCallbackQueued(System.Object,System.String,System.String)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: DeregisterCallbackQueued(Object, String, String)
+  nameWithType: EventBus.DeregisterCallbackQueued(Object, String, String)
+  fullName: EventBus.DeregisterCallbackQueued(System.Object, System.String, System.String)
+  type: Method
+  source:
+    id: DeregisterCallbackQueued
+    path: ''
+    startLine: 17699
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nQueue is processed in late update. Use to avoid enumeration errors\n"
+  example: []
+  syntax:
+    content: public static void DeregisterCallbackQueued(object subscriber, string eventId, string callbackMethodName)
+    parameters:
+    - id: subscriber
+      type: System.Object
+      description: ''
+    - id: eventId
+      type: System.String
+      description: ''
+    - id: callbackMethodName
+      type: System.String
+      description: ''
+    content.vb: Public Shared Sub DeregisterCallbackQueued(subscriber As Object, eventId As String, callbackMethodName As String)
+  overload: Global.EventBus.DeregisterCallbackQueued*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.DeregisterCallbackQueued(EventCallback)
+  commentId: M:Global.EventBus.DeregisterCallbackQueued(EventCallback)
+  id: DeregisterCallbackQueued(EventCallback)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: DeregisterCallbackQueued(EventCallback)
+  nameWithType: EventBus.DeregisterCallbackQueued(EventCallback)
+  fullName: EventBus.DeregisterCallbackQueued(EventCallback)
+  type: Method
+  source:
+    id: DeregisterCallbackQueued
+    path: ''
+    startLine: 17715
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nQueue is processed in late update. Use to avoid enumeration errors\n"
+  example: []
+  syntax:
+    content: public static void DeregisterCallbackQueued(EventCallback callback)
+    parameters:
+    - id: callback
+      type: Global.EventCallback
+      description: ''
+    content.vb: Public Shared Sub DeregisterCallbackQueued(callback As EventCallback)
+  overload: Global.EventBus.DeregisterCallbackQueued*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.DeregisterAllCallbacksQueued(System.Object)
+  commentId: M:Global.EventBus.DeregisterAllCallbacksQueued(System.Object)
+  id: DeregisterAllCallbacksQueued(System.Object)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: DeregisterAllCallbacksQueued(Object)
+  nameWithType: EventBus.DeregisterAllCallbacksQueued(Object)
+  fullName: EventBus.DeregisterAllCallbacksQueued(System.Object)
+  type: Method
+  source:
+    id: DeregisterAllCallbacksQueued
+    path: ''
+    startLine: 17724
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  summary: "\nQueue is processed in late update. Use to avoid enumeration errors\n"
+  example: []
+  syntax:
+    content: public static void DeregisterAllCallbacksQueued(object subscriber)
+    parameters:
+    - id: subscriber
+      type: System.Object
+      description: ''
+    content.vb: Public Shared Sub DeregisterAllCallbacksQueued(subscriber As Object)
+  overload: Global.EventBus.DeregisterAllCallbacksQueued*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.LateUpdate
+  commentId: M:Global.EventBus.LateUpdate
+  id: LateUpdate
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: LateUpdate()
+  nameWithType: EventBus.LateUpdate()
+  fullName: EventBus.LateUpdate()
+  type: Method
+  source:
+    id: LateUpdate
+    path: ''
+    startLine: 17731
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void LateUpdate()
+    content.vb: Public Shared Sub LateUpdate
+  overload: Global.EventBus.LateUpdate*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.ProcessRegistrationQueue
+  commentId: M:Global.EventBus.ProcessRegistrationQueue
+  id: ProcessRegistrationQueue
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: ProcessRegistrationQueue()
+  nameWithType: EventBus.ProcessRegistrationQueue()
+  fullName: EventBus.ProcessRegistrationQueue()
+  type: Method
+  source:
+    id: ProcessRegistrationQueue
+    path: ''
+    startLine: 17737
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected static void ProcessRegistrationQueue()
+    content.vb: Protected Shared Sub ProcessRegistrationQueue
+  overload: Global.EventBus.ProcessRegistrationQueue*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Global.EventBus.ProcessDeregistrationQueue
+  commentId: M:Global.EventBus.ProcessDeregistrationQueue
+  id: ProcessDeregistrationQueue
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: ProcessDeregistrationQueue()
+  nameWithType: EventBus.ProcessDeregistrationQueue()
+  fullName: EventBus.ProcessDeregistrationQueue()
+  type: Method
+  source:
+    id: ProcessDeregistrationQueue
+    path: ''
+    startLine: 17743
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: protected static void ProcessDeregistrationQueue()
+    content.vb: Protected Shared Sub ProcessDeregistrationQueue
+  overload: Global.EventBus.ProcessDeregistrationQueue*
+  modifiers.csharp:
+  - protected
+  - static
+  modifiers.vb:
+  - Protected
+  - Shared
+- uid: Global.EventBus.Publish(System.String,System.Object[])
+  commentId: M:Global.EventBus.Publish(System.String,System.Object[])
+  id: Publish(System.String,System.Object[])
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: Publish(String, Object[])
+  nameWithType: EventBus.Publish(String, Object[])
+  fullName: EventBus.Publish(System.String, System.Object[])
+  type: Method
+  source:
+    id: Publish
+    path: ''
+    startLine: 17750
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static void Publish(string eventId, params object[] list)
+    parameters:
+    - id: eventId
+      type: System.String
+    - id: list
+      type: System.Object[]
+    content.vb: Public Shared Sub Publish(eventId As String, ParamArray list As Object())
+  overload: Global.EventBus.Publish*
+  nameWithType.vb: EventBus.Publish(String, Object())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: EventBus.Publish(System.String, System.Object())
+  name.vb: Publish(String, Object())
+- uid: Global.EventBus.GetCallbacksOfSubsciber(System.Object)
+  commentId: M:Global.EventBus.GetCallbacksOfSubsciber(System.Object)
+  id: GetCallbacksOfSubsciber(System.Object)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: GetCallbacksOfSubsciber(Object)
+  nameWithType: EventBus.GetCallbacksOfSubsciber(Object)
+  fullName: EventBus.GetCallbacksOfSubsciber(System.Object)
+  type: Method
+  source:
+    id: GetCallbacksOfSubsciber
+    path: ''
+    startLine: 17775
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static List<EventCallback> GetCallbacksOfSubsciber(object subscriber)
+    parameters:
+    - id: subscriber
+      type: System.Object
+    return:
+      type: Global.List{EventCallback}
+    content.vb: Public Shared Function GetCallbacksOfSubsciber(subscriber As Object) As List(Of EventCallback)
+  overload: Global.EventBus.GetCallbacksOfSubsciber*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Global.EventBus.GetCallback(System.Object,System.String,System.String)
+  commentId: M:Global.EventBus.GetCallback(System.Object,System.String,System.String)
+  id: GetCallback(System.Object,System.String,System.String)
+  parent: Global.EventBus
+  langs:
+  - csharp
+  - vb
+  name: GetCallback(Object, String, String)
+  nameWithType: EventBus.GetCallback(Object, String, String)
+  fullName: EventBus.GetCallback(System.Object, System.String, System.String)
+  type: Method
+  source:
+    id: GetCallback
+    path: ''
+    startLine: 17785
+  assemblies:
+  - cs.temp.dll
+  namespace: Global
+  syntax:
+    content: public static EventCallback GetCallback(object subscriber, string eventId, string callbackMethodName)
+    parameters:
+    - id: subscriber
+      type: System.Object
+    - id: eventId
+      type: System.String
+    - id: callbackMethodName
+      type: System.String
+    return:
+      type: Global.EventCallback
+    content.vb: Public Shared Function GetCallback(subscriber As Object, eventId As String, callbackMethodName As String) As EventCallback
+  overload: Global.EventBus.GetCallback*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Global
+  name: Global
+  nameWithType: Global
+  fullName: Global
+  nameWithType.vb: ''
+  fullName.vb: ''
+  name.vb: ''
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.EventBus.RegisterCallback*
+  commentId: Overload:Global.EventBus.RegisterCallback
+  name: RegisterCallback
+  nameWithType: EventBus.RegisterCallback
+  fullName: EventBus.RegisterCallback
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Global.EventCallback
+  commentId: T:Global.EventCallback
+  name: EventCallback
+  nameWithType: EventCallback
+  fullName: EventCallback
+- uid: Global.EventBus.DeregisterCallback*
+  commentId: Overload:Global.EventBus.DeregisterCallback
+  name: DeregisterCallback
+  nameWithType: EventBus.DeregisterCallback
+  fullName: EventBus.DeregisterCallback
+- uid: Global.EventBus.SaveRegisterCallback*
+  commentId: Overload:Global.EventBus.SaveRegisterCallback
+  name: SaveRegisterCallback
+  nameWithType: EventBus.SaveRegisterCallback
+  fullName: EventBus.SaveRegisterCallback
+- uid: Global.EventBus.DeregisterAllCallbacks*
+  commentId: Overload:Global.EventBus.DeregisterAllCallbacks
+  name: DeregisterAllCallbacks
+  nameWithType: EventBus.DeregisterAllCallbacks
+  fullName: EventBus.DeregisterAllCallbacks
+- uid: Global.EventBus.SaveDeregisterCallback*
+  commentId: Overload:Global.EventBus.SaveDeregisterCallback
+  name: SaveDeregisterCallback
+  nameWithType: EventBus.SaveDeregisterCallback
+  fullName: EventBus.SaveDeregisterCallback
+- uid: Global.EventBus.HasCallback*
+  commentId: Overload:Global.EventBus.HasCallback
+  name: HasCallback
+  nameWithType: EventBus.HasCallback
+  fullName: EventBus.HasCallback
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Global.EventBus.RegisterCallbackQueued*
+  commentId: Overload:Global.EventBus.RegisterCallbackQueued
+  name: RegisterCallbackQueued
+  nameWithType: EventBus.RegisterCallbackQueued
+  fullName: EventBus.RegisterCallbackQueued
+- uid: Global.EventBus.DeregisterCallbackQueued*
+  commentId: Overload:Global.EventBus.DeregisterCallbackQueued
+  name: DeregisterCallbackQueued
+  nameWithType: EventBus.DeregisterCallbackQueued
+  fullName: EventBus.DeregisterCallbackQueued
+- uid: Global.EventBus.DeregisterAllCallbacksQueued*
+  commentId: Overload:Global.EventBus.DeregisterAllCallbacksQueued
+  name: DeregisterAllCallbacksQueued
+  nameWithType: EventBus.DeregisterAllCallbacksQueued
+  fullName: EventBus.DeregisterAllCallbacksQueued
+- uid: Global.EventBus.LateUpdate*
+  commentId: Overload:Global.EventBus.LateUpdate
+  name: LateUpdate
+  nameWithType: EventBus.LateUpdate
+  fullName: EventBus.LateUpdate
+- uid: Global.EventBus.ProcessRegistrationQueue*
+  commentId: Overload:Global.EventBus.ProcessRegistrationQueue
+  name: ProcessRegistrationQueue
+  nameWithType: EventBus.ProcessRegistrationQueue
+  fullName: EventBus.ProcessRegistrationQueue
+- uid: Global.EventBus.ProcessDeregistrationQueue*
+  commentId: Overload:Global.EventBus.ProcessDeregistrationQueue
+  name: ProcessDeregistrationQueue
+  nameWithType: EventBus.ProcessDeregistrationQueue
+  fullName: EventBus.ProcessDeregistrationQueue
+- uid: Global.EventBus.Publish*
+  commentId: Overload:Global.EventBus.Publish
+  name: Publish
+  nameWithType: EventBus.Publish
+  fullName: EventBus.Publish
+- uid: System.Object[]
+  isExternal: true
+  name: Object[]
+  nameWithType: Object[]
+  fullName: System.Object[]
+  nameWithType.vb: Object()
+  fullName.vb: System.Object()
+  name.vb: Object()
+  spec.csharp:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Global.EventBus.GetCallbacksOfSubsciber*
+  commentId: Overload:Global.EventBus.GetCallbacksOfSubsciber
+  name: GetCallbacksOfSubsciber
+  nameWithType: EventBus.GetCallbacksOfSubsciber
+  fullName: EventBus.GetCallbacksOfSubsciber
+- uid: Global.List{EventCallback}
+  commentId: '!:Global.List{EventCallback}'
+  definition: Global.List`1
+  name: List<EventCallback>
+  nameWithType: List<EventCallback>
+  fullName: List<EventCallback>
+  nameWithType.vb: List(Of EventCallback)
+  fullName.vb: List(Of EventCallback)
+  name.vb: List(Of EventCallback)
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Global.EventCallback
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: EventCallback
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Global.EventCallback
+    name: EventCallback
+    nameWithType: EventCallback
+    fullName: EventCallback
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.List`1
+  isExternal: true
+  name: List<>
+  nameWithType: List<>
+  fullName: List<>
+  nameWithType.vb: List(Of )
+  fullName.vb: List(Of )
+  name.vb: List(Of )
+  spec.csharp:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Global.List`1
+    name: List
+    nameWithType: List
+    fullName: List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Global.EventBus.GetCallback*
+  commentId: Overload:Global.EventBus.GetCallback
+  name: GetCallback
+  nameWithType: EventBus.GetCallback
+  fullName: EventBus.GetCallback

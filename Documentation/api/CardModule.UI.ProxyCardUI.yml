@@ -1,0 +1,503 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.UI.ProxyCardUI
+  commentId: T:CardModule.UI.ProxyCardUI
+  id: ProxyCardUI
+  parent: CardModule.UI
+  children:
+  - CardModule.UI.ProxyCardUI._isActive
+  - CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+  - CardModule.UI.ProxyCardUI.Awake
+  - CardModule.UI.ProxyCardUI.button
+  - CardModule.UI.ProxyCardUI.cardNumber
+  - CardModule.UI.ProxyCardUI.index
+  - CardModule.UI.ProxyCardUI.isActive
+  - CardModule.UI.ProxyCardUI.LoadFromData
+  - CardModule.UI.ProxyCardUI.OnKlick
+  - CardModule.UI.ProxyCardUI.proxyCardData
+  - CardModule.UI.ProxyCardUI.title
+  - CardModule.UI.ProxyCardUI.toggle
+  langs:
+  - csharp
+  - vb
+  name: ProxyCardUI
+  nameWithType: ProxyCardUI
+  fullName: CardModule.UI.ProxyCardUI
+  type: Class
+  source:
+    id: ProxyCardUI
+    path: ''
+    startLine: 20107
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: 'public abstract class ProxyCardUI : MonoBehaviour'
+    content.vb: >-
+      Public MustInherit Class ProxyCardUI
+          Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+  derivedClasses:
+  - CardModule.UI.ProxyInfoCardUI
+  - CardModule.UI.ProxyQuizCardUI
+  - CardModule.UI.ProxyTaskCardUI
+  modifiers.csharp:
+  - public
+  - abstract
+  - class
+  modifiers.vb:
+  - Public
+  - MustInherit
+  - Class
+- uid: CardModule.UI.ProxyCardUI.button
+  commentId: F:CardModule.UI.ProxyCardUI.button
+  id: button
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: button
+  nameWithType: ProxyCardUI.button
+  fullName: CardModule.UI.ProxyCardUI.button
+  type: Field
+  source:
+    id: button
+    path: ''
+    startLine: 20109
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public Button button
+    return:
+      type: Global.Button
+    content.vb: Public button As Button
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.ProxyCardUI.toggle
+  commentId: F:CardModule.UI.ProxyCardUI.toggle
+  id: toggle
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: toggle
+  nameWithType: ProxyCardUI.toggle
+  fullName: CardModule.UI.ProxyCardUI.toggle
+  type: Field
+  source:
+    id: toggle
+    path: ''
+    startLine: 20110
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public Toggle toggle
+    return:
+      type: Global.Toggle
+    content.vb: Public toggle As Toggle
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.ProxyCardUI.proxyCardData
+  commentId: F:CardModule.UI.ProxyCardUI.proxyCardData
+  id: proxyCardData
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: proxyCardData
+  nameWithType: ProxyCardUI.proxyCardData
+  fullName: CardModule.UI.ProxyCardUI.proxyCardData
+  type: Field
+  source:
+    id: proxyCardData
+    path: ''
+    startLine: 20112
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public ProxyCardData proxyCardData
+    return:
+      type: CardModule.ProxyCardData
+    content.vb: Public proxyCardData As ProxyCardData
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.ProxyCardUI.cardNumber
+  commentId: F:CardModule.UI.ProxyCardUI.cardNumber
+  id: cardNumber
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: cardNumber
+  nameWithType: ProxyCardUI.cardNumber
+  fullName: CardModule.UI.ProxyCardUI.cardNumber
+  type: Field
+  source:
+    id: cardNumber
+    path: ''
+    startLine: 20113
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TMPro.TextMeshProUGUI cardNumber
+    return:
+      type: Global.TMPro.TextMeshProUGUI
+    content.vb: Public cardNumber As TMPro.TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.ProxyCardUI.title
+  commentId: F:CardModule.UI.ProxyCardUI.title
+  id: title
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: title
+  nameWithType: ProxyCardUI.title
+  fullName: CardModule.UI.ProxyCardUI.title
+  type: Field
+  source:
+    id: title
+    path: ''
+    startLine: 20114
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public TMPro.TextMeshProUGUI title
+    return:
+      type: Global.TMPro.TextMeshProUGUI
+    content.vb: Public title As TMPro.TextMeshProUGUI
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.UI.ProxyCardUI.index
+  commentId: P:CardModule.UI.ProxyCardUI.index
+  id: index
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: index
+  nameWithType: ProxyCardUI.index
+  fullName: CardModule.UI.ProxyCardUI.index
+  type: Property
+  source:
+    id: index
+    path: ''
+    startLine: 20116
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public virtual int index { set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Overridable WriteOnly Property index As Integer
+  overload: CardModule.UI.ProxyCardUI.index*
+  modifiers.csharp:
+  - public
+  - virtual
+  - set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - WriteOnly
+- uid: CardModule.UI.ProxyCardUI._isActive
+  commentId: F:CardModule.UI.ProxyCardUI._isActive
+  id: _isActive
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: _isActive
+  nameWithType: ProxyCardUI._isActive
+  fullName: CardModule.UI.ProxyCardUI._isActive
+  type: Field
+  source:
+    id: _isActive
+    path: ''
+    startLine: 20119
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: protected bool _isActive
+    return:
+      type: System.Boolean
+    content.vb: Protected _isActive As Boolean
+  modifiers.csharp:
+  - protected
+  modifiers.vb:
+  - Protected
+- uid: CardModule.UI.ProxyCardUI.isActive
+  commentId: P:CardModule.UI.ProxyCardUI.isActive
+  id: isActive
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: isActive
+  nameWithType: ProxyCardUI.isActive
+  fullName: CardModule.UI.ProxyCardUI.isActive
+  type: Property
+  source:
+    id: isActive
+    path: ''
+    startLine: 20120
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public virtual bool isActive { get; protected set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Overridable Property isActive As Boolean
+  overload: CardModule.UI.ProxyCardUI.isActive*
+  modifiers.csharp:
+  - public
+  - virtual
+  - get
+  - protected set
+  modifiers.vb:
+  - Public
+  - Overridable
+  - Get
+  - Protected Set
+- uid: CardModule.UI.ProxyCardUI.Awake
+  commentId: M:CardModule.UI.ProxyCardUI.Awake
+  id: Awake
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: Awake()
+  nameWithType: ProxyCardUI.Awake()
+  fullName: CardModule.UI.ProxyCardUI.Awake()
+  type: Method
+  source:
+    id: Awake
+    path: ''
+    startLine: 20131
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: protected virtual void Awake()
+    content.vb: Protected Overridable Sub Awake
+  overload: CardModule.UI.ProxyCardUI.Awake*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: CardModule.UI.ProxyCardUI.OnKlick
+  commentId: M:CardModule.UI.ProxyCardUI.OnKlick
+  id: OnKlick
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: OnKlick()
+  nameWithType: ProxyCardUI.OnKlick()
+  fullName: CardModule.UI.ProxyCardUI.OnKlick()
+  type: Method
+  source:
+    id: OnKlick
+    path: ''
+    startLine: 20139
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: protected virtual void OnKlick()
+    content.vb: Protected Overridable Sub OnKlick
+  overload: CardModule.UI.ProxyCardUI.OnKlick*
+  modifiers.csharp:
+  - protected
+  - virtual
+  modifiers.vb:
+  - Protected
+  - Overridable
+- uid: CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+  commentId: M:CardModule.UI.ProxyCardUI.AsSubType``1(``0@)
+  id: AsSubType``1(``0@)
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: AsSubType<T>(out T)
+  nameWithType: ProxyCardUI.AsSubType<T>(out T)
+  fullName: CardModule.UI.ProxyCardUI.AsSubType<T>(out T)
+  type: Method
+  source:
+    id: AsSubType
+    path: ''
+    startLine: 20145
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: >-
+      public bool AsSubType<T>(out T subTypeObject)
+          where T : ProxyCardUI
+    parameters:
+    - id: subTypeObject
+      type: '{T}'
+    typeParameters:
+    - id: T
+    return:
+      type: System.Boolean
+    content.vb: Public Function AsSubType(Of T As ProxyCardUI)(ByRef subTypeObject As T) As Boolean
+  overload: CardModule.UI.ProxyCardUI.AsSubType*
+  nameWithType.vb: ProxyCardUI.AsSubType(Of T)(ByRef T)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: CardModule.UI.ProxyCardUI.AsSubType(Of T)(ByRef T)
+  name.vb: AsSubType(Of T)(ByRef T)
+- uid: CardModule.UI.ProxyCardUI.LoadFromData
+  commentId: M:CardModule.UI.ProxyCardUI.LoadFromData
+  id: LoadFromData
+  parent: CardModule.UI.ProxyCardUI
+  langs:
+  - csharp
+  - vb
+  name: LoadFromData()
+  nameWithType: ProxyCardUI.LoadFromData()
+  fullName: CardModule.UI.ProxyCardUI.LoadFromData()
+  type: Method
+  source:
+    id: LoadFromData
+    path: ''
+    startLine: 20151
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule.UI
+  syntax:
+    content: public abstract void LoadFromData()
+    content.vb: Public MustOverride Sub LoadFromData
+  overload: CardModule.UI.ProxyCardUI.LoadFromData*
+  modifiers.csharp:
+  - public
+  - abstract
+  modifiers.vb:
+  - Public
+  - MustOverride
+references:
+- uid: CardModule.UI
+  commentId: N:CardModule.UI
+  name: CardModule.UI
+  nameWithType: CardModule.UI
+  fullName: CardModule.UI
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.Button
+  isExternal: true
+  name: Button
+  nameWithType: Button
+  fullName: Button
+- uid: Global.Toggle
+  isExternal: true
+  name: Toggle
+  nameWithType: Toggle
+  fullName: Toggle
+- uid: CardModule.ProxyCardData
+  commentId: T:CardModule.ProxyCardData
+  parent: CardModule
+  name: ProxyCardData
+  nameWithType: ProxyCardData
+  fullName: CardModule.ProxyCardData
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: Global.TMPro.TextMeshProUGUI
+  isExternal: true
+  name: TMPro.TextMeshProUGUI
+  nameWithType: TMPro.TextMeshProUGUI
+  fullName: TMPro.TextMeshProUGUI
+- uid: CardModule.UI.ProxyCardUI.index*
+  commentId: Overload:CardModule.UI.ProxyCardUI.index
+  name: index
+  nameWithType: ProxyCardUI.index
+  fullName: CardModule.UI.ProxyCardUI.index
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: CardModule.UI.ProxyCardUI.isActive*
+  commentId: Overload:CardModule.UI.ProxyCardUI.isActive
+  name: isActive
+  nameWithType: ProxyCardUI.isActive
+  fullName: CardModule.UI.ProxyCardUI.isActive
+- uid: CardModule.UI.ProxyCardUI.Awake*
+  commentId: Overload:CardModule.UI.ProxyCardUI.Awake
+  name: Awake
+  nameWithType: ProxyCardUI.Awake
+  fullName: CardModule.UI.ProxyCardUI.Awake
+- uid: CardModule.UI.ProxyCardUI.OnKlick*
+  commentId: Overload:CardModule.UI.ProxyCardUI.OnKlick
+  name: OnKlick
+  nameWithType: ProxyCardUI.OnKlick
+  fullName: CardModule.UI.ProxyCardUI.OnKlick
+- uid: CardModule.UI.ProxyCardUI.AsSubType*
+  commentId: Overload:CardModule.UI.ProxyCardUI.AsSubType
+  name: AsSubType
+  nameWithType: ProxyCardUI.AsSubType
+  fullName: CardModule.UI.ProxyCardUI.AsSubType
+- uid: '{T}'
+  commentId: '!:T'
+  definition: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: T
+  name: T
+  nameWithType: T
+  fullName: T
+- uid: CardModule.UI.ProxyCardUI.LoadFromData*
+  commentId: Overload:CardModule.UI.ProxyCardUI.LoadFromData
+  name: LoadFromData
+  nameWithType: ProxyCardUI.LoadFromData
+  fullName: CardModule.UI.ProxyCardUI.LoadFromData

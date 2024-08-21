@@ -1,0 +1,407 @@
+### YamlMime:ManagedReference
+items:
+- uid: CardModule.MiniGameConfig
+  commentId: T:CardModule.MiniGameConfig
+  id: MiniGameConfig
+  parent: CardModule
+  children:
+  - CardModule.MiniGameConfig.maxScore
+  - CardModule.MiniGameConfig.miniGameAbortText
+  - CardModule.MiniGameConfig.miniGameDescriptionText
+  - CardModule.MiniGameConfig.miniGameInstructionText
+  - CardModule.MiniGameConfig.miniGameScoreText
+  - CardModule.MiniGameConfig.miniGameTitle
+  - CardModule.MiniGameConfig.normalizedScore
+  - CardModule.MiniGameConfig.score
+  - CardModule.MiniGameConfig.success
+  - CardModule.MiniGameConfig.type
+  langs:
+  - csharp
+  - vb
+  name: MiniGameConfig
+  nameWithType: MiniGameConfig
+  fullName: CardModule.MiniGameConfig
+  type: Class
+  source:
+    id: MiniGameConfig
+    path: ''
+    startLine: 19494
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class MiniGameConfig
+    content.vb: >-
+      <Serializable>
+
+      Public Class MiniGameConfig
+  inheritance:
+  - System.Object
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: CardModule.MiniGameConfig.type
+  commentId: F:CardModule.MiniGameConfig.type
+  id: type
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: type
+  nameWithType: MiniGameConfig.type
+  fullName: CardModule.MiniGameConfig.type
+  type: Field
+  source:
+    id: type
+    path: ''
+    startLine: 19497
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public MiniGameType type
+    return:
+      type: Global.MiniGameType
+    content.vb: Public type As MiniGameType
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.MiniGameConfig.score
+  commentId: F:CardModule.MiniGameConfig.score
+  id: score
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: score
+  nameWithType: MiniGameConfig.score
+  fullName: CardModule.MiniGameConfig.score
+  type: Field
+  source:
+    id: score
+    path: ''
+    startLine: 19499
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public int score
+    return:
+      type: System.Int32
+    content.vb: Public score As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.MiniGameConfig.maxScore
+  commentId: F:CardModule.MiniGameConfig.maxScore
+  id: maxScore
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: maxScore
+  nameWithType: MiniGameConfig.maxScore
+  fullName: CardModule.MiniGameConfig.maxScore
+  type: Field
+  source:
+    id: maxScore
+    path: ''
+    startLine: 19500
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public int maxScore
+    return:
+      type: System.Int32
+    content.vb: Public maxScore As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.MiniGameConfig.success
+  commentId: F:CardModule.MiniGameConfig.success
+  id: success
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: success
+  nameWithType: MiniGameConfig.success
+  fullName: CardModule.MiniGameConfig.success
+  type: Field
+  source:
+    id: success
+    path: ''
+    startLine: 19501
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public bool success
+    return:
+      type: System.Boolean
+    content.vb: Public success As Boolean
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.MiniGameConfig.miniGameTitle
+  commentId: F:CardModule.MiniGameConfig.miniGameTitle
+  id: miniGameTitle
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: miniGameTitle
+  nameWithType: MiniGameConfig.miniGameTitle
+  fullName: CardModule.MiniGameConfig.miniGameTitle
+  type: Field
+  source:
+    id: miniGameTitle
+    path: ''
+    startLine: 19502
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string miniGameTitle
+    return:
+      type: System.String
+    content.vb: Public miniGameTitle As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.MiniGameConfig.miniGameAbortText
+  commentId: F:CardModule.MiniGameConfig.miniGameAbortText
+  id: miniGameAbortText
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: miniGameAbortText
+  nameWithType: MiniGameConfig.miniGameAbortText
+  fullName: CardModule.MiniGameConfig.miniGameAbortText
+  type: Field
+  source:
+    id: miniGameAbortText
+    path: ''
+    startLine: 19505
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public const string miniGameAbortText = "abort text placeholder"
+    return:
+      type: System.String
+    content.vb: >-
+      <NonSerialized>
+
+      Public Const miniGameAbortText As String = "abort text placeholder"
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.MiniGameConfig.miniGameScoreText
+  commentId: F:CardModule.MiniGameConfig.miniGameScoreText
+  id: miniGameScoreText
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: miniGameScoreText
+  nameWithType: MiniGameConfig.miniGameScoreText
+  fullName: CardModule.MiniGameConfig.miniGameScoreText
+  type: Field
+  source:
+    id: miniGameScoreText
+    path: ''
+    startLine: 19507
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: >-
+      [NonSerialized]
+
+      public const string miniGameScoreText = "score text placeholder"
+    return:
+      type: System.String
+    content.vb: >-
+      <NonSerialized>
+
+      Public Const miniGameScoreText As String = "score text placeholder"
+  attributes:
+  - type: System.NonSerializedAttribute
+    ctor: System.NonSerializedAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: CardModule.MiniGameConfig.miniGameDescriptionText
+  commentId: F:CardModule.MiniGameConfig.miniGameDescriptionText
+  id: miniGameDescriptionText
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: miniGameDescriptionText
+  nameWithType: MiniGameConfig.miniGameDescriptionText
+  fullName: CardModule.MiniGameConfig.miniGameDescriptionText
+  type: Field
+  source:
+    id: miniGameDescriptionText
+    path: ''
+    startLine: 19509
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string miniGameDescriptionText
+    return:
+      type: System.String
+    content.vb: Public miniGameDescriptionText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.MiniGameConfig.miniGameInstructionText
+  commentId: F:CardModule.MiniGameConfig.miniGameInstructionText
+  id: miniGameInstructionText
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: miniGameInstructionText
+  nameWithType: MiniGameConfig.miniGameInstructionText
+  fullName: CardModule.MiniGameConfig.miniGameInstructionText
+  type: Field
+  source:
+    id: miniGameInstructionText
+    path: ''
+    startLine: 19511
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public string miniGameInstructionText
+    return:
+      type: System.String
+    content.vb: Public miniGameInstructionText As String
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: CardModule.MiniGameConfig.normalizedScore
+  commentId: P:CardModule.MiniGameConfig.normalizedScore
+  id: normalizedScore
+  parent: CardModule.MiniGameConfig
+  langs:
+  - csharp
+  - vb
+  name: normalizedScore
+  nameWithType: MiniGameConfig.normalizedScore
+  fullName: CardModule.MiniGameConfig.normalizedScore
+  type: Property
+  source:
+    id: normalizedScore
+    path: ''
+    startLine: 19513
+  assemblies:
+  - cs.temp.dll
+  namespace: CardModule
+  syntax:
+    content: public float normalizedScore { get; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public ReadOnly Property normalizedScore As Single
+  overload: CardModule.MiniGameConfig.normalizedScore*
+  modifiers.csharp:
+  - public
+  - get
+  modifiers.vb:
+  - Public
+  - ReadOnly
+references:
+- uid: CardModule
+  commentId: N:CardModule
+  name: CardModule
+  nameWithType: CardModule
+  fullName: CardModule
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Global.MiniGameType
+  commentId: T:Global.MiniGameType
+  name: MiniGameType
+  nameWithType: MiniGameType
+  fullName: MiniGameType
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: CardModule.MiniGameConfig.normalizedScore*
+  commentId: Overload:CardModule.MiniGameConfig.normalizedScore
+  name: normalizedScore
+  nameWithType: MiniGameConfig.normalizedScore
+  fullName: CardModule.MiniGameConfig.normalizedScore
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
